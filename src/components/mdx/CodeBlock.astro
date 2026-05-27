@@ -1,12 +1,10 @@
 ---
 /**
- * 代码块折叠包裹。注册到 [chapter].astro 的 components 表里替换 MDX 的
- * 默认 pre 渲染，让所有围栏代码块自动变成可折叠面板。
+ * 代码块折叠包裹。
  *
- * 视觉：参考 src/components/mdx/Accordion.astro 的浅海蓝色系
- *   - 折叠态：浅海蓝底 + 左 6px 实线 accent
- *   - 展开态：白底 + 浅海蓝边框
- *   - 配合 astro.config Shiki vitesse-light 主题，代码本身浅色
+ * 视觉哲学："学术论文 listing"而非"UI 控件"——
+ * 语言注用 italic Times serif 像脚注；折叠头部最低视觉重量；
+ * 配合 vitesse-light Shiki 主题 + Times 系字体栈的代码本身。
  */
 import { Icon } from "astro-icon/components";
 
@@ -37,30 +35,19 @@ const LANG_LABEL: Record<string, string> = {
   mdx: "MDX",
   tex: "LaTeX",
   latex: "LaTeX",
+  mermaid: "Mermaid",
 };
 const label = LANG_LABEL[lang] ?? (lang ? lang.toUpperCase() : "Code");
 ---
 
 <details class="codeblock">
   <summary class="codeblock-summary">
-    <div class="codeblock-summary-left">
-      <Icon
-        name="heroicons:code-bracket"
-        size={18}
-        class="codeblock-icon"
-      />
-      <span class="codeblock-lang">{label}</span>
-      <span class="codeblock-hint">代码片段</span>
-    </div>
-    <div class="codeblock-summary-right">
-      <span class="codeblock-action codeblock-action-collapsed">展开</span>
-      <span class="codeblock-action codeblock-action-expanded">收起</span>
-      <Icon
-        name="heroicons:chevron-down"
-        size={18}
-        class="codeblock-chevron"
-      />
-    </div>
+    <span class="codeblock-lang">{label}</span>
+    <span class="codeblock-divider"></span>
+    <span class="codeblock-action">
+      <span class="codeblock-action-collapsed">展开 ↓</span>
+      <span class="codeblock-action-expanded">收起 ↑</span>
+    </span>
   </summary>
   <div class="codeblock-body">
     <pre class={className} style={style}><slot /></pre>
@@ -69,28 +56,21 @@ const label = LANG_LABEL[lang] ?? (lang ? lang.toUpperCase() : "Code");
 
 <style>
   .codeblock {
-    /* 顶部 margin 收紧（之前 var(--space-m) ≈ 30px 太空），跟上方
-       正文段落的下 margin 叠加后不再过宽 */
     margin: var(--space-2xs) 0 var(--space-s);
-    border-radius: 6px;
-    box-shadow: var(--box-shadow-sm);
+    border-top: 1px solid var(--color-tinted-cream);
+    border-bottom: 1px solid var(--color-tinted-cream);
+    background: transparent;
   }
 
   .codeblock-summary {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     gap: var(--space-2xs);
-    padding: var(--space-xs) var(--space-s);
-    background: #f0f9f8; /* Maggie Accordion 同款浅海蓝底 */
-    border: 1px solid #ade3e3;
-    border-left: 6px solid var(--color-sea-blue);
-    border-radius: 6px;
-    color: var(--color-dark-sea-blue);
+    padding: var(--space-3xs) 0;
     cursor: pointer;
     list-style: none;
-    transition: all 0.3s ease;
+    transition: color 0.2s ease;
+    color: var(--color-gray-600);
   }
 
   .codeblock-summary::-webkit-details-marker {
@@ -98,58 +78,38 @@ const label = LANG_LABEL[lang] ?? (lang ? lang.toUpperCase() : "Code");
   }
 
   .codeblock-summary:hover {
-    background: #dbf3f3;
-  }
-
-  .codeblock[open] > .codeblock-summary {
-    border-radius: 6px 6px 0 0;
-    border-left: 6px solid #ade3e3;
-  }
-
-  .codeblock-summary-left {
-    display: flex;
-    align-items: center;
-    gap: var(--space-2xs);
-    min-width: 0;
-  }
-
-  .codeblock-icon {
-    flex-shrink: 0;
     color: var(--color-sea-blue);
   }
 
+  /* 语言标签——italic Times，像学术脚注。不是 badge，是 typography 锚 */
   .codeblock-lang {
-    font-family: var(--font-sans);
+    font-family: "TNR Numerals", "Times New Roman", serif;
+    font-style: italic;
     font-size: var(--font-size-sm);
-    font-weight: 600;
     color: var(--color-dark-sea-blue);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.01em;
+    line-height: 1.4;
   }
 
-  .codeblock-hint {
-    font-family: var(--font-sans);
-    font-size: var(--font-size-xs);
-    color: var(--color-medium-sea-blue);
-    font-weight: 300;
-  }
-
-  .codeblock-summary-right {
-    display: flex;
-    align-items: center;
-    gap: var(--space-3xs);
-    transition: all 0.3s ease;
+  .codeblock-divider {
+    flex: 1;
+    height: 1px;
+    background: var(--color-tinted-cream);
+    margin: 0 var(--space-2xs);
+    position: relative;
+    top: -0.4em;
   }
 
   .codeblock-action {
     font-family: var(--font-sans);
-    font-size: var(--font-size-xs);
+    font-size: calc(var(--font-size-xs) * 0.95);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-medium-sea-blue);
+    letter-spacing: 0.06em;
+    color: var(--color-gray-500);
+    line-height: 1.4;
+    flex-shrink: 0;
   }
 
-  /* 折叠时显示"展开"，展开时显示"收起" */
   .codeblock-action-expanded {
     display: none;
   }
@@ -160,46 +120,25 @@ const label = LANG_LABEL[lang] ?? (lang ? lang.toUpperCase() : "Code");
     display: inline;
   }
 
-  .codeblock-chevron {
-    color: var(--color-medium-sea-blue);
-    transition: transform 0.3s ease;
-  }
-
-  .codeblock[open] .codeblock-chevron {
-    transform: rotate(180deg);
+  .codeblock[open] {
+    border-bottom-color: var(--color-sea-blue);
   }
 
   .codeblock-body {
-    padding: var(--space-s) var(--space-m);
-    background: var(--color-white);
-    border: 1px solid #b8e5e8;
-    border-top: none;
-    border-radius: 0 0 6px 6px;
-    box-shadow: var(--box-shadow-md);
+    padding: var(--space-2xs) 0 var(--space-xs);
   }
 
   .codeblock-body :global(pre) {
     margin: 0;
     border: none;
-    padding: 0;
+    padding: var(--space-s) var(--space-m);
     box-shadow: none;
-    background: transparent !important;
-    /* 让 Shiki 的 vitesse-light 内联 bg 不抢镜，body 提供统一 cream-tinted 容器 */
-  }
-
-  @media (max-width: 768px) {
-    .codeblock-hint {
-      display: none;
-    }
-    .codeblock-action {
-      display: none !important;
-    }
+    background: var(--color-light-cream) !important;
+    border-radius: 4px;
   }
 </style>
 
 <script>
-  // 平滑展开 / 收起动画。原生 <details> 切换是瞬时的，加 motion
-  // 让它和 Maggie Accordion 同款手感。
   import { animate } from "motion";
   import { onPageLifecycle } from "../../utils/viewTransitionLifecycle";
 

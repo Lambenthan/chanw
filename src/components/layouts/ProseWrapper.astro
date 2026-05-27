@@ -120,27 +120,27 @@
 		width: 20%;
 	}
 
+	/* Blockquote ── 用作"轻引用、定义、内嵌说明"，跟正文同字号同
+	   颜色，仅靠左侧细 sea-blue 线条 + 1em 缩进做视觉区分。
+	   Maggie 原版的居中大字 + 上下装饰短线（pull quote）拉风格调
+	   不适合学术正文里嵌的 inline 说明，去掉。
+	   王阳明 / 苏轼 / 顾炎武等"原文摘录"用 <BlockquoteCitation>
+	   单独组件，不走这条 CSS。 */
 	.prose-wrapper :global(blockquote) {
-		text-align: center;
-		padding: var(--space-m) 0 var(--space-xl);
+		margin: var(--space-s) 0;
+		padding: 0 0 0 var(--space-s);
+		border-left: 2px solid var(--color-tinted-cream);
+		color: var(--color-gray-700);
 	}
 
 	.prose-wrapper :global(blockquote > p) {
-		text-align: center;
-		max-width: 30ch;
-		margin: var(--space-m) auto;
-		font-size: var(--font-size-lg);
-		line-height: var(--leading-base);
-		display: inline-block;
+		margin: 0;
+		font-size: inherit;
+		line-height: inherit;
 	}
 
-	.prose-wrapper :global(blockquote::before),
-	.prose-wrapper :global(blockquote::after) {
-		content: "";
-		display: block;
-		margin: 0 auto;
-		width: 3rem;
-		border-top: 2px solid rgba(0, 0, 0, 0.1);
+	.prose-wrapper :global(blockquote > p + p) {
+		margin-top: var(--space-2xs);
 	}
 
 	@media screen and (max-width: 767px) {
