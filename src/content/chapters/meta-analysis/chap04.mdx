@@ -1,0 +1,211 @@
+---
+title: "固定效应模型与逆方差加权"
+description: "用 rma() 与 rma.mh() 把 13 项 BCG 试验按精度合并，得到 RR=0.65；但 I²=92% 直接证伪 FE 假设，结论仍被前 4 项研究的 86% 权重主导。"
+book: "meta-analysis"
+chapterNumber: 4
+chapterLabel: "第 4 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["Meta 分析", "固定效应", "逆方差加权"]
+---
+
+<ChapterAudience>
+
+理解固定效应模型的核心假设：所有研究估同一个真实效应；看清逆方差加权的设计动机；学会用 `rma()` 与 `rma.mh()` 拟合两种固定效应估计；在 `dat.bcg` 上读懂 forest plot 与异质性 $I^2 = 92\%$ 的红灯信号。
+
+</ChapterAudience>
+
+<IntroParagraph>第 1 章朴素合并把 13 张 2x2 表叠加得到 $\mathrm{RR} = 0.61$，但被一项 17.6 万人的 TPT Madras 单独主导，结论被它拉向接近无效的方向。本章引入 meta 分析的第一种正式合并方法 —— **固定效应模型**（fixed-effects 或 equal-effects），让每项研究"按精度发言"而不是"按样本量发言"。</IntroParagraph>
+
+## 4.1 为什么不能按样本量加权
+
+回顾朴素合并失败的原因：把 2x2 表对应格子相加，相当于把每项研究按"样本量"加权。TPT Madras 一项 17.6 万人，权重接近一半，直接把合并结果决定了。
+
+最自然的修补思路是：**别按样本量加权，按精度加权**。精度高的研究权重大，精度低的研究权重小。第 3 章已经讲过，每项研究的 $\mathrm{log\ RR}$ 估计有方差 $v_i$，方差越小代表估计越精确。所以"按精度发言"在数学上就是**权重 $= 1 / v_i$**，叫做逆方差权重。
+
+用一个完全不需要医学背景的例子建立直觉。班里讨论"今天食堂的菜咸不咸"，吃了三大碗的同学（精度高、方差小）说话有分量，只闻了一下饭味的同学（精度低、方差大）声音被淡化。逆方差权重做的就是这件事：让样本量大、事件多的研究主导合并结果，但对真正"精度差"的研究压低声音，不像朴素合并那样让单一巨研究决定一切。
+
+对照一下 BCG 数据。TPT Madras 的方差 $v_8 = 0.0040$，权重 $1/0.0040 = 250$；Aronson 1948 的方差 $v_1 = 0.3256$，权重 $1/0.3256 = 3.07$。两项研究权重比 81:1。Hart & Sutherland 1977 的 $v_4 = 0.0200$，权重 $50$。三项的相对发言权 250 : 50 : 3.07，比"按总样本量发言" 176 : 26.5 : 0.262 的 670:1 比例温和不少。
+
+---
+
+## 4.2 固定效应模型的假设
+
+逆方差加权法的合理性建立在一条统计假设上：13 项 BCG 试验估的是**同一个真实效应**，研究之间的差异完全来自抽样波动。
+
+<Definition number="4.1" title="固定效应假设">
+
+设 $k$ 项研究各自给出对真实效应 $\theta$ 的估计 $\hat{y}_i$，方差 $v_i$。固定效应模型假设
+
+$$
+\hat{y}_i = \theta + \varepsilon_i, \qquad \varepsilon_i \sim N(0, v_i).
+$$
+
+其中 $\hat{y}_i$ 是第 $i$ 项研究的对数风险比估计，$\theta$ 是**全部研究共享的真实效应**（所有 $\theta_i$ 都等于这个 $\theta$），$\varepsilon_i$ 是抽样误差，服从均值零、方差 $v_i$ 的正态分布。$v_i$ 是第 $i$ 项研究的方差（第 3 章给出过算法）。
+
+</Definition>
+
+这条假设在临床流行病学里很少真正成立。Hart & Sutherland 1977 的英国受试者和 TPT Madras 1980 的印度南部受试者，年龄构成、营养状况、当地结核流行株系、环境暴露都可能不同，BCG 在两群人身上的"真实效应"很难被论证为完全相同。作为统计基线，FE 模型在它的假设下有解析最优解（最小方差线性无偏估计），是理解后续随机效应模型的起点。
+
+---
+
+## 4.3 逆方差加权法
+
+<Definition number="4.2" title="逆方差权重与合并估计">
+
+在 FE 假设下，加权平均
+
+$$
+\hat{\theta} = \frac{\sum_i w_i \hat{y}_i}{\sum_i w_i}
+$$
+
+对真实效应 $\theta$ 是无偏估计（任意正权重 $w_i$ 都能使均值无偏）。要在无偏估计中达到方差最小，权重必须取
+
+$$
+w_i = \frac{1}{v_i}.
+$$
+
+其中 $\hat{y}_i$ 是第 $i$ 项研究的 $\mathrm{log\ RR}$ 估计，$v_i$ 是其方差，$w_i$ 是该研究在合并里的权重。合并估计的方差为 $\mathrm{Var}(\hat{\theta}) = 1 / \sum_i w_i$，对应 95% 置信区间为 $\hat{\theta} \pm 1.96 \sqrt{1 / \sum_i w_i}$。
+
+</Definition>
+
+为什么是逆方差而不是别的权重形式？方差小的研究噪音少，把它的估计"压低声音"等于浪费信息；方差大的研究噪音多，把它的估计"放大声音"等于让噪音主导。两项研究 $v = 0.04$ 与 $v = 0.16$，逆方差权重 $1/v$ 给出 25 与 6.25，方差差 4 倍权重就差 4 倍。这种"按精度的反比"分配恰好让总方差最小。
+
+下面用 metafor 的 `rma()` 函数在 BCG 数据上拟合固定效应模型。`rma()` 是 metafor 的核心函数，参数 `method = "EE"` 表示 equal-effects（与传统的 fixed-effects 同义）。
+
+```r
+library(metafor)
+d  <- read.csv("data/bcg.csv")
+es <- escalc(measure = "RR",
+             ai = tpos, bi = tneg, ci = cpos, di = cneg,
+             data = d)
+
+fe_iv <- rma(yi, vi, data = es, method = "EE")
+print(fe_iv)
+```
+
+IV 加权固定效应模型给出合并 $\widehat{\mathrm{logRR}} = -0.4303$，标准误 0.0405，95% CI $[-0.5097,\ -0.3509]$。换算到 RR 尺度，合并 $\mathrm{RR} = 0.65$，95% CI $[0.60,\ 0.70]$。从这个数字看，BCG 整体把结核风险降低了约 35%。
+
+异质性检验给出 $Q = 152.23$，自由度 $k - 1 = 12$，$p < 0.0001$，$I^2 = 92.13\%$。$I^2$ 把研究间观察变异的超过九成归因于真实的效应异质性，只有不到一成可以用抽样波动解释。这个结果与 FE 模型的核心假设直接冲突：13 项研究几乎可以肯定不是在估同一个真实效应。$I^2$ 与 $\tau^2$ 的正式定义在第 6 章展开。这里先记住一个红灯信号：$I^2$ 超过 50%，FE 模型给出的 CI 几乎一定过窄，结论应当保留质疑。
+
+### 4.3.1 每项研究的权重分布
+
+逆方差权重让方差小的研究主导结果。下表列出 `dat.bcg` 13 项研究在 IV 模型下的权重，按权重从大到小排序。
+
+| 编号 | 作者                  | 年份 | 方差 $v_i$ | 权重 (%)  | 累计 (%) |
+|:----:|:----------------------|:----:|-----------:|----------:|---------:|
+| 8    | TPT Madras            | 1980 | 0.0040     |    41.40  |   41.40  |
+| 6    | Stein & Aronson       | 1953 | 0.0069     |    23.75  |   65.15  |
+| 11   | Comstock et al        | 1974 | 0.0124     |    13.21  |   78.36  |
+| 4    | Hart & Sutherland     | 1977 | 0.0200     |     8.20  |   86.56  |
+| 5    | Frimodt-Moller et al  | 1973 | 0.0512     |     3.20  |   89.76  |
+| 9    | Coetzee & Berjak      | 1968 | 0.0564     |     2.91  |   92.67  |
+| 13   | Comstock et al        | 1976 | 0.0714     |     2.30  |   94.97  |
+| 10   | Rosenthal et al       | 1961 | 0.0730     |     2.25  |   97.22  |
+| 2    | Ferguson & Simes      | 1949 | 0.1946     |     0.84  |   98.06  |
+| 7    | Vandiviere et al      | 1973 | 0.2230     |     0.74  |   98.80  |
+| 1    | Aronson               | 1948 | 0.3256     |     0.50  |   99.30  |
+| 3    | Rosenthal et al       | 1960 | 0.4154     |     0.39  |   99.69  |
+| 12   | Comstock & Webster    | 1969 | 0.5325     |     0.31  |  100.00  |
+
+<Subtext>表 4.1 · 13 项研究在固定效应（IV）模型下的权重。</Subtext>
+
+前 4 项研究合计权重 86.56%，剩余 9 项研究合计权重 13.44%。FE 合并结果几乎是这四项研究的加权平均。回想第 1 章每项研究的 $\mathrm{log\ RR}$：TPT Madras 是 $0.012$（几乎无效），Stein & Aronson 是 $-0.786$，Comstock 1974 是 $-0.339$，Hart & Sutherland 是 $-1.442$。最大权重的 TPT Madras 把合并拉回到接近零，最强保护的 Hart & Sutherland 因为权重小（8.2%）影响有限。这就是为什么 FE 合并 $\mathrm{RR} = 0.65$，看起来比"按试验平均"温和很多。
+
+朴素合并把 TPT Madras 的"无效信号"放到接近 50% 的样本量份额；FE-IV 把它压到 41% 的精度份额。情形改善但仍不理想 —— 实质问题在 $I^2 = 92\%$ 表明的"研究本来就不一样"，第 5 章随机效应模型才能正面解决。
+
+---
+
+## 4.4 Mantel-Haenszel 加权
+
+逆方差加权在事件数充足时表现良好，但当某些研究的事件数很少（比如对照组只发生 3 例事件），$1/v_i$ 会因为方差爆炸而权重过小，甚至 $v_i$ 因为零格而无法计算。Mantel & Haenszel 1959 提出了一种不同思路的加权方案，直接基于 2x2 表的格子计数构造合并估计，避开了 $1/v_i$ 的不稳定性。
+
+<Definition number="4.3" title="Mantel-Haenszel 合并 RR">
+
+MH 合并 RR 不写成 $\sum w_i \hat{y}_i / \sum w_i$ 的标准形式，而是直接在 2x2 计数上构造比值：
+
+$$
+\widehat{\mathrm{RR}}_{\mathrm{MH}} = \frac{\sum_i a_i (c_i + d_i) / n_i}{\sum_i c_i (a_i + b_i) / n_i}.
+$$
+
+其中 $a_i, b_i, c_i, d_i$ 是第 $i$ 项研究 2x2 表的四个格子，$n_i = a_i + b_i + c_i + d_i$ 是该项研究的总样本量。分子可以读成"在 $\mathrm{RR} = 1$ 的零假设下处理组应该看到的事件数"按各研究累加，分母是对照组应该看到的事件数累加；二者的比值度量了实际观测相对于零假设的偏离。
+
+</Definition>
+
+MH 估计量在稀疏事件下偏倚比 IV 小，是 Cochrane Collaboration 推荐的二分类 meta 分析默认方法。在 BCG 数据上跑 MH 加权：
+
+```r
+fe_mh <- rma.mh(measure = "RR",
+                ai = tpos, bi = tneg, ci = cpos, di = cneg,
+                data = d)
+print(fe_mh)
+```
+
+MH 合并给出 $\widehat{\mathrm{logRR}}_{\mathrm{MH}} = -0.4537$，$\mathrm{RR}_{\mathrm{MH}} = 0.635$，95% CI $[0.588,\ 0.686]$。与 IV 模型的 $\mathrm{RR}_{\mathrm{IV}} = 0.65$ 相比，MH 估计稍稍偏低（保护效应略大），CI 几乎重合。两种方法在 BCG 数据上结论高度一致，原因是 BCG 的事件数普遍充足（最少的 Comstock & Webster 1969 也有 8 例事件），没有触发 IV 加权的稳定性问题。MH 估计的 $I^2 \approx 92\%$，与 IV 几乎一致。
+
+<Pitfall title="异质性显著时仍坚持用 FE 报告主结果">
+
+IV 加权对方差最小的研究给出超大权重，FE 假设又强行假设所有研究估同一个数。当 $I^2 > 50\%$、$Q$ 检验 $p < 0.05$ 时，研究之间存在真实效应异质性，FE 合并的 CI 会显著偏窄，结论看起来比真实证据更确定。
+
+**诊断方法**：报 FE 之前先看 $I^2$ 与 $Q$，$I^2 > 50\%$ 或 $Q$ 检验 $p < 0.05$ 就改报随机效应。
+
+**稳健做法**：在 `dat.bcg` 上 $I^2 = 92\%$，FE 模型只能作为对比基线，主结果应当用第 5 章的随机效应模型给出。
+
+</Pitfall>
+
+---
+
+## 4.5 Forest plot
+
+Forest plot 是 meta 分析最重要的可视化工具，把每项研究的效应估计与合并结果画在同一张图上。读这张图能直接看到三件事：每项研究的效应方向与精度（横线长短）、最大权重的研究是哪几项（方块大小）、研究间散布是否远超单条横线（异质性的视觉证据）。
+
+<FullWidthSection>
+
+![13 项 BCG 试验固定效应（IV）模型 forest plot。每项研究方块大小与权重成正比，横线为 95% CI；底部菱形为合并 RR 估计 0.65（95% CI 0.60–0.70）。最大方块的 TPT Madras 1980 落在零线右侧（RR ≈ 1），最强保护的 Hart & Sutherland 1977 方块小、影响有限。13 项研究的横线散布范围远超过任何单条横线的宽度，是异质性显著的视觉证据。](/books/meta-analysis/figure/chap04_forest_fe.png)
+
+<Subtext>图 4.1 · 固定效应（IV）模型 forest plot。</Subtext>
+
+</FullWidthSection>
+
+---
+
+## 4.6 累积对比表（首次出现）
+
+从本章起每章在对比表里加一行，到第 10 章合并为终极版。表的设计是把每种方法的合并估计放在同一份模板里，便于横向比较。
+
+| 方法      | 合并 logRR | 合并 RR (95% CI)   | 核心假设                        | 局限                                |
+|:----------|-----------:|:-------------------|:--------------------------------|:------------------------------------|
+| 朴素合并  | $-0.488$   | 0.61 (—)           | 13 个 2x2 表可直接相加          | 被大样本研究主导，洗掉异质性        |
+| FE-IV     | $-0.430$   | 0.65 (0.60, 0.70)  | 13 项研究估同一个真实效应       | $I^2 = 92\%$，假设明显违反          |
+| FE-MH     | $-0.454$   | 0.64 (0.59, 0.69)  | 同 FE-IV，对稀疏事件更稳健      | 异质性显著时 CI 仍偏窄              |
+
+<Subtext>表 4.2 · 方法对比表（截至第 4 章）。</Subtext>
+
+---
+
+## 4.7 本章小结
+
+两种 FE 估计相互验证，但 $I^2 = 92\%$ 表明 FE 假设在这份数据上不成立。第 5 章随机效应模型会松开"同一个真实效应"这条假设，给出一个更合理的合并估计。
+
+完整运行版本见 [code/chap04.R](/books/meta-analysis/code/chap04.R)。
+
+---
+
+<References>
+	<ReferencesLink
+		title="Statistical aspects of the analysis of data from retrospective studies of disease"
+		author="Mantel, N. & Haenszel, W. (1959), JNCI, 22:719–748"
+		href="https://academic.oup.com/jnci/article-abstract/22/4/719/912677"
+	/>
+	<ReferencesLink
+		title="Conducting Meta-Analyses in R with the metafor Package"
+		author="Viechtbauer, W. (2010), Journal of Statistical Software, 36(3):1–48"
+		href="https://www.jstatsoft.org/article/view/v036i03"
+	/>
+	<ReferencesLink
+		title="Cochrane Handbook for Systematic Reviews of Interventions, Chapter 10"
+		author="Higgins, J. P. T. et al. (eds.)"
+		href="https://training.cochrane.org/handbook/current/chapter-10"
+	/>
+</References>

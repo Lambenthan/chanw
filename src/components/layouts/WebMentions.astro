@@ -15,7 +15,7 @@ const webmentions = mentions as WebMentionCache;
 // get all mentions where wm-target is the current post
 const postMentions = webmentions.children.filter((mention: WebMention) => {
 	const target = mention["wm-target"];
-	const baseUrl = `https://example.com/${postSlug}`;
+	const baseUrl = `https://chanw.org/${postSlug}`;
 	// Match different variations of the URL
 	return (
 		target === baseUrl ||

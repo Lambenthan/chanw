@@ -1,0 +1,239 @@
+---
+title: "效应量及其方差的计算"
+description: "把 RR 取对数变成 log RR；掌握 log RR 的方差公式与事件数主导方差的事实；理解 OR、RD 各自适合什么场景；用 escalc 一站式算出每项研究的效应量与方差。"
+book: "meta-analysis"
+chapterNumber: 3
+chapterLabel: "第 3 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["Meta 分析", "效应量", "log RR"]
+---
+
+<ChapterAudience>
+
+学会把 RR 取对数变成 log RR，看清"对称合并"的需要；掌握 log RR 的方差公式与"事件数决定方差"的事实；理解比值比 OR 与风险差 RD 各自适合什么场景；学会用 `escalc()` 一站式算出每项研究的效应量与方差。
+
+</ChapterAudience>
+
+<IntroParagraph>第 1 章给每项研究算了一个 RR，把 13 项的结果摆在桌面上。第 2 章讲了 13 项试验是怎么被筛进 meta 分析的。从本章起进入"动手合并"前的最后准备：每项研究不仅要有一个效应量数字，还要带上一个不确定性数字（方差）。第 4 章固定效应模型按方差倒数加权时，需要的就是这两件东西。</IntroParagraph>
+
+本章把"动手合并"前需要的术语补齐：log RR 与方差（第 4 章会直接用），OR 与 RD 作为 RR 的两个亲戚（不同研究有时报告不同效应量）。
+
+## 3.1 对数风险比 log RR
+
+第 1 章的 RR 用起来很顺，但有一个数学上的别扭。"风险降一半"对应 RR $= 0.5$，"风险翻倍"对应 RR $= 2$。直觉上这两个效应"大小相等、方向相反"，可在原始数轴上 0.5 离 1 有 0.5 的距离，2 离 1 有 1 的距离，远远不对称。如果你把若干研究的 RR 排在数轴上，"保护"和"有害"两边的视觉重量是不一样的。
+
+解决办法是给 RR 取自然对数。原数轴上 0.5 和 2 不对称，取对数后变成 $\ln(0.5) = -0.69$ 和 $\ln(2) = +0.69$，正负完全对称。原数轴上 0.25 和 4 不对称，取对数后变成 $-1.39$ 和 $+1.39$，也对称起来。"保护一半"和"风险翻倍"在数轴上就是镜像。
+
+对数尺度还有第二个好处。统计学里有一条经验：一个量是若干小因素相乘得到的（如风险比是事件率的比值），它在原始尺度上分布偏斜，取对数之后近似对称、近似正态。后续合并、计算置信区间都依赖正态近似，必须在对数尺度上做才合法。
+
+<Definition number="3.1" title="对数风险比 log RR">
+
+对风险比取自然对数：
+
+$$
+\mathrm{log\ RR} = \ln(\mathrm{RR}).
+$$
+
+其中 $\mathrm{RR}$ 是处理组发病率与对照组发病率之比（见第 1 章定义）。$\mathrm{log\ RR} = 0$ 对应 $\mathrm{RR} = 1$（无效），$< 0$ 对应保护作用，$> 0$ 对应风险增加。Meta 分析在 $\mathrm{log\ RR}$ 这个尺度上做合并，最后再把结果取指数变回 RR 报告。
+
+</Definition>
+
+回到 Aronson 1948。第 1 章算出 $\mathrm{RR} = 0.41$，取对数得到 $\mathrm{log\ RR} = \ln(0.41) = -0.89$。第 4 章要合并 13 项 $\mathrm{log\ RR}$ 而不是 13 项 $\mathrm{RR}$。
+
+---
+
+## 3.2 log RR 的方差
+
+每项研究给出的 $\mathrm{log\ RR}$ 都是一个估计，估计就有不确定性。这种不确定性怎么衡量？
+
+用一个完全不需要医学背景的例子建立直觉：抛一枚均匀硬币，正面概率是 0.5。抛 10 次，你看到 6 次正面（比例 0.6）不算意外；甚至看到 4 次或 7 次都很常见。再抛 1000 次，正面比例几乎一定在 0.48 到 0.52 之间，你看到 0.6 就会怀疑硬币不均匀。同样是估计"正面概率 $= 0.5$"这个事实，10 次的估计"晃"得很厉害，1000 次的估计稳得多。
+
+**方差**是这种"晃动幅度"的数学度量。方差越小说明估计越稳，方差越大说明估计越晃。对一个估计的 $\mathrm{log\ RR}$ 来说，统计推导给出的方差近似公式是 2x2 表四个格子的部分倒数和。
+
+<Definition number="3.2" title="log RR 的方差近似">
+
+对每项研究的 $\mathrm{log\ RR}$ 估计 $\hat{y}_i$，方差近似为
+
+$$
+v_i^{\mathrm{RR}} = \frac{1}{a_i} - \frac{1}{a_i + b_i} + \frac{1}{c_i} - \frac{1}{c_i + d_i}.
+$$
+
+其中 $a_i, b_i, c_i, d_i$ 是第 $i$ 项研究 2x2 表的四个格子（见第 1 章表 1.1）。事件数 $a_i$ 或 $c_i$ 接近零时方差会被放大，这是稀疏事件下 RR meta 分析的主要限制。
+
+</Definition>
+
+把 Aronson 1948 代入：$a = 4, b = 119, c = 11, d = 128$，
+
+$$
+v = \frac{1}{4} - \frac{1}{123} + \frac{1}{11} - \frac{1}{139} = 0.250 - 0.008 + 0.091 - 0.007 = 0.326.
+$$
+
+四个分项保留三位小数累加得 0.326，与 metafor 用 `escalc()` 跑出的高精度结果 0.3256 一致。
+
+> *决定方差大小的不是总样本量，是事件数。*
+
+一项研究招了 10 万人但 BCG 组只发生 1 例结核、对照组也只 2 例，方差仍然很大，因为四个分项里有两个分母极小。这是临床流行病学常踩的坑：动辄几十万人的大样本研究在罕见结局上仍可能统计精度很差。
+
+---
+
+## 3.3 比值比 OR 与对数比值比
+
+二分类结局除了 RR，还有一种常用效应量叫**比值比**（odds ratio，简称 OR）。理解 OR 之前先理解**比值**（odds）本身。
+
+日常语言里"概率"和"比值"经常混用，但它们是两个不同的量。100 个人去做体检，5 个人查出胃部不适。"概率"是 $5 / 100 = 5\%$ —— 查出不适的人占总人数的比例。"比值"是 $5 / 95$ —— 查出不适的人对没查出的人。比值没有上限，因为分母可以任意小。事件率低时，5/95 与 5/100 非常接近；事件率高时，比如 50 个查出不适，比值 $50 / 50 = 1$，概率 50%，二者拉开差距。
+
+OR 就是两组比值的比。继续吃辣的例子：100 个吃辣的人 5 个胃疼（吃辣组的 odds = 5/95），100 个不吃辣的人 1 个胃疼（不吃辣组的 odds = 1/99）。OR $= (5/95) / (1/99) \approx 5.21$。回想 RR：$\mathrm{RR} = (5/100) / (1/100) = 5$。OR 比 RR 略大一点，原因是事件率不为零，吃辣组的分母从 100 缩到 95（少了 5），不吃辣组的分母从 100 缩到 99（只少 1），分母收缩不对称把 OR 推得比 RR 更远离 1。
+
+<Definition number="3.3" title="比值比 OR 与对数比值比">
+
+对一项试验的 2x2 表，OR 是两组比值的比：
+
+$$
+\mathrm{OR} = \frac{a / b}{c / d} = \frac{a \cdot d}{b \cdot c}.
+$$
+
+其中 $a, b, c, d$ 是 2x2 表的四个格子。对数比值比 $\mathrm{log\ OR} = \ln(\mathrm{OR})$ 在大样本下近似正态，方差近似为
+
+$$
+v_i^{\mathrm{OR}} = \frac{1}{a} + \frac{1}{b} + \frac{1}{c} + \frac{1}{d}.
+$$
+
+注意 OR 的方差是四个格子倒数的**完全和**，与 $\mathrm{log\ RR}$ 方差的"部分和"形式略有不同。
+
+</Definition>
+
+OR 与 RR 在罕见事件下接近。事件率低时 $p / (1 - p) \approx p$，OR 与 RR 数值接近。BCG 数据里大多数研究的结核发病率都在百分之几以下，所以 OR 与 RR 应该非常接近。在 `dat.bcg` 上跑一遍验证：
+
+```r
+library(metafor)
+d <- read.csv("data/bcg.csv")
+
+# 一次性算 RR 和 OR
+es_rr <- escalc(measure = "RR", ai = tpos, bi = tneg,
+                ci = cpos, di = cneg, data = d)
+es_or <- escalc(measure = "OR", ai = tpos, bi = tneg,
+                ci = cpos, di = cneg, data = d)
+
+# 取指数变回原尺度，对比 RR 和 OR
+data.frame(
+  trial    = d$trial,
+  author   = d$author,
+  RR       = round(exp(es_rr$yi), 3),
+  OR       = round(exp(es_or$yi), 3),
+  diff_pct = round((exp(es_or$yi) - exp(es_rr$yi)) /
+                    exp(es_rr$yi) * 100, 1)
+)
+```
+
+13 项研究里多数 OR 与 RR 的偏差在 5% 以内。偏差最大的两项是 Stein & Aronson 1953（$\mathrm{OR} = 0.384$，$\mathrm{RR} = 0.456$，OR 比 RR 小约 16%）和 Ferguson & Simes 1949（$\mathrm{OR} = 0.189$，$\mathrm{RR} = 0.205$，OR 比 RR 小约 8%）。这两项研究事件率较高：Stein & Aronson 1953 对照组结核发病率约 25.6%（372/1451），处理组也有 11.7%（180/1541），事件率离"罕见"已经很远，OR 比 RR 偏离零的距离更明显。其余 11 项研究事件率都在 1%–6%，OR 与 RR 几乎重合。
+
+![BCG 13 项研究中每项的 OR 与 RR 数值对比散点。多数点落在 45 度线附近，事件率较高的两项明显向 OR 偏离的方向跑。](/books/meta-analysis/figure/chap03_or_vs_rr.png)
+
+<Subtext>图 3.1 · 13 项 BCG 研究的 OR 与 RR 对比。</Subtext>
+
+<Pitfall title="把 OR 当 RR 解读">
+
+读者看到 $\mathrm{OR} = 0.5$ 常理解成"风险减半"，但 OR $= 0.5$ 只在事件率很低时才约等于 RR $= 0.5$；事件率接近 50% 时 OR 比 RR 偏离零更远，OR $= 0.5$ 实际上对应的 RR 可能是 0.7 或更大。
+
+**诊断方法**：看研究的事件率，事件率超过 10% 就要警惕；看作者用了 RR 还是 OR，混用术语的论文要逐句核对。
+
+**稳健做法**：报告时明确写出是 OR 还是 RR，并附事件率范围；事件率较高的场景优先用 RR 而不是 OR。
+
+</Pitfall>
+
+---
+
+## 3.4 风险差 RD
+
+RR 与 OR 都是**相对**效应量，回答"风险是几倍"的问题。临床决策很多时候需要的是**绝对**效应量，回答"打疫苗能少多少人发病"的问题。这就是**风险差**（risk difference，简称 RD）。
+
+继续吃辣的例子：100 个吃辣的人 5 个胃疼，100 个不吃辣的人 1 个胃疼。$\mathrm{RD} = 5 / 100 - 1 / 100 = 4$ 个百分点。意思是吃辣比不吃辣绝对增加了 4% 的胃疼风险。如果一个医院每天 1000 个人吃辣，每天就多出 40 个胃疼患者。RD 的好处是它能直接翻译成"打多少人能预防一例发病"，这个倒数叫做 **NNT**（number needed to treat），临床决策最关心的指标。
+
+<Definition number="3.4" title="风险差 RD">
+
+RD 是两组事件率的差：
+
+$$
+\mathrm{RD} = \frac{a}{a + b} - \frac{c}{c + d} = p_t - p_c.
+$$
+
+其中 $p_t = a / (a + b)$ 是处理组发病率，$p_c = c / (c + d)$ 是对照组发病率。方差近似为
+
+$$
+v_i^{\mathrm{RD}} = \frac{p_t (1 - p_t)}{n_t} + \frac{p_c (1 - p_c)}{n_c},
+$$
+
+其中 $n_t = a + b$ 是处理组总人数，$n_c = c + d$ 是对照组总人数。RD 的取值范围是 $[-1, 1]$，单位是事件率本身的单位（比例或百分点）。
+
+</Definition>
+
+RD 与 RR / OR 有一个根本不同：RD 不需要取对数。RR 与 OR 是比值，原尺度上保护和有害不对称，必须取对数才能让正负效应对称合并。RD 是差值，原尺度上 $-0.05$ 与 $+0.05$ 已经天然对称，直接合并即可。
+
+把 Aronson 1948 代入 RD 公式：$p_t = 4 / 123 = 0.0325$，$p_c = 11 / 139 = 0.0791$，$\mathrm{RD} = 0.0325 - 0.0791 = -0.0466$。意思是接种 BCG 比不接种绝对降低了约 4.66 个百分点的发病风险。
+
+回到 BCG 数据。13 项研究的 RD 跨度从 $-0.140$（Stein & Aronson 1953）到 $+0.0007$（Comstock & Webster 1969）。Stein & Aronson 的 RD 含义是：每 100 人接种 BCG，比不接种少 14 人发生结核 —— 这是绝对意义上巨大的预防效应。Hart & Sutherland 1977 的 RD 是 $-0.0147$（每 100 人少 1.47 人发生结核），RR $= 0.24$ 看起来效果很大，但绝对差小得多，因为这项研究对照组基线发病率本来就只有 1.93%。这说明同一项研究 RR 看起来效果很大、RD 看起来效果很小，是**基线风险**低的直接结果。
+
+![BCG 13 项研究的 RR、OR、RD 三种效应量并列展示。RR 与 OR 走势接近，RD 在基线风险低的研究里显著被压缩。](/books/meta-analysis/figure/chap03_three_effects.png)
+
+<Subtext>图 3.2 · 三种效应量在 13 项研究上的并列对比。</Subtext>
+
+<Pitfall title="RD 合并的解读尴尬">
+
+不同研究的基线发病率差距巨大时，RD 在合并后的解读会很尴尬：合并 RD 等于"加权平均的绝对效应"，但这个平均对应不到任何具体的临床场景。BCG 数据里基线发病率从 0.49‰ 到 25.6% 跨度极大，合并 RD 给出的数字是几个百分比的混合，难以直接用于临床决策。
+
+**诊断方法**：在合并 RD 之前，画一张各研究对照组发病率的散点图。若分布跨数量级，合并 RD 失去临床意义。
+
+**稳健做法**：Cochrane Handbook 推荐跨研究异质性大时优先用 RR 或 OR 做主分析，RD 仅作为辅助报告，并按基线风险分层呈现。
+
+</Pitfall>
+
+---
+
+## 3.5 escalc 函数：一站式计算
+
+前面演示了 `escalc()` 计算 RR 和 OR。它支持的 measure 选项覆盖了 meta 分析常用的所有效应量。
+
+| measure   | 效应量          | 适用场景                                                          |
+|:----------|:----------------|:------------------------------------------------------------------|
+| `"RR"`    | log 风险比      | 二分类结局，RCT 默认选择                                          |
+| `"OR"`    | log 比值比      | 二分类结局，病例对照或 logistic 回归输出                          |
+| `"RD"`    | 风险差          | 二分类结局，临床绝对效应                                          |
+| `"PETO"`  | Peto OR         | 罕见事件（事件率通常 $< 5\%$ 且组间事件数接近时）                 |
+| `"SMD"`   | Hedges' $g$     | 连续型结局，跨量表合并                                            |
+| `"MD"`    | 均值差          | 连续型结局，量表一致                                              |
+| `"COR"`   | Pearson $r$     | 相关系数 meta 分析                                                |
+| `"ZCOR"`  | Fisher $z$      | 相关系数（对数尺度合并）                                          |
+
+<Subtext>表 3.1 · `escalc()` 常用 measure 参数与对应效应量。</Subtext>
+
+`escalc()` 返回一个数据框，包含 `yi`（效应量估计）和 `vi`（方差估计）两列。这两列是后续所有 meta 分析函数（`rma()`、`rma.mv()`）的标准输入。本书 BCG 数据是二分类结局，所有合并都用 `measure = "RR"`。
+
+完整运行版本见 [code/chap03.R](/books/meta-analysis/code/chap03.R)。
+
+---
+
+## 3.6 本章小结
+
+每项研究的 $\hat{y}_i$ 与 $v_i$ 是合并的输入。第 4 章用这两个数字按"方差越小、发言权越大"的逆方差加权，把 13 项研究合并成一个全局估计 $\mathrm{RR} = 0.65$。但 13 项研究的方差极不平衡，最大的 TPT Madras 一项就占 41% 权重，前 4 项合计占 86%，结论仍然被少数大研究主导，异质性指标 $I^2 = 92\%$ 也直接证伪 FE 模型的核心假设。这是第 4 章的主要发现，也是引出第 5 章随机效应模型的起点。
+
+---
+
+<References>
+	<ReferencesLink
+		title="Conducting Meta-Analyses in R with the metafor Package"
+		author="Viechtbauer, W. (2010), Journal of Statistical Software, 36(3):1–48"
+		href="https://www.jstatsoft.org/article/view/v036i03"
+	/>
+	<ReferencesLink
+		title="Introduction to Meta-Analysis"
+		author="Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2009)"
+		href="https://www.wiley.com/en-us/Introduction+to+Meta+Analysis%2C+2nd+Edition-p-9781119558361"
+	/>
+	<ReferencesLink
+		title="Cochrane Handbook for Systematic Reviews of Interventions, Chapter 6"
+		author="Higgins, J. P. T. et al. (eds.)"
+		href="https://training.cochrane.org/handbook/current/chapter-06"
+	/>
+</References>
