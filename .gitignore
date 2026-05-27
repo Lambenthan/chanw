@@ -27,3 +27,4 @@ pnpm-debug.log*
 .vscode
 .env*.local
 .cache/
+/*.pdf  # 根目录散落的临时 PDF，避免误追踪到仓库（书内 PDF figure 在 public/books/ 下，不受此规则影响）
