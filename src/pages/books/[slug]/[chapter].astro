@@ -34,6 +34,7 @@ import References from "../../../components/mdx/References.astro";
 import ReferencesLink from "../../../components/mdx/ReferencesLink.astro";
 import GridColumns from "../../../components/mdx/GridColumns.astro";
 import ResourceBook from "../../../components/mdx/ResourceBook.astro";
+import CodeBlock from "../../../components/mdx/CodeBlock.astro";
 
 export async function getStaticPaths() {
 	const allChapters = await getCollection("chapters");
@@ -102,6 +103,7 @@ const components = {
 	h4: Title4,
 	a: TooltipLink,
 	img: BasicImage,
+	pre: CodeBlock,
 	InternalTooltipLink,
 	IntroParagraph,
 	Footnote,
