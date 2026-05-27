@@ -33,8 +33,12 @@ flowchart TD
 
 ## 9.1 Skill 是什么
 
-> [!NOTE]
-> **定义 9.1 — Skill**
+<GhAlert type="note">
+
+**定义 9.1 — Skill**
+
+</GhAlert>
+
 >
 > Skill 是 Claude Code 的可复用指令单元。每个 Skill 是 `~/.claude/skills/` 下的一个文件夹,内含 `SKILL.md` 规则文件。斜杠命令(例如 `/humanizer-zh`)被调用时,Claude Code 自动读取并在当前会话执行。核心价值:持久化、可复用、可共享,免去每次粘贴提示词。
 
@@ -112,8 +116,12 @@ Skill 与普通提示词的差别如下:
 
 整个 SKILL.md 一百多行。第一版只有几十行,每次导师提出新要求即追加一条。
 
-> [!TIP]
-> **自建 Skill 的几条经验**
+<GhAlert type="tip">
+
+**自建 Skill 的几条经验**
+
+</GhAlert>
+
 >
 > - **反面例子比正面例子更重要**:"避免写成 'XX 技术在 YY 领域的应用研究'"比"标题需要学术化"明确得多
 > - **规则逐步累积**:第一版只写最核心的,后续每次遇到问题再追加一条
@@ -141,8 +149,12 @@ Skill 与普通提示词的差别如下:
 
 需要新功能时直接说"我需要一个能画流程图的 Skill",它会推荐 `/drawio`。未使用的 Skill 放置不影响系统,不占用资源,仅在调用时加载。
 
-> [!IMPORTANT]
-> **优先级建议**
+<GhAlert type="important">
+
+**优先级建议**
+
+</GhAlert>
+
 >
 > - **首选 `/pdf`**:科研场景频率最高
 > - **文献综述阶段安装 `/arxiv-database` 与 `/citation-management`**:检索论文与生成 BibTeX

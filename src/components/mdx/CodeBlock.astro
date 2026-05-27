@@ -69,10 +69,10 @@ const label = LANG_LABEL[lang] ?? (lang ? lang.toUpperCase() : "Code");
 
 <style>
   .codeblock {
-    margin: var(--space-m) 0;
+    /* 顶部 margin 收紧（之前 var(--space-m) ≈ 30px 太空），跟上方
+       正文段落的下 margin 叠加后不再过宽 */
+    margin: var(--space-2xs) 0 var(--space-s);
     border-radius: 6px;
-    /* 平滑动画 ── grid-template-rows 0fr → 1fr 是当代 details 折叠
-       动画唯一兼容方案 */
     box-shadow: var(--box-shadow-sm);
   }
 

@@ -518,9 +518,10 @@ code {
     consolas;
 }
 
-/* 代码块——配合 vitesse-light Shiki 主题，呈现学术论文 listing 感而非
-   编辑器截图感。低对比、细边框、紧凑字号，让短 R/Python 片段嵌进
-   正文不夺目。 */
+/* 代码块——配合 vitesse-light Shiki 主题。按站点规则统一拉丁字母
+   数字用 Times New Roman（unicode-range U+0020-007E 自动接管），
+   不再用 IBM Plex Mono 等宽字体——选择跟正文 prose 字体一致更
+   "学术论文 listing" 而非"代码编辑器截图"。 */
 pre {
   width: 100%;
   overflow-x: auto;
@@ -529,11 +530,7 @@ pre {
   border: 1px solid var(--color-tinted-cream);
   font-size: calc(var(--font-size-sm) * 0.95);
   line-height: var(--leading-snug);
-  font-family:
-    IBM Plex Mono,
-    Dank Mono,
-    SF Mono,
-    consolas;
+  font-family: var(--font-serif);
   margin: var(--space-s) 0 var(--space-m);
   tab-size: 3;
   -moz-tab-size: 3;
@@ -548,11 +545,17 @@ pre code {
   line-height: inherit;
 }
 
-/* Style inline code differently from code blocks */
+/* 内联代码 ── `claude --version` 这种。同样 Times serif 风，
+   不再用等宽字体，跟周围中文 prose 视觉协调。 */
 :not(pre) > code {
+  font-family: var(--font-serif);
   font-size: 0.9em;
   white-space: normal;
   word-wrap: break-word;
+  background: var(--color-light-cream);
+  border: 1px solid var(--color-tinted-cream);
+  padding: 0.05em 0.4em;
+  border-radius: 3px;
 }
 
 .metadata span,

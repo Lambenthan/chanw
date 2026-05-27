@@ -54,8 +54,12 @@ flowchart LR
 
 ### 六阶段流水线
 
-> [!NOTE]
-> **定义 F.1 — paper-to-beamer 的六阶段**
+<GhAlert type="note">
+
+**定义 F.1 — paper-to-beamer 的六阶段**
+
+</GhAlert>
+
 >
 > - **阶段一**:用 `/pdf` 抽取标题、章节、关键公式与图表位置,存为 JSON
 > - **阶段二**:`AskUserQuestion` 一次性提出四个澄清问题——语言、时长、主题、插图方式
@@ -160,23 +164,39 @@ xelatex main.tex
 
 ## F.5 使用过程中遇到的问题
 
-> [!WARNING]
-> **subsection 问题**
+<GhAlert type="warning">
+
+**subsection 问题**
+
+</GhAlert>
+
 >
 > 首次编写时未意识到主题样式在 `\AtBeginSubsection` 中也注册了目录钩子。生成的 PDF 七十多页,一半是重复目录。后续在 SKILL.md 中加了硬规则:完全禁用 `\subsection{}`,二级切分改用加粗段落或 `block` 环境。
 
-> [!WARNING]
-> **内容密度上限有时偏紧**
+<GhAlert type="warning">
+
+**内容密度上限有时偏紧**
+
+</GhAlert>
+
 >
 > "每帧最多两个公式"对 BERT 够用,但对 GAN 极小极大目标或 ResNet 残差块就显得局促。当前处理是拆到下一帧,但会打断推导。下一版做"论文类型敏感"的密度规则,理论型放宽到四个。
 
-> [!WARNING]
-> **图片抽取需人工核对**
+<GhAlert type="warning">
+
+**图片抽取需人工核对**
+
+</GhAlert>
+
 >
 > PyMuPDF 按矩形坐标裁剪,坐标不准会截到一半。Skill 抽完后用 `Read` 查看缩略图确认,但视觉判断不一定可靠。建议拿到工作目录后手动浏览 `figs/`,裁切不好时让 Claude 重裁。
 
-> [!WARNING]
-> **模板配色并非万能**
+<GhAlert type="warning">
+
+**模板配色并非万能**
+
+</GhAlert>
+
 >
 > 默认配色与字体风格相对固定。若觉得不合适,需自行修改主题样式中的 RGB 值。下一版计划做多模板支持、下拉选择。
 
@@ -190,8 +210,12 @@ xelatex main.tex
 
 **该论文的生成方式**。由另一个 Skill `skill-to-paper` 生成,并非手写。`skill-to-paper` 的输入是已有的 Skill 目录,输出是介绍该 Skill 的双栏论文。位于附赠包的 `bonus/skill-to-paper/`。安装方式相同,`cp -r` 到 `~/.claude/skills/`。
 
-> [!IMPORTANT]
-> **教科书与论文**
+<GhAlert type="important">
+
+**教科书与论文**
+
+</GhAlert>
+
 >
 > 本附录与 `paper_writeup.pdf` 的关系类似教科书与论文。前者教程性质、循序渐进、适合从头阅读;后者结论性质、压缩、适合快速浏览。同一件事的两种形态,按阅读场景选其一即可。
 

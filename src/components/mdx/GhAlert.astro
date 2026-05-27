@@ -1,0 +1,128 @@
+---
+/**
+ * GitHub-flavored Markdown 警告框对应的学术风组件。
+ *
+ * 来源：原 Markdown 用 GFM 语法 > [!TIP] / [!NOTE] / [!WARNING] /
+ * [!IMPORTANT] 写提示框。我们用 Python 脚本一次性把这些 blockquote
+ * 转成 <GhAlert type="..."> 包装，渲染时映射到 ElegantBook 学术风格。
+ *
+ * 四种 type → 视觉语言：
+ * - tip       sea-blue + 灯泡（实用提示）
+ * - note      gray 中性（一般说明）
+ * - warning   crimson + 三角警（注意陷阱）
+ * - important 深 crimson 实心（关键信息）
+ */
+import { Icon } from "astro-icon/components";
+
+const { type = "note" } = Astro.props;
+
+const META: Record<
+  string,
+  { label: string; icon: string }
+> = {
+  tip: { label: "提示", icon: "heroicons:light-bulb" },
+  note: { label: "注", icon: "heroicons:information-circle" },
+  warning: { label: "警告", icon: "heroicons:exclamation-triangle" },
+  important: { label: "要点", icon: "heroicons:exclamation-circle" },
+};
+
+const meta = META[type] ?? META.note;
+---
+
+<aside class={`gh-alert gh-alert-${type}`}>
+  <header class="gh-alert-header">
+    <Icon name={meta.icon} size={16} class="gh-alert-icon" />
+    <span class="gh-alert-label">{meta.label}</span>
+  </header>
+  <div class="gh-alert-body">
+    <slot />
+  </div>
+</aside>
+
+<style>
+  .gh-alert {
+    margin: var(--space-m) 0;
+    padding: var(--space-s) var(--space-m);
+    border-left: 3px solid;
+    border-radius: 0 4px 4px 0;
+    background: var(--color-light-cream);
+  }
+
+  .gh-alert-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3xs);
+    margin-bottom: var(--space-2xs);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .gh-alert-icon {
+    flex-shrink: 0;
+  }
+
+  .gh-alert-body :global(p) {
+    margin: 0 0 var(--space-2xs);
+    line-height: var(--leading-base);
+  }
+
+  .gh-alert-body :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .gh-alert-body :global(strong) {
+    color: inherit;
+  }
+
+  /* --- TIP：sea-blue 实用提示 --- */
+  .gh-alert-tip {
+    border-left-color: var(--color-sea-blue);
+    background: #f0f9f8;
+  }
+  .gh-alert-tip .gh-alert-header {
+    color: var(--color-dark-sea-blue);
+  }
+  .gh-alert-tip .gh-alert-icon {
+    color: var(--color-sea-blue);
+  }
+
+  /* --- NOTE：中性灰色说明 --- */
+  .gh-alert-note {
+    border-left-color: var(--color-gray-500);
+    background: var(--color-light-cream);
+  }
+  .gh-alert-note .gh-alert-header {
+    color: var(--color-gray-700);
+  }
+  .gh-alert-note .gh-alert-icon {
+    color: var(--color-gray-500);
+  }
+
+  /* --- WARNING：crimson 警告陷阱 --- */
+  .gh-alert-warning {
+    border-left-color: var(--color-bright-crimson);
+    background: #fdf2f0;
+  }
+  .gh-alert-warning .gh-alert-header {
+    color: var(--color-crimson);
+  }
+  .gh-alert-warning .gh-alert-icon {
+    color: var(--color-bright-crimson);
+  }
+
+  /* --- IMPORTANT：深 crimson 关键信息 --- */
+  .gh-alert-important {
+    border-left-color: var(--color-crimson);
+    background: #faece8;
+  }
+  .gh-alert-important .gh-alert-header {
+    color: var(--color-crimson);
+    font-weight: 700;
+  }
+  .gh-alert-important .gh-alert-icon {
+    color: var(--color-crimson);
+  }
+</style>

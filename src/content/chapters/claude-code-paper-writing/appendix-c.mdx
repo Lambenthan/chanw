@@ -12,8 +12,12 @@ topics: ["Claude Code", "科研工具", "AI 论文流水线"]
 
 以下为论文写作过程中已确认实用的 Skill 列表。安装方式统一:在 Claude Code 对话中输入"帮我安装 [Skill 名] 这个 skill",或本地用 `cp -r` 复制到 `~/.claude/skills/` 目录。
 
-> [!TIP]
-> **Skill 的来源**
+<GhAlert type="tip">
+
+**Skill 的来源**
+
+</GhAlert>
+
 >
 > 大部分现成 Skill 集中在 [skills.sh](https://skills.sh),由 Vercel 推出的开源 AI 技能包管理平台。可类比为 Skill 版本的 npm。安装命令为 `npx skills add <owner/repo@skill-name>`。
 
@@ -36,8 +40,12 @@ topics: ["Claude Code", "科研工具", "AI 论文流水线"]
 
 </div>
 
-> [!IMPORTANT]
-> **若仅装两个,建议这两个**
+<GhAlert type="important">
+
+**若仅装两个,建议这两个**
+
+</GhAlert>
+
 >
 > `/pdf` 与 `/drawio`。我使用 100 多次与 104 次,覆盖了科研中使用频率最高的两类操作。
 
@@ -123,8 +131,12 @@ topics: ["Claude Code", "科研工具", "AI 论文流水线"]
 
 **第三步,如需定制不在原 Skill 上修改**。在原 SKILL.md 上修改容易混乱,下次更新会覆盖。我的做法是让 Claude Code 参考该 Skill 的写法,根据需求新建一个独立的 Skill。
 
-> [!WARNING]
-> **冷门 Skill 需谨慎**
+<GhAlert type="warning">
+
+**冷门 Skill 需谨慎**
+
+</GhAlert>
+
 >
 > 排名靠前、下载量数千甚至上万的 Skill 通常无问题。若是下载量较少的 Skill,建议谨慎使用。较稳妥的做法是先用 `find-skills` 检索一个类似场景的 Skill,参考其 SKILL.md 写法,自行创建一个新的。
 

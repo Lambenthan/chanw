@@ -44,8 +44,12 @@ flowchart LR
   网页版 -.对比.-> cli
 ```
 
-> [!NOTE]
-> **定义 1.1 — Claude Code**
+<GhAlert type="note">
+
+**定义 1.1 — Claude Code**
+
+</GhAlert>
+
 >
 > Claude Code 是 Anthropic 公司开发的命令行 AI 助手,运行在终端中,可直接读取并修改本地文件、执行终端命令、调用外部工具。与网页版 AI 的区别在于,使用者不需要把文件内容复制到对话框,模型直接操作本地文件系统。
 >
@@ -133,8 +137,12 @@ Claude Code 需要 Anthropic 账号,订阅分三档:
 
 我自己平时使用 Pro,论文冲刺期升 Max 5x 用了两个月,之后降回 Pro。三档功能完全相同,差别只在用量配额。
 
-> [!TIP]
-> **国内用户支付**
+<GhAlert type="tip">
+
+**国内用户支付**
+
+</GhAlert>
+
 >
 > Anthropic 不支持国内银行卡,需要 Visa 或 Mastercard,或通过 iOS App 用美区 Apple ID 礼品卡充值订阅。具体路径可搜索"Claude 订阅 国内支付"找到教程。
 
@@ -156,8 +164,12 @@ irm https://claude.ai/install.ps1 | iex
 
 安装完成后同样运行 `claude --version` 验证。
 
-> [!TIP]
-> **首次安装后运行 `claude doctor`**
+<GhAlert type="tip">
+
+**首次安装后运行 `claude doctor`**
+
+</GhAlert>
+
 >
 > 这是官方提供的环境检查命令,几秒内逐项核查安装路径、版本、依赖、登录状态。绿色表示通过,红色表示异常。首次运行时"登录"那一项为红色属于正常情况,登录步骤紧接着进行。其他项目显示绿色或黄色即可。
 >
@@ -196,8 +208,12 @@ claude
 
 首次运行会自动弹出浏览器进行授权,按提示点击 Authorize 即可(走 OAuth 流程,无需手动复制 token)。登录完成后回到终端,看到对话输入框的光标在闪烁,即可开始对话。
 
-> [!WARNING]
-> **启动位置决定可访问范围**
+<GhAlert type="warning">
+
+**启动位置决定可访问范围**
+
+</GhAlert>
+
 >
 > 启动 Claude Code 之前必须先 `cd` 到项目文件夹。它能读取与修改的内容,完全取决于启动时所在的位置。
 >
@@ -211,8 +227,12 @@ claude
 
 它会扫描文件夹列出所有文件,并根据文件名推测用途。确认它能正确读取文件后,再尝试修改类任务。
 
-> [!TIP]
-> **建议先安装 PDF 与 docx 两个技能**
+<GhAlert type="tip">
+
+**建议先安装 PDF 与 docx 两个技能**
+
+</GhAlert>
+
 >
 > 大多数论文是 Word 格式,文件夹中也常有 PDF 文献。Claude Code 有两个常用技能:`/pdf` 提取 PDF 全文,`/docx` 读写 Word 文档。安装方法是在对话中说"帮我安装 pdf 这个 skill"与"帮我安装 docx 这个 skill",由它自行完成。仓库 `book-companion-skills/` 目录下也有现成版本,复制到 `~/.claude/skills/` 即可使用。
 
@@ -230,8 +250,12 @@ claude
 
 另一次更隐蔽。我让它统一文献综述的写法,它在修改过程中删掉了一个引用编号 [17],导致那段话从有据可查的论述变成无出处的断言。若不是后续逐句核对,该错误就会留在交付稿中。
 
-> [!WARNING]
-> 每次 Claude Code 修改完成后,不要只读它给出的总结,需要自行把改前改后逐行对比一遍。它的总结反映的是模型自身认定的修改内容,与实际修改可能存在偏差。
+<GhAlert type="warning">
+
+每次 Claude Code 修改完成后,不要只读它给出的总结,需要自行把改前改后逐行对比一遍。它的总结反映的是模型自身认定的修改内容,与实际修改可能存在偏差。
+
+</GhAlert>
+
 
 #### 注意事项二:修改文件之前需要先备份
 

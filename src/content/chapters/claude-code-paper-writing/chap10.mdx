@@ -39,8 +39,12 @@ flowchart TD
 
 ## 10.1 哪类任务适合并行
 
-> [!NOTE]
-> **定义 10.1 — 并行 Agent**
+<GhAlert type="note">
+
+**定义 10.1 — 并行 Agent**
+
+</GhAlert>
+
 >
 > Claude Code 在一次对话中自动派发多个子 Agent,每个处理同一批量任务的不同子集,彼此独立工作,最后由主 Agent 汇总。**适用条件**:任务可分割(无依赖)且结果可合并。
 
@@ -58,8 +62,12 @@ flowchart TD
 - **需要全局视角**:全文行文风格统一,每个 Agent 只看自己那章无法判断整体
 - **涉及交叉依赖的修改**:第三章引用了第五章公式编号,两个 Agent 分别修改各自看不到对方变化,引用会断
 
-> [!WARNING]
-> **我犯过一次此类错误**
+<GhAlert type="warning">
+
+**我犯过一次此类错误**
+
+</GhAlert>
+
 >
 > 让两个 Agent 分别润色第三、四章。第三章末尾有"如下一章所述,空间杜宾模型可解决该问题",第四章 Agent 把空间杜宾模型那节标题改成了"空间计量模型的设定"。两个 Agent 各自做的都对,拼接后预告与实际内容不一致。后续花半小时手工核对衔接,本可由一个 Agent 顺序处理两章避免。
 
@@ -110,8 +118,12 @@ flowchart TD
   <img src="../assets/chap10/01_three_agents_citation_check.png" alt="三个并行 Agent 核查 156 条引用,40 分钟识别 11 处问题" width="100%" />
 </div>
 
-> [!IMPORTANT]
-> **核查标准需写清楚**
+<GhAlert type="important">
+
+**核查标准需写清楚**
+
+</GhAlert>
+
 >
 > 不写检查项时它会做最基础的检查,可能遗漏使用者关心的部分(例如"作者拼写"、"DOI 可解析")。把每个维度列清楚,结果才会贴近预期。
 
@@ -141,8 +153,12 @@ flowchart TD
 
 **用 `claude --continue` 续接**:终端中输入 `claude --continue` 恢复上次会话上下文,告知"从上次停的位置继续"通常可继续工作。
 
-> [!WARNING]
-> **`--continue` 恢复的是最近一次会话**
+<GhAlert type="warning">
+
+**`--continue` 恢复的是最近一次会话**
+
+</GhAlert>
+
 >
 > 中断后若开新会话做其他事,再用 `--continue` 恢复的即为新会话。长任务被打断后直接 `--continue`,不要先开其他会话。
 
@@ -150,8 +166,12 @@ flowchart TD
 
 **Rate limit**:遇到限频时 Claude Code 自动等待后继续,不需在指令中写"等两分钟再继续"——它内部处理,使用者感知到的是偶尔暂停后自动恢复。
 
-> [!TIP]
-> **多数情况一次对话可完成**
+<GhAlert type="tip">
+
+**多数情况一次对话可完成**
+
+</GhAlert>
+
 >
 > 引用 200 条以内、术语排查 10 章以内通常一次对话即可完成,无需考虑中断。
 

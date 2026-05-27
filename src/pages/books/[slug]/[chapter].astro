@@ -10,8 +10,6 @@ import Dates from "../../../components/layouts/Dates.astro";
 
 // Reuse the MDX component mapping from [...slug].astro for consistent typography
 import Title1 from "../../../components/mdx/typography/Title1.astro";
-import Title2 from "../../../components/mdx/typography/Title2.astro";
-import Title3 from "../../../components/mdx/typography/Title3.astro";
 import Title4 from "../../../components/mdx/typography/Title4.astro";
 import ChapterTitle2 from "../../../components/mdx/typography/ChapterTitle2.astro";
 import ChapterTitle3 from "../../../components/mdx/typography/ChapterTitle3.astro";
@@ -37,6 +35,7 @@ import ReferencesLink from "../../../components/mdx/ReferencesLink.astro";
 import GridColumns from "../../../components/mdx/GridColumns.astro";
 import ResourceBook from "../../../components/mdx/ResourceBook.astro";
 import CodeBlock from "../../../components/mdx/CodeBlock.astro";
+import GhAlert from "../../../components/mdx/GhAlert.astro";
 
 export async function getStaticPaths() {
 	const allChapters = await getCollection("chapters");
@@ -126,6 +125,7 @@ const components = {
 	References,
 	ReferencesLink,
 	GridColumns,
+	GhAlert,
 };
 
 const bookSlug = book.data.slug!;
