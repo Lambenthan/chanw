@@ -75,13 +75,18 @@ async function main() {
     deduped.push(item);
   }
 
-  // 映射成 news.json schema
+  // 映射成 news.json schema。
+  // 关键决策：date 只取 publishedAt，绝不 fallback 到 discoveredAt
+  // —— 后者是脚本第一次见到 URL 的时间，与"实际发布时间"无关，
+  // 用它会显示假日期（例如 Meta AI 这类 Playwright 源全 632 条本来
+  // 都掉进这个坑）。没真日期的条目 date=""，News card 上不显示
+  // 时间戳；enrich-feed-dates.mjs 后续 cron 会逐批补真日期。
   const news = deduped
     .map((item) => ({
       title: item.title || item.originalTitle || "（无标题）",
       url: item.url,
       source: item.sourceName || item.source || "未知",
-      date: item.publishedAt || item.discoveredAt || "",
+      date: item.publishedAt || "",
       group: groupFor(item.source),
     }))
     .filter((n) => n.url && n.title);
