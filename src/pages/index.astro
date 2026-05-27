@@ -21,6 +21,17 @@ const sortedEssays = essays
 	.sort((a, b) => new Date(b.data.updated).getTime() - new Date(a.data.updated).getTime())
 	.slice(0, 4);
 
+// 首页 News 只展示最新 6 条（按发布时间倒序）；完整列表见 /news
+const HOMEPAGE_NEWS_LIMIT = 6;
+const homepageNews = (newsItems as { title: string; url: string; date?: string }[])
+	.slice()
+	.sort((a, b) => {
+		const ad = a.date ? new Date(a.date).getTime() : 0;
+		const bd = b.date ? new Date(b.date).getTime() : 0;
+		return bd - ad;
+	})
+	.slice(0, HOMEPAGE_NEWS_LIMIT);
+
 // Featured skills on homepage: pick a curated cross-section across categories.
 // One from each Anthropic official category + a few signature picks from paper-* clusters.
 const HOMEPAGE_SKILL_PICKS = new Set([
@@ -96,7 +107,7 @@ const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug)
 					AI 行业的最新动态 —— 模型发布、行业事件、热门开源项目，每日更新。
 				</div>
 				{
-					newsItems.map((item) => (
+					homepageNews.map((item) => (
 						<a href={item.url} target="_blank" rel="noopener noreferrer">
 							<div class="index-note-card">
 								<div class="icon">
