@@ -13,6 +13,8 @@ import Title1 from "../../../components/mdx/typography/Title1.astro";
 import Title2 from "../../../components/mdx/typography/Title2.astro";
 import Title3 from "../../../components/mdx/typography/Title3.astro";
 import Title4 from "../../../components/mdx/typography/Title4.astro";
+import ChapterTitle2 from "../../../components/mdx/typography/ChapterTitle2.astro";
+import ChapterTitle3 from "../../../components/mdx/typography/ChapterTitle3.astro";
 import TooltipLink from "../../../components/mdx/TooltipLink.astro";
 import InternalTooltipLink from "../../../components/mdx/InternalTooltipLink.astro";
 import Footnote from "../../../components/mdx/Footnote.astro";
@@ -98,8 +100,8 @@ const { Content, headings } = await render(entry);
 
 const components = {
 	h1: Title1,
-	h2: Title2,
-	h3: Title3,
+	h2: ChapterTitle2,
+	h3: ChapterTitle3,
 	h4: Title4,
 	a: TooltipLink,
 	img: BasicImage,
@@ -316,3 +318,27 @@ const updatedISO = entry.data.updated
 		}
 	}
 </style>
+
+<script>
+  // 把章节标题里的节号前缀（0.1 / 1.2 / 2.3.4 等）包成 <span class="section-number">
+  // 让 ChapterTitle2 / ChapterTitle3 的 CSS 把节号染浅灰、用 Times、缩小
+  import { onPageLifecycle } from "../../../utils/viewTransitionLifecycle";
+
+  onPageLifecycle(() => {
+    const headings = document.querySelectorAll<HTMLElement>(
+      ".chapter-h2, .chapter-h3",
+    );
+    // 匹配 "0.1 " / "1.2.3 " 这种数字节号 + 后续空格
+    const SECTION_NUM_RE = /^(\d+(?:\.\d+)+)(\s+)(.*)$/;
+
+    headings.forEach((h) => {
+      // 已经包过就跳过（避免 view transition 重复处理）
+      if (h.querySelector(".section-number")) return;
+      const text = h.textContent ?? "";
+      const m = text.match(SECTION_NUM_RE);
+      if (!m) return;
+      const [, num, , rest] = m;
+      h.innerHTML = `<span class="section-number">${num}</span>${rest}`;
+    });
+  });
+</script>
