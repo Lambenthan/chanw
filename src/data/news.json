@@ -1,9 +1,401 @@
 [
 	{
+		"title": "OpenAI 发布 Image GPT",
+		"url": "https://openai.com/index/image-gpt/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:47:03.926Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布无监督情感神经元研究",
+		"url": "https://openai.com/index/unsupervised-sentiment-neuron/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:46:58.081Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 揭示 GAN、逆强化学习与基于能量模型的理论联系",
+		"url": "https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:46:57.249Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 更新研究索引页面",
+		"url": "https://openai.com/research/index/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:59.077Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-4o System Card",
+		"url": "https://openai.com/index/gpt-4o-system-card/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:55.562Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Point E 3D 生成模型",
+		"url": "https://openai.com/index/point-e/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:42.616Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Jukebox 项目",
+		"url": "https://openai.com/index/jukebox/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:42.381Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Energy Based Models",
+		"url": "https://openai.com/index/energy-based-models/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:32.324Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 提出多智能体系统策略表示学习方法",
+		"url": "https://openai.com/index/learning-policy-representations-in-multiagent-systems/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:27.190Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布面向摔跤的元学习研究",
+		"url": "https://openai.com/index/meta-learning-for-wrestling/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:21.241Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布多智能体协作与竞争研究",
+		"url": "https://openai.com/index/learning-to-cooperate-compete-and-communicate/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:16.900Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-2-1.5B",
+		"url": "https://openai.com/index/gpt-2-1-5b-release/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:13.524Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 DALL·E 2 预训练缓解措施",
+		"url": "https://openai.com/index/dall-e-2-pre-training-mitigations/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:12.390Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布基于 CLIP 潜变量的层级文本条件图像生成方法",
+		"url": "https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:12.328Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Sparse Transformer",
+		"url": "https://openai.com/index/sparse-transformer/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:12.121Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-4o Mini",
+		"url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:45:08.072Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布图像推理功能",
+		"url": "https://openai.com/index/thinking-with-images/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:59.902Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Ffjord",
+		"url": "https://openai.com/index/ffjord/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:59.134Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 推出 Roboschool 机器人训练环境",
+		"url": "https://openai.com/index/roboschool/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:58.688Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布多智能体群体涌现组合语言研究",
+		"url": "https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:57.458Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Evolution Through Large Models 研究",
+		"url": "https://openai.com/index/evolution-through-large-models/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:55.991Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Learning to Model Other Minds 研究",
+		"url": "https://openai.com/index/learning-to-model-other-minds/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:55.534Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 LLM 推理能力训练研究成果",
+		"url": "https://openai.com/index/learning-to-reason-with-llms/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:54.863Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 提出一致性模型训练改进技术",
+		"url": "https://openai.com/index/improved-techniques-for-training-consistency-models/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:53.910Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布视频生成模型作为世界模拟器",
+		"url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:49.877Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Consistency Models",
+		"url": "https://openai.com/index/consistency-models/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:49.695Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 结合域随机化与生成模型改进机器人抓取",
+		"url": "https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:45.245Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Sora System Card",
+		"url": "https://openai.com/index/sora-system-card/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:44.202Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Fine Tuning GPT-2",
+		"url": "https://openai.com/index/fine-tuning-gpt-2/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:43.682Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发表基于解码器的生成模型定量分析研究",
+		"url": "https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:43.240Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布基于人类反馈的摘要学习研究",
+		"url": "https://openai.com/index/learning-to-summarize-with-human-feedback/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:42.622Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Temporal Segment Models 时序段模型",
+		"url": "https://openai.com/index/prediction-and-control-with-temporal-segment-models/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:38.095Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布使用最优传输改进 GAN 的研究",
+		"url": "https://openai.com/index/improving-gans-using-optimal-transport/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:34.049Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布生成式模型",
+		"url": "https://openai.com/index/generative-models/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:33.137Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Variational Lossy Autoencoder",
+		"url": "https://openai.com/index/variational-lossy-autoencoder/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:31.325Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 PixelCNN++ 图像生成模型",
+		"url": "https://openai.com/index/pixelcnn-plus-plus/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:31.143Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布经济影响研究",
+		"url": "https://openai.com/index/economic-impacts-research/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:02.867Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Universe",
+		"url": "https://openai.com/index/universe/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:44:01.565Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Gym Beta 强化学习环境",
+		"url": "https://openai.com/index/openai-gym-beta/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:43:57.402Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 O1 Mini 模型，推进低成本推理",
+		"url": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:43:50.206Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Reptile",
+		"url": "https://openai.com/index/reptile/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:43:45.356Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布大规模深度强化学习 Dota 2 研究",
 		"url": "https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning/",
 		"source": "OpenAI",
-		"date": "2026-05-24T21:50:31.464Z",
+		"date": "2026-05-27T19:43:42.624Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 提出参数噪声提升强化学习探索效率",
+		"url": "https://openai.com/index/better-exploration-with-parameter-noise/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:43:42.602Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 MLE Bench 评测基准",
+		"url": "https://openai.com/index/mle-bench/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:43:39.010Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Block Sparse GPU 块稀疏计算内核",
+		"url": "https://openai.com/index/block-sparse-gpu-kernels/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:43:37.123Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Procgen Benchmark 评测基准",
+		"url": "https://openai.com/index/procgen-benchmark/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:43:36.373Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 推出 Faster Physics in Python 工具",
+		"url": "https://openai.com/index/faster-physics-in-python/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:43:35.644Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 开源 Gym Retro 平台",
+		"url": "https://openai.com/index/gym-retro/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:43:29.018Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 开源 Baselines DQN 实现",
+		"url": "https://openai.com/index/openai-baselines-dqn/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:42:07.234Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 提出用推理时计算换取对抗鲁棒性",
+		"url": "https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:42:01.320Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 开源 Whisper 语音识别模型",
+		"url": "https://openai.com/index/whisper/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:42:00.634Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 开源 Baselines 中的 ACKTR 与 A2C 算法实现",
+		"url": "https://openai.com/index/openai-baselines-acktr-a2c/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:41:55.901Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 开源 PPO 基线实现",
+		"url": "https://openai.com/index/openai-baselines-ppo/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:41:54.589Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 提出代码合成大模型危害分析框架",
+		"url": "https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:41:45.286Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布大规模神经网络训练技术报告",
+		"url": "https://openai.com/index/techniques-for-training-large-neural-networks/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:41:45.285Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Triton 编程框架更新",
+		"url": "https://openai.com/index/triton/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:41:45.282Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Safety Gym 安全训练环境",
+		"url": "https://openai.com/index/safety-gym/",
+		"source": "OpenAI",
+		"date": "2026-05-27T19:41:38.970Z",
 		"group": "labs"
 	},
 	{
@@ -11,34 +403,6 @@
 		"url": "https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines/",
 		"source": "OpenAI",
 		"date": "2026-05-24T21:50:22.357Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布使用最优传输改进 GAN 的研究",
-		"url": "https://openai.com/index/improving-gans-using-optimal-transport/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:50:18.860Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Evolution Through Large Models 研究",
-		"url": "https://openai.com/index/evolution-through-large-models/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:50:13.179Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 提出多智能体系统策略表示学习方法",
-		"url": "https://openai.com/index/learning-policy-representations-in-multiagent-systems/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:50:06.865Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-2-1.5B",
-		"url": "https://openai.com/index/gpt-2-1-5b-release/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:50:02.052Z",
 		"group": "labs"
 	},
 	{
@@ -63,20 +427,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 结合域随机化与生成模型改进机器人抓取",
-		"url": "https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:49:21.579Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Triton 编程框架更新",
-		"url": "https://openai.com/index/triton/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:49:21.552Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 AI 与效率主题文章",
 		"url": "https://openai.com/index/ai-and-efficiency/",
 		"source": "OpenAI",
@@ -88,13 +438,6 @@
 		"url": "https://openai.com/index/scaling-laws-for-neural-language-models/",
 		"source": "OpenAI",
 		"date": "2026-05-24T21:49:20.439Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 开源 PPO 基线实现",
-		"url": "https://openai.com/index/openai-baselines-ppo/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:49:20.321Z",
 		"group": "labs"
 	},
 	{
@@ -119,13 +462,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Energy Based Models",
-		"url": "https://openai.com/index/energy-based-models/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:49:17.458Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 更新模型规范 Model Spec",
 		"url": "https://openai.com/index/sharing-the-latest-model-spec/",
 		"source": "OpenAI",
@@ -140,31 +476,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出 Faster Physics in Python 工具",
-		"url": "https://openai.com/index/faster-physics-in-python/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:49:15.315Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Sparse Transformer",
-		"url": "https://openai.com/index/sparse-transformer/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:49:01.422Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 将单减振幅方法扩展至引力子研究",
 		"url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/",
 		"source": "OpenAI",
 		"date": "2026-05-24T21:48:55.332Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 更新研究索引页面",
-		"url": "https://openai.com/research/index/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:51.935Z",
 		"group": "labs"
 	},
 	{
@@ -231,13 +546,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 提出参数噪声提升强化学习探索效率",
-		"url": "https://openai.com/index/better-exploration-with-parameter-noise/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:30.314Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布理论物理学新成果",
 		"url": "https://openai.com/index/new-result-theoretical-physics/",
 		"source": "OpenAI",
@@ -249,20 +557,6 @@
 		"url": "https://openai.com/index/first-proof-submissions/",
 		"source": "OpenAI",
 		"date": "2026-05-24T21:48:29.426Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Procgen Benchmark 评测基准",
-		"url": "https://openai.com/index/procgen-benchmark/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:29.293Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 开源 Gym Retro 平台",
-		"url": "https://openai.com/index/gym-retro/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:29.164Z",
 		"group": "labs"
 	},
 	{
@@ -287,13 +581,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Learning to Model Other Minds 研究",
-		"url": "https://openai.com/index/learning-to-model-other-minds/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:27.919Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 TruthfulQA 评测基准",
 		"url": "https://openai.com/index/truthfulqa/",
 		"source": "OpenAI",
@@ -308,31 +595,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Ffjord",
-		"url": "https://openai.com/index/ffjord/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:26.439Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 提出 Teaching 框架实现可解释机器学习",
 		"url": "https://openai.com/index/interpretable-machine-learning-through-teaching/",
 		"source": "OpenAI",
 		"date": "2026-05-24T21:48:25.971Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Jukebox 项目",
-		"url": "https://openai.com/index/jukebox/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:25.779Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Block Sparse GPU 块稀疏计算内核",
-		"url": "https://openai.com/index/block-sparse-gpu-kernels/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:24.791Z",
 		"group": "labs"
 	},
 	{
@@ -364,13 +630,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布多智能体协作与竞争研究",
-		"url": "https://openai.com/index/learning-to-cooperate-compete-and-communicate/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:20.947Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 提出基于 Q 集成的 UCB 探索方法",
 		"url": "https://openai.com/index/ucb-exploration-via-q-ensembles/",
 		"source": "OpenAI",
@@ -385,13 +644,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 开源 Baselines 中的 ACKTR 与 A2C 算法实现",
-		"url": "https://openai.com/index/openai-baselines-acktr-a2c/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:18.927Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 Microscope 模型可解释性工具",
 		"url": "https://openai.com/index/microscope/",
 		"source": "OpenAI",
@@ -403,20 +655,6 @@
 		"url": "https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning/",
 		"source": "OpenAI",
 		"date": "2026-05-24T21:48:16.507Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推出 Roboschool 机器人训练环境",
-		"url": "https://openai.com/index/roboschool/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:16.034Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 开源 Baselines DQN 实现",
-		"url": "https://openai.com/index/openai-baselines-dqn/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:14.207Z",
 		"group": "labs"
 	},
 	{
@@ -452,20 +690,6 @@
 		"url": "https://openai.com/index/teacher-student-curriculum-learning/",
 		"source": "OpenAI",
 		"date": "2026-05-24T21:48:12.536Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Reptile",
-		"url": "https://openai.com/index/reptile/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:12.389Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布面向摔跤的元学习研究",
-		"url": "https://openai.com/index/meta-learning-for-wrestling/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:11.792Z",
 		"group": "labs"
 	},
 	{
@@ -508,13 +732,6 @@
 		"url": "https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle/",
 		"source": "OpenAI",
 		"date": "2026-05-24T21:48:09.287Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布大规模神经网络训练技术报告",
-		"url": "https://openai.com/index/techniques-for-training-large-neural-networks/",
-		"source": "OpenAI",
-		"date": "2026-05-24T21:48:09.201Z",
 		"group": "labs"
 	},
 	{
@@ -812,13 +1029,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 DALL·E 2 预训练缓解措施",
-		"url": "https://openai.com/index/dall-e-2-pre-training-mitigations/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:19:02.598Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT-5 5 System Card",
 		"url": "https://openai.com/index/gpt-5-system-card/",
 		"source": "OpenAI",
@@ -858,13 +1068,6 @@
 		"url": "https://openai.com/index/sora-feed-philosophy/",
 		"source": "OpenAI",
 		"date": "2026-05-22T19:17:24.696Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布经济影响研究",
-		"url": "https://openai.com/index/economic-impacts-research/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:17:23.518Z",
 		"group": "labs"
 	},
 	{
@@ -1015,13 +1218,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 O1 Mini 模型，推进低成本推理",
-		"url": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:12:13.706Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 为 ChatGPT 增加敏感对话上下文识别能力",
 		"url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations/",
 		"source": "OpenAI",
@@ -1089,13 +1285,6 @@
 		"url": "https://openai.com/index/openai-anthropic-safety-evaluation/",
 		"source": "OpenAI",
 		"date": "2026-05-22T19:11:00.777Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布视频生成模型作为世界模拟器",
-		"url": "https://openai.com/index/video-generation-models-as-world-simulators/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:10:37.692Z",
 		"group": "labs"
 	},
 	{
@@ -1260,13 +1449,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 提出一致性模型训练改进技术",
-		"url": "https://openai.com/index/improved-techniques-for-training-consistency-models/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:07:10.899Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 Deep Research 系统卡",
 		"url": "https://openai.com/index/deep-research-system-card/",
 		"source": "OpenAI",
@@ -1316,13 +1498,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 提出代码合成大模型危害分析框架",
-		"url": "https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:06:30.750Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 推出 Critiques 评测工具",
 		"url": "https://openai.com/index/critiques/",
 		"source": "OpenAI",
@@ -1351,31 +1526,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布基于人类反馈的摘要学习研究",
-		"url": "https://openai.com/index/learning-to-summarize-with-human-feedback/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:06:22.736Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Fine Tuning GPT-2",
-		"url": "https://openai.com/index/fine-tuning-gpt-2/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:06:19.372Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布深度强化学习安全探索基准测试",
 		"url": "https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning/",
 		"source": "OpenAI",
 		"date": "2026-05-22T19:06:19.362Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Safety Gym 安全训练环境",
-		"url": "https://openai.com/index/safety-gym/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:06:17.718Z",
 		"group": "labs"
 	},
 	{
@@ -1456,13 +1610,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布无监督情感神经元研究",
-		"url": "https://openai.com/index/unsupervised-sentiment-neuron/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:37.810Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 证明策略梯度与软 Q 学习的等价性",
 		"url": "https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning/",
 		"source": "OpenAI",
@@ -1484,20 +1631,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Temporal Segment Models 时序段模型",
-		"url": "https://openai.com/index/prediction-and-control-with-temporal-segment-models/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:34.726Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布多智能体群体涌现组合语言研究",
-		"url": "https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:34.628Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布神经网络策略对抗攻击研究",
 		"url": "https://openai.com/index/adversarial-attacks-on-neural-network-policies/",
 		"source": "OpenAI",
@@ -1512,38 +1645,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Universe",
-		"url": "https://openai.com/index/universe/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:32.451Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 PixelCNN++ 图像生成模型",
-		"url": "https://openai.com/index/pixelcnn-plus-plus/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:32.182Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 揭示 GAN、逆强化学习与基于能量模型的理论联系",
-		"url": "https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:31.108Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 Exploration 项目",
 		"url": "https://openai.com/index/exploration/",
 		"source": "OpenAI",
 		"date": "2026-05-22T19:05:30.956Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发表基于解码器的生成模型定量分析研究",
-		"url": "https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:30.694Z",
 		"group": "labs"
 	},
 	{
@@ -1558,13 +1663,6 @@
 		"url": "https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online/",
 		"source": "OpenAI",
 		"date": "2026-05-22T19:05:29.631Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Variational Lossy Autoencoder",
-		"url": "https://openai.com/index/variational-lossy-autoencoder/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:29.237Z",
 		"group": "labs"
 	},
 	{
@@ -1589,13 +1687,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布生成式模型",
-		"url": "https://openai.com/index/generative-models/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:26.789Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 提出具体 AI 安全问题",
 		"url": "https://openai.com/index/concrete-ai-safety-problems/",
 		"source": "OpenAI",
@@ -1614,13 +1705,6 @@
 		"url": "https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification/",
 		"source": "OpenAI",
 		"date": "2026-05-22T19:05:25.709Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Gym Beta 强化学习环境",
-		"url": "https://openai.com/index/openai-gym-beta/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:05:25.599Z",
 		"group": "labs"
 	},
 	{
@@ -1736,13 +1820,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 MLE Bench 评测基准",
-		"url": "https://openai.com/index/mle-bench/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:04:00.806Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 推出 Concerns 政策",
 		"url": "https://openai.com/index/openai-raising-concerns-policy/",
 		"source": "OpenAI",
@@ -1754,13 +1831,6 @@
 		"url": "https://openai.com/index/gpt-4-5-system-card/",
 		"source": "OpenAI",
 		"date": "2026-05-22T19:03:43.610Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 提出用推理时计算换取对抗鲁棒性",
-		"url": "https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:03:43.563Z",
 		"group": "labs"
 	},
 	{
@@ -1876,13 +1946,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Consistency Models",
-		"url": "https://openai.com/index/consistency-models/",
-		"source": "OpenAI",
-		"date": "2026-05-22T19:00:12.902Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT-5.1 Codex Max",
 		"url": "https://openai.com/index/gpt-5-1-codex-max/",
 		"source": "OpenAI",
@@ -1911,13 +1974,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布基于 CLIP 潜变量的层级文本条件图像生成方法",
-		"url": "https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents/",
-		"source": "OpenAI",
-		"date": "2026-05-22T18:59:27.140Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT 开源模型卡",
 		"url": "https://openai.com/index/gpt-oss-model-card/",
 		"source": "OpenAI",
@@ -1932,13 +1988,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Image GPT",
-		"url": "https://openai.com/index/image-gpt/",
-		"source": "OpenAI",
-		"date": "2026-05-22T18:59:07.621Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 在 ChatGPT 中推出 Lockdown Mode 与风险标签",
 		"url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
 		"source": "OpenAI",
@@ -1950,13 +1999,6 @@
 		"url": "https://openai.com/index/introducing-indqa/",
 		"source": "OpenAI",
 		"date": "2026-05-22T18:58:58.002Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Point E 3D 生成模型",
-		"url": "https://openai.com/index/point-e/",
-		"source": "OpenAI",
-		"date": "2026-05-22T18:58:09.626Z",
 		"group": "labs"
 	},
 	{
@@ -1992,13 +2034,6 @@
 		"url": "https://openai.com/index/solving-math-word-problems/",
 		"source": "OpenAI",
 		"date": "2026-05-22T18:57:04.976Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Sora System Card",
-		"url": "https://openai.com/index/sora-system-card/",
-		"source": "OpenAI",
-		"date": "2026-05-22T18:56:55.333Z",
 		"group": "labs"
 	},
 	{
@@ -2093,237 +2128,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "SkillOpt 提出 agent skill 策略优化方法",
-		"url": "https://arxiv.org/abs/2605.23904v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:59:50Z",
-		"group": "papers"
-	},
-	{
-		"title": "Geo-Align 提出基于度量几何奖励的视频生成对齐方法",
-		"url": "https://arxiv.org/abs/2605.23903v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:59:43Z",
-		"group": "papers"
-	},
-	{
-		"title": "PiD 提出像素扩散解码器加速高分辨率图像生成",
-		"url": "https://arxiv.org/abs/2605.23902v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:59:42Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究提出 Shannon Scaling Law 解释大模型非单调现象",
-		"url": "https://arxiv.org/abs/2605.23901v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:59:38Z",
-		"group": "papers"
-	},
-	{
-		"title": "从经验到技能的 Agent 技能消费系统研究",
-		"url": "https://arxiv.org/abs/2605.23899v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:59:12Z",
-		"group": "papers"
-	},
-	{
-		"title": "SPACENUM 重新审视 VLM 空间数值理解能力",
-		"url": "https://arxiv.org/abs/2605.23898v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:58:36Z",
-		"group": "papers"
-	},
-	{
-		"title": "新研究发现人类大脑中的因果视觉表征",
-		"url": "https://arxiv.org/abs/2605.23895v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:56:37Z",
-		"group": "papers"
-	},
-	{
-		"title": "Complete-muE 提出 MoE 模型最优超参数转移与缩放框架",
-		"url": "https://arxiv.org/abs/2605.23893v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:56:13Z",
-		"group": "papers"
-	},
-	{
-		"title": "Good Token Hunting 提出视觉几何 Transformer 的 token 选择方法",
-		"url": "https://arxiv.org/abs/2605.23892v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:55:13Z",
-		"group": "papers"
-	},
-	{
-		"title": "Smart-Insertion-V 提出闭环反馈双流视频插入框架",
-		"url": "https://arxiv.org/abs/2605.23891v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:54:54Z",
-		"group": "papers"
-	},
-	{
-		"title": "HorizonStream 提出长程注意力机制用于流式 3D 重建",
-		"url": "https://arxiv.org/abs/2605.23889v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:50:48Z",
-		"group": "papers"
-	},
-	{
-		"title": "GenRecon 提出基于生成先验的多视图 3D 场景重建方法",
-		"url": "https://arxiv.org/abs/2605.23888v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:49:59Z",
-		"group": "papers"
-	},
-	{
-		"title": "CHRONOS 提出面向时序知识图谱市场的多智能体协调方案",
-		"url": "https://arxiv.org/abs/2605.23887v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:47:45Z",
-		"group": "papers"
-	},
-	{
-		"title": "基于词汇干预的多语言知识迁移方法",
-		"url": "https://arxiv.org/abs/2605.23885v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:45:49Z",
-		"group": "papers"
-	},
-	{
-		"title": "PGT 提出程序化生成任务以提升 MLLM 细粒度视觉理解",
-		"url": "https://arxiv.org/abs/2605.23883v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:45:01Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究分析球形 Hellinger-Kantorovich 流与差分隐私的关系",
-		"url": "https://arxiv.org/abs/2605.23879v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:38:20Z",
-		"group": "papers"
-	},
-	{
-		"title": "LaMo 提出自监督潜在运动先验提升视频生成物理真实性",
-		"url": "https://arxiv.org/abs/2605.23878v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:34:42Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究者提出免训练的循环 Transformer 方法",
-		"url": "https://arxiv.org/abs/2605.23872v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:31:16Z",
-		"group": "papers"
-	},
-	{
-		"title": "Muon 优化器概率梯度流理论分析论文发布",
-		"url": "https://arxiv.org/abs/2605.23871v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:28:53Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究揭示 Vision Transformer 需要更好的 token 交互机制",
-		"url": "https://arxiv.org/abs/2605.23868v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:25:16Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究评估 LLM 叙事解释对人类决策的影响",
-		"url": "https://arxiv.org/abs/2605.23867v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:25:02Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究提出利用基础模型进行因果生成建模的统一框架",
-		"url": "https://arxiv.org/abs/2605.23861v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:20:17Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究挑战 LLM 预训练蒸馏的强教师假设",
-		"url": "https://arxiv.org/abs/2605.23857v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:16:35Z",
-		"group": "papers"
-	},
-	{
-		"title": "半随机对抗条件下谱排名逐项误差界研究",
-		"url": "https://arxiv.org/abs/2605.23854v1",
-		"source": "arXiv",
-		"date": "2026-05-22T17:08:07Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究提出基于真实世界视频的粒子动力学模型",
-		"url": "https://arxiv.org/abs/2605.23845v1",
-		"source": "arXiv",
-		"date": "2026-05-22T16:56:27Z",
-		"group": "papers"
-	},
-	{
-		"title": "MuellerPT 提出分解驱动的预训练方法用于 Mueller 偏振测量",
-		"url": "https://arxiv.org/abs/2605.23840v1",
-		"source": "arXiv",
-		"date": "2026-05-22T16:48:57Z",
-		"group": "papers"
-	},
-	{
-		"title": "Decomposing Queries 提出将查询分解为工具调用实现长视频关键帧检索",
-		"url": "https://arxiv.org/abs/2605.23826v1",
-		"source": "arXiv",
-		"date": "2026-05-22T16:29:51Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究揭示 LLM 地缘政治偏见主要来自后训练阶段",
-		"url": "https://arxiv.org/abs/2605.23825v1",
-		"source": "arXiv",
-		"date": "2026-05-22T16:29:02Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究揭示语言模型中层级概念几何结构源于词共现",
-		"url": "https://arxiv.org/abs/2605.23821v1",
-		"source": "arXiv",
-		"date": "2026-05-22T16:24:30Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究揭示判别式与生成式训练对齐人类视觉感知的最佳平衡点",
-		"url": "https://arxiv.org/abs/2605.23819v1",
-		"source": "arXiv",
-		"date": "2026-05-22T16:21:25Z",
-		"group": "papers"
-	},
-	{
-		"title": "Debiased Negative Mining 改善视觉语言模型 OOD 检测",
-		"url": "https://arxiv.org/abs/2605.23797v1",
-		"source": "arXiv",
-		"date": "2026-05-22T15:57:56Z",
-		"group": "papers"
-	},
-	{
-		"title": "事件流显著性预测的 Transformer 方法",
-		"url": "https://arxiv.org/abs/2605.23790v1",
-		"source": "arXiv",
-		"date": "2026-05-22T15:52:01Z",
-		"group": "papers"
-	},
-	{
-		"title": "研究提出对抗子空间对齐方法实现鲁棒多模态知识编辑",
-		"url": "https://arxiv.org/abs/2605.23780v1",
-		"source": "arXiv",
-		"date": "2026-05-22T15:46:10Z",
-		"group": "papers"
-	},
-	{
 		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
 		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
 		"source": "OpenAI",
@@ -2331,66 +2135,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "研究揭示 AI 天气模型隐含物理方程",
-		"url": "https://arxiv.org/abs/2605.23778v1",
-		"source": "arXiv",
-		"date": "2026-05-22T15:43:56Z",
-		"group": "papers"
-	},
-	{
-		"title": "机器学习应用于祖母绿宝石分级的研究提出框架与公开数据集",
-		"url": "https://arxiv.org/abs/2605.23777v1",
-		"source": "arXiv",
-		"date": "2026-05-22T15:43:26Z",
-		"group": "papers"
-	},
-	{
 		"title": "OpenAI 发布日本青少年安全蓝图",
 		"url": "https://openai.com/index/japan-teen-safety-blueprint/",
 		"source": "OpenAI",
 		"date": "2026-05-22T15:43:24.766Z",
-		"group": "labs"
-	},
-	{
-		"title": "arXiv 研究提出 cGAN 与图像处理结合的木材计数方法",
-		"url": "https://arxiv.org/abs/2605.23775v1",
-		"source": "arXiv",
-		"date": "2026-05-22T15:43:16Z",
-		"group": "papers"
-	},
-	{
-		"title": "Agentic Proving 框架将 Claude Code 用于程序验证",
-		"url": "https://arxiv.org/abs/2605.23772v1",
-		"source": "arXiv",
-		"date": "2026-05-22T15:41:27Z",
-		"group": "papers"
-	},
-	{
-		"title": "PhotoFlow 提出 Agentic 3D 虚拟摄影任务与方法",
-		"url": "https://arxiv.org/abs/2605.23771v1",
-		"source": "arXiv",
-		"date": "2026-05-22T15:40:52Z",
-		"group": "papers"
-	},
-	{
-		"title": "OpenAI 发布 GPT-4o System Card",
-		"url": "https://openai.com/index/gpt-4o-system-card/",
-		"source": "OpenAI",
-		"date": "2026-05-22T14:38:36.022Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 开源 Whisper 语音识别模型",
-		"url": "https://openai.com/index/whisper/",
-		"source": "OpenAI",
-		"date": "2026-05-22T14:38:12.884Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 LLM 推理能力训练研究成果",
-		"url": "https://openai.com/index/learning-to-reason-with-llms/",
-		"source": "OpenAI",
-		"date": "2026-05-22T14:36:42.471Z",
 		"group": "labs"
 	},
 	{
@@ -2681,13 +2429,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "academic-research-skills 开源 Claude Code 学术研究技能包",
-		"url": "https://github.com/Imbad0202/academic-research-skills",
-		"source": "GitHub",
-		"date": "2026-05-18T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 收购 Stainless",
 		"url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
 		"source": "Anthropic News",
@@ -2796,6 +2537,13 @@
 		"title": "Databricks 将 GPT-5.5 接入企业 agent 工作流",
 		"url": "https://openai.com/index/databricks",
 		"source": "OpenAI",
+		"date": "2026-05-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 接入 Hermes Agent 框架",
+		"url": "https://x.ai/news/grok-hermes",
+		"source": "xAI",
 		"date": "2026-05-15T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2954,24 +2702,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出 Campus Network 学生社团兴趣登记表",
-		"url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-		"source": "OpenAI",
-		"date": "2026-05-11T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布企业部署公司 DeployCo",
-		"url": "https://openai.com/index/openai-launches-the-deployment-company",
-		"source": "OpenAI",
-		"date": "2026-05-11T06:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 详解 Codex 安全运行机制",
-		"url": "https://openai.com/index/running-codex-safely",
-		"source": "OpenAI",
-		"date": "2026-05-08T12:30:00.000Z",
+		"title": "Anthropic 推出面向金融服务的 Agent 方案",
+		"url": "https://www.anthropic.com/news/finance-agents",
+		"source": "Anthropic News",
+		"date": "2026-05-07T20:29:52.000Z",
 		"group": "labs"
 	},
 	{
@@ -2979,13 +2713,6 @@
 		"url": "https://www.anthropic.com/news/model-context-protocol",
 		"source": "Anthropic News",
 		"date": "2026-05-07T20:07:05.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-		"url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-		"source": "OpenAI",
-		"date": "2026-05-07T13:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -3052,13 +2779,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 推出面向金融服务的 Agent 方案",
-		"url": "https://www.anthropic.com/news/finance-agents",
-		"source": "Anthropic News",
-		"date": "2026-05-05T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google 发布 2026 年 4 月 AI 更新汇总",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
 		"source": "Google AI",
@@ -3066,31 +2786,17 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 与 Blackstone、Hellman & Friedman、Goldman Sachs 成立企业 AI 服务公司",
+		"url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+		"source": "Anthropic News",
+		"date": "2026-05-04T15:43:58.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Google AI 在 Gemini API 中引入事件驱动 Webhooks",
 		"url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
 		"source": "Google AI",
 		"date": "2026-05-04T15:30:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 与 Blackstone、Hellman & Friedman、Goldman Sachs 成立企业 AI 服务公司",
-		"url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-		"source": "Anthropic News",
-		"date": "2026-05-04T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布图像推理功能",
-		"url": "https://openai.com/index/thinking-with-images/",
-		"source": "OpenAI",
-		"date": "2026-05-02T01:40:56.554Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-4o Mini",
-		"url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
-		"source": "OpenAI",
-		"date": "2026-05-02T01:40:41.349Z",
 		"group": "labs"
 	},
 	{
@@ -3332,13 +3038,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布具备推理能力的 ChatGPT Images 2.0",
-		"url": "https://openai.com/index/introducing-chatgpt-images-2-0/#textmode",
-		"source": "OpenAI",
-		"date": "2026-04-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 81k Economics 研究",
 		"url": "https://www.anthropic.com/research/81k-economics",
 		"source": "Anthropic Research",
@@ -3365,13 +3064,6 @@
 		"source": "NVIDIA",
 		"date": "2026-04-21T10:26:32.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "browser-use 开源 Browser Harness 浏览器自动化框架",
-		"url": "https://github.com/browser-use/browser-harness",
-		"source": "GitHub",
-		"date": "2026-04-20T00:00:00.000Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic Labs 发布 Claude Design 设计工具",
@@ -3402,32 +3094,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "英伟达发布世界生成模型 Lyra 2.0",
-		"url": "https://github.com/nv-tlabs/lyra/tree/main/Lyra-2",
-		"source": "GitHub",
-		"date": "2026-04-16T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 发布 Claude Opus 4.7",
 		"url": "https://www.anthropic.com/news/claude-opus-4-7",
 		"source": "Anthropic News",
 		"date": "2026-04-16T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Hue 开源设计系统生成技能，输入 URL 或截图捕获品牌风格",
-		"url": "https://github.com/dominikmartn/hue",
-		"source": "GitHub",
-		"date": "2026-04-16T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodeFlow 开源零配置代码架构可视化工具",
-		"url": "https://github.com/braedonsaunders/codeflow",
-		"source": "GitHub",
-		"date": "2026-04-16T00:00:00.000Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Earth AI 地球科学平台",
@@ -3526,20 +3197,6 @@
 		"source": "DeepMind",
 		"date": "2026-04-13T15:52:13.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "markdown-viewer 开源 AI 在 Markdown 中生成专业图表的 skill",
-		"url": "https://github.com/markdown-viewer/skills",
-		"source": "GitHub",
-		"date": "2026-04-13T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
-		"title": "哪吒Nezha 开源多任务 Vibe Coding 管理工具",
-		"url": "https://github.com/hanshuaikang/nezha",
-		"source": "GitHub",
-		"date": "2026-04-13T00:00:00.000Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google AI 发布量子计算相关进展",
@@ -3675,13 +3332,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "TrendRadar 开源全网热点舆情监控工具，支持11个平台",
-		"url": "https://github.com/sansan0/TrendRadar",
-		"source": "GitHub",
-		"date": "2026-03-31T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepMind 将鼠标指针变为上下文感知 AI 协作助手",
 		"url": "https://deepmind.google/blog/ai-pointer/",
 		"source": "DeepMind",
@@ -3780,13 +3430,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 发布 TurboQuant 压缩算法，KV 缓存内存减少 6 倍速度提升 8 倍",
-		"url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/?utm_source=twitter&utm_medium=social&utm_campaign=social_post&utm_content=gr-acct",
-		"source": "research.google",
-		"date": "2026-03-25T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude Code 推出自动模式",
 		"url": "https://claude.com/blog/auto-mode",
 		"source": "claude.com",
@@ -3808,20 +3451,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "web-access 为 Claude Code 提供联网与浏览器自动化能力",
-		"url": "https://github.com/eze-is/web-access",
-		"source": "GitHub",
-		"date": "2026-03-24T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里发布 PrismAudio 环境音/音效模型",
-		"url": "https://huggingface.co/FunAudioLLM/PrismAudio",
-		"source": "HuggingFace",
-		"date": "2026-03-24T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Nemotron 3 超级 Agentic AI",
 		"url": "https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/",
 		"source": "NVIDIA",
@@ -3834,13 +3463,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-03-23T19:41:07.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "openclaw-security-hardening 开源 OpenClaw 安全体检加固工具",
-		"url": "https://github.com/shanggqm/openclaw-security-hardening",
-		"source": "GitHub",
-		"date": "2026-03-23T00:00:00.000Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 India AI Mission 基础设施模型",
@@ -3899,13 +3521,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Claude Code 上线 Telegram 和 Discord 消息交互功能",
-		"url": "https://code.claude.com/docs/en/channels",
-		"source": "code.claude.com",
-		"date": "2026-03-20T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发文探讨 AI 初创公司应对快餐业劳动力短缺",
 		"url": "https://blogs.nvidia.com/blog/ai-startup-fast-food-labor-crunch/",
 		"source": "NVIDIA",
@@ -3924,13 +3539,6 @@
 		"url": "https://blogs.nvidia.com/blog/yum-brands-ai/",
 		"source": "NVIDIA",
 		"date": "2026-03-19T22:47:40.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "小米发布全栈 Agent 模型 MiMo-V2-Pro、Omni、TTS",
-		"url": "https://mimo.xiaomi.com/",
-		"source": "mimo.xiaomi.com",
-		"date": "2026-03-19T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -3960,27 +3568,6 @@
 		"source": "Google AI",
 		"date": "2026-03-19T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "EvoSkill 开源 Agent Skill 自我进化系统",
-		"url": "https://github.com/sentient-agi/EvoSkill",
-		"source": "GitHub",
-		"date": "2026-03-19T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里开源纯前端 JavaScript GUI Agent Page Agent",
-		"url": "https://github.com/alibaba/page-agent",
-		"source": "GitHub",
-		"date": "2026-03-19T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
-		"title": "EvoScientist 开源多智能体科研系统，覆盖文献调研到论文撰写",
-		"url": "https://github.com/EvoScientist/EvoScientist",
-		"source": "GitHub",
-		"date": "2026-03-19T00:00:00.000Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google 发布 Shadowplay 手部交互 AI 娱乐应用",
@@ -4256,27 +3843,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "posterskill 开源学术海报生成 Skill",
-		"url": "https://github.com/ethanweber/posterskill",
-		"source": "GitHub",
-		"date": "2026-03-18T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenCLI 开源网站转 CLI 工具，支持 B 站、知乎、X 等 19 个网站",
-		"url": "https://github.com/jackwener/opencli",
-		"source": "GitHub",
-		"date": "2026-03-18T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
-		"title": "Unsloth Studio 开源无代码模型训练工具",
-		"url": "https://github.com/unslothai/unsloth",
-		"source": "GitHub",
-		"date": "2026-03-18T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepMind 提出以人为中心的民主 AI 机制设计方法",
 		"url": "https://deepmind.google/blog/human-centred-mechanism-design-with-democratic-ai/",
 		"source": "DeepMind",
@@ -4317,27 +3883,6 @@
 		"source": "DeepMind",
 		"date": "2026-03-17T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "okara.ai 发布 AI CMO 自动化营销智能体团队",
-		"url": "https://okara.ai/agent/cmo",
-		"source": "okara.ai",
-		"date": "2026-03-17T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "HyperSkill 开源 AI skill 自动化生产工具",
-		"url": "https://github.com/hyperbrowserai/hyperbrowser-app-examples/tree/main/hyperskills",
-		"source": "GitHub",
-		"date": "2026-03-17T00:00:00.000Z",
-		"group": "gh"
-	},
-	{
-		"title": "Claw Colony 开源多 AI 自主演化社交生态实验",
-		"url": "https://github.com/agi-bar/clawcolony",
-		"source": "GitHub",
-		"date": "2026-03-17T00:00:00.000Z",
-		"group": "gh"
 	},
 	{
 		"title": "Mistral 发布 Voxtral Transcribe 2 语音识别模型",
@@ -13321,13 +12866,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 发布基因组大语言模型预测新冠变异",
-		"url": "https://blogs.nvidia.com/blog/genomic-large-language-model-predicts-covid-variants/",
-		"source": "NVIDIA",
-		"date": "2024-10-16T18:53:22.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 更新负责任扩展政策",
 		"url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
 		"source": "Anthropic News",
@@ -14133,13 +13671,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "LLMs as Noisy Channels 论文从香农视角分析模型容量与缩放法则",
-		"url": "https://huggingface.co/papers/2605.23901",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
 		"title": "Mistral 发布 Voxtral TTS 文本转语音模型",
 		"url": "https://mistral.ai/news/voxtral-tts",
 		"source": "Mistral",
@@ -14178,13 +13709,6 @@
 		"title": "Meta AI 发布 Canopy Height Maps v2 全球森林冠层高度地图",
 		"url": "https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/",
 		"source": "Meta AI",
-		"date": "",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 将 Grok 接入 Hermes Agent 框架",
-		"url": "https://x.ai/news/grok-hermes",
-		"source": "xAI",
 		"date": "",
 		"group": "labs"
 	},
@@ -16282,62 +15806,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Lens 提出文本到图像基础模型训练效率改进方案",
-		"url": "https://huggingface.co/papers/2605.21573",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
-		"title": "论文提出视频细粒度物体理解的视觉与语言对齐方法",
-		"url": "https://huggingface.co/papers/2605.18018",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
-		"title": "SkillOpt 提出自进化 Agent 技能的执行策略",
-		"url": "https://huggingface.co/papers/2605.23904",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
-		"title": "SCOPE 项目发布用于 FPS 游戏的世界模型仿真环境",
-		"url": "https://huggingface.co/papers/2605.23345",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
-		"title": "PiD 提出像素扩散实现快速高分辨率潜在解码",
-		"url": "https://huggingface.co/papers/2605.23902",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
-		"title": "Geo-Align 提出基于度量几何奖励的视频生成对齐方法",
-		"url": "https://huggingface.co/papers/2605.23903",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
-		"title": "Muon 优化器在 VLA 和 RLVR 中的频谱失败与修复方案",
-		"url": "https://huggingface.co/papers/2605.19282",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
-		"title": "Hugging Face 发布 HINT-SD 长期决策 agent 自蒸馏方法",
-		"url": "https://huggingface.co/papers/2605.17873",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
 		"title": "Mistral Studio 上线内置与自定义 MCP 连接器",
 		"url": "https://mistral.ai/news/connectors",
 		"source": "Mistral",
@@ -18044,27 +17512,6 @@
 		"source": "Meta AI",
 		"date": "",
 		"group": "labs"
-	},
-	{
-		"title": "重新思考扩散Transformer的跨层信息路由",
-		"url": "https://huggingface.co/papers/2605.20708",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
-		"title": "StepAudio 发布 2.5 技术报告",
-		"url": "https://huggingface.co/papers/2605.23463",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
-	},
-	{
-		"title": "ETCHR 提出编辑方法以提升推理能力",
-		"url": "https://huggingface.co/papers/2605.23897",
-		"source": "HuggingFace Papers",
-		"date": "",
-		"group": "papers"
 	},
 	{
 		"title": "xAI 完成 Series B 融资",
