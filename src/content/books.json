@@ -143,6 +143,17 @@
 		"series": "人格因果学"
 	},
 	{
+		"id": 15,
+		"slug": "claude-code-paper-writing",
+		"title": "Claude Code 科研手记",
+		"subtitle": "用 Claude Code 写论文的真实记录——走过的步、踩过的坑、稳定下来的习惯",
+		"author": "Chanw",
+		"cover": "../images/books/claude-code-paper-writing.jpg",
+		"link": "/books/claude-code-paper-writing",
+		"status": "已成稿",
+		"series": "AI 方法论系列"
+	},
+	{
 		"id": 14,
 		"slug": "silicon-social-science",
 		"title": "硅基社会学派",

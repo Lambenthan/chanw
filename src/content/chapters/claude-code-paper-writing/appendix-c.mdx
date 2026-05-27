@@ -1,0 +1,137 @@
+---
+title: "科研必备 Skill 推荐列表"
+description: "Claude Code 科研手记 · 附录 C"
+book: "claude-code-paper-writing"
+chapterNumber: 102
+chapterLabel: "附录 C"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["Claude Code", "科研工具", "AI 论文流水线"]
+---
+
+以下为论文写作过程中已确认实用的 Skill 列表。安装方式统一:在 Claude Code 对话中输入"帮我安装 [Skill 名] 这个 skill",或本地用 `cp -r` 复制到 `~/.claude/skills/` 目录。
+
+> [!TIP]
+> **Skill 的来源**
+>
+> 大部分现成 Skill 集中在 [skills.sh](https://skills.sh),由 Vercel 推出的开源 AI 技能包管理平台。可类比为 Skill 版本的 npm。安装命令为 `npx skills add <owner/repo@skill-name>`。
+
+---
+
+## 论文写作核心推荐
+
+<div align="center">
+
+| Skill 名称 | 说明 |
+|:--|:--|
+| `/pdf` | 读 PDF 全文。支持合并、拆分、加水印、OCR 识别扫描件。论文写作中使用频率最高的 Skill |
+| `/drawio` | 用 Draw.io 格式绘制流程图、架构图、研究框架图。输出 `.drawio` 文件,可直接用 Draw.io 打开编辑 |
+| `/markitdown` | 微软开发的格式转换工具。把 PDF、Word、PPT、Excel 等转换为 Markdown |
+| `/citation-management` | 引用管理与核查。检索 Google Scholar 与 PubMed、生成 BibTeX、验证引用格式 |
+| `/arxiv-database` | 检索 arXiv 预印本。按关键词、作者、时间范围查询 |
+| `/docx` | 创建与编辑 Word 文档。DOCX 操作前注意备份 |
+| `/humanizer-zh` | 中文学术润色。术语保护、AI 痕迹抑制、句式控制 |
+| `/pyzotero` | 连接 Zotero 文献库。按标签筛选文献、读取笔记 |
+
+</div>
+
+> [!IMPORTANT]
+> **若仅装两个,建议这两个**
+>
+> `/pdf` 与 `/drawio`。我使用 100 多次与 104 次,覆盖了科研中使用频率最高的两类操作。
+
+---
+
+## 学术研究类
+
+<div align="center">
+
+| Skill 名称 | 功能说明 |
+|:--|:--|
+| `paper-polish-workflow` | 论文系统润色流程(结构、逻辑、表达逐层处理) |
+| `scientific-brainstorming` | 科研选题与方向探索,触发追问识别策略与证伪条件 |
+| `scientific-critical-thinking` | 科学主张与证据质量评估 |
+| `systematic-literature-review` | 系统文献综述(多源检索、筛选、评分、撰写) |
+| `scientific-slides` | 学术演讲 PPT 制作 |
+| `scientific-schematics` | 科学示意图生成(神经网络、流程图等) |
+| `pptx-posters` | 学术海报制作 |
+| `figures4papers-playbook` | 论文配图脚本模板库 |
+| `research-grants` | NSF、NIH 等科研基金申请书写作辅助 |
+| `research-book-style` | 科研工具书写作风格 |
+
+</div>
+
+---
+
+## 数据分析与可视化
+
+<div align="center">
+
+| Skill 名称 | 功能说明 |
+|:--|:--|
+| `statistical-analysis` | 统计检验选择、假设检查、APA 格式报告 |
+| `seaborn` | 统计可视化(箱线图、热力图等) |
+| `plotly` | 交互式可视化 |
+| `exploratory-data-analysis` | 200 多种格式的科学数据探索性分析 |
+| `dowhy-causal-inference` | 因果推断(因果图、效应估计) |
+| `pymc` | 贝叶斯概率建模 |
+| `scikit-survival` | 生存分析 |
+| `networkx` | 图与网络数据分析 |
+| `geopandas` | 地理空间矢量数据分析 |
+
+</div>
+
+---
+
+## 文献数据库
+
+<div align="center">
+
+| Skill 名称 | 功能说明 |
+|:--|:--|
+| `arxiv-database` | arXiv 多学科预印本 |
+| `biorxiv-database` | bioRxiv 生命科学预印本 |
+| `gene-database` | NCBI Gene 基因查询 |
+| `pubchem-database` | PubChem 1.1 亿以上的化合物 |
+| `clinvar-database` | ClinVar 临床变异数据 |
+
+</div>
+
+---
+
+## Skill 元工具
+
+<div align="center">
+
+| Skill 名称 | 功能说明 |
+|:--|:--|
+| `skill-creator` | 创建、编辑与测试 Skill |
+| `find-skills` | 发现与安装新 Skill |
+
+</div>
+
+---
+
+## 查找 Skill 的实际经验
+
+我自己查找 Skill 的流程:
+
+**第一步,先让 `find-skills` 协助检索**。把使用场景描述给它,例如"我需要一个能管理参考文献格式的 skill",它会到 skills.sh 检索,返回几个候选。
+
+**第二步,查看下载量**。通常选择下载量较高的版本,至少几百起步。下载量高意味着使用者多,问题排查也更充分。
+
+**第三步,如需定制不在原 Skill 上修改**。在原 SKILL.md 上修改容易混乱,下次更新会覆盖。我的做法是让 Claude Code 参考该 Skill 的写法,根据需求新建一个独立的 Skill。
+
+> [!WARNING]
+> **冷门 Skill 需谨慎**
+>
+> 排名靠前、下载量数千甚至上万的 Skill 通常无问题。若是下载量较少的 Skill,建议谨慎使用。较稳妥的做法是先用 `find-skills` 检索一个类似场景的 Skill,参考其 SKILL.md 写法,自行创建一个新的。
+
+---
+
+<div align="center">
+
+[← 附录 B · 快捷键速查](appendix-b.md) &nbsp;·&nbsp; [返回目录](../README.md) &nbsp;·&nbsp; [附录 D · CLAUDE.md 模板 →](appendix-d.md)
+
+</div>

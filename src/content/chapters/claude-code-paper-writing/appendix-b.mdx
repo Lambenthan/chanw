@@ -1,0 +1,47 @@
+---
+title: "Claude Code 快捷键速查表"
+description: "Claude Code 科研手记 · 附录 B"
+book: "claude-code-paper-writing"
+chapterNumber: 101
+chapterLabel: "附录 B"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["Claude Code", "科研工具", "AI 论文流水线"]
+---
+
+Claude Code 在终端中运行,以下快捷操作可提高效率。
+
+<div align="center">
+
+| 操作 | 说明 |
+|:--|:--|
+| `Esc`(按一次) | 打断当前操作。Claude Code 停下等待下一条指令。适用于发现走偏需立刻中止的情况 |
+| `Esc`(快速按两次) | 回退到上一个检查点。撤销最近的修改,把文件与对话状态同时恢复。适用于改错后需还原的情况 |
+| `claude --continue` | 续接上次被中断的会话。若上次因 rate limit 或网络问题中断,可用该命令恢复 |
+| `/clear` | 清空当前会话的上下文。对话过长、回答质量下降时使用。CLAUDE.md 与 Memory 不会被清除 |
+| `claude` | 在当前文件夹启动一个新的 Claude Code 会话。它会自动读取当前文件夹下的 CLAUDE.md |
+| `claude -p "指令"` | 非交互模式。执行完指令后自动退出,不进入对话。适合脚本中或一次性任务 |
+| `Ctrl+C` | 强制终止当前进程。比 Esc 更彻底,会直接退出 Claude Code,慎用 |
+| `Tab` | 自动补全。输入文件名或路径时按 Tab,Claude Code 会尝试补全 |
+| 上下方向键 | 浏览历史指令。按上键调出之前输入过的指令 |
+
+</div>
+
+---
+
+## 使用建议
+
+**Esc 是最常用的快捷键**。发现 Claude Code 开始修改未指定的位置时,第一反应是按 Esc。打断之后需说明三件事:不要做什么、想要什么、原因为何(第 3 章详述)。
+
+**`claude --continue`** 在长任务中较有用,配合 checkpoint 文件可从断点续接(详见第 10 章)。
+
+**`/clear` 需谨慎使用**。清空上下文意味着之前在该会话中告知的所有信息(任务背景、约束)均会丢失。若只想让它忘记某个不相关话题,不如开新会话。
+
+---
+
+<div align="center">
+
+[← 附录 A · 常用提示词模板](appendix-a.md) &nbsp;·&nbsp; [返回目录](../README.md) &nbsp;·&nbsp; [附录 C · Skill 推荐列表 →](appendix-c.md)
+
+</div>
