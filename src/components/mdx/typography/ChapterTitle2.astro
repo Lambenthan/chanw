@@ -1,16 +1,15 @@
 ---
 /**
- * 章节内 H2 标题（## 0.1 ...）专用。
+ * 章节内 H2 标题（## 1.2 ...）专用。ElegantBook 学术风：
  *
- * 与 Maggie 原 Title2 区别：
- * - 中文 short heading（10-25 字）的字号合理化，移动端不再换 3-4 行
- * - 节号前缀（0.1 / 1.2 等）视觉降级为浅灰、细 Times、小 1 档
- * - 左侧 4px sea-blue accent 条，建立学术分节视觉锚
- * - 行高紧一档
+ * - 节号 1.2 装进 sea-blue 圆角徽章（深底白字）做视觉锚点
+ * - 标题正文跟在徽章右边，正常衬线
+ * - H2 底下一道细 hairline 做分节（不再用左竖条，避免和
+ *   定义框 / 定理框 / 误区框的左竖条糊成一坨）
+ * - 中文 short heading 字号合理化，移动端不再换 3-4 行
  *
- * 实现：用正则把 slot 文本前缀 (N.M[空格]) 拆出来分别染色。
- * 数字 + 西文标点用 Times New Roman（站点 TNR Numerals 字体栈
- * 通过 unicode-range 自动接管 ASCII 范围）。
+ * 节号 wrap 由 [chapter].astro 的脚本完成（扫 .chapter-h2 → 把
+ * 开头数字包成 <span class="section-number">）。
  */
 const { id } = Astro.props;
 ---
@@ -19,15 +18,18 @@ const { id } = Astro.props;
 
 <style>
   .chapter-h2 {
-    /* desktop: 1.625rem (~26px on 16px base) */
     font-size: 1.625rem;
     font-family: var(--font-serif);
     color: var(--color-gray-800);
     font-weight: 400;
-    line-height: 1.25;
-    margin: var(--space-l) 0 var(--space-s);
-    padding-left: var(--space-xs);
-    border-left: 4px solid var(--color-sea-blue);
+    line-height: 1.3;
+    margin: var(--space-xl) 0 var(--space-m);
+    padding-bottom: var(--space-2xs);
+    border-bottom: 1px solid var(--color-tinted-cream);
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.45em;
     transition: all 0.3s ease-in-out;
     scroll-margin-top: var(--space-l);
   }
@@ -41,21 +43,23 @@ const { id } = Astro.props;
   @media (max-width: 640px) {
     .chapter-h2 {
       font-size: 1.3rem;
-      padding-left: var(--space-2xs);
-      border-left-width: 3px;
     }
   }
 
-  /* 节号前缀（0.1 / 1.2 / 2.3.4 等）—— 用 ::first-line 不行（first-line 是
-     渲染行，不是语义），改用 JS 在 [chapter].astro 里加 span 包装。这里
-     提前定义样式，等 JS 把数字部分包成 .section-number 后生效。 */
+  /* 节号徽章 ── 深 sea-blue 圆角小色块，白字 Times 衬线 */
   .chapter-h2 :global(.section-number) {
+    display: inline-block;
+    background: var(--color-sea-blue);
+    color: var(--color-white);
     font-family: "TNR Numerals", "Times New Roman", serif;
     font-weight: 400;
-    color: var(--color-gray-500);
-    font-size: 0.85em;
-    margin-right: 0.4em;
+    font-size: 0.75em;
+    line-height: 1.2;
+    padding: 0.15em 0.5em;
+    border-radius: 4px;
     letter-spacing: 0.02em;
     font-variant-numeric: tabular-nums;
+    /* baseline 微调，让徽章中线和标题中文字基本对齐 */
+    transform: translateY(-0.12em);
   }
 </style>
