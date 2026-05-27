@@ -518,20 +518,23 @@ code {
     consolas;
 }
 
-/* Add styles for code blocks */
+/* 代码块——配合 vitesse-light Shiki 主题，呈现学术论文 listing 感而非
+   编辑器截图感。低对比、细边框、紧凑字号，让短 R/Python 片段嵌进
+   正文不夺目。 */
 pre {
   width: 100%;
-  overflow: scroll;
+  overflow-x: auto;
   padding: var(--space-s) var(--space-m);
   border-radius: 0.3em;
-  font-size: calc(var(--font-size-sm) * 1.1);
-  line-height: var(--leading-loose);
+  border: 1px solid var(--color-tinted-cream);
+  font-size: calc(var(--font-size-sm) * 0.95);
+  line-height: var(--leading-snug);
   font-family:
     IBM Plex Mono,
     Dank Mono,
     SF Mono,
     consolas;
-  margin: 0 0 var(--space-m);
+  margin: var(--space-s) 0 var(--space-m);
   tab-size: 3;
   -moz-tab-size: 3;
 }

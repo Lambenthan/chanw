@@ -18,7 +18,10 @@ export default defineConfig({
       remarkPlugins: [remarkWikiLink, remarkMath],
       rehypePlugins: [rehypeKatex],
       shikiConfig: {
-        theme: "night-owl",
+        // vitesse-light：低饱和度浅色主题，与 cream 正文背景协调。
+        // 章节里的短代码块（5-15 行 R/Python 教学片段）从"夺目黑块"
+        // 降级为"学术论文 listing"，不破坏阅读流。
+        theme: "vitesse-light",
         wrap: true,
       },
     }),
