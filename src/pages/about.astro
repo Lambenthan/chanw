@@ -5,65 +5,49 @@ import Title2 from "../components/mdx/typography/Title2.astro";
 import SmallCaps from "../components/mdx/typography/SmallCaps.astro";
 import UnderlineHoverLink from "../components/mdx/UnderlineHoverLink.astro";
 import PageWrapper from "../components/layouts/PageWrapper.astro";
-import { Image } from "astro:assets";
-import Stripe2 from "../images/general/Stripe2_1000.jpg";
-import Scarf from "../images/general/Scarf_1000.jpg";
-import Brown from "../images/general/Brown_1000.jpg";
-
-const photoSources = [Stripe2, Scarf, Brown];
 ---
 
-<script>
-	const photos = document.querySelectorAll(".random-photo") as NodeListOf<HTMLElement>;
-	const randomIndex = Math.floor(Math.random() * photos.length);
-
-	// Hide all photos except the random one
-	photos.forEach((photo, index) => {
-		if (index === randomIndex) {
-			photo.style.display = "block";
-		}
-	});
-</script>
-
-<Layout title="关于" desc="Chanw — 因果推断、人格因果学、AI 工具策展者">
+<Layout title="关于" desc="Chanw — 会计实证、因果推断与大语言模型交叉处的研究者">
 	<PageWrapper>
 		<div class="header-section">
 			<SmallCaps>关于</SmallCaps>
 			<Title1>Chanw</Title1>
-			<Title2>因果推断研究者 / AI 工具策展人。</Title2>
+			<Title2>会计实证、因果推断、与大语言模型的交叉处。</Title2>
 		</div>
 		<div class="styled-main">
 			<section class="intro">
 				<div>
 					<SmallCaps>A Little Context</SmallCaps>
 					<p>
-						I sit at the intersection of design, anthropology, and web development. These three are
-						at the core of everything I make. Combining them into a coherent career is a weird and
-						ongoing challenge.
+						我在 <strong>会计实证</strong>、<strong>因果推断</strong>、与
+						<strong>大语言模型</strong> 这三件事的交叉处工作。把它们整合成一条连贯的研究路径
+						是个持续的、有意思的挑战。
 					</p>
 					<p>
-						Titles and disciplines are fickle and fleeting. But my work fits under the umbrellas of
-						design engineering, product design, and visual interface design. With some cultural
-						analysis, writing, and visual illustration sprinkled on top.
+						学位与方向标签是滑动的、易变的。但我的工作大致落在三组伞下：审计实证（财务舞弊识别）、
+						单被试纵向因果分析（用 ITS 与合成控制研究历史人物的人格演化），以及
+						<UnderlineHoverLink href="/books/claude-code-paper-writing"
+							>科研流程本身的工具化</UnderlineHoverLink
+						>（用 Claude Code 写论文这件事）。
 					</p>
 					<p>
-						I currently work at <UnderlineHoverLink href="https://githubnext.com"
-							>GitHub Next</UnderlineHoverLink
-						>, exploring the many, messy, murky problems around how AI is changing software engineering.
+						我目前是研究生在读，研究方向为会计、财务与大语言模型的交叉。同时维护
+						<UnderlineHoverLink href="/books/claude-code-paper-writing"
+							>《Claude Code 科研手记》</UnderlineHoverLink
+						>，以及配套的《Claude Code 实证研究全流程讲解》视频系列——在小红书等平台已经辅助
+						1,000+ 硕博研究生在恪守科研规范的前提下用 LLM 工具提效。
 					</p>
-					<p>Here's what I've been up to for the last few years:</p>
+					<p>这几年的轨迹大致是这样：</p>
 					<div class="timeline">
 						<div class="timeline-item">
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
-								<div class="timeline-role-company">
-									Staff Research Engineer at <UnderlineHoverLink href="https://githubnext.com"
-										>GitHub Next</UnderlineHoverLink
-									>
-								</div>
-								<div class="timeline-year">Oct 2025 - Present</div>
+								<div class="timeline-role-company">研究生在读 · 会计、财务与大语言模型</div>
+								<div class="timeline-year">2025 — 至今</div>
 								<div class="timeline-description">
-									Next is the research and experimentation arm of GitHub. I build prototypes and tools that explore how software engineers might collaborate with AI in the near and far future.
+									以财务舞弊识别为切入点，结合因果推断与机器学习方法。自学大语言模型应用工程，
+									进入软件开发与 vibecoding 实践。研究兴趣拓展至 LLM 在财务、审计场景的应用。
+									维护本站，以及《Claude Code 科研手记》。
 								</div>
 							</div>
 						</div>
@@ -71,132 +55,42 @@ const photoSources = [Stripe2, Scarf, Brown];
 						<div class="timeline-item">
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
-								<div class="timeline-role-company">
-									Lead Design Engineer at <UnderlineHoverLink href="https://normally.com"
-										>Normally</UnderlineHoverLink
-									>
-								</div>
-								<div class="timeline-year">July 2024 - Jan 2025</div>
+								<div class="timeline-role-company">本科 · 会计 / 企业绩效实证</div>
+								<div class="timeline-year">大二 — 大四</div>
 								<div class="timeline-description">
-									A research and design studio building early stage AI prototypes for larger tech
-									companies. I built zero-to-one prototypes in collaboration with other designers
-									and backend engineers, focusing on front-end implementation and LLMs.
-								</div>
-							</div>
-						</div>
-
-						<div class="timeline-item">
-							<div class="timeline-marker"></div>
-							<div class="timeline-content">
-								<div class="timeline-role-company">
-									Founding Product Designer at <UnderlineHoverLink href="https://elicit.com"
-										>Elicit</UnderlineHoverLink
-									>
-								</div>
-								<div class="timeline-year">June 2022 - June 2024</div>
-								<div class="timeline-description">
-									Designed the initial version of Elicit, a research tool that uses language models
-									to speed up the systematic review process for researchers and scientists.
-								</div>
-							</div>
-						</div>
-
-						<div class="timeline-item">
-							<div class="timeline-marker"></div>
-							<div class="timeline-content">
-								<div class="timeline-role-company">
-									Head of Design at <UnderlineHoverLink href="https://hash.ai"
-										>HASH</UnderlineHoverLink
-									>
-								</div>
-								<div class="timeline-year">Oct 2021 - July 2022</div>
-								<div class="timeline-description">
-									Worked on the initial interface and product vision for an open-source platform and
-									protocol designed to make block-based editors (like Notion, Coda, etc.)
-									interoperable, and improve the way we add semantic, structured data to the web.
-								</div>
-							</div>
-						</div>
-
-						<div class="timeline-item">
-							<div class="timeline-marker"></div>
-							<div class="timeline-content">
-								<div class="timeline-role-company">
-									Illustrator, Art Director, & UX Designer at <UnderlineHoverLink
-										href="https://egghead.io">Egghead</UnderlineHoverLink
-									>
-								</div>
-								<div class="timeline-year">April 2016 - Sep 2021</div>
-								<div class="timeline-description">
-									Developer education company where I worked on illustrations and visual interface
-									design. This role helped me create own robust process for visualising complex
-									programming concepts through graphic design, metaphors, and cultural symbols.
+									自大二起持续使用 Python、VBA、Stata 与 R 完成数据爬取、清洗与
+									<strong>BHAR、CAR</strong> 等研究指标的构建。从描述统计逐步过渡到多元回归，
+									并把"用工具做研究"这件事当成第二门主修。
 								</div>
 							</div>
 						</div>
 					</div>
 					<p>
-						On the side I create <UnderlineHoverLink href="/essays"
-							>illustrated essays</UnderlineHoverLink
-						> and visual explanations about programming and culture. I'm an advocate of{
-							" "
-						}<UnderlineHoverLink href="/garden-history">digital gardening</UnderlineHoverLink>,{
-							" "
-						}<UnderlineHoverLink href="https://en.wikipedia.org/wiki/End-user_development"
-							>end-user programming</UnderlineHoverLink
-						>
-						, and expanding our use of{" "}<UnderlineHoverLink
-							href="https://en.wikipedia.org/wiki/Embodied_cognition"
-							>embodied cognition</UnderlineHoverLink
-						>{" "}and{" "}<UnderlineHoverLink
-							href="https://en.wikipedia.org/wiki/Conceptual_metaphor"
-							>conceptual metaphors</UnderlineHoverLink
-						>{" "}in digital interfaces.
+						业余时间维护本站的
+						<UnderlineHoverLink href="/library">学术工具书系列</UnderlineHoverLink>、
+						<UnderlineHoverLink href="/skills">Claude Code skills 索引</UnderlineHoverLink>、与
+						<UnderlineHoverLink href="/news">AI 行业 News 抓取</UnderlineHoverLink>。也在小红书发科研工具笔记。
 					</p>
+
 					<SmallCaps>A Little History</SmallCaps>
 					<p>
-						I'm originally from London but grew up in international schools in Hong Kong, Vietnam,
-						Thailand, and Singapore.
+						我的研究路径有一条相对清晰的线索：<strong>从「用工具做研究」，到「研究工具本身」</strong>。
 					</p>
 					<p>
-						{" "}
-						I earned my undergraduate degree in{" "}
-						<UnderlineHoverLink href="https://en.wikipedia.org/wiki/Cultural_anthropology">
-							cultural anthropology
-						</UnderlineHoverLink>{" "}
-						at a small, hippie, liberal arts college in the United States. While I adore anthropology,
-						it's not terribly employable (unless you want to be an academic or a military advisor) and
-						I promptly switched into freelance design and illustration to pay rent. I started developing
-						my visual design skills at age 14 when I first bootlegged a copy of Photoshop to make my
-						own skeuomorphic desktop <a href="/teenage-desktop">wallpapers and icon sets</a>, but
-						never realised you could get paid for that.
+						本科时用 Excel 和 Stata 处理 CSMAR 数据算 BHAR / CAR，发现描述统计远远不够
+						回答"为什么"——硕士阶段就转向因果推断与单被试纵向分析。再后来意识到工具本身
+						值得研究，于是写了《Claude Code 科研手记》。
 					</p>
 					<p>
-						In my early twenties I country-hopped while working through the early, ugly, awkward
-						phase of my design sensibilities. I worked with web developers in Vietnam, trained with
-						feature film illustrators in Los Angeles, and learned typography and brand design at
-						creative agencies in Prague. I made a lot of hideous stuff, but figured out what I liked
-						along the way.
+						由经管研究方向起步、逐步深入计算机工程实践的背景，让我在面对这类工具时
+						既保留了经管研究者的第一手堵点视角，也把版本控制、文档纪律、模块化设计
+						这些工程规范以低上手门槛的方式融入日常研究。
 					</p>
 					<p>
-						In my late twenties I finally returned to London to become a more settled, “normal”
-						adult, and have come to love the dull stability of home. I now live south of the river
-						with my lovely husband and son.
+						本站是这条路径的一个产物——把读过的书、写过的章节、用过的工具集中存放，
+						按"花园"的方式持续生长。
 					</p>
 				</div>
-				{
-					photoSources.map((photo, index) => (
-						<Image
-							src={photo}
-							alt="a photo of maggie appleton"
-							width={800 / 1.25}
-							height={1200 / 1.25}
-							style={`object-fit: contain; display: none;`}
-							class="random-photo"
-							id={`photo-${index}`}
-						/>
-					))
-				}
 			</section>
 		</div>
 	</PageWrapper>
@@ -229,17 +123,13 @@ const photoSources = [Stripe2, Scarf, Brown];
 		}
 	}
 
-	.styled-main img {
-		border-radius: 4px;
-	}
-
 	.styled-main h2 {
 		margin-bottom: var(--space-s);
 	}
 
 	.styled-main p {
 		line-height: var(--leading-loose);
-		max-width: 52ch;
+		max-width: 60ch;
 	}
 
 	.styled-main p:not(:last-of-type) {
@@ -247,10 +137,7 @@ const photoSources = [Stripe2, Scarf, Brown];
 	}
 
 	.intro {
-		display: grid;
-		grid-template-columns: 4fr 3fr;
-		gap: var(--space-xl);
-		align-items: flex-start;
+		max-width: 64ch;
 	}
 
 	.intro :global(.small-caps):not(:first-of-type) {
@@ -273,27 +160,18 @@ const photoSources = [Stripe2, Scarf, Brown];
 		right: 2.25rem;
 	}
 
-	@media (max-width: 768px) {
-		.intro {
-			grid-template-columns: 1fr;
-			gap: var(--space-m);
-			flex-direction: column;
-		}
-	}
-
 	.intro :global(.small-caps) {
 		margin-bottom: 1.5rem;
 	}
 
-	/* Timeline Styles */
+	/* Timeline */
 	.timeline {
 		position: relative;
-		max-width: 64ch;
+		max-width: 60ch;
 		margin: var(--space-l) 0 var(--space-xl) 0;
 		font-family: var(--font-sans);
 	}
 
-	/* Timeline line */
 	.timeline::before {
 		content: "";
 		position: absolute;
@@ -321,7 +199,7 @@ const photoSources = [Stripe2, Scarf, Brown];
 		width: 16px;
 		height: 16px;
 		background: var(--color-cream);
-		border: 2px solid var(--color-gray-400);
+		border: 2px solid var(--color-sea-blue);
 		border-radius: 50%;
 		z-index: 1;
 	}
@@ -332,6 +210,7 @@ const photoSources = [Stripe2, Scarf, Brown];
 		margin-bottom: 0.5rem;
 		text-transform: uppercase;
 		letter-spacing: 0.025em;
+		font-family: "TNR Numerals", "Times New Roman", serif;
 	}
 
 	.timeline-role-company {

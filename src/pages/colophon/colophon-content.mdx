@@ -5,70 +5,69 @@ import { Icon } from "astro-icon/components";
 import TooltipLink from "../../components/mdx/TooltipLink.astro";
 import ComingSoon from "../../components/mdx/ComingSoon.astro";
 import AssumedAudience from "../../components/mdx/AssumedAudience.astro";
-import ResourceBook from "../../components/mdx/ResourceBook.astro";
 import Alert from "../../components/mdx/Alert.astro";
 import Spacer from "../../components/mdx/Spacer.astro";
-import AddictionByDesign from "../../images/books/addiction.webp"
 
-I designed and built this site myself. Everything is open source and published on <TooltipLink href="https://github.com/MaggieAppleton/maggieappleton.com-V3">GitHub</TooltipLink> if you'd like to poke around. The whole thing is frankly overengineered for a personal website, but playing with transient web technologies is an indulgent hobby I don't want to relinquish. I started building it in late 2021 and tinker on it regularly.
+这个站点是从 <TooltipLink href="https://github.com/MaggieAppleton/maggieappleton.com-V3">Maggie Appleton 的 V3 数字花园</TooltipLink> fork 来的——我把它重新排为中文学术花园，去掉了 Maggie 个人内容，加入了一套适合中文学术写作的版式、字体与组件。源码开源在 <TooltipLink href="https://github.com/Lambenthan/chanw">GitHub</TooltipLink>，对个人站点来说过度工程化，但工具本身就是研究对象——我把它当作"用工具研究工具"的练习场。
 
-### Technologies & Techniques
+### 技术栈
 
-<TooltipLink href="https://astro.build/">Astro</TooltipLink> does most of the heavy lifting – it's a static site builder designed for content-heavy websites. It does lots of useful things for me like typed collections, image optimisation, transition animations, and routing. It also minimises the amount of JavaScript shipped to the client using <TooltipLink href="https://docs.astro.build/en/concepts/islands/">islands architecture</TooltipLink>.
+底层用 <TooltipLink href="https://astro.build/">Astro</TooltipLink>，专为内容驱动的网站设计的静态站点生成器。它免费给我类型化的内容集合、图片优化、视图过渡动画、路由这些功能，并通过<TooltipLink href="https://docs.astro.build/en/concepts/islands/">岛屿架构</TooltipLink>最小化客户端 JavaScript。
 
-I use plain HTML, CSS, and some JavaScript to build and design the interface. All the individual notes and essays are written in <TooltipLink href="https://github.com/mdx-js/mdx">MDX</TooltipLink> – a souped-up version of markdown that makes it easy to design and reuse custom components and interactive JavaScript elements. <TooltipLink href="https://vercel.com/">Vercel</TooltipLink> takes care of hosting. Animations are mostly CSS, with some more complex ones done in <TooltipLink href="https://motion.dev/">Motion</TooltipLink>.
+所有内容用 <TooltipLink href="https://github.com/mdx-js/mdx">MDX</TooltipLink> 写——Markdown 的超集，能在文章里嵌入 Astro 组件。<TooltipLink href="https://vercel.com/">Vercel</TooltipLink> 托管，新加坡 POP 对国内访问也相对友好。动画大部分用 CSS，复杂的用 <TooltipLink href="https://motion.dev/">Motion</TooltipLink>。
 
-Previous versions of this website were built in <TooltipLink href="https://github.com/MaggieAppleton/maggieappleton.com">Gatsby (v1)</TooltipLink> and <TooltipLink href="https://github.com/MaggieAppleton/maggieappleton.com-V2">Next.js (v2)</TooltipLink>, neither of which I would recommend. They're overkill for personal websites and introduce unnecessary complexity. I learned a lot building both, but if you're not making a dynamic web app with lots of user interaction, you don't need them. Static site generators like Astro, Eleventy, Hugo, and Jekyll are a better fit.
+数学公式用 <TooltipLink href="https://katex.org/">KaTeX</TooltipLink> 渲染，所有字体（包括 KaTeX 与 LXGW 文楷）都已**自托管**——绕开 jsdelivr / Google Fonts 在国内的限速。
 
-### Writing and Editing Content
+### 字体与排版
 
-My CMS is just a bunch of flat files and folders. When I edit content on here I'm just typing text into MDX files in VS Code. There's no fancy pipeline shuttling content directly from my personal knowledge management database (eg. <TooltipLink href="https://roamresearch.com">Roam</TooltipLink> or <TooltipLink href="https://tana.inc">Tana</TooltipLink>). All my ideas start and marinate in my Tana, but I wait for them to mature a bit before they move over to this garden.
+中文用 <TooltipLink href="https://github.com/lxgw/LxgwWenKai">LXGW WenKai Light</TooltipLink>（自托管 woff2，按字符切片按需加载），西文与数字用 Times New Roman（unicode-range 自动接管 U+0020–007E），衬线标题用 <TooltipLink href="https://commercialtype.com/catalog/canela/canela_deck">Canela Deck</TooltipLink>，无衬线 fallback 用 Lato。整套字栈跟我书的 LaTeX ElegantBook 模板 PDF 视觉保持一致。
 
-I know other people prefer setups where they can click one button and push content from personal notes to the web. I personally like having more control over how the material is displayed and laid out. Working directly in the native medium of the web – HTML, CSS, and JavaScript – gives me fine-grained control. It allows me to play with typography, illustrations, graphic design, videos, animations, and interactive elements that pure text pipelines can't support. Text isn't the only way to represent ideas.
+字号用 <TooltipLink href="https://utopia.fyi/blog/designing-with-fluid-type-scales">Utopia 流体类型系统</TooltipLink>，按浏览器宽度连续调节，不再用断点跳变。
 
-### Typography
+`body { font-synthesis: weight none; }` 阻断浏览器对 CJK 字符的伪粗体渲染——LXGW WenKai 只设计了 Light 一档，强行加粗会糊。
 
-Headers are set in <TooltipLink href="https://commercialtype.com/catalog/canela/canela_deck">Canela Display</TooltipLink> and body copy is set in <TooltipLink href="https://commercialtype.com/catalog/canela/canela_text">Canela Text</TooltipLink>, both from <TooltipLink href="https://commercialtype.com/">Commercial Type</TooltipLink>. I love its semi-serifs and classical feel. Supporting sans-serif type is set in <TooltipLink href="https://fonts.google.com/specimen/Lato">Lato</TooltipLink>.
+### 学术组件
 
-I use a <TooltipLink href="https://utopia.fyi/blog/designing-with-fluid-type-scales">fluid type scale</TooltipLink> developed by <TooltipLink href="https://utopia.fyi/">Utopia</TooltipLink>, which uses some wild CSS calculations to continuously adjust the font size relative to your browser's width.
+为中文学术写作专门做了几个 MDX 组件：
+
+- **Definition / Theorem / Pitfall / MethodCard** —— 定义、定理、误区、方法卡四类学术块
+- **ChapterAudience** —— 章首"本章要回答的"
+- **ChapterTitle2 / ChapterTitle3** —— 节标题用 sea-blue 实心 / 镂空徽章包节号，跟正文 prose 视觉分层
+- **CodeBlock** —— 代码块默认折叠，浅海蓝色系，仿 Maggie 的 Accordion 手感
+- **GhAlert** —— TIP / NOTE / WARNING / IMPORTANT 四种行内提示
+- **References / ReferencesLink** —— 章末文献列表
+- **Footnote** —— Tufte 风边注
+
+视觉色板借鉴 ElegantBook（LaTeX 学术模板）：sea-blue 主色 + crimson 警示色 + cream 米色底。
+
+### 写作流程
+
+我的 CMS 就是一堆 `.mdx` 平面文件，VS Code 里直接打字。没有从 Notion / Tana 同步到 Web 的花哨管线——我喜欢对显示和排版有完全控制权。直接在 Web 原生介质（HTML / CSS / JS）里工作能玩排版、插图、视频、动画，这些是纯文本管线做不到的。
+
+每个章节都有 `startDate` 与 `updated` 两个时间戳，从初稿到现在版本可以一直回溯。
+
+### News 抓取与 LLM 评分
+
+主页 News 区有 2,500+ 条 AI 行业动态。每 6 小时由 GitHub Actions 自动抓取 OpenAI、Anthropic、Google AI、DeepMind、NVIDIA、Meta AI、Mistral、xAI 等 9 个厂商的发布源（RSS、HTML、Playwright 三套抓取器），并用 <TooltipLink href="https://openrouter.ai/">OpenRouter</TooltipLink> 的免费模型轮询为每条打分 + 写 80–180 字的中文导读。整套 pipeline 的脚本在 `scripts/news/` 下，全部开源。
 
 ### Growth Stages
 
-Every post on this site has a **growth stage** indicating how complete and comprehensive it is. They start as <Icon name="seedling" size="20px" /> seedlings, grow into <Icon name="budding" size="20px" /> buddings, and finally end up as <Icon name="evergreen" size="20px" /> evergreens. You'll often find notes and essays that are unfinished or in progress. In an ideal world I'd finish everything I started. But we don't live there and I'm notoriously bad at leaving things half baked. I do cycle back though. Sometimes months or years later. What goes around comes around.
+每篇文章带一个**成长阶段**标记：从 <Icon name="seedling" size="20px" /> seedling 苗子，长成 <Icon name="budding" size="20px" /> budding 萌芽，最后变 <Icon name="evergreen" size="20px" /> evergreen 常青。你会经常看到未完成或在进行中的笔记和章节——理想世界里我会把每个起头的东西都写完，但现实中我也会半途而废。能做的就是定期回头补，有时候是几个月，有时候是几年。
 
-### Custom Components
-
-I've built a number of reusable custom components for various situations.
-
-There's the _coming soon_ component that signals a post is half-written and needs to be finished in the future:
-
-<ComingSoon />
+### 一些自定义组件
 
 <Spacer size="xs" />
 
-There's an _assumed audience_ component that I put at the top of some posts to make explicit who I'm writing for:
+文章顶部偶尔放一个 <em>assumed audience</em> 组件，说明这篇是写给谁看的：
 
 <AssumedAudience>
-  People who care about how websites are built.
+  对中文学术站怎么搭、Claude Code 怎么用感兴趣的研究者。
 </AssumedAudience>
 
 <Spacer size="xs" />
 
-I occasionally need to _alert_ readers to dangers and threats:
+需要提醒读者潜在陷阱时，用 alert：
 
-<Alert title="This is an alert">
-  Stay vigiliant to the threat of typography that is too small and low contrast to read.
+<Alert title="一个提醒">
+  并非每篇文章都是结论稿。本站采用 growth stage 系统，请留意每篇顶部的状态标。
 </Alert>
-
-<Spacer size="xs" />
-
-Some are nicely styled callouts for books:
-
-<ResourceBook
-  url="https://www.librarything.com/work/9697447"
-  title="Addiction By Design"
-  image={AddictionByDesign}
-  author="Natasha Dow Schull"
->
-  Addiction by Design takes readers into the intriguing world of machine gambling, an increasingly popular and absorbing form of play that blurs the line between human and machine, compulsion and control, risk and reward.
-</ResourceBook>
