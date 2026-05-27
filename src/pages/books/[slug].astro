@@ -1,0 +1,299 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
+import Layout from "../../layouts/Layout.astro";
+import PageWrapper from "../../components/layouts/PageWrapper.astro";
+
+export async function getStaticPaths() {
+	const books = await getCollection("books");
+	return books
+		.filter((b) => b.data.slug)
+		.map((book) => ({
+			params: { slug: book.data.slug! },
+			props: { book },
+		}));
+}
+
+const { book } = Astro.props;
+const slug = book.data.slug!;
+
+// Pull all chapters belonging to this book, ordered.
+const allChapters = await getCollection("chapters");
+const chapters = allChapters
+	.filter((c) => c.data.book === slug)
+	.sort((a, b) => a.data.chapterNumber - b.data.chapterNumber);
+
+// Word count estimate per chapter for "reading time"
+function wordCountEstimate(c: any) {
+	// crude: half the body length in chars (most CJK each char counts as one)
+	if (!c.body) return 0;
+	const text = c.body.replace(/\s+/g, "");
+	return text.length;
+}
+function readingTimeMin(words: number) {
+	const wpm = 350; // Chinese reading speed
+	return Math.max(1, Math.round(words / wpm));
+}
+
+const totalWords = chapters.reduce((s, c) => s + wordCountEstimate(c), 0);
+---
+
+<Layout title={String(book.data.title)} desc={String(book.data.subtitle ?? "")}>
+	<PageWrapper>
+		<header class="back-strip">
+			<a href="/library" class="back-link">
+				<Icon name="heroicons:arrow-left" size={16} />
+				<span>Library</span>
+			</a>
+		</header>
+
+		<section class="hero">
+			<div class="cover">
+				<Image
+					src={book.data.cover}
+					alt={String(book.data.title)}
+					width={320}
+					height={480}
+					style="width: 100%; height: auto; object-fit: contain;"
+				/>
+			</div>
+			<div class="meta">
+				<h1>{book.data.title}</h1>
+				{book.data.subtitle && <p class="subtitle">{book.data.subtitle}</p>}
+				<dl class="facts">
+					<dt>作者</dt>
+					<dd>{book.data.author}</dd>
+					<dt>章数</dt>
+					<dd>{chapters.length}</dd>
+					<dt>字数</dt>
+					<dd>{totalWords >= 10000
+						? `${(totalWords / 10000).toFixed(1)} 万`
+						: totalWords.toLocaleString("zh-CN")}</dd>
+					<dt>状态</dt>
+					<dd>已成稿</dd>
+				</dl>
+			</div>
+		</section>
+
+		<section class="chapter-list">
+			<h2 class="section-title">目录</h2>
+			<ol>
+				{chapters.map((c) => (
+					<li>
+						<a href={`/books/${slug}/${c.id.replace(slug + "/", "").replace(/\.mdx$/, "")}`}>
+							<div class="chapter-number">{c.data.chapterLabel ?? `第 ${c.data.chapterNumber} 章`}</div>
+							<div class="chapter-body">
+								<h3>{c.data.title}</h3>
+								{c.data.description && <p>{c.data.description}</p>}
+								<div class="chapter-meta">
+									<span>{readingTimeMin(wordCountEstimate(c))} 分钟阅读</span>
+								</div>
+							</div>
+							<Icon name="heroicons:arrow-right" size={18} class="chapter-arrow" />
+						</a>
+					</li>
+				))}
+			</ol>
+		</section>
+	</PageWrapper>
+</Layout>
+
+<style>
+	.back-strip {
+		max-width: 800px;
+		margin: var(--space-l) auto 0;
+	}
+
+	.back-link {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-3xs);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: bold;
+		color: var(--color-gray-600);
+		text-decoration: none;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.back-link:hover {
+		color: var(--color-sea-blue);
+	}
+
+	.hero {
+		max-width: 800px;
+		margin: var(--space-l) auto var(--space-2xl);
+		display: grid;
+		grid-template-columns: 220px 1fr;
+		gap: var(--space-l);
+		align-items: start;
+	}
+
+	.cover img {
+		border-radius: var(--border-radius-base);
+		box-shadow: var(--box-shadow-md);
+		border: 1px solid var(--color-tinted-cream);
+	}
+
+	.meta h1 {
+		font-family: var(--font-serif);
+		font-size: var(--font-size-3xl);
+		font-weight: normal;
+		line-height: var(--leading-tighter);
+		margin: 0 0 var(--space-2xs);
+		color: var(--color-gray-800);
+	}
+
+	.subtitle {
+		font-family: var(--font-body);
+		font-size: var(--font-size-md);
+		font-weight: 300;
+		color: var(--color-gray-600);
+		line-height: var(--leading-snug);
+		margin: 0 0 var(--space-l);
+	}
+
+	.facts {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		gap: var(--space-2xs) var(--space-s);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		margin: 0;
+	}
+
+	.facts dt {
+		color: var(--color-gray-500);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-size: var(--font-size-xs);
+	}
+
+	.facts dd {
+		margin: 0;
+		color: var(--color-gray-800);
+	}
+
+	.chapter-list {
+		max-width: 800px;
+		margin: 0 auto var(--space-3xl);
+	}
+
+	.section-title {
+		font-family: var(--font-serif);
+		font-size: var(--font-size-xl);
+		font-weight: normal;
+		color: var(--color-gray-800);
+		margin: 0 0 var(--space-m);
+		padding-bottom: var(--space-xs);
+		border-bottom: 1px solid var(--color-tinted-cream);
+	}
+
+	.chapter-list ol {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.chapter-list li {
+		margin-bottom: var(--space-xs);
+	}
+
+	.chapter-list a {
+		display: grid;
+		grid-template-columns: 96px 1fr auto;
+		gap: var(--space-s);
+		align-items: center;
+		padding: var(--space-s);
+		border: 1px solid var(--color-cream);
+		border-radius: var(--border-radius-base);
+		text-decoration: none;
+		transition: all 0.3s ease-in-out;
+		will-change: transform, background, box-shadow;
+	}
+
+	.chapter-list a:hover {
+		background: var(--color-light-cream);
+		border-color: var(--color-tinted-cream);
+		box-shadow: var(--box-shadow-sm);
+		transform: translate3d(2px, 0, 0);
+	}
+
+	.chapter-number {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: bold;
+		color: var(--color-sea-blue);
+		text-align: center;
+	}
+
+	.chapter-body h3 {
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		font-weight: 400;
+		line-height: var(--leading-snug);
+		color: var(--color-gray-800);
+		margin: 0 0 var(--space-3xs);
+		transition: color 0.3s ease-in-out;
+	}
+
+	.chapter-list a:hover .chapter-body h3 {
+		color: var(--color-crimson);
+	}
+
+	.chapter-body p {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		color: var(--color-gray-600);
+		line-height: var(--leading-snug);
+		margin: 0 0 var(--space-3xs);
+	}
+
+	.chapter-meta {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		color: var(--color-gray-500);
+	}
+
+	.chapter-arrow {
+		color: var(--color-gray-300);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.chapter-list a:hover .chapter-arrow {
+		color: var(--color-bright-crimson);
+		transform: translate3d(4px, 0, 0);
+	}
+
+	@media (max-width: 640px) {
+		.hero {
+			grid-template-columns: 1fr;
+			text-align: center;
+		}
+
+		.cover {
+			max-width: 180px;
+			margin: 0 auto;
+		}
+
+		.facts {
+			justify-content: center;
+			text-align: left;
+			max-width: 280px;
+			margin: 0 auto;
+		}
+
+		.chapter-list a {
+			grid-template-columns: 70px 1fr;
+		}
+
+		.chapter-arrow {
+			display: none;
+		}
+	}
+</style>

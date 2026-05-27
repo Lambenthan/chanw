@@ -1,0 +1,86 @@
+[
+	{
+		"title": "OpenAI 发布大规模深度强化学习 Dota 2 研究",
+		"url": "https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning/",
+		"source": "OpenAI",
+		"date": "2026-05-24T21:50:31.464Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 提出动作依赖因子化基线方法降低策略梯度方差",
+		"url": "https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines/",
+		"source": "OpenAI",
+		"date": "2026-05-24T21:50:22.357Z",
+		"group": "labs"
+	},
+	{
+		"title": "Mistral 发布 La Plateforme 平台",
+		"url": "https://mistral.ai/news/la-plateforme",
+		"source": "Mistral",
+		"date": "2026-05-23T10:14:18.179Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Project Glasswing 初步更新",
+		"url": "https://www.anthropic.com/research/glasswing-initial-update",
+		"source": "Anthropic Research",
+		"date": "2026-05-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 Agentic AI 网络安全方案",
+		"url": "https://blogs.nvidia.com/blog/agentic-ai-cybersecurity/",
+		"source": "NVIDIA",
+		"date": "2026-05-21T23:02:44.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "SkillOpt 提出 agent skill 策略优化方法",
+		"url": "https://arxiv.org/abs/2605.23904v1",
+		"source": "arXiv",
+		"date": "2026-05-22T17:59:50Z",
+		"group": "papers"
+	},
+	{
+		"title": "Geo-Align 提出基于度量几何奖励的视频生成对齐方法",
+		"url": "https://arxiv.org/abs/2605.23903v1",
+		"source": "arXiv",
+		"date": "2026-05-22T17:59:43Z",
+		"group": "papers"
+	},
+	{
+		"title": "PiD 提出像素扩散解码器加速高分辨率图像生成",
+		"url": "https://arxiv.org/abs/2605.23902v1",
+		"source": "arXiv",
+		"date": "2026-05-22T17:59:42Z",
+		"group": "papers"
+	},
+	{
+		"title": "DeepSeek 把 V4 Pro 折扣价定为长期",
+		"url": "https://api-docs.deepseek.com/quick_start/pricing",
+		"source": "HN · 549 ↑",
+		"date": "2026-05-22T15:59:26Z",
+		"group": "hn"
+	},
+	{
+		"title": "Microsoft 开始取消 Claude Code 许可",
+		"url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+		"source": "HN · 478 ↑",
+		"date": "2026-05-22T17:32:04Z",
+		"group": "hn"
+	},
+	{
+		"title": "Significant-Gravitas/AutoGPT — 让所有人用得上的 AI agent",
+		"url": "https://github.com/Significant-Gravitas/AutoGPT",
+		"source": "GitHub · 184.5k ★",
+		"date": "2026-05-25T03:33:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "ollama/ollama — Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemm",
+		"url": "https://github.com/ollama/ollama",
+		"source": "GitHub · 172.2k ★",
+		"date": "2026-05-24T22:29:53Z",
+		"group": "gh"
+	}
+]

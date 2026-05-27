@@ -1,0 +1,149 @@
+---
+const { podcastName, episodeName, url, date, id, podcastCover } = Astro.props;
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import RelativeDate from "../layouts/RelativeDate.astro";
+---
+
+<a href={url}>
+	<div class="podcast-card">
+		{
+			podcastCover && (
+				<div class="image-wrapper">
+					<div class="external-link-container">
+						<Icon name="heroicons:arrow-top-right-on-square-20-solid" size={36} />
+						<span>View episode</span>
+					</div>
+					<Image
+						src={podcastCover}
+						alt={episodeName}
+						width={120}
+						height={120}
+						loading="eager"
+						decoding="async"
+					/>
+				</div>
+			)
+		}
+		<div class="inner-text">
+			<h3>{episodeName}</h3>
+			<p class="podcast-name">{podcastName}</p>
+			<div class="metadata-container">
+				<span>Podcast</span>
+				<svg width="4px" height="4px">
+					<circle r="2" cx="2" cy="2" fill="var(--color-gray-400)"></circle>
+				</svg>
+				<RelativeDate postDate={date} />
+			</div>
+		</div>
+	</div>
+</a>
+
+<style>
+	.inner-text {
+		display: flex;
+		flex-direction: column;
+		padding: 0.25rem 0.25rem 0.5rem 0.25rem;
+	}
+
+	.inner-text h3 {
+		color: var(--color-gray-800);
+		transition: all 0.3s ease-in-out;
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		font-weight: 400;
+		line-height: var(--leading-snug);
+		margin-bottom: 0.5rem;
+	}
+
+	.podcast-name {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		color: var(--color-gray-600);
+		letter-spacing: 0.015rem;
+		font-weight: 400;
+	}
+
+	.metadata-container {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		color: var(--color-gray-500);
+		text-transform: capitalize;
+		font-weight: 400;
+	}
+
+	.metadata-container svg {
+		margin: 0 0.4rem !important;
+		position: relative;
+		top: 1px;
+	}
+
+	.podcast-card {
+		display: flex;
+		flex-direction: row;
+		gap: 1.25rem;
+		padding: var(--space-s);
+		border: 1px solid var(--color-tinted-cream);
+		margin: 0 var(--space-2xs) var(--space-2xs) 0;
+		border-radius: var(--border-radius-base);
+		box-shadow: var(--box-shadow-sm);
+		background: var(--color-light-cream);
+		transition: all 0.3s ease-in-out;
+		cursor: pointer;
+		will-change: transform, width;
+	}
+
+	.podcast-card:hover {
+		transform: scale3d(1.01, 1.01, 1.01);
+	}
+
+	.podcast-card:hover h3 {
+		color: var(--color-crimson);
+	}
+
+	.podcast-card:hover img {
+		opacity: 0.05;
+	}
+
+	.image-wrapper {
+		display: grid;
+		position: relative;
+		top: 0;
+		place-items: start;
+		min-width: 120px;
+		max-height: 120px;
+		border-radius: 4px;
+		box-shadow: var(--box-shadow-sm);
+		margin-bottom: 0 !important;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.image-wrapper img {
+		border-radius: 4px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.external-link-container {
+		position: absolute;
+		top: 30%;
+		left: 30%;
+		margin-top: -3%;
+		margin-left: -28%;
+		color: var(--color-crimson);
+		display: flex;
+		flex-direction: column;
+		width: 120px;
+		align-items: center;
+		gap: 0.25rem;
+	}
+
+	.external-link-container span {
+		font-size: var(--font-size-xs);
+		font-weight: 500;
+		font-family: var(--font-sans);
+		line-height: var(--leading-snug);
+	}
+</style>

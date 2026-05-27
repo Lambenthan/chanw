@@ -1,0 +1,371 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Title1 from "../components/mdx/typography/Title1.astro";
+import Title2 from "../components/mdx/typography/Title2.astro";
+import SmallCaps from "../components/mdx/typography/SmallCaps.astro";
+import UnderlineHoverLink from "../components/mdx/UnderlineHoverLink.astro";
+import PageWrapper from "../components/layouts/PageWrapper.astro";
+import { Image } from "astro:assets";
+import Stripe2 from "../images/general/Stripe2_1000.jpg";
+import Scarf from "../images/general/Scarf_1000.jpg";
+import Brown from "../images/general/Brown_1000.jpg";
+
+const photoSources = [Stripe2, Scarf, Brown];
+---
+
+<script>
+	const photos = document.querySelectorAll(".random-photo") as NodeListOf<HTMLElement>;
+	const randomIndex = Math.floor(Math.random() * photos.length);
+
+	// Hide all photos except the random one
+	photos.forEach((photo, index) => {
+		if (index === randomIndex) {
+			photo.style.display = "block";
+		}
+	});
+</script>
+
+<Layout title="关于" desc="Chanw — 因果推断、人格因果学、AI 工具策展者">
+	<PageWrapper>
+		<div class="header-section">
+			<SmallCaps>关于</SmallCaps>
+			<Title1>Chanw</Title1>
+			<Title2>因果推断研究者 / AI 工具策展人。</Title2>
+		</div>
+		<div class="styled-main">
+			<section class="intro">
+				<div>
+					<SmallCaps>A Little Context</SmallCaps>
+					<p>
+						I sit at the intersection of design, anthropology, and web development. These three are
+						at the core of everything I make. Combining them into a coherent career is a weird and
+						ongoing challenge.
+					</p>
+					<p>
+						Titles and disciplines are fickle and fleeting. But my work fits under the umbrellas of
+						design engineering, product design, and visual interface design. With some cultural
+						analysis, writing, and visual illustration sprinkled on top.
+					</p>
+					<p>
+						I currently work at <UnderlineHoverLink href="https://githubnext.com"
+							>GitHub Next</UnderlineHoverLink
+						>, exploring the many, messy, murky problems around how AI is changing software engineering.
+					</p>
+					<p>Here's what I've been up to for the last few years:</p>
+					<div class="timeline">
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<div class="timeline-role-company">
+									Staff Research Engineer at <UnderlineHoverLink href="https://githubnext.com"
+										>GitHub Next</UnderlineHoverLink
+									>
+								</div>
+								<div class="timeline-year">Oct 2025 - Present</div>
+								<div class="timeline-description">
+									Next is the research and experimentation arm of GitHub. I build prototypes and tools that explore how software engineers might collaborate with AI in the near and far future.
+								</div>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<div class="timeline-role-company">
+									Lead Design Engineer at <UnderlineHoverLink href="https://normally.com"
+										>Normally</UnderlineHoverLink
+									>
+								</div>
+								<div class="timeline-year">July 2024 - Jan 2025</div>
+								<div class="timeline-description">
+									A research and design studio building early stage AI prototypes for larger tech
+									companies. I built zero-to-one prototypes in collaboration with other designers
+									and backend engineers, focusing on front-end implementation and LLMs.
+								</div>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<div class="timeline-role-company">
+									Founding Product Designer at <UnderlineHoverLink href="https://elicit.com"
+										>Elicit</UnderlineHoverLink
+									>
+								</div>
+								<div class="timeline-year">June 2022 - June 2024</div>
+								<div class="timeline-description">
+									Designed the initial version of Elicit, a research tool that uses language models
+									to speed up the systematic review process for researchers and scientists.
+								</div>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<div class="timeline-role-company">
+									Head of Design at <UnderlineHoverLink href="https://hash.ai"
+										>HASH</UnderlineHoverLink
+									>
+								</div>
+								<div class="timeline-year">Oct 2021 - July 2022</div>
+								<div class="timeline-description">
+									Worked on the initial interface and product vision for an open-source platform and
+									protocol designed to make block-based editors (like Notion, Coda, etc.)
+									interoperable, and improve the way we add semantic, structured data to the web.
+								</div>
+							</div>
+						</div>
+
+						<div class="timeline-item">
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<div class="timeline-role-company">
+									Illustrator, Art Director, & UX Designer at <UnderlineHoverLink
+										href="https://egghead.io">Egghead</UnderlineHoverLink
+									>
+								</div>
+								<div class="timeline-year">April 2016 - Sep 2021</div>
+								<div class="timeline-description">
+									Developer education company where I worked on illustrations and visual interface
+									design. This role helped me create own robust process for visualising complex
+									programming concepts through graphic design, metaphors, and cultural symbols.
+								</div>
+							</div>
+						</div>
+					</div>
+					<p>
+						On the side I create <UnderlineHoverLink href="/essays"
+							>illustrated essays</UnderlineHoverLink
+						> and visual explanations about programming and culture. I'm an advocate of{
+							" "
+						}<UnderlineHoverLink href="/garden-history">digital gardening</UnderlineHoverLink>,{
+							" "
+						}<UnderlineHoverLink href="https://en.wikipedia.org/wiki/End-user_development"
+							>end-user programming</UnderlineHoverLink
+						>
+						, and expanding our use of{" "}<UnderlineHoverLink
+							href="https://en.wikipedia.org/wiki/Embodied_cognition"
+							>embodied cognition</UnderlineHoverLink
+						>{" "}and{" "}<UnderlineHoverLink
+							href="https://en.wikipedia.org/wiki/Conceptual_metaphor"
+							>conceptual metaphors</UnderlineHoverLink
+						>{" "}in digital interfaces.
+					</p>
+					<SmallCaps>A Little History</SmallCaps>
+					<p>
+						I'm originally from London but grew up in international schools in Hong Kong, Vietnam,
+						Thailand, and Singapore.
+					</p>
+					<p>
+						{" "}
+						I earned my undergraduate degree in{" "}
+						<UnderlineHoverLink href="https://en.wikipedia.org/wiki/Cultural_anthropology">
+							cultural anthropology
+						</UnderlineHoverLink>{" "}
+						at a small, hippie, liberal arts college in the United States. While I adore anthropology,
+						it's not terribly employable (unless you want to be an academic or a military advisor) and
+						I promptly switched into freelance design and illustration to pay rent. I started developing
+						my visual design skills at age 14 when I first bootlegged a copy of Photoshop to make my
+						own skeuomorphic desktop <a href="/teenage-desktop">wallpapers and icon sets</a>, but
+						never realised you could get paid for that.
+					</p>
+					<p>
+						In my early twenties I country-hopped while working through the early, ugly, awkward
+						phase of my design sensibilities. I worked with web developers in Vietnam, trained with
+						feature film illustrators in Los Angeles, and learned typography and brand design at
+						creative agencies in Prague. I made a lot of hideous stuff, but figured out what I liked
+						along the way.
+					</p>
+					<p>
+						In my late twenties I finally returned to London to become a more settled, “normal”
+						adult, and have come to love the dull stability of home. I now live south of the river
+						with my lovely husband and son.
+					</p>
+				</div>
+				{
+					photoSources.map((photo, index) => (
+						<Image
+							src={photo}
+							alt="a photo of maggie appleton"
+							width={800 / 1.25}
+							height={1200 / 1.25}
+							style={`object-fit: contain; display: none;`}
+							class="random-photo"
+							id={`photo-${index}`}
+						/>
+					))
+				}
+			</section>
+		</div>
+	</PageWrapper>
+</Layout>
+
+<style>
+	.header-section {
+		margin: var(--space-m) auto 0;
+	}
+	.header-section :global(.small-caps) {
+		margin-bottom: var(--space-3xs);
+		color: var(--color-gray-600);
+	}
+	.header-section h1 {
+		margin-bottom: var(--space-s);
+	}
+	.header-section h2 {
+		color: var(--color-gray-800);
+	}
+
+	.styled-main {
+		margin-top: var(--space-xs);
+		padding: var(--space-xl) 0;
+		width: 100%;
+	}
+
+	@media (max-width: 768px) {
+		.styled-main {
+			padding: var(--space-l) var(--space-xs);
+		}
+	}
+
+	.styled-main img {
+		border-radius: 4px;
+	}
+
+	.styled-main h2 {
+		margin-bottom: var(--space-s);
+	}
+
+	.styled-main p {
+		line-height: var(--leading-loose);
+		max-width: 52ch;
+	}
+
+	.styled-main p:not(:last-of-type) {
+		margin-bottom: var(--space-s);
+	}
+
+	.intro {
+		display: grid;
+		grid-template-columns: 4fr 3fr;
+		gap: var(--space-xl);
+		align-items: flex-start;
+	}
+
+	.intro :global(.small-caps):not(:first-of-type) {
+		margin-top: var(--space-xl);
+		color: var(--color-gray-900);
+	}
+
+	.intro :global(.small-caps)::before {
+		content: "";
+		display: inline-block;
+		width: 20px;
+		clear: both;
+		height: 20px;
+		margin-right: -1.5rem;
+		background-image: url("/images/leaf-icon.svg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: relative;
+		top: 4px;
+		right: 2.25rem;
+	}
+
+	@media (max-width: 768px) {
+		.intro {
+			grid-template-columns: 1fr;
+			gap: var(--space-m);
+			flex-direction: column;
+		}
+	}
+
+	.intro :global(.small-caps) {
+		margin-bottom: 1.5rem;
+	}
+
+	/* Timeline Styles */
+	.timeline {
+		position: relative;
+		max-width: 64ch;
+		margin: var(--space-l) 0 var(--space-xl) 0;
+		font-family: var(--font-sans);
+	}
+
+	/* Timeline line */
+	.timeline::before {
+		content: "";
+		position: absolute;
+		left: 8px;
+		top: 18px;
+		bottom: -90px;
+		width: 2px;
+		background: linear-gradient(to bottom, var(--color-gray-300) 75%, var(--color-cream) 90%);
+	}
+
+	.timeline-item {
+		position: relative;
+		margin-bottom: var(--space-l);
+		padding-left: 2.5rem;
+	}
+
+	.timeline-item:last-child {
+		margin-bottom: 0;
+	}
+
+	.timeline-marker {
+		position: absolute;
+		left: 0;
+		top: 12px;
+		width: 16px;
+		height: 16px;
+		background: var(--color-cream);
+		border: 2px solid var(--color-gray-400);
+		border-radius: 50%;
+		z-index: 1;
+	}
+
+	.timeline-year {
+		font-weight: 500;
+		color: var(--color-gray-600);
+		margin-bottom: 0.5rem;
+		text-transform: uppercase;
+		letter-spacing: 0.025em;
+	}
+
+	.timeline-role-company {
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		font-weight: 500;
+		color: var(--color-gray-900);
+		margin-bottom: var(--space-2xs);
+		line-height: var(--leading-normal);
+	}
+
+	.timeline-description {
+		color: var(--color-gray-700);
+		line-height: var(--leading-base);
+	}
+
+	@media (max-width: 768px) {
+		.timeline {
+			margin-left: var(--space-2xs);
+		}
+
+		.timeline::before {
+			top: 15px;
+			bottom: calc(var(--space-l) + 15px);
+		}
+
+		.timeline-item {
+			padding-left: var(--space-l);
+		}
+
+		.timeline-marker {
+			width: 20px;
+			height: 20px;
+			top: 10px;
+		}
+	}
+</style>

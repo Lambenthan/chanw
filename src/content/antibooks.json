@@ -1,0 +1,220 @@
+[
+  {
+    "id": 29,
+    "title": "Age of Ambition: Chasing Fortune, Truth, and Faith in the New China",
+    "author": "Evan Osnos",
+    "cover": "../images/books/ambition.jpg",
+    "link": "https://www.google.co.uk/books/edition/Age_of_Ambition/8DPvAgAAQBAJ"
+  },
+  {
+    "id": 28,
+    "title": "Cue the Sun! The Invention of Reality TV",
+    "author": "Emily Nussbaum",
+    "cover": "../images/books/cue.jpg",
+    "link": "https://www.google.co.uk/books/edition/Cue_the_Sun/GObnEAAAQBAJ"
+  },
+  {
+    "id": 27,
+    "title": "The Invention of Nature: The Adventures of Alexander von Humboldt, the Lost Hero of Science",
+    "author": "Andrea Wulf",
+    "cover": "../images/books/invention.jpg",
+    "link": "https://www.google.co.uk/books/edition/The_Invention_of_Nature/w1WNBQAAQBAJ"
+  },
+  {
+    "id": 26,
+    "title": "The Age of Wonder: How the Romantic Generation Discovered the Beauty and Terror of Science",
+    "author": "Richard Holmes",
+    "cover": "../images/books/wonder.jpg",
+    "link": "https://www.google.co.uk/books/edition/The_Age_of_Wonder/sSLJnGMUw9wC"
+  },
+  {
+    "id": 25,
+    "title": "The Warmth of Other Suns: The Epic Story of America's Great Migration",
+    "author": "Isabel Wilkerson",
+    "cover": "../images/books/warmth.jpg",
+    "link": "https://www.google.co.uk/books/edition/The_Warmth_of_Other_Suns/7ozlDwAAQBAJ"
+  },
+  {
+    "id": 24,
+    "title": "Hyperobjects",
+    "subtitle": "Philosophy and Ecology after the End of the World",
+    "author": "Timothy Morton",
+    "cover": "../images/books/hyperobjects.webp",
+    "link": "https://www.google.com/books/edition/Hyperobjects/qu5zDwAAQBAJ"
+  },
+  {
+    "id": 23,
+    "title": "Metahistory",
+    "subtitle": "The Historical Imagination in Nineteenth-Century Europe",
+    "author": "Hayden White",
+    "cover": "../images/books/metahistory.webp",
+    "link": "https://www.google.com/books/edition/Metahistory/v_DqhVZkQ2EC"
+  },
+  {
+    "id": 22,
+    "title": "Seeing Like a State",
+    "subtitle": "How Certain Schemes to Improve the Human Condition Have Failed",
+    "author": "James C. Scott",
+    "cover": "../images/books/seeingstate.webp",
+    "link": "https://www.google.com/books/edition/Seeing_Like_a_State/CA7UDwAAQBAJ"
+  },
+  {
+    "id": 21,
+    "title": "On Kings",
+    "author": "David Graeber & Marshall Sahlins",
+    "cover": "../images/books/onkings.webp",
+    "link": "https://www.google.com/books/edition/On_Kings/Ef03jgEACAAJ"
+  },
+  {
+    "id": 20,
+    "title": "Supersizing the Mind",
+    "subtitle": "Embodiment, Action, and Cognitive Extension",
+    "author": "Andy Clark",
+    "cover": "../images/books/supersize.webp",
+    "link": "https://www.google.com/books/edition/Supersizing_the_Mind/I-tSEhdEorUC"
+  },
+  {
+    "id": 19,
+    "title": "A People's History of Computing in the United States",
+    "author": "Joy Lisi Rankin",
+    "cover": "../images/books/peoplehistory.webp",
+    "link": "https://www.google.com/books/edition/A_People's_History_of_Computing_in_the_United_States/WnhyDwAAQBAJ"
+  },
+  {
+    "id": 18,
+    "title": "Staying with the Trouble",
+    "subtitle": "Making Kin in the Chthulucene",
+    "author": "Donna Haraway",
+    "cover": "../images/books/staying.webp",
+    "link": "https://www.google.com/books/edition/Staying_with_the_Trouble/cND9jwEACAAJ"
+  },
+  {
+    "id": 17,
+    "title": "New Dark Age",
+    "subtitle": "Technology, Knowledge and the End of the Future",
+    "author": "James Bridle",
+    "cover": "../images/books/newdarkage.webp",
+    "link": "https://www.google.com/books/edition/New_Dark_Age/dD9gDwAAQBAJ"
+  },
+  {
+    "id": 16,
+    "title": "Turing's Cathedral",
+    "subtitle": "The Origins of the Digital Universe",
+    "author": "George Dyson",
+    "cover": "../images/books/turing.webp",
+    "link": "https://www.google.com/books/edition/Turing's_Cathedral/dMK3P6B3WgcC"
+  },
+  {
+    "id": 15,
+    "title": "Life in Code",
+    "subtitle": "A Personal History of Technology",
+    "author": "Ellen Ullman",
+    "cover": "../images/books/lifecode.webp",
+    "link": "https://www.google.co.uk/books/edition/Life_in_Code/rPTtDQAAQBAJ?hl=en"
+  },
+  {
+    "id": 14,
+    "title": "Atlas of AI",
+    "subtitle": "Power, Politics, and the Planetary Costs of Artificial Intelligence",
+    "author": "Kate Crawford",
+    "cover": "../images/books/atlasai.webp",
+    "link": "https://www.google.co.uk/books/edition/The_Atlas_of_AI/XvEdEAAAQBAJ?hl=en&gbpv=0"
+  },
+  {
+    "id": 13,
+    "title": "Orality and Literacy",
+    "subtitle": "The Technologizing of the World",
+    "author": "Walter Ong",
+    "cover": "../images/books/orality.webp",
+    "link": "https://www.google.co.uk/books/edition/Orality_and_Literacy/37Ikbo9P4M8C"
+  },
+  {
+    "id": 12,
+    "title": "Death Without Weeping",
+    "subtitle": "The Violence of Everyday Life in Brazil",
+    "author": "Nancy Scheper-Hughes",
+    "cover": "../images/books/death-weeping.webp",
+    "link": "https://www.google.co.uk/books/edition/Death_Without_Weeping/PYcb7KImjbQC?hl=en&gbpv=0"
+  },
+  {
+    "id": 11,
+    "title": "The Master and His Emissary",
+    "subtitle": "The Divided Brain and the Making of the Western World",
+    "author": "Iain McGilchrist",
+    "cover": "../images/books/emissary.webp",
+    "link": "https://www.google.com/books/edition/The_Master_and_His_Emissary/alSIDwAAQBAJ"
+  },
+  {
+    "id": 10,
+    "title": "A Social History of Truth",
+    "subtitle": "Civility and Science in Seventeenth-Century England",
+    "author": "Steven Shapin",
+    "cover": "../images/books/social.webp",
+    "link": "https://www.google.co.uk/books/edition/A_Social_History_of_Truth/Cr4lEAAAQBAJ"
+  },
+  {
+    "id": 9,
+    "title": "The Civilizing Process",
+    "author": "Norbert Elias",
+    "cover": "../images/books/civilising.webp",
+    "link": "https://www.google.co.uk/books/edition/The_Civilizing_Process/ThJJcfgga54C"
+  },
+  {
+    "id": 8,
+    "title": "Otherlands: A World in the Making",
+    "author": "Thomas Halliday",
+    "cover": "../images/books/otherlands.webp",
+    "link": "https://www.google.co.uk/books/edition/Otherlands/6T_3DwAAQBAJ"
+  },
+  {
+    "id": 7,
+    "title": "The Matter With Things",
+    "subtitle": "Our Brains, Our Delusions, and the Unmaking of the World",
+    "author": "Iain McGilchrist",
+    "cover": "../images/books/matter.webp",
+    "link": "https://www.google.co.uk/books/edition/The_Matter_with_Things/zZa3zgEACAAJ?hl=en"
+  },
+  {
+    "id": 6,
+    "title": "The Perception of the Environment: Essays on Livelihood, Dwelling and Skill",
+    "author": "Tim Ingold",
+    "cover": "../images/books/perception.webp",
+    "link": "https://www.google.co.uk/books/edition/The_Perception_of_the_Environment/Y_VPEAAAQBAJ"
+  },
+  {
+    "id": 5,
+    "title": "Dancing in the Streets: A History of Collective Joy",
+    "author": "Barbara Ehrenreich",
+    "cover": "../images/books/dancing.webp",
+    "link": "https://www.google.co.uk/books/edition/Dancing_in_the_Streets/-QwTAQAAIAAJ"
+  },
+  {
+    "id": 4,
+    "title": "Consciousness Explained",
+    "author": "Daniel C. Dennett",
+    "cover": "../images/books/consciousness.webp",
+    "link": "https://www.google.co.uk/books/edition/Consciousness_Explained/d2P_QS6AwgoC"
+  },
+  {
+    "id": 3,
+    "title": "The Geometry of Meaning: Semantics Based on Conceptual Spaces",
+    "author": "Peter Gärdenfors",
+    "cover": "../images/books/geometry.webp",
+    "link": "https://www.google.co.uk/books/edition/The_Geometry_of_Meaning/QDOkAgAAQBAJ"
+  },
+  {
+    "id": 2,
+    "title": "Atlas of Anomalous AI",
+    "author": "Ben Vickers, Kenric McDowell",
+    "cover": "../images/books/atlas.webp",
+    "link": "https://www.google.co.uk/books/edition/Atlas_of_Anomalous_AI/e04AxAEACAAJ"
+  },
+  {
+    "id": 1,
+    "title": "Why Fish Don't Exist",
+    "subtitle": "A Story of Loss, Love, and the Hidden Order of Life",
+    "author": "Lulu Miller",
+    "cover": "../images/books/fish.webp",
+    "link": "https://www.google.co.uk/books/edition/Why_Fish_Don_t_Exist/usSeDwAAQBAJ"
+  }
+]

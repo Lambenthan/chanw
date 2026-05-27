@@ -1,0 +1,28 @@
+---
+interface Props {
+	background?: string;
+}
+
+const { background } = Astro.props;
+---
+
+<style>
+	.full-width-background {
+		width: 100vw;
+		margin-left: calc(50% - 50vw);
+		z-index: 0;
+		margin-top: var(--space-s);
+		margin-bottom: var(--space-l);
+		background: var(--background, inherit);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+</style>
+
+<section
+	class="full-width-background"
+	style={background ? `--background: ${background}` : undefined}
+>
+	<slot />
+</section>

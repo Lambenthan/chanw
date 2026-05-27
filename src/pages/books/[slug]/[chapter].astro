@@ -1,0 +1,316 @@
+---
+import { getCollection, render } from "astro:content";
+import Layout from "../../../layouts/Layout.astro";
+import ProseWrapper from "../../../components/layouts/ProseWrapper.astro";
+import ChapterNav from "../../../components/layouts/ChapterNav.astro";
+import TableOfContents from "../../../components/layouts/TableOfContents.astro";
+import { Icon } from "astro-icon/components";
+import Topics from "../../../components/layouts/Topics.astro";
+import Dates from "../../../components/layouts/Dates.astro";
+
+// Reuse the MDX component mapping from [...slug].astro for consistent typography
+import Title1 from "../../../components/mdx/typography/Title1.astro";
+import Title2 from "../../../components/mdx/typography/Title2.astro";
+import Title3 from "../../../components/mdx/typography/Title3.astro";
+import Title4 from "../../../components/mdx/typography/Title4.astro";
+import TooltipLink from "../../../components/mdx/TooltipLink.astro";
+import InternalTooltipLink from "../../../components/mdx/InternalTooltipLink.astro";
+import Footnote from "../../../components/mdx/Footnote.astro";
+import IntroParagraph from "../../../components/mdx/IntroParagraph.astro";
+import BasicImage from "../../../components/mdx/BasicImage.astro";
+import Spacer from "../../../components/mdx/Spacer.astro";
+import Alert from "../../../components/mdx/Alert.astro";
+import BlockquoteCitation from "../../../components/mdx/BlockquoteCitation.astro";
+import AcademicReference from "../../../components/mdx/AcademicReference.astro";
+import FullWidthSection from "../../../components/mdx/FullWidthSection.astro";
+import Definition from "../../../components/mdx/Definition.astro";
+import Theorem from "../../../components/mdx/Theorem.astro";
+import MethodCard from "../../../components/mdx/MethodCard.astro";
+import Pitfall from "../../../components/mdx/Pitfall.astro";
+import ChapterAudience from "../../../components/mdx/ChapterAudience.astro";
+import AssumedAudience from "../../../components/mdx/AssumedAudience.astro";
+import Subtext from "../../../components/mdx/typography/Subtext.astro";
+import References from "../../../components/mdx/References.astro";
+import ReferencesLink from "../../../components/mdx/ReferencesLink.astro";
+import GridColumns from "../../../components/mdx/GridColumns.astro";
+import ResourceBook from "../../../components/mdx/ResourceBook.astro";
+
+export async function getStaticPaths() {
+	const allChapters = await getCollection("chapters");
+	const allBooks = await getCollection("books");
+	const bookMap = new Map(
+		allBooks
+			.filter((b) => b.data.slug)
+			.map((b) => [b.data.slug!, b])
+	);
+
+	// Group chapters by book to compute prev/next links
+	const grouped = new Map<string, typeof allChapters>();
+	for (const c of allChapters) {
+		const arr = grouped.get(c.data.book) ?? [];
+		arr.push(c);
+		grouped.set(c.data.book, arr);
+	}
+	for (const arr of grouped.values()) {
+		arr.sort((a, b) => a.data.chapterNumber - b.data.chapterNumber);
+	}
+
+	const paths = [];
+	for (const [bookSlug, list] of grouped) {
+		const book = bookMap.get(bookSlug);
+		if (!book) continue;
+		for (let i = 0; i < list.length; i++) {
+			const c = list[i];
+			const chapterId = c.id.replace(bookSlug + "/", "").replace(/\.mdx$/, "");
+			const prev = i > 0 ? list[i - 1] : undefined;
+			const next = i < list.length - 1 ? list[i + 1] : undefined;
+			paths.push({
+				params: { slug: bookSlug, chapter: chapterId },
+				props: {
+					entry: c,
+					book,
+					prev: prev
+						? {
+								chapterNumber: prev.data.chapterNumber,
+								chapterLabel: prev.data.chapterLabel,
+								title: prev.data.title,
+								href: `/books/${bookSlug}/${prev.id.replace(bookSlug + "/", "").replace(/\.mdx$/, "")}`,
+							}
+						: undefined,
+					next: next
+						? {
+								chapterNumber: next.data.chapterNumber,
+								chapterLabel: next.data.chapterLabel,
+								title: next.data.title,
+								href: `/books/${bookSlug}/${next.id.replace(bookSlug + "/", "").replace(/\.mdx$/, "")}`,
+							}
+						: undefined,
+				},
+			});
+		}
+	}
+	return paths;
+}
+
+const { entry, book, prev, next } = Astro.props;
+const { Content, headings } = await render(entry);
+
+const components = {
+	h1: Title1,
+	h2: Title2,
+	h3: Title3,
+	h4: Title4,
+	a: TooltipLink,
+	img: BasicImage,
+	InternalTooltipLink,
+	IntroParagraph,
+	Footnote,
+	BasicImage,
+	ResourceBook,
+	Spacer,
+	Alert,
+	BlockquoteCitation,
+	AcademicReference,
+	FullWidthSection,
+	Definition,
+	Theorem,
+	MethodCard,
+	Pitfall,
+	ChapterAudience,
+	AssumedAudience,
+	Subtext,
+	References,
+	ReferencesLink,
+	GridColumns,
+};
+
+const bookSlug = book.data.slug!;
+const startDateISO = entry.data.startDate
+	? (entry.data.startDate instanceof Date
+		? entry.data.startDate.toISOString()
+		: String(entry.data.startDate))
+	: "";
+const updatedISO = entry.data.updated
+	? (entry.data.updated instanceof Date
+		? entry.data.updated.toISOString()
+		: String(entry.data.updated))
+	: "";
+---
+
+<Layout title={`${entry.data.title} · ${book.data.title}`} desc={entry.data.description}>
+	<header class="header-section">
+		<div class="above-title">
+			<div class="back-link">
+				<a href={`/books/${bookSlug}`}>
+					<Icon name="heroicons:arrow-left" size={16} />
+					<span>{book.data.title}</span>
+				</a>
+			</div>
+			<span class="chapter-tag">{entry.data.chapterLabel ?? `第 ${entry.data.chapterNumber} 章`}</span>
+		</div>
+		<div class="title-container">
+			<h1>{entry.data.title}</h1>
+			{entry.data.description && <p>{entry.data.description}</p>}
+		</div>
+		<div class="metadata">
+			<div class="metadata-left">
+				{entry.data.topics && <Topics topics={entry.data.topics} />}
+			</div>
+			<div class="metadata-right">
+				{(startDateISO || updatedISO) && (
+					<Dates startDate={startDateISO} updated={updatedISO} />
+				)}
+			</div>
+		</div>
+	</header>
+
+	<main class="styled-main">
+		<ProseWrapper>
+			{headings.length > 0 && <TableOfContents headings={headings} />}
+			<Content components={components} />
+		</ProseWrapper>
+	</main>
+
+	<ChapterNav
+		bookSlug={bookSlug}
+		bookTitle={String(book.data.title)}
+		prev={prev}
+		next={next}
+	/>
+</Layout>
+
+<style>
+	.header-section {
+		max-width: 800px;
+		margin: var(--space-l) auto 0;
+	}
+
+	.above-title {
+		display: flex;
+		align-items: center;
+		gap: var(--space-xs);
+		min-height: 24px;
+	}
+
+	.above-title a {
+		display: inline-flex;
+		align-items: center;
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: bold;
+		margin: 0;
+		color: var(--color-gray-600);
+		text-decoration: none;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.above-title a:hover {
+		color: var(--color-sea-blue);
+	}
+
+	.chapter-tag {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: bold;
+		color: var(--color-bright-crimson);
+	}
+
+	.back-link {
+		display: flex;
+		align-items: center;
+	}
+
+	.back-link svg {
+		color: var(--color-gray-300);
+		position: relative;
+		top: 1px;
+		margin-right: 4px;
+	}
+
+	.title-container {
+		padding: var(--space-s) 0 var(--space-l);
+		border-bottom: 1px solid var(--color-tinted-cream);
+	}
+
+	.title-container h1 {
+		font-size: var(--font-size-2xl);
+		font-weight: 600;
+		line-height: var(--leading-tighter);
+		max-width: 100%;
+	}
+
+	.title-container p {
+		font-size: var(--font-size-md);
+		margin: var(--space-s) 0 0 0;
+		color: var(--color-gray-600);
+		line-height: var(--leading-base);
+	}
+
+	.metadata {
+		justify-content: space-between;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		gap: var(--space-s);
+	}
+
+	.metadata-left {
+		flex: 1;
+	}
+
+	.metadata-right {
+		flex-shrink: 0;
+		text-align: right;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	@media (max-width: 768px) {
+		.metadata {
+			flex-direction: column;
+			text-align: left;
+			align-items: flex-start;
+			gap: var(--space-xs);
+		}
+
+		.metadata-right {
+			width: 100%;
+			text-align: left;
+			align-items: flex-start;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
+
+	.styled-main {
+		margin-top: var(--space-xs);
+		padding: var(--space-l) 0 var(--space-2xl);
+		background: linear-gradient(var(--color-cream) 0, var(--color-white) 110px);
+		width: 100%;
+	}
+
+	@media (max-width: 768px) {
+		.styled-main {
+			padding: var(--space-xl) var(--space-xs);
+		}
+
+		.header-section {
+			padding: 0 var(--space-xs);
+		}
+	}
+
+	@media screen and (max-width: 425px) {
+		.title-container h1 {
+			font-size: var(--font-size-xl);
+		}
+
+		.title-container p {
+			font-size: var(--font-size-base);
+		}
+	}
+</style>

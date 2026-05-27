@@ -1,0 +1,324 @@
+---
+import { Icon } from "astro-icon/components";
+import type { MarkdownHeading } from "astro";
+
+interface Props {
+	headings: MarkdownHeading[];
+}
+
+const { headings } = Astro.props;
+---
+
+<div class="desktop-container">
+	<div class="title" id="desktop-toc-header">
+		<svg width="8" height="8">
+			<circle r="4" cx="4" cy="4" fill="var(--color-sea-blue)"></circle>
+		</svg>
+		<h4>本章目录</h4>
+		<Icon name="heroicons:chevron-up" size={18} class="arrow-icon" />
+	</div>
+
+	<nav class="toc" id="desktop-toc-content">
+		<ul>
+			{
+				headings
+					.filter(({ depth }) => depth > 1 && depth < 4)
+					.map((heading) => (
+						<li class="toc-item" data-level={heading.depth}>
+							<a href={`#${heading.slug}`} class="toc-link">
+								{heading.text}
+							</a>
+						</li>
+					))
+			}
+		</ul>
+	</nav>
+</div>
+
+<div class="mobile-container">
+	<div class="collapse-header">
+		<Icon name="heroicons:chevron-right" size={18} class="arrow-icon" />
+		<h4>本章目录</h4>
+	</div>
+	<div class="collapse-content">
+		<nav class="toc">
+			<ul>
+				{
+					headings
+						.filter(({ depth }) => depth > 1 && depth < 4)
+						.map((heading) => (
+							<li class="toc-item" data-level={heading.depth}>
+								<a href={`#${heading.slug}`} class="toc-link">
+									{heading.text}
+								</a>
+							</li>
+						))
+				}
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<style>
+	.arrow-icon {
+		color: var(--color-gray-600);
+		transition: all 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+	}
+
+	.arrow-icon.collapsed {
+		transform: rotate(180deg);
+	}
+
+	.desktop-container {
+		grid-column: 1;
+		height: 0;
+		max-width: 300px;
+		margin-left: 6%;
+		margin-right: 24px;
+		position: sticky;
+		top: 16px;
+		z-index: 10;
+	}
+
+	.desktop-container .title {
+		display: flex;
+		gap: 0.85rem;
+		align-items: center;
+		margin-top: 0.5rem;
+		cursor: pointer;
+		padding: var(--space-s);
+	}
+
+	.desktop-container .title h4 {
+		margin: 0;
+		font-size: 0.96rem;
+		color: var(--color-gray-800);
+		transition: all 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+	}
+
+	.desktop-container.collapsed .toc {
+		max-height: 0;
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.toc {
+		max-height: 80vh;
+		opacity: 1;
+		overflow: hidden;
+		padding-right: var(--space-m);
+		transition: all 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+	}
+
+	.mobile-container {
+		display: none;
+	}
+
+	@media (max-width: 1310px) {
+		.mobile-container {
+			display: block;
+			margin-bottom: var(--space-xs);
+		}
+		.desktop-container {
+			display: none;
+		}
+	}
+
+	.collapse-header {
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		border-bottom: 1px solid var(--color-gray-100);
+		padding-bottom: var(--space-xs);
+	}
+
+	.collapse-header .arrow-icon {
+		color: var(--color-sea-blue);
+		transition: all 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+	}
+
+	.collapse-header h4 {
+		display: inline-block;
+		margin: 0;
+		font-size: 0.96rem;
+		color: var(--color-gray-800);
+		font-weight: 600;
+		transition: all 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+	}
+
+	.collapse-header:hover h4 {
+		color: var(--color-medium-sea-blue);
+	}
+
+	.collapse-header:hover .arrow-icon {
+		fill: var(--color-medium-sea-blue);
+	}
+
+	.collapse-content {
+		padding-bottom: var(--space-xs);
+		margin: var(--space-s) 0;
+		border-bottom: 1px solid var(--color-gray-100);
+		display: none;
+	}
+
+	.collapse-content.expanded {
+		display: block;
+	}
+
+	.toc ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	li.toc-item {
+		margin-left: 22px !important;
+		margin-bottom: 0.75rem !important;
+	}
+
+	.toc-item::before {
+		display: none !important;
+	}
+
+	.toc-link {
+		font-family: var(--font-sans);
+		display: block;
+		line-height: var(--leading-base);
+		font-size: var(--font-size-sm);
+		cursor: pointer;
+		transition: all 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+		color: var(--color-gray-600);
+		text-decoration: none;
+	}
+
+	.toc-item[data-level="1"] .toc-link,
+	.toc-item[data-level="2"] .toc-link {
+		margin-left: 0;
+	}
+
+	.toc-item[data-level="3"] .toc-link,
+	.toc-item[data-level="4"] .toc-link {
+		margin-left: 24px;
+	}
+
+	.toc-link:hover {
+		color: var(--color-medium-sea-blue);
+	}
+
+	.toc-link.active {
+		color: var(--color-sea-blue);
+		font-weight: 500;
+	}
+</style>
+
+<script>
+	import { onPageLifecycle } from "../../utils/viewTransitionLifecycle";
+
+	onPageLifecycle(() => {
+		let isCollapsed = false;
+		let isAutoCollapsed = false;
+		let isScrollingToSection = false;
+		let disableAutoCollapse = false;
+
+		const desktopContainer = document.querySelector(".desktop-container") as HTMLElement;
+		const tocHeader = document.getElementById("desktop-toc-header");
+		const arrowIcon = tocHeader?.querySelector(".arrow-icon");
+
+		// Ensure desktop container has correct positioning after view transitions
+		if (desktopContainer) {
+			desktopContainer.style.gridColumn = "1";
+			desktopContainer.style.position = "sticky";
+			desktopContainer.style.top = "16px";
+			desktopContainer.style.zIndex = "10";
+		}
+
+		// Handle mobile TOC
+		const header = document.querySelector(".collapse-header");
+		const content = document.querySelector(".collapse-content");
+		const mobileArrow = header?.querySelector(".arrow-icon");
+
+		// Desktop toggle handler
+		const desktopClickHandler = () => {
+			isCollapsed = !isCollapsed;
+			isAutoCollapsed = false;
+			disableAutoCollapse = false;
+			desktopContainer?.classList.toggle("collapsed", isCollapsed);
+			arrowIcon?.classList.toggle("collapsed", isCollapsed);
+		};
+
+		// Mobile toggle handler
+		const mobileClickHandler = () => {
+			content?.classList.toggle("expanded");
+			mobileArrow?.classList.toggle("expanded");
+		};
+
+		// Auto-collapse desktop TOC once the user scrolls past the top of the page,
+		// to free up reading width. Re-expands if the user scrolls back to top.
+		// Manually toggling via header click resets the auto-collapse latch.
+		const scrollHandler = () => {
+			if (!desktopContainer || isScrollingToSection || disableAutoCollapse) return;
+			const containerRect = desktopContainer.getBoundingClientRect();
+			const isAtTop = containerRect.top <= 32;
+			if (!isAtTop) {
+				isCollapsed = false;
+				isAutoCollapsed = false;
+				desktopContainer.classList.remove("collapsed");
+				arrowIcon?.classList.remove("collapsed");
+			} else if (!isAutoCollapsed && !isCollapsed) {
+				isAutoCollapsed = true;
+				isCollapsed = true;
+				desktopContainer.classList.add("collapsed");
+				arrowIcon?.classList.add("collapsed");
+			}
+		};
+
+		// Add event listeners
+		tocHeader?.addEventListener("click", desktopClickHandler);
+		header?.addEventListener("click", mobileClickHandler);
+		window.addEventListener("scroll", scrollHandler);
+
+		// Smooth scrolling for TOC links
+		let scrollTimeoutId: ReturnType<typeof setTimeout> | undefined;
+		const linkHandlers: Array<{ link: Element; handler: EventListener }> = [];
+		document.querySelectorAll(".toc-link").forEach((link) => {
+			const linkClickHandler = (e: Event) => {
+				e.preventDefault();
+				e.stopPropagation();
+				const targetId = (link as HTMLAnchorElement).getAttribute("href")?.slice(1);
+				if (!targetId) return;
+
+				const targetElement = document.getElementById(targetId);
+				if (!targetElement) return;
+
+				isScrollingToSection = true;
+				disableAutoCollapse = true;
+
+				targetElement.scrollIntoView({
+					behavior: "smooth",
+					block: "start",
+				});
+
+				clearTimeout(scrollTimeoutId);
+				scrollTimeoutId = setTimeout(() => {
+					isScrollingToSection = false;
+				}, 1000);
+
+				history.pushState(null, "", `#${targetId}`);
+			};
+
+			linkHandlers.push({ link, handler: linkClickHandler });
+			link.addEventListener("click", linkClickHandler);
+		});
+
+		return () => {
+			clearTimeout(scrollTimeoutId);
+			tocHeader?.removeEventListener("click", desktopClickHandler);
+			header?.removeEventListener("click", mobileClickHandler);
+			window.removeEventListener("scroll", scrollHandler);
+			linkHandlers.forEach(({ link, handler }) => {
+				link.removeEventListener("click", handler);
+			});
+		};
+	});
+</script>

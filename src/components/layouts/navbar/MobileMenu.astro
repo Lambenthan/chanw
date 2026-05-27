@@ -1,0 +1,112 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<div id="mobile-menu" class="mobile-menu">
+	<nav class="mobile-nav">
+		<a href="/garden" class="nav-link">The Garden</a>
+		<a href="/essays" class="nav-link">Essays</a>
+		<a href="/news" class="nav-link">News</a>
+		<a href="/skills" class="nav-link">Skills</a>
+		<a href="/smidgeons" class="nav-link">Smidgeons</a>
+		<a href="/talks" class="nav-link">Talks</a>
+		<a href="/podcasts" class="nav-link">Podcasts</a>
+		<a href="/library" class="nav-link">Library</a>
+		<a href="/now" class="nav-link">Now</a>
+		<a href="/about" class="nav-link">About</a>
+	</nav>
+</div>
+
+<style>
+	.mobile-menu {
+		position: fixed;
+		top: 0;
+		right: -100%;
+		width: 100%;
+		height: 100vh;
+		background: var(--color-cream);
+		z-index: 1000;
+		transition: right 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+	--close-duration: 0.3s;
+		padding: var(--space-xl) var(--space-m);
+	}
+
+	.mobile-menu.open {
+		right: 0;
+	}
+
+	.mobile-nav {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-xs);
+		margin-top: var(--space-l);
+	}
+
+	.nav-link {
+		font-family: var(--font-body);
+		font-size: var(--font-size-md);
+		color: var(--color-gray-800);
+		text-decoration: none;
+		transition: color 0.2s ease-in-out;
+	}
+
+	.nav-link:hover {
+		color: var(--color-crimson);
+	}
+
+	@media screen and (min-width: 551px) {
+		.mobile-menu {
+			display: none;
+		}
+	}
+</style>
+
+<script>
+	import { onPageLifecycle } from "../../../utils/viewTransitionLifecycle";
+	import { navigate } from "astro:transitions/client";
+
+	onPageLifecycle(() => {
+		const mobileMenu = document.getElementById("mobile-menu") as HTMLElement;
+		const links = mobileMenu?.querySelectorAll("a");
+
+		if (!mobileMenu || !links) return;
+
+		// Instant close for non-click navigation (back button, etc.)
+		const closeMobileMenu = () => {
+			mobileMenu.classList.remove("open");
+			document.body.style.overflow = "auto";
+		};
+
+		const handleLinkClick = (e: Event) => {
+			const link = e.currentTarget as HTMLAnchorElement;
+			e.preventDefault();
+
+			// Fast ease-in for closing (open keeps its spring feel)
+			mobileMenu.style.transition = `right var(--close-duration, 0.3s) ease-in`;
+			mobileMenu.classList.remove("open");
+			document.body.style.overflow = "auto";
+
+			mobileMenu.addEventListener(
+				"transitionend",
+				() => {
+					mobileMenu.style.transition = "";
+					navigate(link.href);
+				},
+				{ once: true }
+			);
+		};
+
+		links.forEach((link) => {
+			link.addEventListener("click", handleLinkClick);
+		});
+
+		document.addEventListener("astro:before-preparation", closeMobileMenu);
+
+		return () => {
+			links.forEach((link) => {
+				link.removeEventListener("click", handleLinkClick);
+			});
+			document.removeEventListener("astro:before-preparation", closeMobileMenu);
+		};
+	});
+</script>

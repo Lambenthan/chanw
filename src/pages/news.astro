@@ -1,0 +1,228 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Title2 from "../components/mdx/typography/Title2.astro";
+import NewsCard from "../components/cards/NewsCard.astro";
+import TitleWithCount from "../components/layouts/TitleWithCount.astro";
+import PageWrapper from "../components/layouts/PageWrapper.astro";
+import MasonryGrid from "../components/layouts/MasonryGrid.astro";
+import { Icon } from "astro-icon/components";
+import newsItems from "../data/news.json";
+
+type NewsItem = {
+	title: string;
+	url: string;
+	source: string;
+	date?: string;
+	group: string;
+};
+
+const GROUPS: { id: string; title: string; subtitle: string }[] = [
+	{
+		id: "labs",
+		title: "AI Labs",
+		subtitle: "厂商一手发布 —— 模型、产品、工程博客。",
+	},
+	{
+		id: "papers",
+		title: "Papers",
+		subtitle: "近期论文 —— arXiv、HuggingFace Papers、研究院刊。",
+	},
+	{
+		id: "hn",
+		title: "Hacker News",
+		subtitle: "社区热帖 —— 全球技术圈最近在讨论什么。",
+	},
+	{
+		id: "gh",
+		title: "GitHub",
+		subtitle: "上升项目 —— 近期活跃、stars 增长快的开源仓库。",
+	},
+];
+
+const allItems = (newsItems as NewsItem[]).slice();
+
+// Within each group, sort by date desc (HN/GH already curated by points/stars,
+// but sorting by date here is harmless when item count is small).
+const grouped = GROUPS.map((g) => {
+	const items = allItems
+		.filter((x) => x.group === g.id)
+		.sort((a, b) => {
+			const ad = a.date ? new Date(a.date).getTime() : 0;
+			const bd = b.date ? new Date(b.date).getTime() : 0;
+			return bd - ad;
+		});
+	return { ...g, items };
+});
+---
+
+<Layout title="News">
+	<PageWrapper>
+		<header style="margin-bottom: var(--space-xl);">
+			<TitleWithCount posts={allItems}>
+				<div class="back-link" slot="header-right">
+					<a href="/">
+						<Icon name="heroicons:arrow-left" size={16} />
+						<span> Back to Home </span>
+					</a>
+				</div>
+				News
+			</TitleWithCount>
+			<Title2>AI 行业的最新动态 —— 模型发布、论文、社区热帖、上升开源项目，按来源分组。</Title2>
+		</header>
+
+		{
+			grouped.map((g) => (
+				<section class="news-group" id={`group-${g.id}`}>
+					<header class="group-header">
+						<span class="group-count">{g.items.length}</span>
+						<h2 class="group-title">{g.title}</h2>
+						<p class="group-subtitle">{g.subtitle}</p>
+					</header>
+					{g.items.length > 0 ? (
+						<MasonryGrid>
+							<div class="grid-sizer" />
+							{g.items.map((item) => (
+								<div class="grid-item">
+									<NewsCard
+										title={item.title}
+										url={item.url}
+										source={item.source}
+										date={item.date}
+									/>
+								</div>
+							))}
+						</MasonryGrid>
+					) : (
+						<p class="empty">本组暂无条目，等下次抓取。</p>
+					)}
+				</section>
+			))
+		}
+	</PageWrapper>
+</Layout>
+
+<style>
+	.back-link {
+		display: inline-flex;
+		align-items: center;
+		height: 100%;
+		position: relative;
+		left: -2rem;
+	}
+
+	@media (max-width: 1440px) {
+		.back-link {
+			display: inline-flex;
+			top: 0;
+			margin: 0;
+			left: 1rem;
+		}
+	}
+
+	.back-link a {
+		display: inline-flex;
+		align-items: center;
+		position: relative;
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: bold;
+		transition: all 0.8s cubic-bezier(0.2, 1, 0.8, 1);
+		margin: 0;
+		padding: 0;
+	}
+
+	.back-link svg {
+		width: 0;
+		transition: all 0.8s cubic-bezier(0.2, 1, 0.8, 1);
+		color: var(--color-gray-300);
+		position: relative;
+		top: 1px;
+	}
+
+	.back-link span {
+		display: inline-block;
+		transition: transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+		color: var(--color-gray-600);
+	}
+
+	.back-link a:hover svg {
+		width: 16px;
+		margin-right: 2px;
+		color: var(--color-sea-blue);
+	}
+
+	.back-link a:hover span {
+		transform: translate3d(3px, 0, 0);
+		color: var(--color-sea-blue);
+	}
+
+	.news-group {
+		margin-top: var(--space-xl);
+	}
+
+	.news-group + .news-group {
+		margin-top: var(--space-2xl);
+	}
+
+	.group-header {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		grid-template-areas:
+			"count title"
+			".     subtitle";
+		align-items: baseline;
+		column-gap: var(--space-xs);
+		row-gap: var(--space-3xs);
+		margin-bottom: var(--space-s);
+		padding-bottom: var(--space-xs);
+		border-bottom: 1px solid var(--color-tinted-cream);
+	}
+
+	.group-count {
+		grid-area: count;
+		font-family: var(--font-serif);
+		font-size: var(--font-size-md);
+		font-weight: 400;
+		color: var(--color-sea-blue);
+		font-variant-numeric: tabular-nums;
+		min-width: 1.5rem;
+		text-align: right;
+	}
+
+	.group-title {
+		grid-area: title;
+		font-family: var(--font-serif);
+		font-size: var(--font-size-xl);
+		font-weight: normal;
+		color: var(--color-gray-800);
+		line-height: var(--leading-tight);
+		margin: 0;
+	}
+
+	.group-subtitle {
+		grid-area: subtitle;
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		font-weight: 300;
+		color: var(--color-gray-600);
+		line-height: var(--leading-snug);
+		margin: 0;
+	}
+
+	.empty {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		color: var(--color-gray-500);
+		font-style: italic;
+		padding: var(--space-m) 0;
+		text-align: center;
+	}
+
+	@media (max-width: 640px) {
+		.group-header {
+			grid-template-columns: auto 1fr;
+		}
+	}
+</style>

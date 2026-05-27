@@ -1,0 +1,57 @@
+<p class="intro-paragraph">
+	<slot />
+</p>
+
+<style>
+	.intro-paragraph {
+		text-indent: 0;
+		white-space: normal;
+	}
+
+	.intro-paragraph:first-letter {
+		float: left;
+		font-size: 3.6rem;
+		line-height: 1;
+		font-weight: bold;
+		margin: 0.5rem var(--space-2xs) 0 0;
+		padding: 0;
+		font-family: var(--font-serif);
+	}
+
+	@media (max-width: 768px) {
+		.intro-paragraph:first-letter {
+			font-size: 3rem;
+			margin: 0.4rem var(--space-3xs) 0 0;
+		}
+	}
+</style>
+<script>
+	function normalizeContent(element: HTMLElement) {
+		// Process text nodes while preserving spaces around tags
+		const walker = document.createTreeWalker(
+			element,
+			NodeFilter.SHOW_TEXT,
+			null,
+		);
+
+		let node;
+		let isFirstNode = true;
+		while ((node = walker.nextNode())) {
+			if (node.textContent) {
+				// Only trim the start of the first text node and end of the last text node
+				const text = node.textContent.replace(/\s+/g, " "); // normalize multiple spaces to single space
+
+				if (isFirstNode) {
+					node.textContent = text.trimStart();
+					isFirstNode = false;
+				} else {
+					node.textContent = text;
+				}
+			}
+		}
+	}
+
+	const introParagraphs =
+		document.querySelectorAll<HTMLElement>(".intro-paragraph");
+	introParagraphs.forEach(normalizeContent);
+</script>

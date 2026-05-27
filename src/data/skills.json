@@ -1,0 +1,1302 @@
+[
+	{
+		"slug": "pdf",
+		"repo": "anthropics/skills",
+		"path": "skills/pdf",
+		"ref": "main",
+		"categoryId": "anthropic-docs",
+		"categoryLabel": "文档与办公格式（Anthropic 官方）",
+		"categorySummary": "处理 PDF / Word / Excel / PPT 的官方 skill，论文写作流水线最常用。",
+		"descriptionZh": "Anthropic 官方的 PDF 处理 skill。围绕 pypdf 等 Python 库展开，覆盖文本与\n表格抽取、页面合并拆分、旋转加水印、表单填写、加密解密，扫描件也能\n做 OCR 让全文可检索。论文流水线里读文献、整理审稿意见、汇编附录\n几乎绕不开。"
+	},
+	{
+		"slug": "docx",
+		"repo": "anthropics/skills",
+		"path": "skills/docx",
+		"ref": "main",
+		"categoryId": "anthropic-docs",
+		"categoryLabel": "文档与办公格式（Anthropic 官方）",
+		"categorySummary": "处理 PDF / Word / Excel / PPT 的官方 skill，论文写作流水线最常用。",
+		"descriptionZh": "Anthropic 官方的 Word 文档 skill。把 .docx 当作 ZIP+XML 来读写，能新建\n带目录、页眉、抬头的正式文档，也能解包后改 XML 再封回去做精细修订。\n常见场景包括起草 PRD、改投稿信、把 .doc 转 .docx，以及处理审阅模式\n下的修订与批注。"
+	},
+	{
+		"slug": "xlsx",
+		"repo": "anthropics/skills",
+		"path": "skills/xlsx",
+		"ref": "main",
+		"categoryId": "anthropic-docs",
+		"categoryLabel": "文档与办公格式（Anthropic 官方）",
+		"categorySummary": "处理 PDF / Word / Excel / PPT 的官方 skill，论文写作流水线最常用。",
+		"descriptionZh": "Anthropic 官方的电子表格 skill，覆盖 .xlsx / .xlsm / .csv / .tsv。重点是\n零公式错误、保留既有模板格式、字体统一专业。适合整理实证数据、修\n脏表、把多源数据拼成研究用的分析表，或者按既定模板做财务建模。"
+	},
+	{
+		"slug": "pptx",
+		"repo": "anthropics/skills",
+		"path": "skills/pptx",
+		"ref": "main",
+		"categoryId": "anthropic-docs",
+		"categoryLabel": "文档与办公格式（Anthropic 官方）",
+		"categorySummary": "处理 PDF / Word / Excel / PPT 的官方 skill，论文写作流水线最常用。",
+		"descriptionZh": "Anthropic 官方的 PowerPoint skill。读取演示文稿用 markitdown 抽文字，\n做缩略图扫一眼版式；新建用 pptxgenjs，改既有模板就解包 XML 再重打包。\n适合按学校或会议模板做答辩 deck、把研究结果转成讲稿，或批量改备注页。"
+	},
+	{
+		"slug": "doc-coauthoring",
+		"repo": "anthropics/skills",
+		"path": "skills/doc-coauthoring",
+		"ref": "main",
+		"categoryId": "anthropic-docs",
+		"categoryLabel": "文档与办公格式（Anthropic 官方）",
+		"categorySummary": "处理 PDF / Word / Excel / PPT 的官方 skill，论文写作流水线最常用。",
+		"descriptionZh": "Anthropic 官方的文档协同写作 skill。把写作过程拆成三步：先收集上下文，\n再迭代结构和措辞，最后做读者视角的可读性验证。适合写 PRD、设计文档、\nRFC、决策记录这类需要把想法清楚转交给同事的结构化文稿。"
+	},
+	{
+		"slug": "frontend-design",
+		"repo": "anthropics/skills",
+		"path": "skills/frontend-design",
+		"ref": "main",
+		"categoryId": "anthropic-design",
+		"categoryLabel": "设计与图形（Anthropic 官方）",
+		"categorySummary": "画图、做设计稿、生成主题与品牌素材。",
+		"descriptionZh": "Anthropic 官方的前端设计 skill，目标是做出可上线、视觉风格鲜明的界面，\n避开常见的\"AI 千篇一律\"配色和居中堆叠版式。先定调子，再写 React /\nHTML / CSS，组件、落地页、海报、dashboard 都能用，注重细节和审美决断。"
+	},
+	{
+		"slug": "canvas-design",
+		"repo": "anthropics/skills",
+		"path": "skills/canvas-design",
+		"ref": "main",
+		"categoryId": "anthropic-design",
+		"categoryLabel": "设计与图形（Anthropic 官方）",
+		"categorySummary": "画图、做设计稿、生成主题与品牌素材。",
+		"descriptionZh": "Anthropic 官方的视觉设计 skill，专做静态海报和插画类作品，输出 .pdf 或\n.png。先用一份 .md 文件把\"设计哲学\"写清楚——形式、空间、色彩、构图，\n再在画布上落地。要求原创，避免临摹在世艺术家的风格造成侵权。"
+	},
+	{
+		"slug": "algorithmic-art",
+		"repo": "anthropics/skills",
+		"path": "skills/algorithmic-art",
+		"ref": "main",
+		"categoryId": "anthropic-design",
+		"categoryLabel": "设计与图形（Anthropic 官方）",
+		"categorySummary": "画图、做设计稿、生成主题与品牌素材。",
+		"descriptionZh": "Anthropic 官方的算法艺术 skill。用 p5.js 写生成式作品，支持种子化随机和\n交互式参数调节，常见题材包括 flow field、粒子系统、涌现行为。先定一份\n算法美学的\"哲学\"文档，再用 .html + .js 实现可交互的查看器。"
+	},
+	{
+		"slug": "brand-guidelines",
+		"repo": "anthropics/skills",
+		"path": "skills/brand-guidelines",
+		"ref": "main",
+		"categoryId": "anthropic-design",
+		"categoryLabel": "设计与图形（Anthropic 官方）",
+		"categorySummary": "画图、做设计稿、生成主题与品牌素材。",
+		"descriptionZh": "Anthropic 官方品牌规范 skill。提供官方主色、辅助色与字体搭配，方便把\n任意 artifact 套上 Anthropic 的视觉调性。给 Anthropic 内部或合作项目做\nslide、海报、网页时直接调用，避免自己临摹品牌色出错。"
+	},
+	{
+		"slug": "theme-factory",
+		"repo": "anthropics/skills",
+		"path": "skills/theme-factory",
+		"ref": "main",
+		"categoryId": "anthropic-design",
+		"categoryLabel": "设计与图形（Anthropic 官方）",
+		"categorySummary": "画图、做设计稿、生成主题与品牌素材。",
+		"descriptionZh": "Anthropic 官方的主题工具集 skill。预置 10 套配色 + 字体搭配方案，也能\n按需生成新主题，应用到幻灯片、文档、报告、HTML 落地页等任何 artifact 上。\n适合在没有强品牌约束时快速给产物套一致的视觉风格。"
+	},
+	{
+		"slug": "slack-gif-creator",
+		"repo": "anthropics/skills",
+		"path": "skills/slack-gif-creator",
+		"ref": "main",
+		"categoryId": "anthropic-design",
+		"categoryLabel": "设计与图形（Anthropic 官方）",
+		"categorySummary": "画图、做设计稿、生成主题与品牌素材。",
+		"descriptionZh": "Anthropic 官方的 Slack GIF 制作 skill。封装了 Slack 对动图的尺寸、帧率、\n色数、时长这些隐性约束，提供生成与校验工具。emoji 用 128x128、消息用\n480x480、控制在三秒内，避免做出来发不上去。"
+	},
+	{
+		"slug": "web-artifacts-builder",
+		"repo": "anthropics/skills",
+		"path": "skills/web-artifacts-builder",
+		"ref": "main",
+		"categoryId": "anthropic-design",
+		"categoryLabel": "设计与图形（Anthropic 官方）",
+		"categorySummary": "画图、做设计稿、生成主题与品牌素材。",
+		"descriptionZh": "Anthropic 官方的 claude.ai 复杂 artifact 构建 skill。基于 React 18 +\nTypeScript + Vite + Tailwind + shadcn/ui，初始化、开发、再打包成单 HTML 文件\n交给用户。适合做带路由、状态管理、复合组件的交互 demo，简单单文件\nartifact 反而用不上。"
+	},
+	{
+		"slug": "claude-api",
+		"repo": "anthropics/skills",
+		"path": "skills/claude-api",
+		"ref": "main",
+		"categoryId": "anthropic-dev",
+		"categoryLabel": "开发与扩展（Anthropic 官方）",
+		"categorySummary": "建 MCP、写 skill、写 API、做测试、内部沟通。",
+		"descriptionZh": "Anthropic 官方的 Claude API skill。用来构建、调试、优化基于 Anthropic SDK\n的应用，强调默认开启 prompt caching。还负责模型版本之间的迁移\n（Claude 4.5 到 4.6、4.6 到 4.7，以及退役模型替换），并能针对 thinking、\ntool use、batch、citations、memory 等特性做调参。"
+	},
+	{
+		"slug": "mcp-builder",
+		"repo": "anthropics/skills",
+		"path": "skills/mcp-builder",
+		"ref": "main",
+		"categoryId": "anthropic-dev",
+		"categoryLabel": "开发与扩展（Anthropic 官方）",
+		"categorySummary": "建 MCP、写 skill、写 API、做测试、内部沟通。",
+		"descriptionZh": "Anthropic 官方的 MCP server 开发指南 skill，支持 Python FastMCP 与 Node\nTypeScript SDK 两条路径。重点放在工具设计的质量上——既要覆盖 API，\n又要提炼面向真实任务的 workflow 工具。适合给现有外部服务封 MCP 接口\n给 LLM 调用。"
+	},
+	{
+		"slug": "skill-creator",
+		"repo": "anthropics/skills",
+		"path": "skills/skill-creator",
+		"ref": "main",
+		"categoryId": "anthropic-dev",
+		"categoryLabel": "开发与扩展（Anthropic 官方）",
+		"categorySummary": "建 MCP、写 skill、写 API、做测试、内部沟通。",
+		"descriptionZh": "Anthropic 官方的 skill 元 skill，用来从零写新 skill、修改已有 skill，并对\nskill 触发准确性、表现做 eval。流程是先想清楚 skill 做什么，写初稿，跑\n测试提示，做定量与定性评估，再迭代描述以提升触发命中率。"
+	},
+	{
+		"slug": "webapp-testing",
+		"repo": "anthropics/skills",
+		"path": "skills/webapp-testing",
+		"ref": "main",
+		"categoryId": "anthropic-dev",
+		"categoryLabel": "开发与扩展（Anthropic 官方）",
+		"categorySummary": "建 MCP、写 skill、写 API、做测试、内部沟通。",
+		"descriptionZh": "Anthropic 官方的 Web 应用测试 skill。基于 Playwright 写原生 Python 脚本，\n能验证前端功能、调试 UI 行为、抓截图、看浏览器日志。配套\n`scripts/with_server.py` 管理服务进程，做端到端回归或排查页面问题时\n最常用。"
+	},
+	{
+		"slug": "internal-comms",
+		"repo": "anthropics/skills",
+		"path": "skills/internal-comms",
+		"ref": "main",
+		"categoryId": "anthropic-dev",
+		"categoryLabel": "开发与扩展（Anthropic 官方）",
+		"categorySummary": "建 MCP、写 skill、写 API、做测试、内部沟通。",
+		"descriptionZh": "Anthropic 官方的内部沟通写作 skill。针对 3P 更新（Progress / Plans /\nProblems）、公司内部 newsletter、FAQ、状态报告、领导汇报、事故复盘等\n常见格式，提供模板与示例。把日常内部文档对齐到组织偏好的格式与口吻。"
+	},
+	{
+		"slug": "using-superpowers",
+		"repo": "obra/superpowers",
+		"path": "skills/using-superpowers",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 体系的入口 skill。规则是：只要任务有 1% 可能命中某个\nskill，就必须先 invoke 那个 skill 再回答，包括澄清问题之前。整套\nsuperpowers 把流程纪律作为硬约束，本 skill 是建立这种纪律的起点。"
+	},
+	{
+		"slug": "brainstorming",
+		"repo": "obra/superpowers",
+		"path": "skills/brainstorming",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的创意头脑风暴 skill。任何\"做新功能、加新组件、改行为\"\n类的工作都要先走它：通过逐条提问澄清意图、需求和设计，把模糊想法\n推演成完整方案。设计未经用户拍板前不能写代码、不能搭项目。"
+	},
+	{
+		"slug": "writing-plans",
+		"repo": "obra/superpowers",
+		"path": "skills/writing-plans",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的实施计划撰写 skill。假定执行者对项目一无所知，把\n多步任务拆成\"动哪些文件、写什么代码、怎么测、要看哪些文档\"的细颗粒\n清单。强调 DRY、YAGNI、TDD、勤提交，方便后续交给子 agent 或新 session\n执行。"
+	},
+	{
+		"slug": "executing-plans",
+		"repo": "obra/superpowers",
+		"path": "skills/executing-plans",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的计划执行 skill。在新 session 里加载已经写好的实施\n计划，先做一轮批判性 review，再按顺序执行每个任务，完成后报告。如果\n平台支持 subagent，会推荐改用 subagent-driven-development 提高质量。"
+	},
+	{
+		"slug": "test-driven-development",
+		"repo": "obra/superpowers",
+		"path": "skills/test-driven-development",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的 TDD skill。先写测试、看它失败、再写最少代码让它过。\n适用于新功能、bug 修复、重构、行为变更——抛弃式原型、生成代码、\n配置文件这类情况要先和人确认。铁律是没有失败的测试，就不写实现代码。"
+	},
+	{
+		"slug": "systematic-debugging",
+		"repo": "obra/superpowers",
+		"path": "skills/systematic-debugging",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的系统化调试 skill。铁律是没找到根因不能动手修，杜绝\n随便贴补丁掩盖问题。覆盖测试失败、生产 bug、构建报错、性能问题、集成\n问题等各种技术故障，强制走完根因调查阶段才允许提出修复方案。"
+	},
+	{
+		"slug": "verification-before-completion",
+		"repo": "obra/superpowers",
+		"path": "skills/verification-before-completion",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的完工前验证 skill。在声称\"做完了 / 修好了 / 通过了\"\n之前，必须本轮对话里跑一遍验证命令并贴出输出。证据先于结论，提交、\n开 PR 前都要走一道。专治\"先喊完成再被打脸\"的常见漏洞。"
+	},
+	{
+		"slug": "requesting-code-review",
+		"repo": "obra/superpowers",
+		"path": "skills/requesting-code-review",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的代码评审请求 skill。派一个独立 subagent 做评审，给它\n精心构造的上下文，而不会继承当前 session 的历史。这样评审视角聚焦在\n产物本身，主 session 也保留自己的上下文继续干活。完成大功能或合并\n主分支前都该走一次。"
+	},
+	{
+		"slug": "receiving-code-review",
+		"repo": "obra/superpowers",
+		"path": "skills/receiving-code-review",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的接收评审 skill。强调技术严谨而非情绪化回应：先完整\n读完反馈，再用自己的话复述需求，对照代码事实做核验，技术上站不住\n就有理有据地反驳。一次实现一项，逐条测试，避免盲目接受或形式上\n应付。"
+	},
+	{
+		"slug": "writing-skills",
+		"repo": "obra/superpowers",
+		"path": "skills/writing-skills",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的 skill 写作 skill。把写 skill 类比成对流程文档做 TDD：\n先用 subagent 跑压力场景看 baseline 表现，再写 skill，再验证 agent 是否\n遵守，最后封堵漏洞。个人 skill 放在 `~/.claude/skills` 或 `~/.agents/skills/`。"
+	},
+	{
+		"slug": "subagent-driven-development",
+		"repo": "obra/superpowers",
+		"path": "skills/subagent-driven-development",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的子 agent 驱动开发 skill。一项任务起一个新 subagent，\n完成后走两阶段评审——先核 spec 合规，再看代码质量。子 agent 拿到的\n是精心拼好的上下文，不继承主 session 历史，既让它专注，又保护主线的\n上下文预算。"
+	},
+	{
+		"slug": "dispatching-parallel-agents",
+		"repo": "obra/superpowers",
+		"path": "skills/dispatching-parallel-agents",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的并行 agent 派发 skill。面对两个以上互不依赖、无共享\n状态的任务时，串行调查浪费时间，改成并行派 agent 同时跑。每个 agent\n拿到隔离的上下文与精确指令，主 session 只负责协调。典型场景：多个\n不相关的测试失败同时排查。"
+	},
+	{
+		"slug": "using-git-worktrees",
+		"repo": "obra/superpowers",
+		"path": "skills/using-git-worktrees",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的 git worktree skill。在动新功能或执行计划前，确保自己\n在一个隔离工作区里。优先用平台原生 worktree 工具，没得用时再退到手工\ngit worktree。先检测是否已在隔离环境，避免和 harness 打架，也避免污染\n主分支。"
+	},
+	{
+		"slug": "finishing-a-development-branch",
+		"repo": "obra/superpowers",
+		"path": "skills/finishing-a-development-branch",
+		"ref": "main",
+		"categoryId": "superpowers-discipline",
+		"categoryLabel": "流程纪律（obra/superpowers）",
+		"categorySummary": "Brainstorm → 写计划 → TDD → 验证 → 代码评审一整套工程纪律。",
+		"descriptionZh": "obra/superpowers 的开发分支收尾 skill。验证测试通过 → 探测当前环境 →\n给出合并、开 PR、清理等结构化选项 → 按选择执行 → 收尾清理。测试没过\n必须先修，避免半成品被 merge 进主线。"
+	},
+	{
+		"slug": "obsidian-markdown",
+		"repo": "kepano/obsidian-skills",
+		"path": "skills/obsidian-markdown",
+		"ref": "main",
+		"categoryId": "obsidian",
+		"categoryLabel": "Obsidian 笔记（kepano/obsidian-skills）",
+		"categorySummary": "Obsidian Markdown 方言、Canvas、Bases、命令行集成，配合 obsidian 笔记仓使用。",
+		"descriptionZh": "kepano/obsidian-skills 里的 Obsidian Markdown 写作 skill。专门处理 Obsidian\n对 CommonMark 和 GFM 的扩展语法：wikilinks、embeds、callouts、properties\nfrontmatter、tags、注释。把笔记结构、属性、双向链接和嵌入这些\nObsidian-特有的写法理顺，新建或编辑 .md 时不踩坑。"
+	},
+	{
+		"slug": "obsidian-bases",
+		"repo": "kepano/obsidian-skills",
+		"path": "skills/obsidian-bases",
+		"ref": "main",
+		"categoryId": "obsidian",
+		"categoryLabel": "Obsidian 笔记（kepano/obsidian-skills）",
+		"categorySummary": "Obsidian Markdown 方言、Canvas、Bases、命令行集成，配合 obsidian 笔记仓使用。",
+		"descriptionZh": "kepano/obsidian-skills 里的 Obsidian Bases skill，用于编辑 .base 文件。\n通过 YAML 描述 filters、formulas 和 table / cards / list / map 四种视图，\n把笔记库当数据库查询。适合给研究项目做文献追踪表、任务面板、属性\n汇总等动态视图。"
+	},
+	{
+		"slug": "obsidian-cli",
+		"repo": "kepano/obsidian-skills",
+		"path": "skills/obsidian-cli",
+		"ref": "main",
+		"categoryId": "obsidian",
+		"categoryLabel": "Obsidian 笔记（kepano/obsidian-skills）",
+		"categorySummary": "Obsidian Markdown 方言、Canvas、Bases、命令行集成，配合 obsidian 笔记仓使用。",
+		"descriptionZh": "kepano/obsidian-skills 里的 Obsidian CLI skill，通过 `obsidian` 命令行操作\n正在运行的 vault：读写笔记、检索内容、管理任务和属性。还支持插件与\n主题开发场景——reload 插件、跑 JS、抓错误、截图、看 DOM，方便在\n终端里批量维护笔记或调试插件。"
+	},
+	{
+		"slug": "json-canvas",
+		"repo": "kepano/obsidian-skills",
+		"path": "skills/json-canvas",
+		"ref": "main",
+		"categoryId": "obsidian",
+		"categoryLabel": "Obsidian 笔记（kepano/obsidian-skills）",
+		"categorySummary": "Obsidian Markdown 方言、Canvas、Bases、命令行集成，配合 obsidian 笔记仓使用。",
+		"descriptionZh": "Obsidian Canvas 文件（.canvas）的读写规范 skill。Canvas 本质是带 nodes\n和 edges 两个数组的 JSON，按 JSON Canvas Spec 1.0 组织。skill 给出\n新建画布、追加节点、连线、修改属性的操作步骤，以及节点 id 用 16 位\nhex、文本节点用 \\n 换行等容易踩坑的细节。适合让 agent 帮你批量生成\n思维导图或流程图。"
+	},
+	{
+		"slug": "defuddle",
+		"repo": "kepano/obsidian-skills",
+		"path": "skills/defuddle",
+		"ref": "main",
+		"categoryId": "obsidian",
+		"categoryLabel": "Obsidian 笔记（kepano/obsidian-skills）",
+		"categorySummary": "Obsidian Markdown 方言、Canvas、Bases、命令行集成，配合 obsidian 笔记仓使用。",
+		"descriptionZh": "用 Defuddle CLI 把网页正文抽成干净 markdown 的 skill。相比 WebFetch\n直接抓 HTML，它会去掉导航栏、广告、侧边推荐这些噪声，省 token。\n典型用法是 defuddle parse <url> --md，也能单独取标题、描述、域名\n等字段。URL 已经是 .md 结尾就不需要它，直接走 WebFetch 即可。"
+	},
+	{
+		"slug": "find-skills",
+		"repo": "vercel-labs/skills",
+		"path": "skills/find-skills",
+		"ref": "main",
+		"categoryId": "skill-discovery",
+		"categoryLabel": "找 skill / 装 skill",
+		"categorySummary": "通过 npx 命令搜索全网公开 skill 并一键安装。",
+		"descriptionZh": "帮 agent 在开源 skill 生态里找现成 skill 的元 skill。用户问\"有没有\n做 X 的 skill\"时触发，先去 skills.sh 看排行榜，再用 npx skills find\n关键词检索，挑选时看安装量和源仓库可信度。命中以后给用户 npx skills\nadd 的安装命令。配合 Skills CLI 这个 skill 包管理器使用。"
+	},
+	{
+		"slug": "ui-ux-pro-max",
+		"repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+		"path": ".claude/skills/ui-ux-pro-max",
+		"ref": "main",
+		"categoryId": "ui-design",
+		"categoryLabel": "UI / 设计（社区高分）",
+		"categorySummary": "67 种 UI 风格、161 套配色、57 组字体配对，覆盖 15+ 技术栈的设计 skill。",
+		"descriptionZh": "面向 web 与移动端的 UI/UX 设计决策 skill。内置 50+ 视觉风格、161 套\n配色、57 组字体搭配、25 类图表，覆盖 React、Vue、SwiftUI、Flutter、\nTailwind、shadcn/ui 等 10 个技术栈。做新页面、改组件、定配色与排版\n系统、走 UI code review 时调用，按 accessibility、触控规范、性能、\n风格一致性这些优先级给出可执行检查项。整合了 shadcn/ui MCP 用来查\n组件示例。"
+	},
+	{
+		"slug": "ablation-planner",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/data-analysis/ablation-planner",
+		"ref": "main",
+		"categoryId": "paper-data",
+		"categoryLabel": "论文 · 数据分析",
+		"categorySummary": "实验规划、消融研究、结果分析、统计与表格整理。",
+		"descriptionZh": "ablation-planner 是论文投稿前系统设计消融实验的 skill。主实验完成并形成初步结论后自动启动，从审稿人视角逐项提出必须验证的消融内容：每个新组件的贡献、关键超参数敏感性、替代设计对比。底层由 Codex 主导设计，CC 评估可行性并执行，适合需要为投稿补全实验证据的分析阶段。"
+	},
+	{
+		"slug": "analyze-results",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/data-analysis/analyze-results",
+		"ref": "main",
+		"categoryId": "paper-data",
+		"categoryLabel": "论文 · 数据分析",
+		"categorySummary": "实验规划、消融研究、结果分析、统计与表格整理。",
+		"descriptionZh": "这个 skill 针对机器学习实验的自动化分析。它从指定目录找出 JSON 或 CSV 结果，按自变量与因变量组织比较表，计算多次重复的均值与标准差，识别单调或 U 形趋势，标记异常值，最后给出每条发现的数值观察、可能原因与后续实验建议。适用于论文写作中需要快速从原始输出提炼核心结论并更新实验记录的场景。"
+	},
+	{
+		"slug": "experiment-plan",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/data-analysis/experiment-plan",
+		"ref": "main",
+		"categoryId": "paper-data",
+		"categoryLabel": "论文 · 数据分析",
+		"categorySummary": "实验规划、消融研究、结果分析、统计与表格整理。",
+		"descriptionZh": "实验规划 skill，将稳定的方法提案转化为以核心 claim 驱动的实验路线图。给定问题锚点与主导贡献，输出包含运行顺序、消融矩阵与评估协议的紧凑验证方案，优先选用少量强 baseline 而非大量弱 baseline。适用于"
+	},
+	{
+		"slug": "results-analysis",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/data-analysis/results-analysis",
+		"ref": "main",
+		"categoryId": "paper-data",
+		"categoryLabel": "论文 · 数据分析",
+		"categorySummary": "实验规划、消融研究、结果分析、统计与表格整理。",
+		"descriptionZh": "Results Analysis 是一个面向论文实验数据分析的 Claude Code 技能。它读取 CSV、JSON、TensorBoard 日志等格式的数据，做均值、标准差、置信区间等统计摘要，并运行 t 检验、ANOVA 等显著性检验。输出包括结果文本与可直接用于论文的图表。适用于做完模型对比实验后整理数据、生成 Results 章节初稿。"
+	},
+	{
+		"slug": "run-experiment",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/data-analysis/run-experiment",
+		"ref": "main",
+		"categoryId": "paper-data",
+		"categoryLabel": "论文 · 数据分析",
+		"categorySummary": "实验规划、消融研究、结果分析、统计与表格整理。",
+		"descriptionZh": "Claude Code 的 run-experiment skill 负责将训练任务部署到本地 GPU、远程服务器、Vast.ai 或 Modal serverless 环境。自动检测目标机器的硬件状态与 conda 环境，完成代码同步与命令执行，省去反复 SSHand 配置的工作。适合需要频繁切换多台 GPU 机器跑消融实验或超参搜索的研究者。"
+	},
+	{
+		"slug": "statistical-analysis",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/data-analysis/statistical-analysis",
+		"ref": "main",
+		"categoryId": "paper-data",
+		"categoryLabel": "论文 · 数据分析",
+		"categorySummary": "实验规划、消融研究、结果分析、统计与表格整理。",
+		"descriptionZh": "Anthropic 官方维护的统计分析 skill，覆盖从检验选型、前提检验、功效分析、效应量计算到 APA 格式报告的全过程。内建参数与非参数方法、线性与逻辑回归、贝叶斯分析，并能自动生成诊断图表和结果解读。适用于学术论文中数据分析和结果报告，对统计流程不熟悉的研究者可用它做结构化指引。"
+	},
+	{
+		"slug": "xlsx",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/data-analysis/xlsx",
+		"ref": "main",
+		"categoryId": "paper-data",
+		"categoryLabel": "论文 · 数据分析",
+		"categorySummary": "实验规划、消融研究、结果分析、统计与表格整理。",
+		"descriptionZh": "用于处理 Excel、CSV 等电子表格文件的 Claude Code skill。定义了一套完整的格式规范：蓝色字体标记硬编码输入、黑色标记公式、绿色标记同工作簿引用，同时要求零公式错误、数字格式统一。适用于论文数据整理、财务模型搭建、批量数据清洗等场景，输出的表格可直接用于汇报或投稿。"
+	},
+	{
+		"slug": "docx",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/document-handling/docx",
+		"ref": "main",
+		"categoryId": "paper-doc",
+		"categoryLabel": "论文 · 文档处理",
+		"categorySummary": "docx / pdf / formula / proof reading 等论文素材处理。",
+		"descriptionZh": "论文写作场景的 .docx 文件处理 skill。支持创建带目录、页眉页脚、修订标记的 Word 文档，也能读取现有文档的文本与 XML 结构。内部调用 JavaScript 的 docx 库生成内容，借助 pandoc 提取文本或接受修订。适合需要在 CLI 环境下自动化生成论文草稿、整理同行评审意见、或批量处理文档模板的研究者。"
+	},
+	{
+		"slug": "formula-derivation",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/document-handling/formula-derivation",
+		"ref": "main",
+		"categoryId": "paper-doc",
+		"categoryLabel": "论文 · 文档处理",
+		"categorySummary": "docx / pdf / formula / proof reading 等论文素材处理。",
+		"descriptionZh": "帮助研究人员把散乱的公式笔记整理成一篇连贯的推导文档。skill 会先锁定推导目标、核对假设与符号定义，然后输出三种结果之一：完整的推导包、经过重构对象或假设修正后的推导包，或者一份 blocker 报告，解释当前笔记为什么无法支撑连贯推导。适用于论文写作者从理论草稿过渡到成稿的阶段。"
+	},
+	{
+		"slug": "markitdown",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/document-handling/markitdown",
+		"ref": "main",
+		"categoryId": "paper-doc",
+		"categoryLabel": "论文 · 文档处理",
+		"categorySummary": "docx / pdf / formula / proof reading 等论文素材处理。",
+		"descriptionZh": "Microsoft 开源的 MarkItDown 工具，用于将 PDF、Office 文档、图片、音频、HTML 等十余种格式统一转为干净 Markdown。Markdown 对 LLM 处理更为节约 token，适合作为知识库预处理或文档管道的前端环节。此 skill 还融合了生成科学示意图的能力，可在转换完成后自动建议补充论文级插图。"
+	},
+	{
+		"slug": "pdf",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/document-handling/pdf",
+		"ref": "main",
+		"categoryId": "paper-doc",
+		"categoryLabel": "论文 · 文档处理",
+		"categorySummary": "docx / pdf / formula / proof reading 等论文素材处理。",
+		"descriptionZh": "这个 skill 封装了 pypdf 与 pdfplumber，能够从 PDF 中抽取文本与表格、合并或拆分文件、旋转页面、添加水印、填充表单、加密解密，以及用 ocrmypdf 对扫描件做 OCR。论文写作中处理文献、整理审稿意见、合并多个文档或生成自定义 PDF 时都用得上。"
+	},
+	{
+		"slug": "proof-checker",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/document-handling/proof-checker",
+		"ref": "main",
+		"categoryId": "paper-doc",
+		"categoryLabel": "论文 · 文档处理",
+		"categorySummary": "docx / pdf / formula / proof reading 等论文素材处理。",
+		"descriptionZh": "数学证明的自动化验证与修复工作流。该 skill 读取 LaTeX 证明文本，通过跨模型对抗审查（基于 GPT-5.4 高推理配置）识别逻辑缺口、量词错误、未证明断言等，逐条修正后重新审查，最终生成审计报告。适用于理论论文中需要多人轮值审查前的自动化扫查，或作为审稿环节的辅助工具。"
+	},
+	{
+		"slug": "proof-writer",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/document-handling/proof-writer",
+		"ref": "main",
+		"categoryId": "paper-doc",
+		"categoryLabel": "论文 · 文档处理",
+		"categorySummary": "docx / pdf / formula / proof reading 等论文素材处理。",
+		"descriptionZh": "proof-writer 专门用于书写严格的数学证明，覆盖定理、引理、命题与推论的起草与补全。它自动判定原始命题是否在给定假设下可证，若能则输出完整证明，若不能则给出修正后的命题或堵塞报告说明为什么证明不成立。适合在撰写机器学习理论论文时，需要逐条验证论证链条完整性的研究者。"
+	},
+	{
+		"slug": "drawio",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/drawio",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "论文和汇报中需要精细化图表的场合，drawio 提供比 mermaid 更强的灵活度。这个 skill 调用 drawio XML 格式，配有 8900 余种模板，可用于网络拓扑图、UML、架构图以及含 AWS、Azure 专有图标的场景。适合对像素位置与颜色有精确要求的示意图，不适合简单流程图（用 mermaid）或数据驱动图表（用 vega）。"
+	},
+	{
+		"slug": "figure-description",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/figure-description",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "figure-description 是面向专利撰写的 Claude Code skill。用户提供技术示意图，它按附图自动分配参考数字编号（Fig 1 用 100–199，Fig 2 用 200–299，以此类推），并参考发明公开书与权利要求书，生成形式规范的中文附图说明。适用于专利撰写阶段，将草图中的技术特征对应到权利要求，同时产出符合审查指南的附图说明文本。"
+	},
+	{
+		"slug": "figure-generation",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/figure-generation",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "用于论文图表生成的 Claude Code skill。以 matplotlib/seaborn 为核心，先用查询扩展明确需求，再生成并执行绘图代码，最后自动用 VLM 检查视觉效果并迭代修正。涵盖柱状图、折线图、热图、训练曲线、消融图等常见科学图表类型。适合在论文写作中快速生成格式统一的图表，减少手动调整代码的工作量。"
+	},
+	{
+		"slug": "figure-planner",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/figure-planner",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "针对论文图表逻辑的设计与审计 skill。它解决的是单个主图信息过载、面板分工模糊、图例与正文脱节这类问题。核心做法是：先给每个主图写一句可辩护的 claim，再分配每个面板的唯一角色（证据、方法说明、验证、排序、转化示意等），然后调整主图与补图的归属。在草稿阶段，把图表从“按绘图方便组织”改成“按论证逻辑组织”时用得上。"
+	},
+	{
+		"slug": "figure-spec",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/figure-spec",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "从结构化 JSON 确定性生成出版级 SVG 矢量图（架构图、工作流图、管道图）的 Claude Code skill。每份 JSON 对应完全一致的 SVG 输出，支持矩形/圆/菱形等多形状节点与中文多行标签。无需联网或 API 密钥，适用于论文、技术报告中对节点位置和连接语义要求严格的正式图表场景。"
+	},
+	{
+		"slug": "mermaid-diagram",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/mermaid-diagram",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "用于论文写作中快速生成 Mermaid 图表的 Claude Code skill。输入自然语言的需求描述，自动选出最合适的图类型、生成 Mermaid 代码并保存为 .mmd 文件到 figures/ 目录。内置语法校验，遇到错误反复修正最多三次。流程图"
+	},
+	{
+		"slug": "nature-data",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/nature-data",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "针对 Nature Portfolio 期刊投稿流程而设计的 Data Availability 写作辅助。自动生成符合出版社要求的英文数据可用性声明，涵盖存储库选择、数据集引用格式与 FAIR 元数据检查。特别考虑中文作者常见的表述习惯，将“可向通讯作者索取”这类模糊说法转化为 Nature 认可的受限访问声明。适用于准备投稿 Nature 系列杂志时整理原始数据与补充材料的发布方案。"
+	},
+	{
+		"slug": "nature-figure",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/nature-figure",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "面向 Nature 系列等高水平期刊的论文图表绘制 skill。支持 Python 与 R 两种后端，强调在动笔之前先建立\"图表契约\"——明确每张图要支撑的结论、证据层级与审稿风险。配色上优先使用统一方法族而非最大色相分离。适合准备投稿阶段需要反复修改多面板组合图的场景。"
+	},
+	{
+		"slug": "paper-figure",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/paper-figure",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "基于实验数据自动生成出版级图表与 LaTeX 表格的 Claude Code skill。适用范围包括训练曲线、方法对比柱状图、热力图、箱线图等数据驱动图表，以及消融实验等对比表格。无法自动生成架构示意图或定性结果图——这类需要手动绘制并置于指定目录。适合在论文写作收尾阶段集中成图，减少逐张手动调整样式的工作量。"
+	},
+	{
+		"slug": "paper-illustration",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/paper-illustration",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "用 Gemini 的图像生成能力配合 Claude 的审校迭代，构造一个多阶段工作流来生成学术论文的图表。专注于架构图和方法示意图，经过布局优化和风格验证环节来保证配色、间距与排版符合 CVPR 或 NeurIPS 的标准。适合在撰写论文需要生成图表但不想手动反复调整的场景。"
+	},
+	{
+		"slug": "plotly",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/plotly",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "Plotly 是一个 Python 交互式图表库，提供 50 余种图表类型。通过 Plotly Express 高层接口或 Graph Objects 底层控制，可以快速生成带悬停提示、缩放与平移功能的图表。适用于需要交互性的探索性数据分析、报告演示，以及论文中初步探索数据分布。最终出版的静态图表仍需依赖 matplotlib 或科学可视化工具。"
+	},
+	{
+		"slug": "seaborn",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/figures/seaborn",
+		"ref": "main",
+		"categoryId": "paper-figure",
+		"categoryLabel": "论文 · 图表绘制",
+		"categorySummary": "paper figure / illustration / mermaid / drawio / plotly / seaborn 等可视化与配图。",
+		"descriptionZh": "Seaborn 是基于 matplotlib 的统计绘图库，专门处理 DataFrame 数据与变量映射。内置箱线图、小提琴图、成对图、热力图等常见统计图表类型，能自动计算置信区间和分组统计量。论文写作中用于快速完成数据探索和"
+	},
+	{
+		"slug": "alphaxiv",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/alphaxiv",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "AlphaXiv 是面向 Claude Code 的快速论文查阅工具。输入 arXiv ID 或 URL 即可拉取该论文的三级摘要——先尝试 AlphaXiv 的 LLM 优化概述，再降级到完整 Markdown，最后回退到 LaTeX 源码。适用于只想快速理解某一篇论文的核心贡献与结构，而非做文献检索的场景。属于单篇精读的快捷入口。"
+	},
+	{
+		"slug": "arxiv-database",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/arxiv-database",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "基于 arXiv Atom API 的预印本检索工具。支持按关键词、作者、分类、日期范围与 arXiv ID 查询，结果以 JSON 格式返回标题、摘要、作者、分类及链接。适用于搭建文献综述数据集、跟踪子领域新投稿，或批量下载 PDF 做全文分析。"
+	},
+	{
+		"slug": "arxiv",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/arxiv",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "Anthropic Claude Code 的 arXiv skill，用于在终端中直接检索、下载和总结学术论文。传入关键词或 arXiv ID 即可返回结果列表，支持下载 PDF 到本地指定目录，并可通过参数控制返回条数和保存路径。适合文献调研阶段快速搜集论文，或在撰写论文时引用参考文献。"
+	},
+	{
+		"slug": "citation-audit",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/citation-audit",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "提交前用的参考文献审计 skill，独立检查每个 \\cite 引用的三个层次：文献真实存在、元数据（作者/年份/会议/DOI）与权威来源一致、引用语境与原文主张匹配。不依赖已有上下文，每次调用会独立联网查 DBLP、arXiv、OpenReview 等。能抓到最危险的一类问题——文献是真文献但引用不当（比如引了一篇结论相反的论文来支持自己的论点），这类错误人工核对也容易漏。"
+	},
+	{
+		"slug": "citation-management",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/citation-management",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "Citation-management 用于学术文献引用管理，从 Google Scholar 和 PubMed 查找论文，提取作者、标题、期刊、年份等完整元数据，验证引用准确性，并将 DOI、PMID 或 arXiv ID 转换为格式正确的 BibTeX 条目。写论文或整理文献综述时，可以用它快速核对参考文献、消除重复条目，保持引用格式一致。"
+	},
+	{
+		"slug": "citation-verifier",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/citation-verifier",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "这个 skill 专门用来清理手稿的引用问题。它本地扫描正文与 BibTeX 文件，抓出占位符引用、重复键值、缺失标识符，以及从 Google Scholar 等来源导入时常见的元数据错误（作者名、年份、页码格式不一致）。适合提交或返修前做一轮文献卫生检查，与通用写作 skill 搭配使用。"
+	},
+	{
+		"slug": "comm-lit-review",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/comm-lit-review",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "面向通信领域的文献综述 skill，用于无线通信、蜂窝、卫星、V2X、路由调度、MAC/PHY 等子方向的论文查找与相关工作总结。检索策略是知识库优先：依次搜索 Zotero、Obsidian、本地论文文件夹，再扩展到 IEEE Xplore、ScienceDirect 等外部数据库。适合需要快速掌握某细分方向的文献全貌或撰写 related work 的研究者。"
+	},
+	{
+		"slug": "deep-research",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/deep-research",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "deep-research 是一个供 Claude Code 使用的文献综述 skill。它将综述拆解为六个有序阶段，从前沿检索、系统调查、深度阅读、代码库考察到最终合成与差距分析，每个阶段产生可检视的中间产物。适用于需要系统了解某个研究方向全貌的研究者，从零开始建立文献库与综述报告。"
+	},
+	{
+		"slug": "deepxiv",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/deepxiv",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "面向文献阅读场景的 DeepXiv 渐进式阅读 skill。支持按 arXiv ID 或关键词搜索论文，依次获取摘要、元数据与章节内容，避免一次性加载全文。也提供 trending 论文查询与网络搜索能力。在文献综述初期筛选大批文章，或针对某篇论文逐节细读时，比直接下载 PDF 更省时间。"
+	},
+	{
+		"slug": "exa-search",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/exa-search",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "exa-search 是 Claude Code 中基于 Exa API 的网络搜索技能，专为内容提取设计。与仅覆盖学术数据库的 arXiv、Semantic Scholar 不同，它搜索博客、技术文档、公司官网与新闻等广义在线内容，支持按类别、日期、域名过滤，返回高亮片段或全文摘要。适合文献综述阶段补充学术数据库未能索引的技术博客或行业报告。"
+	},
+	{
+		"slug": "literature-review",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/literature-review",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "该 skill 模拟多位领域专家围绕研究选题的多轮对话流程。每次对话中，系统从不同视角生成问题、检索 Semantic Scholar 与 arXiv 等来源、基于真实文献合成回答，最后跨角色去重归并成统一知识结构。适用于新课题立项前快速建立文献图景，或写 survey 章节时先用对话方式理清脉络。"
+	},
+	{
+		"slug": "management-review-planner",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/management-review-planner",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "用于管理学和战略领域正式文献综述的规划 skill。在完成论文列表构建和全文转换之后、进入正式写作之前使用。核心任务是把研究主题拆解为关键构念与机制，追踪每个构念的锚定来源，围绕它们搭建节段结构，并生成段落级蓝图。框架冻结为 `review_plan.md` 存储在 workspace，每一次修订都有时间戳存档，确保之后文献增补和写作不偏离已确认的结构。适合需要严谨追踪文献溯源和保持综述逻辑一致性的研究项目。"
+	},
+	{
+		"slug": "management-review-writer",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/management-review-writer",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "管理综述写作 skill 用于在战略、创业、组织理论等管理学科领域，基于 OpenAlex 文献工作区或精选论文列表生成文献综述初稿。它要求先有一份经确认的 review_plan.md 作为结构蓝图，然后逐段填充证据并保持段落式学术散文与真实 APA 引用。适合在文献检索与理论框架搭建完成后，进入正式写作阶段使用。"
+	},
+	{
+		"slug": "nature-citation",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/nature-citation",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "针对 Nature/CNS 系列期刊的引用搜索与导出工具。它将长手稿切分成可引用的段落，仅搜索 Nature Portfolio、AAAS Science 系列及 Cell Press 认可的旗舰和子刊，按出版时间范围过滤，最终输出 ENW、RIS 或 Zotero RDF 格式的引用管理文件。每条候选引用附带强支撑、部分支撑、背景支撑三个层级的证据评价，有助于在正式投稿前补全并验证参考文献的准确性。"
+	},
+	{
+		"slug": "novelty-check",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/novelty-check",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "novelty-check skill 提供研究思路的查新流程。从方法描述中提取 3 至 5 项核心技术主张，跨 arXiv、Google Scholar、ICLR、NeurIPS 等来源逐一搜索，再用 GPT-5.4 做交叉比对，最终输出一张包含最接近文献、关键差异与新颖性评分的报告。适用于论文投稿前确认想法未撞车、或在方案落地前做文献调研。"
+	},
+	{
+		"slug": "openalex-ajg-insights",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/openalex-ajg-insights",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "面向管理与商科研究的 Claude Code skill，内置 openalex-ajg-mcp 与 paper-download-mcp 两个后端。支持按 ABS/AJG 评级检索文献、创建可复用的综述语料库、增量下载 PDF、用 MinerU 将 PDF 转为 Markdown，并检索摘要或全文观点。适用于系统文献综述、理论构建与期刊投稿前的文献扫描。"
+	},
+	{
+		"slug": "prior-art-search",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/prior-art-search",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "Prior Art Search 是用于专利和学术文献现有技术检索的 skill。它从发明描述中提取核心发明点、技术问题与关键特征，然后在 Google Patents 和 Espacenet 中执行多角度搜索，再深入抓取相关专利的摘要与权利要求。适用于专利申请前的查新、论文综述中的技术背景补全、以及侵权分析中的对比检索。"
+	},
+	{
+		"slug": "pyzotero",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/pyzotero",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "封装 pyzotero 的 Claude Code skill，通过 Zotero Web API v3 管理参考文献库。可以从 Zotero 中检索条目、创建和更新文献、上传 PDF 附件、管理标签和导出引文。适用于需要将文献管理与写作自动化结合的场景，比如按关键词批量导出引用条目、同步本地文件到 Zotero 群组库。"
+	},
+	{
+		"slug": "reference-audit-guide",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/reference-audit-guide",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "引用验证指南，提供了一套在论文写作中主动核实引用的操作原则。核心做法是每次添加引用时立即搜索确认论文是否存在、作者标题年份匹配、以及具体声称是否出现在原文中。信息来源按出版社页面、PubMed、arXiv 等分优先级。适用于写综述或方法章节时需要保证引用准确、拒稿后修改引用问题的场景。"
+	},
+	{
+		"slug": "research-lit",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/research-lit",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "为 Claude Code 设计的文献检索技能，整合 arXiv、Semantic Scholar、Zotero 和本地 PDF 库作为数据源。用户可以指定搜索范围、下载论文全文或仅获取元数据，并支持对本地 PDF 进行内容扫描。适用于论文写作初期快速定位相关文献、生成摘要和组织参考文献列表。"
+	},
+	{
+		"slug": "research-refine-pipeline",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/research-refine-pipeline",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "一个端到端的方法论精炼与实验规划工作流。将模糊的研究方向逐步收束为聚焦的最终提案，再自动生成一份与论文核心主张绑定的实验路线图。它串联子技能 research-refine 和 experiment-plan，核心原则是先在稳定的方法上规划实验，而非在飘忽的草案上套实验框架。适合撰写论文初期需要同时定方法、写提案、排实验步骤的研究者。"
+	},
+	{
+		"slug": "research-refine",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/research-refine",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "一个将模糊研究方向精炼为可执行方法方案的流程。核心围绕四个原则：锁定问题锚点不动摇、选最小直接机制改瓶颈、一篇论文只做一件主要贡献、用基础模型能力但不堆叠术语。通过多轮自我审查与 GPT-5.4 评审把方案打薄打实。适合已有问题但技术路线仍模糊时使用。"
+	},
+	{
+		"slug": "review-orchestrator",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/review-orchestrator",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "Review-orchestrator 是为长期文献综述项目设计的多 agent 工作流控制器。它把检索、框架规划与撰写拆成三个独立的子 agent，并强制在规划被批准后才能进入写作阶段。工作流状态保存在本地文件中而非对话记忆，因此能跨越多次会话持续管理。适用于需要反复迭代、多人协作或跨天执行的综述写作场景。"
+	},
+	{
+		"slug": "semantic-scholar",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/semantic-scholar",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "Semantic Scholar API 用于搜索已发表的期刊与会议论文，返回被引量、出处、TLDR 摘要。适用于查找 IEEE、ACM、Springer 等正式出版的文献，与 arXiv 预印本搜索配合使用。"
+	},
+	{
+		"slug": "systematic-literature-review",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/literature-review/systematic-literature-review",
+		"ref": "main",
+		"categoryId": "paper-lit",
+		"categoryLabel": "论文 · 文献综述",
+		"categorySummary": "arxiv / pyzotero / systematic-review / citation-audit 等文献检索、引用核对与综述写作。",
+		"descriptionZh": "这是一个用于辅助系统文献综述的 Claude Code 技能。技能覆盖从多源检索、去重、AI 逐篇评分与子主题聚类，到按字数预算自动生成综述正文与参考文献列表的全过程，最终输出 LaTeX 格式的 PDF 或 Word。适用于需要快速完成一份结构化文献调研的场景，从课程作业到期刊综述均可使用，档位与字数可按需调整。"
+	},
+	{
+		"slug": "academic-researcher",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/academic-researcher",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "Academic Researcher 是面向文献综述与学术写作的 Claude Code skill。它内置了一套论文分析框架，从研究问题、方法论、关键发现、解释与意义到局限与未来方向，逐项结构化审读；同时整合 APA、MLA、Chicago 三种引用格式。适用于跨学科的场景：快速提取一篇论文的骨架、对比多篇文献的方法差异、或在校对时生成标准参考文献条目。"
+	},
+	{
+		"slug": "conference-paper-writing",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/conference-paper-writing",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "Conference Paper Writing skill 针对 NeurIPS、ICML、ICLR、ACL、AAAI、COLM 等 ML/AI 会议的投稿流程设计。整合了 Nanda、Farquhar、Karpathy、Lipton、Steinhardt 等研究者的写作理念，以及 LaTeX 模板与会议 checklist。核心规则是绝不虚构引用，要求通过搜索 API 获取 BibTeX 并验证。适合作者在完成实验后，由 skill 主动读取仓库中的代码与结果，生成初稿，再通过反馈迭代。"
+	},
+	{
+		"slug": "idea-creator",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/idea-creator",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "面向论文写作的研究想法生成与管理 skill。给定一个大致方向，系统化生成备选课题、验证可行性并按可发表性排序。内置 pilot 实验约束（每想法最多 2 GPU 小时，总计 8 小时），避免思路发散浪费算力。与文献检索、新颖性检查、综述 skill 串联可组成完整选题流程，适合在探索新领域或寻找可投稿方向时使用。"
+	},
+	{
+		"slug": "idea-discovery",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/idea-discovery",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "idea-discovery 是一个完整的选题发现流水线，将文献调研、点子生成、新颖性检验、同行评议与方案细化依次串联。输入一个宽泛的研究方向，输出一个经过验证的 idea 排名报告、优化后提案与实验计划。各阶段自动传递输出，并附带 GPU 预算约束与超时控制。适用于研究者想从零系统挖掘可落地方向、生成可提交的课题方案时使用。"
+	},
+	{
+		"slug": "nature-portfolio-playbook",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/nature-portfolio-playbook",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "Nature 系列期刊投稿前的定向检查 skill。当一篇生命科学论文的目标期刊在 Nature、Nature Methods、Nature Biotechnology 之间摇摆时，用它判断故事类型与期刊定位的匹配度。skill 内置了三种期刊的审稿偏好：旗舰 Nature 看重跨领域可读性，Nature Methods 要求方法学贡献与充分验证，Nature Biotechnology 侧重应用转化。不替代通用写作润色，只做投稿前的定向决策。"
+	},
+	{
+		"slug": "paper-analyzer",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-analyzer",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "Paper-analyzer 从 arXiv ID 或论文标题入手，自动下载 PDF、HTML 页面与 LaTeX 源文件，对论文的贡献、方法、实验、局限与相关工作逐一分析，输出一份带 0–10 综合评分的中英双语笔记，同时将新论文与已有笔记之间的引用关系录入本地知识图谱。适用于需要系统梳理领域文献时的深度阅读场景。"
+	},
+	{
+		"slug": "paper-backup-before-word",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-backup-before-word",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "为 Claude Code 编辑 Word 文档时设计的强制备份流程。.docx 实际是 zip 包，写崩 XML 会导致整份文件打不开、批注定稿丢失。这套 skill 先创建带时间戳的备份，再按决策表判断是直接修改 Word 还是先转 LaTeX 再改，改完强制提醒用户打开验证。适用于导师批注后的小修或主稿反复修改的场景——书里记载的两次惨案都是因为没备份就直接动手。"
+	},
+	{
+		"slug": "paper-bootstrap",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-bootstrap",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "这个 skill 负责为论文项目搭建可写的骨架。它做三件事：找到真正的稿件源文件、只创建必要的文件夹、把项目锁定到对应的投稿期刊和贡献类型上。内置默认偏向 Nature 系列的风格，但可以手动覆盖。初始化时还会生成 project_truth.md、decision_log.md 等轻量文档，避免写作过程中靠记忆来回翻查实验结果。适合开始写新论文前跑一遍，或者清理散落在多处草稿的已有项目。"
+	},
+	{
+		"slug": "paper-claim-audit",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-claim-audit",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "提交论文前核对论文数字与原始数据是否一致。这个 skill 用一个全新模型，不接触任何实验日志或作者之前的解释，只拿 .tex 文件和结果文件做比对。它瞄准的是作者在写论文时容易出现的确认偏差——比如把 84.7% 写成 85.3%、用最好种子代替平均、引用其他实验的指标。适合在每次投稿前跑一遍，保证论文里的每个数字都经得起审查。"
+	},
+	{
+		"slug": "paper-claude-md-bootstrap",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-claude-md-bootstrap",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "论文写作项目启动时，第一件事不是写正文，而是建一份项目级 CLAUDE.md。这个 skill 强制在新建目录或首次会话时，逐项问清研究主题、投稿目标、术语保护清单、文件结构、写作风格与导师偏好，然后落盘为永久记忆文件。没有 CLAUDE.md 的项目，每次会话都要重新解释背景，AI 回应质量差距明显。适用于任何需要长期协作的论文写作项目。"
+	},
+	{
+		"slug": "paper-compile",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-compile",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "论文写作场景下的 LaTeX 自动化编译 skill。负责从 `latexmk` 调用 `pdflatex` 完成多轮编译、运行 `bibtex`、诊断缺失包与引用警告，并在编译失败后给出自动修复建议。内置 ICLR、NeurIPS、ICML 等会议的页数限制检查，适合投递机器学习会议或 IEEE 期刊前反复调整排版时使用。"
+	},
+	{
+		"slug": "paper-confirm-before-doing",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-confirm-before-doing",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "paper-confirm-before-doing 是论文写作专用纪律 skill。当 Claude 收到“润色”“整理”“改一下”这类范围与方法未指定的指令时，它在调用任何编辑工具前先输出一份方案：改哪里、不改哪里、按什么标准改，并让用户点头后再动手。设计逻辑来自《Claude Code 科研手记》§3.2 的日常经验：模糊任务执行完后发现方向不对再回滚，代价远高于开口确认。"
+	},
+	{
+		"slug": "paper-logical-consistency",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-logical-consistency",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "论文写作中的论证一致性检查。当修改研究问题、因果机制或关键结论时，自动扫描全文搜索同一概念的所有出现位置，并列出上下文让作者逐处确认是否要同步修改。它管的是概念层的语义对齐，而不是术语拼写一致性。建议在改动核心主张或用完大段重写后调用，避免摘要、结论与方法描述相互打架。"
+	},
+	{
+		"slug": "paper-one-session-one-task",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-one-session-one-task",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "一次会话只做一件事，这是针对 Claude Code 论文写作场景的协作纪律。当用户在同一轮请求里提出多项独立任务（比如“润色第三章顺便统一参考文献再重画图 3”），skill 会叫停并列出所有任务，让用户只选一件做。背后的道理是：会话越长上下文越稀释，每件输出的质量都会打折——开五个新会话各自单做，比一场会话赶五件事更干净。适用于任何需要在 AI 辅助下保持论文修改质量的场景。"
+	},
+	{
+		"slug": "paper-parallel-audit",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-parallel-audit",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "paper-parallel-audit 用于大批量同质核查任务（引用核查、术语一致性检查、格式统一等）。当任务规模达到 30"
+	},
+	{
+		"slug": "paper-pilot-before-batch",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-pilot-before-batch",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "针对批量操作的流程纪律 skill。在涉及大量文件或引用修改时（≥30 个对象），要求先从 3–5 个样本跑一遍，将改动前后展示给用户确认，确认无误后才推全量。抽样需覆盖边界情况，避免只取前几个规整数据。适用于论文写作中批量改格式、批量核查引用、批量重命名等场景。"
+	},
+	{
+		"slug": "paper-plan",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-plan",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "将审稿反馈与实验结果转化为结构化论文大纲的 Claude Code skill。读取项目目录中的研究陈述、自动审阅报告、实验日志等材料，生成分节大纲，并针对 ICLR、NeurIPS、ICML 等目标会场调整篇幅与格式。适用于实验数据基本到位、需要把零散发现梳理为完整论文架构的阶段。"
+	},
+	{
+		"slug": "paper-protect-terminology",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-protect-terminology",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "论文写作场景下，AI 最常做的「同义替换」恰恰是术语的致命伤。这个 skill 在跨文件批改、整篇润色或术语统一操作前，先扫描段落，从缩写、模型名、算法名到自定义概念自动提取候选保护词，列清单请用户确认后再动手，改完后核对清单数量是否变化。适合对包含多个专业词/缩写/人名的章节做修改之前调用，能避免“鲁棒性→稳健性”“Transformer→变换器”这类破坏一致性的替换。"
+	},
+	{
+		"slug": "paper-reviewer",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-reviewer",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "面向期刊审稿与课题评审场景的辅助 skill。收到论文或申请书后，它引导你系统评价研究方法、统计合理性、报告标准如 CONSORT、STROBE 与 PRISMA，以及数据可重复性，并生成带建设性意见的正式反馈。适用于审稿人在撰写评审意见时保持评价的结构性与一致性。"
+	},
+	{
+		"slug": "paper-translate-advisor-feedback",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-translate-advisor-feedback",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "处理导师口语化反馈的翻译工作流。当收到“逻辑不顺”“再深入点”这类模糊意见时，不直接喂给 AI 改文章，而是逐条解析为含位置、改什么、改成什么、标准、不动哪里的可执行清单，让用户确认后再执行。这避免了 AI 把“逻辑不顺”理解成改句子通顺度而非调论证结构，减少因理解偏差导致的反复修改。"
+	},
+	{
+		"slug": "paper-using-skills",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-using-skills",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "《Claude Code 科研手记》论文写作纪律 skill 集的入口文件。它预先录入一套触发规则：任何涉及论文写作的请求，在调用工具前必须先扫描对照表，匹配则调用对应纪律 skill，不匹配也要过一遍判断。目的是防止熟练用户赶时间、紧张时跳过流程——简单的环节恰恰是出错时最"
+	},
+	{
+		"slug": "paper-verify-before-handoff",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-verify-before-handoff",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "论文写作交付前的最后一道检查闸。在宣告“改完了”之前，必须逐条运行硬检查清单：术语一致性、引用完整性、数据正确性、图表编号、交叉引用、字数格式、todo 残留、AIGC 痕迹与论证一致性——任意一项未通过，不能宣告完成。适合在准备提交或发给导师前把关，避免“看起来对了所以不查了”的致命后果。"
+	},
+	{
+		"slug": "paper-workflow",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-workflow",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "论文写作流程的路由入口。它本身不做具体写作或修改工作，而是根据当前阶段推荐最合适的 skill：从 bootstrap 初始化、target journal 定位、正文写作与修订、图表规划，到 submission 前的逐项审计和 rebuttal 回复。默认走 Nature 风格期刊流程，需要投会议时手动切换。适合在写论文的全过程中作为每次会话的起始点。"
+	},
+	{
+		"slug": "paper-write",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-write",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "论文草稿生成 skill，从提纲逐节生成 LaTeX 正文。自动匹配 ICLR、NeurIPS、CVPR、ACL、IEEE 等会议与期刊的样式文件与篇幅限制，通过 DBLP 或 CrossRef 抓取真实 BibTeX 条目，杜绝 LLM 编造的虚假引用。整合 GPT-5.4 对每节做审查，适合写完方法论后希望快速产出初稿的研究者。"
+	},
+	{
+		"slug": "paper-writing-discipline",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-writing-discipline",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "科研写作领域积累个人纪律的自动化工件。当你在 Claude Code 中说出“以后都要这样做”“下次记得”“加一条新规则”时，会触发一系列判断——检查这条规则是否反直觉、能否事前触发、是否是做事方式而非工具用法。通过后自动生成一个新的 paper-* skill 并存入配置文件。适用于长期用 Claude Code 辅助论文写作、想把每次踩坑的教训固化为纪律的人。"
+	},
+	{
+		"slug": "paper-writing",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/paper-writing",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "将论文写作拆成五个子 skill 串联的自动化管线：从大纲规划、图表生成、LaTeX 撰写、PDF 编译到自动审阅改进循环。支持 ICLR、NeurIPS 等常见会议模板，外部验证脚本通过后才标记为 submission-ready。适用于从实验报告到投稿稿件的完整转换场景，减少重复编译与格式调整的体力劳动。"
+	},
+	{
+		"slug": "rebuttal-response",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/rebuttal-response",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "针对期刊或会议审稿意见的回复 skill。核心是把每条审稿意见归入误解、表述不清、证据不足、范围不符、前提错误五类，然后决定是仅回复澄清、修改正文、两者都做还是礼貌拒绝。附带一个同步机制确保回复信与修改稿的改动一一对应，避免审稿人发现回复说了改但正文没动。适用于论文进入 revision 阶段后的结构化回复。"
+	},
+	{
+		"slug": "rebuttal",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/rebuttal",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "rebuttal skill 专为论文审稿回复阶段设计。它读入外部审稿意见（来自 OpenReview 或会议系统），生成符合字数限制的纯文字回复；覆盖单个文档与每位审稿人独立线程两种模式。同时维护内部 stress-test 检查：防止捏造结果、防止过度承诺、保证每个重点问题都有回应。适用于收到 ICML 等会议审稿意见后快速起草回复并迭代多轮。"
+	},
+	{
+		"slug": "submission-audit",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/paper-discipline/submission-audit",
+		"ref": "main",
+		"categoryId": "paper-write",
+		"categoryLabel": "论文 · 写作流程与纪律",
+		"categorySummary": "论文写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+		"descriptionZh": "提交前系统审核 skill，专用于手稿结构基本完成、图表和 legends 已定稿的阶段。检查标题、摘要、Introduction 与 Discussion 是否超出 Results 的证据力度；核实所有主图与补充图的面板在正文和图注中一致；确认方法部分被正确引用，补充材料与正文对应。适合在投稿、返修或内部传阅前做一通过滤，避免常见的 claims 夸大与跨节不匹配。"
+	},
+	{
+		"slug": "academic-presentations",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/slides/academic-presentations",
+		"ref": "main",
+		"categoryId": "paper-slides",
+		"categoryLabel": "论文 · 演讲与海报",
+		"categorySummary": "academic-presentations / pptx / paper-poster / paper-to-beamer 等演讲与海报。",
+		"descriptionZh": "从研究论文生成学术演讲幻灯片，可选配配音讲解视频。流程分脚本起草、幻灯片生成、TTS 配音、视频合成四个阶段，用户决定大纲与视觉方向，agent 执行排版与素材处理。幻灯片优先基于论文原图做编辑而非从零生成，适合赶会议报告或组会展示时快速出初稿。"
+	},
+	{
+		"slug": "nature-paper2ppt",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/slides/nature-paper2ppt",
+		"ref": "main",
+		"categoryId": "paper-slides",
+		"categoryLabel": "论文 · 演讲与海报",
+		"categorySummary": "academic-presentations / pptx / paper-poster / paper-to-beamer 等演讲与海报。",
+		"descriptionZh": "nature-paper2ppt 把一篇科研论文的 PDF、手稿或阅读笔记转为一份中文 Nature 风格汇报 PPTX。它不照搬论文章节顺序，而是按科学论证逻辑组织幻灯片：先讲问题意义，再讲缺口与作者做法、关键证据、可信度、贡献与局限。自动识别论文类型、选取核心图表、撰写中文幻灯片内容与演讲注释，适合组会、文献分享或论文预答辩快速制稿。"
+	},
+	{
+		"slug": "paper-poster",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/slides/paper-poster",
+		"ref": "main",
+		"categoryId": "paper-slides",
+		"categoryLabel": "论文 · 演讲与海报",
+		"categorySummary": "academic-presentations / pptx / paper-poster / paper-to-beamer 等演讲与海报。",
+		"descriptionZh": "从已编译的论文生成会议海报的 Claude Code skill。输入 LaTeX 论文，输出 A0 或 A1 尺寸的 PDF 海报，同时附带可编辑的 PPTX 与 SVG。海报按视觉优先原则组织——四栏横版或三栏竖版，用要点和图表代替全文搬运。支持 NeurIPS、ICML、ICLR 等常见会议配色方案，适合投稿前制作 poster session 展示材料。"
+	},
+	{
+		"slug": "paper-slides",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/slides/paper-slides",
+		"ref": "main",
+		"categoryId": "paper-slides",
+		"categoryLabel": "论文 · 演讲与海报",
+		"categorySummary": "academic-presentations / pptx / paper-poster / paper-to-beamer 等演讲与海报。",
+		"descriptionZh": "将已编译的论文转换为会议幻灯片。输出 beamer LaTeX 源码、可直接使用的 PDF 以及可编辑的 PPTX，同时附带演讲注释和完整讲稿。支持 NeurIPS、ICML、ICLR、CVPR 等会场配色方案以及 oral、spotlight、poster-talk 等演讲时长设定。论文写作工作流收尾阶段，完成稿件后可直接调用这个 skill 准备报告材料，不用手动拆内容、排版式。"
+	},
+	{
+		"slug": "paper-to-beamer",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/slides/paper-to-beamer",
+		"ref": "main",
+		"categoryId": "paper-slides",
+		"categoryLabel": "论文 · 演讲与海报",
+		"categorySummary": "academic-presentations / pptx / paper-poster / paper-to-beamer 等演讲与海报。",
+		"descriptionZh": "从学术论文自动生成可编译的 LaTeX Beamer 幻灯片。读取论文 PDF 后提取结构、关键图表与公式，按 Crimson 主题生成幻灯片源码，支持 XeLaTeX 与 xeCJK 中文排版。流程中设有一轮强制视觉审查环节，逐页检查编译后的 PDF 是否存在图文重叠、目录溢出等 LaTeX 不报错的布局问题，修正后才交付。"
+	},
+	{
+		"slug": "pptx",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/slides/pptx",
+		"ref": "main",
+		"categoryId": "paper-slides",
+		"categoryLabel": "论文 · 演讲与海报",
+		"categorySummary": "academic-presentations / pptx / paper-poster / paper-to-beamer 等演讲与海报。",
+		"descriptionZh": "用于处理 PowerPoint 文件的 Claude Code skill。可以读取 .pptx 中的文本与内容结构，基于模板编辑现有幻灯片，或从零生成新演示文稿。底层调用 markitdown、python-pptx 及 Node.js pptxgenjs 实现文字提取、幻灯片缩略图预览、解包重打包等操作。写论文期间准备学术报告、答辩或会议海报时顺手可用。"
+	},
+	{
+		"slug": "grant-proposal",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/writing-polish/grant-proposal",
+		"ref": "main",
+		"categoryId": "paper-polish",
+		"categoryLabel": "论文 · 语言润色",
+		"categorySummary": "manuscript-optimizer / scientific-writing / humanizer-zh / 各档 polish 流程。",
+		"descriptionZh": "一份将成型研究想法转化为评审导向基金申请书的 Claude Code skill。自动选择 KAKENHI、NSF、NSFC、ERC、DFG 等机构的格式模板，串联文献调研、创新点论证、研究方案设计、预算与 timeline 撰写、模拟评审回修的完整流程。适用于研究者在 idea 验证之后、尚未进入实验阶段时，先申请经费再开展实施。"
+	},
+	{
+		"slug": "humanizer-zh",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/writing-polish/humanizer-zh",
+		"ref": "main",
+		"categoryId": "paper-polish",
+		"categoryLabel": "论文 · 语言润色",
+		"categorySummary": "manuscript-optimizer / scientific-writing / humanizer-zh / 各档 polish 流程。",
+		"descriptionZh": "针对中文文本去除 AI 写作痕迹的专用 skill。基于维基百科 WikiProject AI Cleanup 维护的“AI 写作特征”指南，检测并修复过度强调、公式化结构、现在分词肤浅分析、AI 惯用连接短语等模式。重写结果保留信息，但去掉拐杖词和机械感。适用于论文润色、审稿意见修改、以及任何不想让人看出是 LLM 代笔的写作场景。"
+	},
+	{
+		"slug": "manuscript-optimizer",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/writing-polish/manuscript-optimizer",
+		"ref": "main",
+		"categoryId": "paper-polish",
+		"categoryLabel": "论文 · 语言润色",
+		"categorySummary": "manuscript-optimizer / scientific-writing / humanizer-zh / 各档 polish 流程。",
+		"descriptionZh": "Manuscript Optimizer 是一个按阶次处理论文的 skill，核心原则是“方向第一、逻辑第二、图表第三、术语第四、语言最后”——先修顶层结构再动句子，因为不稳的论点不值得润色。适用于投稿前或返修时检查摘要、证据链、图表与正文是否脱节。提供 Review 和 Optimization 两种模式，前者专门定位结构漏洞，后者做实际"
+	},
+	{
+		"slug": "nature-polishing",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/writing-polish/nature-polishing",
+		"ref": "main",
+		"categoryId": "paper-polish",
+		"categoryLabel": "论文 · 语言润色",
+		"categorySummary": "manuscript-optimizer / scientific-writing / humanizer-zh / 各档 polish 流程。",
+		"descriptionZh": "面向 Nature 子刊风格的学术语言润色 skill。从论文架构和写作策略出发，先梳理段落论证逻辑，再用 Academic Phrasebank 的短语族匹配适当的表态与过渡措辞。适合在投稿前调整摘要、引言、讨论或方法部分的层级结构与正式度，也适用于将中文初稿重构为出版级英文。"
+	},
+	{
+		"slug": "paper-polish-workflow",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/writing-polish/paper-polish-workflow",
+		"ref": "main",
+		"categoryId": "paper-polish",
+		"categoryLabel": "论文 · 语言润色",
+		"categorySummary": "manuscript-optimizer / scientific-writing / humanizer-zh / 各档 polish 流程。",
+		"descriptionZh": "这套 skill 提供自上而下的论文润色流程：先改结构，再理逻辑，最后调表达，每个环节都交用户确认。内置四档模式——逐段交互、关键节点确认、一键直改、批量处理，能自动识别“quickly”或“逐步”等指令来切换。润色方案不从空话出发，而是从预先整理好的学术表达参考库中抽取。适合需要逐段精修、又不想每次自己重写句式的写作场景。"
+	},
+	{
+		"slug": "results-section-revision",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/writing-polish/results-section-revision",
+		"ref": "main",
+		"categoryId": "paper-polish",
+		"categoryLabel": "论文 · 语言润色",
+		"categorySummary": "manuscript-optimizer / scientific-writing / humanizer-zh / 各档 polish 流程。",
+		"descriptionZh": "针对论文 Result 部分写作后期的精细修订 skill。适用于科学内容已稳定、图与证据链基本确定，但子节标题、段首句、段落衔接仍在逐图平铺、读着像图注拼接的场景。专门处理\"读上去跳\"或\"段落间缺少推理推进\"的问题，不介入整体 claim 层级或证据链重构——那需要更上层的手稿优化 skill。"
+	},
+	{
+		"slug": "scientific-writing",
+		"repo": "Chanw-research/claude-code-paper-writing",
+		"path": "skills/writing-polish/scientific-writing",
+		"ref": "main",
+		"categoryId": "paper-polish",
+		"categoryLabel": "论文 · 语言润色",
+		"categorySummary": "manuscript-optimizer / scientific-writing / humanizer-zh / 各档 polish 流程。",
+		"descriptionZh": "用于 Claude Code 的科研写作 skill，面向需要把稳定结果转化为完整稿件的环节。它按 IMRAD 结构组织段落，支持 APA、AMA、Vancouver 等引用格式和 CONSORT、STROBE、PRISMA 等报告指南。对修订稿件，强调先做反向提纲和 claim-evidence 映射再重写，而不是直接从旧段落到润色。适用于论文各节的初稿撰写，以及回复审稿意见时的大幅重写。"
+	}
+]

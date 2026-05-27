@@ -1,0 +1,221 @@
+---
+title: "合成控制：用稳定概念构造致良知诞生的反事实"
+description: "用 9 个稳定概念作 donor pool 构造\"如果没有 1521 致良知事件\"的虚拟轨迹，并用 Placebo 检验把真信号与抽样噪声分开。"
+book: "yangming-trajectory"
+chapterNumber: 4
+chapterLabel: "第 4 章"
+startDate: 2026-05-15
+updated: 2026-05-27
+type: "chapter"
+topics: ["人格因果学", "因果推断", "王阳明"]
+---
+
+<ChapterAudience>
+
+把单变量 ITS 升级到"用其他变量加权合成反事实"的框架。用 9 个稳定概念作 donor pool，构造"如果没有 1521 致良知事件"的虚拟轨迹。用 Placebo 检验把真信号与抽样噪声分开。报告"良知"偏离 +5.27 远超 placebo 上界 1.85，是反事实意义上的因果效应。
+
+</ChapterAudience>
+
+<IntroParagraph>第 1 章的 ITS 拿目标变量自己的过去趋势外推作反事实，优点是简单，缺点是**反事实只用了一个变量的信息**。如果有更多与目标变量结构相似的辅助变量，理论上可以构造更精细的反事实，这就是合成控制法的核心思路。</IntroParagraph>
+
+合成控制由 Abadie 等人在 2003 至 2010 年间发展<Footnote idName={1}>经典文献：Abadie, A., Diamond, A., & Hainmueller, J. (2010). Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California's Tobacco Control Program. *JASA*, 105(490), 493–505.</Footnote>，最经典的应用是"加州 1989 年烟草税对吸烟率的影响"。处理对象是加州，donor pool 是其他 38 个州。本章把这套方法搬到文本上：处理对象是"良知"在阳明文本里的频率，donor pool 是其他相对稳定的概念。
+
+## 4.1 从 ITS 到合成控制
+
+### 4.1.1 ITS 反事实的单变量局限
+
+第 1 章的 ITS 在 pre-period 上拟合 $y_t = \alpha + \beta(t - T) + \varepsilon_t$，然后外推得反事实。这条假设两件事：pre-trend 是线性的，且外推到 post-period 仍然成立。现实里两件事都可能不成立。
+
+合成控制不需要拟合 trend，它用一组辅助变量在 pre-period 上"复刻"目标变量的轨迹，然后用同样的复刻关系算 post-period 反事实。
+
+### 4.1.2 合成控制的反事实估计量
+
+<Definition number="4.1" title="合成控制反事实">
+
+设目标变量 $Y_t$ 在事件年份 $T$ 前后观测。设有 $K$ 个 donor 变量 $D_{1,t}, \ldots, D_{K,t}$，均在同时间序列上观测。在 pre-period $t < T$ 上找一组权重 $(w_1, \ldots, w_K)$，满足
+
+$$
+w_k \geq 0, \quad \sum_{k=1}^{K} w_k = 1,
+$$
+
+并最小化拟合误差
+
+$$
+\min_{w_1, \ldots, w_K} \sum_{t < T}\left(Y_t - \sum_{k=1}^{K} w_k D_{k,t}\right)^2.
+$$
+
+在 post-period $t \geq T$ 上，反事实预测为 $\hat Y_t^{(0)} = \sum_k w_k D_{k,t}$，post-period 平均偏离为
+
+$$
+\hat\tau = \frac{1}{|\mathcal{T}_{\text{post}}|}\sum_{t \geq T}(Y_t - \hat Y_t^{(0)}).
+$$
+
+</Definition>
+
+通俗讲，合成控制做的事是：在事件**之前**，用辅助变量的加权和**复刻**目标变量；事件**之后**，用同样的权重得到"如果目标变量沿着辅助变量该有的路径走，应该是什么样"的预测。
+
+为什么权重要满足 $w_k \geq 0$ 与 $\sum w_k = 1$？这两条约束（Abadie 标准）让合成控制的反事实有清晰的语义："反事实 = donor 变量的凸组合"。凸组合保证反事实落在 donor 的"包络"内，不会外推到 donor 没观测过的极端值。这条约束的代价是有时 pre-period 拟合不够好，但换来的可解释性是值得的。
+
+---
+
+## 4.2 Donor pool 设计：稳定概念的选择标准
+
+### 4.2.1 donor 选择的两条硬约束
+
+合成控制成败的关键在 donor pool 设计。donor 必须满足两个条件。
+
+- **第一，不受 treatment 影响**。致良知事件（1521）是阳明自己的思想动作，影响的是"良知""致良知""心即理"这些心学纲领词，以及让"人欲""克己"这些旧框架词退场。donor 应该选"致良知事件不应触发其使用的概念"。
+- **第二，轨迹与 treated 在 pre-period 相似**。如果 donor 的 pre-trend 与 treated 完全无关，算出来的权重无意义。
+
+### 4.2.2 9 个 donor 概念的具体选择
+
+按这两条筛选，我们选定 9 个 donor 概念：**性、仁、义、中庸、修身、工夫、用功、格物、诚意**。这些是阳明与朱熹共享的传统儒家术语，在 33 年阳明文本里频率相对稳定，不应被致良知事件直接撬动。
+
+<Pitfall title="Donor 选错带来的循环论证">
+
+若把目标变量本身的近邻（譬如"良知"的近邻"致良知"）放进 donor pool，合成控制的拟合会过好，反事实预测会失真，因为 donor 本身已经包含了事件信号。这相当于"用结果预测结果"，是循环论证。
+
+**诊断方法**：检查 donor 列表是否有概念在事件后期出现 > 50% 频率变化。如果有，应把它移出 donor pool。
+
+**稳健替代**：donor 应来自"理论上不应被事件影响"的概念类别，譬如阳明与朱熹共享的旧儒家术语。这个选择应在分析前用学理论证，不能用数据后挑。
+
+</Pitfall>
+
+---
+
+<h2 class="micro">本章主结论</h2>
+
+## 4.3 4 个 treated 概念的反事实轨迹
+
+### 4.3.1 反事实结果总览
+
+我们对 4 个 treated 概念跑合成控制：**致良知、良知、人欲、天理**。treatment 年份均为 1521（阳明正式提出致良知）。结果列在下表。
+
+| Treated | Pre RMSE | Post 实际 | Post 反事实 | 偏离 $\hat\tau$ |
+|:--------|---------:|----------:|------------:|----------------:|
+| 致良知  |     0.18 |      0.84 |        0.49 |         $+0.35$ |
+| **良知**|  **1.42**|  **5.76** |    **0.49** |     **$+5.27$** |
+| 人欲    |     0.62 |      0.30 |        0.92 |         $-0.62$ |
+| 天理    |     1.64 |      1.45 |        2.58 |         $-1.14$ |
+
+<Subtext>表 4.1 · 4 个 treated 概念的合成控制反事实分析。</Subtext>
+
+### 4.3.2 良知的 +5.27 偏离如何解读
+
+读这张表的方式："良知"的 post-period 实际频率是 5.76 /千字，若按 9 个 donor 的加权合成（反事实），应该是 0.49 /千字。两者差 +5.27 /千字，这就是 1521 致良知事件对"良知"频率的因果效应估计。
+
+下图把 4 个 treated 概念的实际轨迹与合成反事实轨迹叠加可视化。
+
+<FullWidthSection>
+
+![合成控制法结果。四个子图是 4 个 treated 概念的实际轨迹（红实线）vs 合成反事实（蓝虚线）vs 灰色填充表示差距。右侧 (c) 是 Placebo 检验，良知 +5.27 显著超出 placebo 区间，其他三个 treated 在 placebo 范围内不显著。](/books/yangming-trajectory/figure/fig10_synthetic_control.png)
+
+<Subtext>图 4.1 · 合成控制反事实轨迹与 Placebo 检验。</Subtext>
+
+</FullWidthSection>
+
+---
+
+## 4.4 Placebo 检验：把真信号与噪声分开
+
+### 4.4.1 Placebo 检验的设计逻辑
+
+合成控制给出"良知 +5.27"这个数字，听起来大。但这个数字是真的因果效应，还是单纯的方法学伪影？
+
+Placebo 检验回答这个问题。它的逻辑是：把 donor pool 里的每个概念**轮流当作 fake treated**，用其余 donor 跑同样的合成控制，看 fake treated 能跑出多大的偏离。如果 fake treated 也能跑出大偏离，说明方法本身就有偏差；如果只有真 treated 跑出大偏离，才是真信号。
+
+| Fake treated 概念        | Post 偏离        |
+|:-------------------------|-----------------:|
+| 性                       |          $+1.85$ |
+| 仁                       |          $-1.26$ |
+| 义                       |          $+0.56$ |
+| 用功                     |          $-0.49$ |
+| 中庸                     |          $-0.16$ |
+| 工夫                     |          $-0.15$ |
+| 格物                     |          $+0.14$ |
+| 修身                     |          $-0.10$ |
+| 诚意                     |          $+0.06$ |
+| **Placebo 偏离最大绝对值** |       **1.85** |
+| **95% 区间**             | $[-1.10, +1.60]$ |
+
+<Subtext>表 4.2 · Placebo 检验：9 个 donor 作为 fake treated 的偏离。</Subtext>
+
+Placebo 偏离最大绝对值是 1.85（出现在"性"这个 fake treated）。也就是说，合成控制方法本身在"什么都没发生"时能制造的最大伪偏离约为 1.85 /千字。
+
+### 4.4.2 4 个 treated 的显著性判定
+
+回看真 treated 的偏离：
+
+- **良知** 偏离 $+5.27$ —— 远超 placebo 上界 1.85，**是真信号** ★★★
+- **致良知** 偏离 $+0.35$ —— 在 placebo 区间内，不显著
+- **人欲** 偏离 $-0.62$ —— 在 placebo 区间内，不显著
+- **天理** 偏离 $-1.14$ —— 接近 placebo 上界，接近显著
+
+唯一能在 Placebo 框架下被确认为"真因果效应"的是 **"良知" +5.27**。其他三个 treated 的偏离虽然方向直观合理，但**不能排除是方法学伪影**。
+
+为什么"致良知"在合成控制下不显著，但在 ITS 与断点检测下都显著？关键在于 donor pool 里"格物""诚意"这两个概念在 1521 后也有缓慢上升的趋势（因为阳明继续讨论儒家经典）。它们的加权和把"致良知"的反事实抬到了 0.49，而"致良知"实际 0.84 与之差只有 0.35。
+
+也就是说：合成控制法把"良知"的暴增归因到 1521 事件（因为 donor 们都没暴增），但把"致良知"的出现解释为"和其他儒家概念一起缓慢出现"。这两个结论在哲学上一致：**1521 事件触发了"良知"一词的爆发，"致良知"作为后续命名是这个爆发的副产品，而非独立事件**。
+
+---
+
+## 4.5 合成控制的方法学限制
+
+合成控制不是万灵药。它需要满足若干条件才能给出可靠估计。
+
+### 4.5.1 pre-period 拟合的质量门槛
+
+**pre-period 拟合足够好**。"良知"的 pre RMSE = 1.42，"天理"的 = 1.64，都偏大。这说明 9 个 donor 的加权和没能完美复刻 pre-period 轨迹，反事实预测的可靠性受影响。理想情况下 pre RMSE 应远小于 post 偏离，这一点"良知"勉强满足（$5.27 / 1.42 \approx 3.7$ 倍），"天理"不满足（$1.14 / 1.64 < 1$）。
+
+### 4.5.2 donor pool 外生性的隐含假设
+
+**donor pool 必须真不受 treatment 影响**。我们选的 9 个概念是儒家共享术语，理论上不应被致良知事件直接影响。但若阳明 1521 后系统改造儒家术语（譬如重新解释"格物"），donor 也会被间接影响，合成控制的外生性假设受冲击。
+
+### 4.5.3 小时间序列下推断的可靠性
+
+**单事件因果效应在小时间序列上方差大**。我们只有 9 个年份点，post-period 只有 6 个点，反事实预测的不确定性相当大。严格的合成控制论文应做 **inference test**（譬如 ratio test：post 偏离 / pre RMSE 是否显著）。本章简化了，用 Placebo 检验作主要推断，这个简化在小样本下是合理替代。
+
+---
+
+## 4.6 方法卡
+
+<MethodCard title="合成控制 + Placebo 检验">
+
+**适用场景** 想为单一变量的事件效应找一个比"自身趋势外推"更精细的反事实时，合成控制比 ITS 更适用。
+
+**完整流程** （1）选定 treated 与 donor pool，用学理论证 donor 不受 treatment 影响；（2）在 pre-period 上解凸优化得权重 $w$；（3）在 post-period 上算反事实 $\hat Y_t^{(0)}$；（4）对 donor pool 里每个概念跑 placebo，得到偏离分布；（5）比较真 treated 偏离 vs placebo 上界。
+
+**Python 实现** `scipy.optimize.minimize` 用 SLSQP 解凸优化。完整代码见 [code/probe08_synthetic_control.py](/books/yangming-trajectory/code/probe08_synthetic_control.py)。
+
+**典型失效** donor pool 选错把受 treatment 影响的概念选入，反事实会失真；pre-period 拟合不好（RMSE 大），反事实预测不可靠，此时应警报；没跑 Placebo 检验，无法区分真信号与方法学伪影。
+
+</MethodCard>
+
+---
+
+## 4.7 本章知识地图
+
+| 核心概念        | 核心内容                                                | 常见误解                          | 为什么错                                            |
+|:----------------|:--------------------------------------------------------|:----------------------------------|:----------------------------------------------------|
+| 合成控制        | donor 凸组合复刻 treated 的 pre-trend，算 post 反事实   | ITS 与合成控制可互替              | ITS 单变量自外推；合成控制用多变量信息，在大 donor pool 下更精细 |
+| Donor pool 选择 | 必须不受 treatment 影响且与 treated 共享底层结构        | 把 treated 近邻概念也放进 donor   | 导致循环论证，反事实失真                            |
+| Pre RMSE        | pre-period 拟合误差                                     | RMSE 越小越好                     | RMSE 太小可能意味着 donor 过拟合，反事实外推会糟    |
+| Placebo 检验    | donor 轮流当 fake treated 看伪偏离分布                  | 只看 treated 偏离的绝对值         | 方法本身可能制造伪偏离，必须对比 placebo            |
+| ratio test      | post 偏离 / pre RMSE 作 inference                       | t 检验适用                        | 小时间序列下 t 检验自由度太低，ratio test 是稳健替代 |
+
+<Subtext>表 4.3 · 第 4 章核心概念与常见误解。</Subtext>
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Control Methods for Comparative Case Studies"
+		author="Abadie, A., Diamond, A., & Hainmueller, J. (2010). JASA 105(490), 493–505."
+		href="https://doi.org/10.1198/jasa.2009.ap08746"
+	/>
+	<ReferencesLink
+		title="The Economic Costs of Conflict: A Case Study of the Basque Country"
+		author="Abadie, A., & Gardeazabal, J. (2003). American Economic Review 93(1), 113–132."
+		href="https://www.aeaweb.org/articles?id=10.1257/000282803321455188"
+	/>
+</References>

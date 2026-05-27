@@ -1,0 +1,113 @@
+---
+const { slug, date, title, id, description } = Astro.props;
+import RelativeDate from "../layouts/RelativeDate.astro";
+import PatternIcon from "../icons/PatternIcon.astro";
+---
+
+<a href={`/${slug}`}>
+	<div class="pattern-card">
+		<PatternIcon size={28} class="pattern-card-icon" />
+		<div>
+			<h3>{title}</h3>
+			<p class="description">{description}</p>
+			<div class="metadata-container">
+				<span>Pattern</span>
+				<svg width="4px" height="4px">
+					<circle r="2" cx="2" cy="2" fill="var(--color-gray-400)"></circle>
+				</svg>
+				<RelativeDate postDate={date} />
+			</div>
+		</div>
+	</div>
+</a>
+
+<style>
+	.metadata-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-left: 14px;
+		margin-top: 4px;
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: capitalize;
+		color: var(--color-gray-500);
+		font-weight: 400;
+	}
+
+	.metadata-container svg {
+		margin: 0 0.4rem;
+		position: relative;
+		top: 1px;
+	}
+
+	.description {
+		font-size: var(--font-size-xs);
+		color: var(--color-gray-500);
+		font-family: var(--font-sans);
+		font-weight: 400;
+		margin-left: 14px;
+		margin-top: var(--space-2xs);
+	}
+
+	.pattern-card {
+		display: flex;
+		flex-direction: row;
+		padding: var(--space-xs);
+		margin: 0 var(--space-xs) 0 0;
+		border-radius: var(--border-radius-base);
+		border: 1px solid var(--color-cream);
+		transition: all 0.3s ease-in-out;
+		will-change: transform, background-color, box-shadow;
+		align-items: start;
+		cursor: pointer;
+	}
+
+	.pattern-card h3 {
+		color: var(--color-gray-800);
+		transition: color 0.3s ease-in-out;
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		font-weight: 400;
+		line-height: var(--leading-snug);
+		margin-left: 14px;
+	}
+
+	.pattern-card-icon {
+		position: relative;
+		top: 3px;
+		flex-shrink: 0;
+	}
+
+	.pattern-card:hover {
+		transform: scale3d(1.02, 1.02, 1.02);
+		background: var(--color-light-cream);
+		box-shadow: var(--box-shadow-sm);
+		border: 1px solid var(--color-tinted-cream);
+	}
+
+	.pattern-card:hover h3 {
+		color: var(--color-crimson);
+	}
+
+	.pattern-card:hover :global(.left-leaf) {
+		transform: translateX(29px);
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.pattern-card:hover :global(.right-leaf) {
+		transform: translateX(-29px);
+		transition: transform 0.3s ease-in-out;
+	}
+
+	:global(.left-leaf) {
+		transition: transform 0.3s ease-in-out;
+		will-change: transform;
+	}
+
+	:global(.right-leaf) {
+		transition: transform 0.3s ease-in-out;
+		will-change: transform;
+	}
+</style>

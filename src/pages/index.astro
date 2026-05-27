@@ -1,0 +1,340 @@
+---
+import { getCollection } from "astro:content";
+import { Icon } from "astro-icon/components";
+import Layout from "../layouts/Layout.astro";
+import Spacer from "../components/mdx/Spacer.astro";
+import Title1 from "../components/mdx/typography/Title1.astro";
+import SmallTitle2 from "../components/mdx/typography/SmallTitle2.astro";
+import EssayCard from "../components/cards/EssayCard.astro";
+import BookCard from "../components/cards/BookCard.astro";
+import SkillCard from "../components/cards/SkillCard.astro";
+import UnderlineHoverLink from "../components/mdx/UnderlineHoverLink.astro";
+import PageWrapper from "../components/layouts/PageWrapper.astro";
+import { extractBaseSlug } from "../utils/versionUtils";
+import newsItems from "../data/news.json";
+import skillsData from "../data/skills.json";
+
+const essays = await getCollection("essays", ({ data }) => data.featured === true && !data.draft);
+const books = await getCollection("books");
+
+const sortedEssays = essays
+	.sort((a, b) => new Date(b.data.updated).getTime() - new Date(a.data.updated).getTime())
+	.slice(0, 4);
+
+// Featured skills on homepage: pick a curated cross-section across categories.
+// One from each Anthropic official category + a few signature picks from paper-* clusters.
+const HOMEPAGE_SKILL_PICKS = new Set([
+	"pdf",
+	"docx",
+	"frontend-design",
+	"claude-api",
+	"skill-creator",
+	"academic-researcher",
+	"mermaid-diagram",
+	"manuscript-optimizer",
+]);
+const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug));
+---
+
+<Layout title="Chanw">
+	<PageWrapper>
+		<header class="page-header">
+			<Title1 class="main-title">
+				<b>Chanw</b>
+				的学术花园 —— 因果推断、人格因果学、AI 工具与开源项目策展。
+			</Title1>
+			<SmallTitle2>
+				研究者，自著学术工具书系列；同时维护 AI 工具与论文流水线索引。
+			</SmallTitle2>
+		</header>
+
+		<Spacer />
+
+		<section>
+			<a href="/garden">
+				<h2 class="garden-title">The Garden</h2>
+			</a>
+			<div class="subheader">
+				一座持续生长的学术花园 —— 长文、笔记、研究随想慢慢长出来。
+			</div>
+		</section>
+
+		<section class="garden-section">
+			<section class="essays-section">
+				<a href="/essays" class="header-link">
+					<h3 class="section-header">
+						Essays
+						<Icon name="heroicons:arrow-right" size={18} />
+					</h3>
+				</a>
+				<div class="subheader">长文与书稿章节 —— 因果推断、元分析、人格因果学派研究。</div>
+				<div class="essays-grid">
+					{
+						sortedEssays.map((essay) => (
+							<EssayCard
+								id={essay.id}
+								slug={extractBaseSlug(essay.id)}
+								cover={essay.data.cover}
+								title={essay.data.title}
+								growthStage={essay.data.growthStage}
+								date={essay.data.updated}
+								description={essay.data.description}
+							/>
+						))
+					}
+				</div>
+			</section>
+
+			<section style="grid-area: notes;">
+				<a href="/news" class="header-link">
+					<h3 class="section-header">
+						News
+						<Icon name="heroicons:arrow-right" size={18} />
+					</h3>
+				</a>
+				<div class="subheader">
+					AI 行业的最新动态 —— 模型发布、行业事件、热门开源项目，每日更新。
+				</div>
+				{
+					newsItems.map((item) => (
+						<a href={item.url} target="_blank" rel="noopener noreferrer">
+							<div class="index-note-card">
+								<div class="icon">
+									<Icon name="heroicons:bolt" size={20} />
+								</div>
+								<h3>{item.title}</h3>
+							</div>
+						</a>
+					))
+				}
+			</section>
+
+			<section class="patterns-section">
+				<a href="/skills" class="header-link">
+					<h3 class="section-header">
+						Skills
+						<Icon name="heroicons:arrow-right" size={18} />
+					</h3>
+				</a>
+				<div class="subheader">
+					策展过的 Claude Code skills —— 文档处理、设计、开发扩展、论文流水线。
+				</div>
+				<div class="patterns-grid">
+					{
+						featuredSkills.map((s) => (
+							<SkillCard
+								slug={s.slug}
+								repo={s.repo}
+								path={s.path}
+								ref={s.ref}
+								descriptionZh={s.descriptionZh}
+							/>
+						))
+					}
+				</div>
+			</section>
+
+			<section class="library-section">
+				<a href="/library" class="header-link">
+					<h3 class="section-header">
+						Library
+						<Icon name="heroicons:arrow-right" size={18} />
+					</h3>
+				</a>
+				<div class="subheader">我自己写的书 —— 因果推断方法、人格因果学派、科研工具手册。</div>
+				<div class="books-grid">
+					{
+						books
+							.slice(0, 8)
+							.map((book) => (
+								<BookCard
+									small
+									subtitle={book.data.subtitle}
+									cover={book.data.cover}
+									title={book.data.title}
+									author={book.data.author}
+									link={book.data.link}
+								/>
+							))
+					}
+				</div>
+			</section>
+		</section>
+	</PageWrapper>
+</Layout>
+
+<style>
+	.readmore-link {
+		display: inline-flex;
+		align-items: center;
+		font-weight: 400;
+		color: var(--color-crimson);
+	}
+
+	.readmore-link [data-icon] {
+		transition: all 0.3s ease-in-out;
+		position: relative;
+		top: 2px;
+		margin-left: var(--space-3xs);
+	}
+
+	.readmore-link:hover {
+		color: var(--color-bright-crimson);
+		cursor: pointer;
+	}
+
+	.readmore-link:hover [data-icon] {
+		margin-left: var(--space-2xs);
+		color: var(--color-sea-blue);
+	}
+
+	.index-note-card {
+		display: flex;
+		padding: var(--space-xs) 0 1.2rem;
+		border-bottom: 1px solid var(--color-tinted-cream);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.index-note-card .icon {
+		position: relative;
+		top: 5px;
+		flex-shrink: 0;
+		color: var(--color-sea-blue);
+	}
+
+	.index-note-card h3 {
+		color: var(--color-gray-800);
+		transition: all 0.3s ease-in-out;
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		font-weight: 400;
+		line-height: var(--leading-snug);
+		margin-left: var(--space-xs);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.index-note-card:hover {
+		border-bottom: 1px solid var(--color-sea-blue);
+		transform: scale3d(1.02, 1.02, 1.02);
+	}
+
+	.index-note-card:hover h3 {
+		color: var(--color-crimson);
+	}
+
+	.garden-title {
+		font-size: var(--font-size-2xl);
+		font-family: var(--font-serif);
+		color: var(--color-gray-800);
+		font-weight: 100;
+		line-height: var(--leading-snug);
+		margin: var(--space-xs) 0 var(--space-2xs);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.garden-section {
+		margin: var(--space-xl) 0 var(--space-s);
+		display: grid;
+		grid-gap: var(--space-xl);
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+			"essays essays notes"
+			"patterns library library";
+	}
+
+	@media (max-width: 768px) {
+		.garden-section {
+			grid-gap: var(--space-s);
+		}
+	}
+
+	@media (max-width: 640px) {
+		.garden-section {
+			grid-template-columns: 1fr;
+			grid-gap: var(--space-l);
+			grid-template-rows: auto;
+			grid-template-areas: "essays" "notes" "patterns" "library";
+		}
+	}
+
+	.section-header {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-base);
+		font-weight: 600;
+		color: var(--color-gray-800);
+		display: flex;
+		align-items: center;
+		margin-bottom: var(--space-3xs);
+	}
+
+	.section-header [data-icon] {
+		transition: all 0.3s ease-in-out;
+		position: relative;
+		top: 2px;
+		margin-left: var(--space-3xs);
+	}
+
+	.header-link:hover .section-header {
+		color: var(--color-bright-crimson);
+	}
+
+	.header-link:hover .section-header [data-icon] {
+		margin-left: var(--space-2xs);
+		color: var(--color-sea-blue);
+	}
+
+	.subheader {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-base);
+		font-weight: 300;
+		color: var(--color-gray-800);
+		margin-bottom: var(--space-m);
+	}
+
+	.page-header {
+		display: flex;
+		flex-direction: column;
+		margin-top: var(--space-xl);
+	}
+
+	.main-title {
+		margin-top: var(--space-m);
+		margin-bottom: 0;
+		max-width: 1100px;
+	}
+
+	.company-name {
+		margin: 0 0.6rem 0 0.3rem;
+	}
+
+	.essays-section {
+		grid-area: essays;
+	}
+
+	.patterns-section {
+		grid-area: patterns;
+	}
+
+	.patterns-grid {
+		margin-left: -1.4rem;
+	}
+
+	.library-section {
+		grid-area: library;
+	}
+
+	.essays-grid,
+	.books-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-gap: var(--space-2xs);
+	}
+
+	.books-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		grid-gap: var(--space-2xs);
+		margin: 0;
+	}
+</style>

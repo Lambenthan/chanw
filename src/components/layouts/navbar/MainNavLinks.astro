@@ -1,0 +1,454 @@
+---
+import { Icon } from "astro-icon/components";
+import UnderlineHoverLink from "../../mdx/UnderlineHoverLink.astro";
+---
+
+<div class="main" role="navigation" aria-label="Main">
+	<div class="popover">
+		<a href="/garden" class="hover-link">
+			<span>The Garden</span>
+		</a>
+		<button
+			class="popover-button"
+			aria-expanded="false"
+			aria-controls="garden-dropdown"
+			aria-label="Toggle Garden menu"
+		>
+			<Icon name="heroicons:chevron-down" size={20} class="chevron-icon" />
+		</button>
+
+		<div class="megamenu" id="garden-dropdown" role="list">
+			<div class="megamenu-grid">
+				<a href="/essays" role="listitem" class="megamenu-item">
+					<div class="megamenu-item-content">
+						<Icon name="evergreen" size={20} class="megamenu-icon" />
+						<div class="megamenu-text">
+							<h3 class="megamenu-title">Essays</h3>
+							<p class="megamenu-description">
+								Opinionated, long-form narrative writing with an agenda
+							</p>
+						</div>
+					</div>
+				</a>
+				<a href="/news" role="listitem" class="megamenu-item">
+					<div class="megamenu-item-content">
+						<Icon name="heroicons:bolt" size={20} class="megamenu-icon" />
+						<div class="megamenu-text">
+							<h3 class="megamenu-title">News</h3>
+							<p class="megamenu-description">
+								AI 行业最新动态 —— 模型发布、行业事件、热门开源项目
+							</p>
+						</div>
+					</div>
+				</a>
+				<a href="/skills" role="listitem" class="megamenu-item">
+					<div class="megamenu-item-content">
+						<Icon name="heroicons:wrench-screwdriver" size={20} class="megamenu-icon" />
+						<div class="megamenu-text">
+							<h3 class="megamenu-title">Skills</h3>
+							<p class="megamenu-description">
+								策展过的 Claude Code skills —— 文档、设计、开发、论文流水线
+							</p>
+						</div>
+					</div>
+				</a>
+				<a href="/smidgeons" role="listitem" class="megamenu-item">
+					<div class="megamenu-item-content">
+						<Icon name="heroicons:paper-clip" size={20} class="megamenu-icon" />
+						<div class="megamenu-text">
+							<h3 class="megamenu-title">Smidgeons</h3>
+							<p class="megamenu-description">Interesting links, papers, and tiny thoughts</p>
+						</div>
+					</div>
+				</a>
+				<a href="/talks" role="listitem" class="megamenu-item">
+					<div class="megamenu-item-content">
+						<Icon name="heroicons:presentation-chart-line" size={20} class="megamenu-icon" />
+						<div class="megamenu-text">
+							<h3 class="megamenu-title">Talks</h3>
+							<p class="megamenu-description">Conference talk slides, transcripts, and videos</p>
+						</div>
+					</div>
+				</a>
+				<a href="/podcasts" role="listitem" class="megamenu-item">
+					<div class="megamenu-item-content">
+						<Icon name="heroicons:microphone" size={20} class="megamenu-icon" />
+						<div class="megamenu-text">
+							<h3 class="megamenu-title">Podcasts</h3>
+							<p class="megamenu-description">Podcast episodes I've been a guest on</p>
+						</div>
+					</div>
+				</a>
+				<a href="/library" role="listitem" class="megamenu-item">
+					<div class="megamenu-item-content">
+						<Icon name="heroicons:book-open" size={20} class="megamenu-icon" />
+						<div class="megamenu-text">
+							<h3 class="megamenu-title">Library</h3>
+							<p class="megamenu-description">我自己写的书 —— 因果推断方法、人格因果学派、科研工具手册</p>
+						</div>
+					</div>
+				</a>
+				<a href="/antilibrary" role="listitem" class="megamenu-item">
+					<div class="megamenu-item-content">
+						<Icon name="heroicons:cube-transparent" size={20} class="megamenu-icon" />
+						<div class="megamenu-text">
+							<h3 class="megamenu-title">Antilibrary</h3>
+							<p class="megamenu-description">Books I like the idea of having read</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="outside-dropdown">
+		<UnderlineHoverLink href="/now">Now</UnderlineHoverLink>
+		<UnderlineHoverLink href="/about">About</UnderlineHoverLink>
+	</div>
+</div>
+
+<script>
+	import { onPageLifecycle } from "../../../utils/viewTransitionLifecycle";
+
+	onPageLifecycle(() => {
+		const button = document.querySelector(".popover-button") as HTMLButtonElement;
+		const megamenu = document.getElementById("garden-dropdown") as HTMLElement;
+
+		if (!button || !megamenu) return;
+
+		function closeMegamenu() {
+			button.setAttribute("aria-expanded", "false");
+			megamenu.style.opacity = "0";
+			megamenu.style.transform = "rotateX(-15deg)";
+			megamenu.style.scale = "0.95";
+			setTimeout(() => {
+				if (megamenu.style.opacity === "0") {
+					megamenu.classList.add("hidden");
+				}
+			}, 250);
+		}
+
+		function openMegamenu() {
+			button.setAttribute("aria-expanded", "true");
+			megamenu.classList.remove("hidden");
+			megamenu.offsetHeight; // Force reflow before animating
+			requestAnimationFrame(() => {
+				megamenu.style.opacity = "1";
+				megamenu.style.transform = "rotateX(0deg)";
+				megamenu.style.scale = "1";
+			});
+		}
+
+		// Initialize closed state
+		button.setAttribute("aria-expanded", "false");
+		megamenu.classList.add("hidden");
+		megamenu.style.opacity = "0";
+		megamenu.style.transform = "rotateX(-15deg)";
+		megamenu.style.scale = "0.95";
+
+		const clickHandler = (e: Event) => {
+			e.stopPropagation();
+			if (megamenu.classList.contains("hidden")) {
+				openMegamenu();
+			} else {
+				closeMegamenu();
+			}
+		};
+
+		const keydownHandler = (e: Event) => {
+			if ((e as KeyboardEvent).key === "Escape" && !megamenu.classList.contains("hidden")) {
+				closeMegamenu();
+				button.focus();
+			}
+		};
+
+		const focusoutHandler = (e: Event) => {
+			const target = (e as FocusEvent).relatedTarget as Node;
+			if (target && megamenu.contains(target)) return;
+			if (!megamenu.contains(target) && !button.contains(target)) {
+				closeMegamenu();
+			}
+		};
+
+		button.addEventListener("click", clickHandler);
+		document.addEventListener("keydown", keydownHandler);
+		document.addEventListener("focusout", focusoutHandler);
+		document.addEventListener("astro:before-preparation", closeMegamenu);
+
+		return () => {
+			button.removeEventListener("click", clickHandler);
+			document.removeEventListener("keydown", keydownHandler);
+			document.removeEventListener("focusout", focusoutHandler);
+			document.removeEventListener("astro:before-preparation", closeMegamenu);
+		};
+	});
+</script>
+
+<style>
+	.main {
+		display: flex;
+		flex-shrink: 0;
+	}
+
+	.popover {
+		position: relative;
+	}
+
+	.hover-link {
+		margin-left: var(--space-s);
+		text-decoration: none;
+		font-size: var(--font-size-xs);
+		font-family: var(--font-sans);
+		transition: color 0.2s ease-in-out;
+		cursor: pointer;
+		position: relative;
+		top: 1px;
+		white-space: nowrap;
+		padding-bottom: 0.25rem;
+	}
+
+	.hover-link span {
+		color: var(--color-gray-800);
+	}
+
+	.hover-link:hover span {
+		color: var(--color-crimson);
+	}
+
+	.hover-link:focus {
+		outline: 2px solid darkblue;
+		border-radius: 2px;
+	}
+
+	.hover-link::before {
+		content: "";
+		transform-origin: 50% 100%;
+		background: var(--color-sea-blue);
+		transition:
+			clip-path 0.3s,
+			transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		top: 95%;
+		left: 0;
+		pointer-events: none;
+		clip-path: polygon(
+			0% 0%,
+			0% 100%,
+			0 100%,
+			0 0,
+			100% 0,
+			100% 100%,
+			0 100%,
+			0 100%,
+			100% 100%,
+			100% 0%
+		);
+	}
+
+	.hover-link:hover::before {
+		transform: translate3d(0, 2px, 0) scale3d(1, 2, 1);
+		clip-path: polygon(
+			0% 0%,
+			0% 100%,
+			100% 100%,
+			50% 0,
+			50% 0,
+			50% 100%,
+			50% 100%,
+			0 100%,
+			100% 100%,
+			100% 0%
+		);
+	}
+
+	.popover-button {
+		padding: 0 0.25rem;
+		border-radius: 4px;
+		margin-left: var(--space-3xs);
+		position: relative;
+		top: 0;
+		background: transparent;
+	}
+
+	.chevron-icon {
+		vertical-align: middle;
+		transition:
+			color 0.3s ease-in-out,
+			background-color 0.3s ease-in-out,
+			transform 0.8s ease-in-out;
+		color: var(--color-gray-600);
+	}
+
+	.popover-button:hover {
+		cursor: pointer;
+		background-color: var(--color-gray-100);
+	}
+
+	.popover-button:hover .chevron-icon {
+		color: var(--color-bright-crimson);
+		transform: rotateY(180deg);
+	}
+
+	.megamenu {
+		display: flex;
+		margin-top: 0.6rem;
+		background: var(--color-cream);
+		border: 1px solid var(--color-tinted-cream);
+		border-radius: var(--border-radius-base);
+		box-shadow:
+			0.2px 0.4px 0.8px -10px rgba(0, 0, 0, 0.1),
+			0.4px 0.9px 2px -10px rgba(0, 0, 0, 0.11),
+			0.8px 1.8px 3.8px -10px rgba(0, 0, 0, 0.12),
+			1.3px 3.1px 6.7px -10px rgba(0, 0, 0, 0.13),
+			2.5px 5.8px 12.5px -10px rgba(0, 0, 0, 0.15),
+			6px 14px 30px -10px rgba(0, 0, 0, 0.18);
+		z-index: 1;
+		position: absolute;
+		transform-origin: top;
+		padding: var(--space-2xs);
+		min-width: 600px;
+		right: -100%;
+		top: 100%;
+		opacity: 0;
+		transform: rotateX(90deg);
+		scale: 0.95;
+		transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1), transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), scale 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+	}
+
+	.megamenu.hidden {
+		display: none;
+	}
+
+	.megamenu-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 0;
+		width: 100%;
+	}
+
+	.megamenu-item {
+		text-decoration: none;
+		padding: var(--space-xs);
+		border-radius: var(--border-radius-base);
+		transition: all 0.3s ease-in-out;
+		border: 1px solid transparent;
+		display: block;
+	}
+
+	.megamenu-item-content {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		gap: var(--space-xs);
+	}
+
+	.megamenu-icon {
+		flex-shrink: 0;
+		color: var(--color-sea-blue);
+		margin-top: 2px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.megamenu-text {
+		flex: 1;
+	}
+
+	.evergreen__cls-1 {
+		fill: var(--color-sea-blue);
+	}
+
+	.megamenu-item:hover {
+		background: var(--color-light-cream);
+		border-color: var(--color-tinted-cream);
+		transform: translateY(-1px);
+	}
+
+	.megamenu-title {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		font-weight: 600;
+		color: var(--color-gray-800);
+		margin: 0 0 var(--space-3xs) 0;
+		transition: color 0.3s ease-in-out;
+	}
+
+	.megamenu-description {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		color: var(--color-gray-600);
+		margin: 0;
+		line-height: var(--leading-snug);
+		transition: color 0.3s ease-in-out;
+	}
+
+	.megamenu-item:hover .megamenu-title {
+		color: var(--color-crimson);
+	}
+
+	.megamenu-item:hover .megamenu-description {
+		color: var(--color-gray-800);
+	}
+
+	.megamenu-item:hover .megamenu-icon {
+		color: var(--color-crimson);
+		transform: scale(1.1);
+	}
+
+	/* Pattern card leaf animations for the patterns menu item */
+	.megamenu-item:hover :global(.left-leaf) {
+		transform: translateX(29px);
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.megamenu-item:hover :global(.right-leaf) {
+		transform: translateX(-29px);
+		transition: transform 0.3s ease-in-out;
+	}
+
+	:global(.left-leaf) {
+		transition: transform 0.3s ease-in-out;
+		will-change: transform;
+	}
+
+	:global(.right-leaf) {
+		transition: transform 0.3s ease-in-out;
+		will-change: transform;
+	}
+
+	.outside-dropdown :global(.link-container) {
+		margin-left: var(--space-s);
+		top: 1px;
+		left: 3px;
+	}
+
+	.outside-dropdown :global(.styled-link span) {
+		font-size: var(--font-size-xs);
+		font-family: var(--font-sans);
+		color: var(--color-gray-800);
+	}
+
+	@media screen and (max-width: 1024px) {
+		.megamenu {
+			min-width: 500px;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+		.megamenu {
+			min-width: 400px;
+			right: -100px;
+		}
+
+		.megamenu-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	@media screen and (max-width: 550px) {
+		.main {
+			display: none;
+		}
+	}
+</style>

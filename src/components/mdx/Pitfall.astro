@@ -1,0 +1,75 @@
+---
+interface Props {
+	title?: string;
+	number?: string;
+	label?: string;
+}
+
+const { title, number, label = "误区" } = Astro.props;
+const heading = number ? `${label} ${number}` : label;
+---
+
+<aside class="academic-box pitfall-box">
+	<header class="box-header">
+		<span class="box-label">{heading}</span>
+		{title && <span class="box-title">{title}</span>}
+	</header>
+	<div class="box-body">
+		<slot />
+	</div>
+</aside>
+
+<style>
+	.academic-box {
+		position: relative;
+		margin: var(--space-m) 0;
+		padding: var(--space-s) var(--space-m) var(--space-s) var(--space-m);
+		border-left: 3px solid var(--color-dark-salmon);
+		background: color-mix(in srgb, var(--color-salmon) 5%, var(--color-light-cream));
+		border-radius: 0 var(--border-radius-base) var(--border-radius-base) 0;
+		box-shadow: var(--box-shadow-sm);
+	}
+
+	.box-header {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: var(--space-xs);
+		margin-bottom: var(--space-2xs);
+		padding-bottom: var(--space-2xs);
+		border-bottom: 1px solid color-mix(in srgb, var(--color-salmon) 25%, transparent);
+	}
+
+	.box-label {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		font-weight: 700;
+		color: var(--color-dark-salmon);
+		flex-shrink: 0;
+	}
+
+	.box-title {
+		font-family: var(--font-serif);
+		font-size: var(--font-size-base);
+		font-weight: 400;
+		color: var(--color-gray-800);
+		line-height: var(--leading-snug);
+	}
+
+	.box-body :global(p) {
+		font-size: calc(var(--font-size-base) / 1.05);
+		line-height: var(--leading-base);
+		color: var(--color-gray-800);
+		margin: 0 0 var(--space-xs) 0;
+	}
+
+	.box-body :global(p:last-child) {
+		margin-bottom: 0;
+	}
+
+	.box-body :global(strong) {
+		color: var(--color-dark-salmon);
+	}
+</style>

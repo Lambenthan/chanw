@@ -1,0 +1,80 @@
+---
+interface Props {
+  source: "hackernews" | "bluesky";
+  author: string;
+  date: string;
+  url?: string;
+}
+
+const { source, author, date, url } = Astro.props;
+
+const sourceConfig = {
+  hackernews: {
+    name: "Hacker News",
+    color: "#ff6600",
+    logo: `<svg height="24" width="24" viewBox="4 4 188 188" xmlns="http://www.w3.org/2000/svg"><path d="m4 4h188v188h-188z" fill="#f60"/><path d="m73.2521756 45.01 22.7478244 47.39130083 22.7478244-47.39130083h19.56569631l-34.32352071 64.48661468v41.49338532h-15.98v-41.49338532l-34.32352071-64.48661468z" fill="#fff"/></svg>`,
+  },
+  bluesky: {
+    name: "Bluesky",
+    color: "#0085ff",
+    logo: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 57"><path fill="#006AFF" d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805ZM50.127 3.805C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745Z"/></svg>`,
+  },
+};
+
+const config = sourceConfig[source];
+---
+
+<div class="quote-source">
+  <span class="logo" set:html={config.logo} />
+  <span class="attribution">
+    {url ? <a href={url} target="_blank" rel="noopener noreferrer">{author}</a> : author}
+    <svg width="4px" height="6px">
+					<circle r="2" cx="2" cy="2" fill="var(--color-gray-400)"></circle>
+		</svg>
+    {date}
+  </span>
+</div>
+
+<style>
+  .quote-source {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2xs);
+    margin-top: var(--space-3xs);
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo :global(svg) {
+    border-radius: 2px;
+  }
+
+  .attribution svg {
+    margin: 0 0.3rem;
+  }
+
+  .attribution {
+    font-size: var(--font-size-xs);
+    font-family: var(--font-sans);
+    font-weight: 500;
+    color: var(--color-gray-600);
+  }
+
+  .attribution a {
+    color: var(--color-gray-600);
+    text-decoration: none;
+  }
+
+  .attribution a:hover {
+    color: var(--color-gray-800);
+  }
+
+  .separator {
+    margin: 0 0.15em;
+    color: var(--color-gray-400);
+  }
+</style>

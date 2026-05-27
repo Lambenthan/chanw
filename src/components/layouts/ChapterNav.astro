@@ -1,0 +1,161 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+	bookSlug: string;
+	bookTitle: string;
+	prev?: { chapterNumber: number; chapterLabel?: string; title: string; href: string };
+	next?: { chapterNumber: number; chapterLabel?: string; title: string; href: string };
+}
+
+const { bookSlug, bookTitle, prev, next } = Astro.props;
+const tocHref = `/books/${bookSlug}`;
+---
+
+<nav class="chapter-nav" aria-label="Chapter navigation">
+	<div class="nav-grid">
+		<div class="nav-left">
+			{prev && (
+				<a href={prev.href} class="nav-link">
+					<span class="nav-direction">
+						<Icon name="heroicons:arrow-left" size={14} />
+						<span>{prev.chapterLabel ?? `第 ${prev.chapterNumber} 章`}</span>
+					</span>
+					<span class="nav-title">{prev.title}</span>
+				</a>
+			)}
+		</div>
+		<div class="nav-center">
+			<a href={tocHref} class="toc-link" title={bookTitle}>
+				<Icon name="heroicons:list-bullet" size={16} />
+				<span>目录</span>
+			</a>
+		</div>
+		<div class="nav-right">
+			{next && (
+				<a href={next.href} class="nav-link nav-right-link">
+					<span class="nav-direction">
+						<span>{next.chapterLabel ?? `第 ${next.chapterNumber} 章`}</span>
+						<Icon name="heroicons:arrow-right" size={14} />
+					</span>
+					<span class="nav-title">{next.title}</span>
+				</a>
+			)}
+		</div>
+	</div>
+</nav>
+
+<style>
+	.chapter-nav {
+		max-width: 800px;
+		margin: var(--space-2xl) auto var(--space-l);
+		padding: var(--space-m) 0 0;
+		border-top: 1px solid var(--color-tinted-cream);
+	}
+
+	.nav-grid {
+		display: grid;
+		grid-template-columns: 1fr auto 1fr;
+		gap: var(--space-m);
+		align-items: start;
+	}
+
+	.nav-left {
+		justify-self: start;
+		max-width: 280px;
+	}
+
+	.nav-right {
+		justify-self: end;
+		max-width: 280px;
+		text-align: right;
+	}
+
+	.nav-center {
+		justify-self: center;
+		display: flex;
+		align-items: center;
+	}
+
+	.nav-link {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-3xs);
+		text-decoration: none;
+		transition: color 0.3s ease-in-out;
+	}
+
+	.nav-direction {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-3xs);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: bold;
+		color: var(--color-gray-600);
+		transition: color 0.3s ease-in-out;
+	}
+
+	.nav-title {
+		font-family: var(--font-body);
+		font-size: var(--font-size-sm);
+		color: var(--color-gray-800);
+		line-height: var(--leading-snug);
+		transition: color 0.3s ease-in-out;
+	}
+
+	.nav-right-link {
+		align-items: flex-end;
+	}
+
+	.nav-link:hover .nav-direction {
+		color: var(--color-sea-blue);
+	}
+
+	.nav-link:hover .nav-title {
+		color: var(--color-crimson);
+	}
+
+	.toc-link {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-3xs);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: bold;
+		color: var(--color-bright-crimson);
+		text-decoration: none;
+		padding: var(--space-3xs) var(--space-xs);
+		border: 1px solid var(--color-tinted-cream);
+		border-radius: var(--border-radius-base);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.toc-link:hover {
+		background: var(--color-light-cream);
+		border-color: var(--color-crimson);
+	}
+
+	@media (max-width: 640px) {
+		.nav-grid {
+			grid-template-columns: 1fr;
+			gap: var(--space-s);
+		}
+
+		.nav-left,
+		.nav-right,
+		.nav-center {
+			justify-self: stretch;
+			max-width: none;
+			text-align: left;
+		}
+
+		.nav-right-link {
+			align-items: flex-start;
+		}
+	}
+</style>
