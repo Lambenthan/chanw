@@ -1,8 +1,13 @@
 ---
 /**
- * 章节内 H3 标题（### 0.1.1 ...）专用。
+ * 章节内 H3 标题（### 1.2.1 ...）专用。ElegantBook 学术风。
  *
- * 比 ChapterTitle2 小一档，无左 accent 条（避免视觉过度），节号同样降级。
+ * 视觉跟 ChapterTitle2 同语言但明确"小一级"：
+ * - H2 = 实心 sea-blue 徽章（白字）
+ * - H3 = 镂空 sea-blue 徽章（sea-blue 字，仅边框）
+ * 这种"实心 vs 镂空"对应"section vs subsection"是学术教科书惯例
+ *
+ * 字号也小一档，无底线（避免视觉过重）。
  */
 const { id } = Astro.props;
 ---
@@ -16,7 +21,11 @@ const { id } = Astro.props;
     color: var(--color-gray-800);
     font-weight: 400;
     line-height: 1.3;
-    margin: var(--space-m) 0 var(--space-2xs);
+    margin: var(--space-l) 0 var(--space-2xs);
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.4em;
     transition: all 0.3s ease-in-out;
     scroll-margin-top: var(--space-l);
   }
@@ -33,13 +42,20 @@ const { id } = Astro.props;
     }
   }
 
+  /* 节号镂空徽章 ── 透明底 + sea-blue 边框 + sea-blue 字 */
   .chapter-h3 :global(.section-number) {
+    display: inline-block;
+    background: transparent;
+    color: var(--color-sea-blue);
     font-family: "TNR Numerals", "Times New Roman", serif;
-    font-weight: 400;
-    color: var(--color-gray-500);
-    font-size: 0.85em;
-    margin-right: 0.4em;
+    font-weight: 500;
+    font-size: 0.75em;
+    line-height: 1.2;
+    padding: 0.1em 0.45em;
+    border: 1px solid var(--color-sea-blue);
+    border-radius: 4px;
     letter-spacing: 0.02em;
     font-variant-numeric: tabular-nums;
+    transform: translateY(-0.1em);
   }
 </style>

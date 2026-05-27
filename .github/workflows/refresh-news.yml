@@ -71,6 +71,24 @@ jobs:
             exit 0
           fi
           git commit -m "chore: 定时刷新 news feed [skip ci]"
-          # 防止 cron 跑期间有其它 push 撞车
-          git pull --rebase --autostash origin main
-          git push origin HEAD:main
+
+          # 推送 + 冲突恢复，最多重试 3 次
+          # 数据文件冲突时一律保留本地版本（pipeline 输出是真相，
+          # 远程的版本只是上一次 cron 跑出来的旧快照）。在 rebase
+          # 语境下 -X theirs = 保留正在 rebase 的 commit（即我们刚生成的）
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main 2>&1; then
+              echo "✓ Push 成功（第 $attempt 次尝试）"
+              exit 0
+            fi
+            echo "Push 失败 ($attempt/3)，尝试 fetch + rebase"
+            git fetch origin main
+            if ! git rebase -X theirs origin/main; then
+              echo "rebase 自动合并失败，强制 checkout 本地版本"
+              git checkout --theirs src/data/ 2>/dev/null || true
+              git add src/data/ 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --abort
+            fi
+          done
+          echo "Push 重试 3 次仍失败"
+          exit 1
