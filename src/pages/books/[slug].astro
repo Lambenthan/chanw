@@ -71,30 +71,40 @@ const totalWords = chapters.reduce((s, c) => s + wordCountEstimate(c), 0);
 						? `${(totalWords / 10000).toFixed(1)} 万`
 						: totalWords.toLocaleString("zh-CN")}</dd>
 					<dt>状态</dt>
-					<dd>已成稿</dd>
+					<dd>{book.data.status ?? (chapters.length > 0 ? "已成稿" : "写作中")}</dd>
+					{book.data.series && (
+						<>
+							<dt>系列</dt>
+							<dd>{book.data.series}</dd>
+						</>
+					)}
 				</dl>
 			</div>
 		</section>
 
 		<section class="chapter-list">
 			<h2 class="section-title">目录</h2>
-			<ol>
-				{chapters.map((c) => (
-					<li>
-						<a href={`/books/${slug}/${c.id.replace(slug + "/", "").replace(/\.mdx$/, "")}`}>
-							<div class="chapter-number">{c.data.chapterLabel ?? `第 ${c.data.chapterNumber} 章`}</div>
-							<div class="chapter-body">
-								<h3>{c.data.title}</h3>
-								{c.data.description && <p>{c.data.description}</p>}
-								<div class="chapter-meta">
-									<span>{readingTimeMin(wordCountEstimate(c))} 分钟阅读</span>
+			{chapters.length > 0 ? (
+				<ol>
+					{chapters.map((c) => (
+						<li>
+							<a href={`/books/${slug}/${c.id.replace(slug + "/", "").replace(/\.mdx$/, "")}`}>
+								<div class="chapter-number">{c.data.chapterLabel ?? `第 ${c.data.chapterNumber} 章`}</div>
+								<div class="chapter-body">
+									<h3>{c.data.title}</h3>
+									{c.data.description && <p>{c.data.description}</p>}
+									<div class="chapter-meta">
+										<span>{readingTimeMin(wordCountEstimate(c))} 分钟阅读</span>
+									</div>
 								</div>
-							</div>
-							<Icon name="heroicons:arrow-right" size={18} class="chapter-arrow" />
-						</a>
-					</li>
-				))}
-			</ol>
+								<Icon name="heroicons:arrow-right" size={18} class="chapter-arrow" />
+							</a>
+						</li>
+					))}
+				</ol>
+			) : (
+				<p class="empty-message">章节正在迁移整理中，敬请期待。本书已有完整 LaTeX/PDF 稿，正在按本站学术版式逐章重排。</p>
+			)}
 		</section>
 	</PageWrapper>
 </Layout>
@@ -196,6 +206,18 @@ const totalWords = chapters.reduce((s, c) => s + wordCountEstimate(c), 0);
 		list-style: none;
 		padding: 0;
 		margin: 0;
+	}
+
+	.empty-message {
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		color: var(--color-gray-500);
+		line-height: var(--leading-snug);
+		padding: var(--space-l) var(--space-m);
+		border: 1px dashed var(--color-tinted-cream);
+		border-radius: var(--border-radius-base);
+		background: var(--color-light-cream);
+		text-align: center;
 	}
 
 	.chapter-list li {

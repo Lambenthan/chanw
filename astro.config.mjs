@@ -9,8 +9,7 @@ import { remarkWikiLink } from "./src/plugins/remark-wiki-link";
 
 // https://astro.build/config
 export default defineConfig({
-  // TODO: change to your real deployed domain before going live
-  site: "https://example.com",
+  site: "https://chanw.org",
   image: {
     domains: ["res.cloudinary.com"],
   },

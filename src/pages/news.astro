@@ -43,6 +43,7 @@ const allItems = (newsItems as NewsItem[]).slice();
 
 // Within each group, sort by date desc (HN/GH already curated by points/stars,
 // but sorting by date here is harmless when item count is small).
+const PER_GROUP_LIMIT = 100;
 const grouped = GROUPS.map((g) => {
 	const items = allItems
 		.filter((x) => x.group === g.id)
@@ -50,7 +51,8 @@ const grouped = GROUPS.map((g) => {
 			const ad = a.date ? new Date(a.date).getTime() : 0;
 			const bd = b.date ? new Date(b.date).getTime() : 0;
 			return bd - ad;
-		});
+		})
+		.slice(0, PER_GROUP_LIMIT);
 	return { ...g, items };
 });
 ---

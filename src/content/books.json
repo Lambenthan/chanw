@@ -6,6 +6,151 @@
 		"subtitle": "1506 廷杖 → 龙场悟道：单被试因果分析",
 		"author": "Chanw",
 		"cover": "../images/books/yangming-trajectory.jpg",
-		"link": "/books/yangming-trajectory"
+		"link": "/books/yangming-trajectory",
+		"status": "已成稿",
+		"series": "轨迹系列"
+	},
+	{
+		"id": 2,
+		"slug": "guyanwu-trajectory",
+		"title": "亭林轨迹",
+		"subtitle": "用因果推断与文本计量重读顾炎武日知录与亭林诗文集",
+		"author": "Chanw",
+		"cover": "../images/books/guyanwu-trajectory.jpg",
+		"link": "/books/guyanwu-trajectory",
+		"status": "写作中",
+		"series": "轨迹系列"
+	},
+	{
+		"id": 3,
+		"slug": "sushi-trajectory",
+		"title": "苏轼轨迹",
+		"subtitle": "用因果推断与文本计量重读东坡 65 年文集",
+		"author": "Chanw",
+		"cover": "../images/books/sushi-trajectory.jpg",
+		"link": "/books/sushi-trajectory",
+		"status": "写作中",
+		"series": "轨迹系列"
+	},
+	{
+		"id": 4,
+		"slug": "zengguofan-trajectory",
+		"title": "曾国藩轨迹",
+		"subtitle": "用因果推断与文本计量重读曾国藩家书 32 年",
+		"author": "Chanw",
+		"cover": "../images/books/zengguofan-trajectory.jpg",
+		"link": "/books/zengguofan-trajectory",
+		"status": "写作中",
+		"series": "轨迹系列"
+	},
+	{
+		"id": 5,
+		"slug": "causal-inference",
+		"title": "因果推断实践",
+		"subtitle": "基于 RHC 数据的方法比较与 R 语言实现",
+		"author": "Chanw",
+		"cover": "../images/books/causal-inference.jpg",
+		"link": "/books/causal-inference",
+		"status": "写作中",
+		"series": "方法实践系列"
+	},
+	{
+		"id": 6,
+		"slug": "synthetic-control",
+		"title": "现代合成控制实践",
+		"subtitle": "基于 California Prop 99 烟草税数据的方法演练与 R 语言实现",
+		"author": "Chanw",
+		"cover": "../images/books/synthetic-control.jpg",
+		"link": "/books/synthetic-control",
+		"status": "写作中",
+		"series": "方法实践系列"
+	},
+	{
+		"id": 7,
+		"slug": "meta-analysis",
+		"title": "Meta 分析实践",
+		"subtitle": "基于 BCG 疫苗试验的方法演练与 R 语言实现",
+		"author": "Chanw",
+		"cover": "../images/books/meta-analysis.jpg",
+		"link": "/books/meta-analysis",
+		"status": "写作中",
+		"series": "方法实践系列"
+	},
+	{
+		"id": 8,
+		"slug": "hlm",
+		"title": "多层模型实践",
+		"subtitle": "基于 Tennessee STAR 班额实验的方法演练与 R 语言实现",
+		"author": "Chanw",
+		"cover": "../images/books/hlm.jpg",
+		"link": "/books/hlm",
+		"status": "写作中",
+		"series": "方法实践系列"
+	},
+	{
+		"id": 9,
+		"slug": "earnings-management",
+		"title": "盈余管理实践",
+		"subtitle": "基于 Compustat 的方法演练与 R/Python 实现",
+		"author": "Chanw",
+		"cover": "../images/books/earnings-management.jpg",
+		"link": "/books/earnings-management",
+		"status": "写作中",
+		"series": "审计实证系列"
+	},
+	{
+		"id": 10,
+		"slug": "earnings-management-practice",
+		"title": "盈余管理识别实务",
+		"subtitle": "内部审计与监管稽查工作手册（A 股案例）",
+		"author": "Chanw",
+		"cover": "../images/books/earnings-management-practice.jpg",
+		"link": "/books/earnings-management-practice",
+		"status": "写作中",
+		"series": "审计实证系列"
+	},
+	{
+		"id": 11,
+		"slug": "fraud-detection",
+		"title": "财务舞弊检测实践",
+		"subtitle": "基于 AAER 与 Compustat 的方法比较与 R/Python 实现",
+		"author": "Chanw",
+		"cover": "../images/books/fraud-detection.jpg",
+		"link": "/books/fraud-detection",
+		"status": "写作中",
+		"series": "审计实证系列"
+	},
+	{
+		"id": 12,
+		"slug": "personality-causality",
+		"title": "人格因果",
+		"subtitle": "单被试历史人物的纵向文本计量与因果识别——四案例对照与方法论统一",
+		"author": "Chanw",
+		"cover": "../images/books/personality-causality.jpg",
+		"link": "/books/personality-causality",
+		"status": "写作中",
+		"series": "人格因果学"
+	},
+	{
+		"id": 13,
+		"slug": "personality-causality-paper",
+		"title": "延迟反思的因果痕迹",
+		"subtitle": "单论文：王阳明文本计量中断时序设计",
+		"author": "Chanw",
+		"cover": "../images/books/personality-causality-paper.jpg",
+		"link": "/books/personality-causality-paper",
+		"status": "已成稿",
+		"series": "人格因果学"
+	},
+	{
+		"id": 14,
+		"slug": "silicon-social-science",
+		"title": "硅基社会学派",
+		"subtitle": "让大语言模型扮演问卷受访者——基于 GSS 数据的人格学派与代表性偏差",
+		"author": "Chanw",
+		"cover": "../images/books/silicon-social-science.jpg",
+		"link": "/books/silicon-social-science",
+		"status": "写作中",
+		"series": "AI 方法论系列"
 	}
 ]

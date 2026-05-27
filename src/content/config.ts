@@ -111,6 +111,8 @@ const booksCollection = defineCollection({
       link: z.string(),
       id: z.number(),
       slug: z.string().optional(),
+      status: z.string().optional(),
+      series: z.string().optional(),
     }),
 });
 
