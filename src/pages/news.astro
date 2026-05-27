@@ -4,7 +4,6 @@ import Title2 from "../components/mdx/typography/Title2.astro";
 import NewsCard from "../components/cards/NewsCard.astro";
 import TitleWithCount from "../components/layouts/TitleWithCount.astro";
 import PageWrapper from "../components/layouts/PageWrapper.astro";
-import MasonryGrid from "../components/layouts/MasonryGrid.astro";
 import { Icon } from "astro-icon/components";
 import newsItems from "../data/news.json";
 
@@ -16,21 +15,30 @@ type NewsItem = {
 	group: string;
 };
 
+// Anthropic 系内部多个子站合并为单一来源；Google 的两个子站合并
+const SOURCE_NORMALIZE: Record<string, string> = {
+	"Anthropic Research": "Anthropic",
+	"Anthropic News": "Anthropic",
+	"Anthropic Engineering": "Anthropic",
+	"claude.com": "Anthropic",
+	"code.claude.com": "Anthropic",
+	"research.google": "Google AI",
+};
+
+function normalizeSource(src: string): string {
+	return SOURCE_NORMALIZE[src] ?? src;
+}
+
 const GROUPS: { id: string; title: string; subtitle: string }[] = [
 	{
 		id: "labs",
 		title: "AI Labs",
-		subtitle: "厂商一手发布 —— 模型、产品、工程博客。",
+		subtitle: "厂商一手发布 —— 按发布方分桶，默认显示每家最新 30 条。",
 	},
 	{
 		id: "papers",
 		title: "Papers",
 		subtitle: "近期论文 —— arXiv、HuggingFace Papers、研究院刊。",
-	},
-	{
-		id: "hn",
-		title: "Hacker News",
-		subtitle: "社区热帖 —— 全球技术圈最近在讨论什么。",
 	},
 	{
 		id: "gh",
@@ -39,24 +47,84 @@ const GROUPS: { id: string; title: string; subtitle: string }[] = [
 	},
 ];
 
+const SOURCE_PREVIEW = 30;
+const SOURCE_MIN_COUNT = 5; // 小于此数的来源合并到"其他"
+
+function byDateDesc(a: NewsItem, b: NewsItem) {
+	const ad = a.date ? new Date(a.date).getTime() : 0;
+	const bd = b.date ? new Date(b.date).getTime() : 0;
+	return bd - ad;
+}
+
 const allItems = (newsItems as NewsItem[]).slice();
 
-// Within each group, sort by date desc (HN/GH already curated by points/stars,
-// but sorting by date here is harmless when item count is small).
-// 二级页 /news 全量展示（不限条数）；首页只取最新 6 条见 index.astro
-const grouped = GROUPS.map((g) => {
-	const items = allItems
-		.filter((x) => x.group === g.id)
-		.sort((a, b) => {
-			const ad = a.date ? new Date(a.date).getTime() : 0;
-			const bd = b.date ? new Date(b.date).getTime() : 0;
-			return bd - ad;
-		});
-	return { ...g, items };
+type SourceBucket = { source: string; items: NewsItem[] };
+type GroupBlock =
+	| { mode: "flat"; id: string; title: string; subtitle: string; items: NewsItem[] }
+	| {
+			mode: "by-source";
+			id: string;
+			title: string;
+			subtitle: string;
+			total: number;
+			sources: SourceBucket[];
+	  };
+
+const blocks: GroupBlock[] = GROUPS.map((g) => {
+	const items = allItems.filter((x) => x.group === g.id).sort(byDateDesc);
+
+	if (g.id !== "labs") {
+		return { mode: "flat", ...g, items };
+	}
+
+	// 按 normalized source 分桶
+	const map = new Map<string, NewsItem[]>();
+	for (const item of items) {
+		const src = normalizeSource(item.source);
+		if (!map.has(src)) map.set(src, []);
+		map.get(src)!.push(item);
+	}
+
+	// 拆出大桶与小桶
+	const big: SourceBucket[] = [];
+	const small: NewsItem[] = [];
+	for (const [src, list] of map.entries()) {
+		if (list.length >= SOURCE_MIN_COUNT) {
+			big.push({ source: src, items: list });
+		} else {
+			small.push(...list);
+		}
+	}
+	big.sort((a, b) => b.items.length - a.items.length);
+	if (small.length > 0) {
+		small.sort(byDateDesc);
+		big.push({ source: "其他", items: small });
+	}
+
+	return {
+		mode: "by-source",
+		...g,
+		total: items.length,
+		sources: big,
+	};
 });
+
+// 从 labs 块抽锚点导航
+const labsBlock = blocks.find((b) => b.id === "labs" && b.mode === "by-source") as
+	| Extract<GroupBlock, { mode: "by-source" }>
+	| undefined;
+const labsAnchors = labsBlock?.sources.map((s) => ({
+	slug: `labs-${s.source.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+	source: s.source,
+	count: s.items.length,
+})) ?? [];
+
+function sourceSlug(source: string): string {
+	return `labs-${source.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+}
 ---
 
-<Layout title="News">
+<Layout title="News" desc="AI 行业全量动态索引：厂商一手发布、近期论文、热门开源项目">
 	<PageWrapper>
 		<header style="margin-bottom: var(--space-xl);">
 			<TitleWithCount posts={allItems}>
@@ -68,33 +136,90 @@ const grouped = GROUPS.map((g) => {
 				</div>
 				News
 			</TitleWithCount>
-			<Title2>AI 行业的最新动态 —— 模型发布、论文、社区热帖、上升开源项目，按来源分组。</Title2>
+			<Title2>AI 行业全量动态索引 —— 厂商一手发布按来源分桶、近期论文与上升仓库整体铺开。</Title2>
 		</header>
 
 		{
-			grouped.map((g) => (
-				<section class="news-group" id={`group-${g.id}`}>
+			labsAnchors.length > 0 && (
+				<nav class="anchor-nav" aria-label="AI Labs 来源跳转">
+					<span class="anchor-label">跳转：</span>
+					{labsAnchors.map((a) => (
+						<a href={`#${a.slug}`} class="anchor-link">
+							{a.source}
+							<span class="anchor-count">{a.count}</span>
+						</a>
+					))}
+					<a href="#group-papers" class="anchor-link"><strong>Papers</strong></a>
+					<a href="#group-gh" class="anchor-link"><strong>GitHub</strong></a>
+				</nav>
+			)
+		}
+
+		{
+			blocks.map((block) => (
+				<section class="news-group" id={`group-${block.id}`}>
 					<header class="group-header">
-						<span class="group-count">{g.items.length}</span>
-						<h2 class="group-title">{g.title}</h2>
-						<p class="group-subtitle">{g.subtitle}</p>
+						<span class="group-count">
+							{block.mode === "by-source" ? block.total : block.items.length}
+						</span>
+						<h2 class="group-title">{block.title}</h2>
+						<p class="group-subtitle">{block.subtitle}</p>
 					</header>
-					{g.items.length > 0 ? (
-						<MasonryGrid>
-							<div class="grid-sizer" />
-							{g.items.map((item) => (
-								<div class="grid-item">
-									<NewsCard
-										title={item.title}
-										url={item.url}
-										source={item.source}
-										date={item.date}
-									/>
+
+					{block.mode === "by-source" ? (
+						block.sources.map((src) => {
+							const preview = src.items.slice(0, SOURCE_PREVIEW);
+							const overflow = src.items.slice(SOURCE_PREVIEW);
+							return (
+								<div class="source-block" id={sourceSlug(src.source)}>
+									<header class="source-header">
+										<h3 class="source-name">{src.source}</h3>
+										<span class="source-count">{src.items.length}</span>
+									</header>
+									<div class="news-grid">
+										{preview.map((item) => (
+											<NewsCard
+												title={item.title}
+												url={item.url}
+												source={item.source}
+												date={item.date}
+											/>
+										))}
+									</div>
+									{overflow.length > 0 && (
+										<details class="source-overflow">
+											<summary>
+												<span>查看全部 {src.items.length} 条</span>
+												<Icon name="heroicons:chevron-down" size={14} />
+											</summary>
+											<div class="news-grid news-grid-overflow">
+												{overflow.map((item) => (
+													<NewsCard
+														title={item.title}
+														url={item.url}
+														source={item.source}
+														date={item.date}
+													/>
+												))}
+											</div>
+										</details>
+									)}
 								</div>
+							);
+						})
+					) : block.items.length > 0 ? (
+						<div class="news-grid">
+							{block.items.map((item) => (
+								<NewsCard
+									title={item.title}
+									url={item.url}
+									source={item.source}
+									date={item.date}
+								/>
 							))}
-						</MasonryGrid>
+						</div>
 					) : (
-						<p class="empty">本组暂无条目，等下次抓取。</p>
+						<p class="empty">本组暂无条目。</p>
 					)}
 				</section>
 			))
@@ -159,6 +284,50 @@ const grouped = GROUPS.map((g) => {
 		color: var(--color-sea-blue);
 	}
 
+	.anchor-nav {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: var(--space-3xs) var(--space-xs);
+		padding: var(--space-s) var(--space-m);
+		margin-bottom: var(--space-xl);
+		background: var(--color-light-cream);
+		border: 1px solid var(--color-tinted-cream);
+		border-radius: var(--border-radius-base);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+	}
+
+	.anchor-label {
+		color: var(--color-gray-500);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-size: var(--font-size-xs);
+		font-weight: bold;
+	}
+
+	.anchor-link {
+		color: var(--color-gray-700);
+		text-decoration: none;
+		padding: var(--space-3xs) var(--space-2xs);
+		border-radius: var(--border-radius-base);
+		transition: all 0.3s ease-in-out;
+		display: inline-flex;
+		align-items: baseline;
+		gap: 0.4em;
+	}
+
+	.anchor-link:hover {
+		background: var(--color-cream);
+		color: var(--color-crimson);
+	}
+
+	.anchor-count {
+		font-variant-numeric: tabular-nums;
+		color: var(--color-gray-500);
+		font-size: var(--font-size-xs);
+	}
+
 	.news-group {
 		margin-top: var(--space-xl);
 	}
@@ -176,7 +345,7 @@ const grouped = GROUPS.map((g) => {
 		align-items: baseline;
 		column-gap: var(--space-xs);
 		row-gap: var(--space-3xs);
-		margin-bottom: var(--space-s);
+		margin-bottom: var(--space-m);
 		padding-bottom: var(--space-xs);
 		border-bottom: 1px solid var(--color-tinted-cream);
 	}
@@ -212,6 +381,96 @@ const grouped = GROUPS.map((g) => {
 		margin: 0;
 	}
 
+	.source-block {
+		margin-top: var(--space-l);
+		scroll-margin-top: var(--space-l);
+	}
+
+	.source-header {
+		display: flex;
+		align-items: baseline;
+		gap: var(--space-xs);
+		margin-bottom: var(--space-s);
+	}
+
+	.source-name {
+		font-family: var(--font-serif);
+		font-size: var(--font-size-lg);
+		font-weight: normal;
+		color: var(--color-gray-800);
+		margin: 0;
+	}
+
+	.source-count {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		color: var(--color-gray-500);
+		font-variant-numeric: tabular-nums;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+	}
+
+	.news-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: var(--space-xs);
+	}
+
+	@media (max-width: 1024px) {
+		.news-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media (max-width: 640px) {
+		.news-grid {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.source-overflow {
+		margin-top: var(--space-s);
+	}
+
+	.source-overflow summary {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		font-weight: bold;
+		color: var(--color-sea-blue);
+		padding: var(--space-2xs) var(--space-xs);
+		cursor: pointer;
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-3xs);
+		border-radius: var(--border-radius-base);
+		transition: all 0.3s ease-in-out;
+		list-style: none;
+		width: fit-content;
+	}
+
+	.source-overflow summary::-webkit-details-marker {
+		display: none;
+	}
+
+	.source-overflow summary:hover {
+		background: var(--color-light-cream);
+		color: var(--color-crimson);
+	}
+
+	.source-overflow svg {
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.source-overflow[open] summary svg {
+		transform: rotate(180deg);
+	}
+
+	.news-grid-overflow {
+		margin-top: var(--space-s);
+	}
+
 	.empty {
 		font-family: var(--font-sans);
 		font-size: var(--font-size-sm);
@@ -224,6 +483,10 @@ const grouped = GROUPS.map((g) => {
 	@media (max-width: 640px) {
 		.group-header {
 			grid-template-columns: auto 1fr;
+		}
+
+		.anchor-nav {
+			padding: var(--space-xs);
 		}
 	}
 </style>
