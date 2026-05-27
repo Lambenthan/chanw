@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/lxgwwenkai-light.css");
+@import url("/fonts/lato/lato.css");
+@import url("/fonts/lxgw/lxgwwenkai-light.css");
 
 /* All Basic Latin characters (digits + letters + ASCII punctuation) render as
    Times New Roman, matching the user's LaTeX ElegantBook output where TeX Gyre
