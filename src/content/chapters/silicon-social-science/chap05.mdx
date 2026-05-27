@@ -1,0 +1,131 @@
+---
+title: "人口学子群偏差：race × sex 的代表性差异"
+description: "Silicon 在 6 个 race × sex 子群上偏差不均匀；White Female partyid 偏民主党 1.24 档；LLM 训练分布的 implicit demographic priors 是机制；silicon 不能直接用于政策异质性研究。"
+book: "silicon-social-science"
+chapterNumber: 5
+chapterLabel: "第 5 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["AI 方法论", "LLM 问卷", "子群偏差"]
+---
+
+<ChapterAudience>
+
+把 silicon 与真实回答按 race × sex 分组，识别哪些子群偏差最严重、偏向哪个方向。White Female 子群上 silicon 平均偏民主党 1.24 档，这是本章给出的本书第三条关键发现。LLM 训练数据的"种族 × 性别 × 党派"先验是机制根源。
+
+</ChapterAudience>
+
+<IntroParagraph>第 4 章给出三题的总体准确率。本章把 100 persona 切到 race × sex 的 6 个子群上，逐组看 silicon 表现，识别偏差不是均匀分布这一现象。这是 silicon sampling 文献里被反复提及的 subgroup representativeness 问题，也是用 silicon sample 做 policy evaluation 时最危险的雷区。</IntroParagraph>
+
+## 5.1 Race × Sex 六个子群的 ordinal bias
+
+把 polviews 与 partyid 按整数 1--7 / 1--8 编码后，计算每个子群 silicon 减 real 的均值。正值表示 silicon 偏向更保守 / 更共和，负值表示偏向更自由 / 更民主。
+
+| race  | sex    | n  | pol bias | party bias |
+|:------|:-------|---:|---------:|-----------:|
+| Black | Female | 15 | $-0.07$  | $-0.67$    |
+| Black | Male   | 18 | $+0.39$  | $-0.06$    |
+| Other | Female | 14 | $+0.29$  | $+0.14$    |
+| Other | Male   | 16 | $+0.06$  | $-0.81$    |
+| White | Female | 17 | $-0.47$  | $-1.24$    |
+| White | Male   | 16 | $+0.63$  | $-0.75$    |
+
+<Subtext>表 5.1 · race × sex 子群上的 silicon 减 real ordinal bias。</Subtext>
+
+![race × sex 六子群的 ordinal bias 柱状图。蓝色为 polviews，红色为 partyid。正值表示 silicon 偏保守 / 共和，负值表示偏自由 / 民主。](/books/silicon-social-science/figure/chap05_group_bias.png)
+
+<Subtext>图 5.1 · 六子群的 ordinal bias 柱状图。</Subtext>
+
+---
+
+## 5.2 读懂偏差模式
+
+把表 5.1 与图 5.1 一起读，能识别四条模式。
+
+**模式一：White Female 严重偏左**。polviews 偏 $-0.47$、partyid 偏 $-1.24$，两个都是六组中最负向。silicon 把白人女性当成比真实更自由派、更民主党的群体。具体查看，17 个 White Female persona 里有 11 个真实是 Independent / Not Str Republican / Strong Republican，silicon 把其中 8 个判成 Strong Democrat 或 Not Str Democrat。
+
+**模式二：White Male polviews 偏右，partyid 偏左**。White Male 的 polviews 偏 $+0.63$（六组中最正），但 partyid 偏 $-0.75$（仍偏民主）。这一不一致是 silicon 学到"白男 = 保守立场但党派身份漂浮"的 LLM 模式。实际数据上 White Male 的 polviews 与 partyid 通常高度正相关，silicon 切断了这种相关。
+
+**模式三：Black Female 的 partyid 偏差最小（绝对值）**。Black Female 的 partyid 偏 $-0.67$，绝对值小于其他组。原因是真实 Black Female 本就 91% 倾向民主党，silicon 学到的 Black → Democrat 模式与真实差距小，偏差自然小。
+
+**模式四：Other Male 的 partyid 偏左 $-0.81$**。"Other" 在 GSS 主要指 Hispanic / Asian / 混血。silicon 默认把 Other 当成 Democrat-leaning，但 Other Male 真实样本里有若干西班牙裔老年 Republican，silicon 没识别出这种异质性。
+
+---
+
+## 5.3 子群偏差为什么是政策评估的红线
+
+把 silicon sample 用于"X 政策对各人口学群体的影响如何"这类研究时，子群偏差直接决定研究主张是否成立。如果 silicon 在 White Female 上把 1.24 档党派偏左，那基于 silicon 做的"白人女性对 X 政策的态度"研究主张就会系统性高估民主党立场，进而误判该群体的政治意图。
+
+这一问题在 Bisbee 等 2024 Political Analysis 与 Salganik 等 2024 Nature 都有讨论。两篇论文都强调：silicon sample 的群体级 TVD 看起来合理，但具体到任何 intersectional subgroup（如 White Female × 中老年 × Protestant）上，silicon 的偏差可能达到 1--2 个标准差，远超研究主张所要求的精度。
+
+<Pitfall title="用 silicon sample 做政策异质性研究">
+
+silicon sample 在群体级 TVD 0.30 看起来"接近真实"，但在 White Female × 50+ × Married 这种 intersectional subgroup 上的偏差可能达到 1.5 个 ordinal 档。
+
+**为什么人们会踩坑**：silicon sample 比真实调查便宜 100--1000 倍，做政策异质性研究时 silicon 用 100 persona 就能给出"各子群对 X 政策的态度"，看起来效率极高。
+
+**失效机制**：LLM 训练数据里"White Female"的态度分布与真实 GSS 不一致，LLM 的训练材料里高学历职业白人女性占比远高于 GSS 全国样本，导致 LLM 默认把白人女性当成更自由派、更民主党。
+
+**诊断方法 / 稳健替代**：在做任何 subgroup-level 研究主张前，必须先做本章这套 race × sex（或更细的 intersectional）偏差诊断。如果偏差大于 0.5 ordinal 档，silicon 不能用于该子群的政策评估，需要切换到真实小样本调查或 Bayesian re-weighting。
+
+</Pitfall>
+
+---
+
+## 5.4 偏差的方向是 LLM 训练分布的影像
+
+White Female 偏左 1.24 党档不是 silicon"故意"，而是 LLM 的训练分布让它默认把白人女性绑定到自由派民主党。LLM 的训练数据来自互联网文本——Reddit、Twitter、新闻评论等渠道里"白人女性"的语境往往伴随城市中产、高学历、自由派标签。LLM 在 silicon sampling 时不自觉地把这种语境先验作用到每个 White Female persona 上。
+
+这一现象与心理学的 implicit association 理论高度对应：LLM 的"种族 × 性别 × 立场"关联是其训练分布的 implicit average。把 silicon 看成"客观推断"是误读，更准确的表述是"LLM 的 implicit demographic priors 的反映"。
+
+### 5.4.1 把六组偏差用作 silicon 诊断卡
+
+把表 5.1 看作一张 silicon 诊断卡，未来在新数据上做 silicon sampling 之前可以先跑这张卡。
+
+**步骤一**：跑 silicon answers 加真实 answers 在 race × sex 子群上的 ordinal bias。
+
+**步骤二**：标记 bias 绝对值大于 0.5 的子群，作为 silicon 不可信子群列入研究 caveat。
+
+**步骤三**：在论文里报告 silicon 在哪些子群上 fit 好、哪些差，让读者自己判断是否信任研究主张。
+
+这是 silicon sampling 论文方法学诚信的最低要求，正在被 Political Analysis、Sociological Methods & Research 等期刊作为审稿核查项推。
+
+---
+
+## 5.5 诊断指标累积对比表
+
+| 章      | 诊断指标          | 尺度              | 回答的问题             |
+|:--------|:------------------|:------------------|:-----------------------|
+| 第 1 章 | ——（导论）         | ——                | 数据与设计的合理性     |
+| 第 2 章 | silicon 生成流程  | 流程图            | 如何复现 silicon sample |
+| 第 3 章 | TVD 边际距离      | $[0,1]$           | 群体级分布是否对齐     |
+| 第 4 章 | Exact ACC + MAE   | $[0,1]$ + ord     | 个体级匹配             |
+| 第 5 章 | Subgroup bias     | ord（有向）       | 哪些子群 silicon 信不过 |
+
+<Subtext>表 5.2 · 诊断指标累积表（截至第 5 章）。</Subtext>
+
+---
+
+## 5.6 本章知识地图
+
+| 核心概念                       | 核心内容                | 常见误解            | 为什么错                        |
+|:-------------------------------|:------------------------|:--------------------|:--------------------------------|
+| Subgroup representativeness    | 各子群偏差不同          | 以为均匀            | 不同子群差异巨大                |
+| Ordinal bias                    | 有向差 mean(sil - real) | 以为绝对值就够      | 方向才是偏差含义                |
+| Intersectional subgroup        | race × sex × ...        | 以为只看主效应      | 交互项更危险                    |
+| White Female 偏民主 $-1.24$     | 最大子群偏差            | 以为是抽样波动      | 是 LLM 训练先验                 |
+| LLM 训练分布                    | 互联网文本 prior        | 以为是客观推断      | 是社会样本的 implicit average    |
+| Silicon 诊断卡                  | 每子群偏差表            | 以为可省略          | 期刊审稿核查项                  |
+| Policy 异质性研究危险          | 子群偏差直接影响主张    | 以为群体级对齐就够  | 主张落到子群                    |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Replacements for Human Survey Data? The Perils of Large Language Models" author="Bisbee et al. (2024)" href="https://www.cambridge.org/core/journals/political-analysis/article/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models/B92267DC26195C7F36E63EA04A47D2FE"
+	/>
+	<ReferencesLink
+		title="Implicit Bias in Large Language Models" author="Tamkin et al. (2023)" href="https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions"
+	/>
+</References>

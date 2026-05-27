@@ -1,0 +1,154 @@
+---
+title: "广义合成控制 GSC —— 交互固定效应与 factor 数选择"
+description: "Xu 2017 提出的 GSC：把潜在 factor model 与 SC 合并。California 数据上 r=0/1/2 ATT 从 $-27.35$ 降到 $-0.40$，展示单 treated unit 下 CV 选 factor 数的失效。"
+book: "synthetic-control"
+chapterNumber: 5
+chapterLabel: "第 5 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["合成控制", "GSC", "interactive FE", "factor model", "R 语言"]
+---
+
+<ChapterAudience>
+
+理解 Xu 2017 提出的 GSC 模型设定（双向 FE + interactive FE），在 California 数据上跑 $r = 0, 1, 2$ 三组 factor 数看 ATT 从 $-27.35$ 跌到 $-0.40$ 的敏感性，能讲清楚为什么单 treated unit 数据下 GSC 的 CV 选 factor 数会失效以及实务上该如何报告 sensitivity。
+
+</ChapterAudience>
+
+<IntroParagraph>第 2–4 章给出经典 SC 的点估计和 placebo 推断。SC 的限制是它的反事实纯粹是 donor 加权 —— donor 中没有的潜在结构（latent factor）SC 拟合不了。Xu 2017 在 *Political Analysis* 提出的广义合成控制 GSC（Generalized Synthetic Control），用 interactive fixed effects 把潜在 factor 显式建模，比经典 SC 更灵活。</IntroParagraph>
+
+灵活性是有代价的 —— 本章在 California 数据上的实验显示，单 treated unit 下 GSC 的自适应 factor 数 CV 会把处理效应"吃光"。这是本章想传达的主要教学点。
+
+## 5.1 Interactive Fixed Effects 与潜在 factor
+
+<Definition number="5.1" title="GSC 模型设定">
+
+GSC 假设结局变量满足
+
+$$
+Y_{it}(0) = \alpha_i + \xi_t + \lambda_i' f_t + \epsilon_{it},
+$$
+
+其中 $\alpha_i$ 是单元固定效应，$\xi_t$ 是时间固定效应，$f_t \in \mathbb{R}^r$ 是 $r$ 个潜在 factor（时间序列），$\lambda_i \in \mathbb{R}^r$ 是单元 $i$ 的 factor loading（不可观察），$\epsilon_{it}$ 是独立误差。处理效应模型为 $Y_{it}(1) = Y_{it}(0) + \tau_{it} D_{it}$，其中 $D_{it} = 1$ 表示单元 $i$ 在 $t$ 期受处理。GSC 用 pre-period 的 donor 数据估计 $\{f_t, \lambda_j\}$，外推到 post-period 算反事实。
+
+</Definition>
+
+其中 $\alpha_i$ 与 $\xi_t$ 与朴素 DiD 共享（双向固定效应）；$\lambda_i' f_t$ 是"个体 × 时间"的潜在乘性结构，比如"加州在 1990s 的卫生意识抬升"可能由"州在维度 $\lambda$ 上的暴露"乘以"时间 $f$ 上的整体趋势"刻画。$r$ 是 factor 数，需要数据决定。
+
+GSC 与经典 SC 的关系：当 $r = 0$ 时 GSC 退化为双向固定效应回归（TWFE），数学上等价于第 1 章的朴素 DiD；当 $r$ 取经典 SC 隐含的 factor 数时 GSC 与经典 SC 接近；$r$ 过大则 factor 数过多，把处理效应误吸收为 factor 结构。Xu 2017 的论文核心贡献是给出 $r$ 的 cross-validation 选择方案。
+
+## 5.2 在 California 数据上跑 $r \in \{0, 1, 2\}$
+
+```r
+library(gsynth)
+smoking$treated <- with(smoking,
+  ifelse(state == "California" & year >= 1989, 1, 0))
+
+fit_gsc <- function(r) {
+  set.seed(2026)
+  gsynth(cigsale ~ treated, data = smoking,
+         index = c("state", "year"), force = "two-way",
+         CV = FALSE, r = r,
+         se = TRUE, inference = "nonparametric",
+         nboots = 500, parallel = FALSE, seed = 2026)
+}
+
+fit0 <- fit_gsc(0); fit1 <- fit_gsc(1); fit2 <- fit_gsc(2)
+```
+
+| $r$ | ATT     | SE    | 95% CI              | p 值     |
+|:---:|--------:|------:|:--------------------|---------:|
+| 0   | $-27.35$| 2.98  | $[-33.20, -21.50]$  | < 0.001  |
+| 1   | $-13.89$| 3.07  | $[-19.91,  -7.87]$  | < 0.001  |
+| 2   | $-0.40$ | 10.20 | $[-20.39, 19.58]$   | 0.97     |
+
+<Subtext>表 5.1 · GSC 在不同 factor 数下的 ATT 估计。$r = 0$ 与 DiD 等价；$r = 2$ 时效应被吸收为 factor。</Subtext>
+
+随 $r$ 增大，ATT 从 $-27.35$（与 DiD 等价）降到 $-13.89$ 再降到 $-0.40$（效应消失）。$r = 0$ 与第 1 章 DiD 数字一致是数学等价性。$r = 2$ 时效应被两个 factor 吸收，95% CI 完全包含 0。
+
+![GSC ATT 对 factor 数 $r$ 的敏感性。$r = 0$ 时给经典 DiD 估计 $-27.35$；$r = 2$ 时 ATT 跌到 $-0.40$，CI 跨过 0。](/books/synthetic-control/figure/chap05_gsc_sens.png)
+
+<Subtext>图 5.1 · GSC ATT 对 factor 数的敏感性曲线。</Subtext>
+
+## 5.3 为什么 $r$ 增大让效应消失
+
+GSC 的 factor model 用 pre-period 数据估计 $\{f_t, \lambda_j\}$，把任何能被 $\lambda_i' f_t$ 解释的"个体 × 时间"变化都归入潜在结构。当 $r = 2$ 时，模型自由度增加，足以把 California 1989–2000 的"突然下降"拟合为"California 在两个 factor 的 loading 比较特别 × factor 在 post-period 上升" —— 把处理效应吃成了 factor。
+
+经济学语言：GSC 的"反事实"实际上把 California 自己的 post-period 走势部分作为推断 factor 结构的训练数据。这在 California 是单一 treated unit 的情况下问题最大 —— GSC 没办法把 California 的 post-period 与对照池分离估计 factor。
+
+Xu 2017 论文里讨论了"多 treated unit"是 GSC 的设计场景，这一点在原文 Section 4 里明确指出。单 treated unit 数据用 GSC 必须固定 $r$，不能用 CV 自适应。
+
+## 5.4 选 $r$ 的实务建议
+
+在 California 数据上：
+
+第一，跑 $r = 0$ 作为基线，它等价于 DiD 估计 $-27.35$。
+
+第二，跑 $r = 1$，看 ATT 是否明显偏离 DiD。
+
+第三，跑 $r = 2$，看效应是否消失。
+
+第四，把三个数字一起报告作为 sensitivity，而不是相信任一单点估计。
+
+CV 自适应在多 treated unit + 长 pre-period（如 turnout 数据 48 州 × 90 年，第 8 章会用到）下表现良好。单 treated unit 数据上 CV 选出来的 $r$ 不可信。
+
+<Pitfall title="用 CV 自动选 GSC 的 r 在单 treated unit 数据上">
+
+gsynth 的 `CV = TRUE` 在 California 数据上选出 $r = 4$（CV 倾向高 factor 数以最大化 pre-period 拟合），对应 ATT $\approx -1.9$，处理效应几乎为零。
+
+**为什么人们会踩坑**：CV 在 ML 训练里是金标准，看似可以放心交给算法决定。
+
+**失效机制**：CV 优化的是 pre-period 拟合 MSPE，与 post-period 处理效应识别没有对齐。单 treated unit 下 CV 倾向于高 $r$，因为高 $r$ 的 factor model 能更好拟合 pre。
+
+**诊断方法 / 稳健替代**：固定 $r$ 报告 sensitivity（如 $r = 0, 1, 2$）。多 treated unit 数据上才用 CV 自动选 $r$。在 California 这种单 treated unit 数据上，把 GSC 作为对照而非主估计 —— SDID（第 6 章）和 MC-NNM（第 7 章）在单 treated unit 下更稳。
+
+</Pitfall>
+
+## 5.5 GSC $r = 0$ 的反事实轨迹
+
+![GSC $r = 0$ 反事实。pre-period 与实际几乎重合，post-period 反事实下降斜率温和，gap 集中在 $-25$ 左右。](/books/synthetic-control/figure/chap05_gsc_counterfactual.png)
+
+<Subtext>图 5.2 · GSC $r = 0$ 的反事实轨迹。</Subtext>
+
+把图 5.2 与第 2 章经典 SC 图 2.1 对照看，可以发现 $r = 0$ 时 GSC 的反事实接近全 38 州 average（因为 TWFE 等价于均值 DiD），post-period 反事实下降比经典 SC 慢，所以处理效应估计 $-27.35$ 比经典 SC 的 $-18.85$ 绝对值更大。这一对比清晰说明 GSC $r$ 越大模型越灵活，反事实越接近 California 自身 post-period 走势，处理效应估计越靠近 0。
+
+## 5.6 累积对比表（截至本章）
+
+| 章       | 方法               | ATT      | 95% CI              | 核心假设         |
+|:---------|:-------------------|---------:|:--------------------|:-----------------|
+| 第 1 章  | 朴素 DiD (TWFE)    | $-27.35$ | —                   | 平行趋势         |
+| 第 2 章  | Abadie SC (经典)   | $-18.85$ | —                   | 凸壳内可拟合     |
+| 第 4 章  | Permutation 推断   | —        | p = 0.38            | 可交换性         |
+| 第 5 章  | GSC $r = 0$        | $-27.35$ | $[-33.20, -21.50]$  | 仅 FE 结构       |
+| 第 5 章  | GSC $r = 1$        | $-13.89$ | $[-19.91,  -7.87]$  | 1-factor 结构    |
+| 第 5 章  | GSC $r = 2$        | $-0.40$  | $[-20.39, 19.58]$   | 2-factor 结构    |
+
+<Subtext>表 5.2 · 累积对比表 —— 第 5 章。GSC 三行展示了 factor 数对估计的决定性影响。</Subtext>
+
+GSC 的三行展示了 factor 数对估计的决定性影响。这一敏感性是单 treated unit 场景下 GSC 的内禀问题，不是参数选择的失误。
+
+---
+
+## 5.7 本章知识地图
+
+| 核心概念             | 核心内容                          | 常见误解              | 为什么错                          |
+|:---------------------|:----------------------------------|:----------------------|:----------------------------------|
+| Interactive FE       | $\lambda_i' f_t$ 乘性结构         | 以为是 random effects | IFE 是固定 + low-rank 乘积        |
+| factor 数 $r$        | 决定模型自由度                    | 以为 CV 总能选对      | 单 treated 下 CV 失效             |
+| $r = 0$ 等价于 DiD   | 退化为 TWFE                       | 以为 GSC 总优于 DiD   | $r = 0$ 时数学等价                |
+| $r = 2$ 效应消失     | factor 吸收处理效应               | 以为是估计变稳        | 是过拟合伪稳                      |
+| bootstrap SE         | `nboots = 500` 估计               | 以为渐近 normal       | 单处理单元 boot SE 偏小           |
+| 多 treated 下表现好  | Xu 2017 的目标场景                | 以为 single treated 也行 | 单 treated 是边界情形         |
+| CV 失效              | MSPE 优化与 ATT 识别不对齐        | 以为 CV 是金标准      | 优化目标错位                      |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Generalized Synthetic Control Method: Causal Inference with Interactive Fixed Effects Models" author="Yiqing Xu (2017), Political Analysis" href="https://www.cambridge.org/core/journals/political-analysis/article/generalized-synthetic-control-method/3D88A50EDF1391E03C97D5F19A9D70A2"
+	/>
+	<ReferencesLink
+		title="gsynth: Generalized Synthetic Control Method" author="Xu & Liu (2024), R package" href="https://yiqingxu.org/packages/gsynth/"
+	/>
+</References>

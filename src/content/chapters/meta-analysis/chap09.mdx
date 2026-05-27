@@ -1,0 +1,177 @@
+---
+title: "敏感性分析与影响诊断"
+description: "Leave-one-out 显示 BCG 主结论稳健（RR 跨度 0.45–0.53，所有 CI 不跨 1）；累积 meta 揭示 1980 年 TPT Madras 加入后 I² 从 48% 跳到 72%；Cook's D、DFFITS 等影响诊断都在阈值内，无单一研究主导结果。"
+book: "meta-analysis"
+chapterNumber: 9
+chapterLabel: "第 9 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["Meta 分析", "敏感性分析", "leave-one-out", "影响诊断"]
+---
+
+<ChapterAudience>
+
+学会用 leave-one-out 检验合并结论是否被某项研究主导；用累积 meta 分析观察证据如何随时间累积、何时趋于稳定；掌握影响诊断的核心指标：Cook's distance、DFFITS、studentized residuals；在 `dat.bcg` 上识别影响最大的研究并讨论稳健性；区分"影响大"与"应该剔除"，避免事后剔除研究。
+
+</ChapterAudience>
+
+<IntroParagraph>第 4 至第 8 章给出了 BCG 数据的合并估计、异质性诊断、协变量解释、发表偏倚检验。本章是审稿人的"最后一关"：如果删掉某一项研究，主结论是否还成立？证据累积到什么时候已经足以下结论？哪项研究在统计上最有影响力？这三个问题对应的工具是 leave-one-out 分析、累积 meta 分析、影响诊断。</IntroParagraph>
+
+## 9.1 Leave-one-out 分析
+
+Leave-one-out 是最直接的稳健性检验：每次去掉一项研究，用剩余 $k - 1$ 项重新合并，看合并 RR 与 CI 变化多少。如果某一项研究的去除让结论方向翻转或显著性消失，就说明合并结论被这项研究主导，证据脆弱。
+
+<Definition number="9.1" title="Leave-one-out 合并">
+
+对每项研究 $i \in \{1, \ldots, k\}$，去掉该项后用剩余 $k - 1$ 项跑随机效应模型，得到 $k$ 个合并估计 $\hat{\mu}_{(-i)}$ 与对应 95% CI。把这 $k$ 个估计排成 forest plot，能直观看出"哪项研究的去除让合并漂移最大"。
+
+</Definition>
+
+```r
+loo <- leave1out(re, transf = exp)
+print(loo)
+```
+
+完整 13 项合并 $\mathrm{RR} = 0.489$。13 个 LOO 合并 RR 跨度从 0.452 到 0.533，所有 95% CI 都不跨过 1，结论"BCG 有保护效应"在去掉任意一项后仍然成立。
+
+最有影响力的两项是去掉 8 号 TPT Madras 1980（$\mathrm{RR}$ 从 0.489 下降到 0.452，保护效应增强）与 4 号 Hart & Sutherland 1977（$\mathrm{RR}$ 从 0.489 上升到 0.533，保护效应削弱）。这两项分别是"反向极端"（赤道附近 RR $\approx 1$）与"正向极端"（高纬度 RR $\approx 0.24$），它们的去除导致合并估计向相反方向漂移。但漂移幅度都在 0.04–0.05 范围内，临床决策上相同。
+
+<FullWidthSection>
+
+![Leave-one-out 敏感性分析。每一行是去掉对应研究后的合并 RR 与 95% CI。红色虚线为完整 13 项合并 RR=0.49。所有 LOO 估计都在 CI 内徘徊，结论稳健。](/books/meta-analysis/figure/chap09_leave1out.png)
+
+<Subtext>图 9.1 · Leave-one-out forest plot。</Subtext>
+
+</FullWidthSection>
+
+---
+
+## 9.2 累积 meta 分析
+
+累积 meta 是另一种稳健性检验：按某种顺序（通常是发表年份）逐项加入研究，每加一项重新跑合并，看证据累积过程。这种分析能回答两个问题：什么时候证据已经足以下结论？后续研究是确认了早期发现还是颠覆了早期发现？
+
+<Definition number="9.2" title="累积 meta 分析">
+
+把研究按时间顺序排列，从最早的 1 项开始，逐项加入新研究，每次都跑一次随机效应合并。第 $i$ 步给出"截至时间 $t_i$ 已有证据"的合并估计。把累积估计画成 forest plot，能直观看到证据何时收敛、何时出现转折。
+
+</Definition>
+
+```r
+cum <- cumul(re_sorted, transf = exp)
+print(cum)
+```
+
+按发表年份累积合并：
+
+| 累积 $k$ | 最新加入研究        | 年份 | 合并 RR | 95% CI           | $\tau^2$ | $I^2$ |
+|:--------:|:--------------------|:----:|--------:|:-----------------|---------:|------:|
+|     1    | Aronson             | 1948 |    0.41 | (0.13, 1.26)     |    0     |   0%  |
+|     2    | Ferguson & Simes    | 1949 |    0.27 | (0.004, 19.20)   |    0     |   0%  |
+|     3    | Rosenthal 1960      | 1960 |    0.38 | (0.14, 1.01)     |   0.087  |  41%  |
+|     5    | Frimodt-Moller      | 1973 |    0.33 | (0.21, 0.52)     |   0.086  |  48%  |
+|     8    | TPT Madras          | 1980 |    0.45 | (0.28, 0.74)     |   0.178  |  72%  |
+|    13    | Comstock 1976       | 1980 |    0.49 | (0.33, 0.73)     |   0.313  |  92%  |
+
+<Subtext>表 9.1 · BCG 数据按年份累积的 meta 分析结果。</Subtext>
+
+累积到 1973 年（5 项研究，全部为高/中纬度），合并 $\mathrm{RR} = 0.33$，CI $[0.21,\ 0.52]$，看起来 BCG 是个相当强的疫苗。1980 年加入 TPT Madras 这项低纬度大样本无效研究后，合并 RR 立刻从 0.33 升到 0.45，$I^2$ 从 48% 跳到 72%，异质性指标显著恶化。如果一个 1973 年的政策制定者读到当时的累积 meta，会得到一个相当乐观的结论；但 1980 年的更新会立刻打破这个乐观。这是累积 meta 最有价值的地方 —— 它揭示了"我们以为的稳定结论何时被新证据颠覆"。
+
+<FullWidthSection>
+
+![累积 meta 分析。每一行是截至该研究为止的合并 RR 与 95% CI。证据累积过程显示 1973 年前点估计稳定在 RR≈0.33，1980 年 TPT Madras 加入后升到 0.45，最终稳定在 0.49。](/books/meta-analysis/figure/chap09_cumul.png)
+
+<Subtext>图 9.2 · 累积 meta 分析 forest plot。</Subtext>
+
+</FullWidthSection>
+
+---
+
+## 9.3 影响诊断
+
+回归分析里有一套成熟的影响诊断指标，能识别哪些观测对模型估计有不成比例的影响。Meta 分析借用了这套工具，每项研究类比线性回归里的一个观测。把这四个指标想象成一张回归桌：13 项研究是桌面上的 13 个砝码，合并均值是桌子的重心。
+
+<Definition number="9.3" title="Meta 分析的影响诊断指标">
+
+**Studentized residual** $r_i^*$：第 $i$ 项研究偏离合并均值的标准化距离。直觉上是问"这个砝码离桌子重心有多远"。$|r_i^*| > 2$ 表示该研究偏离整体趋势两个标准差以上，需要核查。
+
+**Cook's distance** $D_i$：把第 $i$ 项研究拿走再放回，整张桌子的重心位置变化的总量。直觉上是问"这个砝码一拿走，桌子整体晃动多大"。$D_i$ 大说明这项研究主导了重心。常用阈值 $D_i > 4 / k$。
+
+**DFFITS** $\mathrm{DFFITS}_i$：与 Cook's D 类似，但只看合并均值这一个数值的标准化变化量，不考虑其他估计。直觉上是问"这个砝码一拿走，桌子重心在主轴上挪动几个标准差"。常用阈值 $|\mathrm{DFFITS}_i| > 3 \sqrt{p / (k - p)}$，$p$ 是参数数。
+
+**Hat value** $h_i$：第 $i$ 项研究的"杠杆"。直觉上是问"这个砝码本身有多重、放在多远的位置"。砝码越重（权重越大）或者放得越远（离合并均值越远），杠杆越大。注意高 hat 不一定有偏倚，只说明该研究对模型有重要贡献。常用阈值 $h_i > 3 p / k$。
+
+</Definition>
+
+四个指标各有侧重：rstudent 看"研究偏离主流多远"，hat 看"研究本身有多大分量"，Cook's D 与 DFFITS 看"拿掉它整张桌子怎么晃"。一个研究 hat 大但 rstudent 小（在主流方向上的大研究），通常没问题；hat 小 rstudent 大（小研究但极偏离），影响有限；hat 大 rstudent 大（大研究又偏离），就是 Cook's D 与 DFFITS 同时报警的危险组合。
+
+metafor 的 `influence()` 函数一次性输出全部影响诊断指标，并标记被任意阈值识别的"influential"研究。
+
+```r
+inf <- influence(re)
+print(inf)
+```
+
+全部 13 项研究的关键指标如下：
+
+| 编号 | 作者                  | rstudent | DFFITS  | Cook's D  | hat   |
+|:----:|:----------------------|---------:|--------:|----------:|------:|
+|   1  | Aronson               |  $-0.21$ | $-0.04$ |   0.002   | 0.051 |
+|   2  | Ferguson & Simes      |  $-1.29$ | $-0.34$ |   0.112   | 0.064 |
+|   3  | Rosenthal 1960        |  $-0.74$ | $-0.16$ |   0.026   | 0.044 |
+|   4  | Hart & Sutherland     |  $-1.41$ | $-0.50$ | **0.227** | 0.097 |
+|   5  | Frimodt-Moller        |   $0.85$ |  $0.27$ |   0.075   | 0.089 |
+|   6  | Stein & Aronson       |  $-0.12$ | $-0.02$ |   0.000   | 0.101 |
+|   7  | Vandiviere            |  $-1.30$ | $-0.34$ |   0.108   | 0.060 |
+|   8  | TPT Madras            |   $1.43$ |  $0.47$ | **0.197** | 0.102 |
+|   9  | Coetzee & Berjak      |   $0.41$ |  $0.14$ |   0.022   | 0.087 |
+|  10  | Rosenthal 1961        |  $-1.11$ | $-0.34$ |   0.116   | 0.084 |
+|  11  | Comstock 1974         |   $0.67$ |  $0.23$ |   0.057   | 0.099 |
+|  12  | Comstock & Webster    |   $1.31$ |  $0.26$ |   0.063   | 0.038 |
+|  13  | Comstock 1976         |   $1.19$ |  $0.36$ |   0.121   | 0.084 |
+
+<Subtext>表 9.2 · BCG 13 项研究的影响诊断指标。</Subtext>
+
+Cook's distance 最大的两项是 4 号 Hart & Sutherland 1977（$D = 0.227$）与 8 号 TPT Madras 1980（$D = 0.197$）。这与 leave-one-out 结果一致，正是这两项研究在合并均值的两侧产生最大拉拽。但所有 $|r_i^*|$ 都在 $\pm 2$ 以内，所有 $D_i$ 都在 $4 / 13 = 0.31$ 以内，metafor 标记的"influential"研究为空。BCG 数据上没有单一研究被诊断为统计意义的极端值。
+
+<FullWidthSection>
+
+![metafor 的 plot.infl 输出。八个面板分别展示 rstudent、DFFITS、Cook's D、cov.r、tau²-deletion、QE-deletion、hat、weight。BCG 数据所有研究的指标都在常用阈值内。](/books/meta-analysis/figure/chap09_influence.png)
+
+<Subtext>图 9.3 · 影响诊断八面板。</Subtext>
+
+</FullWidthSection>
+
+<Pitfall title="事后剔除研究换取更好看的结论">
+
+影响诊断最危险的误用是**事后剔除研究换取更"好看"的结论**。看到 4 号 Hart & Sutherland 1977 是 Cook's D 最大的研究，把它剔除会让合并 RR 从 0.49 升到 0.53，$I^2$ 从 92% 降到 90%，看起来稳健性更好。这种做法在 Cochrane Handbook 里被明确禁止：影响诊断的目的是**识别需要核查的研究**，不是**决定要剔除的研究**。
+
+**诊断方法**：识别出影响大的研究后，正确流程是回到原文核查方法学 —— 随机化是否严格、失访是否高、结局是否预先注册。如果方法学没问题，研究就保留，无论它对合并结果的影响多大。
+
+**稳健做法**：剔除研究必须基于预先指定的方法学标准，不能基于"它让我的结论更显著"。
+
+</Pitfall>
+
+---
+
+## 9.4 本章小结
+
+leave-one-out 表明 BCG 主结论高度稳健（13 项研究任意去掉一项后合并 RR 仍在 $0.45$–$0.53$ 之间，所有 CI 都不跨过 1）；累积 meta 揭示了 1980 年 TPT Madras 加入后整体异质性显著上升的转折；影响诊断指标都在常用阈值内，没有单一研究主导结果。
+
+第 10 章把所有方法的合并估计放进终极对比表，并用 GRADE 框架把这一份证据翻译成临床证据等级，给出"BCG 这份证据值多少"的最终答案。
+
+完整运行版本见 [code/chap09.R](/books/meta-analysis/code/chap09.R)。
+
+---
+
+<References>
+	<ReferencesLink
+		title="Outlier and influence diagnostics for meta-analysis" author="Viechtbauer, W. & Cheung, M. W.-L. (2010), Research Synthesis Methods, 1(2):112–125" href="https://onlinelibrary.wiley.com/doi/10.1002/jrsm.11"
+	/>
+	<ReferencesLink
+		title="Cumulative meta-analysis of therapeutic trials for myocardial infarction" author="Lau, J., Antman, E. M., Jimenez-Silva, J. et al. (1992), NEJM, 327:248–254" href="https://www.nejm.org/doi/full/10.1056/NEJM199207233270406"
+	/>
+	<ReferencesLink
+		title="Conducting Meta-Analyses in R with the metafor Package" author="Viechtbauer, W. (2010), Journal of Statistical Software, 36(3):1–48" href="https://www.jstatsoft.org/article/view/v036i03"
+	/>
+</References>

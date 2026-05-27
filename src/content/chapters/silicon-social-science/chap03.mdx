@@ -1,0 +1,145 @@
+---
+title: "边际分布对比：silicon vs 真实 vs GSS 全样本"
+description: "TVD 量化三方分布距离；silicon polviews 71% 落在 Moderate 远超真实 41.7%；algorithmic fidelity 粗精两层涵义；为什么主类对齐不等于分布对齐。"
+book: "silicon-social-science"
+chapterNumber: 3
+chapterLabel: "第 3 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["AI 方法论", "LLM 问卷", "TVD"]
+---
+
+<ChapterAudience>
+
+把 silicon 边际分布、100 真实 persona 边际、GSS 全样本边际三个分布画在同一张图，用 Total Variation Distance 量化两两间的差距，得到本书最重要的一条经验发现:silicon polviews 71% 落在 Moderate, 真实 41.7%, 差距是 stratified 抽样误差的六倍以上。
+
+</ChapterAudience>
+
+<IntroParagraph>第 2 章给出 silicon answers 的边际计数。本章把这一边际分布与两个真实分布对照：100 个真实 persona 的边际（小样本基线）和 GSS 全 2867 行样本的边际（人口基线）。这一三方对比给出 silicon sample 的群体级保真度第一手测度。</IntroParagraph>
+
+## 3.1 三方分布的直观对比
+
+![happy 题三方边际分布。silicon 与真实在 Pretty Happy 上接近，但 silicon 大幅低估 Very Happy（13% vs 28%），略低估 Not Too Happy。](/books/silicon-social-science/figure/chap03_marginal_happy.png)
+
+<Subtext>图 3.1 · happy 题三方边际分布。silicon 与真实在 Pretty Happy 上接近，但 silicon 大幅低估 Very Happy。</Subtext>
+
+![polviews 题三方边际分布。silicon 在 Moderate 上 71%，真实 100 persona 上 41.7%，GSS 全样本上 37.4%。silicon 在 Extremely Liberal / Conservative 两个极端档完全不出现。](/books/silicon-social-science/figure/chap03_marginal_polviews.png)
+
+<Subtext>图 3.2 · polviews 题三方边际分布。silicon 在 Moderate 上 71%，远超真实 41.7%。</Subtext>
+
+![partyid 题三方边际分布。silicon 给的 5 档分布覆盖了真实 8 档中的 5 档；3 档独立倾向类完全无 silicon 答案。](/books/silicon-social-science/figure/chap03_marginal_partyid.png)
+
+<Subtext>图 3.3 · partyid 题三方边际分布。silicon 给的 5 档覆盖了真实 8 档中的 5 档。</Subtext>
+
+---
+
+## 3.2 Total Variation Distance：边际分布距离
+
+直觉上"两个边际分布差多远"，形式化测度是 Total Variation Distance。
+
+<Definition number="3.1" title="Total Variation Distance, TVD">
+
+对两个离散分布 $P, Q$ 在同一个 $K$ 档支撑集上，TVD 定义为
+
+$$
+\mathrm{TVD}(P, Q) = \frac{1}{2} \sum_{k=1}^{K} \left| P_k - Q_k \right|.
+$$
+
+取值范围 $[0, 1]$。$0$ 表示两分布完全重合，$1$ 表示完全无交集。
+
+</Definition>
+
+其中 $P_k, Q_k$ 是两个分布在第 $k$ 档的概率。TVD 是 $L_1$ 距离的一半，也是"两个分布之间需要移动多少质量才能让它们重合"的最小值。
+
+### 3.2.1 在 GSS 三题上的 TVD
+
+```r
+tvd <- function(p, q) sum(abs(p - q)) / 2
+
+p_real <- prop.table(table(personas$happy))
+p_sil  <- prop.table(table(silicon$happy_silicon))
+p_gss  <- prop.table(table(gss_full$happy))
+round(c(tvd_sil_real = tvd(p_sil, p_real),
+        tvd_sil_gss  = tvd(p_sil, p_gss),
+        tvd_real_gss = tvd(p_real, p_gss)), 3)
+```
+
+三题的 TVD 估计：
+
+| 题       | TVD(silicon, real) | TVD(silicon, GSS) | TVD(real, GSS) |
+|:---------|-------------------:|------------------:|---------------:|
+| happy    | 0.15               | 0.15              | 0.03           |
+| polviews | 0.30               | 0.34              | 0.05           |
+| partyid  | 0.27               | 0.30              | 0.05           |
+
+<Subtext>表 3.1 · GSS 三题三方 TVD。</Subtext>
+
+100 真实 persona 与 GSS 全样本的 TVD 在 0.03--0.05，说明 stratified 抽样保住了基线分布。silicon 与真实或 GSS 的 TVD 在 0.15--0.34，是抽样误差的 3--7 倍，明显是系统性偏差。
+
+---
+
+## 3.3 为什么 polviews 的 TVD 最大
+
+polviews 的 silicon vs real TVD 达 0.30，比 happy 的 0.15 高一倍，比 partyid 的 0.27 略大。原因可以从图 3.2 直接读出：silicon 把 71% 的回答压在 Moderate 档，把另外两端档完全留空。这种"压向中央"的模式有一个专门名词，叫**中心收缩**（central tendency bias），是 LLM 在面对 ordinal scale 时的已知系统性偏差，第 6 章会展开讨论。
+
+happy 的 TVD 较小是因为 happy 只有 3 档，分布本来就集中在 Pretty Happy 一档（真实 56%、silicon 81%），压向中央的空间小，TVD 自然小。partyid 的 TVD 较 polviews 略小是因为 partyid 在 silicon 上虽然遗漏了 3 档（Ind near Dem / Ind near Rep / Other Party），但 silicon 把这些 persona 重新分到了 5 档主类中相邻档，质量没"压向中央"而是"压向边角"，TVD 反而没 polviews 那么夸张。
+
+---
+
+## 3.4 Algorithmic Fidelity 的两层涵义
+
+Argyle 2023 提出 algorithmic fidelity 这个概念时，给了两层操作化定义。
+
+第一层是**粗保真度**：silicon 与真实的群体级答案分布粗略相似（TVD 在某阈值以下）。第二层是**精保真度**：silicon 在所有子群（age × race × sex × region 等）上都与真实相似。
+
+本章测的是第一层，TVD 0.15--0.30 的差距说明 silicon 的粗保真度勉强成立——silicon 分布的众数与真实重合，但极端尾部完全缺失。第二层将在第 5 章用 subgroup TVD 测量。
+
+<Pitfall title="把「主类对齐」误读为「分布对齐」">
+
+silicon 与真实在主类（happy 的 Pretty Happy、polviews 的 Moderate、partyid 的 Strong Democrat）上回答相对一致，可能让人误以为 silicon 与真实分布对齐了。
+
+**为什么人们会踩坑**：主类一致是最直观的视觉信号，柱状图的最高那一根贴合就让人放心。
+
+**失效机制**：分布的尾部（极端档、低占比档）才是社会科学问题最关心的地方。"Extremely Liberal 占比"这种数字是政治极化研究的核心指标，silicon 把这部分全部归零等于把研究问题本身抹掉。
+
+**诊断方法 / 稳健替代**：除了 TVD，再报告极端档占比、尾部相对误差、Kullback-Leibler 散度等多个指标。看分布是看整体轮廓，不只是看最高一根柱子。
+
+</Pitfall>
+
+---
+
+## 3.5 诊断指标累积对比表
+
+| 章      | 诊断指标         | 尺度    | 回答的问题            |
+|:--------|:-----------------|:--------|:----------------------|
+| 第 1 章 | ——（导论）        | ——      | 数据与设计的合理性    |
+| 第 2 章 | silicon 生成流程 | 流程图  | 如何复现 silicon sample |
+| 第 3 章 | TVD 边际距离     | $[0,1]$ | 群体级分布是否对齐    |
+
+<Subtext>表 3.2 · 诊断指标累积表（截至第 3 章）。</Subtext>
+
+---
+
+## 3.6 本章知识地图
+
+| 核心概念                  | 核心内容                          | 常见误解                | 为什么错              |
+|:--------------------------|:----------------------------------|:------------------------|:----------------------|
+| Total Variation Distance | $\frac{1}{2}\sum|P_k-Q_k|$        | 以为是欧氏距离          | TVD 是 L1 的一半      |
+| Algorithmic fidelity 粗  | 群体分布近似                      | 以为足以做研究          | 仅众数对齐不够        |
+| Algorithmic fidelity 精  | 所有子群分布近似                  | 以为粗对齐已够          | 子群偏差是政策关切    |
+| Moderate 71% vs 41.7%    | silicon 压向中央                  | 以为是抽样波动          | 是系统性偏差          |
+| 极端档为 0               | silicon 不选 Extremely             | 以为题目限制            | LLM 训练分布造成      |
+| TVD 0.15-0.30            | silicon 距真实远                  | 以为是合理范围          | 是抽样误差 3-7 倍     |
+| 尾部缺失                  | 政治极化指标失真                  | 以为粗对齐够            | 研究主张转移          |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Out of One, Many: Using Language Models to Simulate Human Samples" author="Argyle et al. (2023)" href="https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49"
+	/>
+	<ReferencesLink
+		title="Total Variation Distance — Probability Distance Metrics" author="Levin, Peres & Wilmer (2009)" href="https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf"
+	/>
+</References>

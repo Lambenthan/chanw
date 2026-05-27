@@ -1,0 +1,133 @@
+---
+title: "Placebo 检验 —— In-space 与 In-time 反置"
+description: "Abadie 两类 placebo：空间反置（把 donor 当 fake 处理州）与时间反置（把 treatment 年提前到 1980）。给出 in-time placebo 假 ATT $-4.75$ 作为内部有效性证据。"
+book: "synthetic-control"
+chapterNumber: 3
+chapterLabel: "第 3 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["合成控制", "placebo 检验", "稳健性", "R 语言"]
+---
+
+<ChapterAudience>
+
+掌握 Abadie 提出的两类 placebo 检验思路（in-space 与 in-time），在 California 数据上跑两类 placebo 看反事实信号能否被"虚假处理"复现，理解 in-time placebo 假 ATT $-4.75$ 与真 ATT $-18.85$ 的对比意义，能讲清楚 placebo 是诊断而非推断、不能直接换算成 p 值。
+
+</ChapterAudience>
+
+<IntroParagraph>第 2 章给出经典 SC 的点估计 $-18.85$，但没有标准误或 $p$ 值。SC 这个估计能不能被信任，取决于两件事：第一，pre-period 的拟合是不是真的好（RMSPE 7.41 已经回答），第二，处理后的偏离信号能不能被随机信号复现 —— 这就是 placebo 检验要回答的问题。</IntroParagraph>
+
+## 3.1 两类 placebo 的设计
+
+Abadie 在 2010 论文里提出两种 placebo 检验。第一种是空间反置（in-space placebo）：把每个 donor 州轮流当作"假处理州"跑一次 SC，看它给出的处理效应 gap 在多大程度上与真处理州（加州）相当；如果加州的处理效应明显大于绝大多数 donor 的 placebo gap，可以理解为加州的信号不是巧合。
+
+第二种是时间反置（in-time placebo）：把 Prop 99 的时间从 1989 提前到 1980（或其他 pre-period 年份），看 SC 能不能在那个并未发生政策变化的虚假时间点上检出"处理效应"；如果检出了，说明 SC 的拟合本身就把噪声当信号了。
+
+两类 placebo 各自针对的可能性不同。空间 placebo 检验"加州的信号在空间上有没有特殊性"；时间 placebo 检验"SC 在 1989 年的 gap 是不是被 pre-period 拟合误差顺延出来的伪信号"。两类一起做才覆盖了诊断的两个维度。
+
+## 3.2 In-space placebo：把每个 donor 当假处理州
+
+tidysynth 的 `generate_placebos = TRUE` 自动跑 38 个 donor 各自的 SC，把估计 gap 与加州画在一起。
+
+![In-space placebo gaps：38 条灰色细线是把每个 donor 州轮流当假处理州后的 gap 轨迹，红色粗线是真处理州 California。pre-period 各州 gap 在 0 附近振荡，post-period California 的负向偏离明显超过多数 placebo 州，但不是最极端。](/books/synthetic-control/figure/chap03_placebo_inspace.png)
+
+<Subtext>图 3.1 · In-space placebo：38 条 donor placebo gap 与加州 gap 的对比。</Subtext>
+
+加州的 post-period gap 落在 placebo 分布的下侧，但并不是最极端的那一条 —— 若干 donor 州（包括 Minnesota、Ohio、Vermont 等）的 placebo gap 在 post-period 也出现很大的偏离。这部分 placebo state 的 gap 离谱并不是因为它们真的受到了"假处理"的影响，而是因为它们 pre-period 的 SC 拟合本身就很差（pre-MSPE 极大），post-period 的 gap 主要是拟合误差顺延的噪声。这种情况下直接把所有 38 条 placebo gap 与 California 并列比较是不公平的 —— 需要按 pre-period 拟合质量做过滤。这正是第 4 章 permutation inference 的核心议题。
+
+## 3.3 In-time placebo：把 treatment 年提前到 1980
+
+第二个 placebo 是把 Prop 99 的时间假装提前 9 年，从 1989 改到 1980，然后只用 1970–1988 的数据跑 SC（相当于把整个分析窗口收缩到 pre-period 之内）。如果加州在 1980 也能检出显著的"处理效应"，那 SC 的拟合就有问题。
+
+```r
+sc_intime <- smoking |>
+  filter(year <= 1988) |>
+  synthetic_control(outcome = cigsale, unit = state, time = year,
+                    i_unit = "California", i_time = 1980,
+                    generate_placebos = FALSE) |>
+  generate_predictor(time_window = 1970:1979,
+                     ln_income = mean(lnincome, na.rm = TRUE),
+                     ret_price = mean(retprice, na.rm = TRUE),
+                     youth     = mean(age15to24, na.rm = TRUE)) |>
+  generate_predictor(time_window = 1975, cig_75 = cigsale) |>
+  generate_predictor(time_window = 1978, cig_78 = cigsale) |>
+  generate_weights(optimization_window = 1970:1979) |>
+  generate_control()
+
+gaps_intime <- sc_intime |> grab_synthetic_control() |>
+  mutate(gap = real_y - synth_y)
+fake_att <- gaps_intime |> filter(time_unit >= 1980) |>
+  summarise(att = mean(gap)) |> pull(att)
+round(fake_att, 2)
+# [1] -4.75
+```
+
+in-time placebo 的假 ATT $= -4.75$ 包/人/年，绝对值不到真 ATT $-18.85$ 的 26%。这意味着如果 SC 的拟合机制在 pre-period 内部"无中生有"地造出处理效应，幅度最多在 $-5$ 包左右；真处理效应 $-18.85$ 远超这一基线噪声水平。
+
+![In-time placebo（假 treatment = 1980）。pre-period 1970–1979 合成加州与实际加州贴合，post-period 1980–1988 两条线开始分离，但分离幅度远小于真 treatment 1989 之后的分离。](/books/synthetic-control/figure/chap03_intime_placebo.png)
+
+<Subtext>图 3.2 · In-time placebo：把 treatment 假定为 1980。</Subtext>
+
+## 3.4 placebo 检验不是 p 值
+
+placebo 检验本身不是统计学意义上的 p 值。它给出的是诊断：处理效应信号有没有特殊性。把 placebo 的极端分位作为 p 值的近似，需要把 placebo 集合按"拟合公平性"过滤，这是 Abadie 在 2010 论文 Section 5 里特别强调的 —— 只比较 pre-period RMSPE 与 California 在同一个数量级的 placebo 州。
+
+具体过滤标准、过滤后 California 排名是多少、对应的 exact p 值，都是第 4 章的内容。本章只把"在不过滤的情况下，38 条 placebo 的视觉对比是什么样"展示出来，明确指出不能直接由图 3.1 读出 California 的 p 值。
+
+<Pitfall title="把 placebo 检验当 p 值用">
+
+看见图 3.1 后直觉上想数"California 排在 38 条 placebo 里第几位"然后说"p = 排名 / 39"。这一做法在 California 数据上得出 p $\approx$ 0.46，与 Abadie 2010 论文报的 p $= 1/39 \approx 0.026$ 相差极远。
+
+**为什么人们会踩坑**：placebo 检验的 visual intuition 很强，看图就想数排名。
+
+**失效机制**：未过滤的 placebo 集合里有若干州 pre-period RMSPE 极大或极小（fit 退化），它们的 post-period gap 主要是噪声而非"假处理效应"。这些噪声 gap 拉低了 California 的相对排名。
+
+**诊断方法 / 稳健替代**：用 pre-MSPE filter（删除 pre-MSPE 超过 California $k$ 倍的 placebo），$k$ 通常取 2、5 或 20。在 California 数据上，过滤后 California 排名才能落到更靠前的位置。详见第 4 章。
+
+</Pitfall>
+
+## 3.5 为什么两类 placebo 都要做
+
+In-space placebo 检验"处理效应的空间稀缺性" —— 加州的 gap 是不是比其他州的 placebo gap 明显大。In-time placebo 检验"处理效应的时间真实性" —— SC 的反事实在 pre-period 内部能不能造出虚假信号。两类各自针对的失效模式不同。
+
+In-space placebo 失败的可能情形：加州的 post-period gap 与 placebo 分布无明显差异，意味着加州的信号可能只是 SC 拟合误差的随机分位，没有特殊性。
+
+In-time placebo 失败的可能情形：把 treatment 年改到 1980 仍能检出显著负向 gap，意味着 SC 反事实本身有系统偏差，1989 年的负向 gap 也许是这一偏差的顺延。
+
+在 California 数据上两类 placebo 给出的结论方向一致：处理效应信号在空间上落在分布的下尾，在时间上经过 in-time placebo 检验幅度衰减到 1/4。两类一起做，"加州 Prop 99 减少香烟销量"这一结论的内部有效性才比较有把握。
+
+## 3.6 累积对比表（截至本章）
+
+| 章       | 方法               | ATT      | 95% CI            | 核心假设         |
+|:---------|:-------------------|---------:|:------------------|:-----------------|
+| 第 1 章  | 朴素 DiD (TWFE)    | $-27.35$ | —                 | 平行趋势         |
+| 第 2 章  | Abadie SC (经典)   | $-18.85$ | —                 | 凸壳内可拟合     |
+| 第 3 章  | In-time placebo    | $-4.75$  | —（诊断量）       | SC 拟合内部无偏  |
+| 第 3 章  | In-space placebo   | —        | 见图 3.1          | 可交换性         |
+
+<Subtext>表 3.1 · 累积对比表 —— 第 3 章。in-time placebo 的 $-4.75$ 不应解读为处理效应估计，它是无处理基线下的 SC 拟合噪声大小，用来标定真效应 $-18.85$ 的可信度边界。</Subtext>
+
+---
+
+## 3.7 本章知识地图
+
+| 核心概念             | 核心内容                       | 常见误解              | 为什么错                          |
+|:---------------------|:-------------------------------|:----------------------|:----------------------------------|
+| In-space placebo     | 把 donor 当假处理州            | 以为可直接给 p 值     | 需 pre-MSPE 过滤后才能用          |
+| In-time placebo      | 把 treatment 年提前            | 以为只是稳健性检查    | 实际是诊断 SC 拟合内部偏差        |
+| pre-MSPE 过滤        | 删 RMSPE 极差的 placebo        | 以为可不过滤          | 不过滤导致 p 值漂浮               |
+| 假 ATT $-4.75$       | in-time placebo 的拟合噪声     | 以为是真效应          | 1970–79 没有 Prop 99              |
+| noise vs signal      | gap 振幅 vs gap 持续           | 以为单点足够判断      | 需看时间持续性                    |
+| 内部 vs 外部有效     | placebo 只回答前者             | 以为可外推            | 仅诊断加州估计的内部一致性        |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Control Methods for Comparative Case Studies" author="Abadie, Diamond & Hainmueller (2010), JASA" href="https://economics.mit.edu/sites/default/files/publications/Synthetic%20Control%20Methods.pdf"
+	/>
+	<ReferencesLink
+		title="Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects" author="Alberto Abadie (2021), Journal of Economic Literature" href="https://www.aeaweb.org/articles?id=10.1257/jel.20191450"
+	/>
+</References>

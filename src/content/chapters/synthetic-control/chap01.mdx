@@ -1,0 +1,184 @@
+---
+title: "问题与数据 —— California Prop 99 烟草控制项目"
+description: "贯穿全书的 California Prop 99 数据集结构、研究争议点、朴素 DiD 估计 −27.35 包/人/年，以及为什么朴素 DiD 不够回答因果问题。"
+book: "synthetic-control"
+chapterNumber: 1
+chapterLabel: "第 1 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["合成控制", "California Prop 99", "DiD", "R 语言"]
+---
+
+<ChapterAudience>
+
+理解 California Prop 99 烟草控制项目的政策背景与因果推断意义，掌握贯穿全书的面板数据结构与变量含义，识别朴素 DiD 估计 −27.35 包/人/年中的混淆来源，并能讲清楚为什么这一数字不能直接作为 Prop 99 的因果效应。
+
+</ChapterAudience>
+
+<IntroParagraph>1988 年 11 月，加州选民通过了 Proposition 99，把每包香烟的州税从 $0.10 提高到 $0.35，税收用于反烟广告、戒烟项目和健康教育。这是美国当时税率上调最大的一次烟草控制政策，从 1989 年 1 月 1 日起执行。</IntroParagraph>
+
+1989 年之后加州的人均香烟销量从 1988 年的 90.1 包/人下降到 2000 年的 41.6 包/人，几乎腰斩。但同期美国其余 38 个州的人均销量也从 113.8 包/人下降到 85.3 包/人。加州的下降究竟有多少该归因于 Prop 99，多少只是全国性烟草消费下滑的一部分？这就是 Abadie, Diamond & Hainmueller 2010 年那篇 JASA 论文的核心问题，也是合成控制方法被提出的应用场景。
+
+本书围绕这一份数据展开，每章用一种合成控制类方法回答这同一个问题。读到第 10 章读者能看到十种方法在同一份数据上的估计结果，亲眼对比方法之间的收敛与分歧。
+
+## 1.1 数据集解剖
+
+`data/smoking.csv` 来自 tidysynth 包内置的 `smoking` 数据，与 Abadie 等 2010 论文复制包同源。面板结构如下表。
+
+| 字段       | 含义                              | 覆盖       |
+|:-----------|:----------------------------------|:-----------|
+| state      | 州名（含 California，共 39 个）   | 39 unique  |
+| year       | 年份                              | 1970–2000  |
+| cigsale    | 人均香烟销量（包/人/年）          | 全样本     |
+| lnincome   | 人均收入对数                      | 1972–1997  |
+| beer       | 人均啤酒消费（加仑/人）           | 1984–1997  |
+| age15to24  | 15–24 岁人口比例                  | 1970–1990  |
+| retprice   | 卷烟零售价（含税）                | 全样本     |
+
+<Subtext>表 1.1 · California Prop 99 数据集字段与覆盖区间。</Subtext>
+
+面板共 1209 行（$39 \times 31$）。处理单元是 California，处理年份是 1989。对照池是其余 38 个州。pre-period 跨度 1970–1988（19 年），post-period 跨度 1989–2000（12 年）。
+
+## 1.2 研究问题的争议点：一张图
+
+把加州与其余 38 州的平均人均香烟销量画在一起，争议点就出来了。
+
+![加州与其余 38 州的平均人均香烟销量，1970–2000。垂直虚线标记 Prop 99 实施年 1989。](/books/synthetic-control/figure/chap01_timeseries.png)
+
+<Subtext>图 1.1 · 加州（红线）与其余 38 州平均（灰线）的人均香烟销量时间序列。</Subtext>
+
+两条曲线在 1970–1988 之间都呈现下降趋势，加州始终低于全国平均（这是 Abadie 2010 论文反复强调的"加州本就是低吸烟州"的事实）。1989 年之后加州曲线的斜率明显变陡，与其余 38 州的曲线进一步拉开距离。但简单看曲线还不能直接读出"Prop 99 的因果效应是多少"，原因有两层。
+
+第一，加州 1988 年的人均销量 90.1 包，已经比全国平均的 113.8 包低了约 24 包。两条曲线本来就有水平差，post-period 加州的低值有多少是 Prop 99 造成的、多少只是这条基线差的延伸？
+
+第二，对照组的 38 个州在 post-period 也下降了。下降斜率包含了全国性公共卫生宣传、香烟价格上调、健康观念转变等共同因素。把这些"共同时间冲击"扣掉之后，加州相对于全国的"超额下降"才是 Prop 99 真正的处理效应。
+
+## 1.3 朴素 DiD 估计
+
+把上面这两点直觉翻译成估计量，得到的就是双重差分 DiD。先看加州自身的 pre–post 差：
+
+$$
+\bar{Y}_{\text{CA, pre}}  = \frac{1}{19} \sum_{t=1970}^{1988} Y_{\text{CA}, t} = 116.21,
+$$
+
+$$
+\bar{Y}_{\text{CA, post}} = \frac{1}{12} \sum_{t=1989}^{2000} Y_{\text{CA}, t} = 60.35,
+$$
+
+$$
+\Delta_{\text{CA}} = \bar{Y}_{\text{CA, post}} - \bar{Y}_{\text{CA, pre}} = -55.86.
+$$
+
+其中 $Y_{i,t}$ 是州 $i$ 在年 $t$ 的人均销量。加州自身少卖了 55.86 包/人/年，但这一数字里有相当大比例来自全国性下降。对照池 38 个州的同期 pre–post 差是 $\Delta_{\text{non-CA}} = -28.51$ 包/人/年。把全国共同下降扣掉，得到朴素 DiD 估计：
+
+$$
+\widehat{\text{ATT}}^{\text{DiD}}
+   = \Delta_{\text{CA}} - \Delta_{\text{non-CA}}
+   = -55.86 - (-28.51)
+   = -27.35.
+$$
+
+ATT 全称 average treatment effect on the treated，即处理组的平均处理效应。DiD 假设处理组与对照组在没有 Prop 99 的反事实下会保持平行趋势。
+
+```r
+library(tidyverse)
+smoking <- read.csv("data/smoking.csv")
+
+ca_pre  <- smoking |> filter(state == "California", year <= 1988) |>
+  summarise(m = mean(cigsale)) |> pull(m)
+ca_post <- smoking |> filter(state == "California", year >= 1989) |>
+  summarise(m = mean(cigsale)) |> pull(m)
+non_ca_pre  <- smoking |> filter(state != "California", year <= 1988) |>
+  summarise(m = mean(cigsale)) |> pull(m)
+non_ca_post <- smoking |> filter(state != "California", year >= 1989) |>
+  summarise(m = mean(cigsale)) |> pull(m)
+
+did_att <- (ca_post - ca_pre) - (non_ca_post - non_ca_pre)
+round(did_att, 2)
+# [1] -27.35
+```
+
+加州在 Prop 99 之后的人均香烟销量比"假如没有 Prop 99 时会有的销量"低了 27.35 包/人/年。55.86 是加州自身 pre–post 实际差，28.51 是对照池同期 pre–post 差，DiD 把后者扣掉，得到相对超额下降 27.35 包。
+
+## 1.4 朴素 DiD 为什么不够
+
+DiD −27.35 的估计依赖一个关键假设：加州与对照池 38 个州在没有 Prop 99 的反事实下会保持平行趋势。这一假设在本数据上有两个直接的检验失败迹象。
+
+### 1.4.1 失败迹象一：1988 年加州在分布中已经处于左尾
+
+![1988 年（Prop 99 前一年）全 39 州人均香烟销量分布。红色竖线为加州值 90.1 包，在分布中处于左尾。](/books/synthetic-control/figure/chap01_did_box.png)
+
+<Subtext>图 1.2 · 1988 年 39 州人均销量分布，加州处于左侧第 5 个分位。</Subtext>
+
+加州 1988 年的人均销量 90.1 包在 39 州中处于左侧第 5 个分位。这意味着加州本身就是低吸烟州，与全国平均不在同一水平。把它与全国平均简单作差，相当于把"加州本来就低"与"加州因为政策才低"混在一起。DiD 想扣掉的是全国共同时间冲击，但加州和其余 38 州在 pre-period 的水平差就已经存在，DiD 假设这种水平差不影响 post-period 的下降斜率。
+
+### 1.4.2 失败迹象二：对照池内部异质性极大
+
+![加州与 5 个常被作为低消费 donor 候选的州，1970–1988 人均销量。可见每个州都有自己的趋势节奏。](/books/synthetic-control/figure/chap01_pre_correlation.png)
+
+<Subtext>图 1.3 · 加州与 5 个低消费 donor 候选州的 pre-period 走势。</Subtext>
+
+1988 年其余 38 州的人均销量 sd = 24.58 包，范围 55 到 180。对照池不是同质群体：Kentucky、Virginia、北卡这些烟草种植州的人均销量长期在 150 以上；Utah 因为摩门教影响长期在 65 以下；中西部各州各有自己的趋势节奏。把这 38 个州不加权地平均做对照，等于假设"任意一个州的 1989 后下降斜率都能近似加州本来该有的斜率"，这显然太苛刻。
+
+合成控制要解决的正是这两个问题：第一，挑选与加州在 pre-period 走势尽可能相似的少数州；第二，给这几个州加权重组，让加权后的对照在 pre-period 与加州几乎重合，然后用 post-period 的加权对照值作为加州在没有 Prop 99 时的反事实。后面九章都是围绕"如何选 donor + 如何选权重 + 如何做推断"展开的不同回答。
+
+## 1.5 术语统一与变量记号
+
+后续章节会反复用到的术语和记号在这里一次定下。
+
+<Definition number="1.1" title="合成控制的基本记号">
+
+设面板有 $i = 1, 2, \ldots, N$ 个单元（本数据 $N = 39$ 州），$t = 1, 2, \ldots, T$ 个时期（本数据 $T = 31$ 年）。第一个单元 $i = 1$ 是处理单元 California，其余 $N - 1 = 38$ 个是对照池（donor pool）。处理在 $T_0 + 1$ 期开始（本数据 $T_0 = 19$，对应 1988 年；$T_0 + 1 = 20$，对应 1989 年）。结局变量记 $Y_{it}$，本数据是人均香烟销量 cigsale。
+
+合成控制把处理单元的反事实 $Y_{1t}(0)$ 估计为对照池的加权和：
+
+$$
+\widehat{Y}_{1t}(0) = \sum_{j=2}^{N} w_j Y_{jt},
+$$
+
+权重 $w_j$ 满足 $\sum_j w_j = 1$ 且 $w_j \ge 0$。处理效应估计为 $\widehat{\tau}_{1t} = Y_{1t} - \widehat{Y}_{1t}(0)$。
+
+</Definition>
+
+其中 $Y_{1t}(0)$ 是 California 在 $t$ 期假如没有 Prop 99 的反事实结局；$w_j$ 是赋给 donor 州 $j$ 的合成权重；权重非负且和为 1 是凸壳约束，保证合成的结局不会外推超出对照池的范围。
+
+## 1.6 后续九章如何回答这一问题
+
+后面九章每一章选一种方法跑一遍 California Prop 99，把估计填进累积对比表。读完第 10 章读者能直接对照十组数字，看每种方法各自给出的 ATT 落在哪里、置信区间多宽、依赖什么假设。
+
+每章末尾会更新一张累积对比表，第 1 章的版本只有一行：
+
+| 章       | 方法               | ATT      | 95% CI | 核心假设 |
+|:---------|:-------------------|---------:|:------:|:---------|
+| 第 1 章  | 朴素 DiD (TWFE)    | $-27.35$ | —      | 平行趋势 |
+
+<Subtext>表 1.2 · 方法对照表（第 1 章末）。后续每章追加一行，第 10 章合并为终极对照表。</Subtext>
+
+---
+
+## 1.7 本章知识地图
+
+| 核心概念       | 核心内容                          | 常见误解                  | 为什么错                                  |
+|:---------------|:----------------------------------|:--------------------------|:------------------------------------------|
+| ATT vs ATE     | 处理效应限定在处理组上            | 以为可推到全人群          | SC 估计仅对加州适用，不能外推到全美       |
+| pre / post 切分 | $T_0 = 19$，post 12 年            | 以为切分点不重要          | 切分定义了优化目标和反事实期              |
+| Donor pool     | 38 个对照州                       | 以为越多越好              | 含烟草种植州会污染权重                    |
+| 平行趋势       | DiD 的核心假设                    | 以为图上看着平行就够      | pre-period 水平不同时 post 不一定平行     |
+| 朴素 DiD       | 二阶段差分                        | 以为已是因果估计          | 仅在严格平行趋势下成立                    |
+| Prop 99 时间   | 1988 通过、1989 执行              | 以为时间窗可选            | 政策正式生效在 1989-01-01                 |
+| cigsale 单位   | 包/人/年                          | 以为是 $ 销售额           | 论文里 cigsale 始终是物理单位             |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California's Tobacco Control Program" author="Abadie, Diamond & Hainmueller (2010), JASA" href="https://economics.mit.edu/sites/default/files/publications/Synthetic%20Control%20Methods.pdf"
+	/>
+	<ReferencesLink
+		title="The Economic Costs of Conflict: A Case Study of the Basque Country" author="Abadie & Gardeazabal (2003), American Economic Review" href="https://economics.mit.edu/sites/default/files/publications/The%20Economic%20Costs%20of%20Conflict.pdf"
+	/>
+	<ReferencesLink
+		title="tidysynth: A Tidy Implementation of the Synthetic Control Method" author="Eric Dunford (2022)" href="https://cran.r-project.org/package=tidysynth"
+	/>
+</References>

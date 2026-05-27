@@ -1,0 +1,167 @@
+---
+title: "Abadie 2003 经典合成控制 —— 凸优化权重与预测器选择"
+description: "Abadie 经典 SC 的核心结构：donor 加权 + 凸壳约束。California 数据上跑出 ATT −18.85 包/人/年，对比第 1 章 DiD −27.35 的差额来源。"
+book: "synthetic-control"
+chapterNumber: 2
+chapterLabel: "第 2 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["合成控制", "凸优化", "donor 权重", "R 语言"]
+---
+
+<ChapterAudience>
+
+掌握 Abadie 2003 / 2010 经典合成控制方法的核心结构（donor 加权 + 凸壳约束），理解为什么用凸优化解权重而不是 OLS 回归，在 California 数据上跑出 ATT −18.85 并解读 donor 权重分布，能讲清楚 SC 估计与第 1 章 DiD −27.35 的 8.5 包差距的来源。
+
+</ChapterAudience>
+
+<IntroParagraph>第 1 章用朴素 DiD 给加州 Prop 99 的处理效应一个粗估计 −27.35 包/人/年。这个估计依赖"加州与全 38 州未实施 Prop 99 的反事实趋势平行"这一强假设。图 1.2 已经显示加州 1988 年的人均销量在 39 州分布的左尾，平行趋势假设其实并不成立。</IntroParagraph>
+
+本章用 Abadie 2003 / 2010 提出的合成控制方法（Synthetic Control，简称 SC）给出一个不依赖整个 38 州平均、而是只挑出几个与加州走势最像的州加权重组的反事实估计。
+
+## 2.1 合成控制的核心想法
+
+DiD 用"全 38 州的平均下降"做反事实，等价于给每个 donor 州 $1/38$ 的均等权重。SC 把这一权重分配交给数据决定：找一组非负权重 $\{w_j\}_{j=2}^{N}$ 使得加权对照在 pre-period 与加州尽可能贴合，post-period 的加权对照值就当作反事实。
+
+<Definition number="2.1" title="经典合成控制估计量">
+
+给定 $K$ 个预测器变量 $X_{1k}$（处理单元）和 $X_{jk}$（donor 单元），SC 选择权重 $w^* \in \mathbb{R}^{N-1}$ 使得：
+
+$$
+w^* = \mathop{\mathrm{argmin}}_{w \ge 0,\, \sum w_j = 1}
+       \sum_{k=1}^{K} v_k \left( X_{1k} - \sum_{j=2}^{N} w_j X_{jk} \right)^2,
+$$
+
+其中 $v_k \ge 0$ 是预测器权重（也由数据决定，使得 pre-period outcome 拟合误差最小化）。反事实估计为 $\widehat{Y}_{1t}(0) = \sum_{j=2}^{N} w_j^* Y_{jt}$，ATT 估计为 $\widehat{\tau}_t = Y_{1t} - \widehat{Y}_{1t}(0)$ 对 $t > T_0$ 取平均。
+
+</Definition>
+
+其中 $X_{1k}$ 是加州在第 $k$ 个预测器上的取值，$X_{jk}$ 是 donor 州 $j$ 的取值；$v_k$ 是给第 $k$ 个预测器的相对重要性权重；$w_j$ 是给 donor 州 $j$ 的合成权重。两层加权一起 nested 优化：外层 $v$ 最小化 pre-period outcome 拟合误差，内层 $w$ 在给定 $v$ 下最小化预测器加权误差。
+
+### 2.1.1 为什么用凸优化而不是 OLS
+
+最直接的对照方法是 OLS 回归：把 $Y_{1t}$ 对 pre-period 的所有 $Y_{jt}$ 做回归，用拟合系数当 donor 权重，post-period 用同样系数算反事实。但 OLS 没有 $w_j \ge 0$ 和 $\sum w_j = 1$ 的约束，回归系数可能出现负值或大于 1，意味着合成对照走出对照池凸壳之外（extrapolation）。
+
+凸壳约束的设计是 Abadie 三个论文（2003 Basque、2010 California、2015 *Comparative Politics and the Synthetic Control Method*）一致强调的。理由有两层。第一，外推（extrapolation）依赖对照池的函数形式假设，凸壳内（interpolation）只需要 donor 池里至少有几个与处理单元相似的单元。第二，可解释性 —— $w_j \ge 0$ 让"合成加州 = 30% Utah + 20% Nevada + 15% Colorado + ..."这样的表达直接可读，OLS 系数不能这样解读。
+
+## 2.2 在 California 数据上跑一遍
+
+用 tidysynth 包跑经典 SC，预测器配置参 Abadie 2010 Table 1：1980–1988 年的人均收入对数平均、卷烟零售价平均、15–24 岁人口比例平均、1984–1988 年的人均啤酒消费平均，以及 1975、1980、1988 年各年的人均香烟销量。
+
+```r
+library(tidysynth)
+set.seed(2026)
+
+sc <- smoking |>
+  synthetic_control(outcome = cigsale, unit = state, time = year,
+                    i_unit = "California", i_time = 1989,
+                    generate_placebos = TRUE) |>
+  generate_predictor(time_window = 1980:1988,
+                     ln_income = mean(lnincome, na.rm = TRUE),
+                     ret_price = mean(retprice, na.rm = TRUE),
+                     youth     = mean(age15to24, na.rm = TRUE)) |>
+  generate_predictor(time_window = 1984:1988,
+                     beer_sales = mean(beer, na.rm = TRUE)) |>
+  generate_predictor(time_window = 1975, cigsale_1975 = cigsale) |>
+  generate_predictor(time_window = 1980, cigsale_1980 = cigsale) |>
+  generate_predictor(time_window = 1988, cigsale_1988 = cigsale) |>
+  generate_weights(optimization_window = 1970:1988) |>
+  generate_control()
+
+gaps <- sc |> grab_synthetic_control() |>
+  mutate(gap = real_y - synth_y)
+post_att <- gaps |> filter(time_unit >= 1989) |>
+  summarise(att = mean(gap)) |> pull(att)
+round(post_att, 2)
+# [1] -18.85
+```
+
+post-period（1989–2000）平均 gap = $-18.85$ 包/人/年，这是合成控制估计的 ATT。与第 1 章 DiD 的 $-27.35$ 相比，SC 估计绝对值小约 8.5 包。差异来自 SC 把对照集合从全 38 州收缩到了与加州 pre-period 走势更接近的少数几个州，这几个州的 post-period 下降比全国平均更快，所以反事实更"乐观"，处理效应更"温和"。
+
+### 2.2.1 加州与合成加州的轨迹
+
+![California 实际人均香烟销量（实线）与合成 California（虚线）。pre-period 两条线几乎重合，post-period 实际值持续低于合成值，差距随年份扩大。](/books/synthetic-control/figure/chap02_synth_trajectory.png)
+
+<Subtext>图 2.1 · 加州实际与合成加州的轨迹对比。</Subtext>
+
+合成加州在 1970–1988 与实际加州几乎完全重合（pre-period RMSPE = 7.41，相对加州均值约 6.4%），这是 SC 的拟合优度。1989 年之后实际加州持续低于合成加州，1989 年差距 7.4 包，到 2000 年差距扩大到 25.6 包。post-period 平均差距 18.85 包就是 ATT 估计。
+
+### 2.2.2 处理效应的时间路径
+
+![处理效应 gap（实际 − 合成）的时间路径。pre-period 在 0 附近振荡，post-period 持续负向并逐渐扩大。](/books/synthetic-control/figure/chap02_synth_gap.png)
+
+<Subtext>图 2.2 · 处理效应 gap 的时间路径。</Subtext>
+
+gap 的时间路径有两层信息。其一，pre-period 在 0 附近窄幅振荡，振幅约 ±5 包，表明合成加州在 pre-period 是好的拟合。其二，post-period 持续单调负向：1989 年 $-7.4$，1990 年 $-9.6$，1993 年突破 $-15$，1995 年突破 $-22$，2000 年达到 $-25.6$。这种逐渐扩大的 pattern 与 Prop 99 通过反烟广告、戒烟项目长期累积影响吸烟行为的理论预期一致；如果是一次性政策冲击，gap 应该是阶梯型而非逐渐扩大型。
+
+### 2.2.3 donor 权重分布
+
+![Donor 权重分布。合成加州主要由 Utah（0.342）、Nevada（0.238）、Montana（0.209）、Colorado（0.149）、Connecticut（0.062）五个州构成。](/books/synthetic-control/figure/chap02_donor_weights.png)
+
+<Subtext>图 2.3 · 合成加州的 donor 权重分布，99% 权重集中在 5 个州。</Subtext>
+
+合成加州的 99% 权重集中在 5 个州。这 5 个州的共同特征是 pre-period 烟销量比较接近加州，且都不是烟草种植大州。Utah 因摩门教影响长期低吸烟、Nevada 因游客流动消费模式特殊、Montana 与 Colorado 是西部中等人口州、Connecticut 是东北部高收入低吸烟州。Abadie 2010 论文 Table 2 给的权重与这里几乎一致（小数点后第二位的差异来自 ipop 求解器的精度设定）。
+
+## 2.3 从 SC 估计读出来的因果含义
+
+合成控制估计给的 ATT $-18.85$ 包/人/年是这样解读的：1989–2000 年间，加州相对于"由 Utah / Nevada / Montana / Colorado / Connecticut 按合成权重加权构造的反事实加州"，人均香烟销量平均低 18.85 包/年。
+
+把这一估计写成总量：加州 post-period 12 年共节省了约 $18.85 \times 12 = 226$ 包/人。乘以加州 post-period 平均人口约 3000 万，对应总减少约 68 亿包。Abadie 2010 论文 Section 5 报告了大致相当的数字，结论是 Prop 99 实施后加州减少了"数十亿包"的香烟消费。
+
+<Pitfall title="把 SC 估计当成 ATE 推广到全美">
+
+SC 估计的是 ATT（处理组的平均处理效应），它只在加州这个具体单元上估计了 Prop 99 的反事实差。这一估计能不能推广到"假如其他州也实施 Prop 99 会有同样效果"是另一个问题。
+
+**为什么人们会推广**：直觉上 18.85 包/人/年看起来是一个"政策效应数字"，自然想拿到其他州套用。
+
+**失效机制**：SC 通过加权 Utah/Nevada 等少数州构造反事实，这一加权对加州有效，对其他州不一定有效。比如把这一估计套到 Kentucky（烟草种植大州），其反事实就要由完全不同的 donor 加权构造。
+
+**诊断方法 / 稳健替代**：要回答政策外推问题，需要异质性 SC（每个州单独跑 SC 然后汇总）、Causal Forest 或 ML-augmented SC。SC 自身只回答"对加州"的因果问题。
+
+</Pitfall>
+
+## 2.4 为什么 SC 与 DiD 差 8.5 包
+
+第 1 章 DiD 给 $-27.35$，本章 SC 给 $-18.85$，差距 8.5 包。这个差异从 donor 权重分布能直接读出来：DiD 等价于给 38 个 donor 州各 $1/38$ 的权重；SC 把 99% 权重集中在 5 个低消费西部州。这 5 个州在 post-period 的下降比 38 州平均更快 —— Utah、Nevada、Colorado 在 1989–2000 也实施了不同程度的烟草控制立法（虽然力度不如 Prop 99），所以 SC 反事实把"加州本来该有的下降"估高了，相应处理效应的绝对值就小。
+
+差距是真实的混淆 —— DiD 反事实包含了高吸烟州（Kentucky、Virginia 等）的相对稳定下降，拉低了对照池的下降斜率，导致处理效应被高估。SC 通过权重集中校正了这一混淆。
+
+## 2.5 累积对比表（截至本章）
+
+| 章       | 方法               | ATT      | 95% CI            | 核心假设       |
+|:---------|:-------------------|---------:|:-----------------:|:---------------|
+| 第 1 章  | 朴素 DiD (TWFE)    | $-27.35$ | —                 | 平行趋势       |
+| 第 2 章  | Abadie SC (经典)   | $-18.85$ | —（见第 4 章）    | 凸壳内可拟合   |
+
+<Subtext>表 2.1 · 累积对比表 —— 第 2 章。</Subtext>
+
+SC 没有原生标准误。Abadie 2010 论文用 permutation inference 推断 p 值（即第 4 章要做的事），第 5 章起的 GSC / SDID / MC-NNM 才把 SE 与 CI 引入。
+
+---
+
+## 2.6 本章知识地图
+
+| 核心概念             | 核心内容                          | 常见误解              | 为什么错                                  |
+|:---------------------|:----------------------------------|:----------------------|:------------------------------------------|
+| 凸壳约束             | $w_j \ge 0$, $\sum w_j = 1$       | 以为限制了灵活性      | 凸壳内才有可解释的合成                    |
+| Donor pool           | 38 个 non-CA 州                   | 以为越大越好          | 含同类政策州会污染估计                    |
+| 预测器集合           | 协变量 + outcome lag              | 以为不放协变量也行    | 仅 lag 时 ATT 漂到 $-22.95$               |
+| $v$ 与 $w$ 嵌套优化  | 内 $w$ 外 $v$                     | 以为两层独立可分      | 联合优化才求最优                          |
+| Pre-period 拟合      | RMSPE = 7.41                      | 以为越小越好          | 过拟合 pre 会让 post 不稳                 |
+| donor 权重稀疏       | 5 个州占 99%                      | 以为权重越散越稳      | 稀疏权重才反映真实"相似邻居"              |
+| ATT vs ATE           | 仅对加州                          | 以为可推广其他州      | SC 的反事实只针对单一处理单元             |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Control Methods for Comparative Case Studies" author="Abadie, Diamond & Hainmueller (2010), JASA" href="https://economics.mit.edu/sites/default/files/publications/Synthetic%20Control%20Methods.pdf"
+	/>
+	<ReferencesLink
+		title="Comparative Politics and the Synthetic Control Method" author="Abadie, Diamond & Hainmueller (2015), AJPS" href="https://onlinelibrary.wiley.com/doi/10.1111/ajps.12116"
+	/>
+	<ReferencesLink
+		title="tidysynth: A Tidy Implementation of the Synthetic Control Method" author="Eric Dunford (2022)" href="https://cran.r-project.org/package=tidysynth"
+	/>
+</References>

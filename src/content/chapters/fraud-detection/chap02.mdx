@@ -1,0 +1,221 @@
+---
+title: "Beneish M-Score：八变量规则基线"
+description: "Beneish (1999) 八变量舞弊指数的会计直觉、在 Bao 数据上的手工实现，以及它为何只能略微跑赢零模型。"
+book: "fraud-detection"
+chapterNumber: 2
+chapterLabel: "第 2 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["财务舞弊", "M-Score", "Beneish", "规则基线"]
+---
+
+<ChapterAudience>
+
+理解 Beneish (1999) 八变量舞弊指数的会计直觉，在 Bao 数据上手工实现 M-Score 并打分，评估它在 AAER 标签下的判别表现，并把 M-Score 写入累积对比表，作为零模型之上的第一道基线。
+
+</ChapterAudience>
+
+<IntroParagraph>第 1 章把零模型留在了累积对比表的第一行：把 33,064 个测试期 firm-year 全部预测为非舞弊，准确率 99.661%，AUC 0.500，Recall@1% 为 0。这个数字告诉我们准确率不是合适的指标，但它没有告诉我们任何一个学过东西的模型能做到什么程度。这一章引入 Beneish (1999) 提出的 M-Score，把它当作"零智能"规则基线。</IntroParagraph>
+
+M-Score 不学习、不调参、不看 AAER 标签，靠事先固定的八个变量与一组事先固定的权重打分。它和零模型的差别在于，它至少在用财务比率说话；它和后续机器学习方法的差别在于，它的所有参数都来自 Beneish 在 1980 年代末的 74 家 SEC 处罚样本回归出来的截距与系数，之后再没有更新。这就是规则基线在做的事。Beneish 在 1999 年的 *Financial Analysts Journal* 论文中给出了这个八变量加权和。它在审计教材里被反复引用，也在审计师执业培训中作为"舞弊味道"的标准检查清单。把它放到 2009–2014 的 Bao 测试集上重新跑一遍，相当于问一个具体的问题：1999 年提出的这套加权规则，在二十年后的财务数据上还剩多少识别力？
+
+## 2.1 八个变量的会计学含义
+
+Beneish 的八个变量都是上一年到本年的比值，每一个都瞄准一种特定的舞弊迹象。这一节按 Beneish 原论文的顺序逐个解释。
+
+第一个是**应收账款销售天数指数**，简称 DSRI。它把今年的"应收账款占销售比"除以去年的同口径比，衡量收入的"应收化"速度。一家公司去年应收账款 1 亿、销售 10 亿，应收占比 10%；今年应收 2 亿、销售 12 亿，应收占比 16.7%。DSRI = 16.7% / 10% = 1.67。比值显著高于 1 意味着收入增长里有一大块是赊账，公司在向未来透支收入，这是激进收入确认或虚假销售的常见痕迹。
+
+第二个是**毛利率指数**，简称 GMI。它把去年的毛利率除以今年的毛利率。注意分子分母方向：分子是去年，分母是今年。一家公司去年毛利率 35%、今年毛利率 28%，GMI = 35 / 28 = 1.25。比值大于 1 意味着毛利率在恶化，公司面临成本压力或竞争挤压。Beneish 的研究发现，毛利率快速恶化的公司更可能用其他手段美化净利润，因此 GMI 与舞弊正相关。
+
+第三个是**资产质量指数**，简称 AQI。先定义"非质量资产"为总资产减去流动资产再减去固定资产，剩下的部分主要是商誉、其他长期资产、递延税款这类"软"科目。AQI 把今年的非质量资产占比除以去年的非质量资产占比。比值大于 1 意味着资产负债表里"软"的部分在膨胀，公司可能在把当期费用资本化、藏到长期资产里。资产质量恶化是激进会计政策的副产品。
+
+第四个是**销售增长指数**，简称 SGI。它就是今年销售除以去年销售的增长比。一家公司去年销售 10 亿、今年 13 亿，SGI = 1.3。Beneish 把销售增长本身放进 M-Score，是因为高增长公司面临更强的"维持增长神话"的压力，更容易铤而走险做假账。高增长公司未必都在造假，只是这一群体的舞弊先验概率比平均水平更高。
+
+第五个是**折旧指数**，简称 DEPI。它把去年的"折旧 / (折旧 + 固定资产毛值)"除以今年的同口径比。比值大于 1 意味着今年的折旧比例下降，公司可能在拉长折旧年限或修改残值假设，把当期费用推到未来。这是利润平滑的经典手法。
+
+第六个是**销售管理费用指数**，简称 SGAI。它把今年 SG&A 占销售的比重除以去年的同口径比。逻辑和 GMI 一样：销管费用占比上升说明经营效率下降，公司更有动机用其他方式补回利润。SGAI 是 Beneish 八变量里在 Bao 数据上拿不到原始字段的两个项目之一，下一节会讲怎么处理。
+
+第七个是**杠杆指数**，简称 LVGI。它把今年的"短期债务加长期债务占总资产比"除以去年的同口径比。比值大于 1 说明公司在加杠杆，债务约束变紧，管理层更有动机粉饰利润以满足债务条款。LVGI 是 M-Score 中权重为负的少数几项之一，权重 −0.327，意味着杠杆上升单独看反而会让 M-Score 下降；它的存在是为了和 SGI 做平衡，避免把所有"快速扩张"的公司都打成高分。
+
+第八个是**应计占总资产比**，简称 TATA。它度量的是当期净利润里有多大比例不是真金白银的现金流。原始定义是 (净利润 − 经营现金流) / 总资产。一家公司净利润 1 亿、经营现金流 0.3 亿、总资产 10 亿，TATA = 0.7 / 10 = 7%，意思是 70% 的净利润停留在应计科目上，没有变成现金回流。TATA 在 M-Score 里权重最大，达到 4.679，因为大量舞弊文献都把高应计当作舞弊最直接的会计学指纹。
+
+<Definition number="2.1" title="Beneish M-Score">
+
+把八个变量按 Beneish 给出的权重相加并加上截距，得到 M-Score：
+
+$$
+M = -4.84 + 0.92 \cdot \mathrm{DSRI} + 0.528 \cdot \mathrm{GMI} +
+0.404 \cdot \mathrm{AQI} + 0.892 \cdot \mathrm{SGI} +
+0.115 \cdot \mathrm{DEPI} - 0.172 \cdot \mathrm{SGAI} +
+4.679 \cdot \mathrm{TATA} - 0.327 \cdot \mathrm{LVGI}.
+$$
+
+其中 DSRI 至 LVGI 是上一段定义的八个比率指数。Beneish 在原论文里用 1982 到 1992 年间 74 家被 SEC 处罚的公司加 2,332 家配对样本做 probit 回归，得到这组系数与截距。M-Score 大于 $-2.22$ 被判为高舞弊嫌疑。
+
+</Definition>
+
+**停下来想一想。** M-Score 是一组事先固定的权重，不会在新数据上重新拟合。这意味着它在 2009–2014 测试集上的表现完全取决于：第一，1980 年代末样本估出来的八个权重在二十年后是否仍然合适；第二，AAER 标签捕捉的舞弊行为与 Beneish 当年研究的舞弊行为是否同质。这两个前提有任何一条不成立，M-Score 都会失灵。
+
+---
+
+## 2.2 在 Bao 数据上的实现
+
+把 M-Score 跑在 Bao 数据上，第一件需要交代的事是变量映射。Bao 复制包提供 28 个 Compustat 原始字段，其中六项可以直接对应到 Beneish 公式：`rect` 对应应收账款，`sale` 对应销售收入，`cogs` 对应营业成本，`act` 对应流动资产，`at` 对应总资产，`ppegt` 对应固定资产毛值。再加上 `dp` 折旧、`dlc` 短期债务、`dltt` 长期债务、`lct` 流动负债、`che` 现金、`ib` 净利润，构造前六个变量没有问题。
+
+剩下两个变量碰到了字段缺失。SGAI 需要 `xsga`，即销售管理费用，但 Bao 28 变量集没有收录这一项。本书的处理方式是把 SGAI 置为常数 1，让它在 M-Score 里贡献固定的 $-0.172$，相当于不再随公司变化。这是一种保守近似：它没有给任何公司额外加分或减分，但也丢失了 SGAI 本身可能携带的判别信号。TATA 需要 `oancf`，即经营现金流，Bao 28 变量集也没有这一项。Beneish 在 1999 年原文里提到，缺乏现金流量表数据时可以用资产负债表近似总应计：营运资本变动近似为 $\Delta(\mathrm{act} - \mathrm{lct} - \mathrm{che} + \mathrm{dlc})$，然后用净利润减去营运资本变动再除以总资产。本书采用这一回退方案。这两处近似会在章末雷区里集中说明。
+
+```r
+library(tidyverse)
+library(pROC)
+set.seed(2026)
+
+d <- read_csv(here::here("data", "bao2020_full.csv"),
+              show_col_types = FALSE) |>
+  arrange(gvkey, fyear) |>
+  group_by(gvkey) |>
+  mutate(lag_fyear = lag(fyear),
+         across(c(rect, sale, cogs, act, ppegt, at,
+                  dp, dlc, dltt, lct, che, ib),
+                lag, .names = "lag_{.col}")) |>
+  ungroup() |>
+  filter(!is.na(lag_fyear), lag_fyear == fyear - 1)
+
+# 八个 Beneish 变量
+d <- d |>
+  mutate(DSRI = (rect / sale) / (lag_rect / lag_sale),
+         GMI  = ((lag_sale - lag_cogs) / lag_sale) /
+                ((sale - cogs) / sale),
+         AQI  = (1 - (act + ppegt) / at) /
+                (1 - (lag_act + lag_ppegt) / lag_at),
+         SGI  = sale / lag_sale,
+         DEPI = (lag_dp / (lag_dp + lag_ppegt)) /
+                (dp / (dp + ppegt)),
+         SGAI = 1,                              # xsga 缺失
+         LVGI = ((dlc + dltt) / at) /
+                ((lag_dlc + lag_dltt) / lag_at),
+         delta_wc = (act - lct - che + dlc) -
+                    (lag_act - lag_lct - lag_che + lag_dlc),
+         TATA = (ib - delta_wc) / at,           # oancf 缺失
+         mscore = -4.84 + 0.920 * DSRI + 0.528 * GMI +
+                  0.404 * AQI + 0.892 * SGI + 0.115 * DEPI -
+                  0.172 * SGAI + 4.679 * TATA - 0.327 * LVGI)
+
+d_score <- d |> filter(!is.na(mscore), is.finite(mscore))
+test    <- d_score |> filter(fyear >= 2009, fyear <= 2014)
+
+auc_val <- as.numeric(auc(roc(test$misstate, test$mscore,
+                              quiet = TRUE, direction = "<")))
+```
+
+完整脚本见 [code/02_mscore.R](/books/fraud-detection/code/02_mscore.R)。
+
+全样本 146,045 行经过 lag 构造后保留 121,408 行，每行都有连续的上一年作为基准。八个变量构造完后，因部分公司分母为零或上游字段缺失，再丢掉 26,837 行，最终 94,571 行获得有效 M-Score。按 Bao 时间切分，测试期 2009–2014 共 20,236 个 firm-year，其中 91 个被标记为舞弊。第 1 章原始测试集是 33,064 行 / 112 个舞弊，缩减主要来自 lag 构造对一家公司"首次出现年"的删除。
+
+---
+
+## 2.3 性能评估
+
+把 M-Score 当作"舞弊得分"，在测试集 20,236 个 firm-year 上从大到小排序，套用第 1 章引入的四个指标进行评估。
+
+| 方法              | AUC    | NDCG@100 | Recall@1% | Precision@1% |
+|:------------------|-------:|---------:|----------:|-------------:|
+| 全部预测为非舞弊  | 0.500  | 0.000    | 0.000     | 0.000        |
+| Beneish M-Score   | 0.5399 | 0.000    | 0.0110    | 0.0049       |
+
+<Subtext>表 2.1 · M-Score 与零模型在测试集上的对比。</Subtext>
+
+四个指标里 M-Score 只在 AUC 上比零模型多出 0.04。NDCG@100 仍然是 0，表示按 M-Score 从高到低排序后，前 100 名里一个真实舞弊样本都没有。Recall@1% 等于 0.011，意味着审计师按 M-Score 排名只看前 203 家公司，能挖出 91 家真舞弊里的 1 家。Precision@1% 等于 0.49%，比测试期基线舞弊率 0.45% 只高出一点点。换句话说，M-Score 在"挑高嫌疑公司"这件事上几乎不工作。
+
+**回到 Bao 数据。** AUC 从 0.500 抬升到 0.540 不是没有意义，0.04 的差距意味着随机抽一对舞弊与非舞弊样本，M-Score 把舞弊排在前面的概率比扔硬币高 4 个百分点。但这个抬升完全发生在排序的中段。前 1% 和前 100 名这两个对审计场景最重要的位置，M-Score 几乎没有信号。后续每一章的方法都需要在这两个排名靠前的位置上击败 M-Score 才有意义。
+
+Beneish 原论文给出 $M > -2.22$ 作为阈值，超过这个数判为高舞弊嫌疑。把这个阈值套到测试集上，43.78% 的 firm-year 被 flag。审计资源不可能去调查 43% 的上市公司年度报表。把视角换到舞弊样本本身：91 个真舞弊里有 50.55% 的 M-Score 超过阈值。检出率刚过一半，代价是把近一半的健康公司也一起 flag 了。这个权衡说明 Beneish 阈值在 Bao 数据上完全失效。
+
+---
+
+## 2.4 案例公司打分
+
+第 1 章选定的两家标志性公司在 2000 年都是舞弊年。
+
+| 案例        | gvkey | M-Score | DSRI  | GMI   | SGI   | TATA      | LVGI  |
+|:------------|------:|--------:|------:|------:|------:|----------:|------:|
+| Enron 2000  | 6127  | $-0.26$ | 1.376 | 1.891 | 2.513 | $-0.001$  | 0.639 |
+| Tyco 2000   | 10787 | $-1.64$ | 0.955 | 0.938 | 1.286 | $0.108$   | 0.870 |
+
+<Subtext>表 2.2 · 案例公司 2000 年 M-Score 与关键分项。</Subtext>
+
+Enron 在 2000 年的 M-Score 是 $-0.26$，远高于 Beneish 阈值 $-2.22$，被判为高舞弊嫌疑。把分项拆开看：DSRI 1.38 反映应收账款相对销售在膨胀；GMI 1.89 反映毛利率从前一年的某个水平大幅恶化；SGI 2.51 反映销售翻了 1.5 倍。三项加在一起把 M-Score 推得很高。Tyco 在 2000 年的 M-Score 是 $-1.64$，同样超过阈值，但分项不像 Enron 那样集中。Tyco 的 DSRI 和 GMI 都接近 1，主要的可疑信号来自 TATA 0.108 这个偏高的应计水平。
+
+这两家公司 M-Score 都在阈值之上，看起来 Beneish 在它们身上是奏效的。但是别忘了上一节的全局数字：测试集里 43.78% 的公司年报都被这个阈值 flag，等于"几乎所有公司都嫌疑"。Enron 和 Tyco 落在 flag 区里既可能说明 M-Score 真的捕捉到了它们，也可能只是抽彩中奖：把硬币扔很多次，总有一些次正好落在指定的一面。要把这两种解释区分开，需要看测试集整体的 Recall@1% 和 NDCG@100，而这两个数字告诉我们 M-Score 在整体上几乎没有判别力。后续每一章都会回到这两家公司，看新方法能不能把它们排到更前的位置而不是简单地 flag。
+
+<Pitfall title="M-Score 在新样本期上的失效">
+
+M-Score 在 Bao 测试集上的表现勉强超过零模型，原因有三条。第一，Beneish 八个权重是 1982–1992 年 74 家 SEC 处罚样本回归出来的，二十年后这组样本对应的舞弊模式与 AAER 数据库中的舞弊模式已经发生漂移，权重失效。第二，Bao 28 变量集不包含 `xsga` 与 `oancf`，本章只能把 SGAI 置为常数 1、把 TATA 用资产负债表近似，两个近似都削弱了 M-Score 的判别信号。第三，AAER 标签覆盖的是被 SEC 认定的财务报表错报，不仅限于 Beneish 当年研究的盈余管理；M-Score 的设计目标和 AAER 的标签口径并不完全重合。任何宣称"M-Score 是一个简单实用的舞弊检测工具"的资料，如果没有在新数据上重新校准权重，结论原则上不可信。
+
+</Pitfall>
+
+---
+
+## 2.5 Python 实现
+
+R 与 Python 实现的输出在 AUC、NDCG@100、Recall@1%、Precision@1% 与两家案例公司的 M-Score 上完全一致。Python 用 `pandas` 做分组 lag、用 `sklearn.metrics.roc_auc_score` 与 `ndcg_score` 计算指标。完整脚本见 [code/02_mscore.py](/books/fraud-detection/code/02_mscore.py)。
+
+```python
+import pandas as pd, numpy as np
+from sklearn.metrics import roc_auc_score, ndcg_score
+
+d = pd.read_csv("data/bao2020_full.csv").sort_values(["gvkey", "fyear"])
+g = d.groupby("gvkey", sort=False)
+for c in ["rect", "sale", "cogs", "act", "ppegt", "at",
+          "dp", "dlc", "dltt", "lct", "che", "ib"]:
+    d[f"lag_{c}"] = g[c].shift(1)
+d["lag_fyear"] = g["fyear"].shift(1)
+d = d[d["lag_fyear"] == d["fyear"] - 1].copy()
+
+# 八变量构造（与 R 完全一致，省略）
+# ... 见 code/02_mscore.py
+
+test = d.query("2009 <= fyear <= 2014").dropna(subset=["mscore"])
+auc_py = roc_auc_score(test["misstate"], test["mscore"])
+```
+
+---
+
+## 2.6 本章累积对比表
+
+| 方法              | AUC    | NDCG@100 | Recall@1% | Precision@1% | 可解释性        | 局限                       |
+|:------------------|-------:|---------:|----------:|-------------:|:----------------|:---------------------------|
+| 全部预测为非舞弊  | 0.500  | 0.000    | 0.000     | 0.000        | 完全可解释      | 无判别力                   |
+| Beneish M-Score   | 0.5399 | 0.000    | 0.0110    | 0.0049       | 完全可解释      | 权重定格 1990 年代         |
+
+<Subtext>表 2.3 · 第 2 章累积方法对比，加入 M-Score。</Subtext>
+
+下一章把规则升级为带学习的逻辑回归，并复刻 Dechow et al. (2011) 的 F-Score。逻辑回归会用 Bao 训练集 1991–2002 上的实际数据估计系数，摆脱 M-Score "权重定格 1990 年代"的限制。这是从规则基线走向统计学习的第一步。
+
+---
+
+## 2.7 本章知识地图
+
+| 核心概念              | 核心内容                                                  | 常见误解                          | 为什么错                                                          |
+|:----------------------|:----------------------------------------------------------|:----------------------------------|:------------------------------------------------------------------|
+| 规则基线              | 事先固定权重、不在新数据上重新拟合的打分函数              | 规则基线只是过渡，没必要认真评估  | 规则基线给出"零智能"参照，所有学习型方法的提升幅度都需要相对它来度量 |
+| M-Score 权重          | Beneish 在 1982–1992 年 74 家 SEC 处罚样本上 probit 回归得到 | 权重在新数据上仍然有效          | 二十年后舞弊模式发生漂移，权重定格在原始样本上，需要在新数据上重新校准 |
+| TATA 项               | 应计占总资产比，原始定义需要经营现金流                    | 没有 oancf 就不能算 TATA          | Beneish 1999 原文给了资产负债表近似：用 Δ(act − lct − che + dlc) 估算营运资本变动 |
+| Beneish 阈值 −2.22    | M-Score 大于 −2.22 判为可疑                               | 阈值在所有数据上都适用            | Bao 测试集上有 43.8% 的 firm-year 被该阈值 flag，阈值过宽，与审计资源约束不匹配 |
+| 指标差异              | AUC 略高于零模型，NDCG@100 仍为 0                         | AUC 提升说明模型能用              | AUC 衡量的是整体排序，前 1% 和前 100 名才是审计场景的目标位置；M-Score 在这两个位置几乎无信号 |
+| 规则与标签的口径      | Beneish 关注盈余管理，AAER 覆盖的是 SEC 认定的财务报表错报 | 两者目标一致，差异只是数据集    | M-Score 设计目标和 AAER 标签口径并不完全重合，模型与标签的失配本身会压低判别力 |
+| 数据近似的诚实交代    | Bao 缺 xsga 和 oancf，本章用近似处理 SGAI 与 TATA         | 小近似不影响主结论                | 近似削弱信号，数字结果应当连带写出近似选择，避免读者把弱表现归咎于方法本身 |
+
+---
+
+<References>
+	<ReferencesLink
+		title="The Detection of Earnings Manipulation" author="Beneish (1999), Financial Analysts Journal" href="https://www.jstor.org/stable/4480190"
+	/>
+	<ReferencesLink
+		title="Predicting Material Accounting Misstatements" author="Dechow, Ge, Larson & Sloan (2011), Contemporary Accounting Research" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1911-3846.2010.01041.x"
+	/>
+	<ReferencesLink
+		title="Detecting Accounting Fraud in Publicly Traded U.S. Firms Using a Machine Learning Approach" author="Bao, Ke, Li, Yu & Zhang (2020), Journal of Accounting Research" href="https://onlinelibrary.wiley.com/doi/10.1111/1475-679X.12292"
+	/>
+</References>

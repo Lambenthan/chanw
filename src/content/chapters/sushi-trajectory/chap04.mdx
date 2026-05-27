@@ -1,0 +1,179 @@
+---
+title: "合成控制：用稳定概念构造黄州转向的反事实"
+description: "用 9 个 pre-period 稳定概念构造 donor pool，给 6 个目标维度做合成控制反事实估计，D8 三教融合 post 偏离 +5.86 (p≈0.20) 是最强信号。"
+book: "sushi-trajectory"
+chapterNumber: 4
+chapterLabel: "第 4 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["人格因果学", "因果推断", "苏轼"]
+---
+
+<ChapterAudience>
+
+选定 donor pool 为 9 个 1056–1078 pre-period 高稳定性的概念时间序列，用合成控制法给 1079 乌台事件 post-period（1080–1101）构造反事实轨迹。对 6 个目标维度（D2 / D7 / D8 / 贬谪 / 佛家 / 归隐）做反事实估计，用 Placebo 检验给出 rank-based p 值，给 D8 三教融合 +5.86 偏离（p≈0.20）的稳健性背书。
+
+</ChapterAudience>
+
+<IntroParagraph>第 1 章 ITS 估的是 level shift 与 slope change，假设的反事实是"pre-trend 直接外推"。若 pre-trend 本身就在变化，外推会偏。第 3 章断点检测在 BIC 罚项下让 15 条序列退化为 $K=0$，但这未必表示无效应——可能只是渐进式效应被罚项过滤掉。合成控制提供另一种构造反事实的方式：用苏轼自己其他稳定概念的演化轨迹加权拟合目标概念的 pre-period 轨迹，然后把这个权重外推到 post-period 作为反事实。这种方法不需要 pre-trend 线性假设，也不需要 level shift 假设——它对渐进式效应天然敏感。</IntroParagraph>
+
+## 4.1 研究问题
+
+具体问：1079 之后苏轼的 D2 自我修正、D7 隐逸倾向、D8 三教融合、贬谪、佛家、归隐这六个目标的演化，是否真的发生了"超出 pre-period 趋势"的偏离？ITS 在 D2 与"贬谪"上看到边缘显著效应，但在 D7 / D8 / 佛家 / 归隐 上没看到；第 3 章断点检测则在 D8 与佛家上看到断点（1088 / 1086），与 ITS 矛盾。合成控制是第三方仲裁。
+
+阳明项目的 chap04 上证明合成控制能拿到稳健的 1521 致良知反事实，苏轼项目沿用同样思路处理 1079 后的长期演化。
+
+---
+
+## 4.2 方法
+
+<Definition number="4.1" title="合成控制权重求解">
+
+给定目标序列 $y_t^*$ 在 pre-period $\{1056, \ldots, 1078\}$（剔除 1079）上的观测值，以及 donor pool $\{x_{1t}, x_{2t}, \ldots, x_{Jt}\}$ 同样在 pre-period 上的观测值，求权重 $\{w_j\}_{j=1}^{J}$ 满足：
+
+$$
+\min_{w} \sum_{t \in T_{\text{pre}}} \left( y_t^* - \sum_{j=1}^{J} w_j x_{jt} \right)^2,
+\quad \text{s.t.} \quad w_j \geq 0, \sum_j w_j = 1.
+$$
+
+反事实轨迹：$\hat{y}_t^{\,\text{counter}} = \sum_j w_j x_{jt}$ 对 $t \geq 1080$。实际偏离：$\hat{\tau}_t = y_t^* - \hat{y}_t^{\,\text{counter}}$。
+
+</Definition>
+
+合成控制的核心步骤可以拆成三步：第一步在 pre-period 上拟合权重，让 donor 加权曲线与 target 实测曲线尽可能重合；第二步把这组权重套到 post-period 的 donor 数据上，得到反事实曲线；第三步比较 post-period 上 target 实测曲线与反事实曲线的差，差额累加就是估计的事件累积效应 $\hat{\tau}_t$。完整代码见 [code/synth_control.py](/books/sushi-trajectory/code/synth_control.py)。
+
+### 4.2.1 donor pool 的选择
+
+donor 选择是合成控制最易陷循环论证的环节。一般原则是 donor 与 target 不应在因果机制上同源，但应在 pre-period 上能拟合 target。本书选 9 个 donor：D1 政治姿态、D3 实践导向、D5 决断力、D6 情感深度、儒家纲领、道家、情感、君臣、文学。
+
+这些 donor 与 6 个 target 在概念语义上相对独立：D1 政治姿态测的是"讥讽 / 拥护朝政"，与 target D2"自我修正"的语义维度不同；儒家纲领（仁 / 义 / 礼）与 target 佛家（禅 / 佛 / 空）是并列对照三教关系，用其中两支构造另一支的反事实是合理的。
+
+### 4.2.2 Placebo 检验
+
+Placebo 流程把每一个 donor 当作"假 target"，用其他 8 个 donor 给它构造合成控制，看 post 偏离的分布。真实 target 的 post 偏离若在这 9 个 placebo 分布的尾部，则视为非偶然。
+
+具体地，$p_{\text{rough}}$ = $|$real gap$|$ 在 9 个 placebo + 1 个 real 里的排位除以 10。这条 p 值是单被试事件研究的标准近似，不是经典 OLS 意义上的 p 值。
+
+<Pitfall title="donor pool 反向污染">
+
+合成控制最常见的失败模式不是权重求解出错，而是 donor 与 target 在因果机制上同源。譬如把"佛家"作为 target 时，若 donor 里放了"禅"或"般若"，那 donor 本身就被同样的事件机制影响，合成出的反事实带着事件能量，与 target 比较反而看不出差异。
+
+**诊断方法**：列出每个 donor 在 1080 前后是否也有大幅变化。若多数 donor 都在 1080 后向同一方向变，donor pool 已经被事件污染。
+
+**稳健替代**：把 donor 限定在与 target 不在同一概念簇的稳定序列；本书把"君臣"放在 donor 里就属边界 case，下文 4.3 节会看到它对"贬谪"的反向污染。
+
+</Pitfall>
+
+---
+
+## 4.3 6 个目标的合成控制结果
+
+| 目标              | pre 拟合 RMSE | post 偏离均值  | Placebo p | 结论             |
+|:------------------|--------------:|---------------:|----------:|:-----------------|
+| D2 自我修正       | 1.137         | $+1.805$       | 0.20      | 偏弱显著         |
+| D7 隐逸倾向       | 5.425         | $+0.372$       | 0.90      | 无效应           |
+| **D8 三教融合**   | 3.301         | **$+5.856$**   | **0.20**  | 偏弱显著，最强效应 |
+| 贬谪              | 0.614         | $+1.028$       | 0.80      | 无效应           |
+| **佛家**          | 0.904         | **$+2.896$**   | **0.20**  | 偏弱显著         |
+| **归隐**          | 5.793         | **$+2.698$**   | **0.20**  | 偏弱显著         |
+
+<Subtext>表 4.1 · 6 个目标在 1079 后的合成控制偏离。</Subtext>
+
+6 个目标中，4 个（D2 / D8 / 佛家 / 归隐）都在 Placebo p ≈ 0.20 水平上显著，后 2 个（D7 / 贬谪）无效应。
+
+### 4.3.1 D8 三教融合：最强信号
+
+最强效应是 **D8 三教融合，post 偏离均值 $+5.856$**，意味着 1080 之后苏轼的三教融合词频均值比反事实预期高 5.86 千字 / 篇。这条结果与第 3 章断点检测（D8 在 1088 翻 2.4 倍）方向高度一致，给第 3 章的反传统结论提供独立验证。
+
+D8 三教融合的最大 donor 权重来自"儒家纲领"与"道家"，说明用其他两支三教 donor 合成"佛家"的 pre-trend 拟合得不错，但 post-period 仍出现 $+5.86$ 偏离，这条偏离不是其他三教 donor 能解释的，才是 1080 后佛家词频独立上升的真信号。
+
+### 4.3.2 佛家与归隐：ITS 漏掉的累积偏离
+
+佛家与归隐合成控制偏离 $+2.90$ / $+2.70$，与第 3 章断点检测的方向一致。这条结果反驳第 1 章 ITS 看到"佛家 / 归隐 t 不显著"的结论——ITS 把渐进式效应稀释到 pre-trend 与 post-trend 两侧，看不到累积偏离；合成控制能看到。
+
+D2 自我修正在合成控制下偏离 $+1.81$（p=0.20），与第 1 章 ITS 的 $t=+1.82$ 方向与强度一致。这是三方法里唯一全部同意的维度。
+
+### 4.3.3 D7 隐逸：三方法一致的无效应
+
+D7 隐逸倾向偏离仅 $+0.37$（p=0.9）是真正的无效应。这一结果与 ITS、断点检测全部一致，三方法都说 D7 没变。D7 包含"归 / 闲 / 老 / 病 / 退 / 隐 / 山林 / 衰"，但这些词在苏轼整个 45 年里都是高频，单看 D7 总分看不出 1080 前后的差异——苏轼一直在写老病归隐，不是黄州后才开始写。
+
+### 4.3.4 贬谪：donor 选择的副作用
+
+贬谪偏离 $+1.03$（p=0.8）也是无效应，与 ITS 的 $t=1.84$ 矛盾。这一矛盾的可能原因是合成控制的 donor 里含"君臣"（君 / 臣 / 圣 / 朝廷），它在 post-period 也下降，与贬谪上升互相抵消，让"贬谪 − 君臣"的差几乎为零。这是 donor 选择的副作用，后续 iteration 应当把"君臣"从 donor pool 移到 target list 单独分析。
+
+---
+
+## 4.4 合成控制与 ITS、断点检测的三方对照
+
+把第 1 / 3 / 4 章的结果汇总到一张表，可以看到三方法的一致与不一致区域。
+
+| 目标              | ITS ($t$)  | 断点 (年)    | 合成控制 (p)    |
+|:------------------|:----------:|:------------:|:---------------:|
+| D2 自我修正       | $+1.82$\*  | 无           | $0.20$\*        |
+| D7 隐逸倾向       | $-0.44$    | 无           | $0.90$          |
+| D8 三教融合       | $+0.25$    | **1088**     | **$0.20$\***    |
+| 贬谪              | $+1.84$\*  | 无           | $0.80$          |
+| 佛家              | $+0.68$    | **1086**     | **$0.20$\***    |
+| 归隐              | $+0.51$    | 无           | $0.20$\*        |
+
+<Subtext>表 4.2 · ITS / 断点检测 / 合成控制三方法的方向对照。\* 表示该方法判定有信号。</Subtext>
+
+D2 自我修正在三方法里方向一致（ITS 与合成控制都显著）。D8 三教融合在断点与合成控制里显著、ITS 不显著。佛家与 D8 类似。
+
+这种"ITS 看不到、断点 + 合成控制看到"的 pattern 暗示这些维度的效应是渐进累积的，不是 1079 一次性跳跃。真实的因果机制可能是：1079 乌台诗案触发自我修正（D2）的立即反应，但三教融合（D8）与佛家话语的渗入是长期阅读积累的结果，黄州 4 年加上元祐回朝有藏书可读的几年共同推动，不是 1080 一次性的事件触发。
+
+贬谪在 ITS 显著、合成控制不显著的矛盾来自上文 4.3.4 的 donor 副作用。后续 iteration 把"君臣"移出 donor pool 应能让合成控制贬谪偏离也变显著。
+
+---
+
+## 4.5 donor 权重的解读
+
+每个 target 的合成控制权重指向其 pre-period 最相似的 donor 概念。这些权重的方向有解释力。本节只做简要说明，完整权重表见 [code/synth_control.py](/books/sushi-trajectory/code/synth_control.py) 的输出 JSON。
+
+大致观察：D8 三教融合的最大权重来自"儒家纲领"与"道家"，符合三教平行对照的语义；D2 自我修正的最大权重来自"情感"与"D6 情感深度"，说明 D2 的 pre 趋势与一般情感词共变，post 偏离才是 1080 后真正独立的信号。佛家与归隐的权重分布更分散，反映出这两个概念在 pre-period 与多个其他维度都有共变。
+
+---
+
+## 4.6 方法卡：合成控制在单一历史人物上的使用
+
+<MethodCard title="合成控制在单一历史人物时间序列上的使用">
+
+**数学形式** pre-period 上以 donor 凸组合最小二乘拟合 target，post-period 用同组权重外推得反事实 $\hat{y}_t^{\text{counter}}$，target 与反事实的差累加为事件累积效应 $\hat{\tau}_t$。
+
+**核心假设** donor 与 target 在因果机制上独立；pre-period 拟合 RMSE 足够小（本书阈值 $<$ 6.0）；post-period donor 自身不受事件影响。
+
+**Python 实现** scipy.optimize.minimize 求解约束二次规划，完整代码见 [code/synth_control.py](/books/sushi-trajectory/code/synth_control.py)。
+
+**典型失效** donor 与 target 同源（佛家 target + 禅 donor）；donor 太少导致 pre 拟合差；Placebo p 值在 9 个 donor 上排位粗糙（p 只能取 0.1 / 0.2 / 0.3 等离散值）。
+
+</MethodCard>
+
+---
+
+## 4.7 本章知识地图
+
+| 核心概念                  | 核心内容                                  | 常见误解                  | 为什么错                                                  |
+|:--------------------------|:------------------------------------------|:--------------------------|:----------------------------------------------------------|
+| donor pool                | 用其他稳定概念加权拟合目标                | 以为越多越好              | donor 与目标相关性高会反向污染                            |
+| 权重非负与归一            | 凸组合约束                                | 以为可以负权              | 负权会让反事实超出可观测范围                              |
+| 反事实轨迹                | 用 pre 权重外推 post                      | 以为 post 永远适用        | 距 treatment 越远不确定性越大                             |
+| Placebo 检验              | 用 donor 当假 target 算 p 值              | 以为 t 检验就够           | 单被试小样本 t 检验无意义，必须 Placebo                   |
+| D8 三教 $+5.86$           | 合成控制最强信号                          | 以为 ITS 没看到就是无效应 | ITS 看 level shift，合成控制看累积偏离                    |
+| 贬谪在合成控制下消失      | 与 ITS 矛盾                               | 以为方法学故障            | donor 选择的副作用，君臣 donor 抵消了上升                 |
+
+<Subtext>表 4.3 · 第 4 章核心概念与常见误解。</Subtext>
+
+---
+
+<References>
+	<ReferencesLink
+		title="The Economic Costs of Conflict: A Case Study of the Basque Country" author="Alberto Abadie & Javier Gardeazabal (2003)" href="https://www.aeaweb.org/articles?id=10.1257/000282803321455188"
+	/>
+	<ReferencesLink
+		title="Synthetic Control Methods for Comparative Case Studies" author="Alberto Abadie, Alexis Diamond & Jens Hainmueller (2010)" href="https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08746"
+	/>
+	<ReferencesLink
+		title="《东坡乌台诗案》" author="朋九万 编" href="https://book.douban.com/subject/3023058/"
+	/>
+</References>

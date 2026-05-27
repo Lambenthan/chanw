@@ -1,0 +1,166 @@
+---
+title: "Silicon sample 的生成流程：prompt 设计与 LLM 调用"
+description: "三步流水线把 100 persona 喂给 Claude 模型扮演；三层 prompt 结构、闭合选项约束、避免 leakage 的设计原则、subagent vs API 的权衡。"
+book: "silicon-social-science"
+chapterNumber: 2
+chapterLabel: "第 2 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["AI 方法论", "LLM 问卷", "Prompt 工程"]
+---
+
+<ChapterAudience>
+
+把 silicon respondent 是怎么"造"出来的全流程拆开讲清楚。读者照本章的步骤跑一遍代码，就能在自己的 Claude 配额上复制出与本书 `data/silicon_answers.csv` 量级一致的输出。
+
+</ChapterAudience>
+
+<IntroParagraph>第 1 章把研究问题、数据集、persona 抽样设计交代清楚。本章下沉到生成端：从 100 行人口学画像到 300 个 silicon 答案，中间经过 prompt 设计、模型调用、答案解析三个环节。每一环都决定 silicon answers 的稳健性。</IntroParagraph>
+
+## 2.1 三个生成步骤
+
+整个 silicon sample 的生成过程是三步流水线。
+
+**第一步**：从 GSS 数据抽出 100 个 persona，每个 persona 是一行 8 列的人口学画像（age / sex / race / region / degree / income / relig / marital）。这一步在第 1 章完成，输出是 `data/gss_personas.csv`。
+
+**第二步**：对每个 persona 构造 prompt，请 Claude 模型扮演这个人，依据画像盲推 3 道题的回答。这是本章的核心。
+
+**第三步**：把 100 × 3 = 300 个 silicon 回答汇总到 `silicon_answers.csv`，作为后续章节分析的输入。
+
+把这三步分开是为了让 prompt 设计、模型选择、回答解析三个环节各自可独立审查。Bisbee 等 2024 论文反驳 Argyle 的核心论点就是 prompt 设计不稳健，分步设计有利于诊断到底哪一步出了问题。
+
+---
+
+## 2.2 Prompt 的三层结构
+
+本书使用的 prompt 设计有三层。
+
+**系统提示层**（system prompt）告诉 LLM 它现在的角色是"扮演一个具体的美国受访者，依据给出的人口学画像盲推他/她的态度题答案"。该层是固定模板，所有 100 persona 共享。
+
+**画像层**（persona description）把当前 persona 的 8 项人口学画像翻译为自然语言描述，例如"55 岁、白人男性、住在西南部、高中学历、年收入 \$45,000、新教徒、已婚"。该层逐 persona 变化。
+
+**题目层**（question with options）列出当前要回答的题目英文原文加所有可选答案。要求 LLM 只输出选项标签，不要自由发挥。该层逐题变化。
+
+### 2.2.1 本书使用的具体 prompt 模板
+
+```r
+SYSTEM_PROMPT <- "You are simulating an American survey respondent from
+the General Social Survey 2016. You will be given that respondent's
+demographic profile and must answer attitudinal questions as you believe
+that person most likely would. Use only the answer labels provided.
+Do not provide explanations."
+
+PERSONA_TMPL  <- "Profile: {age} years old, {sex}, {race},
+living in the {region} region of the US, {degree} education,
+income approximately {income}, {religion}, {marital}."
+
+QUESTION_TMPL <- "Question: {question_en}
+Options: {options}
+Answer (one option only):"
+```
+
+该模板的设计有三处关键决策。首先，系统提示要求**依据画像**推断，不要让模型自己编造受访者背景；其次，画像模板用自然语言而非键值对，因为 Bisbee 2024 报告"自然语言画像比结构化键值对让 LLM 更稳定"；最后，问题模板严格列出选项标签，强制模型在闭合集合内选择，避免开放生成偏离 GSS codebook。
+
+---
+
+## 2.3 为什么不让 LLM 看真实回答列
+
+本书的核心检验是 algorithmic fidelity，LLM 在不知道真实答案的情况下，能不能从人口学画像盲推出与真实答案近似的分布。这一检验只在"测试集 leakage = 0"的条件下才有意义。
+
+`data/gss_personas.csv` 里既含人口学画像也含真实回答（来自 GSS 原数据），但 prompt 只给 LLM 看人口学列，把真实答案列隐藏。该设计在子 agent 的指令里明确写出"不要看 persona 文件里的真实回答列做参考"。该约束类似 ML 训练里的 train / test split，确保 silicon 答案与真实答案的差异是 LLM 推断出来的差异，不是它"作弊"看了答案。
+
+<Pitfall title="让 LLM 看到真实答案做 silicon 推断">
+
+有的研究为了"提高准确率"会在 prompt 里塞入"该 persona 上次回答 X"这种历史信息，得到的 silicon answer 与真实答案相关性高，但这不是 algorithmic fidelity，是 memorization replay。
+
+**为什么人们会踩坑**：直觉上"信息越多越准"，把历史信息塞进 prompt 看起来无害。
+
+**失效机制**：silicon sample 的研究价值在于"LLM 能不能从人口学盲推态度"。一旦 prompt 里有真实答案的近邻信息，准确率反映的是 LLM 的模式匹配而非代理人理解，后续基于该 silicon 的研究主张全部失效。
+
+**诊断方法 / 稳健替代**：训练/测试 split 严格化，prompt 只能用人口学协变量，绝不能用任何 outcome 维度的历史信息。如果要测 LLM 的个人化校准，必须在独立 holdout 样本上验证。
+
+</Pitfall>
+
+---
+
+## 2.4 Subagent 调用方式
+
+本书的 silicon sample 不通过 anthropic Python SDK 直接调 API，而是借助 Claude Code 的 `Task` 工具，让一个 general-purpose subagent 读 personas.csv 加 questions.csv，按上面的 prompt 模板逐 persona 生成 3 道题答案，最后写入 silicon_answers.csv。
+
+该设计的好处是不需要 ANTHROPIC_API_KEY，整个流程在 Claude Code 内完成；坏处是缺乏对 temperature、top_p、max_tokens 等采样参数的精确控制。读者若做严肃研究，建议切换到 Anthropic Python SDK，把每次调用的 `temperature = 0` 固定，保证 silicon answer 可复现。本书的演示规模（100 × 3 = 300 次推理）用 subagent 已足够。
+
+### 2.4.1 答案解析
+
+LLM 给出的回答必须严格匹配 GSS codebook 里的选项标签。例如 polviews 必须是 7 个标签中的一个，不能是 "very liberal"（小写）或 "Liberal-ish"（变体）。本书在子 agent 的指令里明确列出每题的选项集合，约束 LLM 只能输出集合内字符串。最终 silicon_answers.csv 的 polviews_silicon 列里 100 行都是 7 个标签之一，无变体。
+
+少数 ambiguous case（如不知道 Hispanic 是 Other race 在 GSS 里默认 vote pattern 偏哪一方）让 LLM 报告，本书在该 ambiguous case 的处理上是"取模型最高似然估计"，不做后处理纠正。读者复现时会得到几乎相同的边际分布，个体级 5–10 行的小幅波动是采样随机性，不影响总体诊断结论。
+
+完整代码外链 [code/01_analyze.R](/books/silicon-social-science/code/01_analyze.R)。
+
+---
+
+## 2.5 Silicon answers 的边际分布速览
+
+跑完后立刻看 silicon 三题的边际。
+
+| 题       | 选项                       | count |
+|:---------|:---------------------------|------:|
+| happy    | Pretty Happy               |    81 |
+|          | Very Happy                 |    13 |
+|          | Not Too Happy              |     6 |
+| polviews | Moderate                   |    71 |
+|          | Conservative               |    10 |
+|          | Slightly Conservative      |     7 |
+|          | Slightly Liberal           |     7 |
+|          | Liberal                    |     5 |
+|          | Extremely Lib / Cons       |     0 |
+| partyid  | Strong Democrat            |    35 |
+|          | Not Str Democrat           |    28 |
+|          | Independent                |    18 |
+|          | Not Str Republican         |    12 |
+|          | Strong Republican          |     7 |
+|          | Ind,near Dem / Rep / Other |     0 |
+
+<Subtext>表 2.1 · Silicon answers 边际分布（n = 100）。</Subtext>
+
+直接的肉眼观察：silicon 在 polviews 上 71% 落在 Moderate，两端 Extremely 档完全无人选择；partyid 上 4 档独立派加其他党全为零。这两个分布特征与第 3 章的 GSS 真实分布对比将给出本书最重要的方法学发现。
+
+---
+
+## 2.6 诊断指标累积对比表
+
+| 章      | 诊断指标         | 尺度    | 回答的问题             |
+|:--------|:-----------------|:--------|:-----------------------|
+| 第 1 章 | ——（导论）        | ——      | 数据与设计的合理性     |
+| 第 2 章 | silicon 生成流程 | 流程图  | 如何复现 silicon sample |
+
+<Subtext>表 2.2 · 诊断指标累积表（截至第 2 章）。</Subtext>
+
+---
+
+## 2.7 本章知识地图
+
+| 核心概念             | 核心内容                         | 常见误解            | 为什么错              |
+|:---------------------|:---------------------------------|:--------------------|:----------------------|
+| 三层 prompt          | 系统加画像加题目                  | 以为单层 prompt 即可 | Bisbee 报告稳健性差   |
+| 自然语言画像         | 散文比键值对稳                    | 以为格式化更好      | 与 LLM 训练分布更近   |
+| 闭合选项约束         | 强制选标签                        | 以为可自由生成      | 自由生成偏离 codebook |
+| 避免 leakage         | 不喂真实答案                      | 以为信息越多越好    | 变成 memorization     |
+| Subagent vs API      | Task 工具足够                     | 以为必须 SDK        | 演示规模无差异        |
+| Temperature = 0      | 确定性输出                        | 以为 1.0 更"真实"    | 1.0 让结果不可复现    |
+| 100 persona × 3 题   | 300 次推理                        | 以为成本天价        | 实际 1-2 美元         |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Replacements for Human Survey Data? The Perils of Large Language Models" author="Bisbee, Clinton, Dorff, Kenkel & Larson (2024)" href="https://www.cambridge.org/core/journals/political-analysis/article/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models/B92267DC26195C7F36E63EA04A47D2FE"
+	/>
+	<ReferencesLink
+		title="Out of One, Many: Using Language Models to Simulate Human Samples" author="Argyle et al. (2023)" href="https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49"
+	/>
+	<ReferencesLink
+		title="Anthropic API Documentation" author="Anthropic" href="https://docs.anthropic.com/"
+	/>
+</References>

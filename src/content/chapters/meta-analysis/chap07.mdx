@@ -1,0 +1,205 @@
+---
+title: "亚组分析与 meta 回归"
+description: "把研究间异质性用研究层级协变量解释；分配方式 alloc 不显著（Q_M p=0.41），但纬度 ablat 一个变量就解释 R²=75.6%；条件 RR 从赤道的 0.88 到北纬 55° 的 0.26，提示临床应分层报告。"
+book: "meta-analysis"
+chapterNumber: 7
+chapterLabel: "第 7 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["Meta 分析", "亚组分析", "meta 回归", "生态谬误"]
+---
+
+<ChapterAudience>
+
+理解亚组分析与 meta 回归的关系：前者是后者的离散化特例；学会用 `mods` 参数把研究层级协变量喂给 `rma`；用纬度 `ablat` 解释 `dat.bcg` 的研究间方差；用分配方式 `alloc` 检验亚组差异；警惕协变量过拟合 ——13 项研究里加几个协变量已是上限。
+
+</ChapterAudience>
+
+<IntroParagraph>第 6 章给出 $I^2 = 92\%$、$\tau^2 = 0.31$，意味着 13 项 BCG 试验之间的真实效应差异极大。本章的任务是把这种差异**用协变量解释**。如果我们能找到一个研究层级的变量，使得在该变量条件下不同研究的真实效应趋于一致，那么 $\tau^2$ 就会显著下降，meta 分析的合并均值也能换成"在协变量取某个值时的条件均值"，比单一全球平均更有临床意义。</IntroParagraph>
+
+## 7.1 亚组分析与 meta 回归的关系
+
+亚组分析是按某个离散协变量（如分配方式 `alloc`）把研究分组，每组单独跑随机效应模型。Meta 回归是把协变量（离散或连续）作为自变量进入回归方程。两者的本质相同：都是用研究层级协变量解释 $\hat{y}_i$。亚组分析是 meta 回归在分类协变量上的特例。
+
+<Definition number="7.1" title="Meta 回归">
+
+在随机效应模型基础上加入研究层级协变量 $x_i$：
+
+$$
+\hat{y}_i = \beta_0 + \beta_1 x_i + u_i + \varepsilon_i,
+\quad u_i \sim N(0, \tau^2_{\text{res}}),
+\quad \varepsilon_i \sim N(0, v_i).
+$$
+
+$\beta_1$ 是协变量的回归系数，$\tau^2_{\text{res}}$ 是**残差异质性**，即协变量未能解释的研究间方差。模型用加权回归（权重 $1 / (v_i + \tau^2_{\text{res}})$）迭代估计，可加入多个协变量。
+
+</Definition>
+
+$\beta_1$ 的解读类似线性回归：$x$ 每增加一个单位，效应量（log RR）平均变化 $\beta_1$。$\tau^2_{\text{res}}$ 与基线模型的 $\tau^2_{\text{base}}$ 之差就是协变量**解释掉的异质性**，常用比例 $R^2 = 1 - \tau^2_{\text{res}} / \tau^2_{\text{base}}$ 报告（meta 分析里的 $R^2$ 与传统线性回归 $R^2$ 含义类似但定义略不同）。
+
+---
+
+## 7.2 亚组分析：按分配方式 alloc
+
+`dat.bcg` 的 `alloc` 列记录了每项研究的随机化方式：`random`（标准随机化）、`alternate`（按入院顺序交替分配，方法学等级偏低）、`systematic`（按某种系统规则分配，比如按出生日期）。13 项研究里 7 项是 `random`，2 项 `alternate`，4 项 `systematic`。理论上 `random` 的偏倚风险最低，结果应当最可信。
+
+```r
+re_random     <- rma(yi, vi, subset = (alloc == "random"),
+                     data = es, method = "REML", test = "knha")
+re_alternate  <- rma(yi, vi, subset = (alloc == "alternate"),
+                     data = es, method = "REML", test = "knha")
+re_systematic <- rma(yi, vi, subset = (alloc == "systematic"),
+                     data = es, method = "REML", test = "knha")
+```
+
+三个亚组的合并结果如下：
+
+| alloc      | $k$ | 合并 logRR | 合并 RR (95% CI)      | 解读                              |
+|:-----------|:---:|-----------:|:----------------------|:----------------------------------|
+| random     |  7  | $-0.971$   | 0.379 (0.20, 0.70)    | 标准随机化下 BCG 把风险压低 62%   |
+| alternate  |  2  | $-0.541$   | 0.582 (0.02, 20.85)   | 仅 2 项研究，CI 失去意义          |
+| systematic |  4  | $-0.424$   | 0.654 (0.21, 2.09)    | 4 项研究，CI 跨过 1               |
+
+<Subtext>表 7.1 · 按 alloc 亚组的随机效应合并。</Subtext>
+
+从点估计看，`random` 亚组保护效应最强（$\mathrm{RR} = 0.38$），`systematic` 亚组弱很多（$\mathrm{RR} = 0.65$）。但 `alternate` 组仅 2 项研究，$\tau^2$ 估计极不稳定，CI 宽到 $[0.02,\ 20.85]$，几乎不携带信息。Cochrane Handbook 推荐亚组分析每组至少 3 项研究，`alternate` 组实际上不该单独报。
+
+### 7.2.1 亚组之间的差异检验
+
+亚组结果摆出来后，下一个问题是：三个亚组的合并均值差异是不是统计上显著？metafor 通过 `mods = ~ alloc` 把 `alloc` 当作分类 moderator 喂进模型，得到组间差异检验。
+
+```r
+re_alloc <- rma(yi, vi, mods = ~ alloc, data = es,
+                method = "REML", test = "knha")
+```
+
+组间差异检验给出 $Q_M = 0.97$，$df = 2$，$p = 0.413$。在 $\alpha = 0.05$ 水平下，`alloc` 不能解释 13 项研究的异质性。点估计上 `random` 确实保护效应更强，但样本量不足以让差异显著。
+
+---
+
+## 7.3 Meta 回归：纬度 ablat
+
+`alloc` 没解释掉异质性，让我们试连续变量 `ablat`。第 1 章的散点图已经预告：纬度越高，BCG 保护效应越强。本节把这个观察用 meta 回归正式化。
+
+```r
+re_ablat <- rma(yi, vi, mods = ~ ablat, data = es,
+                method = "REML", test = "knha")
+print(re_ablat)
+```
+
+截距 $\beta_0 = 0.252$（赤道处的预期 log RR，对应 $\mathrm{RR} = 1.29$），斜率 $\beta_1 = -0.0291$，$t_{11} = -3.55$，$p = 0.0046$。95% CI $[-0.0472,\ -0.0111]$。意思是纬度每增加 1 度，log RR 下降 0.029，对应 $\mathrm{RR}$ 乘以 $\exp(-0.029) \approx 0.97$。从赤道到北纬 50 度，$\mathrm{RR}$ 累计变化 $\exp(-0.029 \times 50) \approx 0.23$ 倍，是个巨大的效应修饰。
+
+最关键的数字是 $\tau^2$ 的变化。基线 $\tau^2_{\text{base}} = 0.313$，加入 `ablat` 后残差 $\tau^2_{\text{res}} = 0.076$。$R^2 = 1 - 0.076/0.313 = 75.6\%$。**单单一个纬度变量，就解释了超过四分之三的研究间异质性**。这是临床流行病学里 meta 回归的经典展示，由 Colditz et al. 1994 首次报告。
+
+### 7.3.1 Bubble plot：协变量与效应的散点
+
+Meta 回归的标准可视化是 bubble plot，横轴是协变量、纵轴是效应估计、点的大小代表权重。metafor 没有内置 `bubble.plot` 函数，需要手动用 `ggplot2` 画。下面这段代码画 `ablat` vs $\hat{y}_i$ 的 bubble plot，加上回归拟合线与 95% 置信带。
+
+```r
+pred_x <- seq(min(es$ablat), max(es$ablat), length.out = 100)
+pred_y <- predict(re_ablat, newmods = pred_x)
+
+ggplot(es, aes(x = ablat, y = yi)) +
+  geom_ribbon(data = data.frame(x = pred_x,
+                                lo = pred_y$ci.lb,
+                                hi = pred_y$ci.ub),
+              aes(x = x, ymin = lo, ymax = hi),
+              fill = "#EF6548", alpha = 0.15,
+              inherit.aes = FALSE) +
+  geom_line(data = data.frame(x = pred_x, y = pred_y$pred),
+            aes(x = x, y = y), color = "#EF6548",
+            inherit.aes = FALSE) +
+  geom_point(aes(size = 1 / (vi + 0.076)),
+             color = "#4292C6", alpha = 0.85) +
+  labs(x = "绝对纬度（度）", y = "log RR")
+```
+
+<FullWidthSection>
+
+![Bubble plot 展示纬度对 log RR 的影响。气泡大小与随机效应权重成正比；红色实线为 meta 回归拟合，浅红带为 95% CI。13 项研究沿一条向下的斜率分布，R²=75.6%。](/books/meta-analysis/figure/chap07_bubble_ablat.png)
+
+<Subtext>图 7.1 · 纬度 vs log RR 的 bubble plot。</Subtext>
+
+</FullWidthSection>
+
+为什么纬度能解释这么多？Colditz 1994 给出的生物学解释是：BCG 是把活的减毒分枝杆菌打进人体诱导免疫记忆，但低纬度热带地区的环境里有大量与结核分枝杆菌长得很像的非结核分枝杆菌，当地居民从小通过呼吸、皮肤接触等渠道暴露在这些"近亲"细菌里，免疫系统已经"自然认识"了结核杆菌的家族特征。BCG 多打一针的边际收益就很有限。高纬度地区缺乏这种环境暴露，BCG 才能从零开始建立免疫。这是一个生物学假设，meta 回归只是给这个假设提供数字支持。
+
+<Pitfall title="生态谬误">
+
+Meta 回归用的是**研究层级**的协变量与**研究层级**的效应，结论严格来说也只在研究层级成立。把"纬度每增加 1 度 log RR 下降 0.029"误解成"个体层纬度每增加 1 度个体的 log RR 下降 0.029"，是著名的生态谬误（ecological fallacy）。BCG 数据里"纬度"的真实角色是研究开展地点的总体特征（环境暴露、人群构成、疫苗株系）的一个代理，与个体的纬度位置无关。
+
+**诊断方法**：报 meta 回归结论时必须明确写"研究层级关联"，不能省略这个限定词。把研究层级关联误读为个体层级关联会得到错误的临床推广。
+
+</Pitfall>
+
+---
+
+## 7.4 多变量 meta 回归
+
+把 `ablat` 和 `alloc` 放进同一个回归看。
+
+```r
+re_joint <- rma(yi, vi, mods = ~ ablat + alloc, data = es,
+                method = "REML", test = "knha")
+print(re_joint)
+```
+
+联合模型给出 `ablat` 系数 $-0.0273$（$p = 0.0186$），`alloc` 各类型系数都不显著。$R^2 = 53.8\%$，反而比仅 `ablat` 模型的 75.6% 低。原因是联合模型多了 2 个 alloc 类别参数，REML 在小样本（$k = 13$）下对噪声敏感，加入不重要的协变量会让 $\tau^2_{\text{res}}$ 估计反弹。
+
+这是 meta 回归的实务规则：**协变量个数应远小于研究数**。Borenstein 与 Higgins 2013 推荐每 10 项研究最多加 1 个协变量。13 项研究的上限就是 1 个连续协变量加 1 个二分类协变量。BCG 数据上单变量 ablat 模型已经解释了 75.6%，足够强；继续加变量会过拟合。
+
+<Pitfall title="Meta 回归过拟合">
+
+Meta 回归过拟合是研究数 $k$ 小时的常见错误。每加一个协变量，模型多估一个系数，$\tau^2_{\text{res}}$ 的稳定性下降。$k = 13$ 时加 3 个协变量已经接近极限，加 5 个就开始拟合噪声。
+
+**诊断方法**：识别过拟合有两条信号 ——$R^2$ 反而下降（如本章 `ablat` + `alloc` 模型）；个别协变量的 $p$ 值剧烈波动（加入或剔除其他协变量会让 $p$ 值从 0.01 跳到 0.5）。
+
+**稳健做法**：预先指定 1–2 个最关键协变量，不做"加几个看看"的探索式回归。
+
+</Pitfall>
+
+---
+
+## 7.5 条件 RR 报告
+
+Meta 回归的合并 RR 不是单一的"全球平均"，而是某个 `ablat` 取值下的条件均值。报告时通常给出协变量在几个有意义的取值（如样本两个端点与中位数）下的条件 RR。
+
+```r
+# 在 ablat = 13°（赤道）, 33°（中位数）, 55°（高纬度）上的条件均值
+predict(re_ablat, newmods = c(13, 33, 55), transf = exp)
+```
+
+输出（含 95% CI）：
+
+| 纬度          | 条件 RR | 95% CI         | 临床解读                  |
+|:--------------|--------:|:---------------|:--------------------------|
+| 13° （赤道附近） |    0.88 | (0.58, 1.35)   | CI 跨过 1，效果不显著     |
+| 33° （中位数）   |    0.49 | (0.38, 0.64)   | 风险减半                  |
+| 55° （高纬度）   |    0.26 | (0.16, 0.43)   | 风险压到原来的四分之一    |
+
+<Subtext>表 7.2 · Meta 回归在三个纬度上的条件 RR。</Subtext>
+
+把"全球平均 $\mathrm{RR} = 0.49$"换成"赤道附近 $\mathrm{RR} \approx 0.88$、中纬度 $\mathrm{RR} \approx 0.49$、高纬度 $\mathrm{RR} \approx 0.26$"，临床决策上更可操作。第 6 章累积对比表里 RE-REML+HK 的全球 $\mathrm{RR} = 0.49$ 是中纬度场景的近似，赤道地区的实际效果可能完全不同。第 10 章会把这件事写进 GRADE 评级。
+
+---
+
+## 7.6 本章小结
+
+$\tau^2 = 0.31$ 被纬度解释了 75.6%，研究间差异不再是黑箱。下一章检查 meta 分析方法学的另一个隐患：13 项研究是不是就是全部？还是有一些阴性结果根本没发表？这是**发表偏倚**问题。
+
+完整运行版本见 [code/chap07.R](/books/meta-analysis/code/chap07.R)。
+
+---
+
+<References>
+	<ReferencesLink
+		title="Efficacy of BCG vaccine in the prevention of tuberculosis: meta-analysis of the published literature" author="Colditz, G. A., Brewer, T. F., Berkey, C. S. et al. (1994), JAMA, 271(9):698–702" href="https://jamanetwork.com/journals/jama/article-abstract/365926"
+	/>
+	<ReferencesLink
+		title="Meta-regression" author="Borenstein, M. & Higgins, J. P. T. (2013), Prevention Science, 14(2):134–143" href="https://link.springer.com/article/10.1007/s11121-013-0377-7"
+	/>
+	<ReferencesLink
+		title="Conducting Meta-Analyses in R with the metafor Package" author="Viechtbauer, W. (2010), Journal of Statistical Software, 36(3):1–48" href="https://www.jstatsoft.org/article/view/v036i03"
+	/>
+</References>

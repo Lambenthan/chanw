@@ -1,0 +1,183 @@
+---
+title: "个体级准确率：exact match 与 ordinal MAE"
+description: "Exact match ACC 24--50%；Ordinal MAE 把近邻错与远端错区分；partyid 个体准确率仅 24%；silicon 在 happy 和 polviews 上输给 modal baseline。"
+book: "silicon-social-science"
+chapterNumber: 4
+chapterLabel: "第 4 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["AI 方法论", "LLM 问卷", "精度评估"]
+---
+
+<ChapterAudience>
+
+把 silicon 与真实回答逐个 persona 对比，给出 exact match 准确率与 ordinal MAE；用 confusion matrix 直观展示 silicon 在每个真实选项上的分配模式；最后引出本书第二条关键发现：partyid 的个体准确率只有 24%，但 silicon 在 happy 和 polviews 上反而打不过最朴素的众数预测基线。
+
+</ChapterAudience>
+
+<IntroParagraph>第 3 章测的是群体级分布距离。本章下沉到个体级，每一行 persona，silicon 给出的回答与该 persona 真实的回答是否一致？这是 algorithmic fidelity 第二层（精保真度）的最直接测量。</IntroParagraph>
+
+## 4.1 Exact match：最严格的准确率
+
+<Definition number="4.1" title="Exact Match Accuracy">
+
+对 $n$ 个 persona，每个 persona 在题 $q$ 上有真实回答 $y_i$ 和 silicon 回答 $\widehat{y}_i$。Exact match accuracy 是
+
+$$
+\mathrm{ACC}_{\mathrm{exact}}
+   = \frac{1}{n} \sum_{i=1}^{n} \mathbb{1}\{ \widehat{y}_i = y_i \},
+$$
+
+其中 $\mathbb{1}\{\cdot\}$ 是指示函数。该量度不考虑选项之间的距离，silicon 答 Strong Democrat 而真实是 Strong Republican 算 0 分，silicon 答 Not Str Democrat 而真实是 Strong Democrat 也算 0 分。
+
+</Definition>
+
+其中 $y_i$ 是真实回答，$\widehat{y}_i$ 是 silicon 回答，$n = 100$ 是 persona 数。exact match 是最严格的二值打分。
+
+### 4.1.1 三题的 exact match 结果
+
+```r
+acc <- function(real, silicon) mean(real == silicon, na.rm = TRUE)
+c(happy    = acc(df$happy,    df$happy_silicon),
+  polviews = acc(df$polviews, df$polviews_silicon),
+  partyid  = acc(df$partyid,  df$partyid_silicon))
+# happy    polviews    partyid
+# 0.500   0.323       0.240
+```
+
+| 题       | 档数 | Exact ACC |
+|:---------|-----:|----------:|
+| happy    | 3    | 50.0%     |
+| polviews | 7    | 32.3%     |
+| partyid  | 8    | 24.0%     |
+
+<Subtext>表 4.1 · 三题个体级 exact match 准确率。</Subtext>
+
+档数越多，准确率越低。这是一个直接的实证发现。如果 silicon 完全随机均匀猜测，准确率应当是 $1/K$，即 happy 33.3%、polviews 14.3%、partyid 12.5%。silicon 的准确率比随机猜测高 12--17 个百分点，LLM 确实"读懂了"人口学画像对 attitude 的影响，但准确率远低于"近似真实受访者"应有的水平。
+
+---
+
+## 4.2 Ordinal MAE：考虑选项之间的距离
+
+happy 和 polviews 是 ordinal 量表（有方向且有距离含义），partyid 名义上是 ordinal（民主党到独立到共和党）但实际是 categorical。对 ordinal 量表，exact match 把"近邻错"当 0 分太严，应该用 Mean Absolute Error 衡量错的距离。
+
+<Definition number="4.2" title="Ordinal Mean Absolute Error, MAE">
+
+把 ordinal 量表的 $K$ 个选项编码为整数 $1, 2, \ldots, K$。Ordinal MAE 是
+
+$$
+\mathrm{MAE} = \frac{1}{n} \sum_{i=1}^{n} \left| \mathrm{ord}(\widehat{y}_i) - \mathrm{ord}(y_i) \right|,
+$$
+
+其中 $\mathrm{ord}(\cdot)$ 是把选项映射到整数的函数。MAE = 0 表示完全一致，MAE = 1 表示平均偏差 1 档。
+
+</Definition>
+
+| 题       | Ordinal MAE |
+|:---------|------------:|
+| happy    | 0.54        |
+| polviews | 1.18        |
+| partyid  | 2.04        |
+
+<Subtext>表 4.2 · 三题 Ordinal MAE。</Subtext>
+
+happy 的 MAE 0.54 是 silicon 平均偏离真实 0.54 档；polviews 1.18 是平均偏 1 档多；partyid 2.04 是平均偏 2 档以上。partyid 的 MAE 大是因为 silicon 把若干 Independent 判成 Strong Democrat（远端错），这种远端错在 MAE 里被严重惩罚，比 exact ACC 24% 反映的失败程度更尖锐。
+
+---
+
+## 4.3 Confusion Matrix：silicon 错在哪里
+
+![polviews 的 confusion-style heatmap。横轴 silicon 回答，纵轴真实回答。每格是该真实选项下 silicon 给出的回答比例。](/books/silicon-social-science/figure/chap04_confusion_polviews.png)
+
+<Subtext>图 4.1 · polviews 的 confusion heatmap。</Subtext>
+
+![partyid 的 confusion matrix。silicon 在 Independent 真实档上把 39% 判到 Strong Democrat（远端错），是 partyid MAE 2.04 偏高的主因。](/books/silicon-social-science/figure/chap04_confusion_partyid.png)
+
+<Subtext>图 4.2 · partyid 的 confusion matrix。</Subtext>
+
+![happy 的 confusion matrix。silicon 把 80% 真实 Very Happy 判成 Pretty Happy（保守的中间偏移），少量 Not Too Happy 也压向 Pretty Happy。](/books/silicon-social-science/figure/chap04_confusion_happy.png)
+
+<Subtext>图 4.3 · happy 的 confusion matrix。</Subtext>
+
+三张 confusion matrix 给出统一的模式：silicon 的错误明显偏向中间档，在每题上都呈现非均匀的方向性分布。happy 的错误模式是把 Very Happy 与 Not Too Happy 都压向 Pretty Happy；polviews 的错误把所有非 Moderate 真实档都拉向 Moderate；partyid 的错误把若干独立倾向受访者拉向 Strong Democrat（这一现象在第 5 章 race × sex 子群分析中会进一步分解）。
+
+---
+
+## 4.4 Silicon 准确率与随机猜测的差距
+
+直觉的对照基线是随机猜测。如果 silicon 是 zero-information 随机猜，准确率应当是 $1/K$。
+
+| 题       | silicon ACC | 随机猜测 | 差距       |
+|:---------|------------:|---------:|-----------:|
+| happy    | 50.0%       | 33.3%    | +16.7 pp   |
+| polviews | 32.3%       | 14.3%    | +18.0 pp   |
+| partyid  | 24.0%       | 12.5%    | +11.5 pp   |
+
+<Subtext>表 4.3 · silicon vs 随机猜测。</Subtext>
+
+silicon 在三题上都比随机猜测高 11--18 个百分点。这表明 LLM 确实从人口学画像里抓到了信号——白人福音派老人更可能是共和党、年轻黑人女性更可能是民主党等模式被 LLM 学到了。但准确率仍远低于"近似真实受访者"应有的水平，例如人类调查员给定同样画像也很难达到 50% partyid 正确率（GSS 文献里关于"demographic predictor of partyid"的 OLS R² 通常不超过 30%）。
+
+### 4.4.1 再换一个对照基线：modal baseline
+
+更严格的对照是 modal baseline，把每个 persona 都判为该题最常见的选项。modal baseline 是"零模型加人口学先验"的下界。
+
+| 题       | silicon ACC | modal baseline | 差距     |
+|:---------|------------:|---------------:|---------:|
+| happy    | 50.0%       | 56.0%          | $-6.0$ pp |
+| polviews | 32.3%       | 37.4%          | $-5.1$ pp |
+| partyid  | 24.0%       | 17.5%          | $+6.5$ pp |
+
+<Subtext>表 4.4 · silicon vs modal baseline。</Subtext>
+
+silicon 在 happy 与 polviews 上甚至不如 modal baseline，这两题如果不做 silicon 就盲猜众数（happy 全猜 Pretty Happy / polviews 全猜 Moderate），准确率反而更高。只有 partyid 上 silicon 比 modal baseline 高 6.5 个百分点，说明 LLM 在党派题上抓住了 race / region 的信号。
+
+<Pitfall title="把 silicon ACC 高于随机猜测当作「silicon work」的证据">
+
+silicon ACC 高于 $1/K$ 是平凡的，只要 LLM 不是完全乱猜，准确率自然 above-random。真正的对照基线是 modal baseline 或 demographics-only logistic regression。
+
+**为什么人们会踩坑**：随机基线最直观、最熟悉，论文里报"silicon 比随机猜高 X 百分点"看起来很有说服力。
+
+**失效机制**：随机基线对多档 ordinal 量表过于宽松，silicon 哪怕只学了一个简单的"全选中央档"策略，准确率也能超过随机基线。
+
+**诊断方法 / 稳健替代**：报告 modal baseline 加简单 logistic regression baseline。silicon 真正 work 的判据是它能击败这两个基线，否则它的贡献只是"贵的众数预测"。
+
+</Pitfall>
+
+---
+
+## 4.5 诊断指标累积对比表
+
+| 章      | 诊断指标         | 尺度              | 回答的问题             |
+|:--------|:-----------------|:------------------|:-----------------------|
+| 第 1 章 | ——（导论）        | ——                | 数据与设计的合理性     |
+| 第 2 章 | silicon 生成流程 | 流程图            | 如何复现 silicon sample |
+| 第 3 章 | TVD 边际距离     | $[0,1]$           | 群体级分布是否对齐     |
+| 第 4 章 | Exact ACC + MAE  | $[0,1]$ + ord     | 个体级匹配             |
+
+<Subtext>表 4.5 · 诊断指标累积表（截至第 4 章）。</Subtext>
+
+---
+
+## 4.6 本章知识地图
+
+| 核心概念             | 核心内容                  | 常见误解              | 为什么错                       |
+|:---------------------|:--------------------------|:----------------------|:-------------------------------|
+| Exact Match ACC      | 严格相等才算对            | 以为反映个体一致性    | 太严，忽略近邻                 |
+| Ordinal MAE          | 平均距离                  | 以为可对 nominal 用    | 仅 ordinal 适用                |
+| Confusion matrix     | 错误流向直观              | 以为只看对角线        | 偏离方向同样重要               |
+| Modal baseline       | 人口学先验下界            | 以为是 trivial         | silicon 在 happy/polviews 都输 |
+| Random baseline      | $1/K$ 太宽松              | 以为是合理对照        | 几乎所有方法都能赢             |
+| Partyid MAE 2.04     | 远端错占主导              | 以为是 nominal 限制    | 是 silicon 把独立派归 Dem      |
+| silicon 优势仅 partyid | 唯一击败 modal           | 以为通用胜            | 只在党派题有方向信号           |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Pattern Recognition and Machine Learning" author="Christopher M. Bishop (2006)" href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf"
+	/>
+	<ReferencesLink
+		title="Out of One, Many: Using Language Models to Simulate Human Samples" author="Argyle et al. (2023)" href="https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49"
+	/>
+</References>

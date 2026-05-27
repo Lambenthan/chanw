@@ -1,0 +1,139 @@
+---
+title: "问题与数据：GSS 2016 与 silicon respondent 设计"
+description: "Silicon sampling 的方法学起点、GSS 2016 子样本结构、100 persona 的 race × sex 分层抽样设计、贯穿全书的研究问题映射。"
+book: "silicon-social-science"
+chapterNumber: 1
+chapterLabel: "第 1 章"
+startDate: 2026-05-27
+updated: 2026-05-27
+type: "chapter"
+topics: ["AI 方法论", "LLM 问卷", "GSS"]
+---
+
+<ChapterAudience>
+
+把"让大语言模型扮演真实美国受访者"的研究路径从单篇论文整理成全书框架：理解 silicon sampling 的方法学谱系、GSS 2016 子样本的结构、为何按 race × sex 分层抽 100 persona、以及全书十章诊断指标如何逐章累积起来。
+
+</ChapterAudience>
+
+<IntroParagraph>把大语言模型放进社会科学研究有两条路径。第一条把 LLM 当作研究工具，用它做文本编码、摘要、翻译，处理研究者本来要靠手工标注完成的任务。第二条把 LLM 当作研究对象，让它扮演具体的人口学画像、回答问卷题目，把它的答案分布与真实受访者比对。后一条路径叫 silicon sampling，由 Argyle 等 2023 年在 Political Analysis 上首次系统提出，过去三年在 Nature、PNAS、Proceedings of NAS 等顶刊积累了一批研究。本书围绕这条路径展开，每章用一种方法对同一份 silicon sample 数据做诊断。</IntroParagraph>
+
+## 1.1 研究问题
+
+给定一个真实的社会调查数据集和一个大语言模型，三个核心问题贯穿本书。
+
+第一，**边际分布是否一致**。让 LLM 扮演 100 个真实受访者，它对每道题的整体回答分布与真实受访者的整体分布差多少？
+
+第二，**个体级匹配是否成立**。每一个具体 persona，LLM 给出的回答与该 persona 真实给出的回答在哪些题上一致、在哪些题上偏离？
+
+第三，**偏差是否系统性**。如果存在偏差，偏差在哪些人口学子群上最严重、在哪些题上最严重、偏向哪个方向？
+
+回答这三个问题，silicon sampling 才能从"看起来挺像"变成可严肃用于研究的方法。
+
+---
+
+## 1.2 Silicon Sampling 的历史脉络
+
+Argyle, Busby, Fulda, Gubler, Rytting & Wingate 2023 在 Political Analysis 上的论文是奠基性的。他们用 GPT-3 扮演 ANES 2012 / 2016 / 2020 的受访者，发现 LLM 能"代理"出与真实样本相似的群体级答案分布，称为 algorithmic fidelity。该论文给出了 silicon sample 这个术语，并提出三条主张：群体级保真度、社会画像级保真度、对真实研究主张的可复现性。
+
+Brand, Israeli & Ngwe 2023 在 NBER WP 上做了更严格的检验，让 LLM 扮演消费者做 conjoint experiment（联合分析），发现 LLM 给的 willingness-to-pay 与真实人类样本在某些产品类别上几乎一致，在另一些类别上差异显著。该研究首次把 silicon sample 推向营销学应用。
+
+Bisbee, Clinton, Dorff, Kenkel & Larson 2024 在 Political Analysis 反驳了 Argyle 的乐观结论，发现 GPT-3.5 / GPT-4 在 ANES feeling thermometer（情感温度计）题上的答案对 prompt 措辞极度敏感，微改一个词答案可以漂移 20 个百分点。该研究把 prompt sensitivity 作为 silicon sampling 的核心方法学问题摆上桌面。
+
+Salganik, Lundberg, Kindel et al. 2024 在 Nature 上报告 Fragile Families Challenge 的扩展实验，让 LLM 预测家庭轨迹结局，发现即使在大规模 fine-tuning 之后 LLM 在群体级仍有系统性偏差，比如低估非裔家庭的负面结局。
+
+这些工作合起来构成 silicon sampling 的方法学共识：群体级分布粗略可代理，个体级精度有限，子群偏差系统存在，prompt 敏感性高。本书在 GSS 2016 数据上把这四点用 100 persona 的小样本检验一遍，给读者一个可亲手复现的方法学手册。
+
+---
+
+## 1.3 贯穿数据集
+
+`data/gss_full.csv` 来自 R 包 socviz 内置的 `gss_sm`，是 General Social Survey（GSS）2016 年波次的 2867 行随机子样本，含 32 个变量。GSS 是芝加哥大学 NORC 中心从 1972 年起做的美国全国概率样本，公开微数据可在 NORC 官网直接下载。
+
+| 类别   | 字段       | 说明                         |
+|:-------|:-----------|:-----------------------------|
+| 人口学 | age        | 受访者年龄                   |
+| 人口学 | sex        | 性别 Male / Female           |
+| 人口学 | race       | 种族 White / Black / Other   |
+| 人口学 | region     | 九大地区分类                 |
+| 人口学 | degree     | 最高学历 5 档                |
+| 人口学 | income16   | 收入 26 档                   |
+| 人口学 | relig      | 宗教 13 类                   |
+| 人口学 | marital    | 婚姻 5 档                    |
+| 态度题 | happy      | 整体幸福感 3 档              |
+| 态度题 | polviews   | 政治立场 7 档                |
+| 态度题 | partyid    | 党派认同 8 档                |
+
+<Subtext>表 1.1 · 贯穿全书的字段。3 道态度题在文献中被反复使用，覆盖了态度、立场、身份三类典型 survey item，足够代表 silicon sampling 的方法学挑战。</Subtext>
+
+---
+
+## 1.4 100 persona 的抽样设计
+
+从 2867 行 GSS 数据里抽 100 行做"被扮演 persona"。抽样按 sex × race 分层，每个组合取约 16–18 人，保证 silicon sample 在性别与种族两个维度上不偏离基线。
+
+|        | White | Black | Other | 合计  |
+|:-------|------:|------:|------:|------:|
+| Male   | 17    | 18    | 17    | 52    |
+| Female | 17    | 16    | 15    | 48    |
+| **合计** | **34** | **34** | **32** | **100** |
+
+<Subtext>表 1.2 · 100 persona 在 sex × race 维度的分布。</Subtext>
+
+100 这个量级是 silicon sampling 实证中的常见小样本设置，足以观察分布与偏差，又不至于让 LLM 调用成本失控。Argyle 2023 原始论文用 1000 persona，本书的 100 子样本是该规模的十分之一缩影，方法学结论可类推。
+
+### 1.4.1 Silicon respondent 的生成
+
+让一个 Claude 模型（subagent）逐 persona 扮演，输入是该 persona 的 8 项人口学画像，输出是该 persona 在 3 道题上的最可能答案。整套生成流程在第 2 章详细展开，包括 prompt 设计、提示词模板、回答解析。本章只指出关键事实：silicon respondent 的回答完全依赖人口学画像盲推，没有看任何真实答案。这是 silicon sampling 检验 algorithmic fidelity 的标准设计。
+
+### 1.4.2 为什么本书只用 GSS 2016
+
+GSS 是社会学量化研究的经典数据集，地位仅次于 ANES。把 silicon sampling 应用在 GSS 上有三个直接好处。其一，GSS 的态度题在文献中被反复使用，silicon vs 真实的偏差有大量同领域文献可参照。其二，GSS 的随机抽样设计严格，可作为真实分布的金标准。其三，socviz 包的 `gss_sm` subset 直接 R 包内置，读者复制书内代码就能跑出一模一样的数字，没有数据获取门槛。
+
+本书不引入 ANES、WVS 等其他数据，目的是把方法学聚焦在"如何严格诊断 silicon sample 的偏差"，不是堆数据。
+
+---
+
+## 1.5 诊断指标累积对比表
+
+本书没有"ATT 估计累积对比"的结构（这不是因果推断书），但每章引入一个诊断指标，最后一章合并成诊断维度对照表。本章末先把第 3 章起会用到的指标骨架列出。
+
+| 章      | 诊断指标       | 尺度 | 回答的问题           |
+|:--------|:---------------|:-----|:---------------------|
+| 第 1 章 | ——（导论）     | ——   | 数据与设计的合理性   |
+
+<Subtext>表 1.3 · 诊断指标累积表（截至本章）。从第 3 章开始每章加一行，到第 10 章合并成完整对照表。</Subtext>
+
+---
+
+## 1.6 本章知识地图
+
+| 核心概念              | 核心内容                        | 常见误解                | 为什么错                  |
+|:----------------------|:--------------------------------|:------------------------|:--------------------------|
+| silicon sampling      | 让 LLM 扮演 demographic persona | 以为是 RAG 检索         | 是 zero-shot 推理         |
+| algorithmic fidelity  | 群体级答案分布近似              | 以为个体级也能复现      | 个体准确率远低            |
+| GSS 经典三题          | happy / polviews / partyid      | 以为可换任意题          | 题目类型差异大            |
+| Stratified sample     | 按 race × sex 分层              | 以为随机就够            | 分层防小群体丢失          |
+| Prompt sensitivity    | 措辞改变答案                    | 以为是 robust 估计      | Bisbee 2024 反驳过        |
+| ANES vs GSS           | 两种主力公共数据                | 以为可混用              | 题目对齐困难              |
+| 100 persona 规模      | 小样本但足以诊断                | 以为必须 1000+          | 偏差测度对样本不敏感      |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Out of One, Many: Using Language Models to Simulate Human Samples" author="Argyle, Busby, Fulda, Gubler, Rytting & Wingate (2023)" href="https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49"
+	/>
+	<ReferencesLink
+		title="Synthetic Replacements for Human Survey Data? The Perils of Large Language Models" author="Bisbee, Clinton, Dorff, Kenkel & Larson (2024)" href="https://www.cambridge.org/core/journals/political-analysis/article/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models/B92267DC26195C7F36E63EA04A47D2FE"
+	/>
+	<ReferencesLink
+		title="Using LLMs for Market Research" author="Brand, Israeli & Ngwe (2023)" href="https://www.nber.org/papers/w31783"
+	/>
+	<ReferencesLink
+		title="Measuring the predictability of life outcomes with a scientific mass collaboration" author="Salganik, Lundberg, Kindel et al. (2020)" href="https://www.pnas.org/doi/10.1073/pnas.1915006117"
+	/>
+	<ReferencesLink
+		title="GSS — General Social Survey" author="NORC, University of Chicago" href="https://gss.norc.org/"
+	/>
+</References>
