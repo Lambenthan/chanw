@@ -1,0 +1,76 @@
+name: Refresh news feed
+
+on:
+  # 每 6 小时跑一次：抓取 + 评分 + 写回 news.json
+  schedule:
+    - cron: "0 */6 * * *"
+  # 手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write # 允许把 refresh 后的数据 commit 回 main
+
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+        continue-on-error: true
+
+      - name: Extract feeds (RSS + HTML + Playwright)
+        # 单源失败不阻塞别的源
+        continue-on-error: true
+        run: node scripts/news/extract-feed.mjs
+
+      - name: Enrich missing publishedAt
+        continue-on-error: true
+        env:
+          MAX_NEW: "80"
+        run: node scripts/news/enrich-feed-dates.mjs
+
+      - name: Score and tag new items (free OpenRouter models only)
+        if: env.OPENROUTER_API_KEY != ''
+        continue-on-error: true
+        timeout-minutes: 12
+        run: node scripts/news/score-and-tag.mjs --concurrency 4
+
+      - name: Convert scored feed to news.json
+        run: node scripts/news/convert-feed-to-news.mjs
+
+      - name: Commit refreshed snapshots back to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            src/data/news.json \
+            src/data/generated/feed-raw.json \
+            src/data/generated/feed-scored.json \
+            src/data/generated/feed-dates.json \
+            2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "无新数据，跳过 commit"
+            exit 0
+          fi
+          git commit -m "chore: 定时刷新 news feed [skip ci]"
+          # 防止 cron 跑期间有其它 push 撞车
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main

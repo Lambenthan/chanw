@@ -11,7 +11,12 @@
     "generate-links": "node src/scripts/generate-links.js",
     "fetch-webmentions": "node src/scripts/get-webmentions.js",
     "smidgeon": "node scripts/create-smidgeon.js",
-    "date": "node scripts/current-date.js"
+    "date": "node scripts/current-date.js",
+    "news:extract": "node scripts/news/extract-feed.mjs",
+    "news:enrich": "node scripts/news/enrich-feed-dates.mjs",
+    "news:score": "node scripts/news/score-and-tag.mjs",
+    "news:convert": "node scripts/news/convert-feed-to-news.mjs",
+    "news:refresh": "npm run news:extract && npm run news:enrich && npm run news:score && npm run news:convert"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.1",
@@ -35,7 +40,9 @@
     "d3-time-format": "^4.1.0",
     "date-fns": "^4.1.0",
     "dotenv": "^16.4.7",
+    "fast-xml-parser": "^5.8.0",
     "inquirer": "^9.3.7",
+    "js-yaml": "^4.1.1",
     "katex": "^0.17.0",
     "lodash": "^4.17.21",
     "lxgw-wenkai-webfont": "^1.7.0",
@@ -67,6 +74,7 @@
     "agentation": "^3.0.2",
     "globby": "^14.0.2",
     "gray-matter": "^4.0.3",
+    "playwright": "^1.60.0",
     "tsx": "^4.7.1",
     "unist-util-visit": "^5.0.0"
   }

@@ -1,0 +1,220 @@
+# AI lab 厂商一手发布源
+#
+# type:
+#   rss     直拉 RSS feed，fast-xml-parser 解析
+#   html    curl 拿 SSR HTML，正则按 selector 抽
+#   browser playwright headless chromium，渲染后从 DOM 抽
+#
+# archive:
+#   mode: sitemap    解 sitemap.xml，按 url_pattern 过滤
+#   mode: pagination 按 template 翻页（{n} 占位），html 或 browser 渲染
+#   max_items        每源全档案上限（避免单个站点爆掉构建）
+#
+# 字段说明：
+#   id        feed-raw.json 里写入的 source 标识
+#   name      展示名（中文为主）
+#   url       拉取入口（list 模式）
+#   detailBase 详情页相对路径补全 URL 的基址（仅 html / browser 用）
+#   selector  仅 html / browser 用，描述如何从 DOM 抽条目
+#
+# enabled: false 可临时关掉某个源
+
+sources:
+  - id: openai
+    name: OpenAI
+    type: rss
+    url: https://openai.com/news/rss.xml
+    enabled: true
+    archive:
+      mode: sitemap
+      # OpenAI 用 sitemap index, 这几个子 sitemap 装的是文章 URL
+      sitemaps:
+        - https://openai.com/sitemap.xml/publication/
+        - https://openai.com/sitemap.xml/research/
+        - https://openai.com/sitemap.xml/release/
+        - https://openai.com/sitemap.xml/safety/
+      url_pattern: '^https://openai\.com/(index|research|safety)/[^/]+/?$'
+      max_items: 500
+
+  - id: google-ai
+    name: Google AI
+    type: rss
+    url: https://blog.google/technology/ai/rss/
+    enabled: true
+    archive:
+      mode: sitemap
+      sitemaps:
+        - https://blog.google/en-us/sitemap.xml
+      # blog.google 的 AI 相关文章主路径
+      url_pattern: '^https://blog\.google/(innovation-and-ai|technology/(ai|google-deepmind|developers|safety-security))/[^/]+/[^/]+/?$'
+      max_items: 500
+
+  - id: deepmind
+    name: DeepMind
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+    enabled: true
+    archive:
+      mode: sitemap
+      sitemaps:
+        - https://deepmind.google/sitemap.xml
+      url_pattern: '^https://deepmind\.google/(blog|research)/[a-z][^/]+/?$'
+      max_items: 500
+
+  - id: nvidia
+    name: NVIDIA
+    type: rss
+    url: https://blogs.nvidia.com/blog/category/deep-learning/feed/
+    enabled: true
+    archive:
+      mode: sitemap
+      # NVIDIA 三块 post-sitemap, 都装文章; post3 最新
+      sitemaps:
+        - https://blogs.nvidia.com/post-sitemap3.xml
+        - https://blogs.nvidia.com/post-sitemap.xml
+        - https://blogs.nvidia.com/post-sitemap2.xml
+      # NVIDIA 是泛科技博客, 用关键词做软过滤后再交给评分
+      url_pattern: '^https://blogs\.nvidia\.com/blog/[a-z][^/]+/?$'
+      # YAML 单引号字符串里 \b 字面就是反斜杠+b, 不要双重转义
+      keyword_filter: '\b(ai|llm|deep[- ]learning|generative|model|gpt|llama|gemma|inference|training|rag|agent|robotics|cuda|tensorrt|nim|nvidia[- ]ai|copilot|chatbot|transformer|neural)\b'
+      max_items: 500
+
+  # Anthropic 自己把对外发布拆成四个渠道，这里也按对应路径拆四个源。
+  # 这样 /latest 上每条都带各自的渠道标签，读者一眼能分清是公司公告、
+  # 学术研究、工程博客还是产品博客。
+  #
+  #   anthropic-news        anthropic.com/news        公司公告 / 产品发布 / 政策 / 安全声明
+  #   anthropic-research    anthropic.com/research    研究论文与 alignment / interpretability 报告
+  #   anthropic-engineering anthropic.com/engineering 工程实践 / 故障复盘 / 技术博客
+  #   claude-com            claude.com/blog           Claude 产品博客 / 客户案例 / prompt 指南
+  - id: anthropic-news
+    name: Anthropic News
+    type: html
+    url: https://www.anthropic.com/news
+    detailBase: https://www.anthropic.com
+    selector:
+      item: 'a[href^="/news/"]'
+      title: h2
+      time: time
+      summary: p
+      category: span.caption
+    archive:
+      mode: sitemap
+      sitemaps:
+        - https://www.anthropic.com/sitemap.xml
+      url_pattern: '^https://www\.anthropic\.com/news/[^/]+/?$'
+      max_items: 400
+
+  - id: anthropic-research
+    name: Anthropic Research
+    type: html
+    url: https://www.anthropic.com/research
+    detailBase: https://www.anthropic.com
+    selector:
+      item: 'a[href^="/research/"]'
+      title: h2
+      time: time
+      summary: p
+      category: span.caption
+    archive:
+      mode: sitemap
+      sitemaps:
+        - https://www.anthropic.com/sitemap.xml
+      url_pattern: '^https://www\.anthropic\.com/research/[^/]+/?$'
+      max_items: 300
+
+  - id: anthropic-engineering
+    name: Anthropic Engineering
+    type: html
+    url: https://www.anthropic.com/engineering
+    detailBase: https://www.anthropic.com
+    selector:
+      item: 'a[href^="/engineering/"]'
+      title: h2
+      time: time
+      summary: p
+      category: span.caption
+    archive:
+      mode: sitemap
+      sitemaps:
+        - https://www.anthropic.com/sitemap.xml
+      url_pattern: '^https://www\.anthropic\.com/engineering/[^/]+/?$'
+      max_items: 200
+
+  - id: claude-com
+    name: claude.com
+    type: html
+    url: https://claude.com/blog
+    detailBase: https://claude.com
+    selector:
+      # claude.com/blog 的列表页用 webflow CMS 模板，标题在 <a> 邻近兄弟节点，
+      # 实时列表页大概率抓不出来；以 sitemap 走档案为准，slug-to-title 兜底。
+      item: 'a[href^="/blog/"]'
+      title: h2
+      time: time
+      summary: p
+      category: span
+    archive:
+      mode: sitemap
+      sitemaps:
+        - https://claude.com/sitemap.xml
+      url_pattern: '^https://claude\.com/blog/[^/]+/?$'
+      max_items: 300
+
+  - id: mistral
+    name: Mistral
+    type: browser
+    url: https://mistral.ai/news
+    detailBase: https://mistral.ai
+    selector:
+      item: 'a[href^="/news/"]'
+      title: h1, h2
+      # mistral 日期在邻近 div 里，文本格式如 "Apr 29, 2026"
+      timeText: 'div'  # 取 a 内部含 ", 20" 的 div
+      summary: p
+      category: span
+    archive:
+      mode: sitemap
+      sitemaps:
+        - https://mistral.ai/sitemap.xml
+      url_pattern: '^https://mistral\.ai/news/[a-z][^/?]+$'
+      max_items: 300
+
+  - id: meta-ai
+    name: Meta AI
+    type: browser
+    url: https://ai.meta.com/blog/
+    detailBase: https://ai.meta.com
+    selector:
+      # Meta uses absolute URLs in href, so match either prefix
+      item: 'a[href*="/blog/"]:not([href$="/blog/"])'
+      title: 'h1, h2, h3'
+      summary: p
+      timeText: 'div, span'
+    archive:
+      mode: pagination
+      # ai.meta.com 服务端检测 node fetch 的 TLS 指纹返回 400, 必须用 playwright
+      strategy: browser-pagination
+      template: 'https://ai.meta.com/blog/?page={n}'
+      start: 1
+      max_pages: 50
+      # 浏览器渲染后从 DOM 取锚点
+      anchor_selector: 'a[href*="/blog/"]:not([href$="/blog/"])'
+      max_items: 500
+
+  - id: xai
+    name: xAI
+    type: browser
+    url: https://x.ai/news
+    detailBase: https://x.ai
+    selector:
+      item: 'a[href^="/news/"]'
+      title: 'h1, h2, h3'
+      summary: p
+      timeText: 'time, div, span'
+    archive:
+      mode: browser-scroll
+      # x.ai 是 Cloudflare 保护, 只能 playwright; 滚到底直到没有新条目
+      max_scrolls: 80
+      idle_scrolls: 5
+      max_items: 300

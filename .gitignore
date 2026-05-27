@@ -26,3 +26,4 @@ pnpm-debug.log*
 .cursor
 .vscode
 .env*.local
+.cache/

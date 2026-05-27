@@ -1,0 +1,313 @@
+# Editor overrides for scored feed items.
+#
+# Format: flat map keyed by feed-scored.json item id (16-char sha1 of
+# upstream URL). Each value can carry any subset of:
+#   score          1-5 integer, overrides the LLM's score
+#   category       overrides the LLM's classification
+#   cleanedTitle   overrides the LLM's title rewrite
+#   cn             overrides the LLM's short 中文导读
+#
+# Merge happens at the end of score-and-tag.mjs after all LLM calls.
+# Items that the LLM scored below MIN_SCORE (3) but appear here with
+# score>=3 get pulled back into the feed.
+#
+# Use sparingly — only for items where the LLM judgment is clearly wrong
+# (e.g. it dropped a legitimate product launch as marketing) or where the
+# cleaned title still leaks editor voice from the upstream source.
+
+# Anthropic Claude Design — LLM scored 1/2 because the AIGCLINK source
+# description reads as marketing copy. The product itself is a legitimate
+# new design tool from Anthropic Labs, worth surfacing.
+afabafae073055fd:
+  score: 4
+  category: 设计
+  cleanedTitle: Anthropic Labs 发布 Claude Design 设计工具
+  cn: |
+    Anthropic Labs 推出 Claude Design，把对话式 AI 接入设计工作流：从理解品牌、生成产品原型、营销页面到团队协作与导出，覆盖完整链路。底层使用 Opus 4.7 推理，内置品牌自动构建系统读取代码库与设计文件后保持视觉一致性。支持文本、图片、文档、网页多模态输入，可对生成结果做行内评论、滑块调间距与颜色等精细化调整。
+
+# Unsloth Studio — 无代码训练工具，对小团队和教育场景有价值。
+b01295803dfe9891:
+  score: 3
+  category: 训练
+  cleanedTitle: Unsloth Studio 开源无代码模型训练工具
+  cn: |
+    Unsloth Studio 是无需写代码即可训练 AI 模型的开源工具，覆盖 500 多种模型与文本、视觉、音频多种类型。可从 PDF、CSV、DOCX 等文件自动构建训练数据集，训练过程实时可视化、图表可自定义。适合教育场景、个性化模型微调与小团队私有部署，把 LoRA / QLoRA 微调的门槛压到了图形界面层。
+
+# Claw Colony — 多 agent 自主演化实验，研究性质强，归到 Agent 类。
+cb745d66bb70756b:
+  score: 3
+  category: Agent
+  cleanedTitle: Claw Colony 开源多 AI 自主演化社交生态实验
+  cn: |
+    Claw Colony 是一个多 AI 社交生态系统，让 AI 在生存压力下自主协作、竞争、立法、进化，用来探索 AGI 是否能从环境中演化而来。核心机制包含基于 Token 的生存经济、可继承能力的 Ganglion 栈、由 AI 社区自治的规则系统，以及 AI 主动重构认知框架的能力。作者计划在无人介入的封闭环境中长期运行系统，观察自主智能涌现的边界条件。
+
+# InfinityUnlocked — Disney Infinity 逆向案例，作为 Claude 用例展示 AI 编程
+# 在专业领域的能力具有参考价值。
+f5408fb10c89f8e2:
+  score: 3
+  category: 编程工具
+  cleanedTitle: Claude Opus 4.6 在 24 小时内逆向 Disney Infinity 角色限制
+  cn: |
+    开发者用 Claude Opus 4.6 在不到 24 小时内逆向了 2013 年游戏 Disney Infinity，破解了角色与世界绑定的硬限制——任意角色现在可在任意世界使用。最终成果是 17 个二进制补丁加 3 个数据文件，已开源在 GitHub。这一案例说明前沿 LLM 在小众平台、加密协议、游戏内存布局等长尾逆向场景上达到了实用水平。
+
+# ─────────────────────────────────────────────
+# claude.com/blog rescue: LLM 初评把这批产品博客判成 1-2/5 (PR 嫌疑),
+# 但实际多为最佳实践、客户案例、产品博客与功能更新, 这里按页面真实
+# 标题与 og:description 重评, 全部按 score >= 3 救回.
+# ─────────────────────────────────────────────
+
+# best-practices-for-prompt-engineering
+aac1f93a7e6ed628:
+  score: 4
+  category: 其他
+  cleanedTitle: "Anthropic 分享 Claude 提示工程最佳实践"
+  cn: |
+    Anthropic 发布了一份以 Claude 为核心的提示工程最佳实践指南，涵盖从基础原则到高级技巧的多个层面。内容涉及角色设定、清晰指令编写、多步骤推理激发、以及如何利用工具和长上下文等能力。对于希望提升与 Claude 对话效果的用户，这份指南可以作为具有参考价值的系统化入门资料。
+
+# build-responsive-web-layouts
+3ee4852e2249a365:
+  score: 3
+  category: 编程工具
+  cleanedTitle: "Claude 分享构建响应式网页布局的实践方法"
+  cn: |
+    Claude 发布了一篇关于构建响应式网页布局的实践指南，面向希望提升前端开发效率的开发者。文章介绍了如何利用 Claude 的代码生成能力，快速实现从固定布局到弹性网格、媒体查询等响应式设计方案的转换。通过具体示例，展示了 Claude 在理解设计意图、生成适配不同屏幕尺寸的 CSS 代码方面的表现，帮助开发者减少手动调整布局的时间，专注于更高层次的设计决策。
+
+# building-ai-agents-for-startups
+7f1c6ab488506637:
+  score: 4
+  category: Agent
+  cleanedTitle: "Anthropic 分享初创公司构建 AI Agent 的实践指南"
+  cn: |
+    Anthropic 发布了一篇面向初创公司的 AI Agent 构建指南。文章从 Agent 的定义出发，区分了简单工作流与自主 Agent 的适用场景，并给出了设计原则：保持简单、透明化流程、为 Agent 提供明确工具。指南还讨论了 Agent 的评估、安全与成本控制，以及何时应避免使用 Agent。对于正在探索 AI 自动化的创业团队，这是一份务实的参考。
+
+# building-ai-agents-for-the-enterprise
+cc121d7384c92de4:
+  score: 4
+  category: Agent
+  cleanedTitle: "Claude 分享企业级 AI Agent 构建指南"
+  cn: |
+    企业级 AI Agent 的构建涉及可靠性与安全性。Anthropic 从工程实践出发，总结了设计原则、架构模式与部署策略，涵盖工具使用、记忆管理、权限控制等关键环节。Claude 在 Agent 执行中负责规划、调用工具与处理反馈，把复杂任务推进到自动化层面。文章还讨论了评估与监控方法，帮助团队在生产环境中稳定运行 AI Agent。
+
+# claude-2-amazon-bedrock
+45cb5128390f8cd3:
+  score: 4
+  category: 其他
+  cleanedTitle: "Anthropic 将 Claude 2 部署到 Amazon Bedrock"
+  cn: |
+    Anthropic 宣布 Claude 2 在 Amazon Bedrock 上正式可用。Bedrock 是 AWS 的托管服务，提供基础模型 API。此举让开发者通过 AWS 控制台和 API 即可调用 Claude 2，无需管理底层基础设施。Claude 2 支持更长上下文窗口和更高质量的生成，适合企业级对话和文本处理工作负载。Anthropic 和 AWS 的合作让用户可同时使用 Bedrock 的安全合规特性与 Claude 的对话能力。
+
+# claude-and-slack
+f12ed1819436a576:
+  score: 3
+  category: 其他
+  cleanedTitle: "Claude 发布 Slack 集成功能"
+  cn: |
+    Anthropic 为 Claude 推出了 Slack 集成，用户可在 Slack 工作空间中直接与 Claude 对话完成文本生成、信息检索、内容总结等任务。该集成支持@提及唤醒、对话历史记录、私有频道与公开频道双向使用，并提供可自定义的指令以控制 Claude 的回答风格与行为边界。企业团队无需切换应用即可调用 Claude 的能力，适合日常协作中快速获取信息或辅助撰写。集成安装流程在 Slack App Directory 中完成，管理员可限制使用范围。
+
+# claude-excel-powerpoint-updates
+c0bf829884505ede:
+  score: 4
+  category: 其他
+  cleanedTitle: "Claude 更新 Excel 和 PowerPoint 集成功能"
+  cn: |
+    Anthropic 为 Claude 更新了与 Microsoft Excel 和 PowerPoint 的集成能力。用户现在可以直接在 Excel 中调用 Claude 进行数据分析和公式生成，在 PowerPoint 中辅助创建演示文稿内容与排版。这些更新降低了在办公场景中使用 AI 的门槛，让文档处理与数据工作流更顺畅。Claude 能够理解表格上下文并生成结构化输出，同时支持对幻灯片内容的智能建议与调整，提升了办公效率与协作体验。
+
+# claude-for-the-legal-industry
+1ca03ca8405b3045:
+  score: 3
+  category: 其他
+  cleanedTitle: "Anthropic 分享 Claude 在法律行业的应用案例与最佳实践"
+  cn: |
+    Anthropic 发布了一篇面向法律行业的博客，介绍了 Claude 在合同审查、法律研究、文书起草等场景中的具体用法。文章列举了法律事务所和法务部门如何利用 Claude 处理重复性文本工作，缩短审阅周期，并在合规框架下使用大语言模型。同时讨论了数据隐私、输出准确性等专业领域需注意的问题，适合法律从业者了解 AI 辅助工作的落地方式。
+
+# claude-managed-agents-updates
+2a8322b07185eead:
+  score: 4
+  category: Agent
+  cleanedTitle: "Claude Managed Agents 更新：支持自托管沙箱和 MCP 隧道"
+  cn: |
+    Claude 更新了 Managed Agents 功能，新增自托管沙箱和 MCP 隧道支持。自托管沙箱允许企业将 Agent 执行环境部署在自己的基础设施中，满足数据合规与安全隔离需求。MCP 隧道则简化了 Agent 与内部工具、API 的连接，无需暴露公网端口。这两项更新为生产环境下的 Agent 部署提供了更强的控制力与灵活性，适合需要定制化安全策略的企业用户。
+
+# claude-team-updates
+dc847cd44d23a13a:
+  score: 4
+  category: 其他
+  cleanedTitle: "Claude Team 更新多项团队协作与企业管理功能"
+  cn: |
+    Anthropic 针对 Claude Team 订阅计划推出一组更新，覆盖团队协作与企业级管理。包含新增工作空间管理、更严格的数据隐私控制与更灵活的账单功能，团队成员之间共享 Claude 使用记录与对话历史更顺畅。Claude Team 用户现可创建独立工作空间隔离项目内容，并在管理控制台统一查看用量与成员权限。延续 Anthropic 对安全与可扩展性的取向，帮助企业在合规前提下用上 Claude 在代码、写作与分析任务中的价值。
+
+# code-with-claude-san-francisco-london-tokyo
+9db11d79a5aea4fc:
+  score: 4
+  category: 编程工具
+  cleanedTitle: "Anthropic 将 Code with Claude 活动扩展到旧金山、伦敦和东京"
+  cn: |
+    Anthropic 宣布 Code with Claude 开发者活动将在旧金山、伦敦和东京三座城市举办。该活动聚焦于 Claude 在编程场景中的应用实践，包括代码生成、调试与协同开发。参与者可以现场体验 Claude 的最新编程能力，与 Anthropic 工程师面对面交流，并参与实战挑战。活动面向开发者社区，旨在展示大语言模型在工程效率提升方面的实际价值。Anthropic 还将分享最佳实践与案例分析，帮助开发者更有效地将 Claude 融入日常开发流程。
+
+# connectors-directory
+fdd9617812898ced:
+  score: 4
+  category: skill
+  cleanedTitle: "Anthropic 发布 Connectors Directory 展现与 Claude 适配的工具"
+  cn: |
+    Anthropic 推出 Connectors Directory，汇集与 Claude 兼容的工具和集成。该目录允许用户浏览、筛选与发现可用于扩展 Claude 能力的第三方服务与 MCP 插件，涵盖开发、生产力、数据分析等领域，让用户在构建基于 Claude 的应用时少绕弯路。
+
+# cowork-plugins-across-enterprise
+a2ba31e34a246309:
+  score: 4
+  category: 其他
+  cleanedTitle: "Claude 推出企业团队协作与插件功能"
+  cn: |
+    Claude 上线面向企业团队的协同工作 Cowork 与插件功能，多名成员可在同一对话中协作编辑和审阅内容，同时让插件扩展工作流。该更新意在化解团队使用 AI 助手时的信息孤岛问题，成员围绕共享会话推进任务，并接入内部工具与数据源。Anthropic 认为这一协作模式有助于企业在合规前提下，提升 AI 辅助工作的透明度。
+
+# deploying-claude-across-financial-services
+41e2f8a3d034ad6c:
+  score: 3
+  category: 其他
+  cleanedTitle: "Anthropic分享Claude在金融服务业的部署经验"
+  cn: |
+    Anthropic发布了一篇关于将Claude部署到金融服务业的实践文章。文章讨论了大型语言模型在银行、保险、投资等受监管行业中的应用挑战，包括合规、安全、准确性等问题。通过具体案例，展示了Claude如何帮助金融企业自动化客户服务、文档处理、风险分析等任务，同时满足监管要求。内容适合金融机构的技术决策者参考。
+
+# deploying-claude-across-the-legal-industry
+a7414c0a6d07ada3:
+  score: 4
+  category: 其他
+  cleanedTitle: "Anthropic 分享 Claude 在法律行业的部署实践"
+  cn: |
+    Anthropic 通过案例详细介绍了 Claude 在法律行业多个场景中的部署情况。律师事务所、企业法务部门和法院系统将 Claude 用于合同审查、法律研究、文件摘要、合规分析等任务，提升了法律工作的效率和一致性。文章梳理了不同规模机构部署时的技术方案选择、数据安全考量、人机协作模式以及实际产出的质量评估结果，为法律行业采用大语言模型提供了可参考的实践路径。
+
+# eight-trends-defining-how-software-gets-built-in-2026
+5631350911d21833:
+  score: 3
+  category: 其他
+  cleanedTitle: "Anthropic 分享2026年软件构建的八大趋势"
+  cn: |
+    Anthropic 在官方博客中发表长文，梳理 2026 年软件构建方式将发生的八个关键转变。文章从 AI 辅助编程、自动化测试、安全实践、团队协作等维度展开，结合 Claude 的实际使用案例，勾勒出未来一年开发者可能面对的工作流变化。这些趋势更接近基于当前产品形态与用户行为做出的推演，适合希望提前布局的团队参考。
+
+# extending-claude-capabilities-with-skills-mcp-servers
+ca432522d1bf58ce:
+  score: 4
+  category: skill
+  cleanedTitle: "Claude 推出 Skills 和 MCP 服务器扩展能力"
+  cn: |
+    Claude 现已支持以 Skills 和 MCP 服务器扩展功能。用户可创建自定义 Skills 赋予 Claude 特定领域的知识与行为，也可以接入 MCP，即 Model Context Protocol 服务器，让外部工具和数据源参与对话。这一更新让 Claude 在更多工作场景中灵活适配，开发者只需写简单配置即可定制助手行为，不必等待官方集成。Anthropic 认为这将加速 Claude 在企业级应用中的落地。
+
+# how-anthropic-uses-claude-cybersecurity
+69aaf87c68dc6798:
+  score: 4
+  category: 安全
+  cleanedTitle: "Anthropic 分享用 Claude Code 构建威胁检测平台的经验"
+  cn: |
+    Anthropic 网络安全团队利用 Claude Code 构建了一套威胁检测平台，用于自动化分析安全日志、识别潜在攻击模式并加速事件响应。该平台将 Claude 的代码生成与安全分析能力结合，使团队能够快速开发定制化检测规则，减少人工排查时间。文章详细介绍了从需求分析到系统部署的工程实践，包括如何设计提示词、处理误报以及将 AI 集成到现有安全工具链中。这一案例展示了大型语言模型在网络安全领域的实际应用价值。
+
+# how-anthropic-uses-claude-legal
+a7dbdd00c1099b33:
+  score: 4
+  category: 其他
+  cleanedTitle: "Anthropic 分享 Claude 在法务部门的内部使用实践"
+  cn: |
+    Anthropic 发布内部案例，介绍法务团队如何利用 Claude 处理合同审查、合规分析等日常工作。该实践展示了将大语言模型集成到企业法务流程后，在效率提升和信息检索准确度方面取得的改善。文章详细说明了从风险控制到文档管理的具体应用方式，为同类场景提供参考.
+
+# how-anthropic-uses-claude-marketing
+bf694c174670faf8:
+  score: 3
+  category: 其他
+  cleanedTitle: "Anthropic 分享内部使用 Claude 进行营销的实践"
+  cn: |
+    Anthropic 的营销团队在日常工作中引入 Claude，用于内容构思、文案撰写、数据分析等环节。这篇博客分享了他们如何将 Claude 融入工作流，以及由此带来的效率提升和创意启发。通过实际案例，展示了 AI 工具在营销领域的应用潜力。
+
+# how-enterprises-are-building-ai-agents-in-2026
+b2a4a5e5c15cb3a6:
+  score: 4
+  category: 其他
+  cleanedTitle: "Anthropic分享2026年企业构建AI agent的实践"
+  cn: |
+    Claude博客发布了一篇面向企业技术决策者的综述文章，梳理2026年企业在生产环境中构建和部署AI agent的主要模式。文章基于Anthropic与多家客户合作的经验，概述了企业从原型验证到规模化部署的典型路径，包括任务拆分、人机协作、监控与回滚等关键环节的设计考量。对于那些正在规划AI agent落地策略、希望参考真实企业案例的团队来说，这篇综述提供了有价值的背景和结构化的讨论框架。
+
+# how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation
+e64281c4022b8d26:
+  score: 3
+  category: 其他
+  cleanedTitle: "Anthropic 分享零售商将 AI 试点转化为企业级转型的案例"
+  cn: |
+    多家领先零售商正将 AI 试点项目扩展为企业级部署，Anthropic 在博客中梳理了其中的关键路径。这些企业从单点任务切入，逐步将 Claude 嵌入客服、库存管理、营销内容生成等流程，并搭起跨部门协作与治理机制。文章总结了规模化落地中常见的组织阻力与技术挑战，以及渐进式迭代与员工培训如何托住平稳过渡。对于正在规划 AI 战略的零售团队，这篇案例提供了从实验到全面推广的参考框架。
+
+# how-to-create-skills-key-steps-limitations-and-examples
+242e8516dc619224:
+  score: 4
+  category: skill
+  cleanedTitle: "Claude 发布 Skill 创建指南：步骤、局限与示例"
+  cn: |
+    Anthropic 发布了一篇关于如何为 Claude 创建 Skill 的详尽指南。文章从背景出发，解释了 Skill 作为定制化指令包的功能定位，适用于个人与团队在特定场景中统一 Claude 的行为。指南列出四项核心准备：明确技能目标、编写清晰指令、确定触发条件以及提供示例。同时指出当前 Skill 的若干局限，如无法自动获取外部信息、不支持多轮对话的上下文记忆，以及复杂任务仍需配合工具。通过客服、内容摘要和代码审查三个示例展示了实际用法，帮助用户理解从命名到测试的完整创建流程。
+
+# integrations
+dbd5c1732f7f6562:
+  score: 4
+  category: 其他
+  cleanedTitle: "Claude 推出集成功能，连接外部服务与数据源"
+  cn: |
+    Anthropic 为 Claude 新增集成能力，让它能够连接 Google Drive、GitHub、Slack 等常用外部服务。用户以自然语言指令让 Claude 直接读取文档、仓库代码或团队消息，并在对话中处理这些数据。该功能落在 MCP 协议之上，确保安全可控的权限管理。集成支持一次性授权和持续使用，适用于知识检索、代码审查、协作分析等场景。
+
+# onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development
+d82daeccf80f040e:
+  score: 4
+  category: 编程工具
+  cleanedTitle: "Anthropic 分享将 Claude Code 当作新开发者入职的经验"
+  cn: |
+    Anthropic 工程师将 Claude Code 视为一名新入职的开发者，总结了过去 17 年的开发经验来指导其行为规范。团队为 Claude Code 设定了代码风格、提交信息格式、测试优先等工程准则，并持续通过“代码审查”反馈调整。这篇博客展示了如何像带人一样引导 AI 编程工具，使其产出更符合团队预期。
+
+# preparing-your-security-program-for-ai-accelerated-offense
+89e2f7218e30f836:
+  score: 4
+  category: 安全
+  cleanedTitle: "Anthropic 分享为 AI 加速攻击做准备的安全策略"
+  cn: |
+    Anthropic 在官方博客中探讨了 AI 加速攻击对现有安全计划的挑战，并给出了应对建议。文章从攻击面扩大、自动化攻击能力提升、社会工程学威胁升级三个维度，分析了 AI 如何改变安全攻防格局。Anthropic 建议安全团队重新评估威胁模型，将 AI 攻击者视为拥有无限耐心和资源的对手，并加强对内部系统的异常检测、内容安全控制以及员工安全意识培训。文章还讨论了如何使用 Claude 等 AI 工具辅助防御，以及构建安全架构时需要考虑的纵深防御原则。这篇指南面向安全负责人和 IT 管理者，旨在帮助组织在 AI 时代保持安全韧性。
+
+# product-development-in-the-agentic-era
+747a0ea485e0db3e:
+  score: 4
+  category: 其他
+  cleanedTitle: "Claude 分享 Agent 时代产品开发方法论"
+  cn: |
+    Anthropic 发布了一篇关于 Agent 时代产品开发思考的博客文章。文章围绕如何构建以 Claude 等 AI 系统为核心的软件产品展开，讨论了从用户需求定义、交互设计到技术架构取舍的完整流程。作者结合自身在构建 Claude 过程中的经验，分享了在不确定性中迭代产品的实践。文章还探讨了 AI 产品的独特性，例如如何平衡模型能力与用户体验，以及如何设计可预测的交互边界。这篇内容适合产品经理、工程师和创业者参考，了解 AI 原生产品的设计思路。
+
+# scaling-agentic-coding
+9fbfdf6850cc7347:
+  score: 3
+  category: 编程工具
+  cleanedTitle: "Claude 分享工程组织内规模化 agentic coding 的实践指南"
+  cn: |
+    Claude 团队发布了一篇指南，面向工程管理者与开发者，讨论如何在团队中推广 agentic coding。内容覆盖治理框架、安全边界、可观测性以及渐进式采用策略，帮助组织在提升开发效率的同时控制风险。博客基于实际部署经验，列出了常见陷阱与应对方案，适合希望将 agentic 工具融入日常开发流程的团队参考。
+
+# self-serve-enterprise
+0284d72ccdf2797d:
+  score: 4
+  category: 其他
+  cleanedTitle: "Claude推出自助服务企业版"
+  cn: |
+    Anthropic宣布Claude Enterprise现推出自助服务模式，企业用户可直接在线注册并立即使用，无需与销售团队沟通。该版本整合了企业级安全与治理功能，支持单点登录、数据管控和访问权限设置，同时提供自定义品牌和专有知识库集成。自助服务模式降低了企业部署门槛，使组织能够灵活按需扩展，适用于从中小团队到大型企业的多种场景。
+
+# the-founders-playbook
+c816e7fb6fcb5ec1:
+  score: 4
+  category: 其他
+  cleanedTitle: "Anthropic 发布创始人手册：如何构建 AI 原生初创公司"
+  cn: |
+    Anthropic 发布了一份面向创业者的实践指南，系统梳理了在 Claude 平台上构建 AI 原生产品的关键环节。手册覆盖从产品构思、原型验证到规模化部署的路径，包括如何拿 Claude 的 API 能力快速迭代、设计用户交互流程，以及处理数据隐私与合规问题。对于希望把想法转化为产品的技术创始人，这份资源给出一套可操作的框架。
+
+# best-practices-for-computer-and-browser-use-with-claude (LLM JSON 截断, 手工补)
+63449601d5f3387b:
+  score: 4
+  category: 浏览器自动化
+  cleanedTitle: "Anthropic 分享 Claude Computer Use 与 Browser Use 最佳实践"
+  cn: |
+    Anthropic 在博客中梳理了使用 Claude 控制计算机与浏览器时的实践经验。文章从权限边界、敏感操作确认、错误恢复策略等方面给出建议，并讨论了如何设计 prompt 与系统指令让 Claude 在自动化任务中保持稳定。内容涵盖屏幕识别、元素定位、跨页面状态保持等常见场景的处理思路，对于正在构建 Computer Use 与 Browser Use agent 的开发者，这份指南给出了可直接套用的安全与可靠性基线。
+
+# integrate-apis-seamlessly (LLM JSON 截断, 手工补)
+aaa5bbc431f1426a:
+  score: 3
+  category: 编程工具
+  cleanedTitle: "Claude 分享 API 集成实践方法"
+  cn: |
+    Anthropic 在博客中介绍了将外部 API 接入 Claude 对话的方法。内容聚焦于 function calling 与工具调用机制，包括参数 schema 设计、错误响应处理、批量调用与异步任务的协调。文章还讨论了如何让 Claude 在多轮对话中维持 API 调用上下文，避免状态丢失。对于希望让 Claude 直接读取业务系统数据并完成端到端任务的团队，这份指南给出可复用的代码模式与常见陷阱的规避建议。
