@@ -29,3 +29,6 @@ pnpm-debug.log*
 .cache/
 # 根目录散落的临时 PDF（书内 figure PDF 在 public/books/ 下，不受此规则影响）
 /*.pdf
+
+# verify-news-dates.mjs 临时备份
+src/data/news.before-*.json
