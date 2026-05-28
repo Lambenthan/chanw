@@ -218,3 +218,17 @@ sources:
       max_scrolls: 80
       idle_scrolls: 5
       max_items: 300
+
+  - id: huggingface-blog
+    name: Hugging Face Blog
+    type: rss
+    url: https://huggingface.co/blog/feed.xml
+    enabled: true
+    # 不配 archive 就走 latest-only 模式，每次拉 RSS feed 当前能拿到的
+    # （HF blog RSS 默认给最近 20-30 条）
+
+  - id: langchain-blog
+    name: LangChain Blog
+    type: rss
+    url: https://blog.langchain.dev/rss/
+    enabled: false
