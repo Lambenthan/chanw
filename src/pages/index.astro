@@ -5,42 +5,20 @@ import Layout from "../layouts/Layout.astro";
 import Spacer from "../components/mdx/Spacer.astro";
 import Title1 from "../components/mdx/typography/Title1.astro";
 import SmallTitle2 from "../components/mdx/typography/SmallTitle2.astro";
+import EssayCard from "../components/cards/EssayCard.astro";
 import BookCard from "../components/cards/BookCard.astro";
 import SkillCard from "../components/cards/SkillCard.astro";
 import PageWrapper from "../components/layouts/PageWrapper.astro";
+import { extractBaseSlug } from "../utils/versionUtils";
 import newsItems from "../data/news.json";
 import skillsData from "../data/skills.json";
 
+const essays = await getCollection("essays", ({ data }) => data.featured === true && !data.draft);
 const books = await getCollection("books");
 
-// 首页"Recent Chapters" 区：跨书最近更新的 4 章。essays / notes / patterns
-// collection 均为空（站点没用这些类型），所以 Maggie 原版的 Essays 区
-// 改成"最近章节流"——指向同源数据，本质和 /garden 子页一致但只取 4 条。
-const allChapters = await getCollection("chapters");
-const allBooksList = books;
-const bookBySlugMap = new Map(
-	allBooksList.filter((b) => b.data.slug).map((b) => [b.data.slug!, b.data])
-);
-const recentChapters = [...allChapters]
-	.sort((a, b) => {
-		const ad = a.data.updated ?? a.data.startDate ?? new Date(0);
-		const bd = b.data.updated ?? b.data.startDate ?? new Date(0);
-		return new Date(bd).getTime() - new Date(ad).getTime();
-	})
-	.slice(0, 4)
-	.map((c) => {
-		const bookSlug = c.data.book;
-		const chapterId = c.id.replace(bookSlug + "/", "").replace(/\.mdx$/, "");
-		const book = bookBySlugMap.get(bookSlug);
-		return {
-			title: c.data.title,
-			description: c.data.description,
-			chapterLabel: c.data.chapterLabel ?? `第 ${c.data.chapterNumber} 章`,
-			updated: c.data.updated ?? c.data.startDate,
-			href: `/books/${bookSlug}/${chapterId}`,
-			bookTitle: book?.title ?? bookSlug,
-		};
-	});
+const sortedEssays = essays
+	.sort((a, b) => new Date(b.data.updated).getTime() - new Date(a.data.updated).getTime())
+	.slice(0, 4);
 
 // 首页 News 只展示最新 6 条（按发布时间倒序）；完整列表见 /news
 const HOMEPAGE_NEWS_LIMIT = 6;
@@ -93,25 +71,25 @@ const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug)
 
 		<section class="garden-section">
 			<section class="essays-section">
-				<a href="/garden" class="header-link">
+				<a href="/essays" class="header-link">
 					<h3 class="section-header">
-						Recent Chapters
+						Essays
 						<Icon name="heroicons:arrow-right" size={18} />
 					</h3>
 				</a>
 				<div class="subheader">长文与书稿章节 —— 记录我对 AI 在各领域应用的所思所想。</div>
-				<div class="recent-chapters">
+				<div class="essays-grid">
 					{
-						recentChapters.map((c) => (
-							<a class="chapter-row" href={c.href}>
-								<h4 class="chapter-row-title">{c.title}</h4>
-								{c.description && <p class="chapter-row-desc">{c.description}</p>}
-								<div class="chapter-row-meta">
-									<span>{c.chapterLabel}</span>
-									<span class="dot">·</span>
-									<span>{c.bookTitle}</span>
-								</div>
-							</a>
+						sortedEssays.map((essay) => (
+							<EssayCard
+								id={essay.id}
+								slug={extractBaseSlug(essay.id)}
+								cover={essay.data.cover}
+								title={essay.data.title}
+								growthStage={essay.data.growthStage}
+								date={essay.data.updated}
+								description={essay.data.description}
+							/>
 						))
 					}
 				</div>
@@ -218,60 +196,6 @@ const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug)
 	.readmore-link:hover [data-icon] {
 		margin-left: var(--space-2xs);
 		color: var(--color-sea-blue);
-	}
-
-	/* Recent Chapters mini-feed: 4 条最近章节，纵向 stack，
-	   每条一个 row，hover 整条变 sea-blue。链接整 row 可点击。 */
-	.recent-chapters {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.chapter-row {
-		display: block;
-		padding: var(--space-xs) 0 var(--space-s);
-		border-bottom: 1px solid var(--color-tinted-cream);
-		text-decoration: none;
-		color: inherit;
-		transition: background-color 0.2s ease;
-	}
-
-	.chapter-row:hover {
-		background: color-mix(in srgb, var(--color-sea-blue) 4%, transparent);
-	}
-
-	.chapter-row-title {
-		font-family: var(--font-serif);
-		font-size: calc(var(--font-size-base) * 1.05);
-		font-weight: 500;
-		color: var(--color-gray-800);
-		margin: 0 0 var(--space-3xs);
-		line-height: 1.3;
-		transition: color 0.2s ease;
-	}
-
-	.chapter-row:hover .chapter-row-title {
-		color: var(--color-sea-blue);
-	}
-
-	.chapter-row-desc {
-		font-family: var(--font-body);
-		font-size: var(--font-size-sm);
-		color: var(--color-gray-700);
-		line-height: 1.55;
-		margin: 0 0 var(--space-3xs);
-	}
-
-	.chapter-row-meta {
-		font-family: var(--font-sans);
-		font-size: var(--font-size-xs);
-		color: var(--color-gray-500);
-		font-variant-numeric: tabular-nums;
-	}
-
-	.chapter-row-meta .dot {
-		margin: 0 0.35em;
-		color: var(--color-gray-400);
 	}
 
 	.index-note-card {

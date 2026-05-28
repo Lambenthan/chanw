@@ -1,15 +1,14 @@
 ---
 /**
- * /garden — Maggie 同款 Garden subpage：一座持续生长的学术花园。
+ * /garden — Maggie 同款 Garden subpage：5 类 content collection 的统一时间流。
  *
- * 我们的 essays / notes / smidgeons 当前为空，全部"长出来"的东西在
- * src/content/chapters/ 下（109 章学术工具书）。所以 /garden 用作
- * "横向跨书的章节时间流"：按 updated 倒序展示各书最新章节，让读者
- * 看到这座花园里"最近又长出了什么"。
+ * Maggie 原项目的 /garden 是把 essays / notes / patterns / talks / smidgeons
+ * 合并按时间倒序展示——"一座持续生长的花园"的字面落地。
  *
- * 与 /library 的区别：
- *   - /library = 按书 + 系列分类的目录视图（"我都写了什么"）
- *   - /garden  = 按时间排序的章节流（"我最近在长什么"）
+ * 本站当前这 5 个 collection 均为空（用户即将填长文 / 笔记 / 设计模式 / 演讲）。
+ * 所以这个页面现在会显示空 stream，等内容填进去会自动长出来。
+ *
+ * book chapters 不在这里——它们属 /library/[book]/[chapter] 路由，由 /library 索引。
  */
 import Layout from "../layouts/Layout.astro";
 import PageWrapper from "../components/layouts/PageWrapper.astro";
@@ -17,35 +16,71 @@ import Title2 from "../components/mdx/typography/Title2.astro";
 import TitleWithCount from "../components/layouts/TitleWithCount.astro";
 import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
+import { extractBaseSlug } from "../utils/versionUtils";
 
-const allChapters = await getCollection("chapters");
-const allBooks = await getCollection("books");
+type Entry = {
+	type: "essay" | "note" | "pattern" | "talk" | "smidgeon";
+	title: string;
+	description?: string;
+	updated?: Date;
+	href: string;
+};
 
-const bookBySlug = new Map(allBooks.filter((b) => b.data.slug).map((b) => [b.data.slug!, b]));
+const essays = await getCollection("essays", ({ data }) => !data.draft);
+const notes = await getCollection("notes", ({ data }) => !data.draft);
+const patterns = await getCollection("patterns", ({ data }) => !data.draft);
+const talks = await getCollection("talks", ({ data }) => !data.draft);
+const smidgeons = await getCollection("smidgeons", ({ data }) => !data.draft);
 
-// 排序：按 updated 倒序，无 updated 退到 startDate
-const sorted = [...allChapters].sort((a, b) => {
-	const ad = a.data.updated ?? a.data.startDate ?? new Date(0);
-	const bd = b.data.updated ?? b.data.startDate ?? new Date(0);
+const items: Entry[] = [
+	...essays.map((e) => ({
+		type: "essay" as const,
+		title: e.data.title,
+		description: e.data.description,
+		updated: e.data.updated,
+		href: `/${extractBaseSlug(e.id)}`,
+	})),
+	...notes.map((n) => ({
+		type: "note" as const,
+		title: n.data.title,
+		description: n.data.description,
+		updated: n.data.updated,
+		href: `/${extractBaseSlug(n.id)}`,
+	})),
+	...patterns.map((p) => ({
+		type: "pattern" as const,
+		title: p.data.title,
+		description: p.data.description,
+		updated: p.data.updated,
+		href: `/${extractBaseSlug(p.id)}`,
+	})),
+	...talks.map((t) => ({
+		type: "talk" as const,
+		title: t.data.title,
+		description: t.data.description,
+		updated: t.data.updated,
+		href: `/${extractBaseSlug(t.id)}`,
+	})),
+	...smidgeons.map((s) => ({
+		type: "smidgeon" as const,
+		title: s.data.title ?? "(smidgeon)",
+		description: s.data.description,
+		updated: s.data.updated,
+		href: `/${extractBaseSlug(s.id)}`,
+	})),
+].sort((a, b) => {
+	const ad = a.updated ?? new Date(0);
+	const bd = b.updated ?? new Date(0);
 	return new Date(bd).getTime() - new Date(ad).getTime();
 });
 
-// 为每个 chapter 提取 URL + book 元数据
-const items = sorted.map((c) => {
-	const bookSlug = c.data.book;
-	const chapterId = c.id.replace(bookSlug + "/", "").replace(/\.mdx$/, "");
-	const book = bookBySlug.get(bookSlug);
-	return {
-		title: c.data.title,
-		description: c.data.description,
-		chapterLabel: c.data.chapterLabel ?? `第 ${c.data.chapterNumber} 章`,
-		updated: c.data.updated ?? c.data.startDate,
-		href: `/books/${bookSlug}/${chapterId}`,
-		bookTitle: book?.data.title ?? bookSlug,
-		bookSubtitle: book?.data.subtitle,
-		bookSeries: book?.data.series,
-	};
-});
+const TYPE_LABEL: Record<Entry["type"], string> = {
+	essay: "Essay",
+	note: "Note",
+	pattern: "Pattern",
+	talk: "Talk",
+	smidgeon: "Smidgeon",
+};
 
 const fmtDate = (d?: Date) =>
 	d
@@ -73,29 +108,31 @@ const fmtDate = (d?: Date) =>
 				The Garden
 			</TitleWithCount>
 			<Title2>
-				一座持续生长的学术花园 —— 长文、笔记、研究随想慢慢长出来。按更新时间倒序排列，最新长出来的在最前。
+				一座持续生长的学术花园 —— 长文、笔记、研究随想慢慢长出来。
 			</Title2>
 		</header>
 
-		<section class="stream">
-			{
-				items.map((it) => (
-					<a class="entry" href={it.href}>
-						<div class="entry-meta">
-							<time>{fmtDate(it.updated)}</time>
-							<span class="entry-series">{it.bookSeries}</span>
-						</div>
-						<h3 class="entry-title">{it.title}</h3>
-						{it.description && <p class="entry-desc">{it.description}</p>}
-						<div class="entry-book">
-							<span class="entry-chapter">{it.chapterLabel}</span>
-							<span class="entry-divider">·</span>
-							<span class="entry-bookname">{it.bookTitle}</span>
-						</div>
-					</a>
-				))
-			}
-		</section>
+		{
+			items.length === 0 ? (
+				<div class="empty-state">
+					<p>花园刚清出场地，还没栽东西。长文 / 笔记 / 设计模式 / 演讲将陆续填入。</p>
+					<p>书稿章节在 <a href="/library">/library</a>。</p>
+				</div>
+			) : (
+				<section class="stream">
+					{items.map((it) => (
+						<a class="entry" href={it.href}>
+							<div class="entry-meta">
+								<time>{fmtDate(it.updated)}</time>
+								<span class="entry-type">{TYPE_LABEL[it.type]}</span>
+							</div>
+							<h3 class="entry-title">{it.title}</h3>
+							{it.description && <p class="entry-desc">{it.description}</p>}
+						</a>
+					))}
+				</section>
+			)
+		}
 	</PageWrapper>
 </Layout>
 
@@ -126,6 +163,29 @@ const fmtDate = (d?: Date) =>
 
 	.back-link a:hover {
 		color: var(--color-bright-crimson);
+	}
+
+	.empty-state {
+		padding: var(--space-xl) 0;
+		color: var(--color-gray-600);
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		line-height: 1.7;
+	}
+
+	.empty-state p {
+		margin: 0 0 var(--space-s);
+	}
+
+	.empty-state a {
+		color: var(--color-sea-blue);
+		text-decoration: none;
+		border-bottom: 1px solid var(--color-tinted-cream);
+		transition: border-color 0.2s ease;
+	}
+
+	.empty-state a:hover {
+		border-bottom-color: var(--color-sea-blue);
 	}
 
 	.stream {
@@ -160,7 +220,7 @@ const fmtDate = (d?: Date) =>
 		font-variant-numeric: tabular-nums;
 	}
 
-	.entry-series {
+	.entry-type {
 		font-family: var(--font-sans);
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
@@ -184,25 +244,6 @@ const fmtDate = (d?: Date) =>
 		font-size: var(--font-size-base);
 		line-height: 1.6;
 		color: var(--color-gray-700);
-		margin: 0 0 var(--space-2xs);
-	}
-
-	.entry-book {
-		font-family: var(--font-sans);
-		font-size: var(--font-size-sm);
-		color: var(--color-gray-600);
-	}
-
-	.entry-chapter {
-		font-family: "TNR Numerals", "Times New Roman", serif;
-	}
-
-	.entry-divider {
-		margin: 0 0.4em;
-		color: var(--color-gray-400);
-	}
-
-	.entry-bookname {
-		color: var(--color-gray-800);
+		margin: 0;
 	}
 </style>
