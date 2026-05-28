@@ -2,6 +2,7 @@
 import MainNavLinks from "./MainNavLinks.astro";
 import Logo from "../../animated-icons/Logo.astro";
 import MobileMenu from "./MobileMenu.astro";
+import SearchBox from "../SearchBox.astro";
 import { Icon } from "astro-icon/components";
 ---
 
@@ -12,6 +13,9 @@ import { Icon } from "astro-icon/components";
 	</a>
 	<div class="right-hand-side">
 		<MainNavLinks />
+		<div class="navbar-search">
+			<SearchBox />
+		</div>
 		<button
 			id="mobile-menu-toggle"
 			class="mobile-menu-toggle"
@@ -29,6 +33,16 @@ import { Icon } from "astro-icon/components";
 	.right-hand-side {
 		display: flex;
 		align-items: center;
+	}
+
+	.navbar-search {
+		margin-left: var(--space-s);
+	}
+
+	@media screen and (max-width: 550px) {
+		.navbar-search {
+			margin-left: var(--space-2xs);
+		}
 	}
 
 	.navbar {

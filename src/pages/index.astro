@@ -41,7 +41,16 @@ const HOMEPAGE_SKILL_PICKS = new Set([
 	"mermaid-diagram",       // 科研 · 图表绘制
 	"pdf",                   // 通用文档代表
 ]);
-const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug));
+// 注意 skills.json 里 pdf/docx/xlsx/pptx 等在多个分类下重复出现（/skills
+// 页面分类展示需要），所以这里要按 slug 去重，确保首页只有 5 张卡
+const featuredSkills: typeof skillsData = [];
+const seenFeaturedSlugs = new Set<string>();
+for (const s of skillsData) {
+	if (HOMEPAGE_SKILL_PICKS.has(s.slug) && !seenFeaturedSlugs.has(s.slug)) {
+		featuredSkills.push(s);
+		seenFeaturedSlugs.add(s.slug);
+	}
+}
 ---
 
 <Layout title="Chanw">

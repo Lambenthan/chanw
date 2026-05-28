@@ -1,0 +1,366 @@
+---
+/**
+ * 全站 Search 组件 ── 模态层 + 客户端子串过滤
+ *
+ * 触发：
+ *   - 点击 navbar 里的搜索图标
+ *   - 键盘 Cmd+K (Mac) / Ctrl+K (Win)
+ *
+ * 索引来源：build 时 /search-index.json (Skills + Books + News, ~1900 项)
+ * 第一次打开时 lazy fetch，之后缓存。
+ *
+ * 过滤策略：title + description 都 lowercased 后做子串匹配；title 命中权重更高。
+ * 结果按 type 分组（Skills / Library / News），各显示 top 5，总 top 20。
+ */
+import { Icon } from "astro-icon/components";
+---
+
+<button class="search-trigger" id="search-open" aria-label="Open search" type="button">
+	<Icon name="heroicons:magnifying-glass" size={18} />
+	<span class="search-trigger-hint" aria-hidden="true"><kbd>⌘</kbd><kbd>K</kbd></span>
+</button>
+
+<dialog class="search-modal" id="search-modal" aria-label="Search">
+	<form class="search-form" id="search-form" autocomplete="off">
+		<Icon name="heroicons:magnifying-glass" size={18} class="search-icon" />
+		<input
+			class="search-input"
+			id="search-input"
+			type="search"
+			placeholder="搜 Skills / Library / News …"
+			aria-label="Search input"
+			autocomplete="off"
+		/>
+		<button class="search-close" id="search-close" type="button" aria-label="Close">
+			<kbd>Esc</kbd>
+		</button>
+	</form>
+	<div class="search-results" id="search-results">
+		<p class="search-empty">输入关键词开始搜索 (Skills / Library / News)</p>
+	</div>
+</dialog>
+
+<style>
+	.search-trigger {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-3xs);
+		padding: var(--space-3xs) var(--space-2xs);
+		background: none;
+		border: 1px solid var(--color-tinted-cream);
+		border-radius: 4px;
+		color: var(--color-gray-600);
+		cursor: pointer;
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		transition: all 0.2s ease;
+	}
+
+	.search-trigger:hover {
+		color: var(--color-sea-blue);
+		border-color: var(--color-sea-blue);
+	}
+
+	.search-trigger-hint {
+		display: inline-flex;
+		gap: 2px;
+		opacity: 0.7;
+	}
+
+	.search-trigger-hint kbd {
+		font-family: "TNR Numerals", "Times New Roman", serif;
+		font-size: var(--font-size-xs);
+		background: none;
+		border: none;
+		padding: 0;
+	}
+
+	@media (max-width: 640px) {
+		.search-trigger-hint {
+			display: none;
+		}
+	}
+
+	.search-modal {
+		padding: 0;
+		border: none;
+		border-radius: 8px;
+		max-width: 640px;
+		width: 90vw;
+		max-height: 80vh;
+		margin: auto;
+		background: var(--color-cream);
+		box-shadow: var(--box-shadow-lg, 0 20px 60px rgba(0, 0, 0, 0.15));
+	}
+
+	.search-modal::backdrop {
+		background: color-mix(in srgb, var(--color-gray-800) 40%, transparent);
+		backdrop-filter: blur(2px);
+	}
+
+	.search-form {
+		display: flex;
+		align-items: center;
+		gap: var(--space-2xs);
+		padding: var(--space-s) var(--space-m);
+		border-bottom: 1px solid var(--color-tinted-cream);
+	}
+
+	.search-form :global(.search-icon) {
+		color: var(--color-gray-500);
+		flex-shrink: 0;
+	}
+
+	.search-input {
+		flex: 1;
+		background: none;
+		border: none;
+		outline: none;
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		color: var(--color-gray-800);
+	}
+
+	.search-input::placeholder {
+		color: var(--color-gray-500);
+	}
+
+	.search-close {
+		flex-shrink: 0;
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		color: var(--color-gray-500);
+	}
+
+	.search-close kbd {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		padding: 2px 6px;
+		border: 1px solid var(--color-tinted-cream);
+		border-radius: 3px;
+	}
+
+	.search-results {
+		max-height: calc(80vh - 80px);
+		overflow-y: auto;
+		padding: var(--space-2xs) 0;
+	}
+
+	.search-empty {
+		padding: var(--space-l) var(--space-m);
+		text-align: center;
+		color: var(--color-gray-500);
+		font-family: var(--font-body);
+		font-size: var(--font-size-sm);
+		margin: 0;
+	}
+
+	.search-group {
+		padding: var(--space-2xs) 0;
+	}
+
+	.search-group-title {
+		padding: var(--space-2xs) var(--space-m);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: var(--color-gray-500);
+		font-weight: 600;
+	}
+
+	.search-result {
+		display: block;
+		padding: var(--space-2xs) var(--space-m);
+		text-decoration: none;
+		color: inherit;
+		transition: background-color 0.15s ease;
+	}
+
+	.search-result:hover,
+	.search-result.is-active {
+		background: color-mix(in srgb, var(--color-sea-blue) 8%, transparent);
+	}
+
+	.search-result-title {
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		font-weight: 500;
+		color: var(--color-gray-800);
+		margin: 0 0 2px;
+		line-height: 1.3;
+	}
+
+	.search-result:hover .search-result-title {
+		color: var(--color-sea-blue);
+	}
+
+	.search-result-meta {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		color: var(--color-gray-500);
+	}
+
+	.search-result-desc {
+		font-size: var(--font-size-sm);
+		color: var(--color-gray-700);
+		margin: 2px 0 0;
+		line-height: 1.4;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+</style>
+
+<script>
+	import { onPageLifecycle } from "../../utils/viewTransitionLifecycle";
+
+	type IndexItem = {
+		type: "skill" | "book" | "news";
+		title: string;
+		description?: string;
+		url: string;
+		meta?: string;
+	};
+
+	let cachedIndex: IndexItem[] | null = null;
+
+	async function loadIndex(): Promise<IndexItem[]> {
+		if (cachedIndex) return cachedIndex;
+		const res = await fetch("/search-index.json");
+		const data = (await res.json()) as IndexItem[];
+		cachedIndex = data;
+		return data;
+	}
+
+	function escapeHTML(s: string): string {
+		return s.replace(/[&<>"']/g, (c) =>
+			c === "&" ? "&amp;" : c === "<" ? "&lt;" : c === ">" ? "&gt;" : c === '"' ? "&quot;" : "&#39;",
+		);
+	}
+
+	function filterIndex(items: IndexItem[], q: string): IndexItem[] {
+		if (!q.trim()) return [];
+		const needle = q.toLowerCase();
+		const matched: { it: IndexItem; score: number }[] = [];
+		for (const it of items) {
+			const titleLc = it.title.toLowerCase();
+			const descLc = (it.description ?? "").toLowerCase();
+			const metaLc = (it.meta ?? "").toLowerCase();
+			if (titleLc.includes(needle)) matched.push({ it, score: 3 });
+			else if (descLc.includes(needle)) matched.push({ it, score: 2 });
+			else if (metaLc.includes(needle)) matched.push({ it, score: 1 });
+		}
+		matched.sort((a, b) => b.score - a.score);
+		return matched.map((m) => m.it);
+	}
+
+	function groupByType(results: IndexItem[]): Record<string, IndexItem[]> {
+		const groups: Record<string, IndexItem[]> = { skill: [], book: [], news: [] };
+		for (const r of results) groups[r.type].push(r);
+		return groups;
+	}
+
+	function renderResults(container: HTMLElement, results: IndexItem[]): void {
+		if (results.length === 0) {
+			container.innerHTML = `<p class="search-empty">没有匹配项</p>`;
+			return;
+		}
+		const groups = groupByType(results);
+		const LABELS: Record<string, string> = {
+			skill: "Skills",
+			book: "Library",
+			news: "News",
+		};
+		const html = (["skill", "book", "news"] as const)
+			.filter((t) => groups[t].length > 0)
+			.map((t) => {
+				const top = groups[t].slice(0, 5);
+				const rows = top
+					.map(
+						(r) => `
+				<a class="search-result" href="${escapeHTML(r.url)}"${r.type === "skill" || r.type === "news" ? ' target="_blank" rel="noopener noreferrer"' : ""}>
+					<h4 class="search-result-title">${escapeHTML(r.title)}</h4>
+					${r.description ? `<p class="search-result-desc">${escapeHTML(r.description)}</p>` : ""}
+					${r.meta ? `<div class="search-result-meta">${escapeHTML(r.meta)}</div>` : ""}
+				</a>`,
+					)
+					.join("");
+				return `<div class="search-group"><div class="search-group-title">${LABELS[t]} · ${top.length}${groups[t].length > top.length ? " / " + groups[t].length : ""}</div>${rows}</div>`;
+			})
+			.join("");
+		container.innerHTML = html;
+	}
+
+	onPageLifecycle(() => {
+		const openBtn = document.getElementById("search-open") as HTMLButtonElement | null;
+		const closeBtn = document.getElementById("search-close") as HTMLButtonElement | null;
+		const modal = document.getElementById("search-modal") as HTMLDialogElement | null;
+		const input = document.getElementById("search-input") as HTMLInputElement | null;
+		const resultsEl = document.getElementById("search-results") as HTMLElement | null;
+		if (!openBtn || !modal || !input || !resultsEl) return;
+
+		let debounceTimer: number | null = null;
+
+		const open = () => {
+			modal.showModal();
+			loadIndex().catch(() => {});
+			setTimeout(() => input.focus(), 50);
+		};
+
+		const close = () => {
+			modal.close();
+			input.value = "";
+			resultsEl.innerHTML = `<p class="search-empty">输入关键词开始搜索 (Skills / Library / News)</p>`;
+		};
+
+		const onInput = async () => {
+			if (debounceTimer) window.clearTimeout(debounceTimer);
+			debounceTimer = window.setTimeout(async () => {
+				const q = input.value;
+				if (!q.trim()) {
+					resultsEl.innerHTML = `<p class="search-empty">输入关键词开始搜索 (Skills / Library / News)</p>`;
+					return;
+				}
+				const idx = await loadIndex();
+				const filtered = filterIndex(idx, q);
+				renderResults(resultsEl, filtered);
+			}, 120);
+		};
+
+		const onKeydown = (e: KeyboardEvent) => {
+			const isMod = e.metaKey || e.ctrlKey;
+			if (isMod && e.key.toLowerCase() === "k") {
+				e.preventDefault();
+				if (modal.open) close();
+				else open();
+			}
+		};
+
+		openBtn.addEventListener("click", open);
+		closeBtn?.addEventListener("click", close);
+		input.addEventListener("input", onInput);
+		document.addEventListener("keydown", onKeydown);
+
+		// 点击背景关闭
+		modal.addEventListener("click", (e: MouseEvent) => {
+			const rect = modal.getBoundingClientRect();
+			const inside =
+				e.clientX >= rect.left &&
+				e.clientX <= rect.right &&
+				e.clientY >= rect.top &&
+				e.clientY <= rect.bottom;
+			if (!inside) close();
+		});
+
+		return () => {
+			openBtn.removeEventListener("click", open);
+			closeBtn?.removeEventListener("click", close);
+			input.removeEventListener("input", onInput);
+			document.removeEventListener("keydown", onKeydown);
+		};
+	});
+</script>
