@@ -16,7 +16,8 @@
     "news:enrich": "node scripts/news/enrich-feed-dates.mjs",
     "news:score": "node scripts/news/score-and-tag.mjs",
     "news:convert": "node scripts/news/convert-feed-to-news.mjs",
-    "news:refresh": "npm run news:extract && npm run news:enrich && npm run news:score && npm run news:convert"
+    "news:refresh": "npm run news:extract && npm run news:github && npm run news:enrich && npm run news:score && npm run news:convert",
+    "news:github": "node scripts/news/extract-github.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.1",

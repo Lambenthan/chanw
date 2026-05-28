@@ -1,5 +1,145 @@
 [
 	{
+		"title": "manaflow-ai 开源 cmux：面向 AI 编码 agent 的 macOS 终端",
+		"url": "https://github.com/manaflow-ai/cmux",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T13:02:18Z",
+		"group": "labs"
+	},
+	{
+		"title": "nexu-io 开源本地优先的设计工具 Open Design",
+		"url": "https://github.com/nexu-io/open-design",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T13:01:41Z",
+		"group": "labs"
+	},
+	{
+		"title": "agent-teams-ai 开源多智能体协作框架",
+		"url": "https://github.com/777genius/agent-teams-ai",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T13:01:37Z",
+		"group": "labs"
+	},
+	{
+		"title": "can1357 开源终端 AI 编程 Agent oh-my-pi",
+		"url": "https://github.com/can1357/oh-my-pi",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T13:00:52Z",
+		"group": "labs"
+	},
+	{
+		"title": "火山引擎开源面向 AI Agent 的上下文数据库 OpenViking",
+		"url": "https://github.com/volcengine/OpenViking",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T13:00:05Z",
+		"group": "labs"
+	},
+	{
+		"title": "ZhuLinsen 开源 LLM 驱动 A/H/美股智能分析系统",
+		"url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:48:52Z",
+		"group": "labs"
+	},
+	{
+		"title": "1weiho 开源面向 agent 的幻灯片框架 open-slide",
+		"url": "https://github.com/1weiho/open-slide",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:34:44Z",
+		"group": "labs"
+	},
+	{
+		"title": "holaboss-ai 开源 holaOS 本地优先工作 Agent 框架",
+		"url": "https://github.com/holaboss-ai/holaOS",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:24:22Z",
+		"group": "labs"
+	},
+	{
+		"title": "eugeniughelbur 开源 Obsidian 跨 CLI 技能项目 obsidian-second-brain",
+		"url": "https://github.com/eugeniughelbur/obsidian-second-brain",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:21:27Z",
+		"group": "labs"
+	},
+	{
+		"title": "HKUDS 开源轻量级 AI Agent 框架 nanobot",
+		"url": "https://github.com/HKUDS/nanobot",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:20:33Z",
+		"group": "labs"
+	},
+	{
+		"title": "wanshuiyin 开源 ARIS：面向自主 ML 研究的轻量 Markdown skill 集",
+		"url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T11:47:49Z",
+		"group": "labs"
+	},
+	{
+		"title": "affaan-m 开源 ECC agent 性能优化框架",
+		"url": "https://github.com/affaan-m/ECC",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T11:45:48Z",
+		"group": "labs"
+	},
+	{
+		"title": "ValueCell-ai 开源 ClawX，为 OpenClaw AI Agent 提供图形界面桌面应用",
+		"url": "https://github.com/ValueCell-ai/ClawX",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T11:32:56Z",
+		"group": "labs"
+	},
+	{
+		"title": "VectifyAI 开源 OpenKB 知识库项目",
+		"url": "https://github.com/VectifyAI/OpenKB",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T11:29:06Z",
+		"group": "labs"
+	},
+	{
+		"title": "dataelement 开源 Clawith Agent 框架",
+		"url": "https://github.com/dataelement/Clawith",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T11:24:47Z",
+		"group": "labs"
+	},
+	{
+		"title": "agentscope-ai 开源 QwenPaw 个人 AI 助手",
+		"url": "https://github.com/agentscope-ai/QwenPaw",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T11:11:26Z",
+		"group": "labs"
+	},
+	{
+		"title": "qingchencloud 开源 ClawPanel 多引擎 AI 管理面板",
+		"url": "https://github.com/qingchencloud/clawpanel",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T11:06:39Z",
+		"group": "labs"
+	},
+	{
+		"title": "HexmosTech 开源 git-lrc，在代码提交时自动触发轻量 AI 代码审查",
+		"url": "https://github.com/HexmosTech/git-lrc",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T10:53:26Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anionex 开源 banana-slides，基于 nano banana pro 的 AI PPT 生成应用",
+		"url": "https://github.com/Anionex/banana-slides",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T10:44:52Z",
+		"group": "labs"
+	},
+	{
+		"title": "阿里巴巴开源 OpenSandbox AI Agent 沙箱运行时",
+		"url": "https://github.com/alibaba/OpenSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T10:34:40Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 详解 Voice Engine 工作原理与安全研究",
 		"url": "https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research/",
 		"source": "OpenAI",
@@ -378,6 +518,146 @@
 		"group": "labs"
 	},
 	{
+		"title": "Zilliz 开源 memsearch，基于 Markdown 与 Milvus 的 AI agent 持久化记忆层",
+		"url": "https://github.com/zilliztech/memsearch",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T10:07:03Z",
+		"group": "labs"
+	},
+	{
+		"title": "HKUDS 开源 DeepTutor 个性化辅导 Agent",
+		"url": "https://github.com/HKUDS/DeepTutor",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T10:00:17Z",
+		"group": "labs"
+	},
+	{
+		"title": "Yeachan-Heo 开源 oh-my-claudecode，面向团队的多智能体编排工具",
+		"url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T09:56:12Z",
+		"group": "labs"
+	},
+	{
+		"title": "raphaelmansuy 开源基于 Rust 的 GraphRAG 项目 EdgeQuake",
+		"url": "https://github.com/raphaelmansuy/edgequake",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T09:50:56Z",
+		"group": "labs"
+	},
+	{
+		"title": "code-yeongyu 开源 oh-my-openagent agent 框架",
+		"url": "https://github.com/code-yeongyu/oh-my-openagent",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T09:43:13Z",
+		"group": "labs"
+	},
+	{
+		"title": "jackwener 开源 OpenCLI：将任意网站转为 CLI 供 AI agent 调用",
+		"url": "https://github.com/jackwener/OpenCLI",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T09:40:51Z",
+		"group": "labs"
+	},
+	{
+		"title": "CelestoAI 开源 SmolVM AI 沙箱基础设施",
+		"url": "https://github.com/CelestoAI/SmolVM",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T09:27:46Z",
+		"group": "labs"
+	},
+	{
+		"title": "Light-Heart-Labs 开源 DreamServer 本地 AI 服务器框架",
+		"url": "https://github.com/Light-Heart-Labs/DreamServer",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T09:02:31Z",
+		"group": "labs"
+	},
+	{
+		"title": "jundot 开源 omlx：面向 Apple Silicon 的 LLM 推理服务",
+		"url": "https://github.com/jundot/omlx",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T08:53:20Z",
+		"group": "labs"
+	},
+	{
+		"title": "HKUDS 开源 Vibe-Trading 个人交易 Agent",
+		"url": "https://github.com/HKUDS/Vibe-Trading",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T08:40:07Z",
+		"group": "labs"
+	},
+	{
+		"title": "HBAI-Ltd 开源 Toonflow AI 短剧创作工具",
+		"url": "https://github.com/HBAI-Ltd/Toonflow-app",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T08:38:51Z",
+		"group": "labs"
+	},
+	{
+		"title": "Snailclimb 开源 interview-guide，基于 Spring Boot 4.0 实现简历分析与 AI 模拟面试",
+		"url": "https://github.com/Snailclimb/interview-guide",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T08:07:55Z",
+		"group": "labs"
+	},
+	{
+		"title": "headroom 开源 LLM 输入压缩工具",
+		"url": "https://github.com/chopratejas/headroom",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T07:41:44Z",
+		"group": "labs"
+	},
+	{
+		"title": "Gitlawb 开源 openclaude 项目",
+		"url": "https://github.com/Gitlawb/openclaude",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T07:38:59Z",
+		"group": "labs"
+	},
+	{
+		"title": "antigravity-awesome-skills 开源 1400 个 agentic skills 库",
+		"url": "https://github.com/sickn33/antigravity-awesome-skills",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T07:22:43Z",
+		"group": "labs"
+	},
+	{
+		"title": "rtk-ai/rtk 发布 Rust 编写的 LLM token 压缩代理工具",
+		"url": "https://github.com/rtk-ai/rtk",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T07:06:33Z",
+		"group": "labs"
+	},
+	{
+		"title": "Mouseww 开源 anything-analyzer 协议分析工具，集成抓包、MITM 代理与 MCP Server",
+		"url": "https://github.com/Mouseww/anything-analyzer",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T06:47:18Z",
+		"group": "labs"
+	},
+	{
+		"title": "QuantDinger 开源 AI 量化交易平台，支持加密货币、股票与外汇",
+		"url": "https://github.com/brokermr810/QuantDinger",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T06:45:26Z",
+		"group": "labs"
+	},
+	{
+		"title": "TencentDB Agent Memory 开源 AI Agent 本地长期记忆框架",
+		"url": "https://github.com/Tencent/TencentDB-Agent-Memory",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T06:42:00Z",
+		"group": "labs"
+	},
+	{
+		"title": "CodeWhale 开源终端编程工具，集成 DeepSeek 与 MiMo coding agent",
+		"url": "https://github.com/Hmbown/CodeWhale",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T05:07:36Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 更新研究索引页面",
 		"url": "https://openai.com/research/index/",
 		"source": "OpenAI",
@@ -445,6 +725,13 @@
 		"url": "https://openai.com/index/openai-pytorch/",
 		"source": "OpenAI",
 		"date": "2026-05-28T04:25:36.776Z",
+		"group": "labs"
+	},
+	{
+		"title": "op7418 开源 guizang-ppt-skill：AI agent 生成 HTML 幻灯片 skill",
+		"url": "https://github.com/op7418/guizang-ppt-skill",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T04:03:56Z",
 		"group": "labs"
 	},
 	{
@@ -616,6 +903,41 @@
 		"group": "labs"
 	},
 	{
+		"title": "yilewang 开源 llm-for-zotero 研究 Agent 系统",
+		"url": "https://github.com/yilewang/llm-for-zotero",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T03:46:05Z",
+		"group": "labs"
+	},
+	{
+		"title": "nesquena 开源 Hermes WebUI，为 Hermes Agent 提供网页与移动端界面",
+		"url": "https://github.com/nesquena/hermes-webui",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T03:40:48Z",
+		"group": "labs"
+	},
+	{
+		"title": "jarrodwatts 开源 Claude Code 插件 claude-hud",
+		"url": "https://github.com/jarrodwatts/claude-hud",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T02:18:58Z",
+		"group": "labs"
+	},
+	{
+		"title": "EvoMap 开源基于 GEP 的 AI Agent 自进化引擎 Evolver",
+		"url": "https://github.com/EvoMap/evolver",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T02:14:11Z",
+		"group": "labs"
+	},
+	{
+		"title": "wiltodelta 开源 remove-ai-watermarks 工具，可移除 AI 生成图像的水印与溯源元数据",
+		"url": "https://github.com/wiltodelta/remove-ai-watermarks",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T01:18:29Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT-4o Mini",
 		"url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
 		"source": "OpenAI",
@@ -742,10 +1064,262 @@
 		"group": "labs"
 	},
 	{
+		"title": "graphify 开源 AI 编程助手 skill，将代码库转为可查询知识图谱",
+		"url": "https://github.com/safishamsi/graphify",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T23:30:37Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 揭示 GAN、逆强化学习与基于能量模型的理论联系",
 		"url": "https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models/",
 		"source": "OpenAI",
 		"date": "2026-05-27T23:30:36.718Z",
+		"group": "labs"
+	},
+	{
+		"title": "vasu-devs 开源 JustHireMe：本地优先的 AI 求职智能工作台",
+		"url": "https://github.com/vasu-devs/JustHireMe",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T18:20:21Z",
+		"group": "labs"
+	},
+	{
+		"title": "RyanCodrai 开源基于 TurboQuant 的向量索引库 turbovec",
+		"url": "https://github.com/RyanCodrai/turbovec",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T17:40:37Z",
+		"group": "labs"
+	},
+	{
+		"title": "Artificial Analysis 与 IBM 联合发布 ITBench-AA 企业 IT Agent 评测基准",
+		"url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+		"source": "Hugging Face Blog",
+		"date": "2026-05-27T17:20:29.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 AI 工厂基础设施方案",
+		"url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+		"source": "NVIDIA",
+		"date": "2026-05-27T17:00:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "ThinkWatch 开源企业 AI 堡垒主机项目",
+		"url": "https://github.com/ThinkWatchProject/ThinkWatch",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T16:56:12Z",
+		"group": "labs"
+	},
+	{
+		"title": "Narcooo 开源 Inkos 自主小说写作 AI Agent",
+		"url": "https://github.com/Narcooo/inkos",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T15:11:03Z",
+		"group": "labs"
+	},
+	{
+		"title": "阿里巴巴开源轻量级进程内向量数据库 zvec",
+		"url": "https://github.com/alibaba/zvec",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T14:58:49Z",
+		"group": "labs"
+	},
+	{
+		"title": "gsd-build 开源 get-shit-done：面向 Claude Code 的元提示与规格驱动开发系统",
+		"url": "https://github.com/gsd-build/get-shit-done",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T14:52:49Z",
+		"group": "labs"
+	},
+	{
+		"title": "cft0808/edict 开源三省六部制多智能体编排系统",
+		"url": "https://github.com/cft0808/edict",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T14:28:27Z",
+		"group": "labs"
+	},
+	{
+		"title": "hugohe3 开源 ppt-master：AI 将任意文档生成可编辑 PPTX",
+		"url": "https://github.com/hugohe3/ppt-master",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T12:24:31Z",
+		"group": "labs"
+	},
+	{
+		"title": "Cisco 与 OpenAI 合作将 Codex 引入企业工程",
+		"url": "https://openai.com/index/cisco",
+		"source": "OpenAI",
+		"date": "2026-05-27T11:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "CortexReach 开源 memory-lancedb-pro，为 OpenClaw 提供增强版 LanceDB 记忆插件",
+		"url": "https://github.com/CortexReach/memory-lancedb-pro",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T10:02:49Z",
+		"group": "labs"
+	},
+	{
+		"title": "milind-soni 开源 tiptour-macos，替代 Google AI 指针功能",
+		"url": "https://github.com/milind-soni/tiptour-macos",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T10:01:30Z",
+		"group": "labs"
+	},
+	{
+		"title": "ConardLi 开源 garden-skills 技能集合",
+		"url": "https://github.com/ConardLi/garden-skills",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T08:01:37Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 与 Thrive、Crete 合作构建基于 Codex 的自优化税务 Agent",
+		"url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+		"source": "OpenAI",
+		"date": "2026-05-27T07:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "gracezhao1997 开源 AR 扩散视频世界模型资源列表",
+		"url": "https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T03:40:57Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face TRL 开源万亿参数模型的 Delta Weight 同步方案",
+		"url": "https://huggingface.co/blog/delta-weight-sync",
+		"source": "Hugging Face Blog",
+		"date": "2026-05-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Warp 借助 GPT-5.5 协调本地与云端编程 agent 工作流",
+		"url": "https://openai.com/index/warp",
+		"source": "OpenAI",
+		"date": "2026-05-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Reachy Mini 机器人实现完全本地运行对话",
+		"url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+		"source": "Hugging Face Blog",
+		"date": "2026-05-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "codex-mobile 开源跨平台 Codex 移动端运行工具",
+		"url": "https://github.com/friuns2/codex-mobile",
+		"source": "GitHub Trending",
+		"date": "2026-05-26T23:34:55Z",
+		"group": "labs"
+	},
+	{
+		"title": "Leonxlnx 开源 Taste-Skill 提示词技能",
+		"url": "https://github.com/Leonxlnx/taste-skill",
+		"source": "GitHub Trending",
+		"date": "2026-05-26T19:31:39Z",
+		"group": "labs"
+	},
+	{
+		"title": "decolua/9router 开源多模型 AI 编程代理路由工具",
+		"url": "https://github.com/decolua/9router",
+		"source": "GitHub Trending",
+		"date": "2026-05-26T16:17:22Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布社会科学领域 coding agent 研究报告",
+		"url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+		"source": "Anthropic Research",
+		"date": "2026-05-26T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "nanocoai/nanoclaw 开源轻量级 OpenClaw 替代方案",
+		"url": "https://github.com/nanocoai/nanoclaw",
+		"source": "GitHub Trending",
+		"date": "2026-05-26T11:52:24Z",
+		"group": "labs"
+	},
+	{
+		"title": "Vercel Labs 开源 Open Agents 云端 Agent 构建模板",
+		"url": "https://github.com/vercel-labs/open-agents",
+		"source": "GitHub Trending",
+		"date": "2026-05-26T11:42:05Z",
+		"group": "labs"
+	},
+	{
+		"title": "OthmanAdi 开源 planning-with-files：Claude Code 持久化 Markdown 规划 skill",
+		"url": "https://github.com/OthmanAdi/planning-with-files",
+		"source": "GitHub Trending",
+		"date": "2026-05-26T09:29:04Z",
+		"group": "labs"
+	},
+	{
+		"title": "清华大学开源 Causal Forcing 视频生成代码库",
+		"url": "https://github.com/thu-ml/Causal-Forcing",
+		"source": "GitHub Trending",
+		"date": "2026-05-26T06:53:41Z",
+		"group": "labs"
+	},
+	{
+		"title": "sribdcn 开源 PersonalExam 个性化出题系统",
+		"url": "https://github.com/sribdcn/PersonalExam",
+		"source": "GitHub Trending",
+		"date": "2026-05-26T03:00:58Z",
+		"group": "labs"
+	},
+	{
+		"title": "taco-group 开源 SparkVSR 交互式视频超分辨率框架",
+		"url": "https://github.com/taco-group/SparkVSR",
+		"source": "GitHub Trending",
+		"date": "2026-05-26T01:35:03Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenCoworkAI 开源跨平台 AI agent 桌面应用 open-cowork",
+		"url": "https://github.com/OpenCoworkAI/open-cowork",
+		"source": "GitHub Trending",
+		"date": "2026-05-25T23:33:01Z",
+		"group": "labs"
+	},
+	{
+		"title": "code-review-graph 开源本地优先代码智能图谱工具",
+		"url": "https://github.com/tirth8205/code-review-graph",
+		"source": "GitHub Trending",
+		"date": "2026-05-25T22:03:58Z",
+		"group": "labs"
+	},
+	{
+		"title": "Quotio 开源 macOS 菜单栏 AI 配额管理工具",
+		"url": "https://github.com/nguyenphutrong/quotio",
+		"source": "GitHub Trending",
+		"date": "2026-05-25T15:50:28Z",
+		"group": "labs"
+	},
+	{
+		"title": "santifer 开源基于 Claude Code 的求职辅助系统 career-ops",
+		"url": "https://github.com/santifer/career-ops",
+		"source": "GitHub Trending",
+		"date": "2026-05-25T09:52:42Z",
+		"group": "labs"
+	},
+	{
+		"title": "TIGER-AI-Lab 开源浏览器 AI Agent 评测基准 ClawBench",
+		"url": "https://github.com/TIGER-AI-Lab/ClawBench",
+		"source": "GitHub Trending",
+		"date": "2026-05-25T00:33:10Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 发布 AI Agent 术语表",
+		"url": "https://huggingface.co/blog/agent-glossary",
+		"source": "Hugging Face Blog",
+		"date": "2026-05-25T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1099,6 +1673,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "jo-inc 开源 camofox-browser 无头浏览器",
+		"url": "https://github.com/jo-inc/camofox-browser",
+		"source": "GitHub Trending",
+		"date": "2026-05-24T07:03:00Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 加速网络防御生态建设",
 		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
 		"source": "OpenAI",
@@ -1348,6 +1929,13 @@
 		"url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
 		"source": "OpenAI",
 		"date": "2026-05-22T19:19:02.632Z",
+		"group": "labs"
+	},
+	{
+		"title": "aden-hive 开源 hive 多智能体生产级 AI 框架",
+		"url": "https://github.com/aden-hive/hive",
+		"source": "GitHub Trending",
+		"date": "2026-05-22T19:18:56Z",
 		"group": "labs"
 	},
 	{
@@ -2156,10 +2744,38 @@
 		"group": "labs"
 	},
 	{
+		"title": "Hugging Face 博客文章探讨 AI 采购中常被忽视的模型专业化策略",
+		"url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+		"source": "Hugging Face Blog",
+		"date": "2026-05-22T15:25:59.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "mvanhorn 开源 last30days-skill：AI agent 多源研究 skill",
+		"url": "https://github.com/mvanhorn/last30days-skill",
+		"source": "GitHub Trending",
+		"date": "2026-05-22T15:14:46Z",
+		"group": "labs"
+	},
+	{
+		"title": "lightningpixel 开源 Modly：本地 GPU 运行的图像生成 3D 模型桌面应用",
+		"url": "https://github.com/lightningpixel/modly",
+		"source": "GitHub Trending",
+		"date": "2026-05-22T13:41:55Z",
+		"group": "labs"
+	},
+	{
 		"title": "Virgin Atlantic 使用 Codex 加速移动应用发布",
 		"url": "https://openai.com/index/virgin-atlantic",
 		"source": "OpenAI",
 		"date": "2026-05-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Donchitos 开源 Claude Code Game Studios 游戏开发工作流技能集",
+		"url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+		"source": "GitHub Trending",
+		"date": "2026-05-21T23:33:07Z",
 		"group": "labs"
 	},
 	{
@@ -2212,10 +2828,31 @@
 		"group": "labs"
 	},
 	{
+		"title": "aiming-lab 开源 SimpleMem：面向 LLM Agent 的高效终身记忆框架",
+		"url": "https://github.com/aiming-lab/SimpleMem",
+		"source": "GitHub Trending",
+		"date": "2026-05-21T16:19:21Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Project Glasswing 初步更新",
 		"url": "https://www.anthropic.com/research/glasswing-initial-update",
 		"source": "Anthropic Research",
 		"date": "2026-05-21T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "0xMassi 开源 webclaw：面向 LLM 的本地优先网页内容提取工具",
+		"url": "https://github.com/0xMassi/webclaw",
+		"source": "GitHub Trending",
+		"date": "2026-05-21T13:11:31Z",
+		"group": "labs"
+	},
+	{
+		"title": "waooAI 开源 waoowaoo 工业级 AI 影视生产 Agent 平台",
+		"url": "https://github.com/waooAI/waoowaoo",
+		"source": "GitHub Trending",
+		"date": "2026-05-21T08:57:46Z",
 		"group": "labs"
 	},
 	{
@@ -2282,6 +2919,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "browser-use 开源 Browser Harness 自愈式浏览器自动化框架",
+		"url": "https://github.com/browser-use/browser-harness",
+		"source": "GitHub Trending",
+		"date": "2026-05-20T19:28:42Z",
+		"group": "labs"
+	},
+	{
 		"title": "Google 推出 Google Beam 提升群体会议体验",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
 		"source": "Google AI",
@@ -2300,6 +2944,13 @@
 		"url": "https://www.anthropic.com/research/teaching-claude-why",
 		"source": "Anthropic Research",
 		"date": "2026-05-20T13:19:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "caveman 发布 Claude Code skill，以精简表达减少 65% token 消耗",
+		"url": "https://github.com/JuliusBrussee/caveman",
+		"source": "GitHub Trending",
+		"date": "2026-05-20T10:44:54Z",
 		"group": "labs"
 	},
 	{
@@ -2387,6 +3038,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Google 开源 agents-cli，将任意编程助手转化为 AI Agent 构建专家",
+		"url": "https://github.com/google/agents-cli",
+		"source": "GitHub Trending",
+		"date": "2026-05-19T01:14:35Z",
+		"group": "labs"
+	},
+	{
 		"title": "Hugging Face 发布 Ettin Reranker 系列重排序模型",
 		"url": "https://huggingface.co/blog/ettin-reranker",
 		"source": "Hugging Face Blog",
@@ -2415,6 +3073,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Photo-agents 开源基于视觉分层记忆与自写技能的 LLM Agent 框架",
+		"url": "https://github.com/jmerelnyc/Photo-agents",
+		"source": "GitHub Trending",
+		"date": "2026-05-18T16:00:17Z",
+		"group": "labs"
+	},
+	{
 		"title": "KPMG 与 Anthropic 达成战略合作，将 Claude 接入核心业务",
 		"url": "https://www.anthropic.com/news/anthropic-kpmg",
 		"source": "Anthropic News",
@@ -2433,6 +3098,13 @@
 		"url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
 		"source": "Hugging Face Blog",
 		"date": "2026-05-18T15:12:46.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Panniantong 开源 Agent-Reach，为 AI agent 提供多平台信息读取能力",
+		"url": "https://github.com/Panniantong/Agent-Reach",
+		"source": "GitHub Trending",
+		"date": "2026-05-18T12:39:22Z",
 		"group": "labs"
 	},
 	{
@@ -2611,10 +3283,31 @@
 		"group": "labs"
 	},
 	{
+		"title": "RightNow-AI 开源 Agent 操作系统 openfang",
+		"url": "https://github.com/RightNow-AI/openfang",
+		"source": "GitHub Trending",
+		"date": "2026-05-14T08:28:37Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 发布 continuous batching 异步推理方案",
+		"url": "https://huggingface.co/blog/continuous_async",
+		"source": "Hugging Face Blog",
+		"date": "2026-05-14T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 更新 ChatGPT 安全功能，提升敏感对话上下文感知",
 		"url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
 		"source": "OpenAI",
 		"date": "2026-05-14T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "matt1398 开源 claude-devtools，为 Claude Code 提供可视化调试面板",
+		"url": "https://github.com/matt1398/claude-devtools",
+		"source": "GitHub Trending",
+		"date": "2026-05-13T21:40:54Z",
 		"group": "labs"
 	},
 	{
@@ -2667,6 +3360,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "googleworkspace/cli 开源 Google Workspace 命令行工具",
+		"url": "https://github.com/googleworkspace/cli",
+		"source": "GitHub Trending",
+		"date": "2026-05-12T16:46:11Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 推出 Claude for Small Business",
 		"url": "https://www.anthropic.com/news/claude-for-small-business",
 		"source": "Anthropic News",
@@ -2716,10 +3416,31 @@
 		"group": "labs"
 	},
 	{
+		"title": "AlexAnys 开源 OpenClaw 中文用例大全",
+		"url": "https://github.com/AlexAnys/awesome-openclaw-usecases-zh",
+		"source": "GitHub Trending",
+		"date": "2026-05-11T20:06:59Z",
+		"group": "labs"
+	},
+	{
+		"title": "repowise-dev 开源 claude-code-prompts 提示词模板集",
+		"url": "https://github.com/repowise-dev/claude-code-prompts",
+		"source": "GitHub Trending",
+		"date": "2026-05-11T16:20:18Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 2026 年 Q1 ChatGPT 用户增长报告",
 		"url": "https://openai.com/signals/research/2026q1-update",
 		"source": "OpenAI",
 		"date": "2026-05-11T15:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Lightricks 发布 LTX-2 音视频生成模型推理与 LoRA 训练工具包",
+		"url": "https://github.com/Lightricks/LTX-2",
+		"source": "GitHub Trending",
+		"date": "2026-05-11T13:16:39Z",
 		"group": "labs"
 	},
 	{
@@ -2734,6 +3455,20 @@
 		"url": "https://www.anthropic.com/news/model-context-protocol",
 		"source": "Anthropic News",
 		"date": "2026-05-07T20:07:05.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenMontage 开源 agentic 视频制作系统",
+		"url": "https://github.com/calesthio/OpenMontage",
+		"source": "GitHub Trending",
+		"date": "2026-05-07T12:12:36Z",
+		"group": "labs"
+	},
+	{
+		"title": "JCodesMore 开源 AI 网站克隆模板，一条命令复刻任意网站",
+		"url": "https://github.com/JCodesMore/ai-website-cloner-template",
+		"source": "GitHub Trending",
+		"date": "2026-05-07T09:11:26Z",
 		"group": "labs"
 	},
 	{
@@ -2772,6 +3507,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "YGYOOO 开源 WorldX：一句话生成 AI 驱动的世界",
+		"url": "https://github.com/YGYOOO/WorldX",
+		"source": "GitHub Trending",
+		"date": "2026-05-06T11:00:11Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 发布 Gemini 驱动的编码 Agent AlphaEvolve",
 		"url": "https://deepmind.google/blog/alphaevolve-impact/",
 		"source": "DeepMind",
@@ -2793,6 +3535,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 上调 Claude 用量上限并与 Spacex 达成算力合作",
+		"url": "https://www.anthropic.com/news/higher-limits-spacex",
+		"source": "Anthropic News",
+		"date": "2026-05-05T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Google 发布 2026 年 4 月 AI 更新汇总",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
 		"source": "Google AI",
@@ -2811,6 +3560,13 @@
 		"url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
 		"source": "Google AI",
 		"date": "2026-05-04T15:30:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "FlowElement-ai 开源 m_flow 仿生认知记忆引擎",
+		"url": "https://github.com/FlowElement-ai/m_flow",
+		"source": "GitHub Trending",
+		"date": "2026-05-02T01:41:45Z",
 		"group": "labs"
 	},
 	{
@@ -2867,6 +3623,13 @@
 		"url": "https://openai.com/index/openai-o3-mini/",
 		"source": "OpenAI",
 		"date": "2026-04-30T06:51:18.090Z",
+		"group": "labs"
+	},
+	{
+		"title": "ChristopherKahler 开源 paul：面向 Claude Code 的结构化 AI 辅助开发循环框架",
+		"url": "https://github.com/ChristopherKahler/paul",
+		"source": "GitHub Trending",
+		"date": "2026-04-29T19:31:31Z",
 		"group": "labs"
 	},
 	{
@@ -2954,6 +3717,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "Lightricks 开源 LTX-Desktop 桌面视频生成应用",
+		"url": "https://github.com/Lightricks/LTX-Desktop",
+		"source": "GitHub Trending",
+		"date": "2026-04-27T13:15:21Z",
+		"group": "labs"
+	},
+	{
+		"title": "covibes 开源 Zeroshot：CLI 自主工程团队工具",
+		"url": "https://github.com/covibes/zeroshot",
+		"source": "GitHub Trending",
+		"date": "2026-04-27T07:44:18Z",
+		"group": "labs"
+	},
+	{
 		"title": "Google DeepMind 与韩国合作推进前沿 AI 科研",
 		"url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
 		"source": "DeepMind",
@@ -2965,6 +3742,13 @@
 		"url": "https://blog.google/innovation-and-ai/products/google-ai-career-tools/",
 		"source": "Google AI",
 		"date": "2026-04-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "openilink 开源 openilink-hub 微信 Bot 管理平台",
+		"url": "https://github.com/openilink/openilink-hub",
+		"source": "GitHub Trending",
+		"date": "2026-04-25T04:39:17Z",
 		"group": "labs"
 	},
 	{
@@ -3105,6 +3889,13 @@
 		"url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
 		"source": "Anthropic News",
 		"date": "2026-04-17T14:58:21.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "open-webui 开源 open-terminal：通过 curl 远程调用计算机",
+		"url": "https://github.com/open-webui/open-terminal",
+		"source": "GitHub Trending",
+		"date": "2026-04-17T01:23:10Z",
 		"group": "labs"
 	},
 	{
@@ -3325,6 +4116,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Safetensors 加入 PyTorch 基金会",
+		"url": "https://huggingface.co/blog/safetensors-joins-pytorch-foundation",
+		"source": "Hugging Face Blog",
+		"date": "2026-04-08T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Google AI 宣布量子计算取得重大突破",
 		"url": "https://blog.google/innovation-and-ai/products/computing-takes-quantum-leap-forward/",
 		"source": "Google AI",
@@ -3353,10 +4151,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenVGLab 开源 OmniLottie 多模态矢量动画生成模型",
+		"url": "https://github.com/OpenVGLab/OmniLottie",
+		"source": "GitHub Trending",
+		"date": "2026-04-06T04:01:50Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Diff Tool",
 		"url": "https://www.anthropic.com/research/diff-tool",
 		"source": "Anthropic Research",
 		"date": "2026-04-03T21:02:41.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "nextlevelbuilder 开源 ui-ux-pro-max-skill，提供多平台 UI/UX 设计智能",
+		"url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+		"source": "GitHub Trending",
+		"date": "2026-04-03T05:08:19Z",
 		"group": "labs"
 	},
 	{
@@ -3416,10 +4228,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "libukai/awesome-agent-skills 发布 Agent Skills 资源合集",
+		"url": "https://github.com/libukai/awesome-agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-03-26T15:51:32Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 发布 Gemini 3.1 Flash Live 语音模型",
 		"url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
 		"source": "DeepMind",
 		"date": "2026-03-26T15:23:35.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "F-R-L/forge-film 开源基于 DAG 驱动的并行 AI 影视生成引擎",
+		"url": "https://github.com/F-R-L/forge-film",
+		"source": "GitHub Trending",
+		"date": "2026-03-26T11:38:28Z",
 		"group": "labs"
 	},
 	{
@@ -3525,6 +4351,13 @@
 		"url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
 		"source": "Anthropic Engineering",
 		"date": "2026-03-24T16:23:08.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "ghostwright 开源 Ghost OS 原生 macOS AI Agent 框架",
+		"url": "https://github.com/ghostwright/ghost-os",
+		"source": "GitHub Trending",
+		"date": "2026-03-23T22:41:44Z",
 		"group": "labs"
 	},
 	{
@@ -3966,6 +4799,13 @@
 		"url": "https://www.anthropic.com/engineering/advanced-tool-use",
 		"source": "Anthropic Engineering",
 		"date": "2026-03-16T16:09:03.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "RunanywhereAI 开源 RCLI：Mac 端语音 AI 与本地 RAG 文档查询工具",
+		"url": "https://github.com/RunanywhereAI/RCLI",
+		"source": "GitHub Trending",
+		"date": "2026-03-16T02:30:00Z",
 		"group": "labs"
 	},
 	{
@@ -4431,10 +5271,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "SixHq 开源 Overture：以 MCP server 形式可视化 AI 编码 agent 执行计划",
+		"url": "https://github.com/SixHq/Overture",
+		"source": "GitHub Trending",
+		"date": "2026-03-08T01:51:05Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 推出软件定义 AI-RAN 软件定义方案",
 		"url": "https://blogs.nvidia.com/blog/software-defined-ai-ran/",
 		"source": "NVIDIA",
 		"date": "2026-03-07T02:38:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "智源开源 Open-AutoGLM 手机 Agent 模型与框架",
+		"url": "https://github.com/zai-org/Open-AutoGLM",
+		"source": "GitHub Trending",
+		"date": "2026-03-06T08:38:39Z",
 		"group": "labs"
 	},
 	{
@@ -6101,6 +6955,13 @@
 		"url": "https://www.anthropic.com/research/measuring-agent-autonomy",
 		"source": "Anthropic Research",
 		"date": "2026-02-19T22:38:09.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "login-machine 开源基于 Claude 与 Playwright 的登录自动化工具",
+		"url": "https://github.com/RichardHruby/login-machine",
+		"source": "GitHub Trending",
+		"date": "2026-02-19T21:19:16Z",
 		"group": "labs"
 	},
 	{
@@ -9783,6 +10644,13 @@
 		"url": "https://blogs.nvidia.com/blog/european-telcos-ai-factories/",
 		"source": "NVIDIA",
 		"date": "2025-09-23T22:57:54.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 与意大利合作推进主权 AI 基础设施建设",
+		"url": "https://blogs.nvidia.com/blog/italy-sovereign-ai/",
+		"source": "NVIDIA",
+		"date": "2025-09-23T22:56:18.000Z",
 		"group": "labs"
 	},
 	{
@@ -13715,6 +14583,13 @@
 	{
 		"title": "Anthropic 发布 AI Agent 零信任安全方案",
 		"url": "https://claude.com/blog/zero-trust-for-ai-agents",
+		"source": "claude.com",
+		"date": "",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 在伦敦举办 Code with Claude 2026 开发者活动",
+		"url": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
 		"source": "claude.com",
 		"date": "",
 		"group": "labs"

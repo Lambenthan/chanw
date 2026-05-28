@@ -41,6 +41,13 @@ jobs:
         continue-on-error: true
         run: node scripts/news/extract-feed.mjs
 
+      - name: Extract GitHub trending repos
+        # 不阻塞别的 step；GITHUB_TOKEN 走 actions 自带, rate limit 5000/hr
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/news/extract-github.mjs
+
       - name: Enrich missing publishedAt
         continue-on-error: true
         env:
