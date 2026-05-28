@@ -14,6 +14,9 @@ import PageWrapper from "../components/layouts/PageWrapper.astro";
 			<Title1>Chanw</Title1>
 			<Title2>会计实证、因果推断、与大语言模型的交叉处。</Title2>
 		</div>
+		<figure class="about-portrait">
+			<img src="/images/chanw-portrait.jpg" alt="Chanw" width="320" loading="lazy" />
+		</figure>
 		<div class="styled-main">
 			<section class="intro">
 				<div>
@@ -109,6 +112,21 @@ import PageWrapper from "../components/layouts/PageWrapper.astro";
 	}
 	.header-section h2 {
 		color: var(--color-gray-800);
+	}
+
+	.about-portrait {
+		display: flex;
+		justify-content: center;
+		margin: var(--space-l) auto 0;
+		max-width: 64ch;
+	}
+
+	.about-portrait img {
+		max-width: 320px;
+		width: 100%;
+		height: auto;
+		border-radius: var(--border-radius-base);
+		box-shadow: var(--box-shadow-sm);
 	}
 
 	.styled-main {

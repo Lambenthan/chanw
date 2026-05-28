@@ -5,21 +5,42 @@ import Layout from "../layouts/Layout.astro";
 import Spacer from "../components/mdx/Spacer.astro";
 import Title1 from "../components/mdx/typography/Title1.astro";
 import SmallTitle2 from "../components/mdx/typography/SmallTitle2.astro";
-import EssayCard from "../components/cards/EssayCard.astro";
 import BookCard from "../components/cards/BookCard.astro";
 import SkillCard from "../components/cards/SkillCard.astro";
-import UnderlineHoverLink from "../components/mdx/UnderlineHoverLink.astro";
 import PageWrapper from "../components/layouts/PageWrapper.astro";
-import { extractBaseSlug } from "../utils/versionUtils";
 import newsItems from "../data/news.json";
 import skillsData from "../data/skills.json";
 
-const essays = await getCollection("essays", ({ data }) => data.featured === true && !data.draft);
 const books = await getCollection("books");
 
-const sortedEssays = essays
-	.sort((a, b) => new Date(b.data.updated).getTime() - new Date(a.data.updated).getTime())
-	.slice(0, 4);
+// 首页"Recent Chapters" 区：跨书最近更新的 4 章。essays / notes / patterns
+// collection 均为空（站点没用这些类型），所以 Maggie 原版的 Essays 区
+// 改成"最近章节流"——指向同源数据，本质和 /garden 子页一致但只取 4 条。
+const allChapters = await getCollection("chapters");
+const allBooksList = books;
+const bookBySlugMap = new Map(
+	allBooksList.filter((b) => b.data.slug).map((b) => [b.data.slug!, b.data])
+);
+const recentChapters = [...allChapters]
+	.sort((a, b) => {
+		const ad = a.data.updated ?? a.data.startDate ?? new Date(0);
+		const bd = b.data.updated ?? b.data.startDate ?? new Date(0);
+		return new Date(bd).getTime() - new Date(ad).getTime();
+	})
+	.slice(0, 4)
+	.map((c) => {
+		const bookSlug = c.data.book;
+		const chapterId = c.id.replace(bookSlug + "/", "").replace(/\.mdx$/, "");
+		const book = bookBySlugMap.get(bookSlug);
+		return {
+			title: c.data.title,
+			description: c.data.description,
+			chapterLabel: c.data.chapterLabel ?? `第 ${c.data.chapterNumber} 章`,
+			updated: c.data.updated ?? c.data.startDate,
+			href: `/books/${bookSlug}/${chapterId}`,
+			bookTitle: book?.title ?? bookSlug,
+		};
+	});
 
 // 首页 News 只展示最新 6 条（按发布时间倒序）；完整列表见 /news
 const HOMEPAGE_NEWS_LIMIT = 6;
@@ -33,12 +54,12 @@ const homepageNews = (newsItems as { title: string; url: string; date?: string }
 	.slice(0, HOMEPAGE_NEWS_LIMIT);
 
 // Featured skills on homepage: pick a curated cross-section across categories.
-// 首页 Skills 精选 4 个：3 个科研流水线代表 + 1 个通用文档代表。
-// 完整 130 项见 /skills，按科研 · 数据分析 / 文献综述 / 图表 / 写作 /
-// 文档处理 / 演讲海报 / 语言润色 + 通用类分桶展示。
+// 首页 Skills 精选 5 个：跨 5 个不同子类覆盖完整科研流水线。
+// 完整 130 项见 /skills。
 const HOMEPAGE_SKILL_PICKS = new Set([
-	"academic-researcher",   // 科研 · 文献综述
-	"manuscript-optimizer",  // 科研 · 写作流程
+	"analyze-results",       // 科研 · 数据分析
+	"academic-researcher",   // 科研 · 写作流程与纪律
+	"manuscript-optimizer",  // 科研 · 语言润色
 	"mermaid-diagram",       // 科研 · 图表绘制
 	"pdf",                   // 通用文档代表
 ]);
@@ -49,11 +70,13 @@ const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug)
 	<PageWrapper>
 		<header class="page-header">
 			<Title1 class="main-title">
-				<b>Chanw</b>
-				的学术花园 —— 因果推断、人格因果学、AI 工具与开源项目策展。
+				<b>Chanw&rsquo;s Garden</b>
+				makes essays on doing research and the latest in AI.
 			</Title1>
 			<SmallTitle2>
-				研究者，自著学术工具书系列；同时维护 AI 工具与科研流水线索引。
+				Empiricist, tool curator, and mediocre developer.<br />
+				Currently exploring AI for empirical research at
+				<a href="https://github.com/Lambenthan" target="_blank" rel="noopener noreferrer">github.com/Lambenthan</a>.
 			</SmallTitle2>
 		</header>
 
@@ -70,25 +93,25 @@ const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug)
 
 		<section class="garden-section">
 			<section class="essays-section">
-				<a href="/essays" class="header-link">
+				<a href="/garden" class="header-link">
 					<h3 class="section-header">
-						Essays
+						Recent Chapters
 						<Icon name="heroicons:arrow-right" size={18} />
 					</h3>
 				</a>
-				<div class="subheader">长文与书稿章节 —— 因果推断、元分析、人格因果学派研究。</div>
-				<div class="essays-grid">
+				<div class="subheader">长文与书稿章节 —— 记录我对 AI 在各领域应用的所思所想。</div>
+				<div class="recent-chapters">
 					{
-						sortedEssays.map((essay) => (
-							<EssayCard
-								id={essay.id}
-								slug={extractBaseSlug(essay.id)}
-								cover={essay.data.cover}
-								title={essay.data.title}
-								growthStage={essay.data.growthStage}
-								date={essay.data.updated}
-								description={essay.data.description}
-							/>
+						recentChapters.map((c) => (
+							<a class="chapter-row" href={c.href}>
+								<h4 class="chapter-row-title">{c.title}</h4>
+								{c.description && <p class="chapter-row-desc">{c.description}</p>}
+								<div class="chapter-row-meta">
+									<span>{c.chapterLabel}</span>
+									<span class="dot">·</span>
+									<span>{c.bookTitle}</span>
+								</div>
+							</a>
 						))
 					}
 				</div>
@@ -150,7 +173,7 @@ const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug)
 						<Icon name="heroicons:arrow-right" size={18} />
 					</h3>
 				</a>
-				<div class="subheader">我自己写的书 —— 因果推断方法、人格因果学派、科研工具手册。</div>
+				<div class="subheader">我自己写的书。</div>
 				<div class="books-grid">
 					{
 						books
@@ -195,6 +218,60 @@ const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug)
 	.readmore-link:hover [data-icon] {
 		margin-left: var(--space-2xs);
 		color: var(--color-sea-blue);
+	}
+
+	/* Recent Chapters mini-feed: 4 条最近章节，纵向 stack，
+	   每条一个 row，hover 整条变 sea-blue。链接整 row 可点击。 */
+	.recent-chapters {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.chapter-row {
+		display: block;
+		padding: var(--space-xs) 0 var(--space-s);
+		border-bottom: 1px solid var(--color-tinted-cream);
+		text-decoration: none;
+		color: inherit;
+		transition: background-color 0.2s ease;
+	}
+
+	.chapter-row:hover {
+		background: color-mix(in srgb, var(--color-sea-blue) 4%, transparent);
+	}
+
+	.chapter-row-title {
+		font-family: var(--font-serif);
+		font-size: calc(var(--font-size-base) * 1.05);
+		font-weight: 500;
+		color: var(--color-gray-800);
+		margin: 0 0 var(--space-3xs);
+		line-height: 1.3;
+		transition: color 0.2s ease;
+	}
+
+	.chapter-row:hover .chapter-row-title {
+		color: var(--color-sea-blue);
+	}
+
+	.chapter-row-desc {
+		font-family: var(--font-body);
+		font-size: var(--font-size-sm);
+		color: var(--color-gray-700);
+		line-height: 1.55;
+		margin: 0 0 var(--space-3xs);
+	}
+
+	.chapter-row-meta {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-xs);
+		color: var(--color-gray-500);
+		font-variant-numeric: tabular-nums;
+	}
+
+	.chapter-row-meta .dot {
+		margin: 0 0.35em;
+		color: var(--color-gray-400);
 	}
 
 	.index-note-card {
@@ -312,6 +389,7 @@ const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug)
 		margin-bottom: 0;
 		max-width: 1100px;
 	}
+
 
 	.company-name {
 		margin: 0 0.6rem 0 0.3rem;

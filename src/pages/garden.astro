@@ -1,0 +1,208 @@
+---
+/**
+ * /garden — Maggie 同款 Garden subpage：一座持续生长的学术花园。
+ *
+ * 我们的 essays / notes / smidgeons 当前为空，全部"长出来"的东西在
+ * src/content/chapters/ 下（109 章学术工具书）。所以 /garden 用作
+ * "横向跨书的章节时间流"：按 updated 倒序展示各书最新章节，让读者
+ * 看到这座花园里"最近又长出了什么"。
+ *
+ * 与 /library 的区别：
+ *   - /library = 按书 + 系列分类的目录视图（"我都写了什么"）
+ *   - /garden  = 按时间排序的章节流（"我最近在长什么"）
+ */
+import Layout from "../layouts/Layout.astro";
+import PageWrapper from "../components/layouts/PageWrapper.astro";
+import Title2 from "../components/mdx/typography/Title2.astro";
+import TitleWithCount from "../components/layouts/TitleWithCount.astro";
+import { Icon } from "astro-icon/components";
+import { getCollection } from "astro:content";
+
+const allChapters = await getCollection("chapters");
+const allBooks = await getCollection("books");
+
+const bookBySlug = new Map(allBooks.filter((b) => b.data.slug).map((b) => [b.data.slug!, b]));
+
+// 排序：按 updated 倒序，无 updated 退到 startDate
+const sorted = [...allChapters].sort((a, b) => {
+	const ad = a.data.updated ?? a.data.startDate ?? new Date(0);
+	const bd = b.data.updated ?? b.data.startDate ?? new Date(0);
+	return new Date(bd).getTime() - new Date(ad).getTime();
+});
+
+// 为每个 chapter 提取 URL + book 元数据
+const items = sorted.map((c) => {
+	const bookSlug = c.data.book;
+	const chapterId = c.id.replace(bookSlug + "/", "").replace(/\.mdx$/, "");
+	const book = bookBySlug.get(bookSlug);
+	return {
+		title: c.data.title,
+		description: c.data.description,
+		chapterLabel: c.data.chapterLabel ?? `第 ${c.data.chapterNumber} 章`,
+		updated: c.data.updated ?? c.data.startDate,
+		href: `/books/${bookSlug}/${chapterId}`,
+		bookTitle: book?.data.title ?? bookSlug,
+		bookSubtitle: book?.data.subtitle,
+		bookSeries: book?.data.series,
+	};
+});
+
+const fmtDate = (d?: Date) =>
+	d
+		? new Date(d).toLocaleDateString("en-CA", {
+				year: "numeric",
+				month: "short",
+				day: "numeric",
+			})
+		: "";
+---
+
+<Layout
+	title="The Garden — Chanw"
+	desc="一座持续生长的学术花园 —— 长文、笔记、研究随想慢慢长出来。"
+>
+	<PageWrapper>
+		<header style="margin-bottom: var(--space-xl);">
+			<TitleWithCount posts={items}>
+				<div class="back-link" slot="header-right">
+					<a href="/">
+						<Icon name="heroicons:arrow-left" size={16} />
+						<span> Back to Home </span>
+					</a>
+				</div>
+				The Garden
+			</TitleWithCount>
+			<Title2>
+				一座持续生长的学术花园 —— 长文、笔记、研究随想慢慢长出来。按更新时间倒序排列，最新长出来的在最前。
+			</Title2>
+		</header>
+
+		<section class="stream">
+			{
+				items.map((it) => (
+					<a class="entry" href={it.href}>
+						<div class="entry-meta">
+							<time>{fmtDate(it.updated)}</time>
+							<span class="entry-series">{it.bookSeries}</span>
+						</div>
+						<h3 class="entry-title">{it.title}</h3>
+						{it.description && <p class="entry-desc">{it.description}</p>}
+						<div class="entry-book">
+							<span class="entry-chapter">{it.chapterLabel}</span>
+							<span class="entry-divider">·</span>
+							<span class="entry-bookname">{it.bookTitle}</span>
+						</div>
+					</a>
+				))
+			}
+		</section>
+	</PageWrapper>
+</Layout>
+
+<style>
+	.back-link {
+		display: inline-flex;
+		align-items: center;
+		height: 100%;
+		position: relative;
+		left: -2rem;
+	}
+
+	@media (max-width: 1440px) {
+		.back-link {
+			left: 0;
+		}
+	}
+
+	.back-link a {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-3xs);
+		color: var(--color-gray-600);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		transition: color 0.2s ease;
+	}
+
+	.back-link a:hover {
+		color: var(--color-bright-crimson);
+	}
+
+	.stream {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.entry {
+		display: block;
+		padding: var(--space-s) 0;
+		border-bottom: 1px solid var(--color-tinted-cream);
+		text-decoration: none;
+		color: inherit;
+		transition: background-color 0.2s ease;
+	}
+
+	.entry:hover {
+		background: color-mix(in srgb, var(--color-sea-blue) 4%, transparent);
+	}
+
+	.entry-meta {
+		display: flex;
+		align-items: baseline;
+		gap: var(--space-xs);
+		margin-bottom: var(--space-3xs);
+		font-family: "TNR Numerals", "Times New Roman", serif;
+		font-size: var(--font-size-sm);
+		color: var(--color-gray-500);
+	}
+
+	.entry-meta time {
+		font-variant-numeric: tabular-nums;
+	}
+
+	.entry-series {
+		font-family: var(--font-sans);
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		font-size: var(--font-size-xs);
+	}
+
+	.entry-title {
+		font-family: var(--font-serif);
+		font-size: calc(var(--font-size-base) * 1.15);
+		font-weight: 500;
+		margin: 0 0 var(--space-3xs);
+		color: var(--color-gray-800);
+		line-height: 1.3;
+	}
+
+	.entry:hover .entry-title {
+		color: var(--color-sea-blue);
+	}
+
+	.entry-desc {
+		font-size: var(--font-size-base);
+		line-height: 1.6;
+		color: var(--color-gray-700);
+		margin: 0 0 var(--space-2xs);
+	}
+
+	.entry-book {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		color: var(--color-gray-600);
+	}
+
+	.entry-chapter {
+		font-family: "TNR Numerals", "Times New Roman", serif;
+	}
+
+	.entry-divider {
+		margin: 0 0.4em;
+		color: var(--color-gray-400);
+	}
+
+	.entry-bookname {
+		color: var(--color-gray-800);
+	}
+</style>

@@ -1,53 +1,193 @@
 ---
+/**
+ * /library — 按系列分组的学术工具书目录。
+ *
+ * 与 /garden 区别：
+ *   - /library = 按"系列 → 书"目录视图（"我都写了什么"）
+ *   - /garden  = 按时间倒序的章节流（"我最近在长什么"）
+ *
+ * 系列展示顺序：AI 方法论系列（含 Claude Code 科研手记）打头，
+ * 方法实践系列、审计实证系列、人格因果学、轨迹系列依次承接 ——
+ * 从"AI 时代的研究工具" 出发，逐步收束到"原创人物研究"。
+ */
 import Layout from "../layouts/Layout.astro";
 import Title2 from "../components/mdx/typography/Title2.astro";
 import PageWrapper from "../components/layouts/PageWrapper.astro";
 import BookCard from "../components/cards/BookCard.astro";
 import TitleWithCount from "../components/layouts/TitleWithCount.astro";
+import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
 
 const books = await getCollection("books");
+
+// 系列展示顺序：AI 方法论 → 方法实践 → 审计实证 → 人格因果学 → 轨迹
+const SERIES_ORDER = [
+	"AI 方法论系列",
+	"方法实践系列",
+	"审计实证系列",
+	"人格因果学",
+	"轨迹系列",
+];
+
+const SERIES_SUMMARY: Record<string, string> = {
+	"AI 方法论系列":
+		"AI 工具如何嵌入研究流程的方法论 ——《Claude Code 科研手记》打头，硅基社会科学（LLM 在社会科学中的应用）承接。",
+	"方法实践系列":
+		"针对单一经典数据集（RHC / California Prop 99 / BCG / Tennessee STAR），把一种因果推断或多层建模方法从数据到代码完整演练。",
+	"审计实证系列":
+		"会计与审计场景的舞弊识别、盈余管理实证：从案例机制到红旗信号、外部数据交叉验证、工作底稿模板。",
+	"人格因果学": "把因果推断框架引入人格心理学：单被试纵向 ITS、跨案例 meta、配套论文。",
+	"轨迹系列": "用因果推断与文本计量重读古代人物（王阳明 / 苏轼 / 顾炎武 / 曾国藩）的人格演化轨迹。",
+};
+
+// AI 方法论系列内部：claude-code-paper-writing 永远第一（用户明确要求）
+const INNER_ORDER: Record<string, (slug: string) => number> = {
+	"AI 方法论系列": (slug) => (slug === "claude-code-paper-writing" ? 0 : 1),
+};
+
+// 按系列分组
+type Book = (typeof books)[number];
+const grouped: { series: string; items: Book[]; summary: string }[] = SERIES_ORDER.map(
+	(series) => {
+		const items = books.filter((b) => b.data.series === series);
+		const order = INNER_ORDER[series];
+		const sorted = order
+			? items.sort((a, b) => order(a.data.slug ?? "") - order(b.data.slug ?? ""))
+			: items.sort((a, b) => (a.data.id ?? 0) - (b.data.id ?? 0));
+		return { series, items: sorted, summary: SERIES_SUMMARY[series] ?? "" };
+	}
+).filter((g) => g.items.length > 0);
+
+// 万一有系列不在 SERIES_ORDER 内（防御性兜底）
+const unknown = books.filter((b) => !SERIES_ORDER.includes(b.data.series ?? ""));
+if (unknown.length > 0) {
+	grouped.push({
+		series: "其他",
+		items: unknown,
+		summary: "尚未归类的章节稿。",
+	});
+}
 ---
 
-<Layout title="Library">
+<Layout title="Library — Chanw" desc="按系列分类的学术工具书目录。">
 	<PageWrapper>
-		<header style="margin-bottom: var(--space-2xl);">
+		<header style="margin-bottom: var(--space-xl);">
 			<TitleWithCount posts={books}>
+				<div class="back-link" slot="header-right">
+					<a href="/">
+						<Icon name="heroicons:arrow-left" size={16} />
+						<span> Back to Home </span>
+					</a>
+				</div>
 				Library
 			</TitleWithCount>
-			<Title2
-				>我自己写的书 —— 因果推断方法书、人格因果学派、科研工具手册三大方向。</Title2
-			>
+			<Title2>
+				我自己写的书 —— 按系列分类。点击书卡进入具体章节目录。
+			</Title2>
 		</header>
-		<section class="bookshelf-grid">
-			{
-				books.map((book) => (
-					<BookCard
-						subtitle={book.data.subtitle}
-						link={book.data.link}
-						title={book.data.title}
-						author={book.data.author}
-						cover={book.data.cover}
-					/>
-				))
-			}
-		</section>
+
+		{
+			grouped.map((g) => (
+				<section class="series-group" id={`series-${g.series}`}>
+					<header class="group-header">
+						<span class="group-count">{g.items.length}</span>
+						<h2 class="group-title">{g.series}</h2>
+						{g.summary && <p class="group-subtitle">{g.summary}</p>}
+					</header>
+					<div class="bookshelf-grid">
+						{g.items.map((book) => (
+							<BookCard
+								subtitle={book.data.subtitle}
+								link={book.data.link}
+								title={book.data.title}
+								author={book.data.author}
+								cover={book.data.cover}
+							/>
+						))}
+					</div>
+				</section>
+			))
+		}
 	</PageWrapper>
 </Layout>
 
 <style>
-	.styled-link {
-		color: var(--color-gray-300);
-		transition: all 0.4s ease-in-out;
-		cursor: pointer;
+	.back-link {
+		display: inline-flex;
+		align-items: center;
+		height: 100%;
+		position: relative;
+		left: -2rem;
 	}
-	.styled-link:hover {
+
+	@media (max-width: 1440px) {
+		.back-link {
+			left: 0;
+		}
+	}
+
+	.back-link a {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-3xs);
+		color: var(--color-gray-600);
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		transition: color 0.2s ease;
+	}
+
+	.back-link a:hover {
 		color: var(--color-bright-crimson);
+	}
+
+	.series-group {
+		margin-bottom: var(--space-2xl);
+	}
+
+	.group-header {
+		margin-bottom: var(--space-m);
+		padding-bottom: var(--space-2xs);
+		border-bottom: 1px dotted var(--color-gray-300);
+	}
+
+	.group-count {
+		display: inline-block;
+		font-family: "TNR Numerals", "Times New Roman", serif;
+		font-style: italic;
+		font-size: var(--font-size-sm);
+		color: var(--color-sea-blue);
+		margin-right: var(--space-2xs);
+	}
+
+	.group-count::before {
+		content: "(";
+	}
+	.group-count::after {
+		content: ")";
+	}
+
+	.group-title {
+		display: inline-block;
+		font-family: var(--font-serif);
+		font-size: var(--font-size-md);
+		font-weight: 500;
+		color: var(--color-gray-800);
+		margin: 0;
+		line-height: 1.3;
+	}
+
+	.group-subtitle {
+		margin: var(--space-3xs) 0 0;
+		font-family: var(--font-sans);
+		font-size: var(--font-size-base);
+		font-weight: 300;
+		color: var(--color-gray-700);
+		line-height: var(--leading-base);
 	}
 
 	.bookshelf-grid {
 		display: grid;
 		grid-gap: var(--space-s);
-		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	}
 </style>
