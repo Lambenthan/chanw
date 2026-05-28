@@ -1,12 +1,11 @@
 ---
 /**
- * /garden — Maggie 同款 Garden subpage：5 类 content collection 的统一时间流。
+ * /garden — Maggie 同款 Garden subpage：长文（essays）时间流。
  *
- * Maggie 原项目的 /garden 是把 essays / notes / patterns / talks / smidgeons
- * 合并按时间倒序展示——"一座持续生长的花园"的字面落地。
- *
- * 本站当前这 5 个 collection 均为空（用户即将填长文 / 笔记 / 设计模式 / 演讲）。
- * 所以这个页面现在会显示空 stream，等内容填进去会自动长出来。
+ * 本站 notes / patterns 两类 Maggie 原 collection 已被 rename：
+ *   - notes  → news (走 src/data/news.json, 在 /news)
+ *   - patterns → skills (走 src/data/skills.json, 在 /skills)
+ * 所以 /garden 只查 essays collection。
  *
  * book chapters 不在这里——它们属 /library/[book]/[chapter] 路由，由 /library 索引。
  */
@@ -18,69 +17,20 @@ import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
 import { extractBaseSlug } from "../utils/versionUtils";
 
-type Entry = {
-	type: "essay" | "note" | "pattern" | "talk" | "smidgeon";
-	title: string;
-	description?: string;
-	updated?: Date;
-	href: string;
-};
-
 const essays = await getCollection("essays", ({ data }) => !data.draft);
-const notes = await getCollection("notes", ({ data }) => !data.draft);
-const patterns = await getCollection("patterns", ({ data }) => !data.draft);
-const talks = await getCollection("talks", ({ data }) => !data.draft);
-const smidgeons = await getCollection("smidgeons", ({ data }) => !data.draft);
 
-const items: Entry[] = [
-	...essays.map((e) => ({
-		type: "essay" as const,
+const items = essays
+	.map((e) => ({
 		title: e.data.title,
 		description: e.data.description,
 		updated: e.data.updated,
 		href: `/${extractBaseSlug(e.id)}`,
-	})),
-	...notes.map((n) => ({
-		type: "note" as const,
-		title: n.data.title,
-		description: n.data.description,
-		updated: n.data.updated,
-		href: `/${extractBaseSlug(n.id)}`,
-	})),
-	...patterns.map((p) => ({
-		type: "pattern" as const,
-		title: p.data.title,
-		description: p.data.description,
-		updated: p.data.updated,
-		href: `/${extractBaseSlug(p.id)}`,
-	})),
-	...talks.map((t) => ({
-		type: "talk" as const,
-		title: t.data.title,
-		description: t.data.description,
-		updated: t.data.updated,
-		href: `/${extractBaseSlug(t.id)}`,
-	})),
-	...smidgeons.map((s) => ({
-		type: "smidgeon" as const,
-		title: s.data.title ?? "(smidgeon)",
-		description: s.data.description,
-		updated: s.data.updated,
-		href: `/${extractBaseSlug(s.id)}`,
-	})),
-].sort((a, b) => {
-	const ad = a.updated ?? new Date(0);
-	const bd = b.updated ?? new Date(0);
-	return new Date(bd).getTime() - new Date(ad).getTime();
-});
-
-const TYPE_LABEL: Record<Entry["type"], string> = {
-	essay: "Essay",
-	note: "Note",
-	pattern: "Pattern",
-	talk: "Talk",
-	smidgeon: "Smidgeon",
-};
+	}))
+	.sort((a, b) => {
+		const ad = a.updated ?? new Date(0);
+		const bd = b.updated ?? new Date(0);
+		return new Date(bd).getTime() - new Date(ad).getTime();
+	});
 
 const fmtDate = (d?: Date) =>
 	d
@@ -115,7 +65,7 @@ const fmtDate = (d?: Date) =>
 		{
 			items.length === 0 ? (
 				<div class="empty-state">
-					<p>花园刚清出场地，还没栽东西。长文 / 笔记 / 设计模式 / 演讲将陆续填入。</p>
+					<p>花园刚清出场地，还没栽东西。长文与研究随想陆续填入。</p>
 					<p>书稿章节在 <a href="/library">/library</a>。</p>
 				</div>
 			) : (
@@ -124,7 +74,6 @@ const fmtDate = (d?: Date) =>
 						<a class="entry" href={it.href}>
 							<div class="entry-meta">
 								<time>{fmtDate(it.updated)}</time>
-								<span class="entry-type">{TYPE_LABEL[it.type]}</span>
 							</div>
 							<h3 class="entry-title">{it.title}</h3>
 							{it.description && <p class="entry-desc">{it.description}</p>}
@@ -218,13 +167,6 @@ const fmtDate = (d?: Date) =>
 
 	.entry-meta time {
 		font-variant-numeric: tabular-nums;
-	}
-
-	.entry-type {
-		font-family: var(--font-sans);
-		text-transform: uppercase;
-		letter-spacing: 0.04em;
-		font-size: var(--font-size-xs);
 	}
 
 	.entry-title {
