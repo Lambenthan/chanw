@@ -1,0 +1,307 @@
+---
+title: "惩罚回归：LASSO 与 Elastic Net"
+description: "在 42 个 Bao 特征上用时间感知交叉验证拟合 LASSO、Ridge、Elastic Net，理解 L1/L2 几何含义与稀疏变量选择，分析测试集 AUC 对比与标志性案例公司打分。"
+book: "fraud-detection"
+chapterNumber: 4
+chapterLabel: "第 4 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["财务舞弊", "LASSO", "Elastic Net", "惩罚回归"]
+---
+
+<ChapterAudience>
+
+把普通逻辑回归在高维财务变量下的过拟合风险讲清楚，从几何上理解 L1 与 L2 惩罚的区别，掌握时间感知 forward-chaining 交叉验证的正确用法，在 Bao 数据上用 `glmnet` 拟合 LASSO、Ridge、Elastic Net 三种模型，比较测试集性能，体会 LASSO 的稀疏特征选择与其会计含义。
+
+</ChapterAudience>
+
+<IntroParagraph>上一章把 42 个 Bao 特征塞进一个普通逻辑回归，得到测试集 AUC 0.6966。这个数字并不差，但有一处令人不安。训练样本舞弊数只有 537，自变量却有 42 个，再加上常数项是 43 个待估系数。每个非舞弊样本对应的"信息量"被 42 个系数瓜分，普通逻辑回归会把训练集里的随机噪声当作信号学进去，在新数据上表现波动剧烈。会计文献里对此有专门的术语，叫"过拟合"。</IntroParagraph>
+
+惩罚回归是应对过拟合的标准工具。在原本的对数似然函数后面加一个对系数大小的惩罚项，强迫模型把那些"看起来有用、其实是噪声"的变量系数压向零。Tibshirani 在 1996 年提出 LASSO，用 $\sum |\beta_j|$ 形式的 L1 惩罚做变量选择；Hoerl 与 Kennard 早在 1970 年代提出 Ridge，用 $\sum \beta_j^2$ 形式的 L2 惩罚做整体收缩；Zou 与 Hastie 在 2005 年把两者按比例混合，提出 Elastic Net。本章把这三种惩罚都套到 Bao 的 42 个特征上，看哪一种最适合舞弊检测这种正样本极稀、变量高度相关的场景。
+
+## 4.1 高维财务变量下的过拟合风险
+
+第 3 章的逻辑回归用的是极大似然估计。最大化对数似然等价于最小化交叉熵损失 $-\sum_i [y_i \log \hat p_i + (1-y_i) \log (1-\hat p_i)]$。在低维数据上这个目标函数有唯一的极小值；在高维数据上它会沿着多个方向变得很平，模型可以在保持训练损失不变的前提下任意放大某些系数。会计变量之间存在天然的高相关，比如总资产 `at` 和总负债 `lt` 的相关系数通常在 0.95 以上，普通股权益 `ceq` 和留存收益 `re` 也高度相关。共线变量让损失函数沿着"一个系数升、另一个降"的方向几乎完全平坦，普通最大似然没有办法在这种平坦的方向上做出选择。
+
+把这个问题翻译成具体数字。Bao 数据训练集 63,930 行，537 个舞弊样本，42 个特征。每个特征的标准差被先归一化到 1，意味着每个 $\beta_j$ 的"单位影响"是可比的。如果把 `at` 的系数设为 $+10$，`lt` 的系数设为 $-10$，由于这两个变量高度相关，它们的预测值之和与原本系数都为 0 时几乎一致，训练损失不会升高多少，但模型已经开始报告对总资产和总负债"非常敏感"。换到测试集 2009 至 2014 年的数据上，新公司的 `at` 与 `lt` 关系略有变化，模型的预测就会剧烈震荡。
+
+惩罚回归的解决思路是在损失函数里加一项"系数不要乱动"的代价。形式化地，惩罚回归求解
+
+$$
+\hat\beta = \arg\min_\beta \left\{ -\frac{1}{n} \sum_i [y_i \log \hat p_i + (1-y_i) \log (1-\hat p_i)] + \lambda \cdot P(\beta) \right\},
+$$
+
+其中 $\hat p_i = 1 / (1 + \exp(-x_i^\top \beta))$ 是逻辑回归的预测概率，$P(\beta)$ 是惩罚函数，$\lambda \ge 0$ 是惩罚强度。$\lambda = 0$ 退化为普通逻辑回归；$\lambda \to \infty$ 让所有非截距系数被压成零，模型退化为只用截距预测。中间的某个 $\lambda$ 在偏差与方差之间取得平衡，这就是交叉验证要找的最优值。
+
+<Definition number="4.1" title="L1 与 L2 惩罚">
+
+L1 惩罚为系数绝对值之和：
+
+$$
+P_{L1}(\beta) = \sum_{j=1}^p |\beta_j|.
+$$
+
+L2 惩罚为系数平方和：
+
+$$
+P_{L2}(\beta) = \sum_{j=1}^p \beta_j^2.
+$$
+
+其中 $p$ 是特征数，$\beta_j$ 是第 $j$ 个特征的系数。两种惩罚都不包括截距项 $\beta_0$。
+
+</Definition>
+
+L1 在原点处不可微，这一点表面上是数学麻烦，实际上是它能做变量选择的根源。下一节会从几何上解释为什么 L1 会让某些系数恰好等于零。
+
+---
+
+## 4.2 L1 与 L2 惩罚的几何含义
+
+先用一个二维数字例子建立直觉。假设只有两个特征 `soft_assets` 与 `issue`，无惩罚下的最大似然估计是 $\hat\beta = (0.6, 0.4)$。L1 惩罚要求 $|\beta_1| + |\beta_2| \le t$ 的约束在二维平面上是一个以原点为中心、四个顶点在坐标轴上的菱形；L2 惩罚要求 $\beta_1^2 + \beta_2^2 \le t$ 的约束是一个以原点为中心的圆。损失函数的等高线是绕 $\hat\beta$ 的椭圆。带惩罚的最优解是损失等高线第一次接触到约束边界的那一点。
+
+椭圆与菱形相切，最容易切到菱形的尖角，也就是其中某个轴的顶点。一旦切到 $(\beta_1, 0)$ 这样的顶点，第二个系数就被精确压成零。L1 的菱形约束让损失函数的等高线倾向于在尖角处遇到约束，于是 LASSO 会把一部分变量的系数恰好设为零，自动完成变量选择。椭圆与圆相切的位置则是连续变化的，没有任何方向具有"角点优势"，Ridge 把所有系数都向零的方向收缩，但不会精确等于零。
+
+把这个二维直觉推广到 42 维：LASSO 在 42 维超菱形上找等高线切点，会把多数系数压成零，最后只留下几个核心变量；Ridge 在 42 维超球面上找切点，所有 42 个系数都被收缩，但都保留下来。Elastic Net 用一个混合约束 $\alpha \sum|\beta_j| + (1-\alpha) \sum \beta_j^2 \le t$，几何形状介于菱形与圆之间，其顶点不那么尖，但仍然能让一部分系数为零。Zou 与 Hastie 的原文证明，当变量之间存在强相关时，Elastic Net 比 LASSO 更稳定，因为 LASSO 倾向于"在高度相关的一组变量里随机挑一个保留下来"，而 Elastic Net 会把它们一起保留或一起压低。
+
+**停下来想一想。** 如果所有特征都被先标准化到方差 1，惩罚的"单位"才是统一的。如果不标准化直接做 LASSO，那些天然量级很大的变量比如总资产 `at`，单位是百万美元，会被惩罚得过狠；量级小的变量比如比率类则几乎不受惩罚。所以惩罚回归的所有现成实现里都默认开启 `standardize = TRUE`。后面在 Bao 数据上做 LASSO 时，我们手动在训练集上拟合 z-score 标准化器，然后只用训练集的均值与标准差去 transform 验证集和测试集，避免把未来年份的均值信息泄漏到训练阶段。
+
+---
+
+## 4.3 Elastic Net 的混合策略
+
+Elastic Net 的损失函数写为
+
+$$
+\mathcal{L}_{\mathrm{EN}}(\beta) = -\frac{1}{n} \sum_i \log L_i(\beta) + \lambda \left[\alpha \sum_j |\beta_j| + (1-\alpha) \sum_j \beta_j^2 \right],
+$$
+
+其中 $\log L_i(\beta) = y_i \log \hat p_i + (1-y_i) \log (1-\hat p_i)$ 是单个样本的对数似然，$\alpha \in [0, 1]$ 是混合比例，$\lambda$ 仍然是整体惩罚强度。$\alpha = 1$ 退化为纯 LASSO，$\alpha = 0$ 退化为纯 Ridge。Bao 数据里有大量"原始值与衍生比率"的变量对，比如净利润 `ni` 与留存收益 / 总资产 `reoa`，某种程度上重复了同一信息，Elastic Net 的混合策略可以让这种成对的高相关变量平稳进入模型。
+
+实践中的 $\alpha$ 选择有两条经验。如果研究目标是变量解读，倾向取 $\alpha = 1$，让 LASSO 给出一个稀疏的"被选中变量清单"。如果研究目标是预测稳健性，倾向取中间值 $\alpha = 0.5$，让模型在变量选择与系数平稳之间折中。本章对三个 $\alpha \in \{0, 0.5, 1\}$ 都做完整 CV，作为方法对照。
+
+---
+
+## 4.4 时间感知交叉验证
+
+到这里读者可能会想：选 $\lambda$ 不是有现成的 `cv.glmnet` 吗？直接调它就好了。行不通。`cv.glmnet` 的默认行为是把训练集随机切成 10 折，每一折当作验证集，剩下九折当作训练集。在静态横截面数据上这种做法标准且高效，在 Bao 这种 1991 至 2002 年跨 12 个会计年度的面板数据上会出大问题。
+
+具体的问题是：随机折让模型在第 5 折训练时同时用到 1991 与 2002 年的样本，预测的"验证"对象包含 1995 年的样本。模型在做 1995 年预测时，已经"看到"了 2002 年发生的舞弊模式——未来年份的样本被混入训练，模型的 CV 性能因此被高估。等到真正用 2009 至 2014 年测试时，模型从未见过该时段的样本，性能必然落差。这种泄漏在普通文献里通称"future information leakage"，在时间序列与因果推断里叫"穿越未来"。
+
+正确的做法是 forward-chaining 时间感知 CV：第 1 折训练 1991 至 1995 年，验证 1996 年；第 2 折训练 1991 至 1996 年，验证 1997 年；以此类推到第 7 折训练 1991 至 2001 年，验证 2002 年。每一折的训练数据严格早于验证数据，模型不可能"看到未来"。这套切分方法的代价是不能用 `cv.glmnet` 默认 `foldid` 接口，因为它假设每行只属于一折，而 forward-chaining 中每一行可能在多折训练阶段重复出现，需要手写循环来实现。
+
+<Pitfall title="时间感知 CV 与不平衡下的 LASSO 退化">
+
+在面板数据或时间序列数据上调参，不能使用 `cv.glmnet` 默认的随机折交叉验证。随机折让训练集包含未来年份的样本，模型在调参阶段已经"看到"未来，CV-AUC 会被系统性高估，等到部署到真实未来数据上性能会大幅塌陷。正确的做法是 forward-chaining：每一折训练数据严格早于验证数据。在极端不平衡数据上，惩罚回归还有第二个雷区：LASSO 在样本不平衡时倾向于把多数系数压到零，因为压零带来的损失增量被罕见正样本的稀缺所掩盖。需要先在 `glmnet` 里调小 $\lambda$ 网格的下限，或在拟合时显式给正样本加权，否则 LASSO 会"诚实地"返回一个全零的退化模型。
+
+</Pitfall>
+
+---
+
+## 4.5 在 Bao 数据上的实现
+
+把上面的标准化、forward-chaining CV、三种惩罚拼到一起，就得到本章的核心代码。完整脚本在 `code/04_penalized.R`，这里展示骨架部分。
+
+```r
+suppressPackageStartupMessages({
+  library(tidyverse); library(glmnet); library(pROC); library(here)
+})
+set.seed(2026)
+
+d <- read_csv(here::here("data", "bao2020_full.csv"),
+              show_col_types = FALSE)
+
+features <- c("act","ap","at","ceq","che","cogs","csho","dlc","dltis",
+              "dltt","dp","ib","invt","ivao","ivst","lct","lt","ni",
+              "ppegt","pstk","re","rect","sale","sstk","txp","txt",
+              "xint","prcc_f","dch_wc","ch_rsst","dch_rec","dch_inv",
+              "soft_assets","ch_cs","ch_cm","ch_roa","issue","bm",
+              "dpi","reoa","EBIT","ch_fcf")
+
+train <- d %>% filter(fyear >= 1991, fyear <= 2002) %>%
+  drop_na(all_of(features))
+test  <- d %>% filter(fyear >= 2009, fyear <= 2014) %>%
+  drop_na(all_of(features))
+
+mu <- colMeans(train[, features])
+sg <- apply(train[, features], 2, sd); sg[sg == 0] <- 1
+z_apply <- function(df) {
+  m <- as.matrix(df[, features])
+  sweep(sweep(m, 2, mu, "-"), 2, sg, "/")
+}
+X_train <- z_apply(train); y_train <- train$misstate
+X_test  <- z_apply(test);  y_test  <- test$misstate
+
+fold_years <- 1996:2002
+lambda_grid <- exp(seq(log(1e-1), log(1e-6), length.out = 80))
+
+run_time_cv <- function(alpha_val) {
+  cv_auc <- matrix(NA_real_, nrow = length(fold_years),
+                   ncol = length(lambda_grid))
+  for (k in seq_along(fold_years)) {
+    yr <- fold_years[k]
+    tr_idx <- which(train$fyear < yr)
+    va_idx <- which(train$fyear == yr)
+    fit <- glmnet(X_train[tr_idx, ], y_train[tr_idx],
+                  family = "binomial", alpha = alpha_val,
+                  lambda = lambda_grid, standardize = FALSE)
+    pp <- predict(fit, newx = X_train[va_idx, ], type = "response")
+    for (j in seq_len(ncol(pp))) {
+      if (length(unique(pp[, j])) < 2) next
+      cv_auc[k, match(fit$lambda[j], lambda_grid)] <-
+        as.numeric(auc(roc(y_train[va_idx], pp[, j], quiet = TRUE)))
+    }
+  }
+  mean_auc <- colMeans(cv_auc, na.rm = TRUE)
+  list(lambda = lambda_grid[which.max(mean_auc)],
+       cv_auc = max(mean_auc, na.rm = TRUE))
+}
+
+cv_lasso <- run_time_cv(1.0)
+cv_ridge <- run_time_cv(0.0)
+cv_enet  <- run_time_cv(0.5)
+```
+
+原始训练集 73,233 行，剔除 42 特征任一为 NA 的行后保留 63,930 行，保留率 87.30%，舞弊数 537。原始测试集 33,064 行，剔除后保留 27,628 行，保留率 83.56%，舞弊数 107。三种惩罚在时间感知 7 折 CV 下的最优 $\lambda$ 与 CV-AUC 列在下表。三个 CV-AUC 都在 0.755 以上，说明在 1996 至 2002 年的内部验证里，惩罚回归的预测能力大致稳定。
+
+| 模型 | $\alpha$ | 最优 $\lambda$ | CV-AUC |
+|:-----|:--------:|---------------:|-------:|
+| LASSO | 1.0 | 0.000190 | 0.7558 |
+| Ridge | 0.0 | 0.100000 | 0.7606 |
+| Elastic Net | 0.5 | 0.000340 | 0.7561 |
+
+<Subtext>表 4.1 · 时间感知 7 折 CV 选最优 $\lambda$。</Subtext>
+
+Ridge 的最优 $\lambda$ 比 LASSO 大约高三个数量级。这个差距来自 L1 与 L2 惩罚函数本身的尺度差异，不是异常现象。L2 是平方和，单个系数 $\beta_j = 0.1$ 贡献 0.01 的惩罚；L1 是绝对值之和，同样的系数贡献 0.1 的惩罚。要让两种惩罚施加相近的"压力"，L2 的 $\lambda$ 必须比 L1 的 $\lambda$ 大得多。两个 $\lambda$ 在数值上不可直接比较。
+
+---
+
+## 4.6 LASSO 选出的变量
+
+LASSO 在最优 $\lambda$ 下保留了 28 个非零系数，剔除了 14 个。下表列出按系数绝对值排序的前十个变量。注意所有特征已先 z-score 标准化，所以系数的绝对值在不同变量之间可比。
+
+| 变量 | 标准化系数 | 会计含义 |
+|:-----|----------:|:---------|
+| soft_assets | $+0.5122$ | 软性资产 / 总资产，舞弊文献核心信号 |
+| issue | $+0.3265$ | 当年是否发行股票或债务 |
+| dlc | $-0.2863$ | 短期债务，本期总额 |
+| reoa | $+0.1955$ | 留存收益 / 总资产 |
+| ch_fcf | $-0.1843$ | 自由现金流变化 |
+| prcc_f | $+0.1506$ | 年末股价 |
+| dch_rec | $+0.1338$ | 应收账款变动 / 销售变动 |
+| ap | $+0.1280$ | 应付账款 |
+| xint | $+0.1046$ | 利息支出 |
+| re | $-0.0972$ | 留存收益，绝对值 |
+
+<Subtext>表 4.2 · LASSO 最优 $\lambda$ 下系数绝对值前十的变量。</Subtext>
+
+最大的系数 `soft_assets` 是 Dechow 等人在 2011 年文献里反复强调的舞弊信号：软性资产，含应收账款、存货、商誉等可塑性强的科目，占总资产比例越高，公司账面操纵的空间就越大。第二位的 `issue` 也符合会计直觉，公司在外部融资压力下更可能美化报表来支持募资。第三位的 `dlc` 系数为负，意味着控制其它变量后，短期债务越高反而舞弊概率略低；这并不矛盾，可能是高短期债务的公司本身现金流压力更显眼，反而不容易藏住造假的迹象。`dch_rec` 是 Beneish 在 1999 年 M-Score 模型里使用的变量，本章 LASSO 也独立选中了它，与第 2 章规则模型的直觉一致。
+
+被剔除的 14 个变量包括 `at`、`lt`、`sale`、`ni`、`cogs`、`rect`、`ch_rsst`、`bm`、`EBIT` 等"看起来很核心"的会计变量。这些变量自身的会计含义并未变弱，它们的信息已经被其它高度相关的变量捕获，比如 `ceq`、`re`、`soft_assets`、`reoa` 这一组留存收益与软性资产相关变量。LASSO 的稀疏选择是"信息冗余下的代表性挑选"，不能解读成"被剔除的变量与舞弊无关"。
+
+Elastic Net 在相同 CV 下保留了 29 个非零系数，比 LASSO 多一个，整体上选出的变量与 LASSO 重合度极高。Ridge 不做变量选择，全部 42 个系数都非零。
+
+---
+
+## 4.7 性能评估与案例公司打分
+
+最优 $\lambda$ 选定后，用全部训练数据 1991 至 2002 年重新拟合三个模型，再到测试集 2009 至 2014 年评估。下表列出三种惩罚的测试集性能。
+
+| 模型 | AUC | NDCG@100 | Recall@1% | Precision@1% |
+|:-----|----:|---------:|----------:|-------------:|
+| LASSO | 0.6876 | 0.0495 | 0.0561 | 0.0217 |
+| Ridge | 0.6599 | 0.0357 | 0.0654 | 0.0253 |
+| Elastic Net | 0.6872 | 0.0492 | 0.0561 | 0.0217 |
+
+<Subtext>表 4.3 · 测试集 2009–2014 性能；n = 27,628，阳性 107，1% 名额 k = 277。</Subtext>
+
+LASSO 的 AUC 在三种惩罚里最高，达到 0.6876。Elastic Net 紧随其后 0.6872，两者差距已小到 CV 的随机抖动量级；这与 LASSO 与 Elastic Net 选出的变量集合高度重合相符。Ridge 的 AUC 0.6599 落后约 3 个百分点，提示 Bao 数据中存在大量"几乎不携带信息"的弱相关变量，把它们的系数压到零比同时收缩所有系数更划算。
+
+**回到 Bao 数据。** 本章在测试集上挑出 AUC 最高的 LASSO 作为代表方法，给两家标志性舞弊公司打分。
+
+| 案例 | gvkey | fyear | LASSO 预测概率 |
+|:-----|------:|------:|---------------:|
+| Enron Corp. | 6127 | 2000 | 0.7292 |
+| Tyco International | 10787 | 2000 | 0.0925 |
+
+<Subtext>表 4.4 · LASSO 对标志性案例公司的舞弊概率打分。</Subtext>
+
+Enron 2000 被打到 0.7292，远高于全样本舞弊率 0.66%，也远高于第 2 章 Beneish M-Score 的"被 flag 即可疑"的二元判断。LASSO 抓住了 Enron 在 `soft_assets`、`issue`、`prcc_f` 三个核心变量上同时的极端表现，把它推到了测试集排序的前 1%。Tyco 2000 的概率只有 0.0925，依然高于全样本均值，但远不及 Enron 那么醒目。Tyco 的 2000 年报表在 `soft_assets` 和 `issue` 上的偏离没有 Enron 那么夸张，模型相应给出更保守的判断。
+
+---
+
+## 4.8 Python 实现
+
+R 主线之外，本章配套一份 Python 实现，放在 `code/04_penalized.py`。Python 端使用 `sklearn` 的 `LogisticRegression`，通过 `l1_ratio` 参数在三种惩罚之间切换：1.0 对应 LASSO，0.0 对应 Ridge，0.5 对应 Elastic Net。求解器在纯 L1 与纯 L2 时使用 `liblinear`，在 Elastic Net 时使用 `saga`。其余流程与 R 端保持一致：z-score 标准化器仅在训练集上拟合，时间感知 CV 用 forward-chaining 切分，最优 $C$ 等价于 $1/\lambda$，通过 7 折 CV-AUC 选定。
+
+```python
+import numpy as np, pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import roc_auc_score, ndcg_score
+
+np.random.seed(2026)
+
+scaler = StandardScaler()
+X_train = scaler.fit_transform(train[features].values)
+X_test  = scaler.transform(test[features].values)
+
+def fit(C, l1_ratio):
+    solver = "liblinear" if l1_ratio in (0.0, 1.0) else "saga"
+    return LogisticRegression(C=C, l1_ratio=l1_ratio, solver=solver,
+                              max_iter=4000, random_state=2026,
+                              tol=1e-4).fit(X_train, y_train)
+
+mod_lasso = fit(C_lasso, 1.0)
+mod_ridge = fit(C_ridge, 0.0)
+mod_enet  = fit(C_enet,  0.5)
+```
+
+Python 端三种惩罚在测试集上的 AUC 分别是：LASSO 0.6882、Ridge 0.6771、Elastic Net 0.6907。与 R 端的 0.6876 / 0.6599 / 0.6872 在小数点后两位上一致，差异在 0.005 以内。Python 端 Elastic Net 略胜 LASSO，R 端则反过来；这种排序的微小翻转源于 `sklearn` 的 `saga` 求解器与 `glmnet` 的坐标下降在 Elastic Net 子问题上的细微数值差异，不影响"惩罚回归整体在 0.68 至 0.69 区间"的结论。
+
+---
+
+## 4.9 本章累积对比表
+
+| 方法 | AUC | NDCG@100 | Recall@1% | Precision@1% | 核心局限 |
+|:-----|----:|---------:|----------:|-------------:|:---------|
+| 全部预测为非舞弊 | 0.500 | 0 | 0 | 0 | 无判别力 |
+| Beneish M-Score | 0.5399 | 0.0000 | 0.0110 | 0.0049 | 八变量规则，无学习 |
+| 逻辑回归 42 特征 | 0.6966 | 0.0510 | 0.0561 | 0.0217 | 高维下系数不稳 |
+| LASSO 最优 | 0.6876 | 0.0495 | 0.0561 | 0.0217 | 不平衡下 $\lambda$ 易过大压系数到零 |
+
+<Subtext>表 4.5 · 方法对比表，截至第 4 章。</Subtext>
+
+LASSO 的 AUC 比第 3 章普通逻辑回归低了约 0.009。在 0.69 这个量级上 0.009 的差距并不大，可以视为 CV 选 $\lambda$ 的随机波动。更重要的是 LASSO 把 42 个变量压到 28 个，模型可解释性显著提升，部署时还能省下不必要的 14 个特征工程。下一章引入决策树与随机森林，把建模思路从"线性 + 惩罚"切到"非参数 + 集成"，看测试集 AUC 能不能突破 0.70 这道墙。
+
+---
+
+## 4.10 本章知识地图
+
+| 核心概念 | 核心内容 | 常见误解 | 为什么错 |
+|:---------|:---------|:---------|:---------|
+| L1 惩罚 | 系数绝对值之和，几何上是菱形约束 | L1 等价于"系数绝对值越小越好" | L1 的关键在于约束的菱形顶点让某些系数恰好为零，并非"绝对值越小越好" |
+| L2 惩罚 | 系数平方和，几何上是圆形约束 | L2 比 L1 更强 | 两者尺度不同，最优 $\lambda$ 数值不可直接比较；强弱取决于场景 |
+| Elastic Net | L1 与 L2 的凸组合，对相关变量更稳健 | $\alpha = 0.5$ 总是最优 | $\alpha$ 应当作超参数调；变量解读重视 LASSO，预测稳定性重视混合 |
+| 时间感知 CV | forward-chaining：每一折训练严格早于验证 | 默认 `cv.glmnet` 也行 | 随机折让模型看到未来年份样本，CV-AUC 系统性高估 |
+| $\lambda$ 选择 | 在 CV-AUC 最大处取 $\lambda$ | $\lambda$ 越小越好，越接近原始无惩罚模型 | $\lambda$ 过小时退化为普通回归，过拟合风险回到第 3 章的水平 |
+| 系数标准化 | 对自变量做 z-score 后惩罚才公平 | 不标准化也能跑 | 量级大的变量被惩罚得更狠，量级小的几乎不受惩罚，结果错位 |
+| LASSO 变量选择 | 非零系数 = 被选中变量，但其它"被剔除"的变量未必无关 | 剔除的变量都不重要 | 剔除是因为信息冗余，被相关变量替代；解读为"挑出代表"更准确 |
+| 极端不平衡的雷区 | LASSO 在不平衡数据上倾向把全部系数压零 | 跑出来全零是数据问题 | 是 $\lambda$ 网格上限设得过大；调小下限或加正样本权重可解决 |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Regression Shrinkage and Selection via the Lasso" author="Tibshirani (1996), Journal of the Royal Statistical Society Series B" href="https://www.jstor.org/stable/2346178"
+	/>
+	<ReferencesLink
+		title="Regularization and Variable Selection via the Elastic Net" author="Zou & Hastie (2005), Journal of the Royal Statistical Society Series B" href="https://www.jstor.org/stable/3647580"
+	/>
+	<ReferencesLink
+		title="Predicting Material Accounting Misstatements" author="Dechow, Ge, Larson & Sloan (2011), Contemporary Accounting Research" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1911-3846.2010.01041.x"
+	/>
+	<ReferencesLink
+		title="Detecting Earnings Management" author="Beneish (1999), Financial Analysts Journal" href="https://www.jstor.org/stable/4480190"
+	/>
+</References>

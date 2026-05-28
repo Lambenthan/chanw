@@ -1,0 +1,246 @@
+---
+title: "模型诊断与影响分析"
+description: "把残差按学生层、班级层、学校层拆开分别诊断；学生层残差 SD ≈ 38.62，QQ 图主体贴线、尾部稍翘；leave-one-class-out 敏感性分析显示小班效应在所有候选班删除后仅漂移 0.27 分，主结论高度稳健。"
+book: "hlm"
+chapterNumber: 9
+chapterLabel: "第 9 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["多层模型", "模型诊断", "残差分析", "lme4"]
+---
+
+<ChapterAudience>
+
+把残差按学生层 / 班级层 / 学校层拆开，分别检查每一层的分布与正态性；用 QQ 图判断尾部偏离的严重程度，理解"主体接近正态、尾部稍翘"在多层模型里的常见模样；用 leave-one-class-out 敏感性分析检验主结论是否被少数班级绑架；学会用"班级规模 × BLUP 绝对值"找出对模型估计最有影响力的班级。
+
+</ChapterAudience>
+
+<IntroParagraph>第 8 章给出本书的主结论：小班相对常班 +8.84 分，标准误 2.63，$p = 0.001$。这个结论建立在三层 + 全协变量模型上，它的可信度受两条线牵制——**模型假设**是不是成立、**某些观测**是不是单方面在主导整个估计。前者要看残差的分布与正态性，后者要看删掉个别班级或学校之后估计会不会大幅漂移。本章把这两条线都走一遍。</IntroParagraph>
+
+诊断这件事在传统单层回归里相对直接，残差就一份，画一张 QQ 图、一张残差 vs 拟合值图大致就够了。多层模型麻烦在残差有好几份，每一层都有自己的随机项。Snijders 与 Berkhof（2008）在《Diagnostic Checks for Multilevel Models》里专门讲了如何分层诊断；`HLMdiag` 包是这套思路在 R 里的工程实现。本章不进入 `HLMdiag` 的所有功能，只把最关键的几张图与几条计算用 `lme4` 自带的 `residuals` 与 `ranef` 跑出来，把诊断的核心逻辑讲透。
+
+## 9.1 多层模型的分层残差结构
+
+要讲清楚多层模型的残差为什么不能混在一起看，先用一个生活类比。
+
+把多层模型预测一名学生分数的过程想象成做三明治。最底下一片面包是**全样本均值** $\beta_0$，所有学生的"基础分数"都从这片面包开始。中间夹的是两层奶酪：一层是**学校效应** $v_j$，整所学校共享一份；另一层是**班级效应** $u_{jk}$，整个班级共享一份。最上面一片面包是**学生层个人偏差** $e_{ijk}$，每名学生各有一份。三层叠在一起就是模型的预测：
+
+$$
+y_{ijk} = \beta_0 + v_j + u_{jk} + e_{ijk}.
+$$
+
+如果某个三明治不好吃，问题可能出在任何一层。底层全样本均值估错（$\beta_0$ 偏离），中层学校或班级配比不对（$v_j$ 或 $u_{jk}$ 服从性差），上层学生层个人波动异常（$e_{ijk}$ 尾部太肥）。诊断的目标就是把每一层分开尝一口，看看是哪一层出了问题。
+
+<Definition number="9.1" title="分层残差">
+
+对三层模型 $y_{ijk} = X_{ijk}\beta + v_j + u_{jk} + e_{ijk}$，三层各自的"残差"含义不同：
+
+**Level-1（学生层）残差** $\hat{e}_{ijk}$ 是观测分数与模型给出的条件预测之差，由 `residuals(model)` 返回，反映学生在自己班级均值之上的个人波动。
+
+**Level-2（班级层）BLUP** $\hat{u}_{jk}$ 是班级随机截距的最佳线性无偏预测，由 `ranef(model)$'tch:sch'` 返回，反映班级在学校均值之上的偏离。
+
+**Level-3（学校层）BLUP** $\hat{v}_j$ 是学校随机截距的最佳线性无偏预测，由 `ranef(model)$sch` 返回，反映学校在全样本均值之上的偏离。
+
+三个量分别假设服从均值为零的正态分布，对应方差 $\sigma^2$、$\tau^2_{\text{class}}$、$\tau^2_{\text{sch}}$。诊断时三层各画一张 QQ 图、各算一份描述统计。
+
+</Definition>
+
+为什么不能把三层混在一起检查正态性？因为三层的方差量级差别很大，混在一起会让"哪一层有问题"无法定位。STAR 三层 + 全协变量模型给出 $\sqrt{\sigma^2} = \sqrt{1{,}492} = 38.62$、$\sqrt{\tau^2_{\text{class}}} = \sqrt{283} = 16.83$、$\sqrt{\tau^2_{\text{sch}}} = \sqrt{365} = 19.10$，三个尺度差不多但意义完全不同。混合检查只会得到"加权平均的尺度"，把任一层的小问题平均掉。
+
+## 9.2 学生层残差：QQ 图与方差稳定性
+
+从学生层残差开始诊断。它数量最大（5,768 个），最容易看出尾部偏离。
+
+```r
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(here)
+
+d <- read_csv(here::here("data", "star_k.csv"), show_col_types = FALSE) |>
+  filter(!is.na(math), !is.na(cltype), !is.na(tch), !is.na(sch),
+         !is.na(sx), !is.na(eth), !is.na(ses)) |>
+  mutate(
+    sex_F  = ifelse(sx == "F", 1, 0),
+    eth_B  = ifelse(eth == "B", 1, 0),
+    ses_F  = ifelse(ses == "F", 1, 0),
+    cltype = factor(cltype, levels = c("reg", "reg+A", "small"))
+  )
+
+# 主模型：三层 + 全协变量
+m <- lmer(math ~ cltype + sex_F + eth_B + ses_F + (1 | sch/tch),
+          data = d, REML = TRUE)
+
+res_l1 <- residuals(m)        # 学生层残差
+fit_l1 <- fitted(m)
+sd(res_l1)
+# [1] 38.62
+
+# 班级层 BLUP 与学校层 BLUP
+re <- ranef(m)
+class_blup  <- re$`tch:sch`[, "(Intercept)"]
+school_blup <- re$sch[, "(Intercept)"]
+sd(class_blup)
+# [1] 16.83
+sd(school_blup)
+# [1] 19.10
+```
+
+三层残差 / BLUP 的 SD 跟模型估出的方差分量基本对应：学生层残差 SD = 38.62，班级层 BLUP SD = 16.83，学校层 BLUP SD = 19.10。三层各自的"尺度"跟 $\sqrt{\hat{\sigma}^2}$、$\sqrt{\hat{\tau}^2_{\text{class}}}$、$\sqrt{\hat{\tau}^2_{\text{sch}}}$ 一致。BLUP 的 SD 通常会略小于 $\sqrt{\tau^2}$，因为 BLUP 本身经过收缩；本数据两者非常接近，说明信息量充足，收缩程度有限。
+
+![学生层残差 vs 拟合值（三层 + 全协变量主模型）。理想情形是残差围绕零线均匀散布，方差不随拟合值变化](/books/hlm/figure/chap09_resid_vs_fit.png)
+
+<Subtext>图 9.1 · 残差 vs 拟合值：散点大致呈水平带状，loess 平滑曲线靠近零线，没有明显的弯曲或漏斗形。</Subtext>
+
+读残差 vs 拟合值这张图的方法是看横向带状的均匀程度。理想情形是散点像水平的香肠，中线在零附近，宽度沿横轴稳定。本数据的散点确实大致呈水平带状，loess 平滑曲线靠近零线，没有明显的弯曲或漏斗形。这告诉我们模型的固定效应结构大致捕捉了"学生分数随这些预测变量怎么变"的趋势，残差里没有系统性的未解释模式。
+
+![学生层残差 QQ 图。横轴是标准正态理论分位数，纵轴是残差实际分位数](/books/hlm/figure/chap09_qq.png)
+
+<Subtext>图 9.2 · 学生层残差 QQ 图：主体贴线，在 ±3 标准差之外有少量偏离，属于"尾部稍翘但不严重"的典型形态。</Subtext>
+
+QQ 图判断正态性的方法是看散点是否沿对角线排开。中间段贴得越紧越接近正态，两端偏离越远尾部就越肥。本数据 QQ 图主体非常贴线，覆盖大约 $-2$ 到 $+2$ 个标准正态分位数的区间；只在两端约 $-3$ 与 $+3$ 之外有少量偏离，表现为低端略低于理论值、高端略高于理论值。这是**尾部稍翘但不严重**的典型形态。
+
+为什么尾部稍翘不要紧？因为多层模型的小班效应估计是对处理变量 `cltype` 的固定效应做加权平均，主要受残差分布的中间段（信息密集区）影响，对极端尾部不敏感。正态性偏离一般要等到尾部比正态肥很多——比如出现明显双峰、长尾或截断——才会让固定效应推断显著失真。本数据的尾部偏离离这个程度还很远。
+
+如果 QQ 图主体严重弯曲（不止尾部），意味着残差不是来自一个单一的正态分布，可能有未建模的子总体。处理方法是检查是否漏掉了某个分类协变量（族裔、年级、特殊教育标签），或考虑残差的异方差结构。本数据没有这种征兆。
+
+## 9.3 班级层与学校层 BLUP 的诊断
+
+学生层残差是诊断的"前菜"。班级层与学校层的 BLUP 同样要单独检查，因为它们各自假设来自一个零均值正态分布。`lme4` 不直接给 BLUP 的 QQ 图，但用 `ranef` 拿到 BLUP 之后画一张就够。
+
+班级层 BLUP 一共有 323 个（每班一个），学校层 BLUP 一共有 79 个（每校一个）。学校层只有 79 个点，不太适合做严格的正态性检验，重点看是否有极端 outlier。班级层 323 个点足够看 QQ 图，重点看主体是否贴线。
+
+实操时这两层检查很少出现重大偏离，因为 BLUP 本身经过收缩——极端值被向均值拉近，分布会比真实更接近正态。这是 BLUP 的"双刃剑"：一方面它让 outlier 不那么离谱，另一方面它也掩盖了真实的非正态。Snijders 与 Berkhof（2008）提出的解决办法是用"标准化随机效应" $\hat{u}_{jk} / \mathrm{SD}(\hat{u}_{jk})$ 来做正态性检验。本数据两层 BLUP 的 SD 跟方差分量平方根接近（16.83 vs $\sqrt{283} = 16.82$，19.10 vs $\sqrt{365} = 19.10$），说明 BLUP 的描述统计与模型假设一致。
+
+<Pitfall title="把所有残差混在一起检查正态性会稀释各层的偏离信号">
+
+多层模型的总残差 $y_{ijk} - \beta_0 = v_j + u_{jk} + e_{ijk}$ 是三层独立正态分布之和。混在一起做 Shapiro-Wilk 检验，看到的是这三个分布的卷积，主体仍然接近正态，但任一层的偏离都被其他两层"稀释"。
+
+**诊断方法**：用 `residuals(model)` 拿学生层残差，用 `ranef(model)$'tch:sch'` 拿班级层 BLUP，用 `ranef(model)$sch` 拿学校层 BLUP，三者各画一张 QQ 图。如果某一层主体严重偏离正态，问题可能集中在那一层。
+
+**第二个常见疏漏**：忽略 BLUP 的收缩效应。BLUP 是贝叶斯后验均值，会把极端值往均值拉。班级层 BLUP 在 QQ 图上呈现正态，不能保证真实班级效应也正态。所以 BLUP 的 QQ 图通过，更准确的说法是"假设没被这层证据推翻"，而不是"假设成立"。
+
+</Pitfall>
+
+## 9.4 leave-one-class-out 敏感性分析
+
+<Definition number="9.2" title="leave-one-class-out 敏感性分析">
+
+在班级层做 leave-one-out 敏感性分析的步骤是：依次删除一个班级的所有学生，把模型在 $n - n_k$ 名学生上重新拟合一遍，记录处理效应估计 $\hat{\beta}_{\text{small}}^{(-k)}$ 与变化量 $\Delta_k = \hat{\beta}_{\text{small}}^{(-k)} - \hat{\beta}_{\text{small}}$。如果所有 $\Delta_k$ 都很小（$\lvert \Delta_k \rvert$ 远小于 $\hat{\mathrm{SE}}$），主结论稳健；如果某个班的 $\Delta_k$ 极大，意味着该班在主结论里占据了不成比例的影响力，结论受单一班级驱动。
+
+</Definition>
+
+为什么在班级层做 leave-one-out 而不是在学生层？因为多层模型的处理变量 `cltype` 在班级层变化，单个学生删除几乎不影响小班效应估计；班级层删除才能反映"删掉一个完整的处理单元"对结论的影响。在学校层做删除也可以，但每删掉一所学校就丢掉约 70 名学生，敏感性会过强；班级层是"信息密度合适"的删除粒度。
+
+实操上，给所有 323 个班都跑一遍 leave-one-out 计算量较大；常用的折中是挑出**几个潜在影响最大的班**做敏感性分析。这些"嫌疑班"通常是 BLUP 绝对值最大（在班际中最离群）或样本量最大（在估计中权重最高）的那几个。
+
+```r
+# 选样本量最大的 5 个班 + BLUP 绝对值最大的 5 个班作为候选
+class_n <- d |> count(tch)
+re      <- ranef(m)
+class_blup <- re$`tch:sch`[, "(Intercept)"]
+
+extreme_classes <- tibble(tch = rownames(re$`tch:sch`),
+                          blup = class_blup) |>
+  arrange(desc(abs(blup))) |>
+  head(5) |>
+  pull(tch)
+big_classes <- class_n |> arrange(desc(n)) |> head(5) |> pull(tch)
+candidate <- unique(c(extreme_classes, big_classes))
+
+base_eff <- summary(m)$coefficients["cltypesmall", "Estimate"]   # 8.84
+
+# 对每个候选班，删掉它的所有学生重新拟合
+loo_results <- map_dfr(candidate, function(k) {
+  d_loo <- d |> filter(tch != k)
+  m_loo <- lmer(math ~ cltype + sex_F + eth_B + ses_F + (1 | sch/tch),
+                data = d_loo, REML = TRUE)
+  tibble(
+    excluded_tch = k,
+    n_dropped    = sum(d$tch == k),
+    eff_small    = summary(m_loo)$coefficients["cltypesmall", "Estimate"],
+    se_small     = summary(m_loo)$coefficients["cltypesmall", "Std. Error"],
+    delta        = summary(m_loo)$coefficients["cltypesmall", "Estimate"] - base_eff
+  )
+})
+```
+
+10 个候选班全部跑完，删除任何一个班之后小班效应的估计在 **8.57 到 8.89** 之间漂移，对应 $\Delta_k$ 范围 $-0.27$ 到 $+0.05$。也就是说，最极端的删除也只让小班效应改变 0.27 分，相对原始估计 8.84 漂移不到 4%，远小于 SE = 2.63。主结论**对单个班级的删除高度稳健**：没有任何一个班单独在驱动"小班 +8.84 分"这个结论，它是 323 个班共同支撑出来的稳定估计。
+
+![leave-one-class-out 敏感性分析。每行删除一个候选班级，红点是该子样本的小班效应估计，蓝色误差棒是 95% CI，红色虚线是完整样本估计 8.84](/books/hlm/figure/chap09_loo.png)
+
+<Subtext>图 9.3 · LOO 敏感性森林图：所有 10 个红点都贴在虚线附近，CI 宽度与原始估计接近。</Subtext>
+
+读这张森林图的方法是看红点离虚线远不远。所有 10 个红点都贴在虚线附近，CI 宽度也跟原始估计接近。如果某个红点显著偏离虚线，意味着那个班对主结论有"杠杆性"影响，需要进一步调查它的特殊性（是否数据录入错误、是否有极端未建模协变量）。本数据没有这种现象。
+
+## 9.5 影响力诊断与班级权重
+
+LOO 是"删掉看变化"的事后检验，互补的视角是事前估计每个班的潜在影响力。直观的启发式是：一个班的影响力大致正比于**班级规模 × BLUP 绝对值**。班级越大、BLUP 越极端，这个班对 $\hat{v}_j$ 与 $\hat{u}_{jk}$ 估计的拉动越强。
+
+```r
+# 每个班的样本量
+class_summary <- d |> count(tch) |> mutate(tch = as.character(tch))
+parse_tch <- function(s) sub("^[^:]+:", "", s)   # "1:23" -> "23"
+
+infl_df <- tibble(label = rownames(re$`tch:sch`),
+                  tch = parse_tch(rownames(re$`tch:sch`)),
+                  blup = class_blup) |>
+  left_join(class_summary, by = "tch") |>
+  mutate(influence = n * abs(blup)) |>
+  arrange(desc(influence))
+
+# 影响最大的 10 个班
+head(infl_df, 10)
+```
+
+输出会按 influence 降序排列，给出最可能影响主估计的班级名单。结合 LOO 结果可以做最终判断：影响力最大的几个班，逐一删除之后估计变化也很小（$\lvert \Delta_k \rvert < 0.3$），说明即使是"最有分量"的班也不足以单独绑架结论。
+
+如果某个班的 influence 排第一、删掉之后小班效应从 8.84 变成 5.20（$\Delta = -3.64$），结论就被这一个班绑架了。处理办法不一定是排除该班，更应该是回去看这个班的数据是不是有录入错误、是不是有学生层未建模的极端协变量。本数据没有触发这种警报。
+
+## 9.6 累积对比表更新
+
+把本章给出的诊断后基线估计加进累积对比表。第 9 章不引入新模型，只在主模型上做了诊断，因此对比表里只增加一行"主模型（LOO 基线）"，标注"敏感性分析"。
+
+| 方法 | small $\beta$ | SE | $p$ | $\sigma^2_{\text{sch}}$ | $\sigma^2_{\text{class}}$ | $\sigma^2_{\text{resid}}$ |
+|:-----|:---:|:---:|:---:|:---:|:---:|:---:|
+| OLS 朴素 | 8.21 | 1.56 | <0.001 | --- | --- | 2,264 |
+| OLS + 学生协变量 | 8.13 | 1.50 | <0.001 | --- | --- | 2,104 |
+| 二层 (1\|tch) | 7.90 | 3.76 | 0.036 | --- | 685 | 1,597 |
+| 二层 + 学生协变量 | 7.68 | 3.63 | 0.035 | --- | 638 | 1,492 |
+| 三层 (1\|sch/tch) | 8.91 | 2.67 | 0.001 | 366 | 288 | 1,598 |
+| 三层 + 学生协变量 | 8.84 | 2.63 | 0.001 | 365 | 283 | 1,492 |
+| 三层 + 学生协变量（LOO 基线） | 8.84 | 2.63 | 0.001 | 365 | 283 | 1,492 |
+
+<Subtext>表 9.1 · 累积方法对比（截至第 9 章）。LOO 基线那一行的数字跟主估计一致，意义在于它代表"在所有候选 leave-one-out 子样本里，估计漂移幅度都不超过 0.3 分"这一稳健性结论。</Subtext>
+
+第 8 章给出主估计，本章把主估计的内部诊断与外部敏感性都过了一遍。现在可以放心地把这个 +8.84 分（SE 2.63）当成本书最终的"小班效应"估计。但读者还需要看到的是：跟前面所有章节里出现的 OLS、二层、三层各种变体相比，这个最终估计是不是合理、它跟其他方法的差距来自哪里、什么时候用二层够、什么时候必须三层。第 10 章会做这件事，把全书出现的七种估计并列在同一张表里，画终极森林图，给出方法选择的实践指南。
+
+---
+
+## 9.7 本章知识地图
+
+| 核心概念 | 核心内容 | 常见误解 | 为什么错 |
+|:---------|:---------|:---------|:---------|
+| 分层残差 | 学生层用 residuals()，班级层用 ranef()$tch:sch，学校层用 ranef()$sch | 直接检查 fitted()-y 够了 | 总残差是三层卷积，无法定位哪层有问题 |
+| 学生层 SD = 38.62 | 与 sqrt(1492) 一致 | SD 越小模型越好 | SD 反映数据固有离散度，不是拟合优劣指标 |
+| QQ 图尾部稍翘 | 主体贴线，±3 之外有少量偏离 | 尾部稍翘就要换模型 | 固定效应对尾部极值不敏感，稍翘不影响推断 |
+| LOO Δ < 0.3 分 | 10 个候选班删除后效应漂移 −0.27 到 +0.05 | LOO 稳健性意味着模型完美 | 只说明无"杠杆性"班级，不代表假设完全成立 |
+| BLUP 收缩效应 | BLUP 把极端值往均值拉，比真实更接近正态 | BLUP QQ 图通过证明假设成立 | BLUP 通过只说明"假设没被推翻" |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Diagnostic Checks for Multilevel Models" author="Snijders & Berkhof (2008), in Handbook of Multilevel Analysis" href="https://doi.org/10.1007/978-0-387-73186-5_3"
+	/>
+	<ReferencesLink
+		title="HLMdiag: A Suite of Diagnostics for Hierarchical Linear Models in R" author="Loy & Hofmann (2014), Journal of Statistical Software" href="https://doi.org/10.18637/jss.v056.i05"
+	/>
+	<ReferencesLink
+		title="Multilevel Analysis: An Introduction to Basic and Advanced Multilevel Modeling" author="Snijders & Bosker (2012)" href="https://us.sagepub.com/en-us/nam/multilevel-analysis/book234191"
+	/>
+	<ReferencesLink
+		title="Hierarchical Linear Models: Applications and Data Analysis Methods" author="Raudenbush & Bryk (2002)" href="https://us.sagepub.com/en-us/nam/hierarchical-linear-models/book9230"
+	/>
+</References>

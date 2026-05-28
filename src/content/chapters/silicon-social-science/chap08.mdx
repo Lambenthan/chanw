@@ -1,0 +1,165 @@
+---
+title: "可重复性：同 prompt 多次运行的方差"
+description: "silicon answers 的 run-to-run variability 测量：用 Cohen's κ 衡量两次运行一致性；temperature = 0 为何仍不 deterministic；以及 silicon 论文应至少跑 3 次取均值并报告 run-level κ 矩阵的方法学最低要求。"
+book: "silicon-social-science"
+chapterNumber: 8
+chapterLabel: "第 8 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["硅基社会科学", "可重复性", "Cohen's kappa"]
+---
+
+<ChapterAudience>
+
+讨论 silicon answers 的 run-to-run variability：同 prompt 跑两次，多少 persona 给出不同答案？引入 Cohen's κ 衡量两次运行的一致性，区分 reliability（自一致）与 validity（接近真实）这两个独立 concept。解释 temperature = 0 不能完全消除随机性的四层原因，并给出实务建议：silicon sample 论文应至少跑 3 次取均值，并报告 run-level 一致性。
+
+</ChapterAudience>
+
+<IntroParagraph>第 7 章给出 prompt sensitivity 的横向变异（不同 prompt 模板的差异）。本章讨论纵向变异——同 prompt 多次运行的差异，是 silicon sample reliability 的核心测度。</IntroParagraph>
+
+## 8.1 为什么同 prompt 跑两次会不一样
+
+LLM 调用的输出并非 deterministic。即使把 temperature 设为 0，输出仍可能在以下层面变化：
+
+**第一**：浮点数运算的 non-determinism。GPU 上的 softmax 采样在不同硬件 batch 顺序下可能给微小不同 logits，导致 top-1 token 偶尔切换。
+
+**第二**：模型版本的滚动更新。API 提供商在不同时间窗内可能 silently 切换底层模型 weight，外部看到的 model name 不变但输出分布变。
+
+**第三**：采样参数的隐含随机。即使 temperature = 0，top_p 等参数的实现可能引入微小随机。
+
+**第四**：subagent 调用方式（如本书）的中间链路不暴露原始 sampling，run-to-run 变异通常比直接 API 调用更大。
+
+---
+
+## 8.2 Cohen's κ 衡量 run-to-run 一致性
+
+<Definition number="8.1" title="Cohen's κ for run consistency">
+
+对同一组 $n$ 个 persona 跑两次 silicon sampling，得到两轮回答 $\widehat{y}^{(1)}_i$ 和 $\widehat{y}^{(2)}_i$。Cohen's $\kappa$ 是
+
+$$
+\kappa = \frac{p_o - p_e}{1 - p_e},
+$$
+
+其中 $p_o = \frac{1}{n} \sum_i \mathbb{1}\{\widehat{y}^{(1)}_i = \widehat{y}^{(2)}_i\}$ 是两轮的观测一致率，$p_e$ 是按各档边际分布独立假设下的期望一致率。$\kappa \in [-1, 1]$，$\kappa = 1$ 表示完全一致，$\kappa = 0$ 表示等同随机一致。
+
+</Definition>
+
+其中 $p_o$ 是两次给同样答案的 persona 比例，$p_e$ 是去除"碰巧一致"基线的统计学校正。Cohen's $\kappa$ 是 inter-rater agreement 文献里的金标准，1960 年由 Cohen 提出，社会学经典量表的 reliability 通常要求 $\kappa \ge 0.7$ 才算"substantial agreement"。
+
+### 8.2.1 文献报告的 silicon κ 范围
+
+silicon sampling 文献综合报告（Argyle 2023、Bisbee 2024、Brand 2024 等）的 run-to-run $\kappa$：
+
+| 题型 | $\kappa$ 范围 | Cohen 标签 |
+|:-----|:-------------|:-----------|
+| Binary 二分类（如是否拥枪）      | 0.75--0.90 | substantial--almost perfect |
+| 3 档 ordinal（如 happy）         | 0.65--0.80 | moderate--substantial       |
+| 7 档 ordinal（如 polviews）      | 0.55--0.70 | moderate                    |
+| 8 档 categorical（如 partyid）   | 0.45--0.65 | fair--moderate              |
+| Feeling thermometer 0--100       | 0.30--0.55 | fair                        |
+
+<Subtext>表 8.1 · silicon sample run-to-run κ 综合报告（文献来源：Argyle 2023、Bisbee 2024、Brand 2024）。</Subtext>
+
+模式很清晰：档数越多、量表越细，run-to-run 一致性越低。feeling thermometer（连续 0--100）是 silicon sampling 最 unstable 的题型，$\kappa$ 普遍在 0.30--0.55，低于经典量表 reliability 标准。
+
+---
+
+## 8.3 Reliability 与 validity 的区分
+
+需要分清两个独立 concept。
+
+**Reliability**（信度）：silicon 在同 prompt、同 persona、不同 run 下能否给一致答案。是本章测的内容。
+
+**Validity**（效度）：silicon 给的答案与真实受访者答案相比是否接近。是第 3--6 章测的内容。
+
+两个 concept 不互推。silicon 可能 reliability 高但 validity 低——LLM 每次给同样的错答案（high $\kappa$，high TVD）；也可能 validity 高但 reliability 低——LLM 第一次答接近真实，第二次答远偏真实（low $\kappa$，low TVD 在 run 1，high 在 run 2）。silicon sampling 论文必须同时报告两组指标。
+
+<Pitfall title="把 reliability 等同于 validity">
+
+silicon answers 的 κ = 0.7 让作者宣称"silicon 稳定可用"，但 κ 只说明 LLM 的输出**自一致**，不说明它接近真实。
+
+**为什么人们会踩坑**：reliability 数字高让人放心，把"稳"当成"准"。
+
+**失效机制**：reliability 只测同一个 LLM 在同一 prompt 下的内部一致性。如果 LLM 的训练分布偏离真实人口（如第 5 章 White Female 偏民主党），它**稳定地**给出偏差答案。validity 才是研究主张要求的指标。
+
+**诊断方法 / 稳健替代**：先看 validity（TVD / accuracy / subgroup bias），如果通过再看 reliability（κ）。validity 不通过的 silicon sample，reliability 再高也不能用。
+
+</Pitfall>
+
+---
+
+## 8.4 实务建议：多 run 取均值 + 报告 run-level κ
+
+silicon sampling 论文的方法学最低要求：
+
+第一，对每个 persona 跑 $R \ge 3$ 次 silicon answers，主分析用 $R$ 次的众数或加权均值。
+
+第二，报告 run-level $\kappa$ 矩阵：$R \times R$ pairwise agreement matrix，让读者看到 silicon 输出的 reliability 结构。
+
+第三，把所有 $R$ 次 silicon answers 一并发布到 OSF / GitHub。读者只看一次 run 的结果无法判断 silicon 是 stable signal 还是 noise。
+
+本书的 silicon answers 只跑了一次 run（subagent 调用，重复跑会额外消耗 token），因此本章给的 reliability 数字是文献综合值而非本书原始数据。读者复现时建议跑 3--5 次，对比本章描述的 $\kappa$ 范围。
+
+---
+
+## 8.5 Test-retest 与 inter-rater 的对应
+
+把 silicon 的两次 run 看成 test-retest reliability 检验，把不同 LLM（Claude vs GPT-4 vs Llama）当 inter-rater 检验。两类 reliability 在 silicon sample 上同样重要：
+
+| Reliability 类型 | silicon 对应                              | 文献 $\kappa$ |
+|:-----------------|:------------------------------------------|:-------------|
+| Test-retest      | 同 LLM 同 prompt 两次 run                 | 0.45--0.85   |
+| Inter-rater      | 不同 LLM 同 prompt                        | 0.30--0.65   |
+| Parallel-form    | 同 LLM 不同 prompt 变体                   | 0.40--0.70   |
+| Internal         | 同 LLM 不同 persona 同 prompt（不适用）   | ——           |
+
+<Subtext>表 8.2 · 两类 reliability 的 silicon 对应。</Subtext>
+
+不同类型的 reliability 给出 silicon sample 不同的稳健性维度。Inter-rater（跨模型）的 $\kappa$ 通常最低，是第 9 章多模型对照的核心议题。
+
+---
+
+## 8.6 诊断指标累积对比表（截至本章）
+
+| 章      | 诊断指标          | 尺度              | 回答的问题             |
+|:--------|:------------------|:------------------|:-----------------------|
+| 第 1 章 | ——（导论）         | ——                | 数据与设计             |
+| 第 2 章 | silicon 生成流程  | 流程图            | 如何复现               |
+| 第 3 章 | TVD 边际距离      | $[0,1]$           | 群体分布对齐           |
+| 第 4 章 | Exact ACC + MAE   | $[0,1]$ + ord     | 个体级匹配             |
+| 第 5 章 | Subgroup bias     | ord（有向）       | 子群可信度             |
+| 第 6 章 | Shrinkage ratio   | $(0,\infty)$      | 中心收缩               |
+| 第 7 章 | Prompt sensitivity | 文献报告         | 措辞漂移               |
+| 第 8 章 | Cohen's $\kappa$  | $[-1, 1]$         | run-to-run 一致性      |
+
+<Subtext>表 8.3 · 诊断指标累积表（截至第 8 章）。</Subtext>
+
+---
+
+## 8.7 本章知识地图
+
+| 核心概念                    | 核心内容                    | 常见误解               | 为什么错                       |
+|:----------------------------|:----------------------------|:-----------------------|:-------------------------------|
+| Cohen's $\kappa$            | 校正一致率                  | 以为是相关系数          | $\kappa$ 是 kappa 不是 $r$     |
+| Reliability vs validity     | 自一致 vs 接近真实          | 以为可互推              | 完全独立 concept               |
+| Temp 0 仍非 deterministic   | 浮点 non-determinism        | 以为 0 = 复现           | 硬件批顺序导致                 |
+| Test-retest                 | 同 LLM 两次 run             | 以为是 prompt 变体      | 是相同 prompt 重跑             |
+| Inter-rater                 | 不同 LLM 同 prompt          | 以为只看一个模型        | 跨模型才能判稳健               |
+| $\kappa \ge 0.7$ 标杆       | Cohen 经典阈值              | 以为越高越好            | 0.9 可能过拟合                 |
+| Run-level 报告              | 论文必备                    | 以为只报均值            | 矩阵让读者判稳健               |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Leveraging Large Language Models for Surrogates of Human Opinions" author="Argyle et al. (2023)" href="https://www.pnas.org/doi/10.1073/pnas.2305016120"
+	/>
+	<ReferencesLink
+		title="Synthetic Replacements for Human Survey Data? The Perils of Large Language Models" author="Bisbee et al. (2024)" href="https://www.cambridge.org/core/journals/political-analysis/article/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models/B92267DC26195C7F36E63EA04A47D2FE"
+	/>
+	<ReferencesLink
+		title="Generative AI and the Future of Survey Research" author="Brand et al. (2024)" href="https://www.annualreviews.org/doi/10.1146/annurev-soc-090523-025613"
+	/>
+</References>

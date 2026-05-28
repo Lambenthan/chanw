@@ -16,6 +16,11 @@ topics: ["Claude Code", "科研工具", "AI 论文流水线"]
 
 </ChapterAudience>
 
+<video autoplay loop muted playsinline class="academic-figure" aria-label="一篇论文被拆解成 10 类实体" src="/books/claude-code-paper-writing/figure/04_paper_dissection.mp4"></video>
+
+<Subtext>图 4 · 一篇论文被拆解成 10 类实体</Subtext>
+
+
 写论文期间,实验结果不显著并非最棘手的问题,文献综述这一章才是。
 
 第二章是文献综述。导师的要求是:"读完这一章,读者应当了解领域经历了怎样的发展、目前存在哪些争议、本研究填补了哪个空白。"三件事各自不易,合在一起更难。
@@ -49,7 +54,7 @@ flowchart TD
 Claude Code 的 `/pdf` 改变了这一流程。直接在对话中输入 `/pdf 文件名.pdf`,模型即可提取全文文本。第三次修改时,我把所有 PDF 放入同一个文件夹:
 
 <div align="center">
-  <img src="../assets/chap04/01_pdf_batch_classify.png" alt="/pdf 批量读取 82 篇文献并按方法分组" width="100%" />
+  <img src="/books/claude-code-paper-writing/figure/chap04/01_pdf_batch_classify.png" alt="/pdf 批量读取 82 篇文献并按方法分组" width="100%" />
 </div>
 
 完成后它给出按方法分类的列表,五大类全部识别。Excel 中三到四天的工作,Claude Code 在两小时内完成,其中大部分时间用于核对分类是否准确(一处确实分错,某篇文献同时使用 IV 与双向固定效应,被分到后者,我指出后它重新归类)。模型实际运行时间不超过 20 分钟。

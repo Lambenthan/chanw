@@ -1,0 +1,156 @@
+---
+title: "十种方法的横向对比与方法决策"
+description: "把前九章九种方法的 California Prop 99 估计汇总到终极对比表，用森林图展示 ATT 分布，总结跨方法 ATT 在 $[-30.65, -0.40]$ 区间的方法学含义，给出 SC 方法选择决策树。"
+book: "synthetic-control"
+chapterNumber: 10
+chapterLabel: "第 10 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["合成控制", "方法对比", "决策树", "终极对比表", "因果推断"]
+---
+
+<ChapterAudience>
+
+把前九章在 California Prop 99 数据上的九种方法估计汇总为终极对比表与森林图，理解跨方法 ATT 在 $[-30.65, -0.40]$ 区间的三条方法学结论（方向稳健、幅度依方法而变、推断结论不完全一致），掌握在新数据面前基于数据特征选择 SC 方法的决策逻辑。
+
+</ChapterAudience>
+
+<IntroParagraph>前九章在 California Prop 99 数据上跑过九种合成控制类方法。每一章的累积对比表都在增长，到了本章把所有结果合并展示，得到本书的终极对比表。</IntroParagraph>
+
+## 10.1 终极对比表
+
+| 章 | 方法 | ATT | 95% CI | 核心假设 | 主要局限 |
+|:---|:---|---:|:---|:---|:---|
+| 第 1 章 | 朴素 DiD | $-27.35$ | — | 平行趋势 | 忽略 unit-time 异质性 |
+| 第 2 章 | Abadie SC | $-18.85$ | — | 凸壳内可拟合 | 无原生 SE |
+| 第 4 章 | SC + Permutation | — | p = 0.38 | 可交换性 | p 对 filter 敏感 |
+| 第 5 章 | GSC $r = 0$ | $-27.35$ | $[-33.20, -21.50]$ | 双向 FE 结构 | 退化为 DiD |
+| 第 5 章 | GSC $r = 1$ | $-13.89$ | $[-19.91, -7.87]$ | 1-factor 结构 | factor 过拟合风险 |
+| 第 5 章 | GSC $r = 2$ | $-0.40$ | $[-20.39, 19.58]$ | 2-factor 结构 | 效应被 factor 吃光 |
+| 第 6 章 | SDID | $-15.60$ | $[-34.41, 3.21]$ | 近期时段加权可比 | CI 含 0 |
+| 第 7 章 | MC-NNM | $-25.91$ | $[-30.82, -20.99]$ | 低秩结构 | 假设错则 CI 失效 |
+| 第 9 章 | SC 配置 A (lag only) | $-22.95$ | — | lag 充分概括状态 | 无收入价格信息 |
+| 第 9 章 | SC 配置 D (mean only) | $-30.65$ | — | 19 年 mean 概括 | 丢失逐年模式 |
+
+<Subtext>表 10.1 · California Prop 99 数据上九种方法的完整对照。ATT 跨度 $[-30.65, -0.40]$。</Subtext>
+
+![所有 ATT 估计的森林图。灰虚线为经典 SC 估计 $-18.85$；横线为 95% CI（如可得）。](/books/synthetic-control/figure/chap10_forest.png)
+
+<Subtext>图 10.1 · 九种方法 ATT 估计的森林图。</Subtext>
+
+## 10.2 跨方法 ATT 估计的分布说明什么
+
+九种方法的 ATT 估计分布在 $[-30.65, -0.40]$ 区间。如果剔除 GSC $r = 2$（已经讨论过它在单 treated unit 下的失效），剩下八种方法的 ATT 估计在 $[-30.65, -13.89]$ 区间，集中度高得多。这一分布给出三条方法学结论。
+
+**结论一：处理效应的方向是稳健的。** 除了 GSC $r = 2$ 这个被 factor 吃光的退化解，其余八种方法都给负的 ATT 估计。Prop 99 减少加州人均香烟销量的方向性结论在方法选择维度上稳健。
+
+**结论二：处理效应的幅度依方法而变。** 最温和的 SDID 给 $-15.60$，最大的配置 D 给 $-30.65$。这一 15 包/人/年的幅度差异是各方法对反事实的不同先验假设导致的，并非"哪个方法对"的问题。
+
+**结论三：统计推断的结论不完全一致。** MC-NNM 与 GSC $r = 0$ 的 CI 不含 0，SDID 的 CI 含 0。如果只看一种方法的 CI 做显著性判断，会得到不同结论。负责任的报告方式是同时呈现多种方法的 CI 与点估计。
+
+## 10.3 方法选择的决策树
+
+读者完成本书后会面对一个实际问题：拿到一份新数据，该用哪种 SC 方法？基于 California 数据的实证与各章雷区讨论，给出如下决策建议。
+
+### 10.3.1 数据特征 → 方法推荐
+
+**单 treated unit + 长 pre-period（如 California 数据，$T_0 = 19$，$N_0 = 38$）：** 首选经典 SC（第 2 章），用 Abadie 2010 配置 + permutation 推断（第 4 章）；辅以 MC-NNM（第 7 章）做 CI 交叉验证；SDID（第 6 章）作为稳健性补充。GSC（第 5 章）只在 $r = 0$ 时跑，不要让 CV 选 $r$。
+
+**多 treated unit + 同时点处理：** 首选 SDID（多 treated 是 Arkhangelsky 2021 的目标场景）；MC-NNM 仍可用；经典 SC 需要对每个 treated unit 跑一次然后聚合（参考 Cavallo et al. 2013）。
+
+**多 treated unit + staggered 处理时点：** 首选 fect 包（第 8 章），ife 与 mc 两种方法对比。注意避开 TWFE 在 staggered 下的负权重问题（Goodman-Bacon 2021、Sun & Abraham 2021、Borusyak 等 2024）。
+
+**Pre-period 短（$T_0 < 10$）：** 所有 SC 类方法都不稳定。优先选 DiD + 协变量 matching，或考虑事件研究 + RDD。
+
+**Donor 池很小（$N_0 < 10$）：** 经典 SC 仍可用，但 permutation inference 的 p 值分辨率受限（最小 $p = 1/N_0$）。SDID 的 placebo SE 也会偏大。考虑 Bayesian SC（Pinkney 2021）以引入先验信息。
+
+### 10.3.2 推断需求 → 方法推荐
+
+**要点估计 + 直接解读：** 经典 SC（donor 权重稀疏可读）。
+
+**要 95% CI 严格控制 size：** SDID 的 placebo SE（保守但可靠）。
+
+**要 95% CI 高 power：** MC-NNM（窄但依赖低秩假设）。
+
+**要 permutation p 值：** 经典 SC + permutation。
+
+## 10.4 对 California Prop 99 政策的因果结论
+
+走过九种方法，对 Prop 99 减少加州人均香烟销量这一因果问题给出最终回答：
+
+**方向**：所有 sensible 方法（除 GSC $r = 2$ 退化解）都给负向 ATT。
+
+**幅度**：合理范围 $[-30.65, -15.60]$ 包/人/年。
+
+**中位估计**：约 $-20$ 包/人/年（与 Abadie 2010 原文报的 $-19$ 一致）。
+
+**统计显著性**：在 MC-NNM / GSC $r = 0$ 的 CI 下不含 0；SDID CI 含 0；permutation p 值在 0.026（原论文）到 0.38（本书 tidysynth 实现）之间漂浮。
+
+把这些结果合起来，Prop 99 减少了加州人均香烟销量约 15–30 包/人/年的方向性结论在方法学维度上稳健，但精确数值与统计显著性依方法而变。这一不确定性是 SC 方法学的内禀属性——是本书想传达给读者的核心方法学认识。
+
+## 10.5 从经典 SC 到现代 SC：六个里程碑
+
+把本书覆盖的方法按时间排成一条线：
+
+**2003 Abadie & Gardeazabal**：合成控制的提出（Basque 数据）。
+
+**2010 Abadie, Diamond & Hainmueller**：完整框架 + permutation inference + 预测器选择（California 数据）。
+
+**2017 Xu**：广义合成控制 GSC，引入 interactive FE。
+
+**2021 Athey, Bayati, Doudchenko, Imbens & Khosravi**：MC-NNM，核范数补全视角。
+
+**2021 Arkhangelsky, Athey, Hirshberg, Imbens & Wager**：合成 DiD（SDID），单元 + 时间双权重。
+
+**2024 Bottmer, Imbens, Spiess & Warnick**：SC inference 设计-based 视角，正式讨论 SC 推断的不变性问题。
+
+每个里程碑都是对前一代方法一个具体局限的回应。读者完成本书后再读这些论文，能直接对应到本书的相应章节，把方法学发展的脉络串成一条线。
+
+## 10.6 本书没覆盖的方向
+
+合成控制方法学发展很快，本书没覆盖但读者可以继续深入的方向：
+
+**Bayesian SC**（Pinkney 2021）：用 Bayesian 后验分布表达 donor 权重的不确定性。
+
+**Robust SC**（Amjad, Shah & Shen 2018）：对 donor 数据噪声鲁棒的 SC 变体。
+
+**Causal Forest + SC**：把 ML 异质性估计与 SC 反事实结合，适合多 treated unit + 异质性。
+
+**Synthetic Diff-in-Diffs in Network 数据**：处理单元间存在网络外溢的 SC 扩展。
+
+这些方法都在 2022–2025 年间陆续推出 R / Python 实现，建议读者从 Imbens & Athey 在 *Annual Review of Economics* 上的几篇综述入手。
+
+---
+
+## 10.7 本章知识地图
+
+| 核心概念 | 核心内容 | 常见误解 | 为什么错 |
+|:---|:---|:---|:---|
+| 方向稳健 vs 幅度稳健 | 八方法同向，幅度差 15 包 | 以为"幅度也该一致" | 反事实先验不同则幅度不同 |
+| CI 含 0 vs 不含 0 | SDID 含 0、MC 不含 0 | 以为只看一种 | 多方法 CI 综合判断 |
+| 方法选择决策树 | 数据特征匹配 | 以为有"通用最佳" | 各方法假设不同 |
+| ATT 范围 $[-30, -15]$ | 合理估计区间 | 以为应给单一数字 | 报区间比单点诚信 |
+| Bayesian SC | 后验不确定性 | 以为只是先验补丁 | 改变了不确定性的形式 |
+| Robust SC | 对 donor 噪声鲁棒 | 以为经典 SC 已稳健 | 高维 donor 池下需 robust |
+| 方法学时间线 | 2003-2025 六个里程碑 | 以为新法替代旧法 | 各法解决不同局限 |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Control Methods for Comparative Case Studies" author="Abadie, Diamond & Hainmueller (2010), JASA" href="https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08746"
+	/>
+	<ReferencesLink
+		title="Synthetic Difference-in-Differences" author="Arkhangelsky, Athey, Hirshberg, Imbens & Wager (2021), American Economic Review" href="https://www.aeaweb.org/articles?id=10.1257/aer.20190159"
+	/>
+	<ReferencesLink
+		title="Matrix Completion Methods for Causal Panel Data Models" author="Athey, Bayati, Doudchenko, Imbens & Khosravi (2021), JASA" href="https://www.tandfonline.com/doi/full/10.1080/01621459.2021.1891924"
+	/>
+	<ReferencesLink
+		title="Generalized Synthetic Control Method: Causal Inference with Interactive Fixed Effects Models" author="Yiqing Xu (2017), Political Analysis" href="https://www.cambridge.org/core/journals/political-analysis/article/generalized-synthetic-control-method/3D88A50EDF1391E03C97D5F19A9D70A2"
+	/>
+	<ReferencesLink
+		title="Difference-in-Differences with Variation in Treatment Timing" author="Goodman-Bacon (2021), Journal of Econometrics" href="https://www.sciencedirect.com/science/article/pii/S0304407621001445"
+	/>
+</References>

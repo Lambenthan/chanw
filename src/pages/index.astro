@@ -33,16 +33,14 @@ const homepageNews = (newsItems as { title: string; url: string; date?: string }
 	.slice(0, HOMEPAGE_NEWS_LIMIT);
 
 // Featured skills on homepage: pick a curated cross-section across categories.
-// One from each Anthropic official category + a few signature picks from paper-* clusters.
+// 首页 Skills 精选 4 个：3 个科研流水线代表 + 1 个通用文档代表。
+// 完整 130 项见 /skills，按科研 · 数据分析 / 文献综述 / 图表 / 写作 /
+// 文档处理 / 演讲海报 / 语言润色 + 通用类分桶展示。
 const HOMEPAGE_SKILL_PICKS = new Set([
-	"pdf",
-	"docx",
-	"frontend-design",
-	"claude-api",
-	"skill-creator",
-	"academic-researcher",
-	"mermaid-diagram",
-	"manuscript-optimizer",
+	"academic-researcher",   // 科研 · 文献综述
+	"manuscript-optimizer",  // 科研 · 写作流程
+	"mermaid-diagram",       // 科研 · 图表绘制
+	"pdf",                   // 通用文档代表
 ]);
 const featuredSkills = skillsData.filter((s) => HOMEPAGE_SKILL_PICKS.has(s.slug));
 ---

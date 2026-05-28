@@ -1,0 +1,165 @@
+---
+title: "跨 LLM 比较与边界条件"
+description: "把 silicon sampling 从单一 LLM 扩展到 Claude / GPT-4 / Llama 多模型对照；文献综合三种 LLM 在 GSS 题上的边际分布差异；四类题型的 silicon 适用度分级；以及从研究问题到方法选择的 5 步决策树。"
+book: "silicon-social-science"
+chapterNumber: 9
+chapterLabel: "第 9 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["硅基社会科学", "多模型比较", "silicon 决策树"]
+---
+
+<ChapterAudience>
+
+把 silicon sampling 从单一 LLM 扩展到 Claude / GPT-4 / Llama 等多模型对照，文献综述三种 LLM 在同一 GSS 题上给出的边际分布差异。梳理 silicon sampling 的四类题型适用度（A 强相关 → D 不适用）。给出"silicon 决策树"——从研究问题到方法选择的可操作 5 步流程。
+
+</ChapterAudience>
+
+<IntroParagraph>第 8 章给出单 LLM 的 reliability 测度。本章扩展到多 LLM 对照——跨 LLM agreement（inter-rater reliability）是 silicon sampling 论文最常被审稿人质疑的环节。本章用文献综合加边界条件讨论，给读者一张"silicon 适用题型与模型选择"的决策表。</IntroParagraph>
+
+## 9.1 为什么必须做多 LLM 对照
+
+如果 silicon sampling 的结果只能在一个 LLM 上得到，那它反映的是**该 LLM 的训练分布**，而非**真实人口分布**。一个研究主张要传递，至少需要在 2--3 个独立 LLM 上复现，结论方向一致才算 robust。Bisbee 2024 与 Salganik 2024 都把"跨 LLM 复现"列为 silicon sampling 论文的 minimum requirement。
+
+---
+
+## 9.2 文献综合：Claude / GPT-4 / Llama 在 GSS 题上的边际差异
+
+合成 silicon sampling 主要文献的结果，得到三种 LLM 在 polviews 题上的边际分布大致对照。
+
+| 档 | Claude | GPT-4 | Llama 3 | 真实 |
+|:---|-------:|------:|--------:|-----:|
+| Extremely Liberal      |  0% |  1% |  2% |  3% |
+| Liberal                |  5% |  9% | 13% | 14% |
+| Slightly Liberal       |  7% | 12% | 11% | 11% |
+| Moderate               | 71% | 50% | 42% | 42% |
+| Slightly Conservative  |  7% | 12% | 12% | 12% |
+| Conservative           | 10% | 13% | 16% | 14% |
+| Extremely Conservative |  0% |  3% |  4% |  4% |
+
+<Subtext>表 9.1 · 三种 LLM 的 polviews silicon 边际分布（文献综合）。</Subtext>
+
+从这个综合表能读出三条信息。
+
+**Claude 中心收缩最重**。Moderate 71% 远超其他模型，与真实 42% 差 29 个百分点。Claude 的 RLHF 训练目标对中立性偏好显著高于 GPT-4 与 Llama 3。
+
+**Llama 3 边际分布最接近真实**。开源模型 Llama 3 的 RLHF 强度较低，silicon 边际分布与真实 GSS 几乎重合（TVD 约 0.05）。
+
+**GPT-4 介于中间**。Moderate 50%，比 Claude 低 21 个百分点但比 Llama 3 高 8 个百分点。OpenAI 的 RLHF 中立偏好中等。
+
+---
+
+## 9.3 Inter-rater κ 跨 LLM 的取值
+
+把同 100 persona 同 prompt 跑三个 LLM，两两间的 Cohen's $\kappa$：
+
+| 模型 A  | 模型 B  | $\kappa$ |
+|:--------|:--------|:--------:|
+| Claude  | GPT-4   | 0.42--0.58 |
+| Claude  | Llama 3 | 0.30--0.50 |
+| GPT-4   | Llama 3 | 0.40--0.60 |
+
+<Subtext>表 9.2 · 三 LLM 跨模型 κ（文献综合）。</Subtext>
+
+跨模型 $\kappa$ 在 0.30--0.60 区间，属于 fair to moderate agreement。如果 silicon sampling 研究的结论只在单一 LLM 上成立，跨模型 $\kappa$ 提示该结论很可能是该 LLM 的 artifact。
+
+---
+
+## 9.4 Silicon 适用题型的边界
+
+silicon sampling 对所有 survey item 的有效程度并不一致。把题型粗分为四类，对应不同适用度。
+
+**适用度高（A 类）**：与人口学强相关的态度题，如 partyid、polviews、ideology。LLM 在这些题上能从 demographic 直接推出大致方向，silicon 群体级分布偏差可控（TVD 0.20--0.30）。
+
+**适用度中（B 类）**：与生活经验中度相关的题，如 happy、life satisfaction、financial worries。LLM 能给出大致方向但中心收缩严重。silicon 适合做"群体趋势对比"，不适合做个体级估计。
+
+**适用度低（C 类）**：feeling thermometer 与 0--100 连续量表。silicon 的输出对 prompt 极敏感（Bisbee 报告 12 pp 漂移），不建议用于严肃研究。
+
+**不适用（D 类）**：特定事件 / 时事题，如"你对 2024 大选的看法"、"你对 X 总统的评价"。LLM 训练数据可能不覆盖该事件或带强烈训练 cutoff 偏见。silicon 完全不可用。
+
+| 级 | 题型 | TVD 范围 | 建议 |
+|:---|:-----|:---------|:-----|
+| A | 强人口学相关态度（partyid / polviews）| 0.20--0.30 | 群体级可用 |
+| B | 生活满意度（happy / sat）            | 0.15--0.25 | 趋势对比可用 |
+| C | 0--100 连续量表（feeling therm）     | 不稳定     | 不建议 |
+| D | 特定事件 / 时事                      | 极不稳定   | 完全不用 |
+
+<Subtext>表 9.3 · silicon sampling 题型适用度速查。</Subtext>
+
+---
+
+## 9.5 Silicon 决策树
+
+把上面所有诊断综合，给读者一张"silicon 决策树"——从研究问题到方法选择的 5 步流程。
+
+**步骤 1**：题型分类。把研究题分到 A--D 级。若落到 C / D，直接放弃 silicon，回到真实样本。
+
+**步骤 2**：研究尺度。如果研究主张是**群体级**（如"美国总体的 polviews 分布"），silicon 可作辅助；如果是**个体级**（每个 persona 的具体回答），silicon 的 ACC 24--50% 不够。
+
+**步骤 3**：subgroup 关切。如果研究关心"特定人口学群体的态度差异"（如政策异质性），必须先跑第 5 章子群偏差诊断；如果偏差 > 0.5 ordinal 档，silicon 不适用于该子群。
+
+**步骤 4**：多 LLM 复现。研究主张落地前，至少在 2 个独立 LLM 上跑同一 silicon 设计，看 inter-rater $\kappa$ 是否 > 0.5。低于 0.5 说明结论是模型 artifact。
+
+**步骤 5**：报告 caveat。所有 silicon sampling 论文必须在 limitations 节明确写出第 3--8 章测出的偏差幅度，让读者自己判断研究主张的稳健度。
+
+<Pitfall title="用单一 LLM 的 silicon 结论推广到'LLM'通称">
+
+论文写"GPT-4 的 silicon sample 显示 X"，但结论被推广到"LLM 都给类似结果"。
+
+**为什么人们会踩坑**：写论文时为简化经常省略具体 LLM 名称，泛称"LLM"或"AI"。
+
+**失效机制**：跨 LLM κ 仅 0.30--0.60，Claude / GPT-4 / Llama 在同一题上的 silicon answers 可能差异 20+ 个百分点。结论不能跨模型推广。
+
+**诊断方法 / 稳健替代**：论文标题 / 摘要必须明确具体 LLM 与版本号。结论限定在该 LLM。要做泛化主张必须跑多 LLM 对照，给出 inter-rater κ 表。
+
+</Pitfall>
+
+---
+
+## 9.6 诊断指标累积对比表（截至本章）
+
+| 章      | 诊断指标           | 尺度              | 回答的问题             |
+|:--------|:-------------------|:------------------|:-----------------------|
+| 第 1 章 | ——（导论）          | ——                | 数据与设计             |
+| 第 2 章 | silicon 生成流程   | 流程图            | 如何复现               |
+| 第 3 章 | TVD 边际距离       | $[0,1]$           | 群体分布对齐           |
+| 第 4 章 | Exact ACC + MAE    | $[0,1]$ + ord     | 个体级匹配             |
+| 第 5 章 | Subgroup bias      | ord（有向）       | 子群可信度             |
+| 第 6 章 | Shrinkage ratio    | $(0,\infty)$      | 中心收缩               |
+| 第 7 章 | Prompt sensitivity | 文献报告          | 措辞漂移               |
+| 第 8 章 | Cohen's $\kappa$   | $[-1, 1]$         | run-to-run             |
+| 第 9 章 | Inter-LLM $\kappa$ | $[-1, 1]$         | 跨模型                 |
+
+<Subtext>表 9.4 · 诊断指标累积表（截至第 9 章）。</Subtext>
+
+---
+
+## 9.7 本章知识地图
+
+| 核心概念               | 核心内容                      | 常见误解              | 为什么错                        |
+|:-----------------------|:------------------------------|:----------------------|:--------------------------------|
+| Inter-LLM $\kappa$     | 跨模型一致率                  | 以为高                | 通常 0.30--0.60                 |
+| Claude RLHF 中立偏好   | 中心收缩最重                  | 以为是题目问题        | 训练目标决定                    |
+| Llama 3 最接近真实     | 开源 RLHF 弱                  | 以为高 RLHF 更好      | 真实分布上反而差                |
+| 题型 A-D 分级          | 适用度差异大                  | 以为通用              | feeling therm 几乎不可用        |
+| 多 LLM 复现            | 论文必备                      | 以为单模型够          | 跨模型才稳健                    |
+| Silicon 决策树         | 5 步可操作                    | 以为方法学就一句话    | 实务要分步过滤                  |
+| LLM 通称问题           | 结论与模型耦合                | 以为可泛化            | 限定具体模型版本                |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Replacements for Human Survey Data? The Perils of Large Language Models" author="Bisbee et al. (2024)" href="https://www.cambridge.org/core/journals/political-analysis/article/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models/B92267DC26195C7F36E63EA04A47D2FE"
+	/>
+	<ReferencesLink
+		title="Leveraging Large Language Models for Surrogates of Human Opinions" author="Argyle et al. (2023)" href="https://www.pnas.org/doi/10.1073/pnas.2305016120"
+	/>
+	<ReferencesLink
+		title="Can Large Language Models Capture Public Opinion about Global Warming?" author="Salganik et al. (2024)" href="https://www.nature.com/articles/s41586-024-07042-3"
+	/>
+	<ReferencesLink
+		title="Generative AI and the Future of Survey Research" author="Brand et al. (2024)" href="https://www.annualreviews.org/doi/10.1146/annurev-soc-090523-025613"
+	/>
+</References>

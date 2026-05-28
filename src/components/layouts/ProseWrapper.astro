@@ -16,13 +16,13 @@
 
 	.prose-wrapper > :global(p) {
 		font-size: var(--font-size-base);
-		line-height: var(--leading-looser);
-		margin-bottom: var(--space-m);
+		line-height: 1.75;
+		margin-bottom: var(--space-s);
 	}
 
 	@media (max-width: 767px) {
 		.prose-wrapper > :global(p) {
-			line-height: var(--leading-loose);
+			line-height: 1.65;
 		}
 	}
 
@@ -112,12 +112,29 @@
 		margin-left: 2.5rem;
 	}
 
+	/* 章节分隔符 —— 三点书签（· · ·）。
+	   替代 Maggie 原版的橙色 3px 实心色块。
+	   语汇上跟 LXGW WenKai 古典书风对齐，色相中性，
+	   视觉重量低于 H2 dotted hairline，仅做章内过渡。
+	   实现：hr 本身藏掉，靠 ::before 注入三点 Times 字符 */
 	.prose-wrapper :global(hr) {
-		margin: var(--space-xl) auto var(--space-2xl);
-		height: 3px;
-		background-color: var(--color-salmon);
 		border: none;
-		width: 20%;
+		background: none;
+		height: auto;
+		width: auto;
+		margin: var(--space-l) auto;
+		text-align: center;
+		overflow: visible;
+	}
+
+	.prose-wrapper :global(hr)::before {
+		content: "·  ·  ·";
+		font-family: "TNR Numerals", "Times New Roman", serif;
+		font-size: var(--font-size-md);
+		color: var(--color-gray-400);
+		letter-spacing: 0.6em;
+		line-height: 1;
+		display: inline-block;
 	}
 
 	/* Blockquote ── 用作"轻引用、定义、内嵌说明"，跟正文同字号同
@@ -203,5 +220,49 @@
 	.prose-wrapper :global(table strong) {
 		color: var(--color-crimson);
 		font-weight: 700;
+	}
+
+	/* Mobile: 表格超出视口时允许水平滑动而不是被截断/压缩。
+	   关键技巧：表格转 display: block，让它能横向 overflow；
+	   tbody/thead/tr 保持原 display 让单元格仍按 table layout 排版。
+	   桌面版（>768px）仍走标准 display: table，居中、宽度自适应。 */
+	@media (max-width: 768px) {
+		.prose-wrapper :global(table) {
+			display: block;
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+			width: 100%;
+			max-width: 100%;
+			white-space: nowrap;
+		}
+
+		.prose-wrapper :global(table thead),
+		.prose-wrapper :global(table tbody) {
+			display: table;
+			width: max-content;
+			min-width: 100%;
+		}
+	}
+
+	/* 学术示意图 video（替代 GIF）：autoplay loop muted playsinline，
+	   视觉上跟 markdown 图片一样居中、响应式 max-width 100% */
+	.prose-wrapper :global(video.academic-figure) {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		margin: var(--space-m) auto var(--space-2xs);
+		border-radius: var(--border-radius-sm, 4px);
+	}
+
+	/* KaTeX inline math: KaTeX 默认 1.21em 会让 $-0.317$ 等纯数字 inline
+	   math 视觉上比周围 LXGW 中文 + Times 西文显著大一截。强制 1em，
+	   让 inline 数字 / 公式 / 变量与正文同字号。display math（$$...$$）
+	   仍走 1.21em 以保持"块级公式"的传统重量感。*/
+	.prose-wrapper :global(.katex) {
+		font-size: 1em;
+	}
+
+	.prose-wrapper :global(.katex-display > .katex) {
+		font-size: 1.21em;
 	}
 </style>

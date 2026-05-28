@@ -1,0 +1,275 @@
+---
+title: "RUSBoost：欠采样 + Boosting 在 0.66% 不平衡下的应用"
+description: "复现 Bao et al. (2020 JAR) 的 RUSBoost 主结果，含其单年验证调参协议，对比三种不平衡应对路径，对照 2022 Erratum 厘清 RUSBoost 的领先究竟在哪个指标上稳健。"
+book: "fraud-detection"
+chapterNumber: 7
+chapterLabel: "第 7 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["财务舞弊", "RUSBoost", "类别不平衡", "欠采样"]
+---
+
+<ChapterAudience>
+
+理解极端不平衡分类下三种主流应对路径的统计直觉，复现 Bao et al. (2020 JAR) 的 RUSBoost 主结果含其单年验证调参协议，在同一测试集上把 RUSBoost 与 SMOTE、class_weight 平衡 logit、普通 logit 并列对比，对照 2020 原文与 2022 Erratum 理解 RUSBoost 的领先究竟在哪个指标上稳健。
+
+</ChapterAudience>
+
+<IntroParagraph>第 6 章用 XGBoost 把树模型推到了梯度提升的高地。在 Bao 数据上，调参后的 XGBoost 在验证集上的 AUC 跑到 0.7541，但到测试期 2009–2014 跌回 0.6480，没有显著超过第 5 章的随机森林。这告诉我们一件事：在样本极度不平衡的环境里，单纯把模型容量做大并不一定带来"识别舞弊"的实质改进。要真正撬动这道门，得先在抽样层面做点什么。</IntroParagraph>
+
+本章的主角是 **RUSBoost**。这是 Bao、Ke、Li、Yu 与 Zhang 在 2020 年 *Journal of Accounting Research* 上推荐的方法，是会计 ML 文献到目前为止最具影响力的一篇旗舰论文。Bao 等人在 2022 年又发表了一篇 Erratum，修订了原文中关于 NDCG@k 指标的部分论断。本章会同时面对这两个版本，做一次完整的复刻。
+
+## 7.1 类别极端不平衡的统计学困境
+
+第 1 章已经讲过这件事的表象：测试期舞弊率 0.339%，零模型准确率达 99.661%，但 AUC 只有 0.500。本章要把这件事的内里再讲一层：即使训练表面顺利，模型仍然倾向于退化成"全部预测为非舞弊"。
+
+**停下来想一想。** 假设训练集里有 73,233 个 firm-year，其中 576 个是舞弊、72,657 个是非舞弃。logistic 回归的损失函数是负对数似然，写出来是
+
+$$
+\mathcal{L}(\beta) = - \sum_{i=1}^{n} \bigl[ y_i \log p_i + (1-y_i) \log(1 - p_i) \bigr],
+$$
+
+其中 $y_i$ 是 0/1 舞弊标签，$p_i$ 是模型给样本 $i$ 输出的舞弊概率。当 $y_i = 1$ 的样本只占 0.787%，整个负对数似然里来自舞弊的项不到 1%，剩下 99% 的损失全部来自非舞弃。优化器在调整 $\beta$ 时，看到的"梯度大头"几乎全部指向非舞弃样本被错分时的成本。这就是不平衡分类的核心困境：损失曲面被多数类"压平"，少数类的梯度信号被淹没。
+
+举一个数字。如果模型给所有样本输出常数概率 $p = 0.00787$，即按训练集舞弊率打分，训练集上的损失约等于 $- 73,233 \times [ 0.00787 \log 0.00787 + 0.99213 \log 0.99213 ] \approx 3,200$。如果模型把舞弊样本的得分稍微抬高一点点、非舞弃样本稍微压低一点点，损失下降的边际几乎完全来自非舞弃侧。优化器没有动机去把舞弃样本的得分推得很高。最终拟合出来的 $\beta$ 就是一个对多数类拟合得很好、对少数类几乎不出声的模型。
+
+---
+
+## 7.2 三种应对路径
+
+文献里把"直面不平衡"的工程做法归成三类。第一类是**欠采样多数类**：从 72,657 个非舞弃里随机抽 576 个，让训练集变成 1:1 平衡。第二类是**过采样少数类**：用合成方法把 576 个舞弃扩展成 72,657 个，方法之一是 SMOTE，在少数类样本之间做线性插值生成新合成样本。第三类是**重加权损失函数**：保留原始样本，只在损失里给少数类乘一个大权重，让 99% 的损失重新均衡到 50%/50%，sklearn 里写作 `class_weight='balanced'`。
+
+这三种方法的差别可以在损失曲面上直观看到。把训练集的舞弃样本数记为 $n_+$，非舞弃为 $n_-$。原始损失 $\mathcal{L}$ 里来自正负两类的"质量"分别是 $n_+$ 和 $n_-$。欠采样把 $n_-$ 砍到 $n_+$，质量比从 1:126 变成 1:1，但 $n_-$ 那 99% 的样本被丢弃了。SMOTE 把 $n_+$ 扩到 $n_-$，质量比同样变成 1:1，但合成样本不是真实观测，可能落在没有真实舞弃的区域。重加权保留全部 $n_+ + n_-$ 个样本，只在每个项前乘一个权重 $w_i$，让正类项总权重等于负类项总权重，等价于把 $n_+$ 项放大 126 倍，但权重本身不会改变模型的函数族。
+
+举一个数字。假设训练集有 $n_+ = 576$ 与 $n_- = 72,657$。欠采样后训练集变成 1,152 行；SMOTE 过采样后变成 145,314 行；重加权下行数仍是 73,233 行，但每个舞弃样本在损失里的权重是 $73,233 / (2 \times 576) \approx 63.6$，每个非舞弃样本的权重是 $73,233 / (2 \times 72,657) \approx 0.504$。三种方法都让正负两类对损失的贡献"在数量上"持平，但走的路径很不一样。
+
+<Pitfall title="欠采样信息丢失与集成修复">
+
+欠采样把多数类丢掉了 99%，单次欠采样的训练集只剩 1,152 行。这个规模拟合任何一个含 28 个变量的模型，方差都会很大；模型对训练集的随机抽样高度敏感，单次抽样得到的分类器可能离最优分类器很远。所以欠采样几乎必须配合 ensembling，靠多次重复抽样与多个分类器集成把方差摊平。RUSBoost 把这件事和 AdaBoost 串起来，做的就是欠采样 + Boosting 的复合修复。
+
+</Pitfall>
+
+---
+
+## 7.3 RUSBoost 的组合机制
+
+RUSBoost 由 Seiffert 等人在 2010 年提出。它的设计逻辑很简单：在 AdaBoost 的每一轮迭代之前，先做一次随机欠采样让训练集平衡，再把欠采样后的子集喂给 base learner 学习，最后按 AdaBoost 的标准方式更新样本权重并加权累积。
+
+AdaBoost 的核心机制需要先复习一遍。
+
+<Definition number="7.1" title="AdaBoost 的样本重加权">
+
+设第 $t$ 轮训练得到的弱分类器为 $h_t$，它在加权训练集上的错误率为 $\varepsilon_t$。AdaBoost 给该分类器赋予权重 $\alpha_t = \frac{1}{2} \log \frac{1 - \varepsilon_t}{\varepsilon_t}$，并在第 $t+1$ 轮把样本 $i$ 的权重更新为
+
+$$
+w_i^{(t+1)} \propto w_i^{(t)} \cdot \exp\bigl( -\alpha_t \, y_i \, h_t(x_i) \bigr),
+$$
+
+使得被分类正确的样本权重下降、被错分的样本权重上升。最终的强分类器为 $H(x) = \mathrm{sign} \bigl( \sum_{t} \alpha_t h_t(x) \bigr)$。
+
+</Definition>
+
+通俗讲，AdaBoost 在每一轮"盯着"上一轮做错的样本继续学，错过的题在下一轮分量加重。RUSBoost 在这个流程里只插入一行代码：在第 $t$ 轮把样本喂给 $h_t$ 之前，先按 `sampling_strategy='auto'` 把多数类欠采样到与少数类同等规模。每一轮拿到的训练子集都是平衡的、规模相对小，但每一轮抽到的多数类是不一样的。在 $T$ 轮迭代下，理论上 $T$ 越大，多数类数据被"扫过"的覆盖度越高，单次欠采样丢失的信息会被后续轮次补回来。
+
+这就是雷区中说的"必须配合 Boosting 多轮才能找回信息"的由来。如果只欠采样一次、训练一个分类器，丢失的 99% 多数类样本永远找不回来；但如果欠采样 200 次、每次都从原始多数类里重新抽，覆盖率会接近 100%。Boosting 不仅做集成，还自动给"难样本"加权，让 RUSBoost 在每一轮都会重点抓那些容易被错分的多数类异常点。
+
+---
+
+## 7.4 Bao 调参协议的特殊性
+
+机器学习的常规调参做法是 $K$ 折交叉验证，比如 5 折或 10 折，把训练集随机分成 $K$ 份轮流做验证。Bao 论文没有这么做，原因是会计数据有强烈的时间结构，随机分折会让模型在训练时看到未来年份的舞弃样本。
+
+Bao 的方案是"单年验证"。他们把训练集 1991–2002 内部再切一刀：1991–1999 做 sub-train，单独留出 2001 年做 sub-validate。注意这里跳过了 2000 年，原因是 Bao 等人选择留出一年作为缓冲，避免训练集与验证集的相邻年份产生信息泄漏。在这个 sub-train / sub-validate 切分上扫一遍 `n_estimators` 候选网格，按 sub-validate AUC 选最优值，再在完整 1991–2002 上用最优 `n_estimators` 重训，作为最终模型。
+
+候选网格按 Bao 原文取 `n_estimators` $\in \{100, 200, 300, \ldots, 1000, 1500, 2000, 2500, 3000\}$，共 14 个值。base learner 是无深度限制的决策树，叶节点最少 5 个样本，对应 MATLAB `fitensemble` 的 RUSBoost 默认设置；学习率 $\eta = 0.1$，欠采样比例为多数类下采到与少数类等量。
+
+---
+
+## 7.5 在 Bao 数据上的复刻
+
+加载数据，按 Bao 协议做时间切分。本章只用 28 个原始 Compustat 变量，与 Bao 主结果保持一致。
+
+```python
+import numpy as np, pandas as pd, time, random
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import roc_auc_score
+from imblearn.ensemble import RUSBoostClassifier
+
+random.seed(2026); np.random.seed(2026)
+
+d = pd.read_csv("data/bao2020_full.csv")
+
+features = ["act","ap","at","ceq","che","cogs","csho","dlc","dltis",
+            "dltt","dp","ib","invt","ivao","ivst","lct","lt","ni",
+            "ppegt","pstk","re","rect","sale","sstk","txp","txt",
+            "xint","prcc_f"]
+
+sub_train = d[(d.fyear >= 1991) & (d.fyear <= 1999)].dropna(subset=features)
+sub_valid = d[d.fyear == 2001].dropna(subset=features)
+full_train = d[(d.fyear >= 1991) & (d.fyear <= 2002)].dropna(subset=features)
+test = d[(d.fyear >= 2009) & (d.fyear <= 2014)].dropna(subset=features)
+
+n_grid = [100, 200, 300, 400, 500, 600, 700, 800, 900,
+          1000, 1500, 2000, 2500, 3000]
+
+records = []
+for n in n_grid:
+    rb = RUSBoostClassifier(
+        estimator=DecisionTreeClassifier(min_samples_leaf=5, random_state=2026),
+        n_estimators=n, learning_rate=0.1,
+        sampling_strategy="auto", random_state=2026)
+    rb.fit(X_subtr, y_subtr)
+    val_auc = roc_auc_score(y_subval, rb.predict_proba(X_subval)[:, 1])
+    records.append((n, len(rb.estimators_), val_auc))
+```
+
+调参表显示 `n_estimators`=100 时实际进入集成的 base learner 是 100 个，sub-validate AUC 0.7969；`n_estimators`=200 时验证 AUC 跳到 0.8011，但实际只有 186 个 base learner 进入集成。从 200 之后，无论候选取 300 还是 3000，实际进入集成的都还是 186 个。原因是 AdaBoost 在第 187 轮检测到对欠采样训练子集的累积分类误差降到 0，按算法约定提前停止。Bao 协议下取验证 AUC 最高、平局取最小 `n_estimators`，最优值落在 200。
+
+**回到 AAER 数据。** 用 `n_estimators`=200 在完整 1991–2002 训练集上重训，再在 2009–2014 测试集上评估。
+
+```r
+rusboost = RUSBoostClassifier(
+    estimator=DecisionTreeClassifier(min_samples_leaf=5, random_state=2026),
+    n_estimators=200, learning_rate=0.1,
+    sampling_strategy="auto", random_state=2026)
+t0 = time.time(); rusboost.fit(X_train, y_train)
+print(f"重训用时 {time.time() - t0:.1f}s, 实际 base learner 数 = {len(rusboost.estimators_)}")
+
+prob_test = rusboost.predict_proba(X_test)[:, 1]
+print(f"RUSBoost test AUC = {roc_auc_score(y_test, prob_test):.4f}")
+```
+
+在 73,233 行训练数据上重训用时 3.8 秒，实际进入集成的 base learner 是 130 个，更大的训练集让 AdaBoost 更早达到零训练误差。测试集 2009–2014 共 33,064 行、舞弃 112 例，RUSBoost 取得 AUC = 0.6982，NDCG@100 = 0.0095，Recall@1% = 0.0268，Precision@1% = 0.0091。AUC 比第 6 章 XGBoost 的 0.6480 高出约 0.05 个点；NDCG 与 Recall 则未必占优。
+
+---
+
+## 7.6 与 SMOTE / class_weight / 普通 logit 的并列对比
+
+把 RUSBoost 放在三种 logistic 回归变体的背景下看才能体会"组合机制"是否真的撬动了什么。SMOTE 用过采样的逻辑回归，class_weight 用重加权的逻辑回归，普通 logit 不做任何不平衡处理。四种方法在同一训练集 1991–2002 上拟合，同一测试集 2009–2014 上评估。
+
+```python
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
+from imblearn.over_sampling import SMOTE
+from imblearn.pipeline import Pipeline as ImbPipeline
+
+smote_pipe = ImbPipeline([
+    ("scaler", StandardScaler()),
+    ("smote", SMOTE(random_state=2026)),
+    ("logit", LogisticRegression(max_iter=5000, solver="liblinear",
+                                  random_state=2026))])
+smote_pipe.fit(X_train, y_train)
+
+bal_pipe = Pipeline([
+    ("scaler", StandardScaler()),
+    ("logit", LogisticRegression(class_weight="balanced", max_iter=5000,
+                                  solver="liblinear", random_state=2026))])
+bal_pipe.fit(X_train, y_train)
+
+plain_pipe = Pipeline([
+    ("scaler", StandardScaler()),
+    ("logit", LogisticRegression(max_iter=5000, solver="liblinear",
+                                  random_state=2026))])
+plain_pipe.fit(X_train, y_train)
+```
+
+四种方法在同一测试集上的性能并列见下表。
+
+| 方法 | AUC | NDCG@100 | Recall@1% | Precision@1% | 训练时间 |
+|:-----|----:|---------:|----------:|-------------:|:--------|
+| RUSBoost (Bao 复刻) | **0.6982** | 0.0095 | 0.0268 | 0.0091 | 3.8s |
+| SMOTE + LogReg | 0.6425 | 0.0146 | 0.0268 | 0.0091 | 0.95s |
+| balanced LogReg | 0.6487 | 0.0073 | 0.0268 | 0.0091 | 0.57s |
+| plain LogReg | 0.6460 | **0.0468** | **0.0536** | **0.0181** | 0.40s |
+
+<Subtext>表 7.1 · 四种方法在测试集 2009–2014 上的并列对比。</Subtext>
+
+读这张表要分两层。AUC 这一列，RUSBoost 0.6982 比三个 logit 变体高出 0.05 个点。AUC 衡量的是"任取一对舞弃/非舞弃样本，舞弃得分更高的概率"，反映模型的整体排序能力。RUSBoost 的 AUC 占优说明它把舞弃样本整体推到了得分分布的高端。
+
+但 NDCG@100、Recall@1%、Precision@1% 这三列在审计场景里更重要，它们回答的是"如果只查得分前 1% 或前 100 名，能挖出多少真舞弃"。在这个口径上，plain LogReg 反而是最优的，前 331 名命中 6 个舞弃，对应 Recall@1% = 0.054；RUSBoost 只命中 3 个，对应 Recall@1% = 0.027。这个反转并非偶然，它正是 Bao 等人在 2022 Erratum 里要修订的事实。
+
+---
+
+## 7.7 与 Bao 原文 2020 / Erratum 2022 的对照
+
+Bao 原文 2020 报告的核心结论是：在 2003–2005 测试期，RUSBoost 在 AUC 与 NDCG@k 上同时优于 logistic 回归，AUC 约 0.725，NDCG@100 约 0.049。原文据此论证 ML 在会计舞弃检测上确实带来了实质改进。
+
+2022 年发表的 Erratum 修订了这个论断。修订后的结论是：RUSBoost 在 AUC 上的领先依然稳健，但在 NDCG@k 上的领先并非一致存在。在 2003 年以后的若干测试窗口里，logistic 回归在 NDCG@100 上反超 RUSBoost。Erratum 把"会计 ML 一定优于经典统计模型"这个流行解读修回到一个更精细的版本：取决于你看哪个指标，以及看哪个测试窗口。
+
+本章在 2009–2014 测试期完整再现了 Erratum 的修订方向。AUC 上，RUSBoost 0.6982 仍领先 plain LogReg 的 0.6460，差距 0.054；NDCG@100 上，plain LogReg 的 0.0468 反超 RUSBoost 的 0.0095，差距 0.037。两个指标走相反方向。这种现象的可能解释有两种。第一种是测试期舞弃率从训练期 0.787% 跌到 0.339%，整体的舞弃样本变少，前 100 名命中真阳性的绝对数对模型间排序差异极敏感；plain LogReg 在小样本下的偶然命中可能被放大。第二种是 RUSBoost 在欠采样的过程里损失了一部分多数类信息，对"高得分非舞弃"的判别力减弱，前 1% 名单里混入更多假阳性，把真阳性挤到了 1%–5% 区间。Erratum 倾向于第二种解读。
+
+无论原因是什么，复刻这一章的意义在于：研究者读完 Bao 2020 不能直接抄它的方法落地用，必须读完 2022 Erratum，才能完整理解 RUSBoost 究竟在哪个指标上稳健占优。
+
+---
+
+## 7.8 案例公司打分
+
+把 RUSBoost 用到两家案例公司上，看它给 Enron 2000 和 Tyco 2000 的舞弃概率。
+
+```r
+case = d[((d.gvkey == 6127) & (d.fyear == 2000)) |
+         ((d.gvkey == 10787) & (d.fyear == 2000))].dropna(subset=features)
+case_prob = rusboost.predict_proba(case[features].values)[:, 1]
+for _, row in case.reset_index(drop=True).iterrows():
+    name = "Enron" if int(row.gvkey) == 6127 else "Tyco"
+    print(f"{name} gvkey={int(row.gvkey)} fyear=2000 RUSBoost p = {case_prob[_]:.4f}")
+```
+
+Enron 2000 的 RUSBoost 概率为 0.8286，Tyco 2000 为 0.8098。两家公司都被推到测试期得分分布的高端。回看前几章在 fyear=2000 上的同一行打分：Logistic Model A 给 Enron 0.9368、给 Tyco 0.1584；LASSO 给 Enron 0.7292、给 Tyco 0.0925；随机森林 Python 给 Enron 0.4734、给 Tyco 0.3004；XGBoost 给 Enron 0.9839、给 Tyco 0.8872；RUSBoost 给 Enron 0.8286、给 Tyco 0.8098。RUSBoost 把 Tyco 这种"在前几章模型里得分偏低"的真阳性公司也抬到了高分区，体现了欠采样 + Boosting 在小众舞弃形态上的覆盖优势。
+
+---
+
+## 7.9 RUSBoost 应用中的两项延伸细节
+
+**序列舞弃样本的处理。** Bao 数据里有相当一部分舞弃公司在连续多年都被标记为 misstate=1，比如 Enron 1998–2000、Tyco 1998–2002。如果训练集里出现了一家公司的多个连续舞弃年份，验证集或测试集再出现同一家公司的相邻年份，会有一种"标签泄漏"风险：模型可能记住了这家公司的特征向量，而不是学到了舞弃形态。Bao 在数据预处理时按 `p_aaer` 编号去重，把同一个 AAER 编号下的多个 firm-year 视作一个舞弃"事件"，并按事件级别做切分。本书使用的 `bao2020_full.csv` 已经做完这一步预处理，章节代码不再额外处理。
+
+**为什么不用 R。** RUSBoost 在 R 生态里没有稳定的开源实现。`ebmc` 包提供过类似功能但维护不活跃，原始 RUSBoost 的 MATLAB 实现是参考实现。Python 的 `imbalanced-learn` 是当前最成熟的开源版本。本章因此只给出 Python 主线代码，不再配 R 等价实现。
+
+---
+
+## 7.10 本章累积对比表
+
+| 方法 | AUC | NDCG@100 | Recall@1% | Precision@1% | 训练时间 | 局限 |
+|:-----|----:|---------:|----------:|-------------:|:---------|:-----|
+| 全部预测为非舞弃 | 0.500 | 0.000 | 0.000 | 0.000 | 0 | 无判别力 |
+| Beneish M-Score | 0.540 | 0.000 | 0.011 | 0.005 | 即时 | 阈值固定，对样本流失敏感 |
+| Logistic (Model A) | 0.697 | 0.051 | 0.056 | 0.022 | 秒级 | 线性可加，靠经验筛特征 |
+| LASSO | 0.688 | 0.050 | 0.056 | 0.022 | 秒级 | 仍是线性，依赖标准化 |
+| 随机森林 (ranger) | 0.709 | 0.015 | 0.037 | 0.014 | 18.7s | 不平衡下多数类主导 |
+| XGBoost | 0.648 | 0.009 | 0.028 | 0.011 | 27.0s | 测试期外推塌陷 |
+| RUSBoost (Bao 复刻) | **0.698** | 0.010 | 0.027 | 0.009 | 3.8s | AUC 稳健占优；NDCG / Recall 在 2003 年后并不一致占优 |
+
+<Subtext>表 7.2 · 第 7 章累积方法对比：第 1 章至第 7 章。</Subtext>
+
+七章看下来，AUC 在 0.65–0.71 区间徘徊，没有一种方法把 AUC 推到 0.75 以上；NDCG@100 与 Recall@1% 的最大值仍然来自第 3 章的 logistic 回归 Model A。这与 2022 Erratum 的核心修订完全一致。第 8 章会引入表格深度学习与无监督异常检测，看 MLP 与 Isolation Forest 能否在另一条路径上撕开缺口。
+
+---
+
+## 7.11 本章知识地图
+
+| 核心概念 | 核心内容 | 常见误解 | 为什么错 |
+|:---------|:---------|:---------|:---------|
+| 类别极端不平衡 | 正样本比例 0.787% 时，损失曲面被多数类压平，少数类梯度信号被淹没 | 增大模型容量就能解决 | 扩大模型容量不改变损失结构，优化器仍然只听多数类的；要么改抽样、要么改损失权重 |
+| 欠采样 (RUS) | 从多数类随机抽与少数类等量的子集，丢弃 99% 的多数类样本 | 欠采样必然损失信息，不如过采样 | 单次欠采样确实丢信息，但配合 Boosting 多轮重抽，多数类的覆盖率可以接近 100% |
+| 过采样 (SMOTE) | 在少数类样本之间做线性插值生成合成样本，把少数类规模拉到与多数类持平 | 合成样本与真实样本等价 | SMOTE 假设少数类在特征空间里是光滑的；若舞弃样本本身分散在不同形态，插值会落在没有真实舞弃的区域 |
+| 重加权 (class_weight) | 保留全部样本，给少数类样本乘大权重，让两类对损失的贡献相等 | 重加权与欠采样等价 | 重加权不改变样本几何分布，模型函数族不变；欠采样改变了训练集本身的分布 |
+| RUSBoost | 每一轮 AdaBoost 之前先对训练集做随机欠采样，base learner 在平衡子集上训练 | RUSBoost 与 AdaBoost 是两件事 | RUSBoost 是 AdaBoost 的一个变种，它的 weak learner 权重更新规则与 AdaBoost 一致 |
+| Bao 单年验证协议 | sub-train 1991–1999，sub-valid 2001，跳过 2000 留缓冲 | 应该用标准 5 折随机交叉验证 | 时间序列数据随机分折会让模型偷看未来；金融舞弃数据的相邻年份还存在公司层面的标签连贯性 |
+| Bao 2020 vs Erratum 2022 | 原文称 RUSBoost 在 AUC 与 NDCG@k 上同时占优；2022 修订后只承认 AUC 上的稳健占优 | Bao 2020 的方法可以直接抄来用 | 必须同时读 2022 Erratum：在 2003 年以后的测试窗口里，logistic 回归在 NDCG@100 上反超 RUSBoost |
+| 序列舞弃样本 | 同一家公司连续多年被标记为舞弃，按 p_aaer 编号视作一个事件做切分 | 按 firm-year 随机切分就行 | 按 firm-year 切分会让训练/测试出现同一家公司的相邻年份，模型可能记住公司特征而非舞弃形态 |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Detecting Accounting Fraud in Publicly Traded US Firms" author="Bao, Ke, Li, Yu & Zhang (2020), Journal of Accounting Research" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-679X.12292"
+	/>
+	<ReferencesLink
+		title="Erratum to Detecting Accounting Fraud" author="Bao, Ke, Li, Yu & Zhang (2022), Journal of Accounting Research" href="https://onlinelibrary.wiley.com/doi/10.1111/1475-679X.12434"
+	/>
+	<ReferencesLink
+		title="RUSBoost: A Hybrid Approach to Alleviating Class Imbalance" author="Seiffert, Khoshgoftaar, Van Hulse & Napolitano (2010), IEEE Transactions on Systems" href="https://ieeexplore.ieee.org/document/4717268"
+	/>
+</References>

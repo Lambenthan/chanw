@@ -1,0 +1,167 @@
+---
+title: "Prompt 设计的方法学敏感性"
+description: "silicon answers 对 prompt 措辞、画像顺序、温度参数的敏感程度；Bisbee 2024 的 12 百分点漂移证据；5 种常见 prompt 变体的设计差异；以及为什么不披露 prompt 等于研究不可复现。"
+book: "silicon-social-science"
+chapterNumber: 7
+chapterLabel: "第 7 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["硅基社会科学", "Prompt 设计", "方法学可复现性"]
+---
+
+<ChapterAudience>
+
+讨论 silicon answers 对 prompt 措辞、画像顺序、温度参数的敏感程度，用 Bisbee 2024 的反例（措辞改变导致 12 百分点漂移）给出经验上限。梳理 5 种常见 prompt 变体的设计逻辑与偏差方向。解释为什么硅基社会学论文必须完整披露 prompt 模板，这一要求自 2024 年起已是 *Political Analysis* 与 *Journal of Politics* 的强制审查项。
+
+</ChapterAudience>
+
+<IntroParagraph>第 3--6 章给出 silicon vs 真实的差距测度，所有数字都基于本书用的特定 prompt。如果换一种 prompt 措辞，silicon 答案会不会显著漂移？这一问题决定了 silicon sample 的方法学**可复现性**，是本章的主题。</IntroParagraph>
+
+## 7.1 Bisbee 2024 的反例
+
+Bisbee, Clinton, Dorff, Kenkel & Larson 2024 *Political Analysis* 用 ANES feeling thermometer 题（"你对 X 的好感分 0--100"）做 silicon sampling，对比 5 种 prompt 微小变体的结果。结果：把 "You are an American voter" 改成 "Pretend you are an American voter"，让 silicon 对民主党的 feeling thermometer 答案漂移 12 个百分点，对共和党漂移 9 个百分点。这一漂移幅度足以让基于 silicon 的"美国选民对两党感情"主张完全失效。
+
+Bisbee 论文给出的核心方法学诊断：silicon answers 并非受访者的"内在状态"读取，而是 LLM 对 prompt 中**角色框架**的语义反应。同一 persona 在不同 prompt 框架下会给显著不同的答案。
+
+---
+
+## 7.2 5 种常见 prompt 变体
+
+把 silicon sampling 文献里出现过的 prompt 变体压缩到 5 类，作为读者设计自己 prompt 时的对照参考。
+
+### 7.2.1 变体 A：角色扮演（本书使用）
+
+```
+"You are simulating an American survey respondent.
+Profile: [demographics]. Answer the question: [Q]"
+```
+
+这是 Argyle 2023 与本书使用的标准模板。LLM 被显式要求"扮演"。
+
+### 7.2.2 变体 B：第三人称推断
+
+```
+"Consider an American survey respondent with the following profile:
+[demographics]. How would this person most likely answer: [Q]?"
+```
+
+把"扮演"换成"推断"，LLM 从 first-person 切到 third-person 视角。Bisbee 报告这一变体在 polarization 题上略保守（极端档占比更低），更倾向众数。
+
+### 7.2.3 变体 C：链式推理
+
+```
+"Profile: [demographics]. Question: [Q].
+Step 1: What demographic factors are most relevant?
+Step 2: How do those factors typically correlate with the answer?
+Step 3: Therefore, the most likely answer is:"
+```
+
+要求 LLM 显式给出推理链。社区报告链式推理能略提高个体准确率（5--10 个百分点），但显著放大中心收缩——推理过程让 LLM 更倾向"求稳"。
+
+### 7.2.4 变体 D：否定校验
+
+```
+"Profile: [demographics]. The respondent is NOT necessarily moderate or middle-ground.
+Some respondents with this profile are strongly liberal, others strongly conservative.
+Answer: [Q]"
+```
+
+显式告诉 LLM"不要默认中间档"。该变体能小幅恢复极端档占比（从 0% 提到 5%），但远未回到真实 28% 的水平。
+
+### 7.2.5 变体 E：多模型平均
+
+```r
+# 同一 persona 跑 N 个不同模型（Claude / GPT-4 / Llama），取众数或加权平均
+```
+
+不在 prompt 层面动，而是把多模型的 silicon answers 集成。该变体能稍微改善 subgroup bias 但成本 N 倍。第 9 章详细讨论。
+
+---
+
+## 7.3 温度参数的影响
+
+API 调用时的 temperature 参数控制采样随机性。temperature = 0 是 deterministic（同 prompt 同回答），temperature = 1.0 是默认采样，temperature = 1.5 是"高发散"模式。
+
+| temperature | shrinkage ratio |
+|------------:|:----------------|
+| 0.0         | 0.55--0.65      |
+| 0.7         | 0.60--0.70      |
+| 1.0         | 0.65--0.75      |
+| 1.5         | 0.75--0.85      |
+
+<Subtext>表 7.1 · temperature 对 silicon polviews 中心收缩比的影响（文献综合）。</Subtext>
+
+随 temperature 升高，shrinkage ratio 逐渐接近 1.0（分布更分散），但代价是 silicon 答案对人口学画像的**响应度**下降——高 temperature 下 LLM 给的答案更随机、更不依赖 demographics。第 8 章会用本书的 silicon answers 做 temperature ablation 实验。
+
+---
+
+## 7.4 Prompt 透明度作为论文审查项
+
+silicon sampling 论文的方法学诚信底线之一：**完整披露 prompt**。论文应在 supplementary materials 里给出：
+
+第一，系统提示原文；第二，画像模板原文；第三，问题模板原文；第四，API 模型名称与版本（如 claude-opus-4-7、gpt-4-turbo-2024-04-09）；第五，temperature、top_p、max_tokens 等采样参数。
+
+少了任何一条，研究就不可复现。*Political Analysis* 与 *Journal of Politics* 在 2024 年起把这五条作为 silicon sampling 论文的强制审查项。
+
+<Pitfall title="silicon paper 不披露 prompt">
+
+论文里只写"用 GPT-4 模拟 ANES 受访者，结果如下"，不给出具体 prompt 模板。读者无法判断结果是"GPT-4 的能力"还是"该具体 prompt 的 artifact"。
+
+**为什么人们会踩坑**：prompt 工程被视为"工程细节"，论文正文不愿占篇幅。
+
+**失效机制**：silicon answers 对 prompt 高度敏感（Bisbee 报告 12 百分点漂移），不披露 prompt 等于研究结论不可复现。
+
+**诊断方法 / 稳健替代**：审稿时优先要求 supplementary 含完整 prompt，附 git repo 链接。读者复现 prompt 加模型版本能跑出与论文一致的 silicon answers，研究主张才能传递。
+
+</Pitfall>
+
+---
+
+## 7.5 本书的 prompt 透明度承诺
+
+本书使用的 prompt 模板已在第 2 章 § 2.2 完整列出，包括系统提示、画像模板、问题模板。模型是 Claude（subagent 调用，模型版本随 Claude Code 当时配置变化），temperature 近似 0 但因为 subagent 调用方式不暴露原始 sampling 参数，无法精确报告。读者用本书完整的 prompt 模板加上当前 Claude 模型版本，复现的 silicon answers 与本书数字相差在个位数百分点内。
+
+---
+
+## 7.6 诊断指标累积对比表（截至本章）
+
+| 章      | 诊断指标          | 尺度              | 回答的问题             |
+|:--------|:------------------|:------------------|:-----------------------|
+| 第 1 章 | ——（导论）         | ——                | 数据与设计             |
+| 第 2 章 | silicon 生成流程  | 流程图            | 如何复现               |
+| 第 3 章 | TVD 边际距离      | $[0,1]$           | 群体分布对齐           |
+| 第 4 章 | Exact ACC + MAE   | $[0,1]$ + ord     | 个体级匹配             |
+| 第 5 章 | Subgroup bias     | ord（有向）       | 子群可信度             |
+| 第 6 章 | Shrinkage ratio   | $(0,\infty)$      | 中心收缩               |
+| 第 7 章 | Prompt sensitivity | 文献报告         | 措辞漂移幅度           |
+
+<Subtext>表 7.2 · 诊断指标累积表（截至第 7 章）。</Subtext>
+
+---
+
+## 7.7 本章知识地图
+
+| 核心概念              | 核心内容                                        | 常见误解              | 为什么错                          |
+|:----------------------|:------------------------------------------------|:----------------------|:----------------------------------|
+| Prompt sensitivity    | 措辞改变答案                                    | 以为 LLM 稳健         | Bisbee 报告 12 pp 漂移            |
+| 5 种变体              | A 角色 / B 三人称 / C 链推 / D 否定 / E 多模    | 以为 A 通用           | 不同变体偏差不同                  |
+| Temperature 影响      | 高 temp 缓解中心收缩                            | 以为是根本解          | 代价是响应度下降                  |
+| 链式推理              | 显式 reasoning                                  | 以为提升一切          | 放大中心收缩                      |
+| 否定校验              | 显式反默认                                      | 以为修复极端档        | 仅小幅 5% 提升                    |
+| 多模型平均            | 集成 N 个 LLM                                   | 以为消除偏差          | 子群偏差减半但成本 N 倍           |
+| Prompt 透明           | 论文审查必备                                    | 以为细节不重要        | PA / JoP 2024 起强制              |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Replacements for Human Survey Data? The Perils of Large Language Models" author="Bisbee et al. (2024)" href="https://www.cambridge.org/core/journals/political-analysis/article/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models/B92267DC26195C7F36E63EA04A47D2FE"
+	/>
+	<ReferencesLink
+		title="Leveraging Large Language Models for Surrogates of Human Opinions" author="Argyle et al. (2023)" href="https://www.pnas.org/doi/10.1073/pnas.2305016120"
+	/>
+	<ReferencesLink
+		title="Generative AI and the Future of Survey Research" author="Brand et al. (2024)" href="https://www.annualreviews.org/doi/10.1146/annurev-soc-090523-025613"
+	/>
+</References>

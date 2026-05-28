@@ -1,0 +1,160 @@
+---
+title: "中心收缩诊断：silicon polviews 标准差只剩真实的 61%"
+description: "用 shrinkage ratio 量化 silicon polviews 的方差压缩：sd 收缩比 0.61，Moderate 占比 71% vs 真实 42%，极端档 0% vs 真实 7%。中心收缩的三层机制与 distributional repair 的局限。"
+book: "silicon-social-science"
+chapterNumber: 6
+chapterLabel: "第 6 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["硅基社会科学", "中心收缩", "LLM 方差压缩"]
+---
+
+<ChapterAudience>
+
+用标准差与 IQR 量化 silicon polviews 的方差比真实小多少，给出收缩比 0.61。解释 central tendency bias 在 LLM ordinal task 上的形成机制——三层原因分别来自训练分布先验、RLHF 中立偏好与 demographic 画像的 ambiguity。引入 distributional repair（事后再加权）并给出其局限：repair 能对齐 marginal，但个体准确率与 subgroup bias 原封不动。
+
+</ChapterAudience>
+
+<IntroParagraph>第 3 章给出 silicon polviews 71% 落在 Moderate 的图。本章把这一现象形式化测度，给出**中心收缩比**（central shrinkage ratio）作为 silicon sampling 的核心诊断指标。</IntroParagraph>
+
+## 6.1 中心收缩比的定义
+
+<Definition number="6.1" title="中心收缩比">
+
+对一个 ordinal 量表 $K$ 档，把回答编码为整数 $1, \ldots, K$。设 silicon 与真实回答的标准差分别为 $\sigma_{\mathrm{silicon}}$ 和 $\sigma_{\mathrm{real}}$。中心收缩比为
+
+$$
+\mathrm{Shrink} = \frac{\sigma_{\mathrm{silicon}}}{\sigma_{\mathrm{real}}}.
+$$
+
+取值范围 $(0, \infty)$。Shrink $< 1$ 表示 silicon 分布比真实更"窄"，质量向众数集中；Shrink $> 1$ 表示 silicon 比真实更分散；Shrink $= 1$ 表示方差结构对齐。
+
+</Definition>
+
+其中 $\sigma$ 是数值化 ordinal 量表上的标准差。该量度只用样本一阶矩外的二阶矩信息，对边际众数无关，专测"分布是否被压向中央"。
+
+### 6.1.1 polviews 上的中心收缩比
+
+```r
+sd_real <- sd(df$polviews_ord, na.rm = TRUE)
+sd_sil  <- sd(df$polviews_si_ord, na.rm = TRUE)
+shrink <- sd_sil / sd_real
+round(c(sd_real = sd_real, sd_silicon = sd_sil, shrink = shrink), 3)
+# sd_real = 1.414, sd_silicon = 0.859, shrink = 0.607
+```
+
+silicon 的 polviews 标准差是 0.86，真实是 1.41，收缩比 **0.61**。silicon 把 polviews 的离散度压到了真实分布的 61%——分布变窄、质量向 Moderate 一档集中。
+
+---
+
+## 6.2 极端档占比的具体数字
+
+中心收缩在极端档（Extremely Liberal / Extremely Conservative / Liberal / Conservative）上的具体差距如下。
+
+| 档 | 真实 % | silicon % | 差 |
+|:---|-------:|----------:|---:|
+| Extremely Liberal      |  3 |  0 | $-3$  |
+| Liberal                | 14 |  5 | $-9$  |
+| Slightly Liberal       | 11 |  7 | $-4$  |
+| **Moderate**           | **42** | **71** | **+29** |
+| Slightly Conservative  | 12 |  7 | $-5$  |
+| Conservative           | 14 | 10 | $-4$  |
+| Extremely Conservative |  4 |  0 | $-4$  |
+
+<Subtext>表 6.1 · polviews 各档真实 vs silicon 占比及差值。</Subtext>
+
+silicon 把所有非 Moderate 档都缩水，Moderate 一档 +29 个百分点。极端档（Extremely Liberal + Extremely Conservative）silicon 占比 0%，真实 7%。这意味着**政治极化**这一研究主题如果用 silicon sample，结论会完全失真——silicon 根本不会给出极端立场的受访者。
+
+---
+
+## 6.3 中心收缩的形成机制
+
+中心收缩在 LLM ordinal task 上是已知系统性现象。原因有三层。
+
+**第一**：LLM 的训练数据里"自我标识为极端立场"的比例比 GSS 真实分布低。互联网文本里大部分用户在写带政治立场的文章时倾向"理性中立"叙事，"我是 Extremely Liberal"这种直接极端自我标签出现频率低。LLM 在 silicon sampling 时把这种"低先验"作用到每个 persona。
+
+**第二**：LLM 的 RLHF（人类反馈强化学习）训练显式鼓励"中立、平衡、避免极端"表述。这一训练目标在 silicon sampling 时跨任务转移——LLM 倾向于给出"温和的"答案，即使该答案不符合 demographic 信号。
+
+**第三**：silicon sampling 的 prompt 给的人口学画像没有"政治意识形态强度"的直接线索。LLM 必须从年龄 / 种族 / 地区 / 学历推断，这些 demographic 与"极端档"的相关性统计上确实弱（GSS 真实数据上 demographics 解释 Extremely 档的 R² 不到 0.05），LLM 更倾向于把 ambiguous case 压向众数 Moderate。
+
+---
+
+## 6.4 Distributional Repair：能修吗
+
+发现 silicon 有中心收缩后，自然问能不能事后修复。一种思路是 *distributional repair*——把 silicon 的边际分布重新采样到与真实匹配的形状，但保留 silicon 给个体打的相对顺序。具体做法是把 silicon 的 100 个 polviews 排序，按真实分布的分位数重新赋档。
+
+```r
+# 把 silicon polviews 重新分位赋档
+real_quantiles <- quantile(df$polviews_ord, probs = seq(0, 1, length.out = 8),
+                            na.rm = TRUE)
+df$polviews_si_repaired <- cut(rank(df$polviews_si_ord, ties.method = "average"),
+                                breaks = quantile(seq_along(df$polviews_si_ord),
+                                                  probs = seq(0, 1, length.out = 8)),
+                                include.lowest = TRUE, labels = 1:7)
+```
+
+distributional repair 能把 silicon 的边际分布对齐到真实，但对个体级准确率没改善——repair 后的个体匹配率不变，只是把"全压 Moderate"重新分散开。这种 repair 在"群体级建模"任务上有用（如训练统计模型时需要分布匹配），在"个体级研究"上没用。
+
+repair 的根本问题在于 silicon 把 demographics 与 attitude 的关联学得太单一。重新分位赋档只是改变 marginal，没有改变 silicon 对每个 persona 给出的 attitude 排序。如果排序本身就有系统偏差（如把 White Female 排在更民主一端），repair 后这种偏差仍然存在。
+
+<Pitfall title="用 distributional repair 当 silicon 的'修复方案'">
+
+看到中心收缩后，自然想"修一下分布形状"。distributional repair 能让 silicon 与真实的 TVD 接近零，但个体准确率不变，subgroup bias 不变。
+
+**为什么人们会踩坑**：marginal 对齐看起来是"修好了"，TVD 数字会显著下降。
+
+**失效机制**：repair 只动 marginal 分布，不动 silicon 内部的"demographics → attitude" mapping。所有第 5 章的 subgroup bias 在 repair 之后照旧。
+
+**诊断方法 / 稳健替代**：不要用 repair 当作"silicon 修复完毕"的标志。如果要做群体级建模可以 repair 后再用 silicon 做 ABC（approximate Bayesian computation）这种不靠个体准确率的方法；做个体级或子群研究坚决不要 repair。
+
+</Pitfall>
+
+---
+
+## 6.5 中心收缩的"温度"假说
+
+一个常见假说是 silicon 中心收缩是 *temperature 参数* 过低导致的。LLM API 调用时把 temperature 调高（如 1.5）可能让 silicon 在分布尾部更活跃。这一假说在第 7 章 prompt 设计章详细检验，结论是：温度只能小幅改善中心收缩，根本机制是 RLHF 加上训练分布中立偏好，不是采样温度。
+
+---
+
+## 6.6 诊断指标累积对比表（截至本章）
+
+| 章      | 诊断指标          | 尺度              | 回答的问题             |
+|:--------|:------------------|:------------------|:-----------------------|
+| 第 1 章 | ——（导论）         | ——                | 数据与设计             |
+| 第 2 章 | silicon 生成流程  | 流程图            | 如何复现               |
+| 第 3 章 | TVD 边际距离      | $[0,1]$           | 群体分布对齐           |
+| 第 4 章 | Exact ACC + MAE   | $[0,1]$ + ord     | 个体级匹配             |
+| 第 5 章 | Subgroup bias     | ord（有向）       | 子群可信度             |
+| 第 6 章 | Shrinkage ratio   | $(0,\infty)$      | 分布是否被压向中央     |
+
+<Subtext>表 6.2 · 诊断指标累积表（截至第 6 章）。</Subtext>
+
+---
+
+## 6.7 本章知识地图
+
+| 核心概念                  | 核心内容                    | 常见误解             | 为什么错                       |
+|:--------------------------|:----------------------------|:---------------------|:-------------------------------|
+| Shrinkage ratio           | sd(sil)/sd(real)            | 以为 ratio 1.0 即对齐 | 高也可能是偏差                 |
+| Central tendency bias     | 压向众数                    | 以为是采样波动        | 是 LLM 系统现象                |
+| Moderate 71%              | 极度过表征                  | 以为修不了            | 可 repair 但不解决根本         |
+| RLHF 中立偏好             | 训练目标转移                | 以为只影响 ChatGPT    | 所有大模型都有                 |
+| Distributional repair     | 重新分位赋档                | 以为修好了 silicon    | 仅 marginal 对齐               |
+| 极端档为 0                | 政治极化研究失真            | 以为题目限制          | LLM 训练 prior 主导            |
+| 温度参数                  | 微影响中心收缩              | 以为是根本原因        | RLHF 更关键                    |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Leveraging Large Language Models for Surrogates of Human Opinions" author="Argyle et al. (2023)" href="https://www.pnas.org/doi/10.1073/pnas.2305016120"
+	/>
+	<ReferencesLink
+		title="Synthetic Replacements for Human Survey Data? The Perils of Large Language Models" author="Bisbee et al. (2024)" href="https://www.cambridge.org/core/journals/political-analysis/article/synthetic-replacements-for-human-survey-data-the-perils-of-large-language-models/B92267DC26195C7F36E63EA04A47D2FE"
+	/>
+	<ReferencesLink
+		title="Generative AI and the Future of Survey Research" author="Brand et al. (2024)" href="https://www.annualreviews.org/doi/10.1146/annurev-soc-090523-025613"
+	/>
+</References>

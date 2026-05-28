@@ -1,13 +1,15 @@
 ---
 /**
- * 代码块折叠包裹。
+ * 代码块折叠包裹 v3 —— 简约学术 listing。
  *
- * 视觉哲学："学术论文 listing"而非"UI 控件"——
- * 语言注用 italic Times serif 像脚注；折叠头部最低视觉重量；
- * 配合 vitesse-light Shiki 主题 + Times 系字体栈的代码本身。
+ * 视觉哲学：代码是正文的"附注"，不是 UI 控件。
+ * - 无外框（无四边边框、无圆角矩形容器感）
+ * - summary 仅靠下方一条 hairline 与正文分隔，跟章节内 hr 同语汇
+ * - 语言标签：Times italic + 行数元数据（"R · 23 行"），dark-sea-blue
+ * - 折叠开关：纯 +/− 字符，sans，灰阶；不写"展开/收起"
+ * - hover 整条变 sea-blue
+ * - 代码体内：light-cream 浅底 + Times serif（继承全局 code font）
  */
-import { Icon } from "astro-icon/components";
-
 const { class: className, style, "data-language": dataLanguage } = Astro.props;
 
 const lang = (dataLanguage ?? className?.match(/language-(\w+)/)?.[1] ?? "")
@@ -36,18 +38,18 @@ const LANG_LABEL: Record<string, string> = {
   tex: "LaTeX",
   latex: "LaTeX",
   mermaid: "Mermaid",
+  sas: "SAS",
 };
 const label = LANG_LABEL[lang] ?? (lang ? lang.toUpperCase() : "Code");
 ---
 
 <details class="codeblock">
   <summary class="codeblock-summary">
-    <span class="codeblock-lang">{label}</span>
-    <span class="codeblock-divider"></span>
-    <span class="codeblock-action">
-      <span class="codeblock-action-collapsed">展开 ↓</span>
-      <span class="codeblock-action-expanded">收起 ↑</span>
+    <span class="codeblock-meta">
+      <span class="codeblock-lang">{label}</span>
+      <span class="codeblock-lines" data-lines></span>
     </span>
+    <span class="codeblock-toggle" aria-hidden="true"></span>
   </summary>
   <div class="codeblock-body">
     <pre class={className} style={style}><slot /></pre>
@@ -57,20 +59,18 @@ const label = LANG_LABEL[lang] ?? (lang ? lang.toUpperCase() : "Code");
 <style>
   .codeblock {
     margin: var(--space-2xs) 0 var(--space-s);
-    border-top: 1px solid var(--color-tinted-cream);
-    border-bottom: 1px solid var(--color-tinted-cream);
-    background: transparent;
   }
 
   .codeblock-summary {
     display: flex;
     align-items: baseline;
-    gap: var(--space-2xs);
+    justify-content: space-between;
     padding: var(--space-3xs) 0;
     cursor: pointer;
     list-style: none;
-    transition: color 0.2s ease;
     color: var(--color-gray-600);
+    border-bottom: 1px solid var(--color-tinted-cream);
+    transition: color 0.2s ease, border-color 0.2s ease;
   }
 
   .codeblock-summary::-webkit-details-marker {
@@ -78,50 +78,60 @@ const label = LANG_LABEL[lang] ?? (lang ? lang.toUpperCase() : "Code");
   }
 
   .codeblock-summary:hover {
+    border-bottom-color: var(--color-sea-blue);
     color: var(--color-sea-blue);
   }
 
-  /* 语言标签——italic Times，像学术脚注。不是 badge，是 typography 锚 */
+  .codeblock-meta {
+    display: inline-flex;
+    align-items: baseline;
+    gap: var(--space-2xs);
+  }
+
+  /* 语言标签：Times italic，学术 listing 锚点 */
   .codeblock-lang {
     font-family: "TNR Numerals", "Times New Roman", serif;
     font-style: italic;
-    font-size: var(--font-size-sm);
+    font-size: calc(var(--font-size-base) * 0.92);
     color: var(--color-dark-sea-blue);
     letter-spacing: 0.01em;
     line-height: 1.4;
   }
 
-  .codeblock-divider {
-    flex: 1;
-    height: 1px;
-    background: var(--color-tinted-cream);
-    margin: 0 var(--space-2xs);
-    position: relative;
-    top: -0.4em;
+  .codeblock-summary:hover .codeblock-lang {
+    color: var(--color-sea-blue);
   }
 
-  .codeblock-action {
+  /* 行数元数据：小号 sans，"· 23 行"形式 */
+  .codeblock-lines {
     font-family: var(--font-sans);
-    font-size: calc(var(--font-size-xs) * 0.95);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
+    font-size: var(--font-size-xs);
     color: var(--color-gray-500);
-    line-height: 1.4;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .codeblock-lines:not(:empty)::before {
+    content: " · ";
+    color: var(--color-gray-400);
+  }
+
+  /* 折叠开关：纯字符 +/− */
+  .codeblock-toggle {
+    font-family: var(--font-sans);
+    font-size: var(--font-size-base);
+    color: var(--color-gray-500);
+    line-height: 1;
     flex-shrink: 0;
+    width: 1em;
+    text-align: center;
   }
 
-  .codeblock-action-expanded {
-    display: none;
-  }
-  .codeblock[open] .codeblock-action-collapsed {
-    display: none;
-  }
-  .codeblock[open] .codeblock-action-expanded {
-    display: inline;
+  .codeblock-toggle::before {
+    content: "+";
   }
 
-  .codeblock[open] {
-    border-bottom-color: var(--color-sea-blue);
+  .codeblock[open] .codeblock-toggle::before {
+    content: "−";
   }
 
   .codeblock-body {
@@ -149,7 +159,17 @@ const label = LANG_LABEL[lang] ?? (lang ? lang.toUpperCase() : "Code");
     blocks.forEach((details) => {
       const summary = details.querySelector<HTMLElement>(".codeblock-summary");
       const body = details.querySelector<HTMLElement>(".codeblock-body");
-      if (!summary || !body) return;
+      const linesEl = details.querySelector<HTMLElement>("[data-lines]");
+      const pre = details.querySelector<HTMLElement>("pre");
+      if (!summary || !body || !pre) return;
+
+      // 统计非空行数注入到 .codeblock-lines
+      if (linesEl) {
+        const lineCount = (pre.textContent ?? "")
+          .split("\n")
+          .filter((l) => l.trim().length > 0).length;
+        if (lineCount > 0) linesEl.textContent = `${lineCount} 行`;
+      }
 
       const handler = (e: Event) => {
         e.preventDefault();

@@ -1,0 +1,297 @@
+---
+title: "决策树与随机森林"
+description: "从线性世界跨入非参数世界，用 rpart 拟合单棵决策树后引入 ranger 随机森林，解析 Bagging 两层随机化机制，对比 MDI 与 MDA 两种变量重要性，完成本书第一次 AUC 跳级。"
+book: "fraud-detection"
+chapterNumber: 5
+chapterLabel: "第 5 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["财务舞弊", "决策树", "随机森林", "Bagging"]
+---
+
+<ChapterAudience>
+
+从线性世界跨入非参数世界，理解决策树的会计 if-then 直觉与脆性，掌握 Bagging 思想与随机森林的两层随机化，在 Bao 数据上拟合 `rpart` 单棵树与 `ranger` 随机森林，区分 MDI 与 MDA 两种变量重要性并理解它们在不平衡数据下的差别，体会从单棵树到森林的性能跳级并更新累积对比表。
+
+</ChapterAudience>
+
+<IntroParagraph>第 4 章的 LASSO 与 Elastic Net 在线性世界里把 42 个财务变量压缩成一组稀疏系数，模型的预测面是一个高维平面。线性形式有它的好处，逻辑回归的系数能直接读，惩罚项让多重共线性下的系数稳定下来。但财务舞弊是一种结构性行为，公司通过同时操纵多个科目掩盖问题，比如在销售上虚增的同时往应付账款里塞虚假负债。这种"组合操纵"在线性可加模型里很难表达，因为线性模型默认两个变量的影响互不干扰。本章换一种刀法，从全局线性的世界跨入局部规则的世界。</IntroParagraph>
+
+决策树的训练目标换了一种形式。它放弃估计系数，转而反复地把样本切成几堆，每一刀都尽量让切出来的两堆里舞弊率分布更不均匀。一棵 5 层深度的树最多只切 5 刀就能把样本分成 32 个叶子节点，每个叶子给出一个独立的舞弊概率。树不假设变量与结局的关系是线性的，也不假设变量之间相互独立，它直接靠数据决定先切哪一刀再切哪一刀。这种灵活性的代价是稳定性差，本章后半部分会通过 Bagging 与随机森林修复这个问题。
+
+## 5.1 单棵树的会计直觉
+
+决策树的工作流程可以用一个简短的会计场景说清楚。设想审计师面对一万家公司，他想用最少的判断把可疑公司挑出来。第一刀他可能问：应付账款超过 7.2 亿美元的公司有多少？这个阈值对应的是大型公司，他知道大公司的舞弊样本相对密集。切下来一堆 2,208 家"大公司"，剩下 61,722 家"中小公司"。第二刀他对那 2,208 家大公司接着问：软性资产占总资产比重超过 61.75% 的有多少？软性资产指的是除现金、固定资产之外的所有资产，比例越高意味着会计估计的弹性越大，舞弊空间也越大。再切一刀，761 家"高软性资产比例的大公司"留下了，舞弊率从全样本的 0.84% 升到了 8.67%，已经接近全样本基线的 10 倍。
+
+把这一刀刀的逻辑写成程序，就是 CART 算法。每个分裂点都是对单个变量的二元判断，整棵树就是一组嵌套的 if-then 规则。这种规则形式的优点是审计师可以直接照着读："如果应付账款 $\geq 720.9$ 且 `soft_assets` $\geq 0.6175$ 且销售收入 $\geq 165.96$ 亿，重点关注。"这种可读性是逻辑回归系数比不上的。
+
+<Definition number="5.1" title="Gini 不纯度">
+
+设节点 $t$ 中第 $k$ 类样本占比为 $p_k$，$K$ 是类别数。该节点的 Gini 不纯度定义为
+
+$$
+\mathrm{Gini}(t) = 1 - \sum_{k=1}^{K} p_k^2.
+$$
+
+二分类问题中 Gini 取值在 $[0, 0.5]$，节点完全纯净时 Gini 等于 0，正负样本各占一半时 Gini 取最大值 0.5。
+
+</Definition>
+
+举一个数字例子。某节点有 100 个样本，其中 80 个非舞弊、20 个舞弊，对应 $\mathrm{Gini} = 1 - 0.8^2 - 0.2^2 = 0.32$。如果切一刀把它分成左右两堆，左边 60 个全是非舞弊，Gini 等于 0；右边 40 个里 20 非舞弊 20 舞弊，Gini 等于 $1 - 0.5^2 - 0.5^2 = 0.5$。加权平均后的不纯度为 $60/100 \times 0 + 40/100 \times 0.5 = 0.20$。这一刀让不纯度从 0.32 降到 0.20，减少了 0.12，记作这一刀的"信息增益"。CART 算法穷举所有变量、所有可能的切点，挑信息增益最大的那一刀。
+
+<Definition number="5.2" title="决策树">
+
+决策树通过对协变量空间的递归二分，将样本划分为若干互不相交的矩形区域。每个区域对应一个叶子节点，节点内样本的多数类即该区域的预测类别，节点内正例占比即预测概率。对二分类问题，CART 在每一步选择使加权 Gini 不纯度下降最大的分裂变量与切点。
+
+</Definition>
+
+回到 Bao 数据。把 1991–2002 训练集喂给 `rpart`，限制最大深度为 5、分裂前最少样本量 30、复杂度参数 cp = 0.001，跑出一棵肉眼可读的决策树。
+
+```r
+library(tidyverse); library(rpart); library(here)
+set.seed(2026)
+
+d <- read_csv(here::here("data", "bao2020_full.csv"),
+              show_col_types = FALSE)
+features <- c(setdiff(names(d),
+              c("fyear","gvkey","p_aaer","misstate")))
+
+prep <- function(df)
+  df %>% drop_na(any_of(features)) %>%
+    mutate(misstate = factor(misstate, levels = c(0, 1)))
+
+train <- prep(filter(d, fyear >= 1991, fyear <= 2002))
+test  <- prep(filter(d, fyear >= 2009, fyear <= 2014))
+fml   <- as.formula(paste("misstate ~", paste(features, collapse = "+")))
+
+tree_fit <- rpart(fml, data = train, method = "class",
+                  control = rpart.control(maxdepth = 5,
+                                          cp = 0.001, minsplit = 30))
+```
+
+训练集去掉特征列含 NA 的行后剩 63,930 行、537 个舞弊样本。`rpart` 给出的前三层规则是：根节点先按应付账款 `ap` 切在 720.9 百万美元；右枝再按 `soft_assets` 切在 0.6175；接着按 `sale` 切在 16,595.77。落到 `sale` $\geq$ 16,596 的子节点里有 306 家公司、44 个舞弊样本，舞弊率 14.4%，是全样本基线的 17 倍。最深的两个叶子里出现了"舞弊率 81.8%"的极端节点，但样本量只有 11 行，单棵树在这一层已经开始过拟合。
+
+下表把单棵树前 3 层 5 个非叶节点的规则单独抽出来，方便审计师直接照着读。
+
+| 层 | 规则 | 样本数 | 舞弊数 | 舞弊率 |
+|:--|:-----|-------:|-------:|-------:|
+| 1 | 根节点 | 63,930 | 537 | 0.84% |
+| 2 | `ap` $\geq$ 720.9 | 2,208 | 99 | 4.48% |
+| 3a | `ap` $\geq$ 720.9 & `soft_assets` $\geq$ 0.6175 | 761 | 66 | 8.67% |
+| 3b | 3a 子集再加 `sale` $\geq$ 16,595.77 | 306 | 44 | 14.38% |
+
+<Subtext>表 5.1 · 单棵 rpart 树前 3 层非叶节点，depth=5。</Subtext>
+
+这棵树在测试集上的 AUC 是 0.548，几乎贴着零模型的 0.500。NDCG@100 是 0.007，Recall@1% 是 3.74%。也就是说，把规模大、软资产比例高、销售旺的公司圈出来的策略，在 2009–2014 测试期里几乎没有跑赢"瞎猜"。单棵树在训练集上看起来合理，到了测试期就塌了。
+
+---
+
+## 5.2 单棵树的方差来源
+
+**停下来想一想。** 假设把训练集 63,930 行用 bootstrap 重抽样，每次从中有放回地取 63,930 行，再训练一棵新树。两次重抽样得到的两棵树会长得一样吗？
+
+不会。CART 算法对训练样本的微小扰动非常敏感。根节点的最优切点是从所有变量所有候选阈值里穷举出来的，其中两个候选切点的不纯度下降可能只差 0.0001。重抽样后那 0.0001 的差距会反转，根节点切到完全不同的变量上，整棵树的形状随之大改。审计师在 1992–2002 数据上看到的"应付账款 + 软资产 + 销售"这条路径，到 2009–2014 不一定还成立。
+
+不稳定性不只是审美问题。统计学上能写成方差爆炸：单棵树的预测函数 $\hat{f}(x)$ 对训练样本的随机性方差很大。Breiman 在 1996 年提出了 Bagging 这条修补路径，思路是用很多棵树的平均值代替单棵树的预测。独立同分布的 $B$ 棵树平均之后方差会降到原来的 $1/B$，前提是这些树彼此真的独立。但同一份训练集训练出的多棵树并不独立，bootstrap 重抽样让它们差异变大，但远没到独立的程度。Breiman 在 2001 年加了第二层随机化：在每个分裂节点处只允许从 $m$ 个随机抽出来的特征里选最佳切分，这就是随机森林。
+
+---
+
+## 5.3 Bagging 与随机森林
+
+随机森林的两层随机化分别压不同的方差。Bootstrap 抽样让每棵树看到稍有差别的样本，缓解整体方差。每个节点的特征子采样切断了树之间的相关性，缓解平均之后的剩余方差。Breiman 给出的经验法则是分类任务用 $m = \sqrt{p}$、回归任务用 $m = p/3$。Bao 数据有 $p = 42$ 个特征，$\sqrt{42} \approx 6.48$，取整后 `ranger` 默认的 `mtry` 就是 6。
+
+<Definition number="5.3" title="随机森林">
+
+设训练集为 $\mathcal{D} = \{(x_i, y_i)\}_{i=1}^{n}$。对 $b = 1, \ldots, B$ 执行：从 $\mathcal{D}$ 有放回抽样得到 bootstrap 样本 $\mathcal{D}^{(b)}$；在 $\mathcal{D}^{(b)}$ 上训练一棵无剪枝的 CART 决策树 $\hat{f}_b$，但每个分裂节点处只在随机选出的 $m \ll p$ 个特征里挑切分。最终预测为 $B$ 棵树概率输出的平均：
+
+$$
+\hat{f}_{\mathrm{RF}}(x) = \frac{1}{B} \sum_{b=1}^{B} \hat{f}_b(x).
+$$
+
+</Definition>
+
+数字例子。$B = 500$ 棵树各自在测试样本 $x$ 上输出 0.12、0.05、0.31 等概率，平均之后得到 0.18。如果这 500 棵树的两两相关系数是 0.3、单棵树预测方差是 $\sigma^2$，那么平均预测的方差近似为 $\rho \sigma^2 + (1 - \rho)\sigma^2 / B = 0.3 \sigma^2 + 0.0014 \sigma^2$，基本上由相关性 $\rho$ 主导。这就是为什么降低相关性比堆树数更重要。在 `ranger` 的实现里把 `mtry` 调小、`min.node.size` 调大都是降相关的手段。
+
+随机森林还白送一个"OOB 估计"。每次 bootstrap 抽样大约 $1 - 1/e \approx 36.8\%$ 的样本没被抽到，被这棵树视为 OOB 样本。把没看见样本的那些树拉出来给该样本打分再平均，就是 OOB 预测。这个预测在原理上等价于一次留出验证。问题是"OOB 看起来很好"在不平衡数据下基本就是一句废话，本章后面的雷区会展开。
+
+---
+
+## 5.4 在 Bao 数据上的实现
+
+把训练集与时间分割对齐到 `ranger`，设 `num.trees = 500`、`mtry = 6`、`min.node.size = 5`、`probability = TRUE`，让 RF 输出连续概率而非 hard label。
+
+```r
+library(ranger); library(pROC)
+set.seed(2026)
+
+rf_args <- list(formula = fml, data = train, num.trees = 500,
+                mtry = 6, min.node.size = 5,
+                probability = TRUE, seed = 2026)
+
+rf_fit  <- do.call(ranger, c(rf_args, list(importance = "impurity")))
+rf_perm <- do.call(ranger, c(rf_args, list(importance = "permutation")))
+
+rf_fit$prediction.error
+rf_prob <- predict(rf_fit, data = test)$predictions[, "1"]
+auc(roc(as.integer(as.character(test$misstate)), rf_prob, quiet = TRUE))
+```
+
+500 棵树训练耗时 18.7 秒。OOB 错误率 0.7841%，看起来非常好。但是测试集里舞弊率本来就只有 0.39%，"全部预测为非舞弊"的零模型也能拿到 99.61% 的准确率。OOB error 几乎没有比这好多少，关键不在它的绝对数值，而在它对少数类的识别能力。下面 AUC 与 Recall@1% 才是有判别力的指标。
+
+<Pitfall title="OOB accuracy 高不等于模型有用">
+
+在极端不平衡分类问题中，OOB error rate 会被多数类完全主导，给出近乎完美的数字，但说不出对少数类的识别表现。Bao 数据 RF 的 OOB error 是 0.78%，比测试集舞弊率 0.39% 还低，是因为 OOB 样本里只有 0.84% 是舞弊，模型只要对 99.16% 的非舞弃样本判断对就够了。要诊断 RF 在舞弊类上的表现必须看 AUC、NDCG@k、Recall@k 这些只看排序前部的指标。OOB accuracy 高从来不等于模型有用。
+
+</Pitfall>
+
+---
+
+## 5.5 变量重要性：MDI 与 MDA
+
+随机森林天然给出两种变量重要性。MDI 即 mean decrease in impurity，把每棵树的每次分裂带来的 Gini 不纯度下降按使用变量累加，再在 500 棵树上取平均。MDA 即 mean decrease in accuracy，又称 permutation importance：把训练好的 RF 拿到 OOB 样本上算一次准确率，或者 AUC，然后把某个特征的取值在 OOB 样本上随机打乱再重新计算，准确率掉了多少就是这个特征的重要性。
+
+<Definition number="5.4" title="MDA / permutation importance">
+
+设原始 OOB 预测精度为 $\mathrm{acc}_0$，将变量 $X_j$ 在 OOB 样本上随机打乱后的精度为 $\mathrm{acc}_j^{\pi}$，则 $X_j$ 的 permutation importance 为
+
+$$
+\mathrm{MDA}_j = \mathrm{acc}_0 - \mathrm{acc}_j^{\pi}.
+$$
+
+数值越大，说明这个变量对模型预测越关键，扰动它会让性能掉得越多。
+
+</Definition>
+
+数字例子。把 `lct` 在 OOB 样本里随机打乱后 RF 的 OOB 准确率从 99.22% 掉到 98.10%，下降 0.0112，这就是 `lct` 的 MDA 值。`ranger` 在 Bao 数据上的两种重要性 Top-10 列在下表。
+
+| 排名 | MDI 变量 | MDI | MDA 变量 | MDA |
+|-----:|:---------|----:|:---------|----:|
+| 1 | soft_assets | 35.73 | lct | 0.0112 |
+| 2 | prcc_f | 30.14 | act | 0.0090 |
+| 3 | csho | 29.70 | at | 0.0086 |
+| 4 | ap | 27.99 | ap | 0.0084 |
+| 5 | dch_inv | 26.61 | ppegt | 0.0082 |
+| 6 | cogs | 26.47 | lt | 0.0077 |
+| 7 | che | 26.38 | cogs | 0.0075 |
+| 8 | bm | 26.15 | rect | 0.0074 |
+| 9 | ppegt | 26.05 | ceq | 0.0070 |
+| 10 | ch_cs | 25.68 | sale | 0.0066 |
+
+<Subtext>表 5.2 · 随机森林变量重要性 Top-10，R ranger 实现。</Subtext>
+
+两份榜单看起来重合度只有一半。MDI 把 `soft_assets`、`prcc_f`、`csho` 这种取值连续、可分裂阈值多的变量排在最前；MDA 把 `lct`、`act`、`at`、`ap` 这些规模科目排在最前。两者的差异有方法论原因。Strobl et al. (2007) 证明，MDI 系统性偏向取值范围连续、唯一值多的变量，因为这类变量提供给 CART 算法的可选切点多，每棵树都更容易选它做分裂，纯属算法机制带来的偏向。MDA 通过"扰动后看性能掉了多少"的方式避开了这个偏向，但它依赖 OOB 样本重新评估，计算上比 MDI 慢一倍。
+
+会计学解读上，MDA 的 Top-10 给出了一个干净的故事：覆盖的是资产负债表与利润表的所有主科目，舞弊检测倚赖的是整张报表的联合信号，而非某一两个被标记的"魔法变量"。MDI 排前列的 `soft_assets`、`prcc_f`、`bm` 在 MDA 里都没进 Top-10，提示研究者别只看 MDI 就下"软资产是头号舞弊信号"这种结论。
+
+<Pitfall title="默认 mtry 在高相关变量簇里的集中效应">
+
+默认 `mtry` = $\sqrt{p}$ 在变量高度相关的财务比率簇里会让重要性集中到少数代表变量上。Bao 数据中流动资产 `act`、总资产 `at`、流动负债 `lct`、总负债 `lt` 之间的相关系数都在 0.7 以上。每次分裂时 RF 从 6 个随机抽出的特征里选最优分裂，相关簇里只要有一个代表被抽中就够用，其它代表的"贡献"被分摊掉。MDI 输出的 `soft_assets` 第一在一定程度上是因为它和其它变量相关性更弱、被各自抽中时不重叠。处理办法包括：报告 MDA 而不是只看 MDI；或者用条件变量重要性，先把相关变量分组再算组内贡献。
+
+</Pitfall>
+
+---
+
+## 5.6 性能评估与案例公司打分
+
+把单棵树与随机森林并排比较，第一次看到本书的"性能跳一格"。
+
+| 模型 | AUC | NDCG@100 | Recall@1% | Precision@1% |
+|:-----|----:|---------:|----------:|-------------:|
+| 单棵树 rpart depth=5 | 0.5483 | 0.0072 | 0.0374 | 0.0144 |
+| 随机森林 ranger | 0.7087 | 0.0150 | 0.0374 | 0.0144 |
+
+<Subtext>表 5.3 · 第 5 章测试集性能，n = 27,628，正例 107。</Subtext>
+
+单棵树的 AUC 0.548 几乎贴着零模型 0.500，告诉我们单棵 5 层树在 Bao 数据上学到的东西非常有限。500 棵树平均之后，AUC 跳到 0.709，这是从"几乎瞎猜"到"明显有判别力"的一次性能跨越。NDCG@100 也从 0.007 翻到 0.015。Recall@1% 和 Precision@1% 没有动，提示 RF 改进的主要是"中段排序"，前 1% 的命中率仍然受到舞弊基率本身只有 0.4% 的硬约束。这是不平衡分类下"AUC 跳起来但 Recall@1% 不动"的典型表现，第 6、7 章引入 XGBoost 与 RUSBoost 之后会看到 Recall@1% 也开始动起来。
+
+回到 Enron 与 Tyco。把 fyear = 2000 的两条记录喂给训练好的 RF：
+
+| 公司 | gvkey | fyear | 真实 misstate | RF $p$(misstate=1) |
+|:-----|------:|------:|:-------------:|-------------------:|
+| Enron | 6127 | 2000 | 1 | 0.6813 |
+| Tyco International | 10787 | 2000 | 1 | 0.5614 |
+
+<Subtext>表 5.4 · 案例公司随机森林舞弊概率，fyear=2000。</Subtext>
+
+两家公司 fyear = 2000 的真实标签都是 1，RF 给 Enron 打 0.68、给 Tyco 打 0.56，都远高于训练舞弊率 0.84%。也就是说，本章训练好的 RF 在两份 SEC 公告 AAER 1821 与 1839 下达之前数年，已经把这两家公司挑到了非常靠前的位置。
+
+**回到 AAER 数据。** 两家公司之所以打分高，可以从前面的 MDA Top-10 找到依据。Enron 2000 年总资产 `at` 飙升到 655 亿、销售 `sale` 1,008 亿，这两个变量在 MDA 排名里分别是第 3 和第 10；Tyco 2000 年应付账款 `ap`、应收账款 `rect`、营业成本 `cogs` 都处于行业极端高位，这三项分别是 MDA 第 4、第 8、第 7。变量重要性给出的更像一份索引表，告诉审计师"想找谁，应该盯哪几张表的哪几行"。
+
+---
+
+## 5.7 Python 等价实现
+
+R 用 `rpart` + `ranger`，Python 端用 `sklearn` 的 `DecisionTreeClassifier` 与 `RandomForestClassifier` + `permutation_importance`。两套实现在分裂阈值搜索、随机数生成上有细节差异，结果在小数点后第二位左右一致。
+
+```python
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.inspection import permutation_importance
+import numpy as np; np.random.seed(2026)
+
+tree = DecisionTreeClassifier(max_depth=5, min_samples_split=30,
+                              random_state=2026).fit(X_train, y_train)
+rf   = RandomForestClassifier(n_estimators=500, max_features=6,
+                              min_samples_leaf=5, n_jobs=4,
+                              oob_score=True,
+                              random_state=2026).fit(X_train, y_train)
+perm = permutation_importance(rf, X_test, y_test, n_repeats=5,
+                              scoring="roc_auc",
+                              random_state=2026, n_jobs=4)
+```
+
+Python 端单棵树 AUC = 0.5706，RF AUC = 0.6974，与 R 在小数第二位一致。RF 训练时间 34.9 秒，比 R `ranger` 慢一倍，差距来自 ranger 的 C++ 多线程实现。两边 MDA Top-5 共同的关键变量是 `ap`、`act`、`rect`。Enron 与 Tyco 在 Python 下的 RF 概率分别为 0.4734 与 0.3004，方向与 R 一致但数值偏低，主要原因是 sklearn 与 ranger 的随机分裂候选机制不同。
+
+---
+
+## 5.8 本章累积对比表
+
+| 方法 | AUC | NDCG@100 | Recall@1% | Precision@1% | 训练时间 | 局限 |
+|:-----|----:|---------:|----------:|-------------:|:---------|:-----|
+| 全部预测为非舞弊 | 0.500 | 0 | 0 | 0 | 0 | 无判别力 |
+| Beneish M-Score | 0.540 | 0.000 | 0.011 | 0.005 | < 1 秒 | 规则固定，不学习 |
+| Logistic A 全特征 | 0.697 | 0.051 | 0.056 | 0.022 | 1 秒 | 线性，难捕捉交互 |
+| Dechow F-Score 七变量 | 0.675 | 0.000 | 0.009 | 0.004 | < 1 秒 | 仅 7 变量，覆盖不足 |
+| LASSO, glmnet | 0.688 | 0.050 | 0.056 | 0.022 | 4 秒 | 线性，稀疏可能过强 |
+| 单棵决策树 depth=5 | 0.548 | 0.007 | 0.037 | 0.014 | 3.5 秒 | 不稳定，过拟合深叶 |
+| 随机森林 ranger | 0.709 | 0.015 | 0.037 | 0.014 | 18.7 秒 | MDI 偏向连续变量 |
+
+<Subtext>表 5.5 · 第 5 章累积方法对比：决策树与随机森林。</Subtext>
+
+第 5 章是本书的第一个"性能拐点"。从单棵树到随机森林，AUC 跳了 0.16，把"刚学会东西"和"瞎猜"分开了。下一章引入 XGBoost。Boosting 的逻辑与 Bagging 完全相反，Bagging 是并行训练 500 棵互不相关的树再平均，Boosting 是串行训练 500 棵树，每一棵专门去学前面那棵犯错的样本。两条路径在不平衡数据上表现差异很大，下一章会展开。
+
+---
+
+## 5.9 本章知识地图
+
+| 核心概念 | 核心内容 | 常见误解 | 为什么错 |
+|:---------|:---------|:---------|:---------|
+| CART 决策树 | 对协变量空间递归二分，每个叶子给出一个独立的舞弊概率 | 树的可读性等于可信性 | 单棵树对训练数据扰动极敏感，bootstrap 重抽一次根节点切点就可能跳到另一变量 |
+| Gini 不纯度 | $1 - \sum p_k^2$，CART 默认的分裂指标 | Gini 比熵更准 | 两者在大多数二分类问题上行为接近，选择主要是计算效率而非性能 |
+| Bagging | 用 bootstrap 重抽训练 $B$ 棵独立树再平均，降低方差 | 树越多越好 | 树之间相关性 $\rho$ 主导平均后方差，相关性高时多堆树几乎不再降方差 |
+| 随机森林 mtry | 每个分裂只在随机抽出的 $m=\sqrt{p}$ 个特征里选最优 | mtry 越大模型越好 | mtry 大会增加树间相关性，损失 Bagging 的方差降低收益 |
+| OOB error | bootstrap 没看到的样本上的预测误差，免费的留出验证 | OOB 准确率高就够了 | 不平衡数据下 OOB accuracy 几乎等于多数类比例，对舞弊类无诊断意义 |
+| MDI | 把每次分裂的 Gini 下降按变量累加再平均 | MDI 第一就是会计意义上的头号信号 | MDI 系统性偏向取值连续、唯一值多的变量，与变量"真重要"未必一致 |
+| MDA / permutation importance | 把变量在 OOB 上随机打乱后准确率掉了多少 | MDA 与 MDI 排序应该接近 | 两者机制不同，相关变量簇会让 MDI 集中而 MDA 分散，差异本来就该存在 |
+| 时间外推 | 按 fyear 切分训练 / 测试，避免穿越未来 | 随机切分也行 | 财务舞弊行为随时间演变，随机切分会高估泛化能力 |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Random Forests" author="Breiman (2001), Machine Learning" href="https://link.springer.com/article/10.1023/A:1010933404324"
+	/>
+	<ReferencesLink
+		title="Bagging Predictors" author="Breiman (1996), Machine Learning" href="https://link.springer.com/article/10.1007/BF00058655"
+	/>
+	<ReferencesLink
+		title="Classification and Regression Trees" author="Breiman, Friedman, Olshen & Stone (1984), Chapman & Hall/CRC" href="https://www.routledge.com/Classification-and-Regression-Trees/Breiman-Friedman-Stone-Olshen/p/book/9780412048418"
+	/>
+	<ReferencesLink
+		title="Bias in Random Forest Variable Importance Measures" author="Strobl, Boulesteix, Zeileis & Hothorn (2007), BMC Bioinformatics" href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-8-25"
+	/>
+	<ReferencesLink
+		title="ranger: A Fast Implementation of Random Forests" author="Wright & Ziegler (2017), Journal of Statistical Software" href="https://www.jstatsoft.org/article/view/v077i01"
+	/>
+</References>

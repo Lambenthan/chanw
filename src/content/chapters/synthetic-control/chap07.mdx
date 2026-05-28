@@ -1,0 +1,159 @@
+---
+title: "矩阵填充 MC-NNM：低秩补全的反事实"
+description: "Athey et al. 2021 JASA 提出的 MC-NNM：把面板反事实当成缺失值补全问题。California 数据上 ATT $= -25.91$，95% CI $[-30.82, -20.99]$ 不含 0；event-study 图验证 pre-trend 平行。"
+book: "synthetic-control"
+chapterNumber: 7
+chapterLabel: "第 7 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["合成控制", "MC-NNM", "矩阵填充", "核范数", "R 语言"]
+---
+
+<ChapterAudience>
+
+理解 Athey, Bayati, Doudchenko, Imbens & Khosravi 2021 *JASA* 提出的 MC-NNM 模型设定（核范数惩罚低秩补全），在 California 数据上跑出 ATT $= -25.91$、95% bootstrap CI $[-30.82, -20.99]$，能用 event-study 图诊断 pre-trend 平行，并能解释为何 MC-NNM 的 CI 比 SDID 窄以及这一窄 CI 依赖什么假设。
+
+</ChapterAudience>
+
+<IntroParagraph>第 6 章 SDID 把 SC 与 DiD 组合，得到 ATT $-15.60$，95% CI 包含 0。本章转向 Athey, Bayati, Doudchenko, Imbens & Khosravi 2021 在 *JASA* 提出的矩阵填充（Matrix Completion with Nuclear Norm Minimization，简称 MC-NNM）。这一方法的视角与 SC / SDID 不同——它把面板反事实当作"缺失值"问题，用 ML 中的低秩矩阵补全思想填补。</IntroParagraph>
+
+## 7.1 从"加权对照"到"低秩补全"
+
+经典 SC 与 SDID 的视角：处理单元的反事实是 donor 单元的加权和，由优化问题求权重。MC-NNM 的视角：整个面板 $Y$ 是一个 $N \times T$ 矩阵，处理单元在 post-period 的反事实 $Y_{1t}(0)$ 是矩阵中被遮蔽的单元格，由低秩结构在其他观测到的单元格上的模式外推填补。
+
+<Definition number="7.1" title="MC-NNM 估计量">
+
+设 $Y \in \mathbb{R}^{N \times T}$ 是观测面板，$\Omega$ 是已观测单元格的集合（处理后的处理单元被排除）。MC-NNM 求解
+
+$$
+\widehat{L} = \mathop{\mathrm{argmin}}_{L \in \mathbb{R}^{N \times T}}
+              \frac{1}{|\Omega|} \sum_{(i, t) \in \Omega} (Y_{it} - L_{it})^2
+              + \lambda \| L \|_*,
+$$
+
+其中 $\| L \|_* = \sum_k \sigma_k(L)$ 是矩阵 $L$ 的核范数（奇异值之和），$\lambda > 0$ 是惩罚强度参数（由 cross-validation 选）。反事实由 $\widehat{Y}_{1t}(0) = \widehat{L}_{1t}$ 给出，ATT 为 $\widehat{\tau}_{1t} = Y_{1t} - \widehat{L}_{1t}$ 对 $t > T_0$ 取平均。
+
+</Definition>
+
+其中 $\Omega$ 表示哪些 $(i, t)$ 单元格的 $Y_{it}$ 没有被处理污染、可用于训练（本数据 $\Omega$ 包含 California 1970–1988 + 全 38 donor 州 1970–2000）；$L$ 是低秩反事实矩阵；$\| L \|_*$ 是核范数惩罚，相当于在矩阵奇异值上施加 L1 惩罚，把高奇异值压低，让 $L$ 自动呈现低秩结构。
+
+### 7.1.1 核范数为什么是"低秩"惩罚
+
+矩阵的核范数 $\| L \|_*$ 是奇异值之和。对奇异值施加 L1 惩罚，类似 LASSO 对系数施加 L1 惩罚把小系数压到 0。最终得到的 $\widehat{L}$ 中小奇异值被压到 0，等价于"$L$ 接近低秩矩阵"。低秩面板的物理意义是"少数潜在因子 + 单元 loading"——与 GSC 的 interactive FE 视角相通，但 MC-NNM 用凸优化求解（核范数是凸的），GSC 用非凸的 IFE 似然，对单 treated unit 更稳定。
+
+### 7.1.2 MC-NNM 与 SC 的对照
+
+经典 SC：donor 加权 + 凸壳约束（$w_j \ge 0$, $\sum w_j = 1$）。MC-NNM：低秩补全 + 核范数惩罚。
+
+两者都在求"反事实 $Y_{1t}(0)$"，差异在如何把先验引入模型。SC 的先验是"加州的反事实是 donor 凸组合"，MC-NNM 的先验是"整个面板有低秩结构，加州的反事实由这一结构外推"。
+
+## 7.2 在 California 数据上跑 MC-NNM
+
+```r
+library(fect)
+smoking$treated <- with(smoking,
+  ifelse(state == "California" & year >= 1989, 1, 0))
+
+mc <- fect(cigsale ~ treated, data = smoking,
+           index = c("state", "year"),
+           method = "mc", CV = TRUE,
+           force = "two-way",
+           se = TRUE, nboots = 200, parallel = FALSE, seed = 2026)
+
+c(ATT      = round(mc$att.avg, 3),
+  SE       = round(mc$est.avg[1, "S.E."], 3),
+  CI_lower = round(mc$est.avg[1, "CI.lower"], 2),
+  CI_upper = round(mc$est.avg[1, "CI.upper"], 2),
+  lambda   = round(mc$lambda.cv, 4))
+```
+
+| 指标 | 值 |
+|:---|---:|
+| ATT (post-period 平均) | $-25.91$ |
+| SE (bootstrap) | $2.51$ |
+| 95% CI | $[-30.82, -20.99]$ |
+| $\lambda$ (CV) | $0.0211$ |
+
+<Subtext>表 7.1 · MC-NNM 估计结果。ATT $-25.91$，95% CI 不含 0。</Subtext>
+
+MC-NNM 给出 ATT $-25.91$，95% CI $[-30.82, -20.99]$ 不含 0。这一点估计与第 1 章 DiD $-27.35$ 接近，比经典 SC $-18.85$ 与 SDID $-15.60$ 的绝对值更大。
+
+## 7.3 Event-study 图与 pre-trend 诊断
+
+MC-NNM 自动给出每年（包括 pre-period）的 ATT 估计，pre-period 各年的"ATT"理论上应当接近 0（因为还没处理），这正是经济学常用的 pre-trend 平行检验。
+
+![MC-NNM event-study：每年 ATT 估计与 95% bootstrap CI。pre-period（1980–1988）ATT 振荡在 0 附近，平均 $-0.19$，最大绝对值 6.50。post-period（1989–2000）ATT 持续负向并单调扩大。](/books/synthetic-control/figure/chap07_mcnnm.png)
+
+<Subtext>图 7.1 · MC-NNM event-study 图。pre-period ATT 均值 $-0.19$，post-period 从 $-4.34$ 单调下降至 $-35.30$。</Subtext>
+
+pre-period 各年的 MC-NNM ATT 在 0 附近窄幅振荡（平均 $-0.19$，绝对值最大 6.50），post-period 从 1989 的 $-4.34$ 单调下降到 2000 的 $-35.30$。这种逐渐扩大的 pattern 与第 2 章经典 SC 的 gap 路径形态一致——Prop 99 的影响通过反烟广告与戒烟项目长期累积。
+
+### 7.3.1 为什么 MC-NNM CI 比 SDID 窄
+
+MC-NNM 95% CI $[-30.82, -20.99]$ 不含 0，宽度约 9.83 包；SDID 95% CI $[-34.41, 3.21]$ 宽度 37.62 包，是 MC-NNM 的近 4 倍。差异有两层原因。
+
+第一，SE 估计方法不同。SDID 的 placebo SE 用 38 个 donor 各当假处理州的 SDID 估计 sd 作为基准（保守）；MC-NNM 的 bootstrap SE 用面板残差 resample 估计（依赖低秩结构成立）。
+
+第二，模型假设强度不同。MC-NNM 假设面板有低秩结构（强假设），如果假设成立 SE 偏小、CI 偏窄；SDID 不假设低秩，SE 估计更保守。
+
+在 California 数据上，MC-NNM 的低秩假设大概率成立——加州与 38 州的面板共享全国性烟草消费下降趋势 + 各州个体水平，这正是低秩结构的内涵。所以 MC-NNM 的 CI 估计在本数据上可信。但 CI 窄不等于估计更可靠，要看假设是否成立。
+
+<Pitfall title="把 MC-NNM 的窄 CI 解读为更精确">
+
+MC-NNM 95% CI $[-30.82, -20.99]$ 比 SDID 95% CI $[-34.41, 3.21]$ 窄 4 倍。视觉上很容易解读为 MC-NNM "更精确"，但这不一定是正确推断。
+
+**为什么人们会踩坑**：CI 窄 = 更精确的标准统计直觉。
+
+**失效机制**：MC-NNM CI 依赖低秩结构假设。如果面板有非低秩的 unit-time 异质性（比如 California 在 post-period 有独特的非 factor 变化），MC-NNM 的 CI 实际低估了不确定性。
+
+**诊断方法 / 稳健替代**：报告多种方法的 CI 一起看（SDID + GSC + MC-NNM），看点估计的稳定性。在 California 数据上 GSC $r = 0$ CI $[-33.20, -21.50]$ 与 MC-NNM CI $[-30.82, -20.99]$ 高度重合，互相佐证 MC-NNM 的低秩假设站得住。
+
+</Pitfall>
+
+## 7.4 $\lambda$ 的 CV 选择
+
+MC-NNM 的核范数惩罚强度 $\lambda$ 由 CV 自动选。$\lambda$ 越大，$L$ 越接近秩 0（即纯 TWFE）；$\lambda$ 越小，$L$ 越接近原 $Y$（过拟合）。CV 在 pre-period observed cells 上做留一交叉验证，找出能最好预测 held-out 单元格的 $\lambda$。
+
+本数据 CV 选出的 $\lambda^* = 0.0211$（在 fect 的 normalized scale 下），对应 $L$ 的有效秩约 5–7（即面板由 5–7 个潜在因子 + TWFE 解释）。这一秩数与经典 SC 选出的 5 个 donor 州 + TWFE 形成有趣对照——两种方法的"复杂度"接近，但优化路径与可解释性不同。
+
+## 7.5 累积对比表（截至本章）
+
+| 章 | 方法 | ATT | 95% CI | 核心假设 |
+|:---|:---|---:|:---|:---|
+| 第 1 章 | 朴素 DiD (TWFE) | $-27.35$ | — | 平行趋势 |
+| 第 2 章 | Abadie SC (经典) | $-18.85$ | — | 凸壳内可拟合 |
+| 第 4 章 | Permutation 推断 | — | p = 0.38 | 可交换性 |
+| 第 5 章 | GSC $r = 0$ | $-27.35$ | $[-33.20, -21.50]$ | 仅 FE 结构 |
+| 第 5 章 | GSC $r = 2$ | $-0.40$ | $[-20.39, 19.58]$ | 2-factor 结构 |
+| 第 6 章 | SDID (Arkhangelsky) | $-15.60$ | $[-34.41, 3.21]$ | 近期时段加权可比 |
+| 第 7 章 | MC-NNM (Athey 2021) | $-25.91$ | $[-30.82, -20.99]$ | 低秩结构 |
+
+<Subtext>表 7.2 · 累积对比表（截至第 7 章）。MC-NNM 是迄今 CI 最窄、点估计绝对值最大的方法，可信度依赖低秩结构假设。</Subtext>
+
+MC-NNM 与 GSC $r = 0$ 的 CI 高度重合，是低秩结构假设在本数据上成立的强支持证据。
+
+---
+
+## 7.6 本章知识地图
+
+| 核心概念 | 核心内容 | 常见误解 | 为什么错 |
+|:---|:---|:---|:---|
+| 核范数 $\| L \|_*$ | 奇异值之和 | 以为是 Frobenius 范数 | 核范数是 L1-on-singular-values |
+| 低秩补全 | 矩阵奇异值稀疏 | 以为是变量稀疏 | 是矩阵结构稀疏 |
+| $\lambda$ CV 选择 | 留一交叉验证 | 以为可固定 | $\lambda$ 影响秩数 |
+| Pre-trend 检验 | event-study 图 | 以为只是可视化 | 是 MC-NNM 的内禀诊断 |
+| 与 GSC 的关系 | 都用低秩反事实 | 以为完全不同 | GSC 非凸优化，MC 凸优化 |
+| 与 SC 的关系 | 都求反事实 | 以为可互替 | 先验结构不同 |
+| CI 窄 vs 假设强 | 窄 CI 依赖低秩成立 | 以为 CI 窄即更精确 | 假设错则 CI 失效 |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Matrix Completion Methods for Causal Panel Data Models" author="Athey, Bayati, Doudchenko, Imbens & Khosravi (2021), JASA" href="https://www.tandfonline.com/doi/full/10.1080/01621459.2021.1891924"
+	/>
+	<ReferencesLink
+		title="fect: Fixed Effects Counterfactuals" author="Liu, Wang & Xu (2024), R package" href="https://yiqingxu.org/packages/fect/"
+	/>
+</References>

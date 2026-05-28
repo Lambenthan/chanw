@@ -41,35 +41,40 @@ const heading = number ? `定义 ${number}` : "定义";
 
 	.box-label {
 		font-family: var(--font-sans);
-		font-size: var(--font-size-xs);
-		text-transform: uppercase;
-		letter-spacing: 0.06em;
-		font-weight: 700;
+		font-size: var(--font-size-sm);
+		font-weight: 600;
 		color: var(--color-medium-sea-blue);
 		flex-shrink: 0;
+		/* 不用 uppercase / letter-spacing：CJK "定义" 加 letter-spacing
+		   会出现"定 义"可见间隙，破坏中文排版美感 */
 	}
 
 	.box-title {
 		font-family: var(--font-serif);
-		font-size: var(--font-size-base);
-		font-weight: 400;
+		font-size: var(--font-size-sm);
+		font-weight: 500;
 		color: var(--color-gray-800);
 		line-height: var(--leading-snug);
 	}
 
 	.box-body :global(p) {
 		font-size: calc(var(--font-size-base) / 1.05);
-		line-height: var(--leading-base);
+		line-height: 1.7;
 		color: var(--color-gray-800);
-		margin: 0 0 var(--space-xs) 0;
+		margin: 0 0 var(--space-s) 0;
 	}
 
 	.box-body :global(p:last-child) {
 		margin-bottom: 0;
 	}
 
-	/* Math blocks inside definition keep their KaTeX-rendered look but tighter spacing */
+	/* Display math inside box：跟正文同字号（1em），不放大；
+	   只靠居中 + 周围 white space 强调"这是一行公式" */
 	.box-body :global(.katex-display) {
-		margin: var(--space-xs) 0;
+		margin: var(--space-s) 0;
+	}
+
+	.box-body :global(.katex-display > .katex) {
+		font-size: 1em;
 	}
 </style>

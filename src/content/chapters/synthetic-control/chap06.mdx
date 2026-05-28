@@ -1,0 +1,189 @@
+---
+title: "合成 DiD（SDID）：单元与时间双权重"
+description: "Arkhangelsky 等 2021 AER 提出的 SDID：把 SC 单元权重与 DiD 时间权重组合。California 数据上 ATT $= -15.60$，95% CI $[-34.41, 3.21]$ 含 0，解析为何 CI 宽是推断保守而非零效应信号。"
+book: "synthetic-control"
+chapterNumber: 6
+chapterLabel: "第 6 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["合成控制", "SDID", "合成DiD", "双权重", "R 语言"]
+---
+
+<ChapterAudience>
+
+理解 Arkhangelsky, Athey, Hirshberg, Imbens & Wager 2021 *AER* 提出的 SDID 模型设定（单元权重 $\widehat{\omega}$ + 时间权重 $\widehat{\lambda}$ 的加权 TWFE），在 California 数据上跑出 ATT $= -15.60$、95% placebo CI $[-34.41, 3.21]$，能解释 CI 包含 0 为何是推断保守而非"Prop 99 无效"的信号，并能把 SDID 与经典 SC 的互补关系讲清楚。
+
+</ChapterAudience>
+
+<IntroParagraph>第 5 章 GSC 展示了在单 treated unit 数据上 factor model 的不稳定。本章转向 Arkhangelsky, Athey, Hirshberg, Imbens & Wager 2021 *American Economic Review* 提出的合成 DiD（Synthetic Difference-in-Differences，简称 SDID）。SDID 不动用 factor model，而是把经典 SC 的"单元加权"与朴素 DiD 的"时间加权"组合起来，得到一个比两者都更稳健的估计量。</IntroParagraph>
+
+## 6.1 SDID 的核心想法
+
+<Definition number="6.1" title="SDID 估计量">
+
+SDID 通过求解以下加权 TWFE 回归得到 ATT：
+
+$$
+\widehat{\tau}^{\text{SDID}}
+   = \mathop{\mathrm{argmin}}_{\tau,\, \mu, \alpha, \beta}
+     \sum_{i, t} \widehat{\omega}_i \widehat{\lambda}_t
+                \big( Y_{it} - \mu - \alpha_i - \beta_t - \tau D_{it} \big)^2,
+$$
+
+其中 $\widehat{\omega}_i$ 是 SC 风格的单元权重（让 pre-period 加权对照接近处理单元），$\widehat{\lambda}_t$ 是时间权重（让 pre-period 加权时间平均接近 post-period 的对照单元水平）。两套权重的求解都加 L2 正则项稳定数值解。
+
+</Definition>
+
+其中 $D_{it} = 1$ 表示单元 $i$ 在 $t$ 期受处理（本数据只有 California 1989 起 $D = 1$）；$\mu, \alpha_i, \beta_t$ 是 TWFE 截距和固定效应；$\tau$ 是 ATT。$\widehat{\omega}_i$ 让对照单元更"像"处理单元；$\widehat{\lambda}_t$ 让 pre-period 加权时间更"近"post-period。两套权重让 TWFE 回归的反事实只用"相似"对照与"近期"时段构造，避免了 DiD 用所有 38 州 × 全 19 年 pre-period 等权重的低效。
+
+### 6.1.1 为什么需要时间权重
+
+经典 SC 只在单元维度做加权，pre-period 19 年同等对待。SDID 的核心创新是把时间也加权：1985–1988 年（接近处理时点）的权重比 1970 年高，因为越近的 pre-period 与 post-period 的对照单元状态越接近。直觉是"用近邻时段做反事实更可信"。
+
+在 California 数据上，SDID 的时间权重几乎全部分配给 1986（0.366）、1987（0.206）、1988（0.427）三年，1985 年及更早的权重几乎为 0。
+
+![SDID 时间权重（pre-period 1970–1988）。99% 权重集中在 1986、1987、1988 三年。](/books/synthetic-control/figure/chap06_sdid_time_weights.png)
+
+<Subtext>图 6.1 · SDID 时间权重分布。权重几乎全集中在最近三年，1970s 贡献趋近于零。</Subtext>
+
+这种集中说明 SDID 把 pre-period 隐含地缩成"3 年近邻窗口"做反事实参照。这一切由数据决定，由 L2 正则项 + DiD 拟合最小化联合求解，并非人工指定。
+
+### 6.1.2 为什么需要单元权重
+
+如果只有时间权重，SDID 退化为"用 1986–1988 三年的全 38 州均值"做反事实，仍然是 DiD 的变体。SDID 同时用 SC 风格的单元权重让加权对照在 pre-period 更接近 California。
+
+![SDID 单元权重（$> 0.001$）。与经典 SC 集中在 5 个州不同，SDID 把权重相对分散地分配到约 30 个 donor 州。](/books/synthetic-control/figure/chap06_sdid_unit_weights.png)
+
+<Subtext>图 6.2 · SDID 单元权重分布。主权重 Vermont（0.058）、Wyoming（0.055）等，比经典 SC 的 Utah 0.342 小一个量级。</Subtext>
+
+SDID 的单元权重比经典 SC 更分散，约 30 个 donor 州都有非零权重。这种分散是 L2 正则项的直接结果——SDID 倾向于在更多 donor 上分散风险，经典 SC 倾向于稀疏权重。
+
+## 6.2 SDID 与 SC、DiD 的三方对比
+
+```r
+library(synthdid)
+data("california_prop99", package = "synthdid")
+setup <- panel.matrices(california_prop99,
+                        unit = "State", time = "Year",
+                        outcome = "PacksPerCapita",
+                        treatment = "treated")
+tau_sdid <- synthdid_estimate(setup$Y, setup$N0, setup$T0)
+tau_sc   <- sc_estimate(setup$Y, setup$N0, setup$T0)
+tau_did  <- did_estimate(setup$Y, setup$N0, setup$T0)
+
+c(SDID = as.numeric(tau_sdid),
+  SC   = as.numeric(tau_sc),
+  DiD  = as.numeric(tau_did))
+```
+
+| 方法 | ATT |
+|:---|---:|
+| DiD (TWFE) | $-27.35$ |
+| SC (Abadie, 无预测器) | $-19.62$ |
+| SDID (Arkhangelsky) | $-15.60$ |
+
+<Subtext>表 6.1 · 三方法 ATT 对比。从 DiD 到 SC 到 SDID，绝对值递减。</Subtext>
+
+SDID 的 ATT 比经典 SC 更接近 0（$-15.60$ vs $-19.62$）。原因是 SDID 的时间权重集中在 1986–1988 三年，这段时间加州的 cigsale 已开始加速下降——社会力量推动公众卫生意识抬升，把这段下降斜率扣进 pre-period 等于把反事实下降速度估高，处理效应被"温和化"。
+
+![三方法 ATT 对比柱状图：DiD $-27.35$ → SC $-19.62$ → SDID $-15.60$，绝对值递减。](/books/synthetic-control/figure/chap06_three_methods.png)
+
+<Subtext>图 6.3 · 三方法 ATT 估计柱状图。</Subtext>
+
+## 6.3 SDID 的标准误与 95% CI
+
+SDID 提供了三种 SE 估计：jackknife、bootstrap、placebo。本章用 placebo SE（Arkhangelsky 等论文 Section 5 推荐的 default）。
+
+```r
+set.seed(2026)
+se_placebo <- sqrt(vcov(tau_sdid, method = "placebo"))
+ci <- as.numeric(tau_sdid) + c(-1, 1) * 1.96 * se_placebo
+round(c(SE = se_placebo, CI_lower = ci[1], CI_upper = ci[2]), 2)
+# SE = 9.60, 95% CI = [-34.41, 3.21]
+```
+
+SDID 95% placebo CI $[-34.41, 3.21]$ 包含 0。这与经典 SC 的点估计 $-18.85$ 和 GSC $r = 0$ 的 CI $[-33.20, -21.50]$（不含 0）对比，给出了一个有意思的张力：
+
+- 点估计层面：DiD $-27.35$、SC $-18.85$、SDID $-15.60$、MC-NNM $-25.91$ 都是负数
+- CI 层面：GSC $r = 0$、MC-NNM 不含 0，SDID 含 0
+
+SDID 的宽 CI 来源于其 placebo SE 的设计——对单 treated unit 数据，placebo SE 用每个 donor 当假处理州的 SDID 估计 sd 作为 SE 估计。California 数据的 38 个 placebo SDID 估计的 sd 是 9.60，足以让 1.96 倍 sd 跨过 $-15.60$ 抵达 $+3.21$。
+
+## 6.4 SDID 95% CI 含 0 的解读
+
+这一结果在 SDID 的特定 SE 设定下，意味着我们没有足够统计能力把 California 的处理效应与 placebo 噪声分布完全分离——并非"Prop 99 没效果"的证据。三件事可以同时为真：
+
+第一，Prop 99 真有减少香烟销量的效果（多个方法的点估计都给出负数）。
+
+第二，SDID 用近期时段加权后处理效应估计绝对值偏小（$-15.60$ 比 $-18.85$ 接近 0）。
+
+第三，placebo SE 在单 treated unit 数据上偏大，导致 CI 难以排除 0。
+
+SDID 的 95% CI 包含 0 与 MC-NNM 的 95% CI $[-30.82, -20.99]$ 不含 0 之间的对照，说明不同方法的推断能力不一样。SDID 的 CI 设计更保守（更宽），MC-NNM 的 CI 设计基于低秩结构假设（更窄）。把这一对照解读为"SC inference 的方法学多样性"，而非"哪一种正确"，是本书一以贯之的立场。
+
+<Pitfall title="把 SDID 的宽 CI 当作零效应的证据">
+
+SDID 95% CI $[-34.41, 3.21]$ 包含 0，可能让读者直接结论"Prop 99 无效"。这一推断忽略了 SDID 推断的具体方法学结构。
+
+**为什么人们会踩坑**：CI 含 0 的视觉印象很强，容易自动等同于"无效"。
+
+**失效机制**：SDID placebo SE 是用 38 个 donor 各当假处理州的 SDID 估计 sd 算的，这一 sd 把"donor 间的 SDID 估计变异"作为 noise 基准。在单 treated unit 数据上，donor 间变异通常很大，导致 SE 偏大，CI 偏宽。
+
+**诊断方法 / 稳健替代**：与 MC-NNM、GSC $r = 0$ 等其他方法的 CI 交叉验证。在 California 数据上 MC-NNM CI $[-30.82, -20.99]$ 远离 0，GSC $r = 0$ CI $[-33.20, -21.50]$ 远离 0。SDID 的宽 CI 是推断保守，不是"无效信号"。
+
+</Pitfall>
+
+## 6.5 SDID 与经典 SC 的互补关系
+
+实务上 SDID 与经典 SC 是互补关系，并非替代关系。经典 SC 的优势在 donor 权重稀疏可解释——"合成加州 = 30% Utah + 20% Nevada"这样的表达直观；SDID 的优势在估计更稳健、统计推断更系统。
+
+Arkhangelsky 等 2021 在论文 Section 6 模拟实验里给出明确结论：当 pre-period 数据有非平稳趋势时（如 California 数据的全国共同下降），SDID 比经典 SC 偏差更小。当 pre-period 数据稳定 + donor 池里有少数与处理单元高度相似的州时（如 Basque 数据），经典 SC 的稀疏权重更可信。
+
+California 数据介于两者之间。论文报告 SDID 的 ATT 估计是合理选择，但若读者关心"哪几个 donor 州贡献了多少"的可解释性，仍应同时报告经典 SC 的权重。
+
+## 6.6 SDID 反事实图
+
+![SDID 的合成对照轨迹（synthdid 包内置 plot 输出）。处理单元 California 与 SDID 合成对照在 pre-period 拟合接近，post-period 实际值持续低于对照。图右侧虚线表示 ATT 数值与 95% placebo CI。](/books/synthetic-control/figure/chap06_sdid_plot.png)
+
+<Subtext>图 6.4 · SDID 的反事实轨迹。pre-period 拟合接近，post-period gap 持续为负。</Subtext>
+
+## 6.7 累积对比表（截至本章）
+
+| 章 | 方法 | ATT | 95% CI | 核心假设 |
+|:---|:---|---:|:---|:---|
+| 第 1 章 | 朴素 DiD (TWFE) | $-27.35$ | — | 平行趋势 |
+| 第 2 章 | Abadie SC (经典) | $-18.85$ | — | 凸壳内可拟合 |
+| 第 4 章 | Permutation 推断 | — | p = 0.38 | 可交换性 |
+| 第 5 章 | GSC $r = 0$ | $-27.35$ | $[-33.20, -21.50]$ | 仅 FE 结构 |
+| 第 5 章 | GSC $r = 1$ | $-13.89$ | $[-19.91, -7.87]$ | 1-factor 结构 |
+| 第 5 章 | GSC $r = 2$ | $-0.40$ | $[-20.39, 19.58]$ | 2-factor 结构 |
+| 第 6 章 | SDID (Arkhangelsky) | $-15.60$ | $[-34.41, 3.21]$ | 近期时段加权可比 |
+
+<Subtext>表 6.2 · 累积对比表（截至第 6 章）。SDID 估计 $-15.60$ 比经典 SC 的 $-18.85$ 绝对值更小，CI 跨过 0。</Subtext>
+
+SDID 与经典 SC 的差异是方法学差异的真实体现。第 7 章的 MC-NNM 会给一个更窄的 CI。
+
+---
+
+## 6.8 本章知识地图
+
+| 核心概念 | 核心内容 | 常见误解 | 为什么错 |
+|:---|:---|:---|:---|
+| 双权重设计 | 单元 $\omega$ + 时间 $\lambda$ | 以为时间权重不重要 | 时间权重让近邻时段优先 |
+| L2 正则 | 数值稳定 + 分散权重 | 以为限制了灵活性 | 防止 overfit 单 donor |
+| 时间权重集中在末段 | 1986/87/88 占 99% | 以为权重应当均匀 | 近期与 post 状态最近 |
+| Placebo SE | 用 donor 估 SDID sd 当 SE | 以为是 bootstrap | 是 leave-one-out 风格 |
+| CI 含 0 vs 不含 0 | SDID vs MC-NNM 对比 | 以为 CI 含 0 即无效 | 是推断保守而非信号缺失 |
+| 与 SC 互补 | SDID 估计稳健 SC 可解释 | 以为 SDID 替代 SC | 两者关注不同问题 |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Synthetic Difference-in-Differences" author="Arkhangelsky, Athey, Hirshberg, Imbens & Wager (2021), American Economic Review" href="https://www.aeaweb.org/articles?id=10.1257/aer.20190159"
+	/>
+	<ReferencesLink
+		title="synthdid: Synthetic Difference in Differences Estimation" author="Arkhangelsky & Imbens (2023), R package" href="https://synth-inference.github.io/synthdid/"
+	/>
+</References>

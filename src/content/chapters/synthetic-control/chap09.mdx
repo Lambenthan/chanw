@@ -1,0 +1,149 @@
+---
+title: "协变量、预测器选择与稳健性"
+description: "把 Abadie 2010 完整预测器配置作为基线，在 California 数据上跑四种预测器配置，ATT 从 $-17.48$ 到 $-30.65$。解释预测器选择对 SC 估计的影响，以及为何预测器配置必须 pre-specified。"
+book: "synthetic-control"
+chapterNumber: 9
+chapterLabel: "第 9 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["合成控制", "预测器选择", "稳健性", "specification mining", "R 语言"]
+---
+
+<ChapterAudience>
+
+理解四种预测器配置（仅 lag、lag + 收入价格、完整 Abadie 2010、cigsale 均值）在 California 数据上给出 $[-30.65, -17.48]$ 范围的 ATT 估计，能解释为何配置 D 给出最大绝对值、为何配置 B 与 C 接近，并能论证预测器配置必须 pre-specified 而非 post-hoc tune 的方法学理由。
+
+</ChapterAudience>
+
+<IntroParagraph>第 2 章用 Abadie 2010 论文 Table 1 的完整预测器集（5 个协变量 + 3 个 outcome lag）跑出 ATT $= -18.85$。一个自然的方法学问题是：换一组预测器，ATT 会变多少？本章用四种预测器配置跑同一个经典 SC，看 ATT 的稳健性。</IntroParagraph>
+
+## 9.1 四种预测器配置的设定
+
+| 配置 | 包含的预测器 |
+|:---|:---|
+| A | cigsale 在 1975, 1980, 1988 三年的取值（仅 outcome lag） |
+| B | A + 1980–1988 年 ln(income) 与 retprice 平均 |
+| C | B + 1980–1988 年 age15-24 平均 + 1984–1988 年 beer 平均（完整 Abadie 2010） |
+| D | 仅 1970–1988 年 cigsale 的 19 年平均（极简版） |
+
+<Subtext>表 9.1 · 四种预测器配置。配置 C 是本书第 2 章的基线配置（完整 Abadie 2010）。</Subtext>
+
+配置 A 是最小信息设置，只用 outcome 三年取值。配置 B 在 A 基础上加入收入和价格协变量。配置 C 是 Abadie 论文的完整版（与第 2 章的配置一致）。配置 D 是最少 outcome 信息设置——只用 1970–1988 年 cigsale 平均。
+
+## 9.2 在 California 数据上跑四种配置
+
+```r
+library(tidysynth)
+fit_A <- smoking |>
+  synthetic_control(outcome = cigsale, unit = state, time = year,
+                    i_unit = "California", i_time = 1989) |>
+  generate_predictor(time_window = 1975, cig_75 = cigsale) |>
+  generate_predictor(time_window = 1980, cig_80 = cigsale) |>
+  generate_predictor(time_window = 1988, cig_88 = cigsale) |>
+  generate_weights(optimization_window = 1970:1988) |>
+  generate_control()
+# 配置 B / C / D 类似，预测器集合不同
+```
+
+| 配置 | ATT |
+|:---|---:|
+| A. 仅 cigsale lag (1975/1980/1988) | $-22.95$ |
+| B. lag + income + retprice | $-17.48$ |
+| C. 完整 Abadie 2010 | $-18.85$ |
+| D. cigsale 1970–1988 平均 | $-30.65$ |
+
+<Subtext>表 9.2 · 四种预测器配置下的 ATT 估计。范围 $[-30.65, -17.48]$，跨度 13.17 包/人/年。</Subtext>
+
+ATT 估计范围 $[-30.65, -17.48]$，跨度 13.17 包/人/年。预测器选择对估计有显著影响，最极端的两种配置相差近 13 包/人/年。
+
+![四种预测器配置下的 California 实际（实线）vs 合成 California（虚线）轨迹。四个配置 pre-period 拟合都接近，post-period 反事实分歧。](/books/synthetic-control/figure/chap09_specs_compare.png)
+
+<Subtext>图 9.1 · 四种配置的合成反事实轨迹对比。pre-period 均拟合接近，post-period 分歧明显。</Subtext>
+
+![四种预测器配置下的 ATT 估计比较。](/books/synthetic-control/figure/chap09_specs_bar.png)
+
+<Subtext>图 9.2 · 四种预测器配置 ATT 柱状图对比。</Subtext>
+
+## 9.3 为什么配置 A 与配置 C 差 4.1 包
+
+配置 A 只用 1975/1980/1988 年的 cigsale，配置 C 加入收入、价格、年龄、啤酒消费四个协变量。两者点估计差 $-22.95 - (-18.85) = -4.10$ 包/人/年。
+
+这一差异的机理是协变量 vs lag 在 donor 权重上的相对作用。配置 A 只看 outcome lag，donor 权重倾向于选 pre-period 趋势最像加州的州；配置 C 还看协变量，donor 权重把"收入水平类似"等条件也加进来。结果是配置 A 的合成加州在 post-period 下降比配置 C 的合成加州更慢，所以 gap 更大，ATT 绝对值更大。
+
+实务上 Abadie 论文 Section 4.1 明确推荐"outcome lag + 至少 2–3 个理论上相关的协变量"的组合，因为单 lag 容易过拟合到 outcome 自相关结构，单协变量丢失 outcome 信息。配置 C 是这种推荐的具体实现。
+
+## 9.4 为什么配置 D 给 −30.65 这么大的 ATT
+
+配置 D 只用 1970–1988 年 cigsale 的 19 年平均作为预测器。这等价于"让合成加州在 1970–1988 年总销量与加州一致"，但不约束逐年模式。donor 权重在这种约束下选出的州在 post-period 下降比加州本身更慢（因为它们的 1970s 高峰可能比加州更高），合成反事实被估高，所以 gap 估大。
+
+配置 D 与朴素 DiD 的 $-27.35$ 接近。这反映"用整段平均做预测器"等价于在 outcome 上做均值匹配，与 DiD 的均值差思路一致。
+
+### 9.4.1 配置 B 与配置 C 几乎重叠（−17.48 vs −18.85）
+
+加入 age15to24 和 beer 后 ATT 从 $-17.48$ 微调到 $-18.85$，差 1.4 包/人/年。这说明 age15to24 与 beer 这两个协变量的边际信息较小——青年人口比例和啤酒消费在 California 与最佳 donor 之间区分度有限。Abadie 论文里把它们包含进来主要是为了 robustness 检查，并非核心信号源。
+
+## 9.5 实务建议：预测器配置必须 pre-specified
+
+本章的四种配置展示：换一组预测器，ATT 可在 $[-30.65, -17.48]$ 间漂移。这一漂移给了研究者在后置选择上 manipulate ATT 的空间——比如想报"大效应"就用配置 D，想报"小效应"就用配置 B。
+
+避免这种 specification mining 的标准做法是 pre-specified：在跑 SC 之前先明确预测器配置，并在论文里说明"为什么用 Abadie 2010 论文 Table 1 的预测器集合"（如理论依据、文献先例、数据可用性）。在 California 这种已经成为教学经典的数据上，直接使用 Abadie 2010 配置（即本书的配置 C）是默认的方法学诚信选择。
+
+<Pitfall title="post-hoc tuning 预测器最大化 ATT">
+
+看到 ATT 在 4 种配置下漂移 13 包/人/年，有人可能"尝试更多配置找最大 ATT 的那个"报告。这是 SC 实证里最常见的 specification mining 形式。
+
+**为什么人们会踩坑**：SC 没有"标准预测器集合"硬性规定，研究者自由度大，post-hoc tuning 极有诱惑力。
+
+**失效机制**：post-hoc tuning 让 ATT 估计成为 selection bias 的产物，inference 完全失效。
+
+**诊断方法 / 稳健替代**：（a）在论文 / 报告里披露所有尝试过的预测器配置，用 sensitivity 图展示估计范围；（b）用 Abadie 2015 *Comparative Politics and the SC Method* 推荐的 default 配置（Outcome lag + 主要理论相关协变量）作为主估计；（c）pre-register 预测器选择，模仿 RCT 的预注册流程。
+
+</Pitfall>
+
+## 9.6 累积对比表（截至本章）
+
+| 章 | 方法 | ATT | 95% CI | 核心假设 |
+|:---|:---|---:|:---|:---|
+| 第 1 章 | 朴素 DiD (TWFE) | $-27.35$ | — | 平行趋势 |
+| 第 2 章 | Abadie SC (经典) | $-18.85$ | — | 凸壳内可拟合 |
+| 第 4 章 | Permutation 推断 | — | p = 0.38 | 可交换性 |
+| 第 5 章 | GSC $r = 0$ | $-27.35$ | $[-33.20, -21.50]$ | 仅 FE 结构 |
+| 第 5 章 | GSC $r = 2$ | $-0.40$ | $[-20.39, 19.58]$ | 2-factor 结构 |
+| 第 6 章 | SDID | $-15.60$ | $[-34.41, 3.21]$ | 近期时段加权可比 |
+| 第 7 章 | MC-NNM | $-25.91$ | $[-30.82, -20.99]$ | 低秩结构 |
+| 第 9 章 | SC 配置 A (lag only) | $-22.95$ | — | lag 充分概括状态 |
+| 第 9 章 | SC 配置 C (Abadie 完整) | $-18.85$ | — | 完整预测器 |
+| 第 9 章 | SC 配置 D (cigsale 平均) | $-30.65$ | — | 19 年 mean 概括 |
+
+<Subtext>表 9.3 · 累积对比表（截至第 9 章）。第 9 章给的是 SC 在预测器维度的 sensitivity，不是新方法。</Subtext>
+
+读者通过这一对比理解了 SC 估计的研究者自由度空间。第 10 章把全表合并为终极版并给出方法决策树。
+
+---
+
+## 9.7 本章知识地图
+
+| 核心概念 | 核心内容 | 常见误解 | 为什么错 |
+|:---|:---|:---|:---|
+| Outcome lag | 用 outcome 历史值做预测器 | 以为越多 lag 越好 | 过多 lag 过拟合 |
+| 协变量 vs lag | 信息源不同 | 以为可互替 | 协变量提供外部信息 |
+| pre-specified | 实证诚信要求 | 以为可 post-hoc tune | 后置选择导致 selection bias |
+| Abadie 2010 配置 | 教学经典默认 | 以为是任意选择 | 是 50+ 篇文献复现的 baseline |
+| 配置 A vs C | 协变量加进来差 4 包 | 以为差异微小 | 4 包/人/年是相当大的实证差异 |
+| 配置 D | 极简版给最大 ATT | 以为可省协变量 | 丢失逐年模式让反事实失真 |
+| Sensitivity 图 | 报告多个配置 | 以为只报一个 | 不报让 selection bias 隐形 |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Using Synthetic Controls: Feasibility, Data Requirements, and Methodological Aspects" author="Abadie (2021), Journal of Economic Literature" href="https://www.aeaweb.org/articles?id=10.1257/jel.20191450"
+	/>
+	<ReferencesLink
+		title="Synthetic Control Methods for Comparative Case Studies" author="Abadie, Diamond & Hainmueller (2010), JASA" href="https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08746"
+	/>
+	<ReferencesLink
+		title="tidysynth: A Tidy Implementation of the Synthetic Control Method" author="Dunford (2021), R package" href="https://github.com/edunford/tidysynth"
+	/>
+</References>

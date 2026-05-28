@@ -1,0 +1,170 @@
+---
+title: "多处理单位与交错处理时点：staggered SC"
+description: "California 数据是单 treated unit，本章说明 SC 类方法如何扩展到多 treated unit + 交错时点。用 fect 包 turnout 数据（48 州 staggered EDR）演示 ife/mc 两种方法，并说明 California 数据为何不适用 staggered 方法。"
+book: "synthetic-control"
+chapterNumber: 8
+chapterLabel: "第 8 章"
+startDate: 2026-05-28
+updated: 2026-05-28
+type: "chapter"
+topics: ["合成控制", "staggered treatment", "多处理单位", "event-study", "R 语言"]
+---
+
+<ChapterAudience>
+
+理解 staggered 场景（多个处理单位在不同年份被处理）下 SC 类方法面临的两个新挑战——donor 池随时间变化与 ATT 跨时点聚合，在 fect 包 turnout 数据上跑 ife 与 mc 两种方法，并能说明为何 California 数据这种单 treated unit + 单处理时点的设计不适用 staggered 扩展。
+
+</ChapterAudience>
+
+<IntroParagraph>第 1–7 章的所有方法默认单 treated unit（仅 California 一个处理州）+ 单 treatment 时点（1989 年）。实务中很多场景是多个处理单位在不同年份被处理，比如美国各州先后采纳的 Election Day Registration 立法、欧盟成员国陆续加入欧元区、公司被收购后整合时点不同等。本章用 staggered 场景介绍 SC 类方法的扩展。</IntroParagraph>
+
+由于 California 数据本身是单 treated unit，本章在前半段临时切换到 fect 包内置的 `turnout` 数据演示 staggered 方法，后半段回到 California 主线，说明为什么 California 数据不能用 staggered 方法。
+
+## 8.1 Staggered 场景的设计挑战
+
+多 treated unit + 不同 treatment 时点带来两个新挑战。
+
+**第一个挑战：donor 池随时间变化。** 早被处理的州在它的处理之后不能继续做"未处理 donor"了。比如州 A 1976 年实施 EDR、州 B 1984 年实施 EDR，B 处理时点的 donor 池里不能包括 A（A 已经被处理）。
+
+**第二个挑战：ATT 的聚合。** 每个处理州有自己的 treatment 时点和 post-period，怎么把若干个州的 ATT 聚合成一个数？事件研究（event study）的常见做法是对齐处理时点——每个州的 $t_{i, 0}$ 设为它的处理时点，然后看相对时间 $t - t_{i, 0}$ 上的 ATT。Sun & Abraham 2021、de Chaisemartin & D'Haultfœuille 2020 等理论工作给出了"diff-in-diffs 在 staggered 下偏差"的识别条件，避开 TWFE 的负权重问题。
+
+## 8.2 切换数据：fect 包的 turnout 数据
+
+```r
+data("turnout", package = "fect")
+str(turnout)
+# 1128 obs of 6 variables: 48 states × 24 election years (1920-2012)
+# 三种 policy: edr / mail_in / motor
+```
+
+`turnout` 数据是 48 个美国州在 1920–2012 年的投票率（%）以及三种选举法改革的实施年份。本章用 `policy_edr`（Election Day Registration，选举日当天登记法）作为处理变量。EDR 由 7 个州在不同年份采纳：Minnesota / Wisconsin 1976、Maine 1976，其余州在 1980 年代后陆续采纳。
+
+| 州 | 首治年 |
+|:---|:---|
+| Maine | 1976 |
+| Minnesota | 1976 |
+| Wisconsin | 1976 |
+| Idaho | 1996 |
+| New Hampshire | 1996 |
+| Wyoming | 1996 |
+| Iowa | 2008 |
+
+<Subtext>表 8.1 · turnout 数据中 EDR 采纳州及首治年份。</Subtext>
+
+## 8.3 fect ife 估计 staggered ATT
+
+```r
+library(fect)
+fit_ife <- fect(turnout ~ policy_edr, data = turnout,
+                index = c("abb", "year"),
+                method = "ife", CV = TRUE, force = "two-way",
+                se = TRUE, nboots = 200, parallel = FALSE, seed = 2026)
+
+cat("ATT (post avg):", round(fit_ife$att.avg, 2), "\n")
+cat("95% CI: [",
+    round(fit_ife$est.avg[1, "CI.lower"], 2), ",",
+    round(fit_ife$est.avg[1, "CI.upper"], 2), "]\n")
+# ATT (post avg): 1.67
+# 95% CI: [ -4.58 , 7.92 ]
+```
+
+fect ife 给出 EDR 对投票率的 ATT $= 1.67$ 个百分点，95% CI $[-4.58, 7.92]$ 包含 0。这与多篇 EDR 实证文献的结论一致：EDR 的总体效果有正向倾向，但显著性弱、跨研究差异大。
+
+![fect ife 的 event-study：相对治疗时点 0 的 ATT 估计与 95% bootstrap CI。pre-period 在 0 附近振荡（pre-trend 平行），post-period ATT 围绕 1–2 个百分点波动，CI 多次跨过 0。](/books/synthetic-control/figure/chap08_staggered_ife.png)
+
+<Subtext>图 8.1 · fect ife 的 staggered event-study。pre-period pre-trend 平行，post-period 围绕 1–2 个百分点波动。</Subtext>
+
+### 8.3.1 ife vs mc 的对比
+
+```r
+fit_mc <- fect(turnout ~ policy_edr, data = turnout,
+                index = c("abb", "year"),
+                method = "mc", CV = TRUE, force = "two-way",
+                se = TRUE, nboots = 200, parallel = FALSE, seed = 2026)
+cat("MC ATT:", round(fit_mc$att.avg, 2), "\n")
+# MC ATT: 3.25
+```
+
+| 方法 | ATT | 95% CI |
+|:---|---:|:---|
+| ife (interactive FE) | $1.67$ | $[-4.58, 7.92]$ |
+| mc (matrix completion) | $3.25$ | $[-0.92, 7.43]$ |
+
+<Subtext>表 8.2 · staggered turnout 数据上 ife 与 mc 的 ATT 对比。两种方法都给出弱正向 ATT，CI 几乎含 0（mc 接近边界）。</Subtext>
+
+点估计差异 1.58 个百分点是模型假设差异的 sensitivity——ife 假设 interactive FE，mc 假设低秩结构，turnout 数据上两者结论方向一致但幅度不同。
+
+![staggered turnout 数据下 ife 与 mc 的 ATT 对比。点估计带 95% CI。](/books/synthetic-control/figure/chap08_methods_compare.png)
+
+<Subtext>图 8.2 · ife vs mc 方法对比图。</Subtext>
+
+## 8.4 回到 California 主线：单 treated unit 的限制
+
+现在回到 California Prop 99 主线。California 数据是单 treated unit + 单 treatment 时点，本章演示的 staggered 方法（fect ife / mc 的 staggered 聚合）在这一数据上退化为第 5 章 GSC / 第 7 章 MC-NNM 的同类估计——fect 包本质上就是 gsynth 与 MCPanel 的统一接口。
+
+California 数据上用本章 staggered 方法没有额外信息可挖。如果未来研究扩展到"多 treated 烟草控制法案"（如其他州先后实施类似 Prop 99），那时再用 staggered 方法聚合 ATT 是合理的。
+
+## 8.5 对 California 数据的方法学含义
+
+把本章 staggered 实验作为对照看，California Prop 99 数据的两点特征值得强调。
+
+第一，单 treated unit 是识别上的奢侈——所有 38 个 donor 都可以贡献信号。多 treated unit 数据（如 turnout）必须谨慎对待 donor 池随时间变化。
+
+第二，单 treatment 时点是估计上的奢侈——不用聚合不同时点的 ATT。staggered 聚合涉及 Sun-Abraham 加权、Borusyak-Jaravel-Spiess 估计量、Callaway-Sant'Anna 估计量等近年新方法，背后是 TWFE 在 staggered 下的负权重问题。
+
+<Pitfall title="把 California 数据扩展为 staggered 用 staggered SC">
+
+看了本章 staggered 方法后，有人可能想"把 California 的 38 个 donor 也假装是不同时点处理"做扩展。这一做法没有合理的因果识别基础。
+
+**为什么人们会踩坑**：staggered 方法看起来"更现代"，可能想套用到所有数据。
+
+**失效机制**：38 个 donor 州在 1989 后并没有实施 Prop 99，把它们当作 staggered 处理是伪处理，不是真处理。任何"ATT 估计"都是 SC 拟合误差。
+
+**诊断方法 / 稳健替代**：单 treated 数据上用单 treated 方法（SC / SDID / MC-NNM / GSC）；只有真有多个州先后实施类似政策时才用 staggered 方法。
+
+</Pitfall>
+
+## 8.6 累积对比表（截至本章）
+
+| 章 | 方法 | ATT | 95% CI | 核心假设 |
+|:---|:---|---:|:---|:---|
+| 第 1 章 | 朴素 DiD (TWFE) | $-27.35$ | — | 平行趋势 |
+| 第 2 章 | Abadie SC (经典) | $-18.85$ | — | 凸壳内可拟合 |
+| 第 4 章 | Permutation 推断 | — | p = 0.38 | 可交换性 |
+| 第 5 章 | GSC $r = 0$ | $-27.35$ | $[-33.20, -21.50]$ | 仅 FE 结构 |
+| 第 5 章 | GSC $r = 2$ | $-0.40$ | $[-20.39, 19.58]$ | 2-factor 结构 |
+| 第 6 章 | SDID | $-15.60$ | $[-34.41, 3.21]$ | 近期时段加权可比 |
+| 第 7 章 | MC-NNM | $-25.91$ | $[-30.82, -20.99]$ | 低秩结构 |
+| 第 8 章 | Staggered（本数据不适用） | — | — | 需多 treated unit |
+
+<Subtext>表 8.3 · 累积对比表（截至第 8 章）。第 8 章在 California 数据上没有给新的 ATT，给的是为什么 staggered 方法不适用的方法学解释。</Subtext>
+
+方法选择不能脱离数据特征——这是本书贯穿始终的立场。
+
+---
+
+## 8.7 本章知识地图
+
+| 核心概念 | 核心内容 | 常见误解 | 为什么错 |
+|:---|:---|:---|:---|
+| Staggered treatment | 多 treated unit 不同时点 | 以为可套用到单 treated | 单 treated 无 staggered |
+| Event-study 对齐 | 用 $t - t_{i, 0}$ 当横轴 | 以为可用绝对年份 | 对齐才有可比性 |
+| TWFE 负权重 | 早处理州的对照含晚处理州 | 以为 TWFE 一直对 | Goodman-Bacon 2021 给出问题 |
+| Donor 池随时间变化 | 已处理州不再做 donor | 以为可固定 donor 池 | 处理污染 donor |
+| fect ife | 多 treated 下 IFE | 以为只用于单 treated | ife 在多 treated 下表现更好 |
+| fect mc | 多 treated 下 MC-NNM | 以为是 SC 替代 | 是 SC 的低秩补全推广 |
+| 数据决定方法 | 单 treated 用单 treated 方法 | 以为新方法总更好 | 方法学要匹配数据特征 |
+
+---
+
+<References>
+	<ReferencesLink
+		title="Difference-in-Differences with Variation in Treatment Timing" author="Goodman-Bacon (2021), Journal of Econometrics" href="https://www.sciencedirect.com/science/article/pii/S0304407621001445"
+	/>
+	<ReferencesLink
+		title="Estimating Dynamic Treatment Effects in Event Studies with Heterogeneous Treatment Effects" author="Sun & Abraham (2021), Journal of Econometrics" href="https://www.sciencedirect.com/science/article/pii/S030440762100012X"
+	/>
+	<ReferencesLink
+		title="fect: Fixed Effects Counterfactuals" author="Liu, Wang & Xu (2024), R package" href="https://yiqingxu.org/packages/fect/"
+	/>
+</References>
