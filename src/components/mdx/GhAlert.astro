@@ -80,7 +80,7 @@ const meta = META[type] ?? META.note;
   /* --- TIP：sea-blue 实用提示 --- */
   .gh-alert-tip {
     border-left-color: var(--color-sea-blue);
-    background: #f0f9f8;
+    background: color-mix(in srgb, var(--color-sea-blue) 6%, var(--color-light-cream));
   }
   .gh-alert-tip .gh-alert-header {
     color: var(--color-dark-sea-blue);
@@ -104,7 +104,7 @@ const meta = META[type] ?? META.note;
   /* --- WARNING：crimson 警告陷阱 --- */
   .gh-alert-warning {
     border-left-color: var(--color-bright-crimson);
-    background: #fdf2f0;
+    background: color-mix(in srgb, var(--color-bright-crimson) 6%, var(--color-light-cream));
   }
   .gh-alert-warning .gh-alert-header {
     color: var(--color-crimson);
@@ -116,7 +116,7 @@ const meta = META[type] ?? META.note;
   /* --- IMPORTANT：深 crimson 关键信息 --- */
   .gh-alert-important {
     border-left-color: var(--color-crimson);
-    background: #faece8;
+    background: color-mix(in srgb, var(--color-crimson) 8%, var(--color-light-cream));
   }
   .gh-alert-important .gh-alert-header {
     color: var(--color-crimson);

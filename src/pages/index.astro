@@ -56,20 +56,22 @@ for (const s of skillsData) {
 <Layout title="Chanw">
 	<PageWrapper>
 		<header class="page-header">
-			<Title1 class="main-title">
+			<Title1 class="main-title reveal">
 				<b>Chanw&rsquo;s Garden</b>
 				makes essays on doing research and the latest in AI.
 			</Title1>
-			<SmallTitle2>
-				Empiricist, tool curator, and mediocre developer.<br />
-				Currently exploring AI for empirical research at
-				<a href="https://github.com/Lambenthan" target="_blank" rel="noopener noreferrer">github.com/Lambenthan</a>.
-			</SmallTitle2>
+			<div class="reveal">
+				<SmallTitle2>
+					Empiricist, tool curator, and mediocre developer.<br />
+					Currently exploring AI for empirical research at
+					<a href="https://github.com/Lambenthan" target="_blank" rel="noopener noreferrer">github.com/Lambenthan</a>.
+				</SmallTitle2>
+			</div>
 		</header>
 
 		<Spacer />
 
-		<section>
+		<section class="reveal">
 			<a href="/garden">
 				<h2 class="garden-title">The Garden</h2>
 			</a>
@@ -79,7 +81,7 @@ for (const s of skillsData) {
 		</section>
 
 		<section class="garden-section">
-			<section class="essays-section">
+			<section class="essays-section reveal">
 				<a href="/garden" class="header-link">
 					<h3 class="section-header">
 						Essays
@@ -104,7 +106,7 @@ for (const s of skillsData) {
 				</div>
 			</section>
 
-			<section style="grid-area: notes;">
+			<section class="reveal" style="grid-area: notes;">
 				<a href="/news" class="header-link">
 					<h3 class="section-header">
 						News
@@ -128,7 +130,7 @@ for (const s of skillsData) {
 				}
 			</section>
 
-			<section class="patterns-section">
+			<section class="patterns-section reveal">
 				<a href="/skills" class="header-link">
 					<h3 class="section-header">
 						Skills
@@ -153,7 +155,7 @@ for (const s of skillsData) {
 				</div>
 			</section>
 
-			<section class="library-section">
+			<section class="library-section reveal">
 				<a href="/library" class="header-link">
 					<h3 class="section-header">
 						Library
@@ -357,4 +359,57 @@ for (const s of skillsData) {
 		grid-gap: var(--space-2xs);
 		margin: 0;
 	}
+	/* 入场渐显上浮 —— Hero 标题/bio + 各 section 按 DOM 顺序错落浮入。
+	   克制：只动一次(进页面)，0.55s ease-out，y+16px。Maggie 调性。 */
+	.reveal {
+		opacity: 0;
+		transform: translateY(16px);
+		will-change: opacity, transform;
+	}
+
+	.reveal.in {
+		opacity: 1;
+		transform: none;
+		transition:
+			opacity 0.55s ease-out,
+			transform 0.55s ease-out;
+	}
+
+	/* 无障碍 + 品质：用户关了动效就直接显示，不浮不渐 */
+	@media (prefers-reduced-motion: reduce) {
+		.reveal,
+		.reveal.in {
+			opacity: 1;
+			transform: none;
+			transition: none;
+		}
+	}
 </style>
+
+<script>
+	import { onPageLifecycle } from "../utils/viewTransitionLifecycle";
+
+	onPageLifecycle(() => {
+		// 尊重 reduced-motion：直接全显，不挂动画
+		const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+		const els = Array.from(document.querySelectorAll<HTMLElement>(".reveal"));
+		if (prefersReduced) {
+			els.forEach((el) => el.classList.add("in"));
+			return;
+		}
+		// DOM 顺序即视觉顺序：第 i 个延迟 i*70ms 浮入
+		els.forEach((el, i) => {
+			el.style.transitionDelay = `${i * 70}ms`;
+		});
+		// 双 rAF 确保初始态(opacity0)先渲染一帧，再触发 transition
+		requestAnimationFrame(() =>
+			requestAnimationFrame(() => els.forEach((el) => el.classList.add("in"))),
+		);
+
+		// 清理：离开页面时移除 delay，避免 view-transition 残留
+		return () => els.forEach((el) => {
+			el.style.transitionDelay = "";
+			el.classList.remove("in");
+		});
+	});
+</script>

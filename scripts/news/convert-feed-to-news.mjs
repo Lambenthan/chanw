@@ -41,7 +41,7 @@ const JS_RENDERED_SOURCES = new Set(["OpenAI", "Google AI", "DeepMind"]);
 
 // source id → group
 const PAPER_SOURCES = new Set(["arxiv", "hf-papers"]);
-const GH_SOURCES = new Set(["github"]);
+const GH_SOURCES = new Set(["github-trending", "github"]);
 
 function groupFor(srcId) {
   if (PAPER_SOURCES.has(srcId)) return "papers";

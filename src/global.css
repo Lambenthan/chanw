@@ -90,7 +90,9 @@
   --color-cream: #f6f5f1;
   --color-tinted-cream: #e6e3e1;
   --color-black: #353534;
+  --color-gray-900: #2e2d2b;
   --color-gray-800: #4a4a46;
+  --color-gray-700: #5d5a57;
   --color-gray-600: #73706d;
   --color-gray-500: #8e8f94;
   --color-gray-400: #afb0b6;
@@ -131,6 +133,7 @@
   --leading-tight: 120%;
   --leading-snug: 130%;
   --leading-base: 140%;
+  --leading-normal: 150%;
   --leading-loose: 180%;
   --leading-looser: 200%;
 
@@ -274,7 +277,9 @@
 
     /* Text colors - inverted warm grays */
     --color-black: #c2bfba;
+    --color-gray-900: #ddd9d4;
     --color-gray-800: #d4d1cc;
+    --color-gray-700: #bebab5;
     --color-gray-600: #a8a5a0;
     --color-gray-500: #8e8f94;
     --color-gray-400: #6b6864;
