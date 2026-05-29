@@ -32,3 +32,4 @@ pnpm-debug.log*
 
 # verify-news-dates.mjs 临时备份
 src/data/news.before-*.json
+src/data/news.before-prune.json

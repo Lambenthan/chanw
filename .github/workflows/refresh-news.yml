@@ -60,6 +60,25 @@ jobs:
         timeout-minutes: 12
         run: node scripts/news/score-and-tag.mjs --concurrency 4
 
+      # === news 质量理念常驻步骤 ===
+      # 抓 JS 渲染源(OpenAI/Google/DeepMind)真实发布日期 → news-date-overrides.json
+      # 增量 + 限流: 每次 cron 最多 80 条, 历史 archive 分批消化, 之后只抓新增
+      - name: Resolve real dates for JS-rendered sources
+        continue-on-error: true
+        timeout-minutes: 8
+        env:
+          MAX_NEW: "80"
+        run: node scripts/news/prune-news.mjs
+
+      # LLM 滤通稿(参展/获奖/区域扩展/企业合作/行业报告) → news-exclude.json 黑名单
+      # 增量: 跳过已判为通稿的, 只判新增 lab 源
+      - name: Filter press-release noise
+        if: env.OPENROUTER_API_KEY != ''
+        continue-on-error: true
+        timeout-minutes: 6
+        run: node scripts/news/filter-press-releases.mjs
+
+      # convert 消费 overrides + exclude 黑名单 + 砍 90 天窗 + JS源假戳排除
       - name: Convert scored feed to news.json
         run: node scripts/news/convert-feed-to-news.mjs
 
@@ -69,6 +88,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
             src/data/news.json \
+            src/data/news-date-overrides.json \
+            src/data/news-date-attempted.json \
+            src/data/news-exclude.json \
             src/data/generated/feed-raw.json \
             src/data/generated/feed-scored.json \
             src/data/generated/feed-dates.json \
