@@ -1,0 +1,32 @@
+\documentclass[border=14pt]{standalone}
+\usepackage{fontspec}\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}\setmainfont{Times New Roman}
+\usepackage{tikz}\usetikzlibrary{matrix}
+\definecolor{seablue}{HTML}{04A5BB}
+\definecolor{crimson}{HTML}{960462}
+\definecolor{gray800}{HTML}{4A4A46}
+\definecolor{gray600}{HTML}{73706D}
+\definecolor{tinted}{HTML}{E6E3E1}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) [matrix of nodes,
+  nodes={anchor=north west, align=left, draw=tinted, line width=0.6pt,
+         inner xsep=8pt, inner ysep=9pt, minimum height=1.15cm, font=\footnotesize, text=gray800},
+  column 1/.style={nodes={text width=2.4cm}},
+  column 2/.style={nodes={text width=5.0cm}},
+  column 3/.style={nodes={text width=5.0cm}},
+  row sep=-0.6pt, column sep=-0.6pt,
+]{
+  |[fill=gray800,text=white,font=\bfseries\footnotesize]| 对照项 &
+  |[fill=seablue,text=white,font=\bfseries\footnotesize]| 模式 A · 陪读 &
+  |[fill=crimson,text=white,font=\bfseries\footnotesize]| 模式 B · 抽取 \\
+  |[fill=seablue!9]| {\bfseries 用在哪类文献} & 研究主题外、要补背景的文献 & 研究主题内、要进笔记的核心文献 \\
+  |[fill=seablue!9]| {\bfseries 谁先读} & 研究者边读，Claude 同步辅助 & 研究者必须先自己读完，再让 Claude 抽 \\
+  |[fill=seablue!9]| {\bfseries Claude 做什么} & 解释每节 · 注释术语 · 翻译推导 & 按模板填：问题 / 方法 / 数据 / 结论 / 局限 \\
+  |[fill=seablue!9]| {\bfseries 研究者保留什么} & “这篇对我有没有用”自己判断 & “与本研究的关系”一栏自己写 \\
+  |[fill=seablue!9]| {\bfseries 硬约束} & 不许替你评价、推荐 & 给原文页码 · 没说的标“需核实” · 数字不意译 \\
+};
+\node[anchor=north west, font=\footnotesize, text=gray600] at ([yshift=-11pt]m.south west)
+  {两种模式都不允许“AI 替你读”；抽取出来的数字、引文、方法描述必须逐条对回原文 PDF 那一页};
+\end{tikzpicture}
+\end{document}

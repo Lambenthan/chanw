@@ -1,0 +1,23 @@
+\documentclass[border=16pt]{standalone}
+\usepackage{fontspec}\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}\setmainfont{Times New Roman}
+\usepackage{tikz}\usetikzlibrary{positioning, arrows.meta}
+\definecolor{seablue}{HTML}{04A5BB}\definecolor{crimson}{HTML}{960462}
+\definecolor{gray800}{HTML}{4A4A46}\definecolor{gray600}{HTML}{73706D}
+\begin{document}
+\begin{tikzpicture}[font=\small, node distance=12pt,
+  hdr/.style={draw=crimson, line width=1pt, rounded corners=6pt, fill=crimson!5!white,
+              text width=10cm, align=center, minimum height=1cm, text=gray800},
+  stp/.style={draw=seablue, line width=1pt, rounded corners=6pt, fill=seablue!9!white,
+              text width=3cm, align=center, minimum height=1.55cm, text=gray800},
+  arr/.style={-{Stealth[length=5pt]}, line width=0.9pt, draw=gray600}]
+\node[hdr] (h) {{\bfseries\color{crimson}研究者先定模型设定}\\[2pt]{\footnotesize Y · 核心 X · 控制变量 · 固定效应 · 聚类层级}};
+\node[stp, below=40pt of h.south west, anchor=north west] (a) {{\bfseries\color{seablue}\textnormal{1} 写代码}\\[2pt]{\footnotesize\color{gray600}落成 do 文件}};
+\node[stp, right=of a] (b) {{\bfseries\color{seablue}\textnormal{2} 执行}\\[2pt]{\footnotesize\color{gray600}跑回归出表}};
+\node[stp, right=of b] (c) {{\bfseries\color{seablue}\textnormal{3} 解读}\\[2pt]{\footnotesize\color{gray600}系数初稿}};
+\draw[arr] (h.south -| a.north) -- (a.north);
+\draw[arr] (a) -- (b);
+\draw[arr] (b) -- (c);
+\node[anchor=north, font=\footnotesize, text=gray600] at ([yshift=-14pt]b.south) {三步分开做，每步留校验余地 · Stata 在旁交叉复核};
+\end{tikzpicture}
+\end{document}

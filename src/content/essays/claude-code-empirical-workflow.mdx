@@ -1,0 +1,80 @@
+---
+title: "Claude Code 实证研究全流程（一）：工具定位、流程地图与项目制"
+description: "把实证研究从头到尾用 Claude Code 跑一遍：工具该怎么摆位、整条研究流程长什么样、环境怎么装好、以及一个文件夹装下整篇论文的项目制管理。"
+startDate: 2026-05-29
+updated: 2026-05-29
+type: "essay"
+cover: "../../images/covers/claude-code-empirical-workflow@2x.png"
+topics: ["Claude Code", "实证研究", "科研工具", "AI 辅助科研"]
+growthStage: "seedling"
+featured: true
+---
+
+<ChapterAudience label="本篇要回答的">
+
+看清 Claude Code 在实证研究里能做什么、边界在哪，掌握从开题到定稿的整条流程地图，完成装机与模型选型，并理解这个系列贯穿的工作方式：研究方向由研究者把定，执行交给 Claude Code。
+
+</ChapterAudience>
+
+<IntroParagraph>
+上一篇科研手记发出来之后，问得最多的一句话是“完整流程到底怎么走”。我把实证研究从头到尾用 Claude Code 跑一遍的过程拆开，做成这个系列。这是第一篇，先把工具该怎么摆位、整条研究流程长什么样、环境怎么装起来、以及我自己在用的项目制管理讲清楚，后面几篇再逐段深入。
+</IntroParagraph>
+
+## 一、工具定位：Claude Code 与 Stata 同级
+
+Claude Code 和 Stata、SPSS 在我这里是同一类东西，都是工具。它的特点是用自然语言把取数、清洗、建模、出表这些环节接成一条连续流水线，省掉在不同软件之间来回搬运数据的功夫。至于一份回归该怎么设定、一个变量该用哪种口径测，这些判断它替不了你。
+
+把它当成工具来用，心态就顺了：你负责想清楚要做什么，它负责把繁琐的执行接起来。研究里最值钱的 idea、机制假设和最终判断在你这边，整理、写代码、跑数据、出表这些在它那边。下一节的流程表会把这条分工逐环节摊开。
+
+## 二、实证研究的全流程地图
+
+把一篇实证论文从零做到投稿，中间要走的环节大致是固定的。先做文献调研与阅读，把领域里的变量、模型、识别策略摸清楚；再进数据获取，国外数据走 WRDS，国内走 CSMAR，拿不到现成的就写爬虫；数据到手先清洗合并，再跑描述性统计，然后是主回归与模型设定。这部分是数据流。
+
+接下来转入写作流：结果解读与成稿、引用整理与格式自检。每一段 Claude Code 都能介入辅助，而每一段的判断仍然落在你手上。
+
+![实证研究全流程的三栏对应表：每个环节里研究者负责定方向、做判断，Claude Code 负责执行与整理](/images/essays/cc-pipeline@2x.png)
+
+## 三、安装与起步
+
+动手之前先确认一件事：稳定的上网环境，这是所有后续步骤的前提。
+
+先装 Claude Code 本体。官方的安装就一行命令，macOS 和 Linux 在终端里跑 `curl -fsSL https://claude.ai/install.sh | bash`，Windows 用 PowerShell 那条，回车等它装完；官方文档把三个平台的命令列在一起，复制对应的那条即可。
+
+![Claude Code 官方文档的安装页：macOS / Linux、PowerShell、CMD 三套安装命令](/images/essays/cc-install-cmd@2x.png)
+
+装好之后有两种用法。一种是直接登录官方账号，前提是你有 Claude 会员；另一种是配国产模型，适合一时拿不到官方账号的情况，这就要用到 CC Switch。CC Switch 是个开源的桌面工具，认准官方渠道 ccswitch.io 和它的 GitHub 仓库下载，网上有假冒收费的同名站点要绕开。Windows 在 Release 页面下，Mac 下对应的 DMG 就行。
+
+![CC Switch 官方网站 ccswitch.io：统一管理 Claude Code、Codex 等工具的模型供应商配置](/images/essays/cc-ccswitch@2x.png)
+
+装好打开，里面默认挂的是 Anthropic 官方。点左上的加号添加新供应商，预设列表里有智谱 GLM、月之暗面 Kimi、DeepSeek 等一长串，选你要的那个加进来，再填上对应的 API Key 启用即可。
+
+![CC Switch 添加新供应商：预设里直接选智谱 GLM、Kimi、DeepSeek 等](/images/essays/cc-ccswitch-app@2x.png)
+
+至于 GLM 的额度，要去智谱开通 GLM Coding Plan。进它官网的套餐页，分 Lite / Pro / Max 三档按月订阅，开通后在控制台生成一串 API Key，填回 CC Switch 就接上了。月之暗面的 Kimi 同理。除了 Claude Code，还有 OpenAI 的 Codex 可选，模型能力也很强。
+
+![GLM Coding Plan 的套餐分档 Lite / Pro / Max，智谱 BigModel 开放平台](/images/essays/cc-glm-plan@2x.png)
+
+几种方案我有个优先级。首选官方 Claude Code，模型用当前最强的 Opus 4.8，套餐开 Max 那一档、每月约 100 美元；别用 Sonnet，也别开 20 美元的入门档，能力和额度都不太够。次选 OpenAI 的 Codex，处理结构清楚的数据尤其顺。两者都不方便时，才退到 Claude Code 外接 CC Switch 挂 GLM 或 Kimi 这条路。
+
+![模型与套餐的三级选型：首选官方 Claude Code 配 Opus 4.8 与 Max，次选 Codex，替代用 CC Switch 外接 GLM / Kimi](/images/essays/cc-models@2x.png)
+
+最后是工作环境。终端对经管背景的人不友好，所以一定装个 IDE。我用 VS Code，把整个项目文件夹拖进去，文献、数据、代码、写作摆在同一个窗口里。再到扩展市场搜 Claude Code for VS Code 装上，它把 Claude Code 直接接进编辑器，不用再切回终端。
+
+![VS Code 扩展市场里的 Claude Code for VS Code 扩展，Anthropic 官方](/images/essays/cc-vscode-ext@2x.png)
+
+## 四、项目制管理：一个文件夹装下整篇论文
+
+我习惯把一篇论文从开题到定稿，全部放进同一个项目文件夹，再整个拖进 IDE 打开。文件夹里按用途分开，文献放一处，数据放一处，代码和写作各放一处。
+
+![在 VS Code 里打开一个研究项目：左侧是 01_文献 / 02_数据 / 03_代码 / 04_写作 的目录树，配一份 CLAUDE.md 写明项目约定](/images/essays/cc-vscode-project@2x.png)
+
+这样做是为了连贯。Claude Code 看得到这个文件夹里你做过什么、还差什么，跨多次对话也接得上，不必每次从零交代背景。一篇论文从开题到定稿，始终在这个项目范围里进行，版本、数据、结果都沉淀在同一处。
+
+## 五、与 Stata 的交叉校验
+
+实证的终点是一份能跑通的分析文件。我会让 Claude Code 和 Stata 同时跑同一份任务，并要求 Stata 输出 do 文件，两端结果相互对一遍。代码执行偶尔会有差异，以双向一致的结果为准，心里更踏实。
+
+这一篇先到这里。把工具摆对位置、把整条流程看全、把项目管好，是后面每一步具体操作的基础。下一篇从文献调研开始。
+
+<SeriesNav
+  nextHref="/claude-code-empirical-workflow-02" nextLabel="第二讲" nextTitle="初始设定与项目制管理" />

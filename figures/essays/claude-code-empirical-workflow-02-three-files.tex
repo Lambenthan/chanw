@@ -1,0 +1,36 @@
+\documentclass[border=14pt]{standalone}
+\usepackage{fontspec}\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}\setmainfont{Times New Roman}
+\usepackage{tikz}\usetikzlibrary{matrix}
+\definecolor{seablue}{HTML}{04A5BB}
+\definecolor{leafgreen}{HTML}{4E8A5F}
+\definecolor{crimson}{HTML}{960462}
+\definecolor{gray800}{HTML}{4A4A46}
+\definecolor{gray600}{HTML}{73706D}
+\definecolor{tinted}{HTML}{E6E3E1}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) [matrix of nodes,
+  nodes={anchor=north west, align=left, draw=tinted, line width=0.6pt,
+         inner xsep=8pt, inner ysep=8pt, minimum height=1.05cm, text height=1.6ex, text depth=0.4ex, font=\footnotesize, text=gray800},
+  column 1/.style={nodes={text width=2.5cm}},
+  column 2/.style={nodes={text width=4.0cm}},
+  column 3/.style={nodes={text width=4.0cm}},
+  column 4/.style={nodes={text width=4.0cm}},
+  row sep=-0.6pt, column sep=-0.6pt,
+]{
+  |[fill=gray800,text=white,font=\bfseries\footnotesize]| 维度 &
+  |[fill=seablue,text=white,font=\bfseries\footnotesize]| CLAUDE.md &
+  |[fill=leafgreen,text=white,font=\bfseries\footnotesize]| MEMORY.md &
+  |[fill=crimson,text=white,font=\bfseries\footnotesize]| checkpoint.md \\
+  |[fill=seablue!9]| {\bfseries\color{gray800}是否官方} & 官方机制 & 路径与入口官方，内部结构自定 & 自定写作约定 \\
+  |[fill=seablue!9]| {\bfseries\color{gray800}谁来写} & 你手写 / 让它写草稿 & 你与 Claude Code 共同维护 & Claude Code 按指令维护 \\
+  |[fill=seablue!9]| {\bfseries\color{gray800}加载时机} & 启动时全量加载 & 启动时读前 200 行 / 25KB & 不自动加载，需说“读一下” \\
+  |[fill=seablue!9]| {\bfseries\color{gray800}是否跟 git} & 跟 git 走 & 用户目录下，机器本地 & 跟 git 走 \\
+  |[fill=seablue!9]| {\bfseries\color{gray800}存放内容} & 项目长期信息 & 阶段性信息 & 当前任务进度 \\
+  |[fill=seablue!9]| {\bfseries\color{gray800}生命周期} & 几个月到几年 & 几周到几月 & 几天到一周 \\
+};
+\node[anchor=north west, font=\footnotesize, text=gray600] at ([yshift=-11pt]m.south west)
+  {三份文档分管三个时间尺度：长期信息进 CLAUDE.md，阶段性记忆进 MEMORY.md，当下进度进 checkpoint.md};
+\end{tikzpicture}
+\end{document}

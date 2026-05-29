@@ -1,0 +1,34 @@
+\documentclass[border=0pt]{standalone}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}
+\setmainfont{Times New Roman}
+\usepackage{tikz}
+\definecolor{seablue}{HTML}{04A5BB}
+\definecolor{cream}{HTML}{F6F5F1}
+\definecolor{lcream}{HTML}{FCFBF7}
+\definecolor{gray800}{HTML}{4A4A46}
+\definecolor{gray600}{HTML}{73706D}
+\newcommand{\spaced}[1]{{\addfontfeatures{LetterSpace=18}#1}}
+\begin{document}
+\begin{tikzpicture}
+% background
+\fill[cream] (0,0) rectangle (12,12);
+% inner frame
+\draw[seablue, line width=1pt] (0.75,0.75) rectangle (11.25,11.25);
+\draw[seablue, line width=0.4pt] (0.95,0.95) rectangle (11.05,11.05);
+% top kicker
+\node[text=seablue, font=\normalsize] at (6,10.2) {\spaced{CHANW'S GARDEN}};
+\node[text=gray600, font=\small] at (6,9.55) {实证研究方法 · 第三篇};
+% title block
+\node[text=gray800, font=\fontsize{40}{40}\selectfont] at (6,7.2) {Claude Code};
+\node[text=gray800, font=\fontsize{34}{40}\selectfont] at (6,6.0) {实证研究全流程};
+\node[text=seablue, font=\fontsize{26}{26}\selectfont] at (6,4.85) {（三）};
+% dots divider
+\node[text=seablue, font=\Large] at (6,3.95) {· \,· \,·};
+% subtitle
+\node[text=gray600, font=\large] at (6,3.2) {Skill 机制 · 文献综述工具};
+% author
+\node[text=gray800, font=\normalsize] at (6,1.55) {Chanw};
+\end{tikzpicture}
+\end{document}

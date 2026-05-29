@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "ids": [
+      "Claude Code 实证研究全流程（二）：初始设定与项目制管理"
+    ],
+    "slug": "claude-code-empirical-workflow-02",
+    "growthStage": "seedling",
+    "description": "从一个堆满 95 个文件的乱目录开始，让 Claude Code 一步步建出整齐的项目结构和三份常驻文档，把项目制科研管理的初始设定一次配齐。",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Claude Code 实证研究全流程（三）：Skill 机制与文献综述工具"
+    ],
+    "slug": "claude-code-empirical-workflow-03",
+    "growthStage": "seedling",
+    "description": "讲清楚 Claude Code 的 skill 是什么，再用一个文献综述 skill 把找文献、评分、生成 BibTeX 串成一条流水线，最后交代它的边界与一套笔记归档方案。",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Claude Code 实证研究全流程（四·完结）：从研究计划到回归与稳健性"
+    ],
+    "slug": "claude-code-empirical-workflow-04",
+    "growthStage": "seedling",
+    "description": "把数据获取、清洗与描述统计、主回归与模型设定、稳健性与异质性这几段一次走完，并标清每一步里 Claude Code 接手什么、判断仍归研究者什么。",
+    "outboundLinks": [],
+    "inboundLinks": []
+  },
+  {
+    "ids": [
+      "Claude Code 实证研究全流程（一）：工具定位、流程地图与项目制"
+    ],
+    "slug": "claude-code-empirical-workflow",
+    "growthStage": "seedling",
+    "description": "把实证研究从头到尾用 Claude Code 跑一遍：工具该怎么摆位、整条研究流程长什么样、环境怎么装好、以及一个文件夹装下整篇论文的项目制管理。",
+    "outboundLinks": [],
+    "inboundLinks": []
+  }
+]

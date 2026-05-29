@@ -1,0 +1,37 @@
+\documentclass[border=16pt]{standalone}
+\usepackage{fontspec}\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}\setmainfont{Times New Roman}
+\usepackage{tikz}\usetikzlibrary{positioning, arrows.meta}
+\definecolor{seablue}{HTML}{04A5BB}\definecolor{crimson}{HTML}{960462}
+\definecolor{leafgreen}{HTML}{4E8A5F}
+\definecolor{gray800}{HTML}{4A4A46}\definecolor{gray600}{HTML}{73706D}
+\begin{document}
+\begin{tikzpicture}[font=\footnotesize, node distance=9pt,
+  srow/.style={draw=seablue, line width=1pt, rounded corners=5pt, fill=seablue!8!white,
+               inner sep=8pt, text width=9.4cm, align=left, anchor=north, text=gray800},
+  num/.style={circle, fill=seablue, text=white, font=\bfseries\scriptsize,
+              minimum size=17pt, inner sep=0pt},
+  arr/.style={-{Stealth[length=4pt]}, line width=0.8pt, draw=gray600}]
+\node[font=\bfseries\small, text=seablue, anchor=south west] (hd) at (0,0)
+  {systematic-literature-review · 从主题到 BibTeX 的七步};
+\node[srow, below=12pt of hd.south west, anchor=north west] (s1)
+ {{\bfseries 扩展检索词}\quad 把一个题目展开成多组查询变体};
+\node[srow, below=of s1] (s2)
+ {{\bfseries 调 OpenAlex 取元数据}\quad 免费学术库，覆盖四亿多篇成果，无需密钥};
+\node[srow, below=of s2] (s3)
+ {{\bfseries 去重}\quad 合并跨查询命中的重复条目};
+\node[srow, below=of s3] (s4)
+ {{\bfseries 逐篇评分}\quad AI 读标题与摘要，按一到十分打相关性};
+\node[srow, below=of s4] (s5)
+ {{\bfseries 子主题分簇}\quad 把高分文献归入若干主题簇};
+\node[srow, draw=crimson, fill=crimson!6!white, below=of s5] (s6)
+ {{\bfseries\color{crimson} 生成 references.bib}\quad 筛过、评过分、分过组的候选清单，真正有用};
+\node[srow, draw=leafgreen, fill=leafgreen!9!white, below=of s6] (s7)
+ {{\bfseries\color{leafgreen} 写综述初稿}\quad LaTeX / PDF / Word 三件，了解脉络用，不直接交};
+\foreach \i in {1,...,7}{\node[num, anchor=center] at (s\i.north west) {\i};}
+\foreach \a/\b in {s1/s2,s2/s3,s3/s4,s4/s5,s5/s6,s6/s7}{\draw[arr] (\a.south) -- (\b.north);}
+\node[font=\footnotesize, text=gray600, anchor=north, text width=9.4cm, align=center]
+  at ([yshift=-12pt]s7.south)
+  {全程吃的是标题与摘要，OpenAlex 给什么用什么；它不下载全文 PDF};
+\end{tikzpicture}
+\end{document}

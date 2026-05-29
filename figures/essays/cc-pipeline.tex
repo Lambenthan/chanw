@@ -1,0 +1,35 @@
+\documentclass[border=14pt]{standalone}
+\usepackage{fontspec}\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}\setmainfont{Times New Roman}
+\usepackage{tikz}\usetikzlibrary{matrix}
+\definecolor{seablue}{HTML}{04A5BB}
+\definecolor{leafgreen}{HTML}{4E8A5F}
+\definecolor{crimson}{HTML}{960462}
+\definecolor{gray800}{HTML}{4A4A46}
+\definecolor{gray600}{HTML}{73706D}
+\definecolor{tinted}{HTML}{E6E3E1}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) [matrix of nodes,
+  nodes={anchor=north west, align=left, draw=tinted, line width=0.6pt,
+         inner xsep=8pt, inner ysep=8pt, minimum height=1.15cm, text height=1.6ex, text depth=0.4ex, font=\footnotesize, text=gray800},
+  column 1/.style={nodes={text width=2.6cm}},
+  column 2/.style={nodes={text width=4.0cm}},
+  column 3/.style={nodes={text width=5.2cm}},
+  row sep=-0.6pt, column sep=-0.6pt,
+]{
+  |[fill=gray800,text=white,font=\bfseries\footnotesize]| 流程 &
+  |[fill=crimson,text=white,font=\bfseries\footnotesize]| 研究者（定方向、做判断） &
+  |[fill=seablue,text=white,font=\bfseries\footnotesize]| Claude Code（执行、整理） \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}文献调研与阅读} & 定研究问题、判断哪些文献相关 & 批量读 PDF · 抽变量口径 / 识别 / 稳健做法 · 建结构化笔记 \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}数据获取} & 定要哪些变量、用哪些数据库 & 写爬虫 · 调 API · 整理 WRDS / CSMAR 下载脚本 \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}数据清洗与合并} & 定清洗规则与变量口径 & 多表合并 · 变量构造 · 缺失值处理 · 描述统计 \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}主回归与模型设定} & 定模型设定与识别策略 & 写 do / R / Python · 设固定效应与聚类 · 跑回归出表 \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}稳健性与异质性} & 定做哪些稳健与异质检验 & 替换被解释变量 · 子样本 · 安慰剂 · 分组回归 \\
+  |[fill=leafgreen!11]| {\bfseries\color{leafgreen}结果解读与写作} & 解释结果、下最终结论 & 系数解读初稿 · 套已有框架成文 · 生成说明文档 \\
+  |[fill=leafgreen!11]| {\bfseries\color{leafgreen}引用整理与格式} & 审定终稿 & 文献管理 · 参考文献格式 · 全文格式自检 \\
+};
+\node[anchor=north west, font=\footnotesize, text=gray600] at ([yshift=-11pt]m.south west)
+  {同一行里，左边是你拍板的判断，右边是 Claude Code 接手的执行 —— idea 与结论始终在你这边};
+\end{tikzpicture}
+\end{document}

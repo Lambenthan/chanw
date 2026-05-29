@@ -1,0 +1,29 @@
+\documentclass[border=16pt]{standalone}
+\usepackage{fontspec}\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}\setmainfont{Times New Roman}
+\usepackage{tikz}\usetikzlibrary{positioning, arrows.meta, calc}
+\definecolor{seablue}{HTML}{04A5BB}\definecolor{crimson}{HTML}{960462}
+\definecolor{gray800}{HTML}{4A4A46}\definecolor{gray600}{HTML}{73706D}
+\definecolor{tinted}{HTML}{E6E3E1}
+\begin{document}
+\begin{tikzpicture}[font=\small, node distance=10pt,
+  box/.style={draw, line width=1pt, rounded corners=6pt, inner sep=11pt,
+              text width=5.0cm, align=left, anchor=north},
+  cc/.style={draw=seablue, line width=1.3pt, rounded corners=7pt, inner sep=12pt,
+             text width=11.6cm, align=center, fill=seablue!8!white},
+  arr/.style={-{Stealth[length=5pt]}, line width=0.9pt, draw=gray600}]
+% two source boxes
+\node[box, draw=gray600, fill=gray600!7!white] (proj) at (0,0)
+ {{\bfseries\color{gray800}项目文件夹}\\[3pt]{\footnotesize\color{gray800}存这篇论文的上下文：文献、数据、代码、写作，以及 CLAUDE.md 里的项目约定}};
+\node[box, draw=crimson, fill=crimson!5!white, right=14pt of proj] (skill)
+ {{\bfseries\color{crimson}Skill}\\[3pt]{\footnotesize\color{gray800}把某一类任务的标准流程打包成可装载的模块，官方与社区第三方两种来源}};
+% Claude Code box
+\node[cc, below=22pt of $(proj.south)!0.5!(skill.south)$] (cc)
+ {{\bfseries\color{seablue}Claude Code} \;装载 skill 后，按 skill 里写好的步骤逐步执行，无需每次手动交代流程};
+\draw[arr] (proj.south) -- ([xshift=-2.5cm]cc.north);
+\draw[arr] (skill.south) -- ([xshift=2.5cm]cc.north);
+\node[font=\footnotesize, text=gray600, anchor=north, text width=11.6cm, align=center]
+  at ([yshift=-11pt]cc.south)
+  {用了谁的 skill 就得知道是谁的：官方随 Claude Code 发布，第三方由个人在 GitHub 维护};
+\end{tikzpicture}
+\end{document}

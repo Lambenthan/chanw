@@ -5,11 +5,7 @@
 <style>
 	.prose-wrapper {
 		display: grid;
-		/* 阅读测量（measure）：Maggie 原值 72ch 是按英文调的（≈72 拉丁字符，
-		   阅读区舒适）。但全角 CJK 每字约 1em ≈ 2ch，72ch 在中文正文里行太长，
-		   超出中文舒适区（30–38 字/行）。降到 60ch 收窄约 17%，CJK 行长落回舒适区，
-		   仍保持 Maggie 的居中三栏 grid 与单位语汇不变（只调数值）。 */
-		grid-template-columns: 1fr min(60ch, 100%) 1fr;
+		grid-template-columns: 1fr min(72ch, 100%) 1fr;
 		counter-reset: footnote-counter;
 		font-size: var(--font-size-base);
 	}
@@ -76,6 +72,14 @@
 	.prose-wrapper :global(h3 + h4),
 	.prose-wrapper :global(h4 + h5),
 	.prose-wrapper :global(h5 + h6) {
+		margin-top: 0;
+	}
+
+	/* · · · 分隔符（hr）紧跟标题时：分隔符自身的 margin-bottom 已经给足分节留白，
+	   标题再叠一个 space-xl 顶距，两者相加会在分隔符和标题之间空出一大块。
+	   分隔符后的标题顶距清零，让标题贴着分隔符的下边距，间距由 hr 单方控制。 */
+	.prose-wrapper :global(hr + h2),
+	.prose-wrapper :global(hr + h3) {
 		margin-top: 0;
 	}
 

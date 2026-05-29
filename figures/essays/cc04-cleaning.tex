@@ -1,0 +1,24 @@
+\documentclass[border=16pt]{standalone}
+\usepackage{fontspec}\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}\setmainfont{Times New Roman}
+\usepackage{tikz}\usetikzlibrary{positioning, arrows.meta}
+\definecolor{seablue}{HTML}{04A5BB}\definecolor{crimson}{HTML}{960462}
+\definecolor{gray800}{HTML}{4A4A46}\definecolor{gray600}{HTML}{73706D}
+\begin{document}
+\begin{tikzpicture}[font=\small, node distance=14pt,
+  box/.style={draw=seablue, line width=1pt, rounded corners=6pt, fill=seablue!9!white,
+               text width=2.5cm, align=center, minimum height=1.45cm, text=gray800},
+  arr/.style={-{Stealth[length=5pt]}, line width=0.9pt, draw=seablue}]
+\node[box] (s1) {合并\\{\footnotesize\color{gray600}按主键拼表}};
+\node[box, right=of s1] (s2) {去重\\{\footnotesize\color{gray600}剔重复观测}};
+\node[box, right=of s2] (s3) {缺失处理\\{\footnotesize\color{gray600}删 / 填 / 标记}};
+\node[box, right=of s3] (s4) {衍生变量\\{\footnotesize\color{gray600}构造与缩尾}};
+\node[box, right=of s4] (s5) {描述统计\\{\footnotesize\color{gray600}核样本面貌}};
+\draw[arr] (s1) -- (s2);
+\draw[arr] (s2) -- (s3);
+\draw[arr] (s3) -- (s4);
+\draw[arr] (s4) -- (s5);
+\node[anchor=north, font=\footnotesize, text=crimson] at ([yshift=-16pt]s2.south) {规则与口径由研究者定};
+\node[anchor=north, font=\footnotesize, text=seablue] at ([yshift=-16pt]s4.south) {脚本执行交给 Claude Code};
+\end{tikzpicture}
+\end{document}

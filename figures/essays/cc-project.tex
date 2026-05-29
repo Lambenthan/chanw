@@ -1,0 +1,40 @@
+\documentclass[border=16pt]{standalone}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}
+\setmainfont{Times New Roman}
+\usepackage{tikz}
+\usetikzlibrary{positioning, fit, backgrounds}
+\definecolor{seablue}{HTML}{04A5BB}
+\definecolor{crimson}{HTML}{960462}
+\definecolor{cream}{HTML}{F6F5F1}
+\definecolor{lcream}{HTML}{FCFBF7}
+\definecolor{tinted}{HTML}{E6E3E1}
+\definecolor{gray800}{HTML}{4A4A46}
+\definecolor{gray600}{HTML}{73706D}
+\begin{document}
+\begin{tikzpicture}[
+  font=\small,
+  folder/.style={
+    draw=tinted, line width=0.8pt, rounded corners=4pt,
+    fill=lcream, text=gray800, align=left, text width=8.0cm,
+    minimum height=1.0cm, inner sep=9pt, anchor=north west
+  },
+]
+\node[anchor=north west, text=gray800, font=\normalsize] (title)
+  at (0,1.05) {\textbf{项目目录}\;\textcolor{gray600}{\small（一篇论文从开题到定稿都在这里 · 整个文件夹拖进 IDE 打开）}};
+\node[folder] (f1) at (0,0)
+  {\textbf{\textcolor{seablue}{01\_文献/}}\hfill\textcolor{gray600}{PDF · 笔记 · 引用}};
+\node[folder, below=8pt of f1.south west, anchor=north west] (f2)
+  {\textbf{\textcolor{seablue}{02\_数据/}}\hfill\textcolor{gray600}{dta · xlsx · csv}};
+\node[folder, below=8pt of f2.south west, anchor=north west] (f3)
+  {\textbf{\textcolor{seablue}{03\_代码/}}\hfill\textcolor{gray600}{do · py · R}};
+\node[folder, below=8pt of f3.south west, anchor=north west] (f4)
+  {\textbf{\textcolor{seablue}{04\_写作/}}\hfill\textcolor{gray600}{docx · md · tex}};
+\begin{scope}[on background layer]
+  \node[draw=seablue, line width=1.1pt, rounded corners=7pt,
+        fill=cream, inner sep=14pt,
+        fit=(title)(f1)(f4)] {};
+\end{scope}
+\end{tikzpicture}
+\end{document}

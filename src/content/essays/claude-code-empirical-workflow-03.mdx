@@ -1,0 +1,77 @@
+---
+title: "Claude Code 实证研究全流程（三）：文献检索、PDF 获取与引用著录"
+description: "照着一份完整的操作记录走完文献调研：用 review-gen 按期刊分级检索英文顶刊，换检索路径查中文研究现状，再把引用按 GB/T 7714 著录并逐条核对。检索、下载、著录交给 Claude Code，方向判断留在研究者手里。"
+startDate: 2026-05-29
+updated: 2026-05-29
+type: "essay"
+cover: "../../images/covers/claude-code-empirical-workflow-03@2x.png"
+topics: ["Claude Code", "文献检索", "引用著录", "科研工具"]
+growthStage: "seedling"
+featured: true
+---
+
+<ChapterAudience label="本篇要回答的">
+
+用 review-gen 按期刊分级检索英文顶刊，换一条路径查清中文这边的研究现状，再把选出来的文献按 GB/T 7714 著录并逐条核对，看清文献调研里 Claude Code 加速哪几步、判断为什么仍归研究者。
+
+</ChapterAudience>
+
+<IntroParagraph>
+前两篇把工具定位、流程地图、项目制管理铺好，这一篇进文献调研。开题阶段卡得最久的常常是同一处：知网或 Web of Science 搜一个关键词，几百篇结果摊在面前，不知道下一步该做什么。这一篇照着一份完整的操作记录走完整条链路，用 review-gen 这个插件按期刊分级检索英文顶刊，再换一条路径查中文这边的研究现状，最后把选出来的文献按 GB/T 7714 著录好、逐条核对。检索、下载、著录这些执行交给 Claude Code，哪篇相关、缺口在哪、著录怎么定仍由研究者判断。
+</IntroParagraph>
+
+## 一、review-gen 与按期刊分级的检索
+
+这次会话用的工具叫 **review-gen**，是一个社区第三方插件，作者是 GitHub 用户 harrylee0412。它把文献综述拆成三个子环节交给三个子 agent：openalex-ajg-insights 负责检索，management-review-planner 负责框架规划，management-review-writer 负责撰写，由 review-orchestrator 统一调度。这一篇只用到检索这一支。它不在 Anthropic 官方包里，用它的时候要记着出处，这是第一篇讲过的学术道德的延续，致谢和方法说明里得交代工具来源。
+
+![Skill 机制示意：项目文件夹存这篇论文的上下文，skill 存某类任务的标准流程，Claude Code 装载 skill 后按既定步骤执行](/images/essays/claude-code-empirical-workflow-03-skill@2x.png)
+
+检索这一支按期刊分级来取文献。它依据的是英国特许商学院协会，简称 Chartered ABS，发布的 **Academic Journal Guide 2024**，这份指南收录 1822 本商科与管理学期刊，分 4*、4、3、2、1 五档，4* 为世界顶级。openalex-ajg 默认只取 **3 档及以上**的期刊，等于把检索范围限定在领域顶刊。底层数据来自 OpenAlex，一个免费的开放学术数据库，标准索引约 2.7 亿篇，算上扩展数据接近 4.77 亿篇，查询不需要密钥。
+
+## 二、检索口径的两次调整
+
+第一次检索用的词是 "patient capital ESG"，只命中 6 篇，而且多数偏题。原因在英文实证文献里，"耐心资本"很少直接出现，它通常被操作化为长期机构投资者或投资者持有期。换上 long-term institutional investor、institutional ownership horizon 这类词，命中量才增加。
+
+检索脚本默认按发表日期排序，返回的都是最新文献，领域里高被引的奠基性文献没有进入前列，比如 Dyck、Lins、Roth、Wagner 2019 年发在 Journal of Financial Economics 的那篇国际证据，就没有出现在结果里。定位到这一点之后，绕开默认脚本，直接调用底层检索接口，把排序口径改成**按被引量降序**，奠基文献进入结果。去重后得到 482 篇，再按"长期或机构投资者与 ESG、CSR 的交集"这条主题打分，筛到**最相关的 10 篇**。
+
+检索词怎么扩、按什么排序、怎么去重打分，这些由 Claude Code 执行；而把"耐心资本"对应到长期机构投资者这个操作化口径、判定高被引的奠基文献该优先于最新文献，这两处由研究者定。工具承担执行，方向由人把关，跟前两篇是同一条原则。
+
+![Claude Code 用 review-gen 按主题聚类列出的耐心资本与 ESG 顶刊文献：四个子主题下共 10 篇，含 Dyck、Chen、Nofsinger、Dimson 等真实条目](/images/essays/cc03-search@2x.png)
+
+## 三、PDF 获取的命中程度
+
+选出 10 篇之后，先下其中机构投资者那一组的 4 篇。用的是 paper-download-mcp，按 DOI 去各开放获取源取全文。结果是 **4 篇里 3 篇拿到完整正文**：Nofsinger 等发在 Journal of Corporate Finance 的那篇先到，Dyck 等那篇随后补回，Chen、Dong、Lin 的 JFE 论文走的是南洋理工大学机构知识库的开放提交版；剩下 Dimson、Karakaş、Li 发在 Review of Financial Studies 的 Active Ownership，只从剑桥大学仓库拿到一页封面，正文不在，出版商 OUP 的 PDF 链接被 Cloudflare 的防护层挡住。
+
+下载过程中遇到一处合规限制。尝试转去 sci-hub 取那篇被拦的全文时，Claude Code **拒绝执行**，理由是绕过出版商访问控制属于合规问题、未经授权不做。这一限制与第一篇讲的学术道德一致。
+
+经管学生在这一步的现实是**核心文献多半闭源**，AER、JF、RFS、SMJ 这些顶刊，公开库里常常给不出可下载的全文，OpenAlex 标了开放获取也未必有有效链接。剩下拿不到的，终极路径是学校图书馆代理，对几乎所有 DOI 都能命中，但它要个人账号登录学校 EZproxy，这一步 Claude Code 替不了，能做的是把缺的文献整理成一份按期刊分组的待下载清单，研究者抽时间跟图书馆批量取。
+
+![Claude Code 下载文献 PDF 的结果：4 篇里 3 篇拿到完整正文，Dimson 那篇只得到剑桥仓库的一页封面，出版商链接被 Cloudflare 拦截](/images/essays/cc03-download@2x.png)
+
+## 四、中文文献与研究现状
+
+英文顶刊查完，接着查中文这边的情况。这一步不能再用刚才那条路径，OpenAlex 对中文 CSSCI 期刊覆盖很差，直接搜"耐心资本"返回的多是误匹配，连"耐碳青霉烯""耐心做工作"都被算了进来。换成 **research-lookup** 这个 skill，它走 Perplexity 的学术检索接口，对中文文献覆盖更全。
+
+截至 2026 年 4 月，CSSCI 里以"耐心资本"为关键词的论文已有数百篇，但《经济研究》《管理世界》《金融研究》这三大经管顶刊还没有发表以"耐心资本"为主题的论文。这是一个明确的**研究缺口**信号，用 A 股数据做严格因果识别的"耐心资本对 ESG 表现影响"的实证，目前仍属稀缺。
+
+这个现象有它的时间背景。"耐心资本"是近两年才在国内学界兴起的研究主题，相关论文集中在 2024 到 2025 年，多数还停留在概念探讨与初步机制分析，严格的 ESG 实证因果识别留着空白。国内文献眼下走两条替代路径，一条是耐心资本对企业创新、新质生产力、韧性的影响，这条研究数量最多；另一条是长期或稳定型机构投资者对 ESG、绿色创新的影响，这条与国际上 Bushee 的机构投资者分类框架对接。
+
+research-lookup 在这一步也有它的边界。Perplexity 对中文 CSSCI 期刊的元数据抓取并不可靠，返回结果里不少作者、期刊、年份标着 Unknown 或 Likely，这些候选必须回知网逐条核对才能用。它给的是一个比手检更广的候选池，可信与否的判断仍落在研究者这边。
+
+## 五、GB/T 7714 著录与逐条核对
+
+选定的文献写进论文要符合著录规范。国内经管论文通常用 **GB/T 7714-2015 顺序编码制**，即正文按引用先后用数字编号、文末按编号列出条目。把这件事交给 Claude Code，它先拉 OpenAlex 取每篇的卷、期、页码，再写一个脚本按规范批量生成条目。
+
+批量生成之后有几处要修。一处是年份，OpenAlex 记录的 publication_year 用在线优先发表年，跟期刊纸本封面年常差一年，金融期刊尤其典型，Dyck 那篇在线发表是 2018、封面年是 2019，著录得用封面年。另一处是题名里残留的 HTML 斜体标签，要清掉。还有题名大小写，GB/T 7714 要求原文照录，而 Review of Financial Studies 的原刊题名用首字母大写的 Title Case、Journal of Financial Economics 用句子格，OpenAlex 的元数据在这里有歧义，得回原刊逐篇确认。
+
+核对的做法是把脚本输出和文档里手写的版本**逐条比对**，那一轮比出 6 处不一致，再逐条判定哪边对：题名大小写一律以原刊为准，纠正了脚本和手写各自的错处，最后改了 3 处，重跑脚本直到两边完全一致。著录格式机器能批量做，但哪一年是封面年、哪种大小写对，得研究者按原刊定。著录错配和引文编号错乱，是第一篇提过的常见错误。
+
+![Claude Code 按 GB/T 7714-2015 顺序编码制生成的 10 条参考文献，以及封面年与题名大小写的修正说明](/images/essays/cc03-gbt7714@2x.png)
+
+## 六、与系列主线的呼应
+
+回到这条系列的主线。文献这一环里，Claude Code 把检索、下载、著录这些执行加速了，**方向上的判断从头到尾在研究者这边**：把"耐心资本"映射成什么检索词、按日期还是按被引量取、三大顶刊的空白该怎么读成研究缺口、著录该用哪一年哪种大小写，都是人下的。这跟第一篇讲 Claude Code 与 Stata 同级、一起跑同一份任务再交叉校验是同一套方法，检索出来的候选要跟自己读过的对一遍，著录出来的条目要回原刊核一遍，两端对上结果才可靠。
+
+<SeriesNav
+  prevHref="/claude-code-empirical-workflow-02" prevLabel="第二讲" prevTitle="初始设定与项目制管理"
+  nextHref="/claude-code-empirical-workflow-04" nextLabel="第四讲" nextTitle="从研究计划到回归与稳健性" />

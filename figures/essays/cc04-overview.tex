@@ -1,0 +1,34 @@
+\documentclass[border=14pt]{standalone}
+\usepackage{fontspec}\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}\setmainfont{Times New Roman}
+\usepackage{tikz}\usetikzlibrary{matrix}
+\definecolor{seablue}{HTML}{04A5BB}
+\definecolor{leafgreen}{HTML}{4E8A5F}
+\definecolor{crimson}{HTML}{960462}
+\definecolor{gray800}{HTML}{4A4A46}
+\definecolor{gray600}{HTML}{73706D}
+\definecolor{tinted}{HTML}{E6E3E1}
+\begin{document}
+\begin{tikzpicture}
+\matrix (m) [matrix of nodes,
+  nodes={anchor=north west, align=left, draw=tinted, line width=0.6pt,
+         inner xsep=8pt, inner ysep=8pt, minimum height=1.15cm, text height=1.6ex, text depth=0.4ex, font=\footnotesize, text=gray800},
+  column 1/.style={nodes={text width=2.6cm}},
+  column 2/.style={nodes={text width=4.4cm}},
+  column 3/.style={nodes={text width=5.2cm}},
+  row sep=-0.6pt, column sep=-0.6pt,
+]{
+  |[fill=gray800,text=white,font=\bfseries\footnotesize]| 流程 &
+  |[fill=crimson,text=white,font=\bfseries\footnotesize]| 研究者（定方向、做判断） &
+  |[fill=seablue,text=white,font=\bfseries\footnotesize]| Claude Code（执行、整理） \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}数据获取} & 选数据源 · 守合规边界（robots.txt / 频率 / 版权） & 写爬虫脚本 · 整理文件 · 按目录命名落盘 \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}数据清洗} & 定合并键 · 缺失处理规则 · 变量口径 & 写清洗 do · 合并去重 · 构造衍生变量 \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}描述性统计} & 判读样本面貌 · 决定要不要回调清洗 & 算均值方差极值 · 画分布图 · 出 LaTeX / docx 表 \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}主回归} & 定 Y / X / 控制变量 / 固定效应 / 聚类 & 写回归代码 · 执行出表 · 起草系数解读 \\
+  |[fill=seablue!9]| {\bfseries\color{seablue}稳健性与异质性} & 选关键检验 · 立分组的机制假设 · 判分歧 & 批量跑多设定 · 汇总成表 · 起草段落 \\
+  |[fill=leafgreen!11]| {\bfseries\color{leafgreen}结果写作} & 审定终稿 · 下最终结论 & 套实证论文语气成文 · 控术语 · 格式自检 \\
+};
+\node[anchor=north west, font=\footnotesize, text=gray600] at ([yshift=-11pt]m.south west)
+  {越靠近定方向，判断越归研究者；越靠近做执行，Claude Code 接手越彻底};
+\end{tikzpicture}
+\end{document}

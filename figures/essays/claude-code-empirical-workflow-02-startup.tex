@@ -1,0 +1,38 @@
+\documentclass[border=16pt]{standalone}
+\usepackage{fontspec}\usepackage{xeCJK}
+\setCJKmainfont{LXGW WenKai Light}\setmainfont{Times New Roman}
+\usepackage{tikz}\usetikzlibrary{positioning, arrows.meta}
+\definecolor{seablue}{HTML}{04A5BB}\definecolor{crimson}{HTML}{960462}
+\definecolor{leafgreen}{HTML}{4E8A5F}
+\definecolor{gray800}{HTML}{4A4A46}\definecolor{gray600}{HTML}{73706D}
+\definecolor{tinted}{HTML}{E6E3E1}
+\begin{document}
+\begin{tikzpicture}[font=\small, node distance=8pt,
+  tier/.style={draw, line width=0.9pt, rounded corners=5pt, inner sep=10pt,
+               text width=10.4cm, align=left, anchor=north, fill=white},
+  badge/.style={circle, draw=none, fill=#1, text=white, font=\bfseries\footnotesize,
+                minimum size=20pt, inner sep=0pt},
+  arr/.style={-{Stealth[length=5pt]}, line width=0.8pt, draw=gray600}]
+\node[tier, draw=tinted] (s1) at (0,0)
+ {{\bfseries\color{gray800}系统提示}\;\textcolor{gray600}{\footnotesize Anthropic 内置，改不了}};
+\node[badge=gray600, anchor=center] at (s1.north west) {1};
+\node[tier, draw=tinted, below=of s1] (s2)
+ {{\bfseries\color{gray800}当前环境}\;\textcolor{gray600}{\footnotesize 所在目录 · git 状态 · 文件夹里有哪些文件}};
+\node[badge=gray600, anchor=center] at (s2.north west) {2};
+\node[tier, draw=seablue, fill=seablue!8!white, below=of s2] (s3)
+ {{\bfseries\color{seablue}CLAUDE.md}\;\textcolor{gray800}{\footnotesize 从当前目录向上递归查找，各层级全量叠加}};
+\node[badge=seablue, anchor=center] at (s3.north west) {3};
+\node[tier, draw=leafgreen, fill=leafgreen!9!white, below=of s3] (s4)
+ {{\bfseries\color{leafgreen}memory/MEMORY.md}\;\textcolor{gray800}{\footnotesize 读前 200 行 / 25KB，谁先到取谁}};
+\node[badge=leafgreen, anchor=center] at (s4.north west) {4};
+\node[tier, draw=tinted, below=of s4] (s5)
+ {{\bfseries\color{gray800}.claude/settings.json}\;\textcolor{gray600}{\footnotesize 你配置的权限与钩子}};
+\node[badge=gray600, anchor=center] at (s5.north west) {5};
+\draw[arr] (s1.south) -- (s2.north);
+\draw[arr] (s2.south) -- (s3.north);
+\draw[arr] (s3.south) -- (s4.north);
+\draw[arr] (s4.south) -- (s5.north);
+\node[font=\footnotesize, text=crimson, anchor=north west] at ([yshift=-12pt]s5.south west)
+  {这五项读完约占上下文 4\%；你还没开口，它已经掌握了项目背景};
+\end{tikzpicture}
+\end{document}
