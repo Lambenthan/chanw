@@ -1,16 +1,19 @@
 #!/usr/bin/env node
 /**
- * 拉 GitHub Search API 的 AI 类 trending 仓库，append 进 feed-raw.json。
+ * 抓 github.com/trending（GitHub 官方算法选的当日 / 本周热门），append 进 feed-raw.json。
  *
- * 为什么不放 feed-sources.yml: GitHub Search 不是 RSS/HTML 抓取，是 API 查询;
- * 跟现有 extract-feed.mjs 的 type 体系（rss/html/browser）不兼容，单独脚本更清晰。
+ * 设计哲学（关键）：
+ *   不用 topic 白名单查询。topic 是发布者手贴的标签，要 2-3 个月才规范化，
+ *   新范式来了根本查不到（确认偏差）。改成直接吃 GitHub 官方 trending 算法的
+ *   结果——它综合 star velocity 选出"这两天真的在爆"的项目，零主观。
  *
- * 运行顺序：extract-feed → extract-github → enrich → score → convert
+ *   AI 相关性过滤交给下游 score-and-tag.mjs：它会把非 AI 项目打成"其他"分类
+ *   丢掉。所以这里 trending 上的 CRM / 教程 / 英语学习等非 AI repo 抓进来也无妨，
+ *   评分阶段自动滤掉。我们只负责"把 GitHub 认为在爆的都端上来"。
  *
- * GITHUB_TOKEN env (可选): 设了 rate limit 5000/hr 否则 60/hr。GHA 自带 GITHUB_TOKEN。
+ * 流程顺序：extract-feed → extract-github → enrich → score → convert
  *
- * AI 主题列表：选 8 个高 signal 主题。每个主题查近 6 个月新创建 + ⭐≥200 的仓库 top 25。
- * 去重后预估 100-200 个新条目/次。
+ * GITHUB_TOKEN env (可选): 设了 API 补全走 5000/hr 否则 60/hr。GHA 自带。
  */
 
 import { promises as fs } from "node:fs";
@@ -23,89 +26,106 @@ const projectRoot = path.resolve(__dirname, "..", "..");
 const FEED_RAW = path.join(projectRoot, "src/data/generated/feed-raw.json");
 
 const TOKEN = process.env.GITHUB_TOKEN;
+const UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36";
 
-// AI 相关主题，覆盖 LLM / Agent / RAG / 生成式 / Claude Code / Computer Use
-const TOPICS = [
-  "llm",
-  "agent",
-  "rag",
-  "ai-agent",
-  "generative-ai",
-  "claude-code",
-  "ai-tools",
-  "computer-use",
+// 抓 daily + weekly 两个窗口。daily 抓最新爆点，weekly 抓持续热度，并集去重。
+const TRENDING_PAGES = [
+  "https://github.com/trending?since=daily",
+  "https://github.com/trending?since=weekly",
 ];
 
-// 近 6 个月创建 + ⭐ ≥ 200 才录入（过滤 vaporware 与未启动项目）
-const SINCE_MONTHS = 6;
-const MIN_STARS = 200;
-const PER_TOPIC = 25;
-
-const sinceDate = new Date(Date.now() - SINCE_MONTHS * 30 * 86400 * 1000)
-  .toISOString()
-  .slice(0, 10);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function hashId(s) {
   return createHash("sha256").update(s).digest("hex").slice(0, 16);
 }
 
-async function searchTopic(topic) {
-  const q = `topic:${topic}+created:>=${sinceDate}+stars:>=${MIN_STARS}`;
-  const url = `https://api.github.com/search/repositories?q=${q}&sort=stars&order=desc&per_page=${PER_TOPIC}`;
+/** 从 trending HTML 抽 owner/repo 列表（h2 锚定，避开 sponsor 链接）。 */
+async function scrapeTrending(url) {
+  const res = await fetch(url, { headers: { "User-Agent": UA } });
+  if (!res.ok) {
+    console.warn(`[github] trending ${url} HTTP ${res.status}`);
+    return [];
+  }
+  const html = await res.text();
+  const articles = html.match(/<article class="Box-row">[\s\S]*?<\/article>/g) ?? [];
+  const repos = [];
+  for (const a of articles) {
+    const h2 = a.match(/<h2[^>]*>([\s\S]*?)<\/h2>/);
+    if (!h2) continue;
+    const m = h2[1].match(/href="\/([^"]+)"/);
+    if (!m) continue;
+    const fullName = m[1].trim().replace(/\s+/g, "");
+    // 必须是 owner/repo 两段式
+    if (!/^[^/]+\/[^/]+$/.test(fullName)) continue;
+    repos.push(fullName);
+  }
+  return repos;
+}
+
+/** 用 GitHub API 补全单个 repo 的 stars / 描述 / 语言 / pushed_at。 */
+async function fetchRepoMeta(fullName) {
   const headers = {
     "User-Agent": "chanw-feed/1.0",
     Accept: "application/vnd.github+json",
   };
   if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
-
-  const res = await fetch(url, { headers });
+  const res = await fetch(`https://api.github.com/repos/${fullName}`, { headers });
   if (!res.ok) {
-    console.warn(`[github] topic="${topic}" HTTP ${res.status}`);
-    return [];
+    if (res.status === 403) console.warn(`[github] API rate-limited at ${fullName}`);
+    return null;
   }
-  const data = await res.json();
-  return data.items ?? [];
+  return res.json();
 }
 
 async function main() {
-  const allRepos = new Map(); // dedupe by html_url
-
-  for (const topic of TOPICS) {
-    const items = await searchTopic(topic);
-    let added = 0;
-    for (const r of items) {
-      if (allRepos.has(r.html_url)) continue;
-      allRepos.set(r.html_url, {
-        source: "github-trending",
-        sourceName: "GitHub Trending",
-        id: hashId(r.html_url),
-        // title 形态：`owner/repo · 描述（限 100 字）`
-        title: r.description
-          ? `${r.full_name} · ${r.description.slice(0, 100)}`
-          : r.full_name,
-        url: r.html_url,
-        summary: r.description ?? "",
-        category: r.language ?? "",
-        // publishedAt 用 pushed_at（最近活动）；GitHub trending 上看的就是"活跃"
-        publishedAt: r.pushed_at,
-        discoveredAt: new Date().toISOString(),
-        // 额外 GitHub-specific 字段，UI 显示时可拿
-        stars: r.stargazers_count,
-        repoTopics: r.topics ?? [],
-        owner: r.owner?.login,
-      });
-      added++;
+  // 1. 抓两个 trending 页，并集去重
+  const seen = new Set();
+  const order = [];
+  for (const url of TRENDING_PAGES) {
+    const repos = await scrapeTrending(url);
+    console.log(`[github] ${url}  -> ${repos.length} repos`);
+    for (const r of repos) {
+      if (!seen.has(r)) {
+        seen.add(r);
+        order.push(r);
+      }
     }
-    console.log(`[github] topic="${topic}" got ${items.length}, +${added} new`);
-    // 节流：每 topic 间停 2s，免得撞 rate limit
-    await new Promise((r) => setTimeout(r, 2000));
+    await sleep(1500);
   }
+  console.log(`[github] 并集 ${order.length} 个 unique trending repos`);
 
-  // 读 feed-raw.json，追加去重写回
+  // 2. 逐个补全 meta（节流 GitHub API）
+  const items = [];
+  for (const fullName of order) {
+    const meta = await fetchRepoMeta(fullName);
+    await sleep(TOKEN ? 300 : 1200); // 无 token 时 60/hr，慢点避免 403
+    if (!meta || !meta.html_url) continue;
+    const desc = meta.description ?? "";
+    items.push({
+      source: "github-trending",
+      sourceName: "GitHub Trending",
+      id: hashId(meta.html_url),
+      title: desc ? `${meta.full_name} · ${desc.slice(0, 100)}` : meta.full_name,
+      url: meta.html_url,
+      summary: desc,
+      category: meta.language ?? "",
+      // trending 项目的"时间"用 pushed_at（最近活跃），符合"它正在热"的语义
+      publishedAt: meta.pushed_at,
+      discoveredAt: new Date().toISOString(),
+      stars: meta.stargazers_count,
+      repoTopics: meta.topics ?? [],
+      owner: meta.owner?.login,
+    });
+  }
+  console.log(`[github] 补全 ${items.length} 个 repo meta`);
+
+  // 3. 追加去重写回 feed-raw.json
   const raw = JSON.parse(await fs.readFile(FEED_RAW, "utf8"));
   const existing = Array.isArray(raw) ? raw : raw.items ?? [];
   const existingUrls = new Set(existing.map((e) => e.url));
-  const toAdd = [...allRepos.values()].filter((r) => !existingUrls.has(r.url));
+  const toAdd = items.filter((r) => !existingUrls.has(r.url));
 
   const out = Array.isArray(raw)
     ? [...existing, ...toAdd]
@@ -113,7 +133,7 @@ async function main() {
 
   await fs.writeFile(FEED_RAW, JSON.stringify(out, null, 2));
   console.log(
-    `\n[github] queried ${TOPICS.length} topics, ${allRepos.size} unique repos, ${toAdd.length} new appended to feed-raw.json`,
+    `[github] ${toAdd.length} new appended (${items.length - toAdd.length} 已存在跳过)`,
   );
   console.log(
     `[github] feed-raw.json now has ${Array.isArray(out) ? out.length : out.items.length} items`,
