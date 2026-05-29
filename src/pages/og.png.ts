@@ -203,7 +203,7 @@ export const GET: APIRoute = async function get({ request }) {
                     fontSize: "22px",
                     color: "#4a4a46",
                   },
-                  children: "chanw.studio",
+                  children: "chanw.org",
                 },
               },
               {

@@ -48,7 +48,7 @@ import Spacer from "../../components/mdx/Spacer.astro";
 
 ### News 抓取与 LLM 评分
 
-主页 News 区有 2,500+ 条 AI 行业动态。每 6 小时由 GitHub Actions 自动抓取 OpenAI、Anthropic、Google AI、DeepMind、NVIDIA、Meta AI、Mistral、xAI 等 9 个厂商的发布源（RSS、HTML、Playwright 三套抓取器），并用 <TooltipLink href="https://openrouter.ai/">OpenRouter</TooltipLink> 的免费模型轮询为每条打分 + 写 80–180 字的中文导读。整套 pipeline 的脚本在 `scripts/news/` 下，全部开源。
+News 区收录最近 90 天的 AI 行业动态。每 6 小时由 GitHub Actions 自动抓取 OpenAI、Anthropic、Google AI、DeepMind、NVIDIA、Hugging Face、Mistral、xAI 等厂商发布源，以及 GitHub Trending 上的热门开源项目（RSS、HTML、Playwright 三套抓取器），并用 <TooltipLink href="https://openrouter.ai/">OpenRouter</TooltipLink> 的免费模型轮询为每条打分 + 写 80–180 字的中文导读。整套 pipeline 的脚本在 `scripts/news/` 下，全部开源。
 
 ### Growth Stages
 

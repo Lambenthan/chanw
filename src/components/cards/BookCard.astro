@@ -2,23 +2,29 @@
 const { small, cover, title, subtitle, author, link } = Astro.props;
 import { Icon } from "astro-icon/components";
 import { Image } from "astro:assets";
+
+// 站内书链（/books/...）走 SPA 导航，不新开标签页、不显示外链图标；
+// 仅真正的外部 http(s) 链接才 target=_blank + 外链角标。
+const isExternal = typeof link === "string" && /^https?:\/\//.test(link);
 ---
 
 <a
 	href={link}
-	target="_blank"
-	rel="noopener noreferrer"
+	target={isExternal ? "_blank" : undefined}
+	rel={isExternal ? "noopener noreferrer" : undefined}
 	style="cursor: pointer;"
 >
 	<div class="book-card" data-small={small}>
-		<div class="external-hover-link" data-small={small}>
-			View
-			<Icon
-				name="heroicons:arrow-top-right-on-square-20-solid"
-				size={18}
-				style="position: relative; top: 3px;"
-			/>
-		</div>
+		{isExternal && (
+			<div class="external-hover-link" data-small={small}>
+				View
+				<Icon
+					name="heroicons:arrow-top-right-on-square-20-solid"
+					size={18}
+					style="position: relative; top: 3px;"
+				/>
+			</div>
+		)}
 
 		{
 			cover && (

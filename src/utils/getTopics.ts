@@ -5,7 +5,7 @@ import { slugifyTopic } from "./slugifyTopic";
  * Fetch all content entries that can carry topics, excluding drafts where applicable.
  */
 async function fetchAllContent() {
-  const [essays, notes, patterns, talks, podcasts, now, smidgeons] =
+  const [essays, notes, patterns, talks, podcasts, now, smidgeons, chapters] =
     await Promise.all([
       getCollection("essays", ({ data }) => !data.draft),
       getCollection("notes", ({ data }) => !data.draft),
@@ -14,9 +14,10 @@ async function fetchAllContent() {
       getCollection("podcasts"),
       getCollection("now"),
       getCollection("smidgeons", ({ data }) => !data.draft),
+      getCollection("chapters"),
     ]);
 
-  return [...essays, ...notes, ...patterns, ...talks, ...podcasts, ...now, ...smidgeons];
+  return [...essays, ...notes, ...patterns, ...talks, ...podcasts, ...now, ...smidgeons, ...chapters];
 }
 
 /**
