@@ -1,30 +1,44 @@
 [
 	{
-		"title": "Twenty 开源 Salesforce 替代方案，面向 AI 设计",
-		"url": "https://github.com/twentyhq/twenty",
+		"title": "RuView 利用 WiFi 信号实现实时空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-05-30T12:50:08Z",
+		"date": "2026-05-30T18:45:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code Plugins 官方目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-05-30T18:29:09Z",
 		"group": "gh"
 	},
 	{
 		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
 		"url": "https://github.com/colbymchenry/codegraph",
 		"source": "GitHub Trending",
-		"date": "2026-05-30T12:43:37Z",
+		"date": "2026-05-30T17:55:07Z",
 		"group": "gh"
 	},
 	{
-		"title": "Presenton 开源 AI 演示文稿生成器与 API",
-		"url": "https://github.com/presenton/presenton",
+		"title": "微软开源 AI Agent 治理工具包",
+		"url": "https://github.com/microsoft/agent-governance-toolkit",
 		"source": "GitHub Trending",
-		"date": "2026-05-30T12:40:55Z",
+		"date": "2026-05-30T17:54:58Z",
 		"group": "gh"
 	},
 	{
-		"title": "RuView 利用 WiFi 信号实现实时空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
+		"title": "Stable WorldModel 开源世界模型研究与评测平台",
+		"url": "https://github.com/galilai-group/stable-worldmodel",
 		"source": "GitHub Trending",
-		"date": "2026-05-30T12:33:17Z",
+		"date": "2026-05-30T16:51:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chachamaru127 开源 Claude Code 专用开发工具 Harness",
+		"url": "https://github.com/Chachamaru127/claude-code-harness",
+		"source": "GitHub Trending",
+		"date": "2026-05-30T13:14:05Z",
 		"group": "gh"
 	},
 	{
@@ -49,17 +63,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "BenedictKing 开源 CCX 多模型 API 代理",
-		"url": "https://github.com/BenedictKing/ccx",
+		"title": "dreammis 开源 social-auto-upload 全平台视频自动上传工具",
+		"url": "https://github.com/dreammis/social-auto-upload",
 		"source": "GitHub Trending",
-		"date": "2026-05-30T08:16:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code Plugins 官方目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-05-30T08:11:40Z",
+		"date": "2026-05-30T08:20:30Z",
 		"group": "gh"
 	},
 	{
@@ -77,13 +84,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "微软开源 AI Agent 治理工具包",
-		"url": "https://github.com/microsoft/agent-governance-toolkit",
-		"source": "GitHub Trending",
-		"date": "2026-05-30T05:03:36Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 开源 Claude Code 终端编程 agent",
 		"url": "https://github.com/anthropics/claude-code",
 		"source": "GitHub Trending",
@@ -98,10 +98,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Biohub 开源 ESM 蛋白质语言模型",
-		"url": "https://github.com/Biohub/esm",
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
 		"source": "GitHub Trending",
-		"date": "2026-05-29T21:03:58Z",
+		"date": "2026-05-29T22:56:45Z",
 		"group": "gh"
 	},
 	{
@@ -109,6 +109,13 @@
 		"url": "https://github.com/dograh-hq/dograh",
 		"source": "GitHub Trending",
 		"date": "2026-05-29T17:08:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "revfactory 开源 Harness 元技能，用于设计领域特化 agent 团队",
+		"url": "https://github.com/revfactory/harness",
+		"source": "GitHub Trending",
+		"date": "2026-05-29T17:04:20Z",
 		"group": "gh"
 	},
 	{
@@ -126,10 +133,31 @@
 		"group": "labs"
 	},
 	{
+		"title": "MOSI.AI 与 OpenMOSS 团队开源 MOSS-TTS 系列语音生成模型",
+		"url": "https://github.com/OpenMOSS/MOSS-TTS",
+		"source": "GitHub Trending",
+		"date": "2026-05-29T06:59:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "chen08209 开源 FlClash 跨平台代理客户端",
+		"url": "https://github.com/chen08209/FlClash",
+		"source": "GitHub Trending",
+		"date": "2026-05-29T06:55:30Z",
+		"group": "gh"
+	},
+	{
 		"title": "p-e-w 开源 Heretic 语言模型自动去审查工具",
 		"url": "https://github.com/p-e-w/heretic",
 		"source": "GitHub Trending",
 		"date": "2026-05-29T06:08:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 开源 Agent Skills 仓库",
+		"url": "https://github.com/anthropics/skills",
+		"source": "GitHub Trending",
+		"date": "2026-05-29T02:02:28Z",
 		"group": "gh"
 	},
 	{
@@ -539,13 +567,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "HKUDS 开源 ViMax 智能体视频生成框架",
-		"url": "https://github.com/HKUDS/ViMax",
-		"source": "GitHub Trending",
-		"date": "2026-05-27T08:56:30Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face TRL 开源万亿参数模型的 Delta Weight 同步方案",
 		"url": "https://huggingface.co/blog/delta-weight-sync",
 		"source": "Hugging Face Blog",
@@ -616,13 +637,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Stable WorldModel 开源世界模型研究与评测平台",
-		"url": "https://github.com/galilai-group/stable-worldmodel",
-		"source": "GitHub Trending",
-		"date": "2026-05-26T01:51:37Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 发布 AI Agent 术语表",
 		"url": "https://huggingface.co/blog/agent-glossary",
 		"source": "Hugging Face Blog",
@@ -642,6 +656,20 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-05-22T15:25:59.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "FareedKhan-dev 开源从零训练 LLM 的完整方法",
+		"url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-05-22T04:17:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenBMB 开源 VoxCPM2 多语言语音合成模型",
+		"url": "https://github.com/OpenBMB/VoxCPM",
+		"source": "GitHub Trending",
+		"date": "2026-05-22T03:27:10Z",
+		"group": "gh"
 	},
 	{
 		"title": "Mistral 在 Vibe 中推出远程 agent 功能，基于 Mistral Medium 3.5",
@@ -1323,6 +1351,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 为 Grok 推出连接器功能",
+		"url": "https://x.ai/news/grok-connectors",
+		"source": "xAI",
+		"date": "2026-05-06T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Hugging Face 为 Open ASR 排行榜新增 Benchmaxxer Repellant 机制",
 		"url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
 		"source": "Hugging Face Blog",
@@ -1477,13 +1512,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "byoungd 开源英语学习指南项目 English-level-up-tips",
-		"url": "https://github.com/byoungd/English-level-up-tips",
-		"source": "GitHub Trending",
-		"date": "2026-04-25T05:52:29Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 分享基础设施噪声管理经验",
 		"url": "https://www.anthropic.com/engineering/infrastructure-noise",
 		"source": "Anthropic Engineering",
@@ -1496,13 +1524,6 @@
 		"source": "Anthropic Engineering",
 		"date": "2026-04-24T14:19:43.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "DigitalPlat 开源 FreeDomain 免费域名服务",
-		"url": "https://github.com/DigitalPlatDev/FreeDomain",
-		"source": "GitHub Trending",
-		"date": "2026-04-24T13:50:28Z",
-		"group": "gh"
 	},
 	{
 		"title": "DeepSeek 发布 DeepSeek-V4，支持百万 token 上下文",
