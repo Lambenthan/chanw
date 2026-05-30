@@ -12,7 +12,7 @@ topics: ["硅基社会科学", "中心收缩", "LLM 方差压缩"]
 
 <ChapterAudience>
 
-用标准差与 IQR 量化 silicon polviews 的方差比真实小多少，给出收缩比 0.61。解释 central tendency bias 在 LLM ordinal task 上的形成机制——三层原因分别来自训练分布先验、RLHF 中立偏好与 demographic 画像的 ambiguity。引入 distributional repair（事后再加权）并给出其局限：repair 能对齐 marginal，但个体准确率与 subgroup bias 原封不动。
+用标准差与 IQR 量化 silicon polviews 的方差比真实小多少，给出收缩比 0.61。解释 central tendency bias 在 LLM ordinal task 上的形成机制：三层原因分别来自训练分布先验、RLHF 中立偏好与 demographic 画像的 ambiguity。引入 distributional repair（事后再加权）并给出其局限：repair 能对齐 marginal，但个体准确率与 subgroup bias 原封不动。
 
 </ChapterAudience>
 
@@ -44,7 +44,7 @@ round(c(sd_real = sd_real, sd_silicon = sd_sil, shrink = shrink), 3)
 # sd_real = 1.414, sd_silicon = 0.859, shrink = 0.607
 ```
 
-silicon 的 polviews 标准差是 0.86，真实是 1.41，收缩比 **0.61**。silicon 把 polviews 的离散度压到了真实分布的 61%——分布变窄、质量向 Moderate 一档集中。
+silicon 的 polviews 标准差是 0.86，真实是 1.41，收缩比 **0.61**。silicon 把 polviews 的离散度压到了真实分布的 61%，分布变窄，质量向 Moderate 一档集中。
 
 ---
 
@@ -64,7 +64,7 @@ silicon 的 polviews 标准差是 0.86，真实是 1.41，收缩比 **0.61**。s
 
 <Subtext>表 6.1 · polviews 各档真实 vs silicon 占比及差值。</Subtext>
 
-silicon 把所有非 Moderate 档都缩水，Moderate 一档 +29 个百分点。极端档（Extremely Liberal + Extremely Conservative）silicon 占比 0%，真实 7%。这意味着**政治极化**这一研究主题如果用 silicon sample，结论会完全失真——silicon 根本不会给出极端立场的受访者。
+silicon 把所有非 Moderate 档都缩水，Moderate 一档 +29 个百分点。极端档（Extremely Liberal + Extremely Conservative）silicon 占比 0%，真实 7%。这意味着**政治极化**这一研究主题如果用 silicon sample，结论会完全失真：silicon 根本不会给出极端立场的受访者。
 
 ---
 
@@ -74,15 +74,15 @@ silicon 把所有非 Moderate 档都缩水，Moderate 一档 +29 个百分点。
 
 **第一**：LLM 的训练数据里"自我标识为极端立场"的比例比 GSS 真实分布低。互联网文本里大部分用户在写带政治立场的文章时倾向"理性中立"叙事，"我是 Extremely Liberal"这种直接极端自我标签出现频率低。LLM 在 silicon sampling 时把这种"低先验"作用到每个 persona。
 
-**第二**：LLM 的 RLHF（人类反馈强化学习）训练显式鼓励"中立、平衡、避免极端"表述。这一训练目标在 silicon sampling 时跨任务转移——LLM 倾向于给出"温和的"答案，即使该答案不符合 demographic 信号。
+**第二**：LLM 的 RLHF（人类反馈强化学习）训练显式鼓励"中立、平衡、避免极端"表述。这一训练目标在 silicon sampling 时跨任务转移，LLM 倾向于给出"温和的"答案，即使该答案不符合 demographic 信号。
 
 **第三**：silicon sampling 的 prompt 给的人口学画像没有"政治意识形态强度"的直接线索。LLM 必须从年龄 / 种族 / 地区 / 学历推断，这些 demographic 与"极端档"的相关性统计上确实弱（GSS 真实数据上 demographics 解释 Extremely 档的 R² 不到 0.05），LLM 更倾向于把 ambiguous case 压向众数 Moderate。
 
 ---
 
-## 6.4 Distributional Repair：能修吗
+## 6.4 Distributional Repair 的作用与局限
 
-发现 silicon 有中心收缩后，自然问能不能事后修复。一种思路是 *distributional repair*——把 silicon 的边际分布重新采样到与真实匹配的形状，但保留 silicon 给个体打的相对顺序。具体做法是把 silicon 的 100 个 polviews 排序，按真实分布的分位数重新赋档。
+发现 silicon 有中心收缩后，自然问能不能事后修复。一种思路是 *distributional repair*，把 silicon 的边际分布重新采样到与真实匹配的形状，但保留 silicon 给个体打的相对顺序。具体做法是把 silicon 的 100 个 polviews 排序，按真实分布的分位数重新赋档。
 
 ```r
 # 把 silicon polviews 重新分位赋档
@@ -94,7 +94,7 @@ df$polviews_si_repaired <- cut(rank(df$polviews_si_ord, ties.method = "average")
                                 include.lowest = TRUE, labels = 1:7)
 ```
 
-distributional repair 能把 silicon 的边际分布对齐到真实，但对个体级准确率没改善——repair 后的个体匹配率不变，只是把"全压 Moderate"重新分散开。这种 repair 在"群体级建模"任务上有用（如训练统计模型时需要分布匹配），在"个体级研究"上没用。
+distributional repair 能把 silicon 的边际分布对齐到真实，但对个体级准确率没改善，repair 后的个体匹配率不变，只是把"全压 Moderate"重新分散开。这种 repair 在"群体级建模"任务上有用（如训练统计模型时需要分布匹配），在"个体级研究"上没用。
 
 repair 的根本问题在于 silicon 把 demographics 与 attitude 的关联学得太单一。重新分位赋档只是改变 marginal，没有改变 silicon 对每个 persona 给出的 attitude 排序。如果排序本身就有系统偏差（如把 White Female 排在更民主一端），repair 后这种偏差仍然存在。
 

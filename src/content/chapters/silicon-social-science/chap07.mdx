@@ -16,13 +16,13 @@ topics: ["硅基社会科学", "Prompt 设计", "方法学可复现性"]
 
 </ChapterAudience>
 
-<IntroParagraph>第 3--6 章给出 silicon vs 真实的差距测度，所有数字都基于本书用的特定 prompt。如果换一种 prompt 措辞，silicon 答案会不会显著漂移？这一问题决定了 silicon sample 的方法学**可复现性**，是本章的主题。</IntroParagraph>
+<IntroParagraph>第 3--6 章给出 silicon vs 真实的差距测度，所有数字都基于本书用的特定 prompt。换一种 prompt 措辞后 silicon 答案是否显著漂移，决定了 silicon sample 的方法学**可复现性**，是本章的主题。</IntroParagraph>
 
 ## 7.1 Bisbee 2024 的反例
 
 Bisbee, Clinton, Dorff, Kenkel & Larson 2024 *Political Analysis* 用 ANES feeling thermometer 题（"你对 X 的好感分 0--100"）做 silicon sampling，对比 5 种 prompt 微小变体的结果。结果：把 "You are an American voter" 改成 "Pretend you are an American voter"，让 silicon 对民主党的 feeling thermometer 答案漂移 12 个百分点，对共和党漂移 9 个百分点。这一漂移幅度足以让基于 silicon 的"美国选民对两党感情"主张完全失效。
 
-Bisbee 论文给出的核心方法学诊断：silicon answers 并非受访者的"内在状态"读取，而是 LLM 对 prompt 中**角色框架**的语义反应。同一 persona 在不同 prompt 框架下会给显著不同的答案。
+Bisbee 论文给出的核心方法学诊断：silicon answers 是 LLM 对 prompt 中**角色框架**的语义反应。它读取的是 prompt 框架，不是受访者的"内在状态"，同一 persona 在不同 prompt 框架下会给显著不同的答案。
 
 ---
 
@@ -57,7 +57,7 @@ Step 2: How do those factors typically correlate with the answer?
 Step 3: Therefore, the most likely answer is:"
 ```
 
-要求 LLM 显式给出推理链。社区报告链式推理能略提高个体准确率（5--10 个百分点），但显著放大中心收缩——推理过程让 LLM 更倾向"求稳"。
+要求 LLM 显式给出推理链。社区报告链式推理能略提高个体准确率（5--10 个百分点），但显著放大中心收缩，推理过程让 LLM 更倾向"求稳"。
 
 ### 7.2.4 变体 D：否定校验
 
@@ -92,7 +92,7 @@ API 调用时的 temperature 参数控制采样随机性。temperature = 0 是 d
 
 <Subtext>表 7.1 · temperature 对 silicon polviews 中心收缩比的影响（文献综合）。</Subtext>
 
-随 temperature 升高，shrinkage ratio 逐渐接近 1.0（分布更分散），但代价是 silicon 答案对人口学画像的**响应度**下降——高 temperature 下 LLM 给的答案更随机、更不依赖 demographics。第 8 章会用本书的 silicon answers 做 temperature ablation 实验。
+随 temperature 升高，shrinkage ratio 逐渐接近 1.0（分布更分散），但代价是 silicon 答案对人口学画像的**响应度**下降，高 temperature 下 LLM 给的答案更随机、更不依赖 demographics。第 8 章会用本书的 silicon answers 做 temperature ablation 实验。
 
 ---
 

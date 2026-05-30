@@ -1,5 +1,5 @@
 ---
-title: "Permutation 推断与 p 值 —— RMSPE 比值与过滤敏感性"
+title: "Permutation 推断与 p 值：RMSPE 比值与过滤敏感性"
 description: "Abadie 2010 的 RMSPE 比值 + pre-MSPE 过滤推断流程。tidysynth 给 p = 0.38 vs Abadie 原文 0.026，差异是 SC 推断的不变性问题，不是代码错误。"
 book: "synthetic-control"
 chapterNumber: 4
@@ -38,13 +38,13 @@ $$
 
 其中 $\widehat{\tau}_{it}$ 是 SC 算出的 gap，$T_0$ 是 pre-period 长度（本数据 19），$T - T_0$ 是 post-period 长度（本数据 12）。把 $R$ 而不是 raw post gap 当统计量的原因是：raw gap 受 SC 拟合质量影响（fit 差的单元 gap 自动大），$R$ 把 fit 质量（pre-RMSPE）作为分母规范化。
 
-### 4.1.1 为什么需要 pre-MSPE filter
+### 4.1.1 pre-MSPE filter 的必要性
 
-把 38 个 donor 都当 placebo 比较时，会出现两类极端。
+把 38 个 donor 都当 placebo 比较时，会在两端各出现一类极端。
 
-第一类，pre-MSPE 极大的 donor。这些是 fit 极差的 placebo（如 Kentucky、Virginia 等烟草种植大州），SC 拟合在 pre-period 就已经偏离 5 倍以上，post-period 的"gap"基本是拟合误差顺延，不是"假处理效应"。Abadie 2010 论文 Figure 7–8 把这些州明确删除（设阈值 $k$，pre-MSPE > $k$ × California pre-MSPE 即删）。
+一端是 pre-MSPE 极大的 donor。这些是 fit 极差的 placebo（如 Kentucky、Virginia 等烟草种植大州），SC 拟合在 pre-period 就已经偏离 5 倍以上，post-period 的"gap"基本是拟合误差顺延，并非"假处理效应"。Abadie 2010 论文 Figure 7–8 把这些州明确删除（设阈值 $k$，pre-MSPE > $k$ × California pre-MSPE 即删）。
 
-第二类，pre-MSPE 极小的 donor。这些是 fit 极好但 post-period 突然偏离的 placebo（在 tidysynth 实现下，Minnesota 的 pre-MSPE 接近 $10^{-5}$，对应 RMSPE 几乎为零）。极小的分母让 $R_i$ 飙到几千甚至几百万。这种 placebo 的 $R$ 是数值不稳定造成的，不应进入 p 值计算。
+另一端是 pre-MSPE 极小的 donor。这些是 fit 极好但 post-period 突然偏离的 placebo（在 tidysynth 实现下，Minnesota 的 pre-MSPE 接近 $10^{-5}$，对应 RMSPE 几乎为零）。极小的分母让 $R_i$ 飙到几千甚至几百万。这种 placebo 的 $R$ 是数值不稳定造成的，不应进入 p 值计算。
 
 ### 4.1.2 在 California 数据上的过滤分级
 
@@ -82,25 +82,25 @@ California 在过滤后的 RMSPE 比值排名第 13，对应 p 值 0.38（按 $k
 
 <Subtext>图 4.2 · 过滤后 RMSPE 比值排序与 California 位置。</Subtext>
 
-## 4.2 p 值与论文报告的差异如何解读
+## 4.2 p 值与论文报告差异的解读
 
-Abadie 2010 论文报的 $p = 1/39 \approx 0.026$ 与本章用 tidysynth 复现得到的 $p \approx 0.38$ 是同一份数据上的两个数字，差异是方法学实现而非"对错"问题。理解这个差异比死磕出统一数字更有教学意义。
+Abadie 2010 论文报的 $p = 1/39 \approx 0.026$ 与本章用 tidysynth 复现得到的 $p \approx 0.38$ 是同一份数据上的两个数字，差异来自方法学实现而非"对错"问题。理解这个差异比死磕出统一数字更有教学意义。
 
-第一，预测器权重 $v$ 的求解器。Abadie 原论文用 MATLAB 的 fmincon，tidysynth 调 R 的 ipop（二次规划求解）。两个求解器在 $v$ 的局部最优解上略有不同。这一差异在主估计（点估计 $-18.85$ vs Abadie 原文 $-19$）上很小，但在 placebo 的 38 次重跑里被放大，导致若干 placebo 州的 pre-MSPE 在两种实现下差异显著。
+差异的第一个来源是预测器权重 $v$ 的求解器。Abadie 原论文用 MATLAB 的 fmincon，tidysynth 调 R 的 ipop（二次规划求解）。两个求解器在 $v$ 的局部最优解上略有不同。这一差异在主估计（点估计 $-18.85$ vs Abadie 原文 $-19$）上很小，但在 placebo 的 38 次重跑里被放大，导致若干 placebo 州的 pre-MSPE 在两种实现下差异显著。
 
-第二，placebo 集合的初始化。tidysynth 用同一组预测器跑所有 placebo，原论文里有些 sensitivity choices 没全部公开（如对每个 placebo 单独 tune $v$ 的方式）。
+第二个来源是 placebo 集合的初始化。tidysynth 用同一组预测器跑所有 placebo，原论文里有些 sensitivity choices 没全部公开（如对每个 placebo 单独 tune $v$ 的方式）。
 
-第三，min pre-MSPE 过滤。Abadie 论文的 $k = 20$ filter 在原始实现下让 California 排到第一名（$p = 1/39$），但 tidysynth 的过滤后 California 排第 13，p $\approx 0.38$。
+第三个来源是 min pre-MSPE 过滤。Abadie 论文的 $k = 20$ filter 在原始实现下让 California 排到第一名（$p = 1/39$），但 tidysynth 的过滤后 California 排第 13，p $\approx 0.38$。
 
-这三个原因加起来，本书呈现的 p 值在 0.38 左右，与论文报的 0.026 有数量级差异。读者应当把这一差异当作 SC 推断对实现敏感的真实证据来理解。Bottmer, Imbens, Spiess & Warnick 2024 等近年文献明确把 SC inference 的不变性失败作为一个开放问题讨论。本章给出的 0.38 与论文 0.026 之间的差异，正是这一开放问题在实操中的体现。
+这三个来源叠加，本书呈现的 p 值在 0.38 左右，与论文报的 0.026 有数量级差异。读者应当把这一差异当作 SC 推断对实现敏感的真实证据来理解。Bottmer, Imbens, Spiess & Warnick 2024 等近年文献明确把 SC inference 的不变性失败作为一个开放问题讨论。本章给出的 0.38 与论文 0.026 之间的差异，正是这一开放问题在实操中的体现。
 
-## 4.3 为什么仍要做 permutation inference
+## 4.3 permutation inference 的保留价值
 
 虽然 p 值依实现而变，permutation inference 仍是 SC 标准工具，原因有两条。
 
-第一，permutation 给的是相对排序，对处理效应是否"非典型"的方向性回答仍然可靠。在 California 数据上，无论用 tidysynth 还是原论文，California 的 RMSPE 比值都落在 placebo 分布的左尾（这一点没有争议）；只是"排第几位"的具体数字对实现敏感。
+其一，permutation 给的是相对排序，对处理效应是否"非典型"的方向性回答仍然可靠。在 California 数据上，无论用 tidysynth 还是原论文，California 的 RMSPE 比值都落在 placebo 分布的左尾（这一点没有争议）；只是"排第几位"的具体数字对实现敏感。
 
-第二，permutation inference 不依赖大样本渐近，对单 treated unit + 38 donor 这种小规模面板可用。其他基于 bootstrap 或解析 SE 的方法（如 GSC、MC-NNM）在单 treated unit 下都有相当强的小样本失效风险（第 5 章会展示），permutation 仍是单 treated 场景下最稳的推断工具。
+其二，permutation inference 不依赖大样本渐近，对单 treated unit + 38 donor 这种小规模面板可用。其他基于 bootstrap 或解析 SE 的方法（如 GSC、MC-NNM）在单 treated unit 下都有相当强的小样本失效风险（第 5 章会展示），permutation 仍是单 treated 场景下最稳的推断工具。
 
 <Pitfall title="把 SC 的 p 值当成最终结论">
 
@@ -123,7 +123,7 @@ SC 的 permutation p 值对预测器配置、求解器、placebo 过滤标准都
 | 第 3 章  | In-time placebo    | $-4.75$  | 诊断量              | SC 拟合内部无偏       |
 | 第 4 章  | Permutation 推断   | —        | p = 0.38 ($k = 20$) | 可交换性 + 公平 fit   |
 
-<Subtext>表 4.2 · 累积对比表 —— 第 4 章。tidysynth 实现下 p = 0.38，与 Abadie 论文 0.026 的差异是 SC inference 实现敏感性的真实体现。</Subtext>
+<Subtext>表 4.2 · 累积对比表（第 4 章）。tidysynth 实现下 p = 0.38，与 Abadie 论文 0.026 的差异是 SC inference 实现敏感性的真实体现。</Subtext>
 
 ---
 

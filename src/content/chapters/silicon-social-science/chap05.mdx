@@ -12,11 +12,11 @@ topics: ["AI 方法论", "LLM 问卷", "子群偏差"]
 
 <ChapterAudience>
 
-把 silicon 与真实回答按 race × sex 分组，识别哪些子群偏差最严重、偏向哪个方向。White Female 子群上 silicon 平均偏民主党 1.24 档，这是本章给出的本书第三条关键发现。LLM 训练数据的"种族 × 性别 × 党派"先验是机制根源。
+把 silicon 与真实回答按 race × sex 分组，识别哪些子群偏差最严重、偏向哪个方向。White Female 子群上 silicon 平均偏民主党 1.24 档，这是本章给出的本书第三条发现。LLM 训练数据的"种族 × 性别 × 党派"先验是机制根源。
 
 </ChapterAudience>
 
-<IntroParagraph>第 4 章给出三题的总体准确率。本章把 100 persona 切到 race × sex 的 6 个子群上，逐组看 silicon 表现，识别偏差不是均匀分布这一现象。这是 silicon sampling 文献里被反复提及的 subgroup representativeness 问题，也是用 silicon sample 做 policy evaluation 时最危险的雷区。</IntroParagraph>
+<IntroParagraph>第 4 章给出三题的总体准确率。本章把 100 persona 切到 race × sex 的 6 个子群上，逐组看 silicon 表现，识别偏差不是均匀分布这一现象。这是 silicon sampling 文献里被反复提及的 subgroup representativeness 问题，也是用 silicon sample 做 policy evaluation 时最容易出错的环节。</IntroParagraph>
 
 ## 5.1 Race × Sex 六个子群的 ordinal bias
 
@@ -53,7 +53,7 @@ topics: ["AI 方法论", "LLM 问卷", "子群偏差"]
 
 ---
 
-## 5.3 子群偏差为什么是政策评估的红线
+## 5.3 子群偏差对政策评估研究主张的影响
 
 把 silicon sample 用于"X 政策对各人口学群体的影响如何"这类研究时，子群偏差直接决定研究主张是否成立。如果 silicon 在 White Female 上把 1.24 档党派偏左，那基于 silicon 做的"白人女性对 X 政策的态度"研究主张就会系统性高估民主党立场，进而误判该群体的政治意图。
 
@@ -73,11 +73,11 @@ silicon sample 在群体级 TVD 0.30 看起来"接近真实"，但在 White Fema
 
 ---
 
-## 5.4 偏差的方向是 LLM 训练分布的影像
+## 5.4 偏差方向反映 LLM 的训练分布
 
-White Female 偏左 1.24 党档不是 silicon"故意"，而是 LLM 的训练分布让它默认把白人女性绑定到自由派民主党。LLM 的训练数据来自互联网文本——Reddit、Twitter、新闻评论等渠道里"白人女性"的语境往往伴随城市中产、高学历、自由派标签。LLM 在 silicon sampling 时不自觉地把这种语境先验作用到每个 White Female persona 上。
+White Female 偏左 1.24 党档源自 LLM 的训练分布，它默认把白人女性绑定到自由派民主党，并非 silicon 有意为之。LLM 的训练数据来自互联网文本，Reddit、Twitter、新闻评论等渠道里"白人女性"的语境往往伴随城市中产、高学历、自由派标签。LLM 在 silicon sampling 时不自觉地把这种语境先验作用到每个 White Female persona 上。
 
-这一现象与心理学的 implicit association 理论高度对应：LLM 的"种族 × 性别 × 立场"关联是其训练分布的 implicit average。把 silicon 看成"客观推断"是误读，更准确的表述是"LLM 的 implicit demographic priors 的反映"。
+这一现象与心理学的 implicit association 理论高度对应：LLM 的"种族 × 性别 × 立场"关联是其训练分布的 implicit average。silicon 给出的回答，反映的是 LLM 的 implicit demographic priors。把它当成对该 persona 的客观推断会误读结果。
 
 ### 5.4.1 把六组偏差用作 silicon 诊断卡
 

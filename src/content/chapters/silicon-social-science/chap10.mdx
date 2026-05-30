@@ -12,13 +12,13 @@ topics: ["硅基社会科学", "方法论决策树", "学派未来"]
 
 <ChapterAudience>
 
-把前九章 8 个诊断指标合并为终极对照表，给出 silicon sample 的完整体检方案。对照"硅基社会学派"与"人格因果学派"——研究真人 vs 研究 LLM 的方法学平行。列出本书未覆盖的 silicon sampling 议题：fine-tuning、多语言、policy intervention 模拟。给出未来 2--3 年学派研究的具体方向。
+把前九章 8 个诊断指标合并为终极对照表，给出 silicon sample 的完整体检方案。对照"硅基社会学派"与"人格因果学派"，即研究真人与研究 LLM 的方法学平行。列出本书未覆盖的 silicon sampling 议题：fine-tuning、多语言、policy intervention 模拟。给出未来 2--3 年学派研究的具体方向。
 
 </ChapterAudience>
 
 <IntroParagraph>前九章在 100 persona × 3 题这一份数据上把 silicon sampling 的 8 个诊断维度过了一遍。本章把所有结果合并成"silicon sample 体检表"，给出读者下次跑 silicon 时可以按表对照的诊断模板，然后讨论学派定位与未来方向。</IntroParagraph>
 
-## 10.1 终极对照表：silicon sample 的 8 个体检项
+## 10.1 silicon sample 的 8 个体检项
 
 | 诊断项 | 指标 | 本书数字 | 合格阈值 | 失败信号 | 修复方向 |
 |:-------|:-----|:--------:|:--------:|:---------|:---------|
@@ -34,7 +34,7 @@ topics: ["硅基社会科学", "方法论决策树", "学派未来"]
 
 <Subtext>表 10.1 · Silicon sample 完整体检表。</Subtext>
 
-把本书数字一行行读，silicon sample 在 100 persona × 3 题这份数据上不通过任何一项合格阈值。这一结论并非说 silicon sampling 无用，而是说在严格审稿要求下，本书演示的 Claude silicon sample 不能直接用于发表论文。读者在自己数据上做 silicon sampling 应该按这张体检表逐项核查。
+把本书数字一行行读，silicon sample 在 100 persona × 3 题这份数据上不通过任何一项合格阈值。这一结论的含义是：在严格审稿要求下，本书演示的 Claude silicon sample 不能直接用于发表论文。它并不否定 silicon sampling 这一方法本身的价值。读者在自己数据上做 silicon sampling 应该按这张体检表逐项核查。
 
 ---
 
@@ -53,7 +53,7 @@ topics: ["硅基社会科学", "方法论决策树", "学派未来"]
 
 <Subtext>表 10.2 · 两派的对照。</Subtext>
 
-两派的相同点：单被试研究、纵向 / 横向变异分解、需要诚实交代外部效度边界。两派的差异在研究对象的**客体性**——历史人物的文本是 immutable 客体，LLM 的输出是 ephemeral 客体（模型版本一换就变）。这一差异让硅基社会学派的可复现挑战远大于人格因果学派。
+两派的相同点：单被试研究、纵向 / 横向变异分解、需要诚实交代外部效度边界。两派的差异在研究对象的**客体性**：历史人物的文本是 immutable 客体，LLM 的输出是 ephemeral 客体（模型版本一换就变）。这一差异让硅基社会学派的可复现挑战远大于人格因果学派。
 
 ---
 
@@ -79,9 +79,9 @@ silicon sampling 的方法学发展很快，本书 100 persona × 3 题的小演
 
 **方向一**：把本书的诊断框架移植到 CGSS / CFPS / WVS 中文样本，测 Claude / Qwen / DeepSeek 在中文人口学上的 silicon fidelity。这是中文 silicon sampling 的第一篇方法学论文应有的形态。
 
-**方向二**：拿 silicon 与人格因果学派的四案例对照——让 Claude 扮演阳明 / 苏轼 / 曾国藩 / 顾炎武，看 silicon 给出的态度文本与真实文本的散度，把 silicon sample 推到**历史人物模拟**任务，与人格因果学派的 corpus 数据直接比对。
+**方向二**：拿 silicon 与人格因果学派的四案例对照，让 Claude 扮演阳明 / 苏轼 / 曾国藩 / 顾炎武，看 silicon 给出的态度文本与真实文本的散度，把 silicon sample 推到**历史人物模拟**任务，与人格因果学派的 corpus 数据直接比对。
 
-**方向三**：构造 silicon 的 *adversarial benchmark*——专门设计 LLM 一定会答错的 demographic case（如双重身份的少数族裔），把 silicon 的 failure mode 系统化。
+**方向三**：构造 silicon 的 *adversarial benchmark*，专门设计 LLM 一定会答错的 demographic case（如双重身份的少数族裔），把 silicon 的 failure mode 系统化。
 
 **方向四**：silicon 与传统 missing data imputation 的对比。silicon 本质是用 LLM 做 imputation，传统方法（MICE、IPW、PMM）已有几十年文献。比较两者在 GSS 缺失数据重建上的表现。
 

@@ -1,5 +1,5 @@
 ---
-title: "广义合成控制 GSC —— 交互固定效应与 factor 数选择"
+title: "广义合成控制 GSC：交互固定效应与 factor 数选择"
 description: "Xu 2017 提出的 GSC：把潜在 factor model 与 SC 合并。California 数据上 r=0/1/2 ATT 从 $-27.35$ 降到 $-0.40$，展示单 treated unit 下 CV 选 factor 数的失效。"
 book: "synthetic-control"
 chapterNumber: 5
@@ -16,9 +16,9 @@ topics: ["合成控制", "GSC", "interactive FE", "factor model", "R 语言"]
 
 </ChapterAudience>
 
-<IntroParagraph>第 2–4 章给出经典 SC 的点估计和 placebo 推断。SC 的限制是它的反事实纯粹是 donor 加权 —— donor 中没有的潜在结构（latent factor）SC 拟合不了。Xu 2017 在 *Political Analysis* 提出的广义合成控制 GSC（Generalized Synthetic Control），用 interactive fixed effects 把潜在 factor 显式建模，比经典 SC 更灵活。</IntroParagraph>
+<IntroParagraph>第 2–4 章给出经典 SC 的点估计和 placebo 推断。SC 的限制是它的反事实纯粹是 donor 加权，donor 中没有的潜在结构（latent factor）SC 拟合不了。Xu 2017 在 *Political Analysis* 提出的广义合成控制 GSC（Generalized Synthetic Control），用 interactive fixed effects 把潜在 factor 显式建模，比经典 SC 更灵活。</IntroParagraph>
 
-灵活性是有代价的 —— 本章在 California 数据上的实验显示，单 treated unit 下 GSC 的自适应 factor 数 CV 会把处理效应"吃光"。这是本章想传达的主要教学点。
+灵活性是有代价的。本章在 California 数据上的实验显示，单 treated unit 下 GSC 的自适应 factor 数 CV 会把处理效应完全吸收。这是本章想传达的主要教学点。
 
 ## 5.1 Interactive Fixed Effects 与潜在 factor
 
@@ -71,25 +71,17 @@ fit0 <- fit_gsc(0); fit1 <- fit_gsc(1); fit2 <- fit_gsc(2)
 
 <Subtext>图 5.1 · GSC ATT 对 factor 数的敏感性曲线。</Subtext>
 
-## 5.3 为什么 $r$ 增大让效应消失
+## 5.3 factor 数增大导致效应消失的机制
 
-GSC 的 factor model 用 pre-period 数据估计 $\{f_t, \lambda_j\}$，把任何能被 $\lambda_i' f_t$ 解释的"个体 × 时间"变化都归入潜在结构。当 $r = 2$ 时，模型自由度增加，足以把 California 1989–2000 的"突然下降"拟合为"California 在两个 factor 的 loading 比较特别 × factor 在 post-period 上升" —— 把处理效应吃成了 factor。
+GSC 的 factor model 用 pre-period 数据估计 $\{f_t, \lambda_j\}$，把任何能被 $\lambda_i' f_t$ 解释的"个体 × 时间"变化都归入潜在结构。当 $r = 2$ 时，模型自由度增加，足以把 California 1989–2000 的"突然下降"拟合为"California 在两个 factor 的 loading 比较特别 × factor 在 post-period 上升"，处理效应因此被吸收为 factor 结构。
 
-经济学语言：GSC 的"反事实"实际上把 California 自己的 post-period 走势部分作为推断 factor 结构的训练数据。这在 California 是单一 treated unit 的情况下问题最大 —— GSC 没办法把 California 的 post-period 与对照池分离估计 factor。
+用经济学语言说，GSC 的"反事实"实际上把 California 自己的 post-period 走势部分作为推断 factor 结构的训练数据。这在 California 是单一 treated unit 的情况下问题最大，GSC 没办法把 California 的 post-period 与对照池分离估计 factor。
 
 Xu 2017 论文里讨论了"多 treated unit"是 GSC 的设计场景，这一点在原文 Section 4 里明确指出。单 treated unit 数据用 GSC 必须固定 $r$，不能用 CV 自适应。
 
 ## 5.4 选 $r$ 的实务建议
 
-在 California 数据上：
-
-第一，跑 $r = 0$ 作为基线，它等价于 DiD 估计 $-27.35$。
-
-第二，跑 $r = 1$，看 ATT 是否明显偏离 DiD。
-
-第三，跑 $r = 2$，看效应是否消失。
-
-第四，把三个数字一起报告作为 sensitivity，而不是相信任一单点估计。
+在 California 数据上，先跑 $r = 0$ 作为基线，它等价于 DiD 估计 $-27.35$；再跑 $r = 1$ 看 ATT 是否明显偏离 DiD；接着跑 $r = 2$ 看效应是否消失；最后把这三个数字一起作为 sensitivity 报告，而不是相信任一单点估计。
 
 CV 自适应在多 treated unit + 长 pre-period（如 turnout 数据 48 州 × 90 年，第 8 章会用到）下表现良好。单 treated unit 数据上 CV 选出来的 $r$ 不可信。
 
@@ -101,7 +93,7 @@ gsynth 的 `CV = TRUE` 在 California 数据上选出 $r = 4$（CV 倾向高 fac
 
 **失效机制**：CV 优化的是 pre-period 拟合 MSPE，与 post-period 处理效应识别没有对齐。单 treated unit 下 CV 倾向于高 $r$，因为高 $r$ 的 factor model 能更好拟合 pre。
 
-**诊断方法 / 稳健替代**：固定 $r$ 报告 sensitivity（如 $r = 0, 1, 2$）。多 treated unit 数据上才用 CV 自动选 $r$。在 California 这种单 treated unit 数据上，把 GSC 作为对照而非主估计 —— SDID（第 6 章）和 MC-NNM（第 7 章）在单 treated unit 下更稳。
+**诊断方法 / 稳健替代**：固定 $r$ 报告 sensitivity（如 $r = 0, 1, 2$）。多 treated unit 数据上才用 CV 自动选 $r$。在 California 这种单 treated unit 数据上，把 GSC 作为对照而非主估计，SDID（第 6 章）和 MC-NNM（第 7 章）在单 treated unit 下更稳。
 
 </Pitfall>
 
@@ -124,7 +116,7 @@ gsynth 的 `CV = TRUE` 在 California 数据上选出 $r = 4$（CV 倾向高 fac
 | 第 5 章  | GSC $r = 1$        | $-13.89$ | $[-19.91,  -7.87]$  | 1-factor 结构    |
 | 第 5 章  | GSC $r = 2$        | $-0.40$  | $[-20.39, 19.58]$   | 2-factor 结构    |
 
-<Subtext>表 5.2 · 累积对比表 —— 第 5 章。GSC 三行展示了 factor 数对估计的决定性影响。</Subtext>
+<Subtext>表 5.2 · 累积对比表（第 5 章）。GSC 三行展示了 factor 数对估计的决定性影响。</Subtext>
 
 GSC 的三行展示了 factor 数对估计的决定性影响。这一敏感性是单 treated unit 场景下 GSC 的内禀问题，不是参数选择的失误。
 

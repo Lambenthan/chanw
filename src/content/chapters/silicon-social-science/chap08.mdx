@@ -16,9 +16,9 @@ topics: ["硅基社会科学", "可重复性", "Cohen's kappa"]
 
 </ChapterAudience>
 
-<IntroParagraph>第 7 章给出 prompt sensitivity 的横向变异（不同 prompt 模板的差异）。本章讨论纵向变异——同 prompt 多次运行的差异，是 silicon sample reliability 的核心测度。</IntroParagraph>
+<IntroParagraph>第 7 章给出 prompt sensitivity 的横向变异（不同 prompt 模板的差异）。本章讨论纵向变异，即同 prompt 多次运行的差异，是 silicon sample reliability 的核心测度。</IntroParagraph>
 
-## 8.1 为什么同 prompt 跑两次会不一样
+## 8.1 同 prompt 多次运行不一致的来源
 
 LLM 调用的输出并非 deterministic。即使把 temperature 设为 0，输出仍可能在以下层面变化：
 
@@ -74,7 +74,7 @@ silicon sampling 文献综合报告（Argyle 2023、Bisbee 2024、Brand 2024 等
 
 **Validity**（效度）：silicon 给的答案与真实受访者答案相比是否接近。是第 3--6 章测的内容。
 
-两个 concept 不互推。silicon 可能 reliability 高但 validity 低——LLM 每次给同样的错答案（high $\kappa$，high TVD）；也可能 validity 高但 reliability 低——LLM 第一次答接近真实，第二次答远偏真实（low $\kappa$，low TVD 在 run 1，high 在 run 2）。silicon sampling 论文必须同时报告两组指标。
+两个 concept 不互推。silicon 可能 reliability 高但 validity 低，即 LLM 每次给同样的错答案（high $\kappa$，high TVD）；也可能 validity 高但 reliability 低，即 LLM 第一次答接近真实，第二次答远偏真实（low $\kappa$，low TVD 在 run 1，high 在 run 2）。silicon sampling 论文必须同时报告两组指标。
 
 <Pitfall title="把 reliability 等同于 validity">
 
