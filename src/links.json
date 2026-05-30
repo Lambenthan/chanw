@@ -11,21 +11,21 @@
   },
   {
     "ids": [
-      "Claude Code 实证研究全流程（三）：Skill 机制与文献综述工具"
+      "Claude Code 实证研究全流程（三）：文献检索、PDF 获取与引用著录"
     ],
     "slug": "claude-code-empirical-workflow-03",
     "growthStage": "seedling",
-    "description": "讲清楚 Claude Code 的 skill 是什么，再用一个文献综述 skill 把找文献、评分、生成 BibTeX 串成一条流水线，最后交代它的边界与一套笔记归档方案。",
+    "description": "照着一份完整的操作记录走完文献调研：用 review-gen 按期刊分级检索英文顶刊，换检索路径查中文研究现状，再把引用按 GB/T 7714 著录并逐条核对。检索、下载、著录交给 Claude Code，方向判断留在研究者手里。",
     "outboundLinks": [],
     "inboundLinks": []
   },
   {
     "ids": [
-      "Claude Code 实证研究全流程（四·完结）：从研究计划到回归与稳健性"
+      "Claude Code 实证研究全流程（四·完结）：用 Stata MCP 跑通数据导入、清洗与回归"
     ],
     "slug": "claude-code-empirical-workflow-04",
     "growthStage": "seedling",
-    "description": "把数据获取、清洗与描述统计、主回归与模型设定、稳健性与异质性这几段一次走完，并标清每一步里 Claude Code 接手什么、判断仍归研究者什么。",
+    "description": "照着一份完整的操作记录走完后半程：怎么找到并接上 Stata MCP，怎么用一句话让 Claude Code 把数据导入、清洗、合并成面板，再跑回归与稳健性。每一步研究者定什么、它执行什么、要盯哪些坑。重点是流程与人机分工。",
     "outboundLinks": [],
     "inboundLinks": []
   },
