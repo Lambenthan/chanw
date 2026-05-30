@@ -32,6 +32,8 @@ const KEEP_SOURCES = new Set(["GitHub Trending", "Hugging Face Blog"]);
 const PREFERRED = ["deepseek", "qwen", "glm", "google/gemini", "meta-llama/llama"];
 
 async function freeModels() {
+  // OR_MODEL 指定单一付费模型时直接用它，跳过免费模型轮询
+  if (process.env.OR_MODEL) return [process.env.OR_MODEL];
   const res = await fetch("https://openrouter.ai/api/v1/models");
   const all = (await res.json()).data || [];
   return all

@@ -17,9 +17,11 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
     env:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      # 打分/滤通稿统一用付费 DeepSeek V4 Flash：快、稳、不受免费模型限流拖累
+      OR_MODEL: deepseek/deepseek-v4-flash
 
     steps:
       - uses: actions/checkout@v4
@@ -54,10 +56,10 @@ jobs:
           MAX_NEW: "80"
         run: node scripts/news/enrich-feed-dates.mjs
 
-      - name: Score and tag new items (free OpenRouter models only)
+      - name: Score and tag new items (DeepSeek V4 Flash)
         if: env.OPENROUTER_API_KEY != ''
         continue-on-error: true
-        timeout-minutes: 12
+        timeout-minutes: 15
         run: node scripts/news/score-and-tag.mjs --concurrency 4
 
       # === news 质量理念常驻步骤 ===

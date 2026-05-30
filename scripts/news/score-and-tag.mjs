@@ -45,6 +45,10 @@ const OVERRIDES_FILE = path.join(
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
 const ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
 
+// OR_MODEL 指定单一付费模型（如 deepseek/deepseek-v4-flash），跳过免费轮询，
+// 速度快、稳定，不再受免费模型限流拖累。未设则回落到免费模型轮询。
+const FORCED_MODEL = process.env.OR_MODEL || "";
+
 // 免费模型轮询：每次启动时去 OpenRouter 拉当前所有免费模型列表，
 // 按对中文任务的能力倾向排序，调用时按序尝试；遇到 429 / 402 / quota
 // 错误就把那个模型记到当日 exhausted cache，后续 call 跳过它。
@@ -97,6 +101,7 @@ async function fetchFreeModels() {
 }
 
 async function ensureModelList() {
+  if (FORCED_MODEL) return [FORCED_MODEL];
   if (availableModels) return availableModels;
   const all = await fetchFreeModels();
   availableModels = all.filter((m) => !exhausted.has(m));
@@ -110,6 +115,7 @@ async function ensureModelList() {
 }
 
 async function markExhausted(model) {
+  if (FORCED_MODEL) return; // 付费模型不进每日耗尽名单
   exhausted.add(model);
   availableModels = availableModels?.filter((m) => m !== model) || null;
   try {
