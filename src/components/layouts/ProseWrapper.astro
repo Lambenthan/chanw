@@ -266,6 +266,17 @@
 	   math 视觉上比周围 LXGW 中文 + Times 西文显著大一截。强制 1em，
 	   让 inline 数字 / 公式 / 变量与正文同字号。display math（$$...$$）
 	   仍走 1.21em 以保持"块级公式"的传统重量感。*/
+	/* 强调下划线 <u>：手画书签式重点标注，区别于链接（链接是实色文字 + 细线）。
+	   正文色不变，只在底部加一道略粗、半透明 crimson 的下划线，配合 offset，
+	   读起来像在书上用笔划的重点，贴合 LXGW 古典书风。仅作强调，不可点击。 */
+	.prose-wrapper :global(u) {
+		text-decoration-line: underline;
+		text-decoration-color: color-mix(in srgb, var(--color-crimson) 42%, transparent);
+		text-decoration-thickness: 0.14em;
+		text-underline-offset: 0.16em;
+		text-decoration-skip-ink: none;
+	}
+
 	.prose-wrapper :global(.katex) {
 		font-size: 1em;
 	}
