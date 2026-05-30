@@ -500,6 +500,16 @@
     "descriptionZh": "这是一个用于辅助系统文献综述的 Claude Code 技能。技能覆盖从多源检索、去重、AI 逐篇评分与子主题聚类，到按字数预算自动生成综述正文与参考文献列表的全过程，最终输出 LaTeX 格式的 PDF 或 Word。适用于需要快速完成一份结构化文献调研的场景，从课程作业到期刊综述均可使用，档位与字数可按需调整。"
   },
   {
+    "slug": "academic-research-skills",
+    "repo": "Imbad0202/academic-research-skills",
+    "path": "academic-pipeline",
+    "ref": "main",
+    "categoryId": "paper-write",
+    "categoryLabel": "科研 · 写作流程与纪律",
+    "categorySummary": "科研写作的全套纪律：bootstrap / plan / write / claim audit / rebuttal / submission audit。",
+    "descriptionZh": "academic-research-skills（ARS）是覆盖 research → write → review → revise → finalize 全流程的科研写作 skill 套件。它把找文献、规范引用、核对数据、检查逻辑一致性这些杂活交给 AI，把定义问题、选方法、解释结果的判断留给研究者。内置引用可信链与可选的 claim 级审计（ARS_CLAIM_AUDIT），用一份失效模式清单在定稿前拦截幻觉引用、伪造方法等问题；风格校准会从过往文稿学习写作口吻，并检查机器味痕迹。以 plugin marketplace 形式一键安装。"
+  },
+  {
     "slug": "academic-researcher",
     "repo": "Boom5426/Nature-Paper-Skills",
     "path": "skills/research/academic-researcher",

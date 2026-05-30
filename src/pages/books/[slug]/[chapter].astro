@@ -61,6 +61,8 @@ export async function getStaticPaths() {
 	for (const [bookSlug, list] of grouped) {
 		const book = bookMap.get(bookSlug);
 		if (!book) continue;
+		// 锁定的书不生成章节路由，章节直链一律 404，避免绕过「暂未开放」
+		if (book.data.locked === true) continue;
 		for (let i = 0; i < list.length; i++) {
 			const c = list[i];
 			const chapterId = c.id.replace(bookSlug + "/", "").replace(/\.mdx$/, "");

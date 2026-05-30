@@ -17,12 +17,15 @@ export async function getStaticPaths() {
 
 const { book } = Astro.props;
 const slug = book.data.slug!;
+const locked = book.data.locked === true;
 
 // Pull all chapters belonging to this book, ordered.
 const allChapters = await getCollection("chapters");
-const chapters = allChapters
-	.filter((c) => c.data.book === slug)
-	.sort((a, b) => a.data.chapterNumber - b.data.chapterNumber);
+const chapters = locked
+	? []
+	: allChapters
+			.filter((c) => c.data.book === slug)
+			.sort((a, b) => a.data.chapterNumber - b.data.chapterNumber);
 
 // Word count estimate per chapter for "reading time"
 function wordCountEstimate(c: any) {
@@ -64,14 +67,18 @@ const totalWords = chapters.reduce((s, c) => s + wordCountEstimate(c), 0);
 				<dl class="facts">
 					<dt>作者</dt>
 					<dd>{book.data.author}</dd>
-					<dt>章数</dt>
-					<dd>{chapters.length}</dd>
-					<dt>字数</dt>
-					<dd>{totalWords >= 10000
-						? `${(totalWords / 10000).toFixed(1)} 万`
-						: totalWords.toLocaleString("zh-CN")}</dd>
+					{!locked && (
+						<>
+							<dt>章数</dt>
+							<dd>{chapters.length}</dd>
+							<dt>字数</dt>
+							<dd>{totalWords >= 10000
+								? `${(totalWords / 10000).toFixed(1)} 万`
+								: totalWords.toLocaleString("zh-CN")}</dd>
+						</>
+					)}
 					<dt>状态</dt>
-					<dd>{book.data.status ?? (chapters.length > 0 ? "已成稿" : "写作中")}</dd>
+					<dd>{locked ? "暂未开放" : (book.data.status ?? (chapters.length > 0 ? "已成稿" : "写作中"))}</dd>
 					{book.data.series && (
 						<>
 							<dt>系列</dt>
@@ -82,30 +89,39 @@ const totalWords = chapters.reduce((s, c) => s + wordCountEstimate(c), 0);
 			</div>
 		</section>
 
-		<section class="chapter-list">
-			<h2 class="section-title">目录</h2>
-			{chapters.length > 0 ? (
-				<ol>
-					{chapters.map((c) => (
-						<li>
-							<a href={`/books/${slug}/${c.id.replace(slug + "/", "").replace(/\.mdx$/, "")}`}>
-								<div class="chapter-number">{c.data.chapterLabel ?? `第 ${c.data.chapterNumber} 章`}</div>
-								<div class="chapter-body">
-									<h3>{c.data.title}</h3>
-									{c.data.description && <p>{c.data.description}</p>}
-									<div class="chapter-meta">
-										<span>{readingTimeMin(wordCountEstimate(c))} 分钟阅读</span>
+		{locked ? (
+			<section class="locked-panel">
+				<Icon name="heroicons:lock-closed" size={30} class="locked-icon" />
+				<h2 class="locked-title">暂未开放</h2>
+				<p class="locked-text">这本书还在整理打磨，暂未对外开放。可以先读已开放的《Claude Code 科研手记》与《因果推断实践》。</p>
+				<a href="/library" class="locked-back">返回 Library</a>
+			</section>
+		) : (
+			<section class="chapter-list">
+				<h2 class="section-title">目录</h2>
+				{chapters.length > 0 ? (
+					<ol>
+						{chapters.map((c) => (
+							<li>
+								<a href={`/books/${slug}/${c.id.replace(slug + "/", "").replace(/\.mdx$/, "")}`}>
+									<div class="chapter-number">{c.data.chapterLabel ?? `第 ${c.data.chapterNumber} 章`}</div>
+									<div class="chapter-body">
+										<h3>{c.data.title}</h3>
+										{c.data.description && <p>{c.data.description}</p>}
+										<div class="chapter-meta">
+											<span>{readingTimeMin(wordCountEstimate(c))} 分钟阅读</span>
+										</div>
 									</div>
-								</div>
-								<Icon name="heroicons:arrow-right" size={18} class="chapter-arrow" />
-							</a>
-						</li>
-					))}
-				</ol>
-			) : (
-				<p class="empty-message">章节正在迁移整理中，敬请期待。本书已有完整 LaTeX/PDF 稿，正在按本站学术版式逐章重排。</p>
-			)}
-		</section>
+									<Icon name="heroicons:arrow-right" size={18} class="chapter-arrow" />
+								</a>
+							</li>
+						))}
+					</ol>
+				) : (
+					<p class="empty-message">章节正在迁移整理中，敬请期待。本书已有完整 LaTeX/PDF 稿，正在按本站学术版式逐章重排。</p>
+				)}
+			</section>
+		)}
 	</PageWrapper>
 </Layout>
 
@@ -218,6 +234,55 @@ const totalWords = chapters.reduce((s, c) => s + wordCountEstimate(c), 0);
 		border-radius: var(--border-radius-base);
 		background: var(--color-light-cream);
 		text-align: center;
+	}
+
+	.locked-panel {
+		max-width: 800px;
+		margin: 0 auto var(--space-3xl);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: var(--space-2xl) var(--space-m);
+		border: 1px dashed var(--color-tinted-cream);
+		border-radius: var(--border-radius-base);
+		background: var(--color-light-cream);
+	}
+
+	.locked-icon {
+		color: var(--color-gray-400);
+		margin-bottom: var(--space-s);
+	}
+
+	.locked-title {
+		font-family: var(--font-serif);
+		font-size: var(--font-size-2xl);
+		font-weight: normal;
+		color: var(--color-gray-800);
+		margin: 0 0 var(--space-2xs);
+	}
+
+	.locked-text {
+		font-family: var(--font-body);
+		font-size: var(--font-size-base);
+		font-weight: 300;
+		color: var(--color-gray-600);
+		line-height: var(--leading-snug);
+		max-width: 440px;
+		margin: 0 0 var(--space-m);
+	}
+
+	.locked-back {
+		font-family: var(--font-sans);
+		font-size: var(--font-size-sm);
+		font-weight: 600;
+		color: var(--color-sea-blue);
+		text-decoration: none;
+		transition: color 0.3s ease-in-out;
+	}
+
+	.locked-back:hover {
+		color: var(--color-bright-crimson);
 	}
 
 	.chapter-list li {

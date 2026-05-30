@@ -113,6 +113,7 @@ const booksCollection = defineCollection({
       slug: z.string().optional(),
       status: z.string().optional(),
       series: z.string().optional(),
+      locked: z.boolean().optional(),
     }),
 });
 
