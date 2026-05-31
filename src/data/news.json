@@ -1,9 +1,30 @@
 [
 	{
-		"title": "Anthropic 发布 Claude Code Plugins 官方目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
 		"source": "GitHub Trending",
-		"date": "2026-05-31T08:26:21Z",
+		"date": "2026-05-31T13:13:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "微软开源 AI Agent 治理工具包",
+		"url": "https://github.com/microsoft/agent-governance-toolkit",
+		"source": "GitHub Trending",
+		"date": "2026-05-31T12:20:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "dograh-hq 开源语音 AI 平台 Dograh",
+		"url": "https://github.com/dograh-hq/dograh",
+		"source": "GitHub Trending",
+		"date": "2026-05-31T11:43:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "p-e-w 开源 Heretic 语言模型自动去审查工具",
+		"url": "https://github.com/p-e-w/heretic",
+		"source": "GitHub Trending",
+		"date": "2026-05-31T09:56:40Z",
 		"group": "gh"
 	},
 	{
@@ -14,38 +35,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "dograh-hq 开源语音 AI 平台 Dograh",
-		"url": "https://github.com/dograh-hq/dograh",
-		"source": "GitHub Trending",
-		"date": "2026-05-31T07:52:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现实时空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-05-31T07:26:45Z",
-		"group": "gh"
-	},
-	{
 		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
 		"url": "https://github.com/colbymchenry/codegraph",
 		"source": "GitHub Trending",
 		"date": "2026-05-31T03:09:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "微软开源 AI Agent 治理工具包",
-		"url": "https://github.com/microsoft/agent-governance-toolkit",
-		"source": "GitHub Trending",
-		"date": "2026-05-31T01:36:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-05-31T00:04:24Z",
 		"group": "gh"
 	},
 	{
@@ -56,10 +49,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Stable WorldModel 开源世界模型研究与评测平台",
-		"url": "https://github.com/galilai-group/stable-worldmodel",
+		"title": "nicobailon 开源 Pi-subagents 异步子 agent 委托扩展",
+		"url": "https://github.com/nicobailon/pi-subagents",
 		"source": "GitHub Trending",
-		"date": "2026-05-30T16:51:02Z",
+		"date": "2026-05-30T22:17:09Z",
 		"group": "gh"
 	},
 	{
@@ -67,6 +60,20 @@
 		"url": "https://github.com/Chachamaru127/claude-code-harness",
 		"source": "GitHub Trending",
 		"date": "2026-05-30T13:14:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "D4Vinci 开源 Scrapling 自适应网页抓取框架",
+		"url": "https://github.com/D4Vinci/Scrapling",
+		"source": "GitHub Trending",
+		"date": "2026-05-30T12:37:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "iii 开源服务编排与实时观测工具",
+		"url": "https://github.com/iii-hq/iii",
+		"source": "GitHub Trending",
+		"date": "2026-05-30T11:02:17Z",
 		"group": "gh"
 	},
 	{
@@ -81,13 +88,6 @@
 		"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
 		"source": "GitHub Trending",
 		"date": "2026-05-30T09:32:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "dreammis 开源 social-auto-upload 全平台视频自动上传工具",
-		"url": "https://github.com/dreammis/social-auto-upload",
-		"source": "GitHub Trending",
-		"date": "2026-05-30T08:20:30Z",
 		"group": "gh"
 	},
 	{
@@ -133,34 +133,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "MOSI.AI 与 OpenMOSS 团队开源 MOSS-TTS 系列语音生成模型",
-		"url": "https://github.com/OpenMOSS/MOSS-TTS",
-		"source": "GitHub Trending",
-		"date": "2026-05-29T06:59:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "chen08209 开源 FlClash 跨平台代理客户端",
-		"url": "https://github.com/chen08209/FlClash",
-		"source": "GitHub Trending",
-		"date": "2026-05-29T06:55:30Z",
-		"group": "gh"
-	},
-	{
-		"title": "p-e-w 开源 Heretic 语言模型自动去审查工具",
-		"url": "https://github.com/p-e-w/heretic",
-		"source": "GitHub Trending",
-		"date": "2026-05-29T06:08:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 开源 Agent Skills 仓库",
-		"url": "https://github.com/anthropics/skills",
-		"source": "GitHub Trending",
-		"date": "2026-05-29T02:02:28Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google 发布 Gemini Omni 与 Gemini 3.5 能力演示视频",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
 		"source": "Google AI",
@@ -173,13 +145,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "can1357 开源终端 AI 编程 Agent oh-my-pi",
-		"url": "https://github.com/can1357/oh-my-pi",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T13:00:52Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 在 ICRA 发布机器人仿真到现实世界研究成果",
@@ -222,6 +187,13 @@
 		"source": "OpenAI",
 		"date": "2026-05-28T04:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Hermes 开源 Hermes WebUI，可在网页和手机端使用 Agent",
+		"url": "https://github.com/nesquena/hermes-webui",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T03:40:48Z",
+		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
@@ -1398,13 +1370,6 @@
 		"source": "Google AI",
 		"date": "2026-05-04T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "DataTalksClub 推出免费数据工程 Zoomcamp 课程",
-		"url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
-		"source": "GitHub Trending",
-		"date": "2026-05-03T09:21:31Z",
-		"group": "gh"
 	},
 	{
 		"title": "Claude for Creative Work",
