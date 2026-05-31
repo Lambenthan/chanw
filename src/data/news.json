@@ -1,16 +1,37 @@
 [
 	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-05-31T13:13:45Z",
-		"group": "gh"
-	},
-	{
 		"title": "微软开源 AI Agent 治理工具包",
 		"url": "https://github.com/microsoft/agent-governance-toolkit",
 		"source": "GitHub Trending",
-		"date": "2026-05-31T12:20:42Z",
+		"date": "2026-05-31T18:56:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-05-31T18:39:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Supermemory 开源记忆引擎与 API",
+		"url": "https://github.com/supermemoryai/supermemory",
+		"source": "GitHub Trending",
+		"date": "2026-05-31T17:53:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
+		"url": "https://github.com/EveryInc/compound-engineering-plugin",
+		"source": "GitHub Trending",
+		"date": "2026-05-31T17:35:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-05-31T13:48:29Z",
 		"group": "gh"
 	},
 	{
@@ -42,24 +63,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-05-30T22:57:52Z",
-		"group": "gh"
-	},
-	{
 		"title": "nicobailon 开源 Pi-subagents 异步子 agent 委托扩展",
 		"url": "https://github.com/nicobailon/pi-subagents",
 		"source": "GitHub Trending",
 		"date": "2026-05-30T22:17:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chachamaru127 开源 Claude Code 专用开发工具 Harness",
-		"url": "https://github.com/Chachamaru127/claude-code-harness",
-		"source": "GitHub Trending",
-		"date": "2026-05-30T13:14:05Z",
 		"group": "gh"
 	},
 	{
@@ -74,13 +81,6 @@
 		"url": "https://github.com/iii-hq/iii",
 		"source": "GitHub Trending",
 		"date": "2026-05-30T11:02:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-05-30T09:38:53Z",
 		"group": "gh"
 	},
 	{
