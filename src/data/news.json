@@ -3,28 +3,42 @@
 		"title": "RuView 利用 WiFi 信号实现实时空间感知与生命体征监测",
 		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-05-30T18:45:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code Plugins 官方目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-05-30T18:29:09Z",
+		"date": "2026-05-31T02:23:09Z",
 		"group": "gh"
 	},
 	{
 		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
 		"url": "https://github.com/colbymchenry/codegraph",
 		"source": "GitHub Trending",
-		"date": "2026-05-30T17:55:07Z",
+		"date": "2026-05-31T02:02:02Z",
 		"group": "gh"
 	},
 	{
 		"title": "微软开源 AI Agent 治理工具包",
 		"url": "https://github.com/microsoft/agent-governance-toolkit",
 		"source": "GitHub Trending",
-		"date": "2026-05-30T17:54:58Z",
+		"date": "2026-05-31T01:36:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-05-31T00:04:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
+		"url": "https://github.com/EveryInc/compound-engineering-plugin",
+		"source": "GitHub Trending",
+		"date": "2026-05-30T22:57:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code Plugins 官方目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-05-30T19:19:40Z",
 		"group": "gh"
 	},
 	{
@@ -53,13 +67,6 @@
 		"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
 		"source": "GitHub Trending",
 		"date": "2026-05-30T09:32:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-05-30T08:53:06Z",
 		"group": "gh"
 	},
 	{
@@ -95,13 +102,6 @@
 		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
 		"date": "2026-05-30T01:45:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-05-29T22:56:45Z",
 		"group": "gh"
 	},
 	{
