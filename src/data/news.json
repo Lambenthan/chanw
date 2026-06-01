@@ -1,16 +1,72 @@
 [
 	{
+		"title": "iii 开源服务编排与实时观测工具",
+		"url": "https://github.com/iii-hq/iii",
+		"source": "GitHub Trending",
+		"date": "2026-06-01T17:18:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "dmtrKovalenko 开源 fff 文件搜索工具包",
+		"url": "https://github.com/dmtrKovalenko/fff",
+		"source": "GitHub Trending",
+		"date": "2026-06-01T17:05:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-06-01T16:41:12Z",
+		"group": "gh"
+	},
+	{
 		"title": "微软开源 AI Agent 治理工具包",
 		"url": "https://github.com/microsoft/agent-governance-toolkit",
 		"source": "GitHub Trending",
-		"date": "2026-06-01T10:55:31Z",
+		"date": "2026-06-01T16:35:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 推出工厂运营 Fox Blueprint AI Brain",
+		"url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
+		"source": "NVIDIA",
+		"date": "2026-06-01T16:19:39.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Godot Engine 更新多平台 2D 和 3D 游戏引擎",
+		"url": "https://github.com/godotengine/godot",
+		"source": "GitHub Trending",
+		"date": "2026-06-01T16:17:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零开始学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-06-01T16:14:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "JetBrains 发布 Mellum2 12B MoE 模型",
+		"url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-01T15:45:17.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Supermemory 开源记忆引擎与 API",
+		"url": "https://github.com/supermemoryai/supermemory",
+		"source": "GitHub Trending",
+		"date": "2026-06-01T15:14:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
 		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
-		"date": "2026-06-01T10:37:48Z",
+		"date": "2026-06-01T13:56:43Z",
 		"group": "gh"
 	},
 	{
@@ -35,11 +91,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "iii 开源服务编排与实时观测工具",
-		"url": "https://github.com/iii-hq/iii",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T09:13:36Z",
-		"group": "gh"
+		"title": "NVIDIA 在 Computex 发布 RTX AI Garage 本地 Agent 方案",
+		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
+		"source": "NVIDIA",
+		"date": "2026-06-01T09:51:49.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 开源知识工作插件仓库",
@@ -47,27 +103,6 @@
 		"source": "GitHub Trending",
 		"date": "2026-06-01T09:07:46Z",
 		"group": "gh"
-	},
-	{
-		"title": "Supermemory 开源记忆引擎与 API",
-		"url": "https://github.com/supermemoryai/supermemory",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T08:51:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 推出工厂运营 Fox Blueprint AI Brain",
-		"url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-		"source": "NVIDIA",
-		"date": "2026-06-01T06:17:31.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 Computex 发布 RTX AI Garage 本地 Agent 方案",
-		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
-		"source": "NVIDIA",
-		"date": "2026-06-01T05:30:01.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 发布 AI 云生态系统",
@@ -119,13 +154,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T01:19:30Z",
-		"group": "gh"
-	},
-	{
 		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
 		"url": "https://github.com/colbymchenry/codegraph",
 		"source": "GitHub Trending",
@@ -165,13 +193,6 @@
 		"url": "https://github.com/revfactory/harness",
 		"source": "GitHub Trending",
 		"date": "2026-05-29T17:04:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Godot Engine 更新多平台 2D 和 3D 游戏引擎",
-		"url": "https://github.com/godotengine/godot",
-		"source": "GitHub Trending",
-		"date": "2026-05-29T15:56:01Z",
 		"group": "gh"
 	},
 	{
@@ -291,20 +312,6 @@
 		"url": "https://mistral.ai/news/search-toolkit",
 		"source": "Mistral",
 		"date": "2026-05-28T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "rohitg00 开源 AI 工程从零开始学习项目",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-05-27T20:52:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "Artificial Analysis 与 IBM 联合发布 ITBench-AA 企业 IT Agent 评测基准",
-		"url": "https://huggingface.co/blog/ibm-research/itbench-aa",
-		"source": "Hugging Face Blog",
-		"date": "2026-05-27T17:20:29.000Z",
 		"group": "labs"
 	},
 	{
@@ -798,8 +805,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Evmbench 评测基准",
-		"url": "https://openai.com/index/introducing-evmbench/",
+		"title": "OpenAI 将单减振幅方法扩展至引力子研究",
+		"url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -819,15 +826,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布理论物理学新成果",
-		"url": "https://openai.com/index/new-result-theoretical-physics/",
+		"title": "OpenAI 发布 Evmbench 评测基准",
+		"url": "https://openai.com/index/introducing-evmbench/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 将单减振幅方法扩展至引力子研究",
-		"url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/",
+		"title": "OpenAI 发布理论物理学新成果",
+		"url": "https://openai.com/index/new-result-theoretical-physics/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -1766,13 +1773,6 @@
 	{
 		"title": "Waypoint 发布 Waypoint-1.5 交互式世界模型",
 		"url": "https://huggingface.co/blog/waypoint-1-5",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-09T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Sentence Transformers 支持多模态 Embedding 与 Reranker 模型",
-		"url": "https://huggingface.co/blog/multimodal-sentence-transformers",
 		"source": "Hugging Face Blog",
 		"date": "2026-04-09T00:00:00.000Z",
 		"group": "labs"
