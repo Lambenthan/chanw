@@ -1,16 +1,58 @@
 [
 	{
-		"title": "Supermemory 开源记忆引擎与 API",
-		"url": "https://github.com/supermemoryai/supermemory",
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T16:00:02Z",
+		"date": "2026-06-02T20:38:11Z",
 		"group": "gh"
 	},
 	{
 		"title": "iii 开源服务编排与实时观测工具",
 		"url": "https://github.com/iii-hq/iii",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T15:57:02Z",
+		"date": "2026-06-02T20:30:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "微软开源 AI Agent 治理工具包",
+		"url": "https://github.com/microsoft/agent-governance-toolkit",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T19:49:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
+		"url": "https://github.com/colbymchenry/codegraph",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T19:23:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "reconurge 开源 flowsint 可视化图分析平台",
+		"url": "https://github.com/reconurge/flowsint",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T19:11:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "Supermemory 开源记忆引擎与 API",
+		"url": "https://github.com/supermemoryai/supermemory",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T18:58:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 开源知识工作插件仓库",
+		"url": "https://github.com/anthropics/knowledge-work-plugins",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T17:58:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零开始学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T16:30:49Z",
 		"group": "gh"
 	},
 	{
@@ -21,32 +63,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "微软开源 AI Agent 治理工具包",
-		"url": "https://github.com/microsoft/agent-governance-toolkit",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T15:46:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
-		"url": "https://github.com/colbymchenry/codegraph",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T15:37:39Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hcompany 发布 Holo3.1 快速本地化计算机使用 Agent",
 		"url": "https://huggingface.co/blog/Hcompany/holo31",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-02T14:13:23.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T13:42:27Z",
-		"group": "gh"
 	},
 	{
 		"title": "Understand-Anything 开源交互式代码知识图谱工具",
@@ -68,13 +89,6 @@
 		"source": "OpenAI",
 		"date": "2026-06-02T09:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 开源知识工作插件仓库",
-		"url": "https://github.com/anthropics/knowledge-work-plugins",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T08:52:17Z",
-		"group": "gh"
 	},
 	{
 		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
@@ -110,13 +124,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-01T22:34:30.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "rohitg00 开源 AI 工程从零开始学习项目",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T16:14:02Z",
-		"group": "gh"
 	},
 	{
 		"title": "JetBrains 发布 Mellum2 12B MoE 模型",
@@ -180,13 +187,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-01T04:15:40.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "reconurge 开源 flowsint 可视化图分析平台",
-		"url": "https://github.com/reconurge/flowsint",
-		"source": "GitHub Trending",
-		"date": "2026-05-31T12:57:28Z",
-		"group": "gh"
 	},
 	{
 		"title": "p-e-w 开源 Heretic 语言模型自动去审查工具",
