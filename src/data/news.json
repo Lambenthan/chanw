@@ -1,38 +1,80 @@
 [
 	{
-		"title": "dmtrKovalenko 开源 fff 文件搜索工具包",
-		"url": "https://github.com/dmtrKovalenko/fff",
+		"title": "微软开源 AI Agent 治理工具包",
+		"url": "https://github.com/microsoft/agent-governance-toolkit",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T02:41:19Z",
+		"date": "2026-06-02T09:53:15Z",
 		"group": "gh"
 	},
 	{
-		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
+		"title": "Understand-Anything 开源交互式代码知识图谱工具",
+		"url": "https://github.com/Lum1104/Understand-Anything",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T02:16:43Z",
+		"date": "2026-06-02T09:49:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "iii 开源服务编排与实时观测工具",
+		"url": "https://github.com/iii-hq/iii",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T09:44:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T09:41:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "Anthropic 开源知识工作插件仓库",
 		"url": "https://github.com/anthropics/knowledge-work-plugins",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T02:05:36Z",
+		"date": "2026-06-02T08:52:17Z",
 		"group": "gh"
 	},
 	{
-		"title": "微软开源 AI Agent 治理工具包",
-		"url": "https://github.com/microsoft/agent-governance-toolkit",
+		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
+		"url": "https://github.com/EveryInc/compound-engineering-plugin",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T01:30:49Z",
+		"date": "2026-06-02T08:09:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Impeccable 开源设计语言，提升 AI 工具的设计能力",
+		"url": "https://github.com/pbakaus/impeccable",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T07:08:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "dmtrKovalenko 开源 fff 文件搜索工具包",
+		"url": "https://github.com/dmtrKovalenko/fff",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T05:44:50Z",
 		"group": "gh"
 	},
 	{
 		"title": "herdr 发布终端 Agent 多路复用器",
 		"url": "https://github.com/ogulcancelik/herdr",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T00:33:33Z",
+		"date": "2026-06-02T04:39:55Z",
 		"group": "gh"
+	},
+	{
+		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
+		"url": "https://github.com/colbymchenry/codegraph",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T04:20:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Jetson Agentic AI 物理世界方案",
+		"url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+		"source": "NVIDIA",
+		"date": "2026-06-02T04:01:26.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "D4Vinci 开源 Scrapling 自适应网页抓取框架",
@@ -42,25 +84,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "iii 开源服务编排与实时观测工具",
-		"url": "https://github.com/iii-hq/iii",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T23:07:54Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 推出工厂运营 Fox Blueprint AI Brain",
 		"url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
 		"source": "NVIDIA",
 		"date": "2026-06-01T22:34:30.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Impeccable 开源设计语言，提升 AI 工具的设计能力",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T21:44:46Z",
-		"group": "gh"
 	},
 	{
 		"title": "run-llama 开源文档解析工具 LiteParse",
@@ -98,13 +126,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T13:56:43Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 博客探讨企业 AI 规模化依赖 agent 逻辑",
 		"url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
 		"source": "Hugging Face Blog",
@@ -123,13 +144,6 @@
 		"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-01T10:15:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "Understand-Anything 开源交互式代码知识图谱工具",
-		"url": "https://github.com/Lum1104/Understand-Anything",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T09:53:12Z",
 		"group": "gh"
 	},
 	{
@@ -172,13 +186,6 @@
 		"url": "https://github.com/TauricResearch/TradingAgents",
 		"source": "GitHub Trending",
 		"date": "2026-06-01T02:02:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
-		"url": "https://github.com/colbymchenry/codegraph",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T00:22:31Z",
 		"group": "gh"
 	},
 	{
@@ -275,13 +282,6 @@
 	{
 		"title": "Ramp 工程师用 Codex 加速代码审查",
 		"url": "https://openai.com/index/ramp",
-		"source": "OpenAI",
-		"date": "2026-05-28T04:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Databricks 将 GPT-5.5 接入企业 agent 工作流",
-		"url": "https://openai.com/index/databricks",
 		"source": "OpenAI",
 		"date": "2026-05-28T04:00:00.000Z",
 		"group": "labs"
