@@ -1,9 +1,51 @@
 [
 	{
+		"title": "Supermemory 开源记忆引擎与 API",
+		"url": "https://github.com/supermemoryai/supermemory",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T16:00:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "iii 开源服务编排与实时观测工具",
+		"url": "https://github.com/iii-hq/iii",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T15:57:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 AI 云生态系统",
+		"url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+		"source": "NVIDIA",
+		"date": "2026-06-02T15:50:20.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "微软开源 AI Agent 治理工具包",
 		"url": "https://github.com/microsoft/agent-governance-toolkit",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T09:53:15Z",
+		"date": "2026-06-02T15:46:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
+		"url": "https://github.com/colbymchenry/codegraph",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T15:37:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hcompany 发布 Holo3.1 快速本地化计算机使用 Agent",
+		"url": "https://huggingface.co/blog/Hcompany/holo31",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-02T14:13:23.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T13:42:27Z",
 		"group": "gh"
 	},
 	{
@@ -14,18 +56,18 @@
 		"group": "gh"
 	},
 	{
-		"title": "iii 开源服务编排与实时观测工具",
-		"url": "https://github.com/iii-hq/iii",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T09:44:18Z",
-		"group": "gh"
-	},
-	{
 		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
 		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
 		"date": "2026-06-02T09:41:44Z",
 		"group": "gh"
+	},
+	{
+		"title": "Travelers 借助 OpenAI 在全美部署 AI 理赔助手",
+		"url": "https://openai.com/index/travelers",
+		"source": "OpenAI",
+		"date": "2026-06-02T09:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 开源知识工作插件仓库",
@@ -42,38 +84,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "Impeccable 开源设计语言，提升 AI 工具的设计能力",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T07:08:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "dmtrKovalenko 开源 fff 文件搜索工具包",
-		"url": "https://github.com/dmtrKovalenko/fff",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T05:44:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T04:39:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
-		"url": "https://github.com/colbymchenry/codegraph",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T04:20:59Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 Jetson Agentic AI 物理世界方案",
 		"url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
 		"source": "NVIDIA",
 		"date": "2026-06-02T04:01:26.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 扩展 Project Glasswing 安全研究项目",
+		"url": "https://www.anthropic.com/news/expanding-project-glasswing",
+		"source": "Anthropic News",
+		"date": "2026-06-02T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -89,27 +110,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-01T22:34:30.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "run-llama 开源文档解析工具 LiteParse",
-		"url": "https://github.com/run-llama/liteparse",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T19:13:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "Supermemory 开源记忆引擎与 API",
-		"url": "https://github.com/supermemoryai/supermemory",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T18:11:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "Godot Engine 更新多平台 2D 和 3D 游戏引擎",
-		"url": "https://github.com/godotengine/godot",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T16:17:39Z",
-		"group": "gh"
 	},
 	{
 		"title": "rohitg00 开源 AI 工程从零开始学习项目",
@@ -147,17 +147,17 @@
 		"group": "gh"
 	},
 	{
+		"title": "OpenAI 为 Codex 推出覆盖多角色的插件与注解功能",
+		"url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+		"source": "OpenAI",
+		"date": "2026-06-01T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 在 Computex 发布 RTX AI Garage 本地 Agent 方案",
 		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
 		"source": "NVIDIA",
 		"date": "2026-06-01T09:51:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 AI 云生态系统",
-		"url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-		"source": "NVIDIA",
-		"date": "2026-06-01T05:04:24.000Z",
 		"group": "labs"
 	},
 	{
@@ -182,10 +182,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "TauricResearch 开源 TradingAgents 多智能体金融交易框架",
-		"url": "https://github.com/TauricResearch/TradingAgents",
+		"title": "reconurge 开源 flowsint 可视化图分析平台",
+		"url": "https://github.com/reconurge/flowsint",
 		"source": "GitHub Trending",
-		"date": "2026-06-01T02:02:48Z",
+		"date": "2026-05-31T12:57:28Z",
 		"group": "gh"
 	},
 	{
@@ -193,6 +193,13 @@
 		"url": "https://github.com/p-e-w/heretic",
 		"source": "GitHub Trending",
 		"date": "2026-05-31T09:56:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "ModelScope 开源 FunASR 工业级语音识别工具包",
+		"url": "https://github.com/modelscope/FunASR",
+		"source": "GitHub Trending",
+		"date": "2026-05-30T16:19:19Z",
 		"group": "gh"
 	},
 	{
@@ -252,13 +259,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "can1357 开源 oh-my-pi 终端 AI 编程 agent",
-		"url": "https://github.com/can1357/oh-my-pi",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T13:00:52Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 在 ICRA 发布机器人仿真到现实世界研究成果",
 		"url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
 		"source": "NVIDIA",
@@ -270,6 +270,13 @@
 		"url": "https://github.com/affaan-m/ECC",
 		"source": "GitHub Trending",
 		"date": "2026-05-28T11:45:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "chopratejas 开源 headroom LLM 输入压缩工具",
+		"url": "https://github.com/chopratejas/headroom",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T07:41:44Z",
 		"group": "gh"
 	},
 	{
@@ -684,13 +691,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-05-22T15:25:59.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "FareedKhan-dev 开源从零训练 LLM 的完整方法",
-		"url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-05-22T04:17:43Z",
-		"group": "gh"
 	},
 	{
 		"title": "OpenBMB 开源 VoxCPM2 多语言语音合成模型",
@@ -1148,6 +1148,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Open-LLM-VTuber 开源本地语音交互与 Live2D 面部驱动项目",
+		"url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+		"source": "GitHub Trending",
+		"date": "2026-05-15T07:18:04Z",
+		"group": "gh"
+	},
+	{
 		"title": "xAI 将 Grok 接入 Nous Research 的 Hermes Agent",
 		"url": "https://x.ai/news/grok-hermes",
 		"source": "xAI",
@@ -1253,20 +1260,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 展示数据科学团队如何用 Codex 工作",
-		"url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Codex 业务运营使用教程",
-		"url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 推出销售团队使用 Codex 的教程",
 		"url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
 		"source": "OpenAI",
@@ -1278,13 +1271,6 @@
 		"url": "https://openai.com/index/gpt-5-3-instant/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 在 ChatGPT 中推出个人财务管理体验",
-		"url": "https://openai.com/index/personal-finance-chatgpt",
-		"source": "OpenAI",
-		"date": "2026-05-14T05:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1778,18 +1764,18 @@
 		"group": "labs"
 	},
 	{
-		"title": "Waypoint 发布 Waypoint-1.5 交互式世界模型",
-		"url": "https://huggingface.co/blog/waypoint-1-5",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-09T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 推出 Telecom AI Grids 推理方案",
 		"url": "https://blogs.nvidia.com/blog/telecom-ai-grids-inference/",
 		"source": "NVIDIA",
 		"date": "2026-04-06T19:58:01.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "jamwithai 开源 production-agentic-rag-course 课程",
+		"url": "https://github.com/jamwithai/production-agentic-rag-course",
+		"source": "GitHub Trending",
+		"date": "2026-04-05T06:13:54Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Diff Tool",
