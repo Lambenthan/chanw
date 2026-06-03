@@ -1,31 +1,66 @@
 [
 	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
+		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
+		"url": "https://github.com/EveryInc/compound-engineering-plugin",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T20:38:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "iii 开源服务编排与实时观测工具",
-		"url": "https://github.com/iii-hq/iii",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T20:30:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "微软开源 AI Agent 治理工具包",
-		"url": "https://github.com/microsoft/agent-governance-toolkit",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T19:49:07Z",
+		"date": "2026-06-03T02:53:17Z",
 		"group": "gh"
 	},
 	{
 		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
 		"url": "https://github.com/colbymchenry/codegraph",
 		"source": "GitHub Trending",
-		"date": "2026-06-02T19:23:36Z",
+		"date": "2026-06-03T02:44:28Z",
 		"group": "gh"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T01:51:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "微软开源 AI Agent 治理工具包",
+		"url": "https://github.com/microsoft/agent-governance-toolkit",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T01:25:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零开始学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T00:12:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "工程软件龙头采用自主 AI 工程师 Nemoclaw",
+		"url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+		"source": "NVIDIA",
+		"date": "2026-06-02T22:00:58.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "iii 开源服务编排与实时观测工具",
+		"url": "https://github.com/iii-hq/iii",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T21:12:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Cosmos-3 物理 AI 世界基础模型",
+		"url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
+		"source": "NVIDIA",
+		"date": "2026-06-02T20:48:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 推出工厂运营 Fox Blueprint AI Brain",
+		"url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
+		"source": "NVIDIA",
+		"date": "2026-06-02T20:43:15.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "reconurge 开源 flowsint 可视化图分析平台",
@@ -46,13 +81,6 @@
 		"url": "https://github.com/anthropics/knowledge-work-plugins",
 		"source": "GitHub Trending",
 		"date": "2026-06-02T17:58:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "rohitg00 开源 AI 工程从零开始学习项目",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T16:30:49Z",
 		"group": "gh"
 	},
 	{
@@ -91,13 +119,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T08:09:38Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 Jetson Agentic AI 物理世界方案",
 		"url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
 		"source": "NVIDIA",
@@ -117,13 +138,6 @@
 		"source": "GitHub Trending",
 		"date": "2026-06-01T23:19:28Z",
 		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 推出工厂运营 Fox Blueprint AI Brain",
-		"url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-		"source": "NVIDIA",
-		"date": "2026-06-01T22:34:30.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "JetBrains 发布 Mellum2 12B MoE 模型",
@@ -165,13 +179,6 @@
 		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
 		"source": "NVIDIA",
 		"date": "2026-06-01T09:51:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Cosmos-3 物理 AI 世界基础模型",
-		"url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
-		"source": "NVIDIA",
-		"date": "2026-06-01T04:45:07.000Z",
 		"group": "labs"
 	},
 	{
@@ -1260,13 +1267,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出销售团队使用 Codex 的教程",
-		"url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT-5.3 Instant",
 		"url": "https://openai.com/index/gpt-5-3-instant/",
 		"source": "OpenAI",
@@ -2111,41 +2111,6 @@
 		"url": "https://blogs.nvidia.com/blog/data-blackwell-ultra-performance-lower-cost-agentic-ai/",
 		"source": "NVIDIA",
 		"date": "2026-03-05T14:02:26.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.4 Thinking System Card",
-		"url": "https://openai.com/index/gpt-5-4-thinking-system-card/",
-		"source": "OpenAI",
-		"date": "2026-03-05T02:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google AI 发布 2026 年 2 月产品更新汇总",
-		"url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
-		"source": "Google AI",
-		"date": "2026-03-05T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 开源 Aerial AI Native 6G 平台",
-		"url": "https://blogs.nvidia.com/blog/open-source-aerial-ai-native-6g/",
-		"source": "NVIDIA",
-		"date": "2026-03-04T23:28:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 AI 6G 电信方案",
-		"url": "https://blogs.nvidia.com/blog/ai-6g-telecommunications/",
-		"source": "NVIDIA",
-		"date": "2026-03-04T23:28:23.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出 AI Aerial 无线网络方案",
-		"url": "https://blogs.nvidia.com/blog/ai-aerial-wireless-networks/",
-		"source": "NVIDIA",
-		"date": "2026-03-04T23:27:08.000Z",
 		"group": "labs"
 	}
 ]
