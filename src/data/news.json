@@ -1,9 +1,44 @@
 [
 	{
+		"title": "reconurge 开源 flowsint 可视化图分析平台",
+		"url": "https://github.com/reconurge/flowsint",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T10:10:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "Supermemory 开源记忆引擎与 API",
+		"url": "https://github.com/supermemoryai/supermemory",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T09:05:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 开源知识工作插件仓库",
+		"url": "https://github.com/anthropics/knowledge-work-plugins",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T09:02:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T08:57:00Z",
+		"group": "gh"
+	},
+	{
 		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
 		"url": "https://github.com/EveryInc/compound-engineering-plugin",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T02:53:17Z",
+		"date": "2026-06-03T08:04:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T04:41:08Z",
 		"group": "gh"
 	},
 	{
@@ -11,13 +46,6 @@
 		"url": "https://github.com/colbymchenry/codegraph",
 		"source": "GitHub Trending",
 		"date": "2026-06-03T02:44:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T01:51:27Z",
 		"group": "gh"
 	},
 	{
@@ -63,27 +91,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "reconurge 开源 flowsint 可视化图分析平台",
-		"url": "https://github.com/reconurge/flowsint",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T19:11:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "Supermemory 开源记忆引擎与 API",
-		"url": "https://github.com/supermemoryai/supermemory",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T18:58:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 开源知识工作插件仓库",
-		"url": "https://github.com/anthropics/knowledge-work-plugins",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T17:58:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 AI 云生态系统",
 		"url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
 		"source": "NVIDIA",
@@ -102,13 +109,6 @@
 		"url": "https://github.com/Lum1104/Understand-Anything",
 		"source": "GitHub Trending",
 		"date": "2026-06-02T09:49:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T09:41:44Z",
 		"group": "gh"
 	},
 	{
@@ -819,15 +819,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布理论物理学新成果",
-		"url": "https://openai.com/index/new-result-theoretical-physics/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 将单减振幅方法扩展至引力子研究",
-		"url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/",
+		"title": "OpenAI 开放 Proof 子任务提交",
+		"url": "https://openai.com/index/first-proof-submissions/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -840,8 +833,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 开放 Proof 子任务提交",
-		"url": "https://openai.com/index/first-proof-submissions/",
+		"title": "OpenAI 发布理论物理学新成果",
+		"url": "https://openai.com/index/new-result-theoretical-physics/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -849,6 +842,13 @@
 	{
 		"title": "OpenAI 分享参数高尔夫研究经验",
 		"url": "https://openai.com/index/what-parameter-golf-taught-us/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 将单减振幅方法扩展至引力子研究",
+		"url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
