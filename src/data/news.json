@@ -1,23 +1,58 @@
 [
 	{
-		"title": "reconurge 开源 flowsint 可视化图分析平台",
-		"url": "https://github.com/reconurge/flowsint",
+		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
+		"url": "https://github.com/EveryInc/compound-engineering-plugin",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T10:10:53Z",
+		"date": "2026-06-03T16:20:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T16:13:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "iii 开源服务编排与实时观测工具",
+		"url": "https://github.com/iii-hq/iii",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T15:43:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "Supermemory 开源记忆引擎与 API",
 		"url": "https://github.com/supermemoryai/supermemory",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T09:05:00Z",
+		"date": "2026-06-03T15:35:53Z",
 		"group": "gh"
 	},
 	{
 		"title": "Anthropic 开源知识工作插件仓库",
 		"url": "https://github.com/anthropics/knowledge-work-plugins",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T09:02:18Z",
+		"date": "2026-06-03T14:32:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 博客探讨 DPO 在对话模型之外的应用",
+		"url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-03T12:55:11.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "p-e-w 开源 Heretic 语言模型自动去审查工具",
+		"url": "https://github.com/p-e-w/heretic",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T12:28:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "reconurge 开源 flowsint 可视化图分析平台",
+		"url": "https://github.com/reconurge/flowsint",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T11:42:18Z",
 		"group": "gh"
 	},
 	{
@@ -25,20 +60,6 @@
 		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
 		"date": "2026-06-03T08:57:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T08:04:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T04:41:08Z",
 		"group": "gh"
 	},
 	{
@@ -63,18 +84,18 @@
 		"group": "gh"
 	},
 	{
+		"title": "Hugging Face 为 Reachy Mini 添加 MCP 工具支持",
+		"url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "工程软件龙头采用自主 AI 工程师 Nemoclaw",
 		"url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
 		"source": "NVIDIA",
 		"date": "2026-06-02T22:00:58.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "iii 开源服务编排与实时观测工具",
-		"url": "https://github.com/iii-hq/iii",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T21:12:33Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Cosmos-3 物理 AI 世界基础模型",
@@ -194,13 +215,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-01T04:15:40.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "p-e-w 开源 Heretic 语言模型自动去审查工具",
-		"url": "https://github.com/p-e-w/heretic",
-		"source": "GitHub Trending",
-		"date": "2026-05-31T09:56:40Z",
-		"group": "gh"
 	},
 	{
 		"title": "ModelScope 开源 FunASR 工业级语音识别工具包",
@@ -690,13 +704,6 @@
 		"url": "https://huggingface.co/blog/agent-glossary",
 		"source": "Hugging Face Blog",
 		"date": "2026-05-25T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 博客文章探讨 AI 采购中常被忽视的模型专业化策略",
-		"url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
-		"source": "Hugging Face Blog",
-		"date": "2026-05-22T15:25:59.000Z",
 		"group": "labs"
 	},
 	{
@@ -1708,13 +1715,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "HCompany 发布 AI 浏览器助手 HoloTab",
-		"url": "https://huggingface.co/blog/Hcompany/holotab",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-15T09:25:20.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 发布 Gemini 3.1 Flash TTS 语音合成模型",
 		"url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
 		"source": "DeepMind",
@@ -2097,20 +2097,6 @@
 		"url": "https://blogs.nvidia.com/blog/retail-agentic-physical-ai/",
 		"source": "NVIDIA",
 		"date": "2026-03-05T19:08:52.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 NeurIPS 开源数字物理 AI 项目",
-		"url": "https://blogs.nvidia.com/blog/neurips-open-source-digital-physical-ai/",
-		"source": "NVIDIA",
-		"date": "2026-03-05T14:03:57.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Blackwell Ultra 以更低成本提升 Agentic AI 性能",
-		"url": "https://blogs.nvidia.com/blog/data-blackwell-ultra-performance-lower-cost-agentic-ai/",
-		"source": "NVIDIA",
-		"date": "2026-03-05T14:02:26.000Z",
 		"group": "labs"
 	}
 ]
