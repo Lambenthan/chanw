@@ -1,30 +1,72 @@
 [
 	{
-		"title": "opendataloader-project 开源 PDF 解析器 opendataloader-pdf",
-		"url": "https://github.com/opendataloader-project/opendataloader-pdf",
+		"title": "NousResearch 开源 hermes-agent 智能体框架",
+		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-04T09:43:43Z",
+		"date": "2026-06-04T14:32:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "Supermemory 开源记忆引擎与 API",
+		"url": "https://github.com/supermemoryai/supermemory",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T14:22:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 开源 spec-kit 规范驱动开发工具包",
+		"url": "https://github.com/github/spec-kit",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T14:12:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenClaw 发布 Windows 伴侣套件 openclaw-windows-node",
+		"url": "https://github.com/openclaw/openclaw-windows-node",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T13:43:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T13:33:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 发布 Nemotron 3.5 ASR 微调指南",
+		"url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-04T12:59:35.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 开源 Cosmos 世界模型平台",
+		"url": "https://github.com/NVIDIA/cosmos",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T12:31:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "ServiceNow AI 发布 EVA-Bench Data 评测数据集 2.0",
+		"url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-04T12:24:58.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "PaddlePaddle 开源 PaddleOCR 轻量级 OCR 工具包",
+		"url": "https://github.com/PaddlePaddle/PaddleOCR",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T11:45:12Z",
 		"group": "gh"
 	},
 	{
 		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
 		"url": "https://github.com/aquasecurity/trivy",
 		"source": "GitHub Trending",
-		"date": "2026-06-04T09:42:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "Odoo 开源企业应用套件更新",
-		"url": "https://github.com/odoo/odoo",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T09:35:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "NousResearch 开源 hermes-agent 智能体框架",
-		"url": "https://github.com/NousResearch/hermes-agent",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T09:31:53Z",
+		"date": "2026-06-04T11:09:33Z",
 		"group": "gh"
 	},
 	{
@@ -32,20 +74,6 @@
 		"url": "https://github.com/OpenMOSS/MOSS-TTS",
 		"source": "GitHub Trending",
 		"date": "2026-06-04T09:08:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "Supermemory 开源记忆引擎与 API",
-		"url": "https://github.com/supermemoryai/supermemory",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T08:28:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "p-e-w 开源 Heretic 语言模型自动去审查工具",
-		"url": "https://github.com/p-e-w/heretic",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T06:47:49Z",
 		"group": "gh"
 	},
 	{
@@ -63,10 +91,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "微软开源 AI Agent 治理工具包",
-		"url": "https://github.com/microsoft/agent-governance-toolkit",
+		"title": "GitHub 开源 Copilot SDK，支持多平台集成 Copilot Agent",
+		"url": "https://github.com/github/copilot-sdk",
 		"source": "GitHub Trending",
-		"date": "2026-06-04T04:58:34Z",
+		"date": "2026-06-04T03:53:59Z",
 		"group": "gh"
 	},
 	{
@@ -77,10 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
+		"title": "Open Notebook 开源 Notebook LM 替代版",
+		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T22:08:33Z",
+		"date": "2026-06-03T23:44:11Z",
 		"group": "gh"
 	},
 	{
@@ -91,13 +119,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "iii 开源服务编排与实时观测工具",
-		"url": "https://github.com/iii-hq/iii",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T21:13:26Z",
-		"group": "gh"
-	},
-	{
 		"title": "工程软件龙头采用自主 AI 工程师 Nemoclaw",
 		"url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
 		"source": "NVIDIA",
@@ -105,10 +126,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "D4Vinci 开源 Scrapling 自适应网页抓取框架",
-		"url": "https://github.com/D4Vinci/Scrapling",
+		"title": "Flowsint 开源图调查平台",
+		"url": "https://github.com/reconurge/flowsint",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T17:43:44Z",
+		"date": "2026-06-03T18:34:42Z",
 		"group": "gh"
 	},
 	{
@@ -133,6 +154,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Endava 借助 OpenAI 加速企业软件交付",
+		"url": "https://openai.com/index/endava-frontiers",
+		"source": "OpenAI",
+		"date": "2026-06-03T13:15:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Wasmer 借助 Codex 与 GPT-5.5 构建边缘 Node.js 运行时",
 		"url": "https://openai.com/index/wasmer",
 		"source": "OpenAI",
@@ -147,16 +175,23 @@
 		"group": "labs"
 	},
 	{
-		"title": "rohitg00 开源 AI 工程从零开始学习项目",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T00:12:38Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 为 Reachy Mini 添加 MCP 工具支持",
 		"url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
 		"source": "Hugging Face Blog",
+		"date": "2026-06-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出 Claude 合作伙伴网络服务通道与合作伙伴中心",
+		"url": "https://www.anthropic.com/news/services-track-partner-hub",
+		"source": "Anthropic News",
+		"date": "2026-06-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 网络威胁年度分析报告",
+		"url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+		"source": "Anthropic News",
 		"date": "2026-06-03T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -259,13 +294,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 发布 Cosmos 3 物理AI推理与行动全能模型",
-		"url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-01T04:44:55.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 推出基于 Blackwell 和 CUDA X 的半导体 EDA 解决方案",
 		"url": "https://blogs.nvidia.com/blog/semiconductor-industry-electronic-design-automation-blackwell-cuda-x/",
 		"source": "NVIDIA",
@@ -364,13 +392,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "HKUDS 开源 Vibe-Trading 个人交易 Agent",
-		"url": "https://github.com/HKUDS/Vibe-Trading",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T08:40:07Z",
-		"group": "gh"
-	},
-	{
 		"title": "chopratejas 开源 headroom LLM 输入压缩工具",
 		"url": "https://github.com/chopratejas/headroom",
 		"source": "GitHub Trending",
@@ -390,13 +411,6 @@
 		"source": "OpenAI",
 		"date": "2026-05-28T04:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Hermes 开源 Hermes WebUI，可在网页和手机端使用 Agent",
-		"url": "https://github.com/nesquena/hermes-webui",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T03:40:48Z",
-		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
@@ -441,6 +455,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 更新模型规范新增青少年保护条款",
+		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
+		"url": "https://openai.com/index/trusted-access-for-cyber/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布儿童安全蓝图",
 		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
 		"source": "OpenAI",
@@ -471,13 +499,6 @@
 	{
 		"title": "OpenAI 发布年龄预测研究",
 		"url": "https://openai.com/index/building-towards-age-prediction/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 更新模型规范新增青少年保护条款",
-		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -541,13 +562,6 @@
 	{
 		"title": "OpenAI 推进内容溯源技术",
 		"url": "https://openai.com/index/advancing-content-provenance/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
-		"url": "https://openai.com/index/trusted-access-for-cyber/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -784,6 +798,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "mvanhorn 开源 last30days-skill 跨平台话题调查 skill",
+		"url": "https://github.com/mvanhorn/last30days-skill",
+		"source": "GitHub Trending",
+		"date": "2026-05-22T15:14:46Z",
+		"group": "gh"
+	},
+	{
 		"title": "OpenBMB 开源 VoxCPM2 多语言语音合成模型",
 		"url": "https://github.com/OpenBMB/VoxCPM",
 		"source": "GitHub Trending",
@@ -903,6 +924,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT Rosalind",
+		"url": "https://openai.com/index/introducing-gpt-rosalind/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 不再使用 SWE-bench Verified 评估模型",
+		"url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布稀疏电路理解神经网络研究",
 		"url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits/",
 		"source": "OpenAI",
@@ -1001,13 +1036,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 不再使用 SWE-bench Verified 评估模型",
-		"url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 Instruction Hierarchy Challenge",
 		"url": "https://openai.com/index/instruction-hierarchy-challenge/",
 		"source": "OpenAI",
@@ -1017,13 +1045,6 @@
 	{
 		"title": "OpenAI 公布模型规范制定方法",
 		"url": "https://openai.com/index/our-approach-to-the-model-spec/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT Rosalind",
-		"url": "https://openai.com/index/introducing-gpt-rosalind/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -1799,13 +1820,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "IBM Research 发布 VAKRA agent 评测基准分析",
-		"url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-15T12:07:25.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 发布 Gemini 3.1 Flash TTS 语音合成模型",
 		"url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
 		"source": "DeepMind",
@@ -2161,13 +2175,6 @@
 		"source": "DeepMind",
 		"date": "2026-03-10T15:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "lyogavin 开源 AirLLM，单张 4GB GPU 可推理 70B 模型",
-		"url": "https://github.com/lyogavin/airllm",
-		"source": "GitHub Trending",
-		"date": "2026-03-10T11:42:34Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Agentic AI Blueprints 电信推理模型蓝图",
