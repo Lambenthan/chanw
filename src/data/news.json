@@ -1,9 +1,86 @@
 [
 	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T19:56:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
+		"url": "https://github.com/colbymchenry/codegraph",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T19:48:33Z",
+		"group": "gh"
+	},
+	{
 		"title": "NousResearch 开源 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-04T14:32:51Z",
+		"date": "2026-06-04T19:19:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Nemotron 3.5 Content Safety 多模态安全模型",
+		"url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-04T18:57:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenClaw 发布 Windows 伴侣套件 openclaw-windows-node",
+		"url": "https://github.com/openclaw/openclaw-windows-node",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T18:54:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 开源 Copilot SDK，支持多平台集成 Copilot Agent",
+		"url": "https://github.com/github/copilot-sdk",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T18:51:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "PaddlePaddle 开源 PaddleOCR 轻量级 OCR 工具包",
+		"url": "https://github.com/PaddlePaddle/PaddleOCR",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T18:21:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Cosmos 世界模型平台",
+		"url": "https://github.com/NVIDIA/cosmos",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T18:10:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 开源 spec-kit 规范驱动开发工具包",
+		"url": "https://github.com/github/spec-kit",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T17:25:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Open Notebook 开源 Notebook LM 替代版",
+		"url": "https://github.com/lfnovo/open-notebook",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T17:07:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Flowsint 开源图调查平台",
+		"url": "https://github.com/reconurge/flowsint",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T16:25:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
+		"url": "https://github.com/aquasecurity/trivy",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T14:50:08Z",
 		"group": "gh"
 	},
 	{
@@ -14,41 +91,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "GitHub 开源 spec-kit 规范驱动开发工具包",
-		"url": "https://github.com/github/spec-kit",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T14:12:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenClaw 发布 Windows 伴侣套件 openclaw-windows-node",
-		"url": "https://github.com/openclaw/openclaw-windows-node",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T13:43:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T13:33:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "Hugging Face 发布 Nemotron 3.5 ASR 微调指南",
-		"url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-04T12:59:35.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 开源 Cosmos 世界模型平台",
-		"url": "https://github.com/NVIDIA/cosmos",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T12:31:46Z",
-		"group": "gh"
-	},
-	{
 		"title": "ServiceNow AI 发布 EVA-Bench Data 评测数据集 2.0",
 		"url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
 		"source": "Hugging Face Blog",
@@ -56,31 +98,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "PaddlePaddle 开源 PaddleOCR 轻量级 OCR 工具包",
-		"url": "https://github.com/PaddlePaddle/PaddleOCR",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T11:45:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
-		"url": "https://github.com/aquasecurity/trivy",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T11:09:33Z",
-		"group": "gh"
-	},
-	{
 		"title": "MOSI.AI 与 OpenMOSS 开源 MOSS-TTS 系列语音及声音生成模型",
 		"url": "https://github.com/OpenMOSS/MOSS-TTS",
 		"source": "GitHub Trending",
 		"date": "2026-06-04T09:08:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
-		"url": "https://github.com/colbymchenry/codegraph",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T06:15:14Z",
 		"group": "gh"
 	},
 	{
@@ -91,13 +112,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "GitHub 开源 Copilot SDK，支持多平台集成 Copilot Agent",
-		"url": "https://github.com/github/copilot-sdk",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T03:53:59Z",
-		"group": "gh"
-	},
-	{
 		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
 		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
@@ -105,31 +119,24 @@
 		"group": "gh"
 	},
 	{
-		"title": "Open Notebook 开源 Notebook LM 替代版",
-		"url": "https://github.com/lfnovo/open-notebook",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T23:44:11Z",
-		"group": "gh"
+		"title": "工程软件龙头采用自主 AI 工程师 Nemoclaw",
+		"url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+		"source": "NVIDIA",
+		"date": "2026-06-04T00:41:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 发布 agent 优化的 hf CLI",
+		"url": "https://huggingface.co/blog/hf-cli-for-agents",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-04T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布 Claude Code 终端编程助手",
 		"url": "https://github.com/anthropics/claude-code",
 		"source": "GitHub Trending",
 		"date": "2026-06-03T21:31:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "工程软件龙头采用自主 AI 工程师 Nemoclaw",
-		"url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-		"source": "NVIDIA",
-		"date": "2026-06-03T20:05:53.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Flowsint 开源图调查平台",
-		"url": "https://github.com/reconurge/flowsint",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T18:34:42Z",
 		"group": "gh"
 	},
 	{
@@ -154,8 +161,22 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 推出 ChatGPT 记忆梦境功能",
+		"url": "https://openai.com/index/chatgpt-memory-dreaming/",
+		"source": "OpenAI",
+		"date": "2026-06-03T13:15:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Endava 借助 OpenAI 加速企业软件交付",
 		"url": "https://openai.com/index/endava-frontiers",
+		"source": "OpenAI",
+		"date": "2026-06-03T13:15:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 为 ChatGPT 推出新记忆系统",
+		"url": "https://openai.com/index/chatgpt-memory-dreaming",
 		"source": "OpenAI",
 		"date": "2026-06-03T13:15:00.000Z",
 		"group": "labs"
@@ -406,13 +427,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Ramp 工程师用 Codex 加速代码审查",
-		"url": "https://openai.com/index/ramp",
-		"source": "OpenAI",
-		"date": "2026-05-28T04:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
 		"url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations/",
 		"source": "OpenAI",
@@ -452,6 +466,20 @@
 		"url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
 		"source": "NVIDIA",
 		"date": "2026-05-27T17:00:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 加强外部安全测试机制",
+		"url": "https://openai.com/index/strengthening-safety-with-external-testing/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 公布 Sora Feed 设计理念",
+		"url": "https://openai.com/index/sora-feed-philosophy/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -588,13 +616,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 公布 Sora Feed 设计理念",
-		"url": "https://openai.com/index/sora-feed-philosophy/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT-5 系统卡附录与 GPT-5 Codex",
 		"url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex/",
 		"source": "OpenAI",
@@ -695,13 +716,6 @@
 	{
 		"title": "OpenAI 在 ChatGPT 中推出 Trusted Contact 功能",
 		"url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 加强外部安全测试机制",
-		"url": "https://openai.com/index/strengthening-safety-with-external-testing/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -1754,13 +1768,6 @@
 		"url": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
 		"source": "NVIDIA",
 		"date": "2026-04-16T04:01:45.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Sentence Transformers 发布多模态 Embedding 与 Reranker 模型训练方案",
-		"url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-16T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
