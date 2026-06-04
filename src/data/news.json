@@ -1,37 +1,72 @@
 [
 	{
-		"title": "Odoo 开源企业应用套件更新",
-		"url": "https://github.com/odoo/odoo",
+		"title": "NousResearch 开源 hermes-agent 智能体框架",
+		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T20:45:41Z",
+		"date": "2026-06-04T02:45:24Z",
 		"group": "gh"
 	},
 	{
-		"title": "微软开源 AI Agent 治理工具包",
-		"url": "https://github.com/microsoft/agent-governance-toolkit",
+		"title": "Odoo 开源企业应用套件更新",
+		"url": "https://github.com/odoo/odoo",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T20:40:05Z",
+		"date": "2026-06-04T02:41:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T02:25:27Z",
 		"group": "gh"
 	},
 	{
 		"title": "Supermemory 开源记忆引擎与 API",
 		"url": "https://github.com/supermemoryai/supermemory",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T20:37:29Z",
+		"date": "2026-06-04T01:47:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
+		"url": "https://github.com/colbymchenry/codegraph",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T00:02:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "微软开源 AI Agent 治理工具包",
+		"url": "https://github.com/microsoft/agent-governance-toolkit",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T23:36:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T22:08:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 终端编程助手",
+		"url": "https://github.com/anthropics/claude-code",
+		"source": "GitHub Trending",
+		"date": "2026-06-03T21:31:35Z",
 		"group": "gh"
 	},
 	{
 		"title": "iii 开源服务编排与实时观测工具",
 		"url": "https://github.com/iii-hq/iii",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T20:36:27Z",
+		"date": "2026-06-03T21:13:26Z",
 		"group": "gh"
 	},
 	{
-		"title": "NousResearch 开源 hermes-agent 智能体框架",
-		"url": "https://github.com/NousResearch/hermes-agent",
+		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
+		"url": "https://github.com/aquasecurity/trivy",
 		"source": "GitHub Trending",
-		"date": "2026-06-03T20:16:59Z",
+		"date": "2026-06-03T21:09:55Z",
 		"group": "gh"
 	},
 	{
@@ -40,13 +75,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-03T20:05:53.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T19:36:01Z",
-		"group": "gh"
 	},
 	{
 		"title": "D4Vinci 开源 Scrapling 自适应网页抓取框架",
@@ -70,6 +98,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "NVIDIA 在 CVPR 发布抓取、驾驶与 Agent 训练研究",
+		"url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+		"source": "NVIDIA",
+		"date": "2026-06-03T15:00:57.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 在 CVPR 发布 Physical AI 研究 Agent 技能",
 		"url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
 		"source": "NVIDIA",
@@ -77,11 +112,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
-		"url": "https://github.com/aquasecurity/trivy",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T14:41:30Z",
-		"group": "gh"
+		"title": "Wasmer 借助 Codex 与 GPT-5.5 构建边缘 Node.js 运行时",
+		"url": "https://openai.com/index/wasmer",
+		"source": "OpenAI",
+		"date": "2026-06-03T13:15:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Hugging Face 博客探讨 DPO 在对话模型之外的应用",
@@ -95,27 +130,6 @@
 		"url": "https://github.com/p-e-w/heretic",
 		"source": "GitHub Trending",
 		"date": "2026-06-03T12:28:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T08:57:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 终端编程助手",
-		"url": "https://github.com/anthropics/claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T07:20:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
-		"url": "https://github.com/colbymchenry/codegraph",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T02:44:28Z",
 		"group": "gh"
 	},
 	{
@@ -333,6 +347,13 @@
 		"url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
 		"source": "NVIDIA",
 		"date": "2026-05-28T13:00:51.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "MUFG 采用 ChatGPT Enterprise 推进 AI-native 转型",
+		"url": "https://openai.com/index/mufg",
+		"source": "OpenAI",
+		"date": "2026-05-28T12:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -679,13 +700,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出内容溯源工具套件",
-		"url": "https://openai.com/index/advancing-content-provenance",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT-5.4-Cyber 网络安全防御模型",
 		"url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
 		"source": "OpenAI",
@@ -753,6 +767,13 @@
 		"url": "https://openai.com/index/scaling-social-science-research/",
 		"source": "OpenAI",
 		"date": "2026-05-26T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Build CLI 编程工具",
+		"url": "https://x.ai/news/grok-build-cli",
+		"source": "xAI",
+		"date": "2026-05-25T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -830,6 +851,13 @@
 		"url": "https://www.anthropic.com/research/glasswing-initial-update",
 		"source": "Anthropic Research",
 		"date": "2026-05-21T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 接入 OpenCode 开发环境",
+		"url": "https://x.ai/news/grok-opencode",
+		"source": "xAI",
+		"date": "2026-05-21T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1459,6 +1487,13 @@
 		"title": "Hugging Face 为 Open ASR 排行榜新增 Benchmaxxer Repellant 机制",
 		"url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
 		"source": "Hugging Face Blog",
+		"date": "2026-05-06T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 与 Anthropic 达成算力合作",
+		"url": "https://x.ai/news/anthropic-compute-partnership",
+		"source": "xAI",
 		"date": "2026-05-06T00:00:00.000Z",
 		"group": "labs"
 	},
