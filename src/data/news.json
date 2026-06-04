@@ -1,16 +1,72 @@
 [
 	{
-		"title": "NousResearch 开源 hermes-agent 智能体框架",
-		"url": "https://github.com/NousResearch/hermes-agent",
+		"title": "opendataloader-project 开源 PDF 解析器 opendataloader-pdf",
+		"url": "https://github.com/opendataloader-project/opendataloader-pdf",
 		"source": "GitHub Trending",
-		"date": "2026-06-04T02:45:24Z",
+		"date": "2026-06-04T09:43:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
+		"url": "https://github.com/aquasecurity/trivy",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T09:42:37Z",
 		"group": "gh"
 	},
 	{
 		"title": "Odoo 开源企业应用套件更新",
 		"url": "https://github.com/odoo/odoo",
 		"source": "GitHub Trending",
-		"date": "2026-06-04T02:41:32Z",
+		"date": "2026-06-04T09:35:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "NousResearch 开源 hermes-agent 智能体框架",
+		"url": "https://github.com/NousResearch/hermes-agent",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T09:31:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "MOSI.AI 与 OpenMOSS 开源 MOSS-TTS 系列语音及声音生成模型",
+		"url": "https://github.com/OpenMOSS/MOSS-TTS",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T09:08:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Supermemory 开源记忆引擎与 API",
+		"url": "https://github.com/supermemoryai/supermemory",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T08:28:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "p-e-w 开源 Heretic 语言模型自动去审查工具",
+		"url": "https://github.com/p-e-w/heretic",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T06:47:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
+		"url": "https://github.com/colbymchenry/codegraph",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T06:15:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "Understand-Anything 开源交互式代码知识图谱工具",
+		"url": "https://github.com/Lum1104/Understand-Anything",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T05:46:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "微软开源 AI Agent 治理工具包",
+		"url": "https://github.com/microsoft/agent-governance-toolkit",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T04:58:34Z",
 		"group": "gh"
 	},
 	{
@@ -18,27 +74,6 @@
 		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
 		"date": "2026-06-04T02:25:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "Supermemory 开源记忆引擎与 API",
-		"url": "https://github.com/supermemoryai/supermemory",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T01:47:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
-		"url": "https://github.com/colbymchenry/codegraph",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T00:02:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "微软开源 AI Agent 治理工具包",
-		"url": "https://github.com/microsoft/agent-governance-toolkit",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T23:36:16Z",
 		"group": "gh"
 	},
 	{
@@ -63,13 +98,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
-		"url": "https://github.com/aquasecurity/trivy",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T21:09:55Z",
-		"group": "gh"
-	},
-	{
 		"title": "工程软件龙头采用自主 AI 工程师 Nemoclaw",
 		"url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
 		"source": "NVIDIA",
@@ -88,13 +116,6 @@
 		"url": "https://github.com/EveryInc/compound-engineering-plugin",
 		"source": "GitHub Trending",
 		"date": "2026-06-03T17:17:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "opendataloader-project 开源 PDF 解析器 opendataloader-pdf",
-		"url": "https://github.com/opendataloader-project/opendataloader-pdf",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T16:14:48Z",
 		"group": "gh"
 	},
 	{
@@ -124,13 +145,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-03T12:55:11.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "p-e-w 开源 Heretic 语言模型自动去审查工具",
-		"url": "https://github.com/p-e-w/heretic",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T12:28:05Z",
-		"group": "gh"
 	},
 	{
 		"title": "rohitg00 开源 AI 工程从零开始学习项目",
@@ -175,13 +189,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Understand-Anything 开源交互式代码知识图谱工具",
-		"url": "https://github.com/Lum1104/Understand-Anything",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T09:49:02Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenAI 为 GPT Rosalind 引入新能力",
 		"url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
 		"source": "OpenAI",
@@ -201,13 +208,6 @@
 		"source": "OpenAI",
 		"date": "2026-06-02T09:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "MOSI.AI 与 OpenMOSS 开源 MOSS-TTS 系列语音及声音生成模型",
-		"url": "https://github.com/OpenMOSS/MOSS-TTS",
-		"source": "GitHub Trending",
-		"date": "2026-06-02T06:57:42Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Jetson Agentic AI 物理世界方案",
