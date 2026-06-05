@@ -1,37 +1,128 @@
 [
 	{
-		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
-		"url": "https://github.com/aquasecurity/trivy",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T14:24:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "NousResearch 开源 hermes-agent 智能体框架",
-		"url": "https://github.com/NousResearch/hermes-agent",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T14:15:36Z",
-		"group": "gh"
-	},
-	{
 		"title": "CopilotKit 开源前端 Agent 与生成式 UI 框架",
 		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T14:05:22Z",
+		"date": "2026-06-05T19:45:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 开源 Plugins 项目",
+		"url": "https://github.com/openai/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T19:34:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
+		"url": "https://github.com/colbymchenry/codegraph",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T19:31:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Cosmos 世界模型平台",
+		"url": "https://github.com/NVIDIA/cosmos",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T19:30:41Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenClaw 发布 Windows 伴侣套件 openclaw-windows-node",
 		"url": "https://github.com/openclaw/openclaw-windows-node",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T13:40:55Z",
+		"date": "2026-06-05T19:08:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "NousResearch 开源 hermes-agent 智能体框架",
+		"url": "https://github.com/NousResearch/hermes-agent",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T18:31:36Z",
 		"group": "gh"
 	},
 	{
 		"title": "Supermemory 开源记忆引擎与 API",
 		"url": "https://github.com/supermemoryai/supermemory",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T11:58:36Z",
+		"date": "2026-06-05T16:27:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "run-llama 开源 LiteParse 文档解析器",
+		"url": "https://github.com/run-llama/liteparse",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T15:58:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Agent 自主性评测方法",
+		"url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T15:49:18.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Values Wild 价值观对齐研究",
+		"url": "https://www.anthropic.com/research/values-wild",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T15:38:54.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 分享 AI 如何改变公司内部工作方式",
+		"url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T15:38:44.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Assistant Axis",
+		"url": "https://www.anthropic.com/research/assistant-axis",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T15:37:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布自我反省能力研究 Introspection",
+		"url": "https://www.anthropic.com/research/introspection",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T15:36:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 辅助工作生产力提升估算研究",
+		"url": "https://www.anthropic.com/research/estimating-productivity-gains",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T15:32:46.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究揭示大模型涌现性奖励黑客行为",
+		"url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T15:20:07.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布下一代宪法分类器",
+		"url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T15:19:41.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Persona Selection Model",
+		"url": "https://www.anthropic.com/research/persona-selection-model",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T15:19:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
+		"url": "https://github.com/aquasecurity/trivy",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T14:24:32Z",
 		"group": "gh"
 	},
 	{
@@ -63,31 +154,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "NVIDIA 开源 Cosmos 世界模型平台",
-		"url": "https://github.com/NVIDIA/cosmos",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T05:18:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
-		"url": "https://github.com/colbymchenry/codegraph",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T04:54:11Z",
-		"group": "gh"
-	},
-	{
 		"title": "herdr 发布终端 Agent 多路复用器",
 		"url": "https://github.com/ogulcancelik/herdr",
 		"source": "GitHub Trending",
 		"date": "2026-06-05T04:40:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 开源 Plugins 项目",
-		"url": "https://github.com/openai/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T04:09:08Z",
 		"group": "gh"
 	},
 	{
@@ -105,18 +175,18 @@
 		"group": "gh"
 	},
 	{
+		"title": "Anthropic 让 Claude 具备化学推理与实验能力",
+		"url": "https://www.anthropic.com/research/making-claude-a-chemist",
+		"source": "Anthropic Research",
+		"date": "2026-06-05T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "工程软件龙头采用自主 AI 工程师 Nemoclaw",
 		"url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
 		"source": "NVIDIA",
 		"date": "2026-06-04T22:55:40.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "run-llama 开源 LiteParse 文档解析器",
-		"url": "https://github.com/run-llama/liteparse",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T20:14:30Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Nemotron 3.5 Content Safety 多模态安全模型",
@@ -259,6 +329,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 扩展 Project Glasswing 安全研究项目",
+		"url": "https://www.anthropic.com/news/expanding-project-glasswing",
+		"source": "Anthropic News",
+		"date": "2026-06-02T14:03:15.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 为 GPT Rosalind 引入新能力",
 		"url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
 		"source": "OpenAI",
@@ -284,13 +361,6 @@
 		"url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
 		"source": "NVIDIA",
 		"date": "2026-06-02T04:01:26.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 扩展 Project Glasswing 安全研究项目",
-		"url": "https://www.anthropic.com/news/expanding-project-glasswing",
-		"source": "Anthropic News",
-		"date": "2026-06-02T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -784,6 +854,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "OpenAI 发布社会科学研究规模化方法",
+		"url": "https://openai.com/index/scaling-social-science-research/",
+		"source": "OpenAI",
+		"date": "2026-05-26T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布社会科学领域 coding agent 研究报告",
 		"url": "https://www.anthropic.com/research/coding-agents-social-sciences",
 		"source": "Anthropic Research",
@@ -793,13 +870,6 @@
 	{
 		"title": "OpenAI 推出独立研究 AI 对齐项目",
 		"url": "https://openai.com/index/advancing-independent-research-ai-alignment/",
-		"source": "OpenAI",
-		"date": "2026-05-26T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布社会科学研究规模化方法",
-		"url": "https://openai.com/index/scaling-social-science-research/",
 		"source": "OpenAI",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
@@ -1458,6 +1528,13 @@
 	{
 		"title": "OpenAI 模型推翻离散几何猜想",
 		"url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+		"source": "OpenAI",
+		"date": "2026-05-11T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 模型否定离散几何中心猜想",
+		"url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
 		"source": "OpenAI",
 		"date": "2026-05-11T16:00:00.000Z",
 		"group": "labs"
