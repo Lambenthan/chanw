@@ -1,23 +1,44 @@
 [
 	{
-		"title": "NousResearch 开源 hermes-agent 智能体框架",
-		"url": "https://github.com/NousResearch/hermes-agent",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T09:31:22Z",
-		"group": "gh"
-	},
-	{
 		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
 		"url": "https://github.com/aquasecurity/trivy",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T08:41:49Z",
+		"date": "2026-06-05T14:24:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "NousResearch 开源 hermes-agent 智能体框架",
+		"url": "https://github.com/NousResearch/hermes-agent",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T14:15:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "CopilotKit 开源前端 Agent 与生成式 UI 框架",
+		"url": "https://github.com/CopilotKit/CopilotKit",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T14:05:22Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenClaw 发布 Windows 伴侣套件 openclaw-windows-node",
 		"url": "https://github.com/openclaw/openclaw-windows-node",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T08:40:31Z",
+		"date": "2026-06-05T13:40:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Supermemory 开源记忆引擎与 API",
+		"url": "https://github.com/supermemoryai/supermemory",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T11:58:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "MemPalace 开源 AI 记忆系统 MemPalace",
+		"url": "https://github.com/MemPalace/mempalace",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T07:54:12Z",
 		"group": "gh"
 	},
 	{
@@ -25,13 +46,6 @@
 		"url": "https://github.com/EveryInc/compound-engineering-plugin",
 		"source": "GitHub Trending",
 		"date": "2026-06-05T07:05:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "Flowsint 开源图调查平台",
-		"url": "https://github.com/reconurge/flowsint",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T06:24:40Z",
 		"group": "gh"
 	},
 	{
@@ -70,10 +84,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Supermemory 开源记忆引擎与 API",
-		"url": "https://github.com/supermemoryai/supermemory",
+		"title": "OpenAI 开源 Plugins 项目",
+		"url": "https://github.com/openai/plugins",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T04:29:28Z",
+		"date": "2026-06-05T04:09:08Z",
 		"group": "gh"
 	},
 	{
@@ -98,10 +112,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "GitHub 开源 spec-kit 规范驱动开发工具包",
-		"url": "https://github.com/github/spec-kit",
+		"title": "run-llama 开源 LiteParse 文档解析器",
+		"url": "https://github.com/run-llama/liteparse",
 		"source": "GitHub Trending",
-		"date": "2026-06-04T21:53:43Z",
+		"date": "2026-06-04T20:14:30Z",
 		"group": "gh"
 	},
 	{
@@ -131,13 +145,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-04T12:24:58.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "MOSI.AI 与 OpenMOSS 开源 MOSS-TTS 系列语音及声音生成模型",
-		"url": "https://github.com/OpenMOSS/MOSS-TTS",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T09:08:01Z",
-		"group": "gh"
 	},
 	{
 		"title": "Understand-Anything 开源交互式代码知识图谱工具",
@@ -217,6 +224,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Hugging Face 为 Reachy Mini 添加 MCP 工具",
+		"url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布 Cosmos-3 物理 AI 世界基础模型",
 		"url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
 		"source": "NVIDIA",
@@ -235,6 +249,13 @@
 		"url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
 		"source": "NVIDIA",
 		"date": "2026-06-02T15:50:20.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hcompany 发布 Holo3.1 快速本地化计算机使用 Agent",
+		"url": "https://huggingface.co/blog/Hcompany/holo31",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-02T14:13:23.000Z",
 		"group": "labs"
 	},
 	{
@@ -455,6 +476,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布推理模型思维链可控性研究",
+		"url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 更新安全漏洞赏金计划",
 		"url": "https://openai.com/index/safety-bug-bounty/",
 		"source": "OpenAI",
@@ -555,13 +583,6 @@
 	{
 		"title": "OpenAI 更新美国 CAISI 与英国 AISI 的 AI 治理进展",
 		"url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布推理模型思维链可控性研究",
-		"url": "https://openai.com/index/reasoning-models-chain-of-thought-controllability/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -796,6 +817,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-05-25T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "MiroFish 开源群体智能引擎，可实现通用预测",
+		"url": "https://github.com/666ghj/MiroFish",
+		"source": "GitHub Trending",
+		"date": "2026-05-24T16:48:58Z",
+		"group": "gh"
 	},
 	{
 		"title": "mvanhorn 开源 last30days-skill 跨平台话题调查 skill",
@@ -1244,6 +1272,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-05-18T15:12:46.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Agent-Reach 开源：AI agent 通过 CLI 读取搜索全网平台",
+		"url": "https://github.com/Panniantong/Agent-Reach",
+		"source": "GitHub Trending",
+		"date": "2026-05-18T12:39:22Z",
+		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布 GPT-5.2 Codex",
