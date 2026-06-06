@@ -3,56 +3,98 @@
 		"title": "CopilotKit 开源前端 Agent 与生成式 UI 框架",
 		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T19:45:45Z",
+		"date": "2026-06-06T02:15:21Z",
 		"group": "gh"
 	},
 	{
-		"title": "OpenAI 开源 Plugins 项目",
-		"url": "https://github.com/openai/plugins",
+		"title": "MemPalace 开源 AI 记忆系统 MemPalace",
+		"url": "https://github.com/MemPalace/mempalace",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T19:34:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
-		"url": "https://github.com/colbymchenry/codegraph",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T19:31:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 Cosmos 世界模型平台",
-		"url": "https://github.com/NVIDIA/cosmos",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T19:30:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenClaw 发布 Windows 伴侣套件 openclaw-windows-node",
-		"url": "https://github.com/openclaw/openclaw-windows-node",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T19:08:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "NousResearch 开源 hermes-agent 智能体框架",
-		"url": "https://github.com/NousResearch/hermes-agent",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T18:31:36Z",
+		"date": "2026-06-06T02:14:38Z",
 		"group": "gh"
 	},
 	{
 		"title": "Supermemory 开源记忆引擎与 API",
 		"url": "https://github.com/supermemoryai/supermemory",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T16:27:04Z",
+		"date": "2026-06-06T02:12:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "NousResearch 开源 hermes-agent 智能体框架",
+		"url": "https://github.com/NousResearch/hermes-agent",
+		"source": "GitHub Trending",
+		"date": "2026-06-06T02:10:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 开源 Plugins 项目",
+		"url": "https://github.com/openai/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-06-06T02:08:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenClaw 发布 Windows 伴侣套件 openclaw-windows-node",
+		"url": "https://github.com/openclaw/openclaw-windows-node",
+		"source": "GitHub Trending",
+		"date": "2026-06-06T01:45:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 终端编程助手",
+		"url": "https://github.com/anthropics/claude-code",
+		"source": "GitHub Trending",
+		"date": "2026-06-06T01:33:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Cosmos 世界模型平台",
+		"url": "https://github.com/NVIDIA/cosmos",
+		"source": "GitHub Trending",
+		"date": "2026-06-06T01:07:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 开源 Copilot SDK，支持多平台集成 Copilot Agent",
+		"url": "https://github.com/github/copilot-sdk",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T23:59:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "withastro/flue 开源沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T22:56:56Z",
 		"group": "gh"
 	},
 	{
 		"title": "run-llama 开源 LiteParse 文档解析器",
 		"url": "https://github.com/run-llama/liteparse",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T15:58:50Z",
+		"date": "2026-06-05T22:41:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "Thousand Token Wood 在 3B 模型上实现多智能体经济系统",
+		"url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-05T22:18:46.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "herdr 发布终端 Agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T21:42:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodeGraph 开源预索引代码知识图谱，降低 AI 编程工具 token 消耗",
+		"url": "https://github.com/colbymchenry/codegraph",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T20:39:24Z",
 		"group": "gh"
 	},
 	{
@@ -126,13 +168,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "MemPalace 开源 AI 记忆系统 MemPalace",
-		"url": "https://github.com/MemPalace/mempalace",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T07:54:12Z",
-		"group": "gh"
-	},
-	{
 		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
 		"url": "https://github.com/EveryInc/compound-engineering-plugin",
 		"source": "GitHub Trending",
@@ -147,31 +182,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Anthropic 发布 Claude Code 终端编程助手",
-		"url": "https://github.com/anthropics/claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T05:45:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 发布终端 Agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T04:40:41Z",
-		"group": "gh"
-	},
-	{
 		"title": "Cursor 发布插件规范与官方插件",
 		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
 		"date": "2026-06-05T00:23:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 开源 Copilot SDK，支持多平台集成 Copilot Agent",
-		"url": "https://github.com/github/copilot-sdk",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T00:13:32Z",
 		"group": "gh"
 	},
 	{
@@ -499,6 +513,13 @@
 	{
 		"title": "Virgin Atlantic 使用 Codex 加速移动应用发布",
 		"url": "https://openai.com/index/virgin-atlantic",
+		"source": "OpenAI",
+		"date": "2026-05-28T04:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Ramp 工程师用 Codex 加速代码审查",
+		"url": "https://openai.com/index/ramp",
 		"source": "OpenAI",
 		"date": "2026-05-28T04:00:00.000Z",
 		"group": "labs"
@@ -1533,13 +1554,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 模型否定离散几何中心猜想",
-		"url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-		"source": "OpenAI",
-		"date": "2026-05-11T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 推出面向金融服务的 Agent 方案",
 		"url": "https://www.anthropic.com/news/finance-agents",
 		"source": "Anthropic News",
@@ -1852,13 +1866,6 @@
 		"url": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
 		"source": "NVIDIA",
 		"date": "2026-04-16T04:01:45.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 Transformers-to-MLX 模型转换工具",
-		"url": "https://huggingface.co/blog/transformers-to-mlx",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-16T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
