@@ -1,9 +1,30 @@
 [
 	{
+		"title": "D4Vinci 开源 Scrapling 自适应网页抓取框架",
+		"url": "https://github.com/D4Vinci/Scrapling",
+		"source": "GitHub Trending",
+		"date": "2026-06-07T13:25:01Z",
+		"group": "gh"
+	},
+	{
 		"title": "NousResearch 开源 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-07T08:47:12Z",
+		"date": "2026-06-07T13:24:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-07T13:23:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "ggml-org 更新 llama.cpp 实现 LLM 推理",
+		"url": "https://github.com/ggml-org/llama.cpp",
+		"source": "GitHub Trending",
+		"date": "2026-06-07T12:50:55Z",
 		"group": "gh"
 	},
 	{
@@ -14,17 +35,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Microsoft 开源 MXC 策略驱动隔离与容器安全框架",
-		"url": "https://github.com/microsoft/mxc",
+		"title": "Crosstalk Solutions 开源离线生存计算机 Project N.O.M.A.D",
+		"url": "https://github.com/Crosstalk-Solutions/project-nomad",
 		"source": "GitHub Trending",
-		"date": "2026-06-07T01:48:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 终端编程助手",
-		"url": "https://github.com/anthropics/claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-06-06T23:41:53Z",
+		"date": "2026-06-07T02:06:13Z",
 		"group": "gh"
 	},
 	{
@@ -35,38 +49,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "CopilotKit 开源前端 Agent 与生成式 UI 框架",
-		"url": "https://github.com/CopilotKit/CopilotKit",
+		"title": "Microsoft 开源 pg_durable：PostgreSQL 内持久化执行引擎",
+		"url": "https://github.com/microsoft/pg_durable",
 		"source": "GitHub Trending",
-		"date": "2026-06-06T23:12:41Z",
+		"date": "2026-06-06T18:12:24Z",
 		"group": "gh"
-	},
-	{
-		"title": "Vite 发布下一代前端工具",
-		"url": "https://github.com/vitejs/vite",
-		"source": "GitHub Trending",
-		"date": "2026-06-06T19:40:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "五个团队联手用小型模型创作金融题材多模型短剧",
-		"url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-06T19:02:33.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "OpenAI 开源 Plugins 项目",
 		"url": "https://github.com/openai/plugins",
 		"source": "GitHub Trending",
 		"date": "2026-06-06T16:15:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "Go 编程语言发布更新",
-		"url": "https://github.com/golang/go",
-		"source": "GitHub Trending",
-		"date": "2026-06-06T12:55:08Z",
 		"group": "gh"
 	},
 	{
@@ -77,17 +70,31 @@
 		"group": "gh"
 	},
 	{
-		"title": "MemPalace 开源 AI 记忆系统 MemPalace",
-		"url": "https://github.com/MemPalace/mempalace",
+		"title": "OpenCV 发布开源计算机视觉库更新",
+		"url": "https://github.com/opencv/opencv",
 		"source": "GitHub Trending",
-		"date": "2026-06-06T08:58:25Z",
+		"date": "2026-06-06T10:45:02Z",
 		"group": "gh"
 	},
 	{
-		"title": "run-llama 开源 LiteParse 文档解析器",
-		"url": "https://github.com/run-llama/liteparse",
+		"title": "fff 开源高性能文件搜索工具包，支持 AI 代理、Neovim 与多语言",
+		"url": "https://github.com/dmtrKovalenko/fff",
 		"source": "GitHub Trending",
-		"date": "2026-06-05T22:41:08Z",
+		"date": "2026-06-06T07:02:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "pbakaus 开源 Impeccable 设计语言",
+		"url": "https://github.com/pbakaus/impeccable",
+		"source": "GitHub Trending",
+		"date": "2026-06-06T04:06:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "aaif-goose 开源可扩展 AI agent Goose，超越代码建议",
+		"url": "https://github.com/aaif-goose/goose",
+		"source": "GitHub Trending",
+		"date": "2026-06-06T04:06:28Z",
 		"group": "gh"
 	},
 	{
@@ -96,13 +103,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-05T21:55:19.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Svelte 前端框架发布更新",
-		"url": "https://github.com/sveltejs/svelte",
-		"source": "GitHub Trending",
-		"date": "2026-06-05T21:52:09Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Agent 自主性评测方法",
@@ -196,31 +196,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "PaddlePaddle 开源 PaddleOCR 轻量级 OCR 工具包",
-		"url": "https://github.com/PaddlePaddle/PaddleOCR",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T18:21:43Z",
-		"group": "gh"
-	},
-	{
 		"title": "Open Notebook 开源 Notebook LM 替代版",
 		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
 		"date": "2026-06-04T17:07:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "NGINX 发布官方开源代码仓库更新",
-		"url": "https://github.com/nginx/nginx",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T16:50:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "D4Vinci 开源 Scrapling 自适应网页抓取框架",
-		"url": "https://github.com/D4Vinci/Scrapling",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T14:47:44Z",
 		"group": "gh"
 	},
 	{
@@ -278,13 +257,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-03T12:55:11.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "obra 开源 Superpowers agentic skills 框架与方法论",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-06-03T05:46:02Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google 搜索上线 AI 工具助力二手复古购物",
@@ -392,13 +364,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 开源 754 个结构化网络安全 skill，适配 5 套框架",
-		"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-01T10:15:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenAI 为 Codex 推出覆盖多角色的插件与注解功能",
 		"url": "https://openai.com/index/codex-for-every-role-tool-workflow",
 		"source": "OpenAI",
@@ -472,6 +437,13 @@
 		"title": "滑铁卢大学展示 Futures Lab AI 原型",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
 		"source": "Google AI",
+		"date": "2026-05-29T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 发布 PyTorch Profiler 入门指南",
+		"url": "https://huggingface.co/blog/torch-profiler",
+		"source": "Hugging Face Blog",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -565,6 +537,13 @@
 		"source": "Mistral",
 		"date": "2026-05-28T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "RyanCodrai 开源基于 TurboQuant 的向量索引 Turbovec",
+		"url": "https://github.com/RyanCodrai/turbovec",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T17:40:37Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 AI 工厂基础设施方案",
@@ -903,13 +882,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "santifer 开源 Career-Ops AI 求职系统",
-		"url": "https://github.com/santifer/career-ops",
-		"source": "GitHub Trending",
-		"date": "2026-05-25T09:52:42Z",
-		"group": "gh"
-	},
-	{
 		"title": "xAI 发布 Grok Build CLI 编程工具",
 		"url": "https://x.ai/news/grok-build-cli",
 		"source": "xAI",
@@ -928,13 +900,6 @@
 		"url": "https://github.com/mvanhorn/last30days-skill",
 		"source": "GitHub Trending",
 		"date": "2026-05-22T15:14:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenBMB 开源 VoxCPM2 多语言语音合成模型",
-		"url": "https://github.com/OpenBMB/VoxCPM",
-		"source": "GitHub Trending",
-		"date": "2026-05-22T03:27:10Z",
 		"group": "gh"
 	},
 	{
@@ -1006,13 +971,6 @@
 		"source": "xAI",
 		"date": "2026-05-21T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "danielmiessler 开源 Personal AI Infrastructure agent 框架",
-		"url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
-		"source": "GitHub Trending",
-		"date": "2026-05-20T21:33:46Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Teaching Claude Why 研究",
@@ -1624,13 +1582,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "微软开源 VibeVoice 语音 AI 项目",
-		"url": "https://github.com/microsoft/VibeVoice",
-		"source": "GitHub Trending",
-		"date": "2026-05-06T06:49:25Z",
-		"group": "gh"
-	},
-	{
 		"title": "xAI 发布 Grok Imagine Quality Mode API",
 		"url": "https://x.ai/news/grok-imagine-quality-mode",
 		"source": "xAI",
@@ -1925,13 +1876,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 开源 Whisper 语音识别模型",
-		"url": "https://github.com/openai/whisper",
-		"source": "GitHub Trending",
-		"date": "2026-04-15T16:32:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 发布 Claude Opus 4.7",
 		"url": "https://www.anthropic.com/news/claude-opus-4-7",
 		"source": "Anthropic News",
@@ -2217,13 +2161,6 @@
 		"source": "NVIDIA",
 		"date": "2026-03-17T21:23:14.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "hardikpandya 开源 stop-slop skill 用于清除文章中的 AI 痕迹",
-		"url": "https://github.com/hardikpandya/stop-slop",
-		"source": "GitHub Trending",
-		"date": "2026-03-17T18:50:39Z",
-		"group": "gh"
 	},
 	{
 		"title": "DeepMind 提出 AGI 进展评测认知框架",
