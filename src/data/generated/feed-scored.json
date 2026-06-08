@@ -1,65 +1,6 @@
 {
-  "fetchedAt": "2026-06-07T19:14:20.937Z",
+  "fetchedAt": "2026-06-08T02:51:18.909Z",
   "items": [
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "485c98a3c8d07b92",
-      "title": "Hermes 开源 Hermes WebUI 提供 Web 与手机端 Agent 访问",
-      "url": "https://github.com/nesquena/hermes-webui",
-      "summary": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
-      "category": "Agent",
-      "publishedAt": "2026-06-07T19:09:55Z",
-      "discoveredAt": "2026-06-06T13:12:53.679Z",
-      "stars": 13586,
-      "repoTopics": [
-        "agent",
-        "ai-agents",
-        "hermes",
-        "hermes-agent",
-        "nous-research"
-      ],
-      "owner": "nesquena",
-      "originalTitle": "nesquena/hermes-webui · Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
-      "score": 3,
-      "cn": "Hermes 团队开源了 Hermes WebUI，为 Hermes Agent 提供了直观的 Web 界面和移动端适配。用户无需命令行，通过浏览器或手机即可完成 agent 任务的创建、监控与管理。该项目基于 Python 构建，适合希望低门槛体验 Hermes Agent 能力的开发者。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "8f4d2163b5e697a7",
-      "title": "ggml-org 更新 llama.cpp 实现 LLM 推理",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "summary": "LLM inference in C/C++",
-      "category": "训练",
-      "publishedAt": "2026-06-07T18:43:01Z",
-      "discoveredAt": "2026-06-07T13:25:47.622Z",
-      "stars": 115105,
-      "repoTopics": [
-        "ggml"
-      ],
-      "owner": "ggml-org",
-      "originalTitle": "ggml-org/llama.cpp · LLM inference in C/C++",
-      "score": 5,
-      "cn": "llama.cpp 是用 C/C++ 实现的轻量级 LLM 推理引擎，主要支持在消费级硬件上运行大语言模型。它利用 GGML 张量库和量化技术，降低显存占用和推理延迟，能够本地执行 LLaMA、GPT、Mistral 等多种架构。该框架偏重落地而非训练，直接服务边缘设备推理场景。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "3ea17c64f01feab4",
-      "title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-      "url": "https://github.com/refactoringhq/tolaria",
-      "summary": "Desktop app to manage markdown knowledge bases",
-      "category": "知识库",
-      "publishedAt": "2026-06-07T18:35:07Z",
-      "discoveredAt": "2026-06-07T13:25:49.723Z",
-      "stars": 12620,
-      "repoTopics": [],
-      "owner": "refactoringhq",
-      "originalTitle": "refactoringhq/tolaria · Desktop app to manage markdown knowledge bases",
-      "score": 3,
-      "cn": "RefactoringHQ 开源 Tolaria，一款面向 Markdown 知识库管理的桌面应用。它围绕本地 Markdown 文件提供可视化组织与检索能力，适合需要结构化整理个人或团队知识资产的使用场景。"
-    },
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
@@ -68,7 +9,7 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "summary": "The agent that grows with you",
       "category": "Agent",
-      "publishedAt": "2026-06-07T18:07:15Z",
+      "publishedAt": "2026-06-08T02:45:34Z",
       "discoveredAt": "2026-06-03T20:51:01.990Z",
       "stars": 178900,
       "repoTopics": [
@@ -93,6 +34,183 @@
       "originalTitle": "NousResearch/hermes-agent · The agent that grows with you",
       "score": 4,
       "cn": "NousResearch 在 GitHub 上发布了 hermes-agent，一个强调与用户共同成长的智能体框架。该项目开源，旨在提供可扩展、可定制的 agent 能力，让智能体能够随着用户的使用不断进化。作为 NousResearch 的新项目，hermes-agent 为开发者构建个性化 agent 提供了新的基础工具。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "8f4d2163b5e697a7",
+      "title": "ggml-org 更新 llama.cpp 实现 LLM 推理",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "summary": "LLM inference in C/C++",
+      "category": "训练",
+      "publishedAt": "2026-06-08T02:35:19Z",
+      "discoveredAt": "2026-06-07T13:25:47.622Z",
+      "stars": 115105,
+      "repoTopics": [
+        "ggml"
+      ],
+      "owner": "ggml-org",
+      "originalTitle": "ggml-org/llama.cpp · LLM inference in C/C++",
+      "score": 5,
+      "cn": "llama.cpp 是用 C/C++ 实现的轻量级 LLM 推理引擎，主要支持在消费级硬件上运行大语言模型。它利用 GGML 张量库和量化技术，降低显存占用和推理延迟，能够本地执行 LLaMA、GPT、Mistral 等多种架构。该框架偏重落地而非训练，直接服务边缘设备推理场景。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "3ea17c64f01feab4",
+      "title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "summary": "Desktop app to manage markdown knowledge bases",
+      "category": "知识库",
+      "publishedAt": "2026-06-08T02:33:25Z",
+      "discoveredAt": "2026-06-07T13:25:49.723Z",
+      "stars": 12620,
+      "repoTopics": [],
+      "owner": "refactoringhq",
+      "originalTitle": "refactoringhq/tolaria · Desktop app to manage markdown knowledge bases",
+      "score": 3,
+      "cn": "RefactoringHQ 开源 Tolaria，一款面向 Markdown 知识库管理的桌面应用。它围绕本地 Markdown 文件提供可视化组织与检索能力，适合需要结构化整理个人或团队知识资产的使用场景。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "485c98a3c8d07b92",
+      "title": "Hermes 开源 Hermes WebUI 提供 Web 与手机端 Agent 访问",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "summary": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "category": "Agent",
+      "publishedAt": "2026-06-08T01:59:10Z",
+      "discoveredAt": "2026-06-06T13:12:53.679Z",
+      "stars": 13586,
+      "repoTopics": [
+        "agent",
+        "ai-agents",
+        "hermes",
+        "hermes-agent",
+        "nous-research"
+      ],
+      "owner": "nesquena",
+      "originalTitle": "nesquena/hermes-webui · Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "score": 3,
+      "cn": "Hermes 团队开源了 Hermes WebUI，为 Hermes Agent 提供了直观的 Web 界面和移动端适配。用户无需命令行，通过浏览器或手机即可完成 agent 任务的创建、监控与管理。该项目基于 Python 构建，适合希望低门槛体验 Hermes Agent 能力的开发者。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "de6bf05613f3ae04",
+      "title": "can1357 开源 oh-my-pi 终端 AI 编程 agent",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "summary": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "category": "编程工具",
+      "publishedAt": "2026-06-08T01:48:48Z",
+      "discoveredAt": "2026-06-03T20:51:14.937Z",
+      "stars": 10278,
+      "repoTopics": [
+        "ai-agent",
+        "ai-coding-agent",
+        "anthropic",
+        "bun",
+        "claude",
+        "cli",
+        "coding-assistant",
+        "llm",
+        "mcp",
+        "multi-provider",
+        "openai",
+        "rust",
+        "terminal",
+        "tui",
+        "typescript"
+      ],
+      "owner": "can1357",
+      "originalTitle": "can1357/oh-my-pi · ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, brow",
+      "score": 4,
+      "cn": "can1357 开源 oh-my-pi，一款终端 AI 编程 agent。它通过哈希锚定编辑实现精准代码修改，并集成优化的工具调用框架、LSP 协议支持、Python 与浏览器操作，以及子 agent 协作，为命令行开发者提供高效编程辅助。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "3d7c7b2843ae8536",
+      "title": "Crosstalk Solutions 开源离线生存计算机 Project N.O.M.A.D",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "summary": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "category": "其他",
+      "publishedAt": "2026-06-08T00:57:01Z",
+      "discoveredAt": "2026-06-07T13:25:47.108Z",
+      "stars": 29463,
+      "repoTopics": [],
+      "owner": "Crosstalk-Solutions",
+      "originalTitle": "Crosstalk-Solutions/project-nomad · Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowle",
+      "score": 4,
+      "cn": "Project N.O.M.A.D 是一套自包含的离线生存计算机系统，整合了关键工具、知识库和本地 AI，确保用户在无网络环境下仍能获取信息并维持基本计算能力。项目代码以 TypeScript 为主，在 GitHub 上开源，适合对离线韧性计算和应急技术方案感兴趣的开发者参考。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "73468cde177ddae6",
+      "title": "chopratejas 开源 headroom LLM 输入压缩工具",
+      "url": "https://github.com/chopratejas/headroom",
+      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "category": "其他",
+      "publishedAt": "2026-06-07T23:38:01Z",
+      "discoveredAt": "2026-06-02T16:04:32.950Z",
+      "stars": 5433,
+      "repoTopics": [
+        "agent",
+        "ai",
+        "anthropic",
+        "claude-code",
+        "compression",
+        "context-engineering",
+        "context-window",
+        "cursor",
+        "fastapi",
+        "langchain",
+        "llm",
+        "mcp",
+        "openai",
+        "prompt-engineering",
+        "proxy",
+        "python",
+        "rag",
+        "token-optimization",
+        "tokens",
+        "typescript"
+      ],
+      "owner": "chopratejas",
+      "originalTitle": "chopratejas/headroom · Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s",
+      "score": 3,
+      "cn": "headroom 是一个开源工具，在工具输出、日志、文件或 RAG 块进入 LLM 之前进行压缩，可减少 60% 到 95% 的 token 消耗，同时保持答案不变。它以库、代理和 MCP 服务器三种形式提供，方便集成到现有工作流中，帮助开发者降低 API 调用成本并提升处理效率。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "82d803b5a5c59170",
+      "title": "Supermemory 开源记忆引擎与 API",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "summary": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "category": "知识库",
+      "publishedAt": "2026-06-07T19:22:32Z",
+      "discoveredAt": "2026-05-31T19:06:28.929Z",
+      "stars": 23212,
+      "repoTopics": [
+        "agent-memory",
+        "ai-memory",
+        "cloudflare-kv",
+        "cloudflare-pages",
+        "cloudflare-workers",
+        "drizzle-orm",
+        "memory",
+        "postgres",
+        "remix",
+        "tailwindcss",
+        "typescript",
+        "vite"
+      ],
+      "owner": "supermemoryai",
+      "originalTitle": "supermemoryai/supermemory · Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "score": 3,
+      "cn": "Supermemory 是一款面向 AI 时代的记忆引擎，开源提供极快且可扩展的 Memory API。开发者可以借助它轻松为对话系统、agent 或 RAG 应用添加持久化的上下文记忆，不再受限于短期会话窗口。项目架构注重性能和弹性，适合需要大规模记忆管理的场景。"
     },
     {
       "source": "github-trending",
@@ -141,39 +259,6 @@
       "cn": "affaan-m 在 GitHub 上开源了 ECC，一个面向 agent 的性能优化系统。该项目围绕 Claude Code、Codex、Opencode、Cursor 等编程工具构建，涵盖 Skills、instincts、memory、security 以及 research-first 开发流程，旨在提升 agent 在实际开发场景中的执行效率与可靠性。项目采用 JavaScript 实现，定位为可扩展的 agent 运行时框架，适合需要多工具链集成的开发者参考。"
     },
     {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "de6bf05613f3ae04",
-      "title": "can1357 开源 oh-my-pi 终端 AI 编程 agent",
-      "url": "https://github.com/can1357/oh-my-pi",
-      "summary": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-      "category": "编程工具",
-      "publishedAt": "2026-06-07T16:17:40Z",
-      "discoveredAt": "2026-06-03T20:51:14.937Z",
-      "stars": 10278,
-      "repoTopics": [
-        "ai-agent",
-        "ai-coding-agent",
-        "anthropic",
-        "bun",
-        "claude",
-        "cli",
-        "coding-assistant",
-        "llm",
-        "mcp",
-        "multi-provider",
-        "openai",
-        "rust",
-        "terminal",
-        "tui",
-        "typescript"
-      ],
-      "owner": "can1357",
-      "originalTitle": "can1357/oh-my-pi · ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, brow",
-      "score": 4,
-      "cn": "can1357 开源 oh-my-pi，一款终端 AI 编程 agent。它通过哈希锚定编辑实现精准代码修改，并集成优化的工具调用框架、LSP 协议支持、Python 与浏览器操作，以及子 agent 协作，为命令行开发者提供高效编程辅助。"
-    },
-    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "cb19ba075a4a80a5",
@@ -188,74 +273,6 @@
       "cn": "OpenAI 为 ChatGPT 新增 Lockdown Mode 与 Elevated Risk Labels 两项安全功能。Lockdown Mode 限制模型在敏感对话中的行为，减少不恰当输出；风险标签则对高风险场景进行可视标记，帮助用户快速识别潜在问题。这两项更新旨在增强企业对 ChatGPT 的信任，尤其适用于金融、医疗等合规要求严格的领域。"
     },
     {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "73468cde177ddae6",
-      "title": "chopratejas 开源 headroom LLM 输入压缩工具",
-      "url": "https://github.com/chopratejas/headroom",
-      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "category": "其他",
-      "publishedAt": "2026-06-07T05:43:40Z",
-      "discoveredAt": "2026-06-02T16:04:32.950Z",
-      "stars": 5433,
-      "repoTopics": [
-        "agent",
-        "ai",
-        "anthropic",
-        "claude-code",
-        "compression",
-        "context-engineering",
-        "context-window",
-        "cursor",
-        "fastapi",
-        "langchain",
-        "llm",
-        "mcp",
-        "openai",
-        "prompt-engineering",
-        "proxy",
-        "python",
-        "rag",
-        "token-optimization",
-        "tokens",
-        "typescript"
-      ],
-      "owner": "chopratejas",
-      "originalTitle": "chopratejas/headroom · Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s",
-      "score": 3,
-      "cn": "headroom 是一个开源工具，在工具输出、日志、文件或 RAG 块进入 LLM 之前进行压缩，可减少 60% 到 95% 的 token 消耗，同时保持答案不变。它以库、代理和 MCP 服务器三种形式提供，方便集成到现有工作流中，帮助开发者降低 API 调用成本并提升处理效率。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "82d803b5a5c59170",
-      "title": "Supermemory 开源记忆引擎与 API",
-      "url": "https://github.com/supermemoryai/supermemory",
-      "summary": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
-      "category": "知识库",
-      "publishedAt": "2026-06-07T05:10:04Z",
-      "discoveredAt": "2026-05-31T19:06:28.929Z",
-      "stars": 23212,
-      "repoTopics": [
-        "agent-memory",
-        "ai-memory",
-        "cloudflare-kv",
-        "cloudflare-pages",
-        "cloudflare-workers",
-        "drizzle-orm",
-        "memory",
-        "postgres",
-        "remix",
-        "tailwindcss",
-        "typescript",
-        "vite"
-      ],
-      "owner": "supermemoryai",
-      "originalTitle": "supermemoryai/supermemory · Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
-      "score": 3,
-      "cn": "Supermemory 是一款面向 AI 时代的记忆引擎，开源提供极快且可扩展的 Memory API。开发者可以借助它轻松为对话系统、agent 或 RAG 应用添加持久化的上下文记忆，不再受限于短期会话窗口。项目架构注重性能和弹性，适合需要大规模记忆管理的场景。"
-    },
-    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "fea1b8c672125086",
@@ -268,23 +285,6 @@
       "originalTitle": "Introducing New Capabilities To Gpt Rosalind",
       "score": 4,
       "cn": "OpenAI 为 GPT Rosalind 新增多项功能更新，具体涉及推理、多轮对话或工具调用方向的增强，尚未公布完整细节但已通过官方博客对外披露。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "3d7c7b2843ae8536",
-      "title": "Crosstalk Solutions 开源离线生存计算机 Project N.O.M.A.D",
-      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "summary": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-      "category": "其他",
-      "publishedAt": "2026-06-07T02:06:13Z",
-      "discoveredAt": "2026-06-07T13:25:47.108Z",
-      "stars": 29463,
-      "repoTopics": [],
-      "owner": "Crosstalk-Solutions",
-      "originalTitle": "Crosstalk-Solutions/project-nomad · Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowle",
-      "score": 4,
-      "cn": "Project N.O.M.A.D 是一套自包含的离线生存计算机系统，整合了关键工具、知识库和本地 AI，确保用户在无网络环境下仍能获取信息并维持基本计算能力。项目代码以 TypeScript 为主，在 GitHub 上开源，适合对离线韧性计算和应急技术方案感兴趣的开发者参考。"
     },
     {
       "source": "github-trending",
@@ -1055,6 +1055,20 @@
       "cn": "OpenAI 推出新一代大语言模型 GPT Rosalind，以科学家罗莎琳德·富兰克林命名。该模型在推理、多模态理解和长文本处理等能力上有所提升，延续了 GPT 系列的技术路线。GPT Rosalind 的发布为开发者和企业用户提供了新的 AI 基础能力选择。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "3c2e7a73efc4745c",
+      "title": "NVIDIA 发布 Nemotron 3.5 Content Safety 多模态安全模型",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-06-04T18:57:45.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "score": 4,
+      "cn": "NVIDIA 推出 Nemotron 3.5 Content Safety，一套面向企业级 AI 部署的可定制多模态安全方案。该模型能同时检测文本与图像中的不安全内容，支持按业务场景调整敏感度阈值，填补了当前大模型安全护栏在全球化场景下的灵活度缺口。企业可在 Hugging Face 上获取并微调，适配本地合规要求。"
+    },
+    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "0854480cab27d0fd",
@@ -1135,6 +1149,20 @@
       "cn": "OpenAI 发布 Rosalind 生物防御计划，旨在借助 AI 技术提升社会对生物威胁的预警与响应能力。该项目与生物安全领域专家合作，为政府和机构提供监测工具与决策支持，以更有效地应对潜在风险。Rosalind 的推出标志着 AI 在公共安全领域的进一步落地，也为生物防御协作开辟了新路径。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "d9c42ca0bc6490ff",
+      "title": "ServiceNow AI 发布 EVA-Bench Data 2.0 评测数据集",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "summary": "",
+      "category": "评测",
+      "publishedAt": "2026-06-04T12:24:58.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "score": 4,
+      "cn": "ServiceNow AI 团队发布了 EVA-Bench Data 2.0，这是一个面向企业级 agent 评估的基准数据集。新版本覆盖 3 个领域、121 个工具和 213 个场景，旨在更全面地衡量 agent 在真实业务环境中的工具调用与任务完成能力。该数据集为 agent 评测提供了更贴近实际部署的测试框架。"
+    },
+    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "d0841d29a3627d47",
@@ -1203,6 +1231,20 @@
       "originalTitle": "Dreaming: Better memory for a more helpful ChatGPT",
       "score": 4,
       "cn": "OpenAI 为 ChatGPT 推出名为 Dreaming 的新记忆系统，让模型能更准确地记住用户的偏好和对话历史，从而在长期交互中保持上下文连贯性。这一更新提升了 ChatGPT 的个性化体验，使其在不同会话间能持续理解用户需求。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "431ad766fff6cc42",
+      "title": "Hugging Face 将 hf CLI 设计为 agent 优化工具",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "summary": "",
+      "category": "编程工具",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "score": 4,
+      "cn": "Hugging Face 重新设计了 hf CLI，使其更适合 agent 自主调用。新版 CLI 在命令结构、输出格式和错误提示上做了针对性优化，便于 AI agent 解析和执行与 Hub 的交互操作，例如上传模型、下载数据集、管理空间等。这一变化反映了工具链向 agent 友好方向演进的趋势。"
     },
     {
       "source": "openai",
@@ -1525,6 +1567,20 @@
       "originalTitle": "5 ways Google Search can level up your thrift and vintage shopping",
       "score": 3,
       "cn": "Google 搜索和购物整合 AI 工具，帮助用户在海量二手与复古商品中发现宝藏。通过智能图像识别与商品特性匹配，用户能更快定位小众、高性价比的 vintage 单品或二手好物。该功能在传统搜索之上叠加了审美推荐与比价线索，为非新品的购物体验补齐了 AI 增强。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "bc0be78cdc6b163d",
+      "title": "Hugging Face 研究将直接偏好优化扩展至聊天之外任务",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-06-03T12:55:11.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Direct Preference Optimization Beyond Chatbots",
+      "score": 4,
+      "cn": "Hugging Face 发表新研究，将直接偏好优化从聊天场景推广到更多任务。该方法不再依赖奖励模型，而是通过偏好数据直接微调语言模型，在摘要、翻译、代码生成等场景中均观察到对齐效果的提升。这项探索为偏好对齐提供了更通用的技术路径。"
     },
     {
       "source": "openai",
@@ -2591,6 +2647,20 @@
       "cn": "Anthropic 基于过去一年数据，系统梳理了 AI 技术在网络攻击中的实际应用模式。报告结合 MITRE ATT&CK 框架，分析了攻击者如何利用大模型进行信息收集、社会工程和漏洞利用，并指出当前威胁仍以辅助性工具为主，尚未出现完全自主的 AI 攻击链。这份研究为安全社区理解 AI 威胁态势提供了参考基线。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "799726310b5a7d77",
+      "title": "Hugging Face 为 Reachy Mini 添加 MCP 工具支持",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "summary": "",
+      "category": "Agent",
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Adding MCP Tools to Reachy Mini",
+      "score": 3,
+      "cn": "Hugging Face 在 Reachy Mini 机器人上集成了 MCP 工具，使其能够通过自然语言指令调用外部 API 和模型。这一更新让 Reachy Mini 不再局限于预设动作，而是可以动态获取信息并执行更复杂的任务，例如查询天气或调用图像生成模型。对于开发者而言，MCP 的引入降低了将机器人接入 AI 服务的门槛，也为物理世界中的 agent 交互提供了新的参考路径。"
+    },
+    {
       "source": "nvidia",
       "sourceName": "NVIDIA",
       "id": "fed59c0d8da670fd",
@@ -2645,6 +2715,20 @@
       "originalTitle": "Ai Cloud Ecosystem",
       "score": 4,
       "cn": "NVIDIA 推出 AI 云生态系统，整合多家云服务商与硬件伙伴，为企业提供统一的 GPU 算力调度与 AI 模型部署平台。该生态覆盖训练、推理及边缘场景，旨在简化多云环境下的资源管理，降低企业使用大规模 AI 基础设施的门槛。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "440b7646f5767e29",
+      "title": "Holo3.1 发布：快速本地计算机使用 Agent",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "summary": "",
+      "category": "Agent",
+      "publishedAt": "2026-06-02T14:13:23.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Holo3.1: Fast & Local Computer Use Agents",
+      "score": 5,
+      "cn": "Holo3.1 是 Hcompany 推出的计算机使用 Agent，主打快速与本地运行。它能够在用户设备上直接执行 GUI 操作，无需依赖云端推理，从而降低延迟并保护隐私。该模型针对桌面自动化场景优化，支持跨应用任务编排，为个人和企业提供更可控的 Agent 方案。"
     },
     {
       "source": "anthropic-news",
@@ -3359,6 +3443,34 @@
       "originalTitle": "How we used Gemini to build Google I/O 2026",
       "score": 3,
       "cn": "Google 在博客中回顾了内部团队如何借助 Gemini 完成 I/O 2026 大会的内容制作。Gemini 参与了草案生成、幻灯片编排和现场素材协调等环节。这一实践展现了 AI 在大型企业活动运作中的落地价值，也反映了 Google 将自家模型融入真实工作流的尝试。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "2995ca1c3636d92f",
+      "title": "JetBrains 发布 Mellum2 12B 混合专家模型",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-06-01T15:45:17.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "score": 5,
+      "cn": "JetBrains 在 Hugging Face 上发布了 Mellum2，这是一个 12B 参数的混合专家模型。作为开发工具厂商推出的通用大语言模型，Mellum2 在保持较小激活参数的同时，试图在代码理解与通用知识推理之间取得平衡。该模型已开源权重并附带技术报告，开发者和研究者可以在 Hugging Face 上直接下载试用。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "65ae950e23b00581",
+      "title": "IBM 发布企业级 AI 规模化采用中的 Agent 逻辑报告",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "summary": "",
+      "category": "Agent",
+      "publishedAt": "2026-06-01T13:51:18.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "score": 4,
+      "cn": "IBM Research 在 Hugging Face 博客发表文章，指出企业规模化采用 AI 的关键不在于 LLM 本身，而在于 agent 逻辑的设计与编排。文章拆解了 agent 在复杂工作流、决策链和系统集成中遇到的现实瓶颈，并提出了可落地的框架性建议。对于正在将 AI 嵌入业务流程的团队来说，这是一份值得参考的实战指南。"
     },
     {
       "source": "openai",
@@ -4411,6 +4523,20 @@
       "cn": "Mistral 推出 Physics AI，为工程与物理科学领域提供加速研发的基础模型。该模型面向数值模拟与设计优化场景，是语言模型厂商向专业科学计算方向的一次拓展。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "e2e168c608359fba",
+      "title": "Hugging Face 推出 TRL 增量权重同步功能",
+      "url": "https://huggingface.co/blog/delta-weight-sync",
+      "summary": "",
+      "category": "训练",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "score": 4,
+      "cn": "Hugging Face 在 TRL 库中引入增量权重同步机制，训练万亿参数模型时只同步参数变化量而非完整权重。这减少了分布式训练中 Hub Bucket 的带宽与存储开销，使大规模 RLHF 微调更高效。对于需要频繁 checkpoint 同步的团队，Delta Weight Sync 提供了一种轻量化的工程方案。"
+    },
+    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "b36c91942c4f0187",
@@ -4437,6 +4563,20 @@
       "originalTitle": "Physics AI research that’s shaping the industry.",
       "score": 3,
       "cn": "Mistral 发布其在物理学 AI 领域的研究成果，探讨如何将物理建模与深度学习结合，推动行业应用。该研究旨在利用 AI 加速物理仿真、材料发现和科学计算，为工业与学术界提供新的技术路径。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "5b218fefef6f1e06",
+      "title": "Reachy Mini 实现完全本地化运行",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "summary": "",
+      "category": "Agent",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Reachy Mini goes fully local",
+      "score": 3,
+      "cn": "Hugging Face 宣布 Reachy Mini 机器人实现完全本地化运行，无需依赖云端服务即可完成对话与交互。这一更新将语音识别、自然语言处理和动作控制全部集成在设备端，降低了延迟并增强了隐私保护。Reachy Mini 作为一款开源机器人平台，此次升级使其更适合教育、研究和家庭场景，开发者可以更自由地定制交互行为。"
     },
     {
       "source": "github-trending",
@@ -4507,6 +4647,20 @@
       "originalTitle": "Introducing Grok Build",
       "score": 4,
       "cn": "xAI 发布了名为 Grok Build 的 CLI 工具，让开发者可以通过命令行直接调用 Grok 模型的能力来辅助编程、构建和部署应用。这个工具将 Grok 的代码理解与生成能力直接嵌入终端环境，有助于简化从原型到生产的开发流程。目前 Grok Build 已开放使用，支持常见编程任务与项目脚手架搭建。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "3ae5a86a36cf97c3",
+      "title": "Hugging Face 发布 AI Agent 术语指南",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "summary": "",
+      "category": "Agent",
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "score": 3,
+      "cn": "Hugging Face 发布了一篇关于 AI Agent 术语的博客文章，旨在厘清“Harness”、“Scaffold”等易混淆概念。文章系统梳理了 agent 领域的关键术语定义与使用场景，帮助开发者更准确地理解框架、工具链与智能体之间的关系。对于正在搭建或研究 agent 系统的团队来说，这是一份值得参考的术语规范。"
     },
     {
       "source": "openai",
@@ -6175,6 +6329,20 @@
       "cn": "Ramp 的工程师团队将 OpenAI 的 Codex 与 GPT-5.5 结合，用于代码审查和功能改进。这套流程将原本需要数小时的实质性反馈缩短到几分钟，显著提升了开发效率。案例展示了大型语言模型在工程协作中的实际落地价值。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "bda6dcb3221f417a",
+      "title": "Allen AI 发布 OlmoEarth v1.1 地球观测模型系列",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "summary": "",
+      "category": "图像模型",
+      "publishedAt": "2026-05-19T18:38:09.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "score": 4,
+      "cn": "Allen AI 发布了 OlmoEarth v1.1，这是面向地球观测任务的新一代模型系列。相比 v1 版本，v1.1 在推理效率上做了显著优化，能够更快速地处理卫星影像、遥感数据等地理空间信息。该系列模型在保持高精度的同时降低了计算成本，适用于土地利用分类、环境监测等场景。OlmoEarth v1.1 已在 Hugging Face 上开源，为地理空间 AI 应用提供了更实用的基础模型。"
+    },
+    {
       "source": "anthropic-news",
       "sourceName": "Anthropic News",
       "id": "9c0ddb2d59a6955e",
@@ -6355,6 +6523,20 @@
       "originalTitle": "Computer Using Agent",
       "score": 5,
       "cn": "OpenAI 推出 Computer Using Agent，一个能够直接操作电脑图形界面的智能体。该 agent 可以像人类一样观察屏幕、移动光标、点击按钮和输入文本，从而完成填写表单、操作软件等一系列需要 GUI 交互的任务。与以往依赖 API 或命令行的方式不同，CUA 以视觉理解为基础，绕过了接口限制，为办公自动化、软件测试等场景提供了更直接的方案。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "905a332eca99d77b",
+      "title": "PaddleOCR 3.5 发布，支持 Transformers 后端",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "summary": "",
+      "category": "图像模型",
+      "publishedAt": "2026-05-18T15:12:46.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "score": 3,
+      "cn": "PaddleOCR 3.5 版本正式发布，新增 Transformers 后端支持，用于 OCR 和文档解析任务。开发者现在可以在 Hugging Face 生态中调用预训练模型完成文字识别与版面分析，跨框架兼容性和部署灵活性因此提升。"
     },
     {
       "source": "github-trending",
@@ -6672,6 +6854,20 @@
       "cn": "xAI 为 Grok 开通了一项新能力：用户可以用自己的 Grok 账号和订阅，直接调用 Nous Research 开源的自我改进型 agent Hermes。Grok 从独立的对话模型变成 agent 生态里的一个推理引擎，Hermes 则获得了一个新的底层模型选择。双方各自保留原有品牌和技术栈，这次对接更像是一次能力互通的实验性合作。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "469a04ba2849ba89",
+      "title": "IBM 发布 Granite Embedding Multilingual R2 多语言嵌入模型",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "summary": "",
+      "category": "知识库",
+      "publishedAt": "2026-05-14T18:55:01.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "score": 4,
+      "cn": "IBM 在 Hugging Face 上开源了 Granite Embedding Multilingual R2，这是一款采用 Apache 2.0 协议的多语言嵌入模型，支持 32K 上下文窗口。该模型在子 1 亿参数规模下实现了最佳检索质量，适用于 RAG 和语义搜索等场景。其多语言能力覆盖主流语言，为开发者提供了高效且开放的文本表示方案。"
+    },
+    {
       "source": "anthropic-news",
       "sourceName": "Anthropic News",
       "id": "a9ef977b8a8403f8",
@@ -6698,6 +6894,20 @@
       "originalTitle": "Anthropic forms $200 million partnership with the Gates Foundation",
       "score": 2,
       "cn": "Anthropic 宣布与比尔及梅琳达·盖茨基金会建立 2 亿美元合作伙伴关系。双方将共同探索 AI 在公共卫生、教育等全球发展议题中的应用，推动大语言模型在资源受限地区的落地。这一合作侧重社会影响力而非技术突破。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "f6eafc08e75f7a36",
+      "title": "Hugging Face 解锁连续批处理中的异步特性",
+      "url": "https://huggingface.co/blog/continuous_async",
+      "summary": "",
+      "category": "训练",
+      "publishedAt": "2026-05-14T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Unlocking asynchronicity in continuous batching",
+      "score": 3,
+      "cn": "Hugging Face 通过引入异步机制优化了连续批处理的性能。传统连续批处理在排队和调度时存在同步阻塞，导致 GPU 利用率下降。新的异步方案将请求编排与计算解耦，允许更细粒度的资源调度，减少等待时间。这一改进在低并发场景和长尾延迟上均有明显收益，为 LLM 推理框架的吞吐优化提供了新思路。"
     },
     {
       "source": "anthropic-research",
@@ -6754,6 +6964,20 @@
       "originalTitle": "Co-Scientist: A multi-agent AI partner to accelerate research",
       "score": 5,
       "cn": "DeepMind 推出 Co-Scientist，一个基于 Gemini 的多智能体协作系统，旨在帮助科研团队加速科学发现。该系统通过多个专门 agent 分工合作，覆盖假设生成、实验设计、文献分析等环节，为研究人员提供端到端的智能辅助。Co-Scientist 的发布标志着 AI 在科学研究领域的应用从单点工具向系统性协作伙伴迈进。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "ce49fe8e0cb4aba7",
+      "title": "Hugging Face 与 AWS 发布基础模型训练与推理构建块",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "summary": "",
+      "category": "训练",
+      "publishedAt": "2026-05-11T23:18:26.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "score": 3,
+      "cn": "Hugging Face 与 AWS 联合发布了一套面向基础模型训练与推理的构建块方案。该方案整合了 AWS 的 GPU 实例、存储与网络能力，配合 Hugging Face 的 Transformers 和 Accelerate 库，为开发者提供从数据准备到模型部署的参考架构。对于希望在 AWS 上运行大模型训练与推理的团队，这是一份技术指南。"
     },
     {
       "source": "anthropic-news",
@@ -6840,6 +7064,20 @@
       "cn": "Anthropic 将内部用于大规模 AI 训练的 Petri 项目捐赠给开源社区。Petri 专注于调度与运行海量计算任务，旨在帮助研究机构和企业更高效地管理分布式训练。开源后，Petri 将接受更广泛的外部审查与协作，长期有望提升训练基础设施的透明度与可靠性。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "08c10eedccbd3d4b",
+      "title": "vLLM 发布 V0 到 V1 更新，强化学习中正确性优先",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "summary": "",
+      "category": "训练",
+      "publishedAt": "2026-05-06T19:06:55.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "score": 4,
+      "cn": "vLLM 团队发布 V0 到 V1 的重要更新，核心变化是在强化学习训练中把“正确性优先于修正”原则系统化。新版本改进了 RL 训练流程，在奖励建模和策略优化阶段更强调样本的正确率指标，而不是过早依赖修正步骤。这对在线学习场景的收敛质量和模型鲁棒性有实质影响，也是推理框架层面对 RL 训练范式的一次关键调整。"
+    },
+    {
       "source": "anthropic-news",
       "sourceName": "Anthropic News",
       "id": "cb85d5cc4e125d63",
@@ -6908,6 +7146,20 @@
       "originalTitle": "Compute Partnership with Anthropic",
       "score": 3,
       "cn": "xAI 与 Anthropic 签署合作协议，将向后者提供 Colossus 1 算力集群的访问权限。此举使 Anthropic 在训练和推理场景获得更多算力支撑，也标志着两家 AI 公司之间在基础设施层面的一次重要合作。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "351d00366b56e172",
+      "title": "Hugging Face 为 Open ASR Leaderboard 添加反作弊机制",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+      "summary": "",
+      "category": "评测",
+      "publishedAt": "2026-05-06T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+      "score": 3,
+      "cn": "Hugging Face 在 Open ASR 排行榜中引入了一项反作弊措施，旨在防止模型通过针对公开测试集过拟合来刷高分。新机制将部分评测数据设为私有，确保榜单结果更能反映模型的真实泛化能力。这一更新对语音识别社区保持评测公平性有积极意义。"
     },
     {
       "source": "nvidia",
@@ -7091,6 +7343,20 @@
       "cn": "Anthropic 推出 Claude Personal Guidance，让个人用户能为 Claude 设定专属的行为准则与偏好。用户可通过自然语言描述自己的价值观、沟通风格或任务习惯，Claude 在后续对话中据此调整回应模式。这项功能定位为轻量个性化工具，而非全盘定制 agent，旨在让 Claude 更贴合个人版在隐私与可控性之间取得平衡。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "6af9b6a7000314f8",
+      "title": "IBM 发布 Granite 4.1 LLMs",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-04-29T15:01:48.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Granite 4.1 LLMs: How They’re Built",
+      "score": 5,
+      "cn": "IBM 发布 Granite 4.1 系列大语言模型，该版本在架构、训练数据和推理效率上均有显著改进。Granite 4.1 家族涵盖多种参数规格，为企业级部署和特定领域任务做了针对性优化。官方博客详细介绍了其预训练流程、对齐策略以及在多项基准上的表现，体现了 IBM 在开源大模型领域的最新进展。"
+    },
+    {
       "source": "nvidia",
       "sourceName": "NVIDIA",
       "id": "9a68d9c87de3705e",
@@ -7103,6 +7369,20 @@
       "originalTitle": "Rtx Ai Garage Gtc 2026 Nemoclaw",
       "score": 3,
       "cn": "NVIDIA 在 GTC 2026 上通过 RTX AI Garage 项目展示了 Nemoclaw，这是一个面向开发者的 AI 应用案例或工具。该演示旨在展示 RTX 平台在 AI 推理和本地部署上的能力，帮助开发者快速上手构建实际应用。具体技术细节尚未完全公开，但体现了 NVIDIA 在推动 AI 落地方面的持续投入。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "a89e6f10b7acf213",
+      "title": "DeepInfra 成为 Hugging Face Inference Providers 成员",
+      "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-04-29T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "DeepInfra on Hugging Face Inference Providers 🔥",
+      "score": 3,
+      "cn": "Hugging Face 宣布 DeepInfra 加入其 Inference Providers 生态。用户可在 Hugging Face 平台上直接调用 DeepInfra 托管的开放模型推理服务，无需额外配置 API 密钥或切换平台。这一合作使社区开发者能更便利地使用高性能推理服务，也表明 Hugging Face 正从模型托管向推理平台扩展。"
     },
     {
       "source": "nvidia",
@@ -7131,6 +7411,20 @@
       "originalTitle": "Ai Gpu Early Universe Astronomy",
       "score": 3,
       "cn": "NVIDIA 推出面向早期宇宙天文学研究的 AI GPU 方案，将 GPU 加速计算与深度学习应用于星系形成、宇宙再电离等前沿课题。该工作负载针对天文模拟与观测数据的高通量处理需求进行优化，利用大规模并行计算提升数值模拟和图像分析的效率。这一方向表明 GPU 在高能天文与计算宇宙学领域的渗透正在加速，为研究人员提供了新的工具支撑。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "5b7c46b20d1489ab",
+      "title": "NVIDIA 发布 Nemotron 3 Nano Omni 多模态模型",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-04-28T15:58:57.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "score": 5,
+      "cn": "NVIDIA 推出 Nemotron 3 Nano Omni，一款面向文档、音频和视频 agent 的长上下文多模态模型。该模型在单一架构中融合文本、语音与视觉理解，支持对长文档、对话录音和视频片段进行联合推理，为多模态 agent 提供统一的智能底座。"
     },
     {
       "source": "anthropic-news",
@@ -7203,6 +7497,20 @@
       "cn": "Google DeepMind 宣布与韩国政府建立合作伙伴关系，旨在利用前沿 AI 模型加速科学突破。双方将在科研领域展开协作，推动 AI 在科学发现中的应用。具体合作细节尚未完全披露，但此举表明 DeepMind 正积极扩大其国际合作网络。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "e548e0e285fcb13e",
+      "title": "OpenAI 发布隐私过滤器构建指南",
+      "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-04-27T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "How to build scalable web apps with OpenAI's Privacy Filter",
+      "score": 3,
+      "cn": "Hugging Face 博客详解如何利用 OpenAI Privacy Filter 构建可扩展的 web 应用。这一过滤器能在 API 调用前自动检测并脱敏敏感信息，降低数据泄露风险。文章从架构设计入手，讨论了在保持低延迟与高吞吐的同时集成过滤逻辑的策略，并给出了最佳实践与常见陷阱。对于需要处理用户输入的企业级 AI 应用开发者来说，这是一份实用的部署参考。"
+    },
+    {
       "source": "google-ai",
       "sourceName": "Google AI",
       "id": "4952ff609d9744d8",
@@ -7273,6 +7581,20 @@
       "cn": "Anthropic 与日本 NEC 公司宣布合作，计划共同培养日本规模最大的 AI 工程人才队伍。双方将结合 Anthropic 的大模型技术与 NEC 的行业经验，推动企业级 AI 应用在日本市场的落地。这一合作主要聚焦于人才培训和生态建设，而非直接发布新产品或模型。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "b2ff62f993e15690",
+      "title": "DeepSeek 发布 DeepSeek-V4，支持百万 token 上下文",
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-04-24T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "DeepSeek-V4: a million-token context that agents can actually use",
+      "score": 5,
+      "cn": "DeepSeek-V4 将上下文窗口扩展至百万 token，并针对 agent 场景优化了长文本利用率。该模型在复杂多轮对话和大型文档处理上展现出更强的实用性，为 agent 工作流提供了更可靠的长上下文支持。"
+    },
+    {
       "source": "nvidia",
       "sourceName": "NVIDIA",
       "id": "39a35004934cb427",
@@ -7341,6 +7663,20 @@
       "originalTitle": "Grok Voice Think Fast 1.0",
       "score": 5,
       "cn": "xAI 正式推出 Grok Voice Think Fast 1.0，这是一款功能最强的语音 Agent，现已通过 API 开放。该模型能够处理复杂的语音交互任务，为开发者提供更智能的语音助手能力。此举标志着 xAI 在语音 Agent 领域的重要进展，将进一步推动对话式 AI 的应用。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "4a3a5411219d4e01",
+      "title": "Hugging Face 发布 Transformers.js 在 Chrome 扩展中的使用指南",
+      "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-04-23T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "How to Use Transformers.js in a Chrome Extension",
+      "score": 3,
+      "cn": "Hugging Face 发布了一篇技术指南，详细说明如何在 Chrome 扩展中集成 Transformers.js，让开发者直接在浏览器端运行机器学习模型。该指南覆盖了从环境配置到模型加载、推理的完整流程，并提供了示例代码。对于希望构建轻量级、无服务器 AI 功能的浏览器扩展开发者来说，这是一份实用的参考资源。"
     },
     {
       "source": "openai",
@@ -7441,6 +7777,20 @@
       "cn": "NVIDIA 在汉诺威工业博览会上展出面向制造业的 AI 解决方案，涵盖数字孪生、工业质检与机器人仿真等方向。展示内容延续了 NVIDIA 在工业 AI 领域的既有布局，未发布全新产品或重大技术突破，属于常规的行业展会动态。"
     },
     {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "24e2166b86b97de3",
+      "title": "TII 发布首个阿拉伯语 LLM 质量优先排行榜 QIMMA",
+      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+      "summary": "",
+      "category": "评测",
+      "publishedAt": "2026-04-21T10:09:58.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+      "score": 3,
+      "cn": "TII 在 Hugging Face 上推出 QIMMA 排行榜，这是首个专注于阿拉伯语大语言模型的质量优先评测体系。该榜单不再依赖传统自动指标，而是引入人工评估与多维度质量打分，涵盖语法、语义连贯性和文化适应性等标准。首批上榜模型包括来自阿拉伯地区及国际厂商的多个开源模型，旨在为阿拉伯语 NLP 社区提供更可靠的模型选型参考。"
+    },
+    {
       "source": "deepmind",
       "sourceName": "DeepMind",
       "id": "dd84243c6c15efcb",
@@ -7481,6 +7831,20 @@
       "originalTitle": "Lowest Token Cost Ai Factories",
       "score": 4,
       "cn": "NVIDIA 提出“低 token 成本 AI 工厂”概念，围绕其 GPU 与网络架构，推出一套面向大规模推理场景的算力部署方案。该方案通过硬件与系统级优化，降低单位 token 的推理成本，目标是让 AI 落地更接近规模化商业时能负担的经济门槛。文章给出多组对比数据，展示在相同预算下可支持的并发请求与响应速度提升情况。"
+    },
+    {
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "cfdeed39e5626485",
+      "title": "Hugging Face 发布 Ecom-RLVE 电商对话 Agent 训练环境",
+      "url": "https://huggingface.co/blog/ecom-rlve",
+      "summary": "",
+      "category": "Agent",
+      "publishedAt": "2026-04-16T00:00:00.000Z",
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
+      "score": 4,
+      "cn": "Hugging Face 推出 Ecom-RLVE，一套专为电商场景设计的自适应可验证环境，用于训练和评估对话式 agent。该环境通过强化学习让 agent 在模拟的电商交互中学习商品推荐、订单查询等任务，并内置可验证机制确保行为合规。Ecom-RLVE 填补了电商领域 agent 训练环境的空白，为开发更可靠的商业对话系统提供了标准化测试平台。"
     },
     {
       "source": "nvidia",
@@ -26134,20 +26498,6 @@
       "cn": "Anthropic 发布一项可解释性研究，提出将模型内部特征直接用作分类器的方法。该方法利用稀疏自编码器提取的潜在特征，在无需额外训练的情况下完成分类任务，并揭示模型内部哪些特征驱动特定行为。这项工作为理解模型内部机制、提升安全性提供了新的实用工具。"
     },
     {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "d609c4bba41cb8e6",
-      "title": "NVIDIA 推出 AI 基础学习课程",
-      "url": "https://blogs.nvidia.com/blog/learning-ai-essentials/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-10-16T19:00:54.000Z",
-      "discoveredAt": "2026-05-19T09:44:43.857Z",
-      "originalTitle": "Learning Ai Essentials",
-      "score": 3,
-      "cn": "NVIDIA 发布 AI Essentials 学习课程，面向希望系统掌握人工智能基础概念的开发者和技术爱好者。课程内容覆盖机器学习、深度学习、数据处理等核心模块，结合 NVIDIA 的 GPU 加速实践，帮助学习者快速建立 AI 知识框架。该课程以在线形式提供，适合入门到进阶的过渡阶段。"
-    },
-    {
       "source": "anthropic-news",
       "sourceName": "Anthropic News",
       "id": "b0728f2a6f101141",
@@ -32204,6 +32554,20 @@
       "cn": "Meta AI 对其 Habitat 仿真平台进行了重要更新，引入物体交互功能。Habitat 原本专注于具身 AI 的视觉导航与任务仿真，此次升级使虚拟环境中的智能体能够抓取、推动、打开或关闭物体，更贴近真实世界的物理交互。这一扩展有助于机器人学习与具身智能研究，为训练与环境互动的 AI 系统提供了更丰富的仿真环境。"
     },
     {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "bac4dcaf0df27247",
+      "title": "Meta AI 在 CVPR 2019 发表多项研究成果",
+      "url": "https://ai.meta.com/blog/facebook-research-at-cvpr-2019/",
+      "summary": "",
+      "category": "训练",
+      "publishedAt": null,
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Facebook Research At Cvpr 2019",
+      "score": 4,
+      "cn": "Meta AI（原 Facebook Research）在 CVPR 2019 上展示了一系列计算机视觉研究，涵盖图像分割、目标检测、视频理解等方向。这些工作推动了视觉模型在精度、效率与泛化能力上的进展，体现了学界与业界在 CV 领域持续的合作与探索。"
+    },
+    {
       "source": "claude-com",
       "sourceName": "claude.com",
       "id": "bc898c4e9b7c67e7",
@@ -35529,6 +35893,48 @@
       "originalTitle": "Powered By Ai Advancing Product Understanding And Building New Shopping Experiences",
       "score": 3,
       "cn": "Meta AI 发布博客介绍其利用 AI 改善商品理解与购物体验的技术方案。系统通过优化视觉与文本特征的语义对齐，提升商品识别与搜索匹配的准确度。相关能力已部署到 Meta 的电商平台中，帮助用户更高效地浏览和比较商品，属于将现有 AI 能力落地到垂直场景的实践案例。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "8b0b5d85a72afa9e",
+      "title": "Meta 介绍 Neuromnia 基于 Llama 的自闭症 ABA 疗法应用",
+      "url": "https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Neuromnia Autism Aba Therapy Built With Llama",
+      "score": 3,
+      "cn": "Meta AI 发文介绍了 Neuromnia，一家将 Llama 模型应用于自闭症应用行为分析疗法的初创公司。该系统利用 Llama 的自然语言能力辅助治疗师生成个性化的教学计划与行为追踪，旨在提升自闭症干预的效率和可及性。这展示了 Llama 在医疗健康领域的垂直应用潜力。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "6495de8d6d622e33",
+      "title": "Meta AI 发布生态系统管理指标",
+      "url": "https://ai.meta.com/blog/meta-ai-ecosystem-management-metrics/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Meta Ai Ecosystem Management Metrics",
+      "score": 3,
+      "cn": "Meta AI 推出了一套生态系统管理指标，用于量化开发者在 Llama 及 Meta 开源工具生态中的贡献质量、参与深度和工具使用情况。该指标体系旨在帮助社区更透明地评估生态健康度，为资源和支持分配提供数据参考。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "2020609a5135a014",
+      "title": "Meta AI 回顾 CVPR 2020 研究成果",
+      "url": "https://ai.meta.com/blog/facebook-research-at-cvpr-2020/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-06-08T02:43:20.191Z",
+      "originalTitle": "Facebook Research At Cvpr 2020",
+      "score": 3,
+      "cn": "Meta AI（原 Facebook Research）整理了其在 CVPR 2020 上发表的计算机视觉和人工智能研究成果，涵盖图像识别、视频理解、自监督学习等多个方向。这批论文反映了当年视觉领域的技术前沿，尤其在半监督学习、目标检测、3D 视觉等方面有多项创新。对于关注视觉 AI 研究脉络的读者，这是一份值得参考的技术档案。"
     }
   ]
 }
