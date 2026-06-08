@@ -3,35 +3,56 @@
 		"title": "aaif-goose 开源可扩展 AI agent Goose，超越代码建议",
 		"url": "https://github.com/aaif-goose/goose",
 		"source": "GitHub Trending",
-		"date": "2026-06-08T15:26:49Z",
+		"date": "2026-06-08T20:04:01Z",
 		"group": "gh"
 	},
 	{
 		"title": "NousResearch 开源 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-08T15:21:22Z",
+		"date": "2026-06-08T20:02:48Z",
 		"group": "gh"
 	},
 	{
 		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
 		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
-		"date": "2026-06-08T15:20:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "Supermemory 开源记忆引擎与 API",
-		"url": "https://github.com/supermemoryai/supermemory",
-		"source": "GitHub Trending",
-		"date": "2026-06-08T14:54:40Z",
+		"date": "2026-06-08T19:57:51Z",
 		"group": "gh"
 	},
 	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-08T14:44:01Z",
+		"date": "2026-06-08T18:45:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "pbakaus 开源 Impeccable 设计语言",
+		"url": "https://github.com/pbakaus/impeccable",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T18:30:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 开源 Plugins 项目",
+		"url": "https://github.com/openai/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T18:07:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "Supermemory 开源记忆引擎与 API",
+		"url": "https://github.com/supermemoryai/supermemory",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T18:01:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "Roboflow 开源 Supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T17:42:15Z",
 		"group": "gh"
 	},
 	{
@@ -47,13 +68,6 @@
 		"source": "GitHub Trending",
 		"date": "2026-06-08T13:20:46Z",
 		"group": "gh"
-	},
-	{
-		"title": "Hugging Face 发布五模型经济模拟实验：控制与涌现",
-		"url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-08T13:10:48.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
@@ -84,24 +98,17 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 开源 Plugins 项目",
-		"url": "https://github.com/openai/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-06-06T16:15:23Z",
-		"group": "gh"
+		"title": "Anthropic 发布生物学 agent 研究进展",
+		"url": "https://www.anthropic.com/research/agents-in-biology",
+		"source": "Anthropic Research",
+		"date": "2026-06-08T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "phuryn 开源 PM Skills Marketplace，含 100+ agentic skills",
 		"url": "https://github.com/phuryn/pm-skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-06T14:12:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "pbakaus 开源 Impeccable 设计语言",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-06-06T04:06:32Z",
 		"group": "gh"
 	},
 	{
@@ -270,6 +277,13 @@
 		"url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-03T12:55:11.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 AI 生物防御行动计划",
+		"url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+		"source": "OpenAI",
+		"date": "2026-06-03T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -889,6 +903,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "santifer 开源 Career-Ops AI 求职系统",
+		"url": "https://github.com/santifer/career-ops",
+		"source": "GitHub Trending",
+		"date": "2026-05-25T09:52:42Z",
+		"group": "gh"
+	},
+	{
 		"title": "xAI 发布 Grok Build CLI 编程工具",
 		"url": "https://x.ai/news/grok-build-cli",
 		"source": "xAI",
@@ -1400,6 +1421,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5 5 Instant",
+		"url": "https://openai.com/index/gpt-5-5-instant/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT-5.3 Instant",
 		"url": "https://openai.com/index/gpt-5-3-instant/",
 		"source": "OpenAI",
@@ -1416,13 +1444,6 @@
 	{
 		"title": "OpenAI 发布 Codex 升级",
 		"url": "https://openai.com/index/introducing-upgrades-to-codex/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 5 Instant",
-		"url": "https://openai.com/index/gpt-5-5-instant/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
@@ -1852,6 +1873,13 @@
 		"url": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
 		"source": "NVIDIA",
 		"date": "2026-04-16T04:01:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "阿里与南洋理工联合开源 Ecom-RLVE 电商对话代理验证环境",
+		"url": "https://huggingface.co/blog/ecom-rlve",
+		"source": "Hugging Face Blog",
+		"date": "2026-04-16T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
