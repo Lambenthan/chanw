@@ -1,51 +1,65 @@
 [
 	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
+		"title": "aaif-goose 开源可扩展 AI agent Goose，超越代码建议",
+		"url": "https://github.com/aaif-goose/goose",
 		"source": "GitHub Trending",
-		"date": "2026-06-08T10:18:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
-		"url": "https://github.com/aquasecurity/trivy",
-		"source": "GitHub Trending",
-		"date": "2026-06-08T10:16:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "ggml-org 更新 llama.cpp 实现 LLM 推理",
-		"url": "https://github.com/ggml-org/llama.cpp",
-		"source": "GitHub Trending",
-		"date": "2026-06-08T10:15:26Z",
+		"date": "2026-06-08T15:26:49Z",
 		"group": "gh"
 	},
 	{
 		"title": "NousResearch 开源 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-08T09:51:26Z",
+		"date": "2026-06-08T15:21:22Z",
 		"group": "gh"
 	},
 	{
-		"title": "OpenCV 发布开源计算机视觉库更新",
-		"url": "https://github.com/opencv/opencv",
+		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
+		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
-		"date": "2026-06-08T09:05:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-06-08T07:46:26Z",
+		"date": "2026-06-08T15:20:16Z",
 		"group": "gh"
 	},
 	{
 		"title": "Supermemory 开源记忆引擎与 API",
 		"url": "https://github.com/supermemoryai/supermemory",
 		"source": "GitHub Trending",
-		"date": "2026-06-08T07:04:15Z",
+		"date": "2026-06-08T14:54:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T14:44:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
+		"url": "https://github.com/aquasecurity/trivy",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T14:18:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "MemPalace 开源 AI 记忆系统",
+		"url": "https://github.com/MemPalace/mempalace",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T13:20:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 发布五模型经济模拟实验：控制与涌现",
+		"url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-08T13:10:48.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "harry0703 开源 MoneyPrinterTurbo 一键短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T07:46:26Z",
 		"group": "gh"
 	},
 	{
@@ -56,13 +70,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Microsoft 开源 pg_durable：PostgreSQL 内持久化执行引擎",
-		"url": "https://github.com/microsoft/pg_durable",
-		"source": "GitHub Trending",
-		"date": "2026-06-08T03:27:47Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 与斗山集团合作推进物理 AI",
 		"url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
 		"source": "NVIDIA",
@@ -70,18 +77,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "Crosstalk Solutions 开源离线生存计算机 Project N.O.M.A.D",
-		"url": "https://github.com/Crosstalk-Solutions/project-nomad",
-		"source": "GitHub Trending",
-		"date": "2026-06-08T00:57:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "EveryInc 发布 Compound Engineering 插件，兼容 Claude Code、Codex、Cursor",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-06-07T18:04:05Z",
-		"group": "gh"
+		"title": "开源社区支持 OpenEnv 用于 Agentic RL",
+		"url": "https://huggingface.co/blog/openenv-agentic-rl",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-08T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "OpenAI 开源 Plugins 项目",
@@ -91,10 +91,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "fff 开源高性能文件搜索工具包，支持 AI 代理、Neovim 与多语言",
-		"url": "https://github.com/dmtrKovalenko/fff",
+		"title": "phuryn 开源 PM Skills Marketplace，含 100+ agentic skills",
+		"url": "https://github.com/phuryn/pm-skills",
 		"source": "GitHub Trending",
-		"date": "2026-06-06T07:02:29Z",
+		"date": "2026-06-06T14:12:26Z",
 		"group": "gh"
 	},
 	{
@@ -105,10 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "aaif-goose 开源可扩展 AI agent Goose，超越代码建议",
-		"url": "https://github.com/aaif-goose/goose",
+		"title": "Google 发布 Agent Skills 项目",
+		"url": "https://github.com/google/skills",
 		"source": "GitHub Trending",
-		"date": "2026-06-06T04:06:28Z",
+		"date": "2026-06-05T23:27:19Z",
 		"group": "gh"
 	},
 	{
@@ -180,6 +180,13 @@
 		"source": "Anthropic Research",
 		"date": "2026-06-05T15:19:12.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "whichllm 开源本地 LLM 硬件适配评测工具",
+		"url": "https://github.com/Andyyyy64/whichllm",
+		"source": "GitHub Trending",
+		"date": "2026-06-05T06:45:32Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 让 Claude 具备化学推理与实验能力",
@@ -350,6 +357,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "luongnv89 开源 claude-howto Claude Code 从基础到高级 agent 实战指南",
+		"url": "https://github.com/luongnv89/claude-howto",
+		"source": "GitHub Trending",
+		"date": "2026-06-02T06:38:02Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 发布 Jetson Agentic AI 物理世界方案",
 		"url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
 		"source": "NVIDIA",
@@ -495,13 +509,6 @@
 		"source": "OpenAI",
 		"date": "2026-05-28T04:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Hermes 开源 Hermes WebUI 提供 Web 与手机端 Agent 访问",
-		"url": "https://github.com/nesquena/hermes-webui",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T03:40:48Z",
-		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
@@ -973,6 +980,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Daniel Miessler 开源 Personal_AI_Infrastructure 代理 AI 基础设施",
+		"url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+		"source": "GitHub Trending",
+		"date": "2026-05-20T21:33:46Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 发布 Teaching Claude Why 研究",
 		"url": "https://www.anthropic.com/research/teaching-claude-why",
 		"source": "Anthropic Research",
@@ -1386,6 +1400,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5.3 Instant",
+		"url": "https://openai.com/index/gpt-5-3-instant/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 ChatGPT Agent",
 		"url": "https://openai.com/index/introducing-chatgpt-agent/",
 		"source": "OpenAI",
@@ -1477,13 +1498,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5.3 Instant",
-		"url": "https://openai.com/index/gpt-5-3-instant/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Hugging Face 解锁连续批处理中的异步特性",
 		"url": "https://huggingface.co/blog/continuous_async",
 		"source": "Hugging Face Blog",
@@ -1521,13 +1535,6 @@
 	{
 		"title": "OpenAI 模型推翻离散几何猜想",
 		"url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-		"source": "OpenAI",
-		"date": "2026-05-11T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 模型推翻离散几何学中80年未解的猜想",
-		"url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
 		"source": "OpenAI",
 		"date": "2026-05-11T16:00:00.000Z",
 		"group": "labs"
@@ -1848,13 +1855,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布 Ecom-RLVE 电商对话 Agent 训练环境",
-		"url": "https://huggingface.co/blog/ecom-rlve",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-16T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Earth AI 地球科学平台",
 		"url": "https://blogs.nvidia.com/blog/earth-ai/",
 		"source": "NVIDIA",
@@ -2170,6 +2170,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "hardikpandya 开源 stop-slop 去除 AI 痕迹的 skill 文件",
+		"url": "https://github.com/hardikpandya/stop-slop",
+		"source": "GitHub Trending",
+		"date": "2026-03-17T18:50:39Z",
+		"group": "gh"
+	},
+	{
 		"title": "DeepMind 提出 AGI 进展评测认知框架",
 		"url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
 		"source": "DeepMind",
@@ -2237,13 +2244,6 @@
 		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-flux-2-comfyui/",
 		"source": "NVIDIA",
 		"date": "2026-03-10T20:53:34.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 回顾 AlphaGo 十年影响：从游戏到科学",
-		"url": "https://deepmind.google/blog/10-years-of-alphago/",
-		"source": "DeepMind",
-		"date": "2026-03-10T15:00:00.000Z",
 		"group": "labs"
 	}
 ]
