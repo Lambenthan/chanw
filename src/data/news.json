@@ -1,51 +1,72 @@
 [
 	{
+		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
+		"url": "https://github.com/CopilotKit/CopilotKit",
+		"source": "GitHub Trending",
+		"date": "2026-06-10T14:54:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 项目",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-10T14:34:20Z",
+		"group": "gh"
+	},
+	{
 		"title": "NousResearch 开源 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-10T09:40:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "aaif-goose 开源可扩展 AI agent Goose，超越代码建议",
-		"url": "https://github.com/aaif-goose/goose",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T09:34:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
-		"url": "https://github.com/aquasecurity/trivy",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T09:24:49Z",
+		"date": "2026-06-10T14:22:57Z",
 		"group": "gh"
 	},
 	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-10T08:42:58Z",
+		"date": "2026-06-10T13:35:11Z",
 		"group": "gh"
 	},
 	{
-		"title": "Supermemory 开源记忆引擎与 API",
-		"url": "https://github.com/supermemoryai/supermemory",
+		"title": "Roboflow 开源 Supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
 		"source": "GitHub Trending",
-		"date": "2026-06-10T08:40:51Z",
+		"date": "2026-06-10T13:28:43Z",
 		"group": "gh"
 	},
 	{
-		"title": "OpenCV 开源计算机视觉库更新",
-		"url": "https://github.com/opencv/opencv",
+		"title": "RuView 利用 WiFi 信号实现实时空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-06-10T08:30:03Z",
+		"date": "2026-06-10T13:20:36Z",
 		"group": "gh"
 	},
 	{
-		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
-		"url": "https://github.com/CopilotKit/CopilotKit",
+		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
+		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
-		"date": "2026-06-10T07:29:57Z",
+		"date": "2026-06-10T12:07:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
+		"url": "https://github.com/aquasecurity/trivy",
+		"source": "GitHub Trending",
+		"date": "2026-06-10T11:45:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "MoneyPrinterTurbo 开源一键 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-06-10T09:39:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Activeloop 开源 Hivemind 多智能体协作框架",
+		"url": "https://github.com/activeloopai/hivemind",
+		"source": "GitHub Trending",
+		"date": "2026-06-10T08:49:54Z",
 		"group": "gh"
 	},
 	{
@@ -56,10 +77,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "whichllm 开源本地 LLM 硬件适配评测工具",
-		"url": "https://github.com/Andyyyy64/whichllm",
+		"title": "luongnv89 开源 Claude Code 视觉化指南",
+		"url": "https://github.com/luongnv89/claude-howto",
 		"source": "GitHub Trending",
-		"date": "2026-06-10T05:49:09Z",
+		"date": "2026-06-10T06:19:16Z",
 		"group": "gh"
 	},
 	{
@@ -91,13 +112,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Roboflow 开源 Supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
-		"source": "GitHub Trending",
-		"date": "2026-06-09T21:42:57Z",
-		"group": "gh"
-	},
-	{
 		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
 		"url": "https://github.com/maziyarpanahi/openmed",
 		"source": "GitHub Trending",
@@ -110,13 +124,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-09T19:38:28.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "francescopace 开源 Wi-Fi 频谱运动检测系统 ESPectre",
-		"url": "https://github.com/francescopace/espectre",
-		"source": "GitHub Trending",
-		"date": "2026-06-09T17:36:53Z",
-		"group": "gh"
 	},
 	{
 		"title": "Cohere 发布 North Mini Code 开发者模型",
@@ -147,10 +154,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 介绍 Nextdoor 工程师使用 Codex 的实践",
+		"url": "https://openai.com/index/nextdoor",
+		"source": "OpenAI",
+		"date": "2026-06-09T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "x1xhlol 开源 AI 工具系统提示与模型集合",
 		"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
 		"source": "GitHub Trending",
 		"date": "2026-06-09T09:30:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "Masterking32 开源 MasterDnsVPN DNS 隧道 VPN",
+		"url": "https://github.com/masterking32/MasterDnsVPN",
+		"source": "GitHub Trending",
+		"date": "2026-06-09T05:06:34Z",
 		"group": "gh"
 	},
 	{
@@ -173,6 +194,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-09T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "maigret 开源跨平台用户名画像工具",
+		"url": "https://github.com/soxoj/maigret",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T06:03:41Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 与 LG 集团合作建设 AI 工厂",
@@ -312,6 +340,13 @@
 		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
 		"date": "2026-06-04T17:07:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "FareedKhan-dev 开源 train-llm-from-scratch 训练项目",
+		"url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-06-04T10:15:26Z",
 		"group": "gh"
 	},
 	{
@@ -567,13 +602,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "can1357 开源 oh-my-pi 终端 AI 编程 agent",
-		"url": "https://github.com/can1357/oh-my-pi",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T13:00:52Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 在 ICRA 发布机器人仿真到现实世界研究成果",
 		"url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
 		"source": "NVIDIA",
@@ -630,13 +658,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "RyanCodrai 开源基于 TurboQuant 的向量索引 Turbovec",
-		"url": "https://github.com/RyanCodrai/turbovec",
-		"source": "GitHub Trending",
-		"date": "2026-05-27T17:40:37Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 AI 工厂基础设施方案",
 		"url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
 		"source": "NVIDIA",
@@ -644,15 +665,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 加速网络防御生态建设",
-		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布儿童安全蓝图",
-		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
+		"title": "OpenAI 面向青少年与家长推出 AI 素养资源",
+		"url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -672,6 +686,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布儿童安全蓝图",
+		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 优化 ChatGPT",
 		"url": "https://openai.com/index/optimizing-chatgpt/",
 		"source": "OpenAI",
@@ -686,8 +707,22 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 面向青少年与家长推出 AI 素养资源",
-		"url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/",
+		"title": "OpenAI 加速网络防御生态建设",
+		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 更新美国 CAISI 与英国 AISI 的 AI 治理进展",
+		"url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-5 5 System Card",
+		"url": "https://openai.com/index/gpt-5-system-card/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -770,13 +805,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 更新美国 CAISI 与英国 AISI 的 AI 治理进展",
-		"url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 为 GPT-5.5 生物能力设立漏洞赏金计划",
 		"url": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
 		"source": "OpenAI",
@@ -807,13 +835,6 @@
 	{
 		"title": "OpenAI 发布 Codex 安全运行指南",
 		"url": "https://openai.com/index/running-codex-safely/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 5 System Card",
-		"url": "https://openai.com/index/gpt-5-system-card/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -978,13 +999,6 @@
 		"source": "OpenAI",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "santifer 开源 Career-Ops AI 求职系统",
-		"url": "https://github.com/santifer/career-ops",
-		"source": "GitHub Trending",
-		"date": "2026-05-25T09:52:42Z",
-		"group": "gh"
 	},
 	{
 		"title": "xAI 发布 Grok Build CLI 编程工具",
@@ -1341,6 +1355,13 @@
 		"url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
 		"source": "DeepMind",
 		"date": "2026-05-19T10:30:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布前沿治理框架",
+		"url": "https://openai.com/index/openai-frontier-governance-framework/",
+		"source": "OpenAI",
+		"date": "2026-05-19T02:45:00.000Z",
 		"group": "labs"
 	},
 	{
