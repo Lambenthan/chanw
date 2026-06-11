@@ -3,28 +3,98 @@
 		"title": "NousResearch 开源 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T02:45:13Z",
+		"date": "2026-06-11T10:04:35Z",
 		"group": "gh"
 	},
 	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T02:43:15Z",
+		"date": "2026-06-11T09:18:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
+		"url": "https://github.com/maziyarpanahi/openmed",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T09:03:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 开源 Plugins 项目",
+		"url": "https://github.com/openai/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T08:46:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "maigret 开源跨平台用户名画像工具",
+		"url": "https://github.com/soxoj/maigret",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T08:19:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "EveryInc 发布 Compound Engineering 插件，支持 Claude Code、Codex、Cursor 等",
+		"url": "https://github.com/EveryInc/compound-engineering-plugin",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T08:05:46Z",
 		"group": "gh"
 	},
 	{
 		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
 		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T02:31:35Z",
+		"date": "2026-06-11T07:54:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现实时空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T07:51:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "Roboflow 开源 Supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T07:36:45Z",
 		"group": "gh"
 	},
 	{
 		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T02:16:24Z",
+		"date": "2026-06-11T07:36:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "MoneyPrinterTurbo 开源一键 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T07:12:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
+		"url": "https://github.com/aquasecurity/trivy",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T07:05:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "pbakaus 开源 Impeccable 设计语言",
+		"url": "https://github.com/pbakaus/impeccable",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T05:19:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "Activeloop 开源 Hivemind 多智能体协作框架",
+		"url": "https://github.com/activeloopai/hivemind",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T04:48:24Z",
 		"group": "gh"
 	},
 	{
@@ -35,27 +105,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "RuView 利用 WiFi 信号实现实时空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T01:39:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "Activeloop 开源 Hivemind 多智能体协作框架",
-		"url": "https://github.com/activeloopai/hivemind",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T01:35:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "pbakaus 开源 Impeccable 设计语言",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T01:33:31Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 推出 RTX AI Garage 本地运行 Gemma 与 Diffusion 模型",
 		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
 		"source": "NVIDIA",
@@ -63,59 +112,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
-		"url": "https://github.com/maziyarpanahi/openmed",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T22:05:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "EveryInc 发布 Compound Engineering 插件，支持 Claude Code、Codex、Cursor 等",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T20:49:34Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google 开源 Agent Skills 项目",
 		"url": "https://github.com/google/skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-10T20:35:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "Roboflow 开源 Supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T20:25:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "maigret 开源跨平台用户名画像工具",
-		"url": "https://github.com/soxoj/maigret",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T18:05:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 开源 Plugins 项目",
-		"url": "https://github.com/openai/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T17:39:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
-		"url": "https://github.com/aquasecurity/trivy",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T11:45:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "MoneyPrinterTurbo 开源一键 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T09:39:33Z",
 		"group": "gh"
 	},
 	{
@@ -700,8 +700,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 更新模型规范新增青少年保护条款",
-		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
+		"title": "OpenAI 发布内部编码 agent 内部监控方法公开",
+		"url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -709,6 +709,20 @@
 	{
 		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
 		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布儿童安全蓝图",
+		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 更新模型规范新增青少年保护条款",
+		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -723,13 +737,6 @@
 	{
 		"title": "OpenAI 面向青少年与家长推出 AI 素养资源",
 		"url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布儿童安全蓝图",
-		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -751,13 +758,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5 5 System Card",
 		"url": "https://openai.com/index/gpt-5-system-card/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布内部编码 agent 内部监控方法公开",
-		"url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -1162,6 +1162,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 Indqa",
+		"url": "https://openai.com/index/introducing-indqa/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 推出隐私过滤器",
 		"url": "https://openai.com/index/introducing-openai-privacy-filter/",
 		"source": "OpenAI",
@@ -1323,13 +1330,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Indqa",
-		"url": "https://openai.com/index/introducing-indqa/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 发布 Co-Scientist 多智能体科研助手",
 		"url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
 		"source": "DeepMind",
@@ -1388,13 +1388,6 @@
 	{
 		"title": "OpenAI 发布前沿治理框架",
 		"url": "https://openai.com/index/openai-frontier-governance-framework/",
-		"source": "OpenAI",
-		"date": "2026-05-19T02:45:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布前沿治理框架",
-		"url": "https://openai.com/index/openai-frontier-governance-framework",
 		"source": "OpenAI",
 		"date": "2026-05-19T02:45:00.000Z",
 		"group": "labs"
