@@ -1,37 +1,79 @@
 [
 	{
-		"title": "kenn-io 开源 AgentsView 编程 agent 会话分析工具",
-		"url": "https://github.com/kenn-io/agentsview",
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T15:33:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
-		"url": "https://github.com/maziyarpanahi/openmed",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T15:29:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
-		"url": "https://github.com/CopilotKit/CopilotKit",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T15:27:56Z",
+		"date": "2026-06-11T20:12:20Z",
 		"group": "gh"
 	},
 	{
 		"title": "NousResearch 开源 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T15:25:45Z",
+		"date": "2026-06-11T20:10:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
+		"url": "https://github.com/CopilotKit/CopilotKit",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T20:09:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T19:11:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "kenn-io 开源 AgentsView 编程 agent 会话分析工具",
+		"url": "https://github.com/kenn-io/agentsview",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T19:08:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "restic 发布快速、安全、高效的备份程序",
+		"url": "https://github.com/restic/restic",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T18:43:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
+		"url": "https://github.com/apple/container",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T18:42:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Cosmos 世界模型平台",
+		"url": "https://github.com/NVIDIA/cosmos",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T18:18:53Z",
 		"group": "gh"
 	},
 	{
 		"title": "aaif-goose 开源通用 AI Agent Goose",
 		"url": "https://github.com/aaif-goose/goose",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T15:21:38Z",
+		"date": "2026-06-11T18:13:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源客服系统更新",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T16:05:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
+		"url": "https://github.com/maziyarpanahi/openmed",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T15:45:49Z",
 		"group": "gh"
 	},
 	{
@@ -39,13 +81,6 @@
 		"url": "https://github.com/aquasecurity/trivy",
 		"source": "GitHub Trending",
 		"date": "2026-06-11T14:52:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chatwoot 开源客服系统更新",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T14:36:25Z",
 		"group": "gh"
 	},
 	{
@@ -84,13 +119,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T07:36:43Z",
-		"group": "gh"
-	},
-	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
@@ -112,13 +140,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "restic 发布快速、安全、高效的备份程序",
-		"url": "https://github.com/restic/restic",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T20:53:09Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 开源 SkillSpector 安全扫描器",
 		"url": "https://github.com/NVIDIA/SkillSpector",
 		"source": "GitHub Trending",
@@ -130,13 +151,6 @@
 		"url": "https://github.com/revfactory/harness",
 		"source": "GitHub Trending",
 		"date": "2026-06-10T05:30:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 Cosmos 世界模型平台",
-		"url": "https://github.com/NVIDIA/cosmos",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T00:26:22Z",
 		"group": "gh"
 	},
 	{
@@ -152,13 +166,6 @@
 		"source": "DeepMind",
 		"date": "2026-06-10T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
-		"url": "https://github.com/apple/container",
-		"source": "GitHub Trending",
-		"date": "2026-06-09T23:53:23Z",
-		"group": "gh"
 	},
 	{
 		"title": "ServiceNow AI 发布语种混用语音评测基准",
@@ -271,6 +278,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-08T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "agency-agents 开源多角色 AI agent 平台",
+		"url": "https://github.com/msitarzewski/agency-agents",
+		"source": "GitHub Trending",
+		"date": "2026-06-07T20:42:10Z",
+		"group": "gh"
 	},
 	{
 		"title": "hexo-ai 开源 SIA 自改进 AI 框架",
@@ -679,13 +693,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布第三方 AI 评估指南",
-		"url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-		"source": "OpenAI",
-		"date": "2026-05-28T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google 发布 Gemini Omni 与 Gemini 3.5 Flash 等 I/O 2026 关键更新",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
 		"source": "Google AI",
@@ -721,22 +728,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT 开源模型卡",
-		"url": "https://openai.com/index/gpt-oss-model-card/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 更新模型规范新增青少年保护条款",
 		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 优化 ChatGPT",
-		"url": "https://openai.com/index/optimizing-chatgpt/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -749,8 +742,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
-		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
+		"title": "OpenAI 发布年龄预测研究",
+		"url": "https://openai.com/index/building-towards-age-prediction/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -763,8 +756,22 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布年龄预测研究",
-		"url": "https://openai.com/index/building-towards-age-prediction/",
+		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
+		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 优化 ChatGPT",
+		"url": "https://openai.com/index/optimizing-chatgpt/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT 开源模型卡",
+		"url": "https://openai.com/index/gpt-oss-model-card/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -849,13 +856,6 @@
 	{
 		"title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
 		"url": "https://openai.com/index/trusted-access-for-cyber/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Endava 借助 OpenAI Codex 构建 agentic 组织",
-		"url": "https://openai.com/index/endava",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -2307,13 +2307,6 @@
 		"url": "https://www.anthropic.com/news/claude-opus-4-5",
 		"source": "Anthropic News",
 		"date": "2026-03-13T20:56:07.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 提出 AI 5 Layer Cake 分层架构",
-		"url": "https://blogs.nvidia.com/blog/ai-5-layer-cake/",
-		"source": "NVIDIA",
-		"date": "2026-03-13T17:46:07.000Z",
 		"group": "labs"
 	}
 ]
