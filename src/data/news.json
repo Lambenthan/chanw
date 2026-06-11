@@ -1,65 +1,86 @@
 [
 	{
-		"title": "NousResearch 开源 hermes-agent 智能体框架",
-		"url": "https://github.com/NousResearch/hermes-agent",
+		"title": "kenn-io 开源 AgentsView 编程 agent 会话分析工具",
+		"url": "https://github.com/kenn-io/agentsview",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T10:04:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T09:18:57Z",
+		"date": "2026-06-11T15:33:07Z",
 		"group": "gh"
 	},
 	{
 		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
 		"url": "https://github.com/maziyarpanahi/openmed",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T09:03:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 开源 Plugins 项目",
-		"url": "https://github.com/openai/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T08:46:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "maigret 开源跨平台用户名画像工具",
-		"url": "https://github.com/soxoj/maigret",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T08:19:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "EveryInc 发布 Compound Engineering 插件，支持 Claude Code、Codex、Cursor 等",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T08:05:46Z",
+		"date": "2026-06-11T15:29:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
 		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T07:54:07Z",
+		"date": "2026-06-11T15:27:56Z",
 		"group": "gh"
 	},
 	{
-		"title": "RuView 利用 WiFi 信号实现实时空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
+		"title": "NousResearch 开源 hermes-agent 智能体框架",
+		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T07:51:16Z",
+		"date": "2026-06-11T15:25:45Z",
 		"group": "gh"
 	},
 	{
-		"title": "Roboflow 开源 Supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
+		"title": "aaif-goose 开源通用 AI Agent Goose",
+		"url": "https://github.com/aaif-goose/goose",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T07:36:45Z",
+		"date": "2026-06-11T15:21:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
+		"url": "https://github.com/aquasecurity/trivy",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T14:52:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源客服系统更新",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T14:36:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T14:32:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 推出 Claude Corps 服务",
+		"url": "https://www.anthropic.com/news/claude-corps",
+		"source": "Anthropic News",
+		"date": "2026-06-11T13:36:07.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "maigret 开源跨平台用户名画像工具",
+		"url": "https://github.com/soxoj/maigret",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T12:48:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google DeepMind 联合多方投入 1000 万美元资助多智能体安全研究",
+		"url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+		"source": "DeepMind",
+		"date": "2026-06-11T12:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 开源 Plugins 项目",
+		"url": "https://github.com/openai/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T08:46:18Z",
 		"group": "gh"
 	},
 	{
@@ -70,39 +91,18 @@
 		"group": "gh"
 	},
 	{
-		"title": "MoneyPrinterTurbo 开源一键 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T07:12:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
-		"url": "https://github.com/aquasecurity/trivy",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T07:05:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "pbakaus 开源 Impeccable 设计语言",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T05:19:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "Activeloop 开源 Hivemind 多智能体协作框架",
-		"url": "https://github.com/activeloopai/hivemind",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T04:48:24Z",
-		"group": "gh"
-	},
-	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-11T01:40:56Z",
 		"group": "gh"
+	},
+	{
+		"title": "PyTorch 发布从 nn.Linear 到融合 MLP 的性能分析教程",
+		"url": "https://huggingface.co/blog/torch-mlp-fusion",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-11T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 推出 RTX AI Garage 本地运行 Gemma 与 Diffusion 模型",
@@ -112,17 +112,17 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 开源 Agent Skills 项目",
-		"url": "https://github.com/google/skills",
+		"title": "restic 发布快速、安全、高效的备份程序",
+		"url": "https://github.com/restic/restic",
 		"source": "GitHub Trending",
-		"date": "2026-06-10T20:35:42Z",
+		"date": "2026-06-10T20:53:09Z",
 		"group": "gh"
 	},
 	{
-		"title": "luongnv89 开源 Claude Code 视觉化指南",
-		"url": "https://github.com/luongnv89/claude-howto",
+		"title": "NVIDIA 开源 SkillSpector 安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
 		"source": "GitHub Trending",
-		"date": "2026-06-10T06:19:16Z",
+		"date": "2026-06-10T19:18:13Z",
 		"group": "gh"
 	},
 	{
@@ -130,6 +130,13 @@
 		"url": "https://github.com/revfactory/harness",
 		"source": "GitHub Trending",
 		"date": "2026-06-10T05:30:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Cosmos 世界模型平台",
+		"url": "https://github.com/NVIDIA/cosmos",
+		"source": "GitHub Trending",
+		"date": "2026-06-10T00:26:22Z",
 		"group": "gh"
 	},
 	{
@@ -231,6 +238,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 通过 Oracle Cloud 提供模型和 Codex 访问",
+		"url": "https://openai.com/index/openai-on-oracle-cloud",
+		"source": "OpenAI",
+		"date": "2026-06-08T14:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 与 LG 集团合作建设 AI 工厂",
 		"url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
 		"source": "NVIDIA",
@@ -257,6 +271,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-08T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "hexo-ai 开源 SIA 自改进 AI 框架",
+		"url": "https://github.com/hexo-ai/sia",
+		"source": "GitHub Trending",
+		"date": "2026-06-06T18:44:48Z",
+		"group": "gh"
 	},
 	{
 		"title": "phuryn 开源 PM Skills Marketplace，含 100+ agentic skills",
@@ -368,13 +389,6 @@
 		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
 		"date": "2026-06-04T17:07:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "FareedKhan-dev 开源 train-llm-from-scratch 训练项目",
-		"url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-06-04T10:15:26Z",
 		"group": "gh"
 	},
 	{
@@ -546,13 +560,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Opus 4.8",
-		"url": "https://www.anthropic.com/news/claude-opus-4-8",
-		"source": "Anthropic News",
-		"date": "2026-06-01T10:18:23.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 为 Codex 推出覆盖多角色的插件与注解功能",
 		"url": "https://openai.com/index/codex-for-every-role-tool-workflow",
 		"source": "OpenAI",
@@ -584,6 +591,13 @@
 		"title": "Google 使用 Gemini 构建 I/O 2026 大会",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
 		"source": "Google AI",
+		"date": "2026-06-01T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Composer 2.5 图像生成模型",
+		"url": "https://x.ai/news/composer-2-5",
+		"source": "xAI",
 		"date": "2026-06-01T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -644,17 +658,17 @@
 		"group": "labs"
 	},
 	{
-		"title": "affaan-m 开源 ECC agent 性能优化框架",
-		"url": "https://github.com/affaan-m/ECC",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T11:45:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "chopratejas 开源 headroom LLM 输入压缩工具",
 		"url": "https://github.com/chopratejas/headroom",
 		"source": "GitHub Trending",
 		"date": "2026-05-28T07:41:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "开源 张雪峰.skill 高考志愿与考研职业规划认知框架",
+		"url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T00:10:21Z",
 		"group": "gh"
 	},
 	{
@@ -675,6 +689,13 @@
 		"title": "Google 发布 Gemini Omni 与 Gemini 3.5 Flash 等 I/O 2026 关键更新",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
 		"source": "Google AI",
+		"date": "2026-05-28T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Opus 4.8",
+		"url": "https://www.anthropic.com/news/claude-opus-4-8",
+		"source": "Anthropic News",
 		"date": "2026-05-28T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -700,22 +721,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布内部编码 agent 内部监控方法公开",
-		"url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
-		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布儿童安全蓝图",
-		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
+		"title": "OpenAI 发布 GPT 开源模型卡",
+		"url": "https://openai.com/index/gpt-oss-model-card/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -735,6 +742,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布儿童安全蓝图",
+		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
+		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 面向青少年与家长推出 AI 素养资源",
 		"url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/",
 		"source": "OpenAI",
@@ -744,6 +765,13 @@
 	{
 		"title": "OpenAI 发布年龄预测研究",
 		"url": "https://openai.com/index/building-towards-age-prediction/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布内部编码 agent 内部监控方法公开",
+		"url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -924,13 +952,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT 开源模型卡",
-		"url": "https://openai.com/index/gpt-oss-model-card/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 更新 ChatGPT 敏感对话响应策略",
 		"url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
 		"source": "OpenAI",
@@ -1027,6 +1048,13 @@
 		"source": "OpenAI",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "santifer 开源 Career-Ops AI 求职系统",
+		"url": "https://github.com/santifer/career-ops",
+		"source": "GitHub Trending",
+		"date": "2026-05-25T09:52:42Z",
+		"group": "gh"
 	},
 	{
 		"title": "xAI 发布 Grok Build CLI 编程工具",
@@ -1921,13 +1949,6 @@
 		"title": "xAI 发布 Grok Voice Think Fast 1.0 语音 Agent",
 		"url": "https://x.ai/news/grok-voice-think-fast-1",
 		"source": "xAI",
-		"date": "2026-04-23T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 Transformers.js 用于 Chrome 扩展的教程",
-		"url": "https://huggingface.co/blog/transformersjs-chrome-extension",
-		"source": "Hugging Face Blog",
 		"date": "2026-04-23T00:00:00.000Z",
 		"group": "labs"
 	},
