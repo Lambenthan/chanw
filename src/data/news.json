@@ -1,44 +1,65 @@
 [
 	{
+		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
+		"url": "https://github.com/CopilotKit/CopilotKit",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T09:58:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源客服系统更新",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T09:52:14Z",
+		"group": "gh"
+	},
+	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T02:39:55Z",
+		"date": "2026-06-12T09:36:22Z",
 		"group": "gh"
 	},
 	{
 		"title": "NousResearch 开源 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T02:39:24Z",
+		"date": "2026-06-12T09:34:31Z",
 		"group": "gh"
 	},
 	{
 		"title": "Mattermost 开源安全协作平台",
 		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T02:33:38Z",
+		"date": "2026-06-12T09:28:09Z",
 		"group": "gh"
 	},
 	{
-		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
-		"url": "https://github.com/CopilotKit/CopilotKit",
+		"title": "x1xhlol 开源 AI 工具系统提示与模型集合",
+		"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T01:26:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "aaif-goose 开源通用 AI Agent Goose",
-		"url": "https://github.com/aaif-goose/goose",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T01:19:26Z",
+		"date": "2026-06-12T08:45:15Z",
 		"group": "gh"
 	},
 	{
 		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
 		"url": "https://github.com/maziyarpanahi/openmed",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T00:07:23Z",
+		"date": "2026-06-12T08:36:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "aaif-goose 开源通用 AI Agent Goose",
+		"url": "https://github.com/aaif-goose/goose",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T06:02:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "kenn-io 开源 AgentsView 编程 agent 会话分析工具",
+		"url": "https://github.com/kenn-io/agentsview",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T02:44:08Z",
 		"group": "gh"
 	},
 	{
@@ -46,13 +67,6 @@
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
 		"date": "2026-06-11T22:39:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "kenn-io 开源 AgentsView 编程 agent 会话分析工具",
-		"url": "https://github.com/kenn-io/agentsview",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T21:48:34Z",
 		"group": "gh"
 	},
 	{
@@ -84,13 +98,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Chatwoot 开源客服系统更新",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T16:05:41Z",
-		"group": "gh"
-	},
-	{
 		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
 		"url": "https://github.com/aquasecurity/trivy",
 		"source": "GitHub Trending",
@@ -109,6 +116,13 @@
 		"url": "https://github.com/soxoj/maigret",
 		"source": "GitHub Trending",
 		"date": "2026-06-11T12:48:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "bannedbook 更新 fanqiang 科学上网资源集合",
+		"url": "https://github.com/bannedbook/fanqiang",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T12:20:27Z",
 		"group": "gh"
 	},
 	{
@@ -208,13 +222,6 @@
 		"source": "OpenAI",
 		"date": "2026-06-09T10:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "x1xhlol 开源 AI 工具系统提示与模型集合",
-		"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-		"source": "GitHub Trending",
-		"date": "2026-06-09T09:30:13Z",
-		"group": "gh"
 	},
 	{
 		"title": "Masterking32 开源 MasterDnsVPN DNS 隧道 VPN",
@@ -714,13 +721,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 加速网络防御生态建设",
-		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
 		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
 		"source": "OpenAI",
@@ -728,8 +728,22 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 更新模型规范新增青少年保护条款",
+		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布年龄预测研究",
 		"url": "https://openai.com/index/building-towards-age-prediction/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布儿童安全蓝图",
+		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -749,15 +763,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 更新模型规范新增青少年保护条款",
-		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布儿童安全蓝图",
-		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
+		"title": "OpenAI 加速网络防御生态建设",
+		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -1157,13 +1164,6 @@
 	{
 		"title": "OpenAI 推出 Rosalind 生物防御计划",
 		"url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/",
-		"source": "OpenAI",
-		"date": "2026-05-20T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Rosalind Biodefense",
-		"url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
 		"source": "OpenAI",
 		"date": "2026-05-20T00:00:00.000Z",
 		"group": "labs"
