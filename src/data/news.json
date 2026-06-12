@@ -1,44 +1,51 @@
 [
 	{
-		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
-		"url": "https://github.com/CopilotKit/CopilotKit",
+		"title": "LMCache 开源 LMCache：加速 LLM 推理的 KV 缓存层",
+		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T09:58:15Z",
+		"date": "2026-06-12T14:38:29Z",
 		"group": "gh"
 	},
 	{
-		"title": "Chatwoot 开源客服系统更新",
-		"url": "https://github.com/chatwoot/chatwoot",
+		"title": "aaif-goose 开源通用 AI Agent Goose",
+		"url": "https://github.com/aaif-goose/goose",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T09:52:14Z",
+		"date": "2026-06-12T14:35:25Z",
 		"group": "gh"
 	},
 	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T09:36:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "NousResearch 开源 hermes-agent 智能体框架",
-		"url": "https://github.com/NousResearch/hermes-agent",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T09:34:31Z",
+		"date": "2026-06-12T14:29:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "Mattermost 开源安全协作平台",
 		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T09:28:09Z",
+		"date": "2026-06-12T14:23:00Z",
 		"group": "gh"
 	},
 	{
-		"title": "x1xhlol 开源 AI 工具系统提示与模型集合",
-		"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
+		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T08:45:15Z",
+		"date": "2026-06-12T13:48:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T12:11:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T10:09:32Z",
 		"group": "gh"
 	},
 	{
@@ -49,38 +56,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "aaif-goose 开源通用 AI Agent Goose",
-		"url": "https://github.com/aaif-goose/goose",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T06:02:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "kenn-io 开源 AgentsView 编程 agent 会话分析工具",
-		"url": "https://github.com/kenn-io/agentsview",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T02:44:08Z",
-		"group": "gh"
-	},
-	{
 		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
 		"date": "2026-06-11T22:39:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "hexo-ai 开源 SIA 自改进 AI 框架",
-		"url": "https://github.com/hexo-ai/sia",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T21:41:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "restic 发布快速、安全、高效的备份程序",
-		"url": "https://github.com/restic/restic",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T18:43:38Z",
 		"group": "gh"
 	},
 	{
@@ -98,6 +77,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "OpenCV 作为开源计算机视觉库持续维护更新",
+		"url": "https://github.com/opencv/opencv",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T18:00:04Z",
+		"group": "gh"
+	},
+	{
 		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
 		"url": "https://github.com/aquasecurity/trivy",
 		"source": "GitHub Trending",
@@ -110,20 +96,6 @@
 		"source": "Anthropic News",
 		"date": "2026-06-11T13:36:07.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "maigret 开源跨平台用户名画像工具",
-		"url": "https://github.com/soxoj/maigret",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T12:48:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "bannedbook 更新 fanqiang 科学上网资源集合",
-		"url": "https://github.com/bannedbook/fanqiang",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T12:20:27Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google DeepMind 联合多方投入 1000 万美元资助多智能体安全研究",
@@ -159,20 +131,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-10T22:10:06.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 开源 SkillSpector 安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T19:18:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "revfactory 开源 Harness 元技能，用于设计领域特化 agent 团队",
-		"url": "https://github.com/revfactory/harness",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T05:30:36Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 更新英国主权 AI 进展",
@@ -250,6 +208,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-09T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Svelte 团队发布 Web 开发框架更新",
+		"url": "https://github.com/sveltejs/svelte",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T21:40:01Z",
+		"group": "gh"
 	},
 	{
 		"title": "OpenAI 通过 Oracle Cloud 提供模型和 Codex 访问",
@@ -679,13 +644,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "开源 张雪峰.skill 高考志愿与考研职业规划认知框架",
-		"url": "https://github.com/alchaincyf/zhangxuefeng-skill",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T00:10:21Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
 		"url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations/",
 		"source": "OpenAI",
@@ -718,6 +676,13 @@
 		"url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
 		"source": "NVIDIA",
 		"date": "2026-05-27T17:00:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-5 系统卡附录与 GPT-5 Codex",
+		"url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -898,13 +863,6 @@
 	{
 		"title": "OpenAI 推出 AI 精神健康研究资助项目",
 		"url": "https://openai.com/index/ai-mental-health-research-grants/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 系统卡附录与 GPT-5 Codex",
-		"url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
