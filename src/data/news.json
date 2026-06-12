@@ -1,37 +1,86 @@
 [
 	{
-		"title": "LMCache 开源 LMCache：加速 LLM 推理的 KV 缓存层",
-		"url": "https://github.com/LMCache/LMCache",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T14:38:29Z",
-		"group": "gh"
-	},
-	{
 		"title": "aaif-goose 开源通用 AI Agent Goose",
 		"url": "https://github.com/aaif-goose/goose",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T14:35:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T14:29:24Z",
+		"date": "2026-06-12T19:54:10Z",
 		"group": "gh"
 	},
 	{
 		"title": "Mattermost 开源安全协作平台",
 		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T14:23:00Z",
+		"date": "2026-06-12T19:32:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T19:23:47Z",
 		"group": "gh"
 	},
 	{
 		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
 		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T13:48:02Z",
+		"date": "2026-06-12T19:23:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T18:15:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
+		"url": "https://github.com/maziyarpanahi/openmed",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T17:51:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Level 4 自动驾驶 AI 方案",
+		"url": "https://blogs.nvidia.com/blog/level-4-autonomous-driving-ai/",
+		"source": "NVIDIA",
+		"date": "2026-06-12T17:32:47.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 在 IAA Mobility 展示 AI 定义汽车",
+		"url": "https://blogs.nvidia.com/blog/iaa-mobility-ai-defined-vehicles/",
+		"source": "NVIDIA",
+		"date": "2026-06-12T17:32:32.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T17:08:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T16:05:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "Allen AI 开源 olmo-eval 模型开发评测工作台",
+		"url": "https://huggingface.co/blog/allenai/olmo-eval",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-12T15:56:10.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "LMCache 开源 LMCache：加速 LLM 推理的 KV 缓存层",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T14:38:29Z",
 		"group": "gh"
 	},
 	{
@@ -42,25 +91,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T10:09:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
-		"url": "https://github.com/maziyarpanahi/openmed",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T08:36:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T22:39:05Z",
-		"group": "gh"
+		"title": "Anthropic 与 TCS 合作将 Claude 引入受监管行业",
+		"url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+		"source": "Anthropic News",
+		"date": "2026-06-12T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
@@ -191,6 +226,13 @@
 	{
 		"title": "DeepMind 推出 Gemini 3.5 Live Translate 实时语音翻译",
 		"url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+		"source": "DeepMind",
+		"date": "2026-06-09T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 发布欧洲机器人技术发展计划",
+		"url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
 		"source": "DeepMind",
 		"date": "2026-06-09T00:00:00.000Z",
 		"group": "labs"
@@ -539,6 +581,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布 Claude Opus 4.8",
+		"url": "https://www.anthropic.com/news/claude-opus-4-8",
+		"source": "Anthropic News",
+		"date": "2026-06-01T10:18:23.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 为 Codex 推出覆盖多角色的插件与注解功能",
 		"url": "https://openai.com/index/codex-for-every-role-tool-workflow",
 		"source": "OpenAI",
@@ -583,13 +632,6 @@
 	{
 		"title": "OpenAI 与波士顿儿童医院合作，AI 辅助诊断罕见病",
 		"url": "https://openai.com/index/boston-childrens-hospital",
-		"source": "OpenAI",
-		"date": "2026-05-29T12:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 分享 Braintrust 使用 Codex 加速编码的案例",
-		"url": "https://openai.com/index/braintrust",
 		"source": "OpenAI",
 		"date": "2026-05-29T12:00:00.000Z",
 		"group": "labs"
@@ -658,13 +700,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Opus 4.8",
-		"url": "https://www.anthropic.com/news/claude-opus-4-8",
-		"source": "Anthropic News",
-		"date": "2026-05-28T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Mistral 发布 Search Toolkit",
 		"url": "https://mistral.ai/news/search-toolkit",
 		"source": "Mistral",
@@ -676,6 +711,13 @@
 		"url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
 		"source": "NVIDIA",
 		"date": "2026-05-27T17:00:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-5 系统卡与敏感对话处理报告",
+		"url": "https://openai.com/index/gpt-5-system-card-sensitive-conversations/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -898,13 +940,6 @@
 	{
 		"title": "OpenAI 发布生物学领域 AI 能力前瞻报告",
 		"url": "https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 系统卡与敏感对话处理报告",
-		"url": "https://openai.com/index/gpt-5-system-card-sensitive-conversations/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -1900,13 +1935,6 @@
 		"title": "xAI 发布 Grok Voice Think Fast 1.0 语音 Agent",
 		"url": "https://x.ai/news/grok-voice-think-fast-1",
 		"source": "xAI",
-		"date": "2026-04-23T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 Transformers.js 在 Chrome 扩展中的使用教程",
-		"url": "https://huggingface.co/blog/transformersjs-chrome-extension",
-		"source": "Hugging Face Blog",
 		"date": "2026-04-23T00:00:00.000Z",
 		"group": "labs"
 	},
