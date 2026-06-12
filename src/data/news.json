@@ -1,37 +1,65 @@
 [
 	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T20:12:20Z",
+		"date": "2026-06-12T02:39:55Z",
 		"group": "gh"
 	},
 	{
 		"title": "NousResearch 开源 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T20:10:11Z",
+		"date": "2026-06-12T02:39:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T02:33:38Z",
 		"group": "gh"
 	},
 	{
 		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
 		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T20:09:23Z",
+		"date": "2026-06-12T01:26:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "aaif-goose 开源通用 AI Agent Goose",
+		"url": "https://github.com/aaif-goose/goose",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T01:19:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
+		"url": "https://github.com/maziyarpanahi/openmed",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T00:07:23Z",
 		"group": "gh"
 	},
 	{
 		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T19:11:38Z",
+		"date": "2026-06-11T22:39:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "kenn-io 开源 AgentsView 编程 agent 会话分析工具",
 		"url": "https://github.com/kenn-io/agentsview",
 		"source": "GitHub Trending",
-		"date": "2026-06-11T19:08:46Z",
+		"date": "2026-06-11T21:48:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "hexo-ai 开源 SIA 自改进 AI 框架",
+		"url": "https://github.com/hexo-ai/sia",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T21:41:08Z",
 		"group": "gh"
 	},
 	{
@@ -56,13 +84,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "aaif-goose 开源通用 AI Agent Goose",
-		"url": "https://github.com/aaif-goose/goose",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T18:13:40Z",
-		"group": "gh"
-	},
-	{
 		"title": "Chatwoot 开源客服系统更新",
 		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
@@ -70,24 +91,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
-		"url": "https://github.com/maziyarpanahi/openmed",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T15:45:49Z",
-		"group": "gh"
-	},
-	{
 		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
 		"url": "https://github.com/aquasecurity/trivy",
 		"source": "GitHub Trending",
 		"date": "2026-06-11T14:52:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T14:32:44Z",
 		"group": "gh"
 	},
 	{
@@ -165,13 +172,6 @@
 		"url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
 		"source": "DeepMind",
 		"date": "2026-06-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "ServiceNow AI 发布语种混用语音评测基准",
-		"url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-09T19:38:28.000Z",
 		"group": "labs"
 	},
 	{
@@ -284,13 +284,6 @@
 		"url": "https://github.com/msitarzewski/agency-agents",
 		"source": "GitHub Trending",
 		"date": "2026-06-07T20:42:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "hexo-ai 开源 SIA 自改进 AI 框架",
-		"url": "https://github.com/hexo-ai/sia",
-		"source": "GitHub Trending",
-		"date": "2026-06-06T18:44:48Z",
 		"group": "gh"
 	},
 	{
@@ -728,15 +721,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 更新模型规范新增青少年保护条款",
-		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布儿童安全蓝图",
-		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
+		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
+		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -749,6 +735,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 优化 ChatGPT",
+		"url": "https://openai.com/index/optimizing-chatgpt/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 面向青少年与家长推出 AI 素养资源",
 		"url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/",
 		"source": "OpenAI",
@@ -756,15 +749,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
-		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
+		"title": "OpenAI 更新模型规范新增青少年保护条款",
+		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 优化 ChatGPT",
-		"url": "https://openai.com/index/optimizing-chatgpt/",
+		"title": "OpenAI 发布儿童安全蓝图",
+		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -1953,6 +1946,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Hugging Face 发布 Transformers.js 在 Chrome 扩展中的使用教程",
+		"url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+		"source": "Hugging Face Blog",
+		"date": "2026-04-23T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 与 Google Cloud 合作推出 Agentic Physical AI 工厂方案",
 		"url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
 		"source": "NVIDIA",
@@ -2300,13 +2300,6 @@
 		"url": "https://www.anthropic.com/engineering/advanced-tool-use",
 		"source": "Anthropic Engineering",
 		"date": "2026-03-16T16:09:03.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Opus 4.5",
-		"url": "https://www.anthropic.com/news/claude-opus-4-5",
-		"source": "Anthropic News",
-		"date": "2026-03-13T20:56:07.000Z",
 		"group": "labs"
 	}
 ]
