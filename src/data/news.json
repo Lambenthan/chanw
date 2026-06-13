@@ -3,21 +3,63 @@
 		"title": "Music Assistant 开源媒体库管理器服务器",
 		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-13T08:34:51Z",
+		"date": "2026-06-13T13:28:59Z",
 		"group": "gh"
 	},
 	{
-		"title": "LMCache 开源 LMCache：加速 LLM 推理的 KV 缓存层",
-		"url": "https://github.com/LMCache/LMCache",
+		"title": "swc 发布 Rust 驱动的 Web 平台构建工具",
+		"url": "https://github.com/swc-project/swc",
 		"source": "GitHub Trending",
-		"date": "2026-06-13T08:10:33Z",
+		"date": "2026-06-13T13:17:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T13:14:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T13:13:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "Open Notebook 开源 Notebook LM 替代版",
+		"url": "https://github.com/lfnovo/open-notebook",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T12:16:12Z",
 		"group": "gh"
 	},
 	{
 		"title": "aaif-goose 开源通用 AI Agent Goose",
 		"url": "https://github.com/aaif-goose/goose",
 		"source": "GitHub Trending",
-		"date": "2026-06-13T07:16:22Z",
+		"date": "2026-06-13T12:05:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Cosmos 世界模型平台",
+		"url": "https://github.com/NVIDIA/cosmos",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T10:45:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "LMCache 开源 LMCache：加速 LLM 推理的 KV 缓存层",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T10:22:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
+		"url": "https://github.com/huggingface/OpenEnv",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T07:05:22Z",
 		"group": "gh"
 	},
 	{
@@ -28,13 +70,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T03:11:50Z",
-		"group": "gh"
-	},
-	{
 		"title": "Microsoft PowerToys 更新系统增强工具集合",
 		"url": "https://github.com/microsoft/PowerToys",
 		"source": "GitHub Trending",
@@ -42,10 +77,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
+		"title": "Andrew Ng 开源 aisuite，统一多 AI 提供商接口",
+		"url": "https://github.com/andrewyng/aisuite",
 		"source": "GitHub Trending",
-		"date": "2026-06-13T02:47:17Z",
+		"date": "2026-06-13T03:04:52Z",
 		"group": "gh"
 	},
 	{
@@ -56,24 +91,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "Svelte 团队发布 Web 开发框架更新",
-		"url": "https://github.com/sveltejs/svelte",
+		"title": "Roboflow 开源 supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T23:11:02Z",
+		"date": "2026-06-12T22:04:46Z",
 		"group": "gh"
 	},
 	{
-		"title": "Open Notebook 开源 Notebook LM 替代版",
-		"url": "https://github.com/lfnovo/open-notebook",
+		"title": "kenn-io 开源 AgentsView，本地优先的编程 Agent 会话分析工具",
+		"url": "https://github.com/kenn-io/agentsview",
 		"source": "GitHub Trending",
-		"date": "2026-06-12T22:17:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "MaziyarPanahi 开源 OpenMed 医疗 AI 项目",
-		"url": "https://github.com/maziyarpanahi/openmed",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T21:08:15Z",
+		"date": "2026-06-12T20:34:36Z",
 		"group": "gh"
 	},
 	{
@@ -140,6 +168,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "x1xhlol 开源 AI 工具系统提示词与模型合集",
+		"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T08:45:15Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 与 TCS 合作将 Claude 引入受监管行业",
 		"url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
 		"source": "Anthropic News",
@@ -154,24 +189,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "NVIDIA 开源 Cosmos 世界模型平台",
-		"url": "https://github.com/NVIDIA/cosmos",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T18:18:53Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenCV 作为开源计算机视觉库持续维护更新",
 		"url": "https://github.com/opencv/opencv",
 		"source": "GitHub Trending",
 		"date": "2026-06-11T18:00:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "Aqua Security 开源容器及云安全扫描工具 Trivy",
-		"url": "https://github.com/aquasecurity/trivy",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T14:52:49Z",
 		"group": "gh"
 	},
 	{
@@ -215,6 +236,13 @@
 		"source": "NVIDIA",
 		"date": "2026-06-10T22:10:06.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
+		"source": "GitHub Trending",
+		"date": "2026-06-10T19:18:13Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 更新英国主权 AI 进展",
@@ -264,13 +292,6 @@
 		"source": "OpenAI",
 		"date": "2026-06-09T10:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Masterking32 开源 MasterDnsVPN DNS 隧道 VPN",
-		"url": "https://github.com/masterking32/MasterDnsVPN",
-		"source": "GitHub Trending",
-		"date": "2026-06-09T05:06:34Z",
-		"group": "gh"
 	},
 	{
 		"title": "DeepMind 推出 Gemini 3.5 Live Translate 实时语音翻译",
@@ -334,13 +355,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-08T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "agency-agents 开源多角色 AI agent 平台",
-		"url": "https://github.com/msitarzewski/agency-agents",
-		"source": "GitHub Trending",
-		"date": "2026-06-07T20:42:10Z",
-		"group": "gh"
 	},
 	{
 		"title": "phuryn 开源 PM Skills Marketplace，含 100+ agentic skills",
@@ -1071,13 +1085,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "santifer 开源 Career-Ops AI 求职系统",
-		"url": "https://github.com/santifer/career-ops",
-		"source": "GitHub Trending",
-		"date": "2026-05-25T09:52:42Z",
-		"group": "gh"
-	},
-	{
 		"title": "xAI 发布 Grok Build CLI 编程工具",
 		"url": "https://x.ai/news/grok-build-cli",
 		"source": "xAI",
@@ -1552,13 +1559,6 @@
 		"source": "xAI",
 		"date": "2026-05-18T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Open-LLM-VTuber 开源本地语音交互与 Live2D 面部驱动项目",
-		"url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
-		"source": "GitHub Trending",
-		"date": "2026-05-15T07:18:04Z",
-		"group": "gh"
 	},
 	{
 		"title": "xAI 将 Grok 接入 Nous Research 的 Hermes Agent",
