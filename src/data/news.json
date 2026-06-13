@@ -1,30 +1,51 @@
 [
 	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T13:28:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "swc 发布 Rust 驱动的 Web 平台构建工具",
-		"url": "https://github.com/swc-project/swc",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T13:17:53Z",
-		"group": "gh"
-	},
-	{
 		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
 		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-13T13:14:19Z",
+		"date": "2026-06-13T18:58:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "kenn-io 开源 AgentsView，本地优先的编程 Agent 会话分析工具",
+		"url": "https://github.com/kenn-io/agentsview",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T18:46:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T18:34:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T18:01:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
+		"url": "https://github.com/CopilotKit/CopilotKit",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T15:26:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-13T13:13:15Z",
+		"date": "2026-06-13T15:12:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "swc 发布 Rust 驱动的 Web 平台构建工具",
+		"url": "https://github.com/swc-project/swc",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T15:10:54Z",
 		"group": "gh"
 	},
 	{
@@ -84,24 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
-		"url": "https://github.com/CopilotKit/CopilotKit",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T00:17:47Z",
-		"group": "gh"
-	},
-	{
 		"title": "Roboflow 开源 supervision 计算机视觉工具库",
 		"url": "https://github.com/roboflow/supervision",
 		"source": "GitHub Trending",
 		"date": "2026-06-12T22:04:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "kenn-io 开源 AgentsView，本地优先的编程 Agent 会话分析工具",
-		"url": "https://github.com/kenn-io/agentsview",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T20:34:36Z",
 		"group": "gh"
 	},
 	{
@@ -236,13 +243,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-10T22:10:06.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T19:18:13Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 更新英国主权 AI 进展",
