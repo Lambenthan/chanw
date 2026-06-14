@@ -1,23 +1,30 @@
 [
 	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T13:18:24Z",
-		"group": "gh"
-	},
-	{
 		"title": "Music Assistant 开源媒体库管理器服务器",
 		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T12:54:40Z",
+		"date": "2026-06-14T19:11:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T19:05:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T18:53:36Z",
 		"group": "gh"
 	},
 	{
 		"title": "freeCodeCamp 更新开源编程课程与代码库",
 		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T12:16:19Z",
+		"date": "2026-06-14T14:13:50Z",
 		"group": "gh"
 	},
 	{
@@ -81,13 +88,6 @@
 		"url": "https://github.com/meshery/meshery",
 		"source": "GitHub Trending",
 		"date": "2026-06-14T00:56:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T21:44:17Z",
 		"group": "gh"
 	},
 	{
@@ -2328,13 +2328,6 @@
 		"url": "https://blogs.nvidia.com/blog/dsx-air-simulation-ai-factories/",
 		"source": "NVIDIA",
 		"date": "2026-03-17T21:23:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Advanced Tool Use 功能更新",
-		"url": "https://www.anthropic.com/engineering/advanced-tool-use",
-		"source": "Anthropic Engineering",
-		"date": "2026-03-16T16:09:03.000Z",
 		"group": "labs"
 	}
 ]
