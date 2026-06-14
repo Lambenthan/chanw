@@ -1,9 +1,30 @@
 [
 	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T13:18:24Z",
+		"group": "gh"
+	},
+	{
 		"title": "Music Assistant 开源媒体库管理器服务器",
 		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T09:09:46Z",
+		"date": "2026-06-14T12:54:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T12:16:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T11:25:35Z",
 		"group": "gh"
 	},
 	{
@@ -14,17 +35,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
+		"title": "pytest 框架持续更新并获社区广泛关注",
+		"url": "https://github.com/pytest-dev/pytest",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T08:33:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "LMCache 开源 LMCache：加速 LLM 推理的 KV 缓存层",
-		"url": "https://github.com/LMCache/LMCache",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T08:10:13Z",
+		"date": "2026-06-14T06:04:48Z",
 		"group": "gh"
 	},
 	{
@@ -35,17 +49,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "kenn-io 开源 AgentsView，本地优先的编程 Agent 会话分析工具",
-		"url": "https://github.com/kenn-io/agentsview",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T05:00:22Z",
-		"group": "gh"
-	},
-	{
 		"title": "swc 发布 Rust 驱动的 Web 平台构建工具",
 		"url": "https://github.com/swc-project/swc",
 		"source": "GitHub Trending",
 		"date": "2026-06-14T04:26:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cypress 发布浏览器测试框架",
+		"url": "https://github.com/cypress-io/cypress",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T04:03:13Z",
 		"group": "gh"
 	},
 	{
@@ -56,17 +70,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
+		"title": "Puppeteer 更新 JavaScript API，支持 Chrome 和 Firefox",
+		"url": "https://github.com/puppeteer/puppeteer",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T01:13:12Z",
+		"date": "2026-06-14T03:02:56Z",
 		"group": "gh"
 	},
 	{
-		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
-		"url": "https://github.com/obra/superpowers",
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
 		"source": "GitHub Trending",
-		"date": "2026-06-13T22:17:11Z",
+		"date": "2026-06-14T00:56:55Z",
 		"group": "gh"
 	},
 	{
@@ -84,13 +98,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
-		"url": "https://github.com/CopilotKit/CopilotKit",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T15:26:24Z",
-		"group": "gh"
-	},
-	{
 		"title": "Open Notebook 开源 Notebook LM 替代版",
 		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
@@ -102,13 +109,6 @@
 		"url": "https://github.com/aaif-goose/goose",
 		"source": "GitHub Trending",
 		"date": "2026-06-13T12:05:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 Cosmos 世界模型平台",
-		"url": "https://github.com/NVIDIA/cosmos",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T10:45:20Z",
 		"group": "gh"
 	},
 	{
@@ -182,13 +182,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "x1xhlol 开源 AI 工具系统提示词与模型合集",
-		"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T08:45:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 与 TCS 合作将 Claude 引入受监管行业",
 		"url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
 		"source": "Anthropic News",
@@ -222,13 +215,6 @@
 		"source": "Anthropic News",
 		"date": "2026-06-11T13:36:07.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "bannedbook 更新 fanqiang 翻墙科学上网项目",
-		"url": "https://github.com/bannedbook/fanqiang",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T12:20:27Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google DeepMind 联合多方投入 1000 万美元资助多智能体安全研究",
@@ -2002,6 +1988,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Free-TV 持续更新免费电视频道 M3U 播放列表",
+		"url": "https://github.com/Free-TV/IPTV",
+		"source": "GitHub Trending",
+		"date": "2026-04-22T03:58:05Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 在汉诺威工业博览会展示 AI 制造方案",
 		"url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
 		"source": "NVIDIA",
@@ -2098,6 +2091,13 @@
 		"source": "Anthropic Engineering",
 		"date": "2026-04-13T17:46:47.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "shiyu-coder 开源金融大模型 Kronos",
+		"url": "https://github.com/shiyu-coder/Kronos",
+		"source": "GitHub Trending",
+		"date": "2026-04-13T12:38:49Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 推出面向金融服务行业的 Claude 解决方案",
