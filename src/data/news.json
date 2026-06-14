@@ -1,16 +1,58 @@
 [
 	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-13T18:58:28Z",
+		"date": "2026-06-14T02:42:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "LMCache 开源 LMCache：加速 LLM 推理的 KV 缓存层",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T02:41:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "kenn-io 开源 AgentsView，本地优先的编程 Agent 会话分析工具",
 		"url": "https://github.com/kenn-io/agentsview",
 		"source": "GitHub Trending",
-		"date": "2026-06-13T18:46:52Z",
+		"date": "2026-06-14T02:19:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T01:34:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T01:13:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T23:37:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T22:17:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-13T21:44:17Z",
 		"group": "gh"
 	},
 	{
@@ -21,24 +63,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T18:01:16Z",
-		"group": "gh"
-	},
-	{
 		"title": "CopilotKit 发布 Agent 前端框架与生成式 UI 协议",
 		"url": "https://github.com/CopilotKit/CopilotKit",
 		"source": "GitHub Trending",
 		"date": "2026-06-13T15:26:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T15:12:27Z",
 		"group": "gh"
 	},
 	{
@@ -70,31 +98,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "LMCache 开源 LMCache：加速 LLM 推理的 KV 缓存层",
-		"url": "https://github.com/LMCache/LMCache",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T10:22:27Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
 		"url": "https://github.com/huggingface/OpenEnv",
 		"source": "GitHub Trending",
 		"date": "2026-06-13T07:05:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T04:47:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T03:08:21Z",
 		"group": "gh"
 	},
 	{
@@ -159,13 +166,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-12T17:32:32.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T16:05:34Z",
-		"group": "gh"
 	},
 	{
 		"title": "Allen AI 开源 olmo-eval 模型开发评测工作台",
@@ -234,6 +234,13 @@
 		"title": "PyTorch 发布从 nn.Linear 到融合 MLP 的性能分析教程",
 		"url": "https://huggingface.co/blog/torch-mlp-fusion",
 		"source": "Hugging Face Blog",
+		"date": "2026-06-11T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DXC 将 Claude 集成到银行、航空等受监管行业系统",
+		"url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+		"source": "Anthropic News",
 		"date": "2026-06-11T00:00:00.000Z",
 		"group": "labs"
 	},
