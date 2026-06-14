@@ -1,30 +1,58 @@
 [
 	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T09:09:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T08:41:45Z",
+		"group": "gh"
+	},
+	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T02:42:08Z",
+		"date": "2026-06-14T08:33:56Z",
 		"group": "gh"
 	},
 	{
 		"title": "LMCache 开源 LMCache：加速 LLM 推理的 KV 缓存层",
 		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T02:41:05Z",
+		"date": "2026-06-14T08:10:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "Andrew Ng 开源 aisuite，统一多 AI 提供商接口",
+		"url": "https://github.com/andrewyng/aisuite",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T05:57:09Z",
 		"group": "gh"
 	},
 	{
 		"title": "kenn-io 开源 AgentsView，本地优先的编程 Agent 会话分析工具",
 		"url": "https://github.com/kenn-io/agentsview",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T02:19:10Z",
+		"date": "2026-06-14T05:00:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "swc 发布 Rust 驱动的 Web 平台构建工具",
+		"url": "https://github.com/swc-project/swc",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T04:26:25Z",
 		"group": "gh"
 	},
 	{
 		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
 		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T01:34:08Z",
+		"date": "2026-06-14T03:27:39Z",
 		"group": "gh"
 	},
 	{
@@ -32,13 +60,6 @@
 		"url": "https://github.com/iptv-org/iptv",
 		"source": "GitHub Trending",
 		"date": "2026-06-14T01:13:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T23:37:19Z",
 		"group": "gh"
 	},
 	{
@@ -70,13 +91,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "swc 发布 Rust 驱动的 Web 平台构建工具",
-		"url": "https://github.com/swc-project/swc",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T15:10:54Z",
-		"group": "gh"
-	},
-	{
 		"title": "Open Notebook 开源 Notebook LM 替代版",
 		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
@@ -102,13 +116,6 @@
 		"url": "https://github.com/huggingface/OpenEnv",
 		"source": "GitHub Trending",
 		"date": "2026-06-13T07:05:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "Andrew Ng 开源 aisuite，统一多 AI 提供商接口",
-		"url": "https://github.com/andrewyng/aisuite",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T03:04:52Z",
 		"group": "gh"
 	},
 	{
@@ -189,6 +196,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 公布首份公共记录结果",
+		"url": "https://www.anthropic.com/news/anthropic-public-record",
+		"source": "Anthropic News",
+		"date": "2026-06-12T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
 		"url": "https://github.com/apple/container",
 		"source": "GitHub Trending",
@@ -210,6 +224,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "bannedbook 更新 fanqiang 翻墙科学上网项目",
+		"url": "https://github.com/bannedbook/fanqiang",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T12:20:27Z",
+		"group": "gh"
+	},
+	{
 		"title": "Google DeepMind 联合多方投入 1000 万美元资助多智能体安全研究",
 		"url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
 		"source": "DeepMind",
@@ -221,13 +242,6 @@
 		"url": "https://github.com/openai/plugins",
 		"source": "GitHub Trending",
 		"date": "2026-06-11T08:46:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T01:40:56Z",
 		"group": "gh"
 	},
 	{
