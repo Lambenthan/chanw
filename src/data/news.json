@@ -1,44 +1,72 @@
 [
 	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T16:57:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T16:43:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "Roboflow 开源 supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T16:39:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T16:12:25Z",
+		"date": "2026-06-15T20:46:20Z",
 		"group": "gh"
 	},
 	{
 		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
 		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T16:04:21Z",
+		"date": "2026-06-15T20:40:06Z",
 		"group": "gh"
 	},
 	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T15:29:54Z",
+		"date": "2026-06-15T20:24:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "trycua 开源 Computer-Use Agent 基础设施 cua",
+		"url": "https://github.com/trycua/cua",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T20:11:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Roboflow 开源 supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T19:47:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T19:36:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T19:25:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T19:01:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T17:47:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
+		"url": "https://github.com/apple/container",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T17:44:40Z",
 		"group": "gh"
 	},
 	{
@@ -46,13 +74,6 @@
 		"url": "https://github.com/huggingface/OpenEnv",
 		"source": "GitHub Trending",
 		"date": "2026-06-15T14:39:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T14:39:01Z",
 		"group": "gh"
 	},
 	{
@@ -67,20 +88,6 @@
 		"url": "https://github.com/teslamate-org/teslamate",
 		"source": "GitHub Trending",
 		"date": "2026-06-15T13:40:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "trycua 开源 Computer-Use Agent 基础设施 cua",
-		"url": "https://github.com/trycua/cua",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T09:43:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T09:28:04Z",
 		"group": "gh"
 	},
 	{
@@ -201,13 +208,6 @@
 		"source": "Anthropic News",
 		"date": "2026-06-12T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
-		"url": "https://github.com/apple/container",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T18:42:22Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 推出 Claude Corps 服务",
@@ -528,6 +528,13 @@
 		"title": "Reachy Mini 接入 MCP 工具集成",
 		"url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
 		"source": "Hugging Face Blog",
+		"date": "2026-06-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Imagine 1.5 预览版",
+		"url": "https://x.ai/news/grok-imagine-1-5",
+		"source": "xAI",
 		"date": "2026-06-03T00:00:00.000Z",
 		"group": "labs"
 	},
