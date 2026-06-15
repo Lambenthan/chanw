@@ -1,51 +1,72 @@
 [
 	{
-		"title": "Cypress 发布浏览器测试框架",
-		"url": "https://github.com/cypress-io/cypress",
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T02:50:55Z",
+		"date": "2026-06-15T11:44:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Roboflow 开源 supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T11:43:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T11:32:00Z",
 		"group": "gh"
 	},
 	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T02:46:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "aaif-goose 开源通用 AI Agent Goose",
-		"url": "https://github.com/aaif-goose/goose",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T02:07:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T01:25:06Z",
+		"date": "2026-06-15T11:24:57Z",
 		"group": "gh"
 	},
 	{
 		"title": "Mattermost 开源安全协作平台",
 		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T01:20:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "swc 发布 Rust 驱动的 Web 平台构建工具",
-		"url": "https://github.com/swc-project/swc",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T01:17:58Z",
+		"date": "2026-06-15T11:09:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "Music Assistant 开源媒体库管理器服务器",
 		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T00:55:00Z",
+		"date": "2026-06-15T10:18:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "trycua 开源 Computer-Use Agent 基础设施 cua",
+		"url": "https://github.com/trycua/cua",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T09:43:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T09:28:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "optimizerDuck 开源 Windows 优化工具",
+		"url": "https://github.com/itsfatduck/optimizerDuck",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T08:49:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T07:26:41Z",
 		"group": "gh"
 	},
 	{
@@ -56,17 +77,24 @@
 		"group": "gh"
 	},
 	{
-		"title": "Roboflow 开源 supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
+		"title": "asgeirtj 开源系统提示语提取项目 system_prompts_leaks",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T00:19:48Z",
+		"date": "2026-06-15T00:28:42Z",
 		"group": "gh"
 	},
 	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"title": "Win11Debloat 开源 Windows 系统精简脚本",
+		"url": "https://github.com/Raphire/Win11Debloat",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T19:17:57Z",
+		"date": "2026-06-14T20:11:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程入门项目 ai-engineering-from-scratch",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T16:42:36Z",
 		"group": "gh"
 	},
 	{
@@ -77,52 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "pytest 框架持续更新并获社区广泛关注",
-		"url": "https://github.com/pytest-dev/pytest",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T06:04:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "Andrew Ng 开源 aisuite，统一多 AI 提供商接口",
-		"url": "https://github.com/andrewyng/aisuite",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T05:57:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T03:27:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "Puppeteer 更新 JavaScript API，支持 Chrome 和 Firefox",
-		"url": "https://github.com/puppeteer/puppeteer",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T03:02:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T00:56:55Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
 		"url": "https://github.com/NVIDIA/SkillSpector",
 		"source": "GitHub Trending",
 		"date": "2026-06-13T18:34:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "Open Notebook 开源 Notebook LM 替代版",
-		"url": "https://github.com/lfnovo/open-notebook",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T12:16:12Z",
 		"group": "gh"
 	},
 	{
@@ -189,6 +175,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "x1xhlol 开源 AI 工具系统提示与模型集合",
+		"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+		"source": "GitHub Trending",
+		"date": "2026-06-12T08:45:15Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 与 TCS 合作将 Claude 引入受监管行业",
 		"url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
 		"source": "Anthropic News",
@@ -207,13 +200,6 @@
 		"url": "https://github.com/apple/container",
 		"source": "GitHub Trending",
 		"date": "2026-06-11T18:42:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenCV 作为开源计算机视觉库持续维护更新",
-		"url": "https://github.com/opencv/opencv",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T18:00:04Z",
 		"group": "gh"
 	},
 	{
@@ -270,13 +256,6 @@
 		"url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
 		"source": "DeepMind",
 		"date": "2026-06-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Cohere 发布 North Mini Code 开发者模型",
-		"url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-09T15:56:23.000Z",
 		"group": "labs"
 	},
 	{
@@ -756,10 +735,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "safishamsi 开源 Graphify：将代码目录转为可查询的知识图谱",
-		"url": "https://github.com/safishamsi/graphify",
+		"title": "turbovec 开源基于 TurboQuant 的向量索引",
+		"url": "https://github.com/RyanCodrai/turbovec",
 		"source": "GitHub Trending",
-		"date": "2026-05-27T23:30:37Z",
+		"date": "2026-05-27T17:40:37Z",
 		"group": "gh"
 	},
 	{
@@ -1981,6 +1960,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Hugging Face 发布 Transformers.js Chrome 扩展开发指南",
+		"url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+		"source": "Hugging Face Blog",
+		"date": "2026-04-23T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 与 Google Cloud 合作推出 Agentic Physical AI 工厂方案",
 		"url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
 		"source": "NVIDIA",
@@ -2007,6 +1993,13 @@
 		"source": "NVIDIA",
 		"date": "2026-04-21T10:26:32.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "krahets 开源《Hello 算法》动画图解数据结构教程",
+		"url": "https://github.com/krahets/hello-algo",
+		"source": "GitHub Trending",
+		"date": "2026-04-18T18:23:33Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic Labs 发布 Claude Design 设计工具",
