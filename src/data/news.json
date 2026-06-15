@@ -1,37 +1,72 @@
 [
 	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
+		"title": "Cypress 发布浏览器测试框架",
+		"url": "https://github.com/cypress-io/cypress",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T19:11:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T19:05:36Z",
+		"date": "2026-06-15T02:50:55Z",
 		"group": "gh"
 	},
 	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T18:53:36Z",
+		"date": "2026-06-15T02:46:45Z",
 		"group": "gh"
 	},
 	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"title": "aaif-goose 开源通用 AI Agent Goose",
+		"url": "https://github.com/aaif-goose/goose",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T14:13:50Z",
+		"date": "2026-06-15T02:07:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T01:25:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T01:20:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "swc 发布 Rust 驱动的 Web 平台构建工具",
+		"url": "https://github.com/swc-project/swc",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T01:17:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T00:55:00Z",
 		"group": "gh"
 	},
 	{
 		"title": "iptv-org 开源全球 IPTV 频道集合",
 		"url": "https://github.com/iptv-org/iptv",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T11:25:35Z",
+		"date": "2026-06-15T00:43:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "Roboflow 开源 supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T00:19:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-14T19:17:57Z",
 		"group": "gh"
 	},
 	{
@@ -53,20 +88,6 @@
 		"url": "https://github.com/andrewyng/aisuite",
 		"source": "GitHub Trending",
 		"date": "2026-06-14T05:57:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "swc 发布 Rust 驱动的 Web 平台构建工具",
-		"url": "https://github.com/swc-project/swc",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T04:26:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cypress 发布浏览器测试框架",
-		"url": "https://github.com/cypress-io/cypress",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T04:03:13Z",
 		"group": "gh"
 	},
 	{
@@ -105,24 +126,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "aaif-goose 开源通用 AI Agent Goose",
-		"url": "https://github.com/aaif-goose/goose",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T12:05:12Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
 		"url": "https://github.com/huggingface/OpenEnv",
 		"source": "GitHub Trending",
 		"date": "2026-06-13T07:05:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "Roboflow 开源 supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T22:04:46Z",
 		"group": "gh"
 	},
 	{
@@ -679,13 +686,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 与波士顿儿童医院合作，AI 辅助诊断罕见病",
-		"url": "https://openai.com/index/boston-childrens-hospital",
-		"source": "OpenAI",
-		"date": "2026-05-29T12:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 前沿模型和 Codex 在 AWS 上正式可用",
 		"url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
 		"source": "OpenAI",
@@ -756,10 +756,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "safishamsi 开源 Graphify：将代码目录转为可查询的知识图谱",
+		"url": "https://github.com/safishamsi/graphify",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T23:30:37Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 发布 AI 工厂基础设施方案",
 		"url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
 		"source": "NVIDIA",
 		"date": "2026-05-27T17:00:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布开放权重大模型最坏情况风险评估方法",
+		"url": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -975,13 +989,6 @@
 	{
 		"title": "OpenAI 与 Anthropic 联合发布安全评估",
 		"url": "https://openai.com/index/openai-anthropic-safety-evaluation/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布开放权重大模型最坏情况风险评估方法",
-		"url": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
