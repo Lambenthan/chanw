@@ -1,44 +1,72 @@
 [
 	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T11:44:36Z",
+		"date": "2026-06-15T16:57:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T16:43:01Z",
 		"group": "gh"
 	},
 	{
 		"title": "Roboflow 开源 supervision 计算机视觉工具库",
 		"url": "https://github.com/roboflow/supervision",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T11:43:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T11:32:00Z",
+		"date": "2026-06-15T16:39:06Z",
 		"group": "gh"
 	},
 	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T11:24:57Z",
+		"date": "2026-06-15T16:12:25Z",
 		"group": "gh"
 	},
 	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T11:09:44Z",
+		"date": "2026-06-15T16:04:21Z",
 		"group": "gh"
 	},
 	{
 		"title": "Music Assistant 开源媒体库管理器服务器",
 		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T10:18:01Z",
+		"date": "2026-06-15T15:29:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
+		"url": "https://github.com/huggingface/OpenEnv",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T14:39:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T14:39:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "optimizerDuck 开源 Windows 优化工具",
+		"url": "https://github.com/itsfatduck/optimizerDuck",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T14:27:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "Teslamate 发布自托管特斯拉数据记录器",
+		"url": "https://github.com/teslamate-org/teslamate",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T13:40:41Z",
 		"group": "gh"
 	},
 	{
@@ -53,20 +81,6 @@
 		"url": "https://github.com/microsoft/PowerToys",
 		"source": "GitHub Trending",
 		"date": "2026-06-15T09:28:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "optimizerDuck 开源 Windows 优化工具",
-		"url": "https://github.com/itsfatduck/optimizerDuck",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T08:49:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T07:26:41Z",
 		"group": "gh"
 	},
 	{
@@ -109,13 +123,6 @@
 		"url": "https://github.com/NVIDIA/SkillSpector",
 		"source": "GitHub Trending",
 		"date": "2026-06-13T18:34:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
-		"url": "https://github.com/huggingface/OpenEnv",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T07:05:22Z",
 		"group": "gh"
 	},
 	{
@@ -535,6 +542,13 @@
 		"title": "Anthropic 发布 AI 网络威胁年度分析报告",
 		"url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
 		"source": "Anthropic News",
+		"date": "2026-06-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 语音能力接入 Vapi 平台",
+		"url": "https://x.ai/news/grok-vapi",
+		"source": "xAI",
 		"date": "2026-06-03T00:00:00.000Z",
 		"group": "labs"
 	},
