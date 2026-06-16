@@ -1,44 +1,100 @@
 [
 	{
-		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
-		"url": "https://github.com/huggingface/OpenEnv",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T02:48:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T02:48:20Z",
-		"group": "gh"
-	},
-	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T02:46:25Z",
+		"date": "2026-06-16T10:56:23Z",
 		"group": "gh"
 	},
 	{
 		"title": "Music Assistant 开源媒体库管理器服务器",
 		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T01:35:59Z",
+		"date": "2026-06-16T10:46:04Z",
 		"group": "gh"
 	},
 	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T00:48:29Z",
+		"date": "2026-06-16T10:43:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T10:38:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T10:33:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
+		"url": "https://github.com/huggingface/OpenEnv",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T10:23:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "Roboflow 开源 supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T10:19:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 AI 安全核心观点",
+		"url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+		"source": "Anthropic News",
+		"date": "2026-06-16T09:51:16.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "trycua 开源 Computer-Use Agent 基础设施 cua",
+		"url": "https://github.com/trycua/cua",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T08:06:13Z",
 		"group": "gh"
 	},
 	{
 		"title": "Meshery 发布云原生管理器",
 		"url": "https://github.com/meshery/meshery",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T00:47:52Z",
+		"date": "2026-06-16T06:24:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 开源 Plugins 项目",
+		"url": "https://github.com/openai/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T06:05:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T05:50:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T05:24:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T03:18:55Z",
 		"group": "gh"
 	},
 	{
@@ -53,48 +109,6 @@
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-16T00:13:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T00:12:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T23:53:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "Roboflow 开源 supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T23:06:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T21:34:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "trycua 开源 Computer-Use Agent 基础设施 cua",
-		"url": "https://github.com/trycua/cua",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T20:11:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T17:47:10Z",
 		"group": "gh"
 	},
 	{
@@ -229,13 +243,6 @@
 		"source": "DeepMind",
 		"date": "2026-06-11T12:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "OpenAI 开源 Plugins 项目",
-		"url": "https://github.com/openai/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-06-11T08:46:18Z",
-		"group": "gh"
 	},
 	{
 		"title": "PyTorch 发布从 nn.Linear 到融合 MLP 的性能分析教程",
