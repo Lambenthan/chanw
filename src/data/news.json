@@ -1,23 +1,86 @@
 [
 	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
+		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
+		"url": "https://github.com/huggingface/OpenEnv",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T20:46:20Z",
+		"date": "2026-06-16T02:48:32Z",
 		"group": "gh"
 	},
 	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T20:40:06Z",
+		"date": "2026-06-16T02:48:20Z",
 		"group": "gh"
 	},
 	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T20:24:45Z",
+		"date": "2026-06-16T02:46:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T01:35:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T00:48:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T00:47:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示语提取项目 system_prompts_leaks",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T00:35:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T00:13:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T00:12:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T23:53:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Roboflow 开源 supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T23:06:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T21:34:55Z",
 		"group": "gh"
 	},
 	{
@@ -25,34 +88,6 @@
 		"url": "https://github.com/trycua/cua",
 		"source": "GitHub Trending",
 		"date": "2026-06-15T20:11:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "Roboflow 开源 supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T19:47:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T19:36:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T19:25:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T19:01:31Z",
 		"group": "gh"
 	},
 	{
@@ -70,13 +105,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
-		"url": "https://github.com/huggingface/OpenEnv",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T14:39:22Z",
-		"group": "gh"
-	},
-	{
 		"title": "optimizerDuck 开源 Windows 优化工具",
 		"url": "https://github.com/itsfatduck/optimizerDuck",
 		"source": "GitHub Trending",
@@ -88,20 +116,6 @@
 		"url": "https://github.com/teslamate-org/teslamate",
 		"source": "GitHub Trending",
 		"date": "2026-06-15T13:40:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T00:43:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "asgeirtj 开源系统提示语提取项目 system_prompts_leaks",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T00:28:42Z",
 		"group": "gh"
 	},
 	{
@@ -119,18 +133,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T08:41:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-13T18:34:29Z",
-		"group": "gh"
+		"title": "NVIDIA 发布 Jetson Agentic AI 物理世界方案",
+		"url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+		"source": "NVIDIA",
+		"date": "2026-06-13T01:34:49.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 与 SETI 研究所用 AI 搜索快速射电暴",
@@ -613,13 +620,6 @@
 		"url": "https://openai.com/index/travelers",
 		"source": "OpenAI",
 		"date": "2026-06-02T09:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Jetson Agentic AI 物理世界方案",
-		"url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
-		"source": "NVIDIA",
-		"date": "2026-06-02T04:01:26.000Z",
 		"group": "labs"
 	},
 	{
@@ -2342,13 +2342,6 @@
 		"url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
 		"source": "Anthropic Engineering",
 		"date": "2026-03-18T18:48:35.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 DSX Air 仿真 AI 工厂",
-		"url": "https://blogs.nvidia.com/blog/dsx-air-simulation-ai-factories/",
-		"source": "NVIDIA",
-		"date": "2026-03-17T21:23:14.000Z",
 		"group": "labs"
 	}
 ]
