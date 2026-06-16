@@ -1,51 +1,128 @@
 [
 	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T10:56:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T10:46:04Z",
-		"group": "gh"
+		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
+		"url": "https://www.anthropic.com/research/claude-code-expertise",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Mattermost 开源安全协作平台",
 		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T10:43:54Z",
+		"date": "2026-06-16T20:39:12Z",
 		"group": "gh"
 	},
 	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T10:38:19Z",
+		"date": "2026-06-16T20:35:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T20:35:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Blackwell 在 MLPerf Training 6.0 中的训练基准成绩",
+		"url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+		"source": "NVIDIA",
+		"date": "2026-06-16T20:34:02.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T20:31:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T20:31:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cypress 发布 13.0 版本，专注浏览器测试",
+		"url": "https://github.com/cypress-io/cypress",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T20:17:39Z",
 		"group": "gh"
 	},
 	{
 		"title": "freeCodeCamp 更新开源编程课程与代码库",
 		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T10:33:18Z",
+		"date": "2026-06-16T19:38:49Z",
 		"group": "gh"
 	},
 	{
-		"title": "Hugging Face 开源 OpenEnv 强化学习后训练环境接口库",
-		"url": "https://github.com/huggingface/OpenEnv",
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T10:23:35Z",
+		"date": "2026-06-16T19:15:05Z",
 		"group": "gh"
 	},
 	{
-		"title": "Roboflow 开源 supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T10:19:32Z",
+		"date": "2026-06-16T19:10:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T19:00:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T18:03:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenWA 开源自托管 WhatsApp API 网关",
+		"url": "https://github.com/rmyndharis/OpenWA",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T18:01:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apple 开源 MLX 数组框架",
+		"url": "https://github.com/ml-explore/mlx",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T17:47:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 与 HPE 合作推出 AI Factory Agentic Enterprise",
+		"url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+		"source": "NVIDIA",
+		"date": "2026-06-16T16:30:27.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "pytest 发布新版测试框架",
+		"url": "https://github.com/pytest-dev/pytest",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T15:14:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "open-notebook 开源 Notebook LM 实现并扩展功能",
+		"url": "https://github.com/lfnovo/open-notebook",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T12:24:37Z",
 		"group": "gh"
 	},
 	{
@@ -56,38 +133,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "trycua 开源 Computer-Use Agent 基础设施 cua",
-		"url": "https://github.com/trycua/cua",
+		"title": "SWC 发布基于 Rust 的 Web 编译平台",
+		"url": "https://github.com/swc-project/swc",
 		"source": "GitHub Trending",
-		"date": "2026-06-16T08:06:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T06:24:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 开源 Plugins 项目",
-		"url": "https://github.com/openai/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T06:05:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T05:50:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T05:24:05Z",
+		"date": "2026-06-16T07:32:28Z",
 		"group": "gh"
 	},
 	{
@@ -119,13 +168,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "optimizerDuck 开源 Windows 优化工具",
-		"url": "https://github.com/itsfatduck/optimizerDuck",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T14:27:00Z",
-		"group": "gh"
-	},
-	{
 		"title": "Teslamate 发布自托管特斯拉数据记录器",
 		"url": "https://github.com/teslamate-org/teslamate",
 		"source": "GitHub Trending",
@@ -133,17 +175,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Win11Debloat 开源 Windows 系统精简脚本",
-		"url": "https://github.com/Raphire/Win11Debloat",
+		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
+		"url": "https://github.com/puppeteer/puppeteer",
 		"source": "GitHub Trending",
-		"date": "2026-06-14T20:11:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "rohitg00 开源 AI 工程入门项目 ai-engineering-from-scratch",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-06-14T16:42:36Z",
+		"date": "2026-06-15T12:12:56Z",
 		"group": "gh"
 	},
 	{
@@ -266,6 +301,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenBMB 开源 VoxCPM2 无分词器多语言语音生成模型",
+		"url": "https://github.com/OpenBMB/VoxCPM",
+		"source": "GitHub Trending",
+		"date": "2026-06-10T07:23:13Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 更新英国主权 AI 进展",
 		"url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
 		"source": "NVIDIA",
@@ -329,6 +371,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 与 Gopuff 推出 AI 购物助手 Go",
+		"url": "https://x.ai/news/grok-gopuff",
+		"source": "xAI",
+		"date": "2026-06-09T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Hugging Face 发布 CI 迁移方案至 Hugging Face Jobs",
 		"url": "https://huggingface.co/blog/github-ci-hf-jobs",
 		"source": "Hugging Face Blog",
@@ -369,6 +418,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-08T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Universal-Debloater-Alliance 开源跨平台 Android 去臃肿工具",
+		"url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+		"source": "GitHub Trending",
+		"date": "2026-06-07T22:15:38Z",
+		"group": "gh"
 	},
 	{
 		"title": "phuryn 开源 PM Skills Marketplace，含 100+ agentic skills",
@@ -473,6 +529,20 @@
 		"url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-04T18:57:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 推出 Deployment Simulation 部署模拟工具",
+		"url": "https://openai.com/index/deployment-simulation/",
+		"source": "OpenAI",
+		"date": "2026-06-04T09:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 提出 Deployment Simulation 预测模型行为",
+		"url": "https://openai.com/index/deployment-simulation",
+		"source": "OpenAI",
+		"date": "2026-06-04T09:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -693,13 +763,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 前沿模型和 Codex 在 AWS 上正式可用",
-		"url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-		"source": "OpenAI",
-		"date": "2026-05-29T03:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google 发布 Gemini Omni 与 Gemini 3.5 能力演示视频",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
 		"source": "Google AI",
@@ -761,13 +824,6 @@
 		"source": "Mistral",
 		"date": "2026-05-28T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "turbovec 开源基于 TurboQuant 的向量索引",
-		"url": "https://github.com/RyanCodrai/turbovec",
-		"source": "GitHub Trending",
-		"date": "2026-05-27T17:40:37Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 AI 工厂基础设施方案",
@@ -1036,6 +1092,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "阿里巴巴开源轻量级进程内向量数据库 ZVec",
+		"url": "https://github.com/alibaba/zvec",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T14:58:49Z",
+		"group": "gh"
+	},
+	{
 		"title": "Mistral 发布 Physics AI 工程加速基础模型",
 		"url": "https://mistral.ai/news/introducing-physics-ai-at-mistral",
 		"source": "Mistral",
@@ -1069,20 +1132,6 @@
 		"source": "xAI",
 		"date": "2026-05-27T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "微软开源 MarkItDown 文档转 Markdown 工具",
-		"url": "https://github.com/microsoft/markitdown",
-		"source": "GitHub Trending",
-		"date": "2026-05-26T22:41:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "Leonxlnx 开源 Taste-Skill 提示词技能",
-		"url": "https://github.com/Leonxlnx/taste-skill",
-		"source": "GitHub Trending",
-		"date": "2026-05-26T19:31:39Z",
-		"group": "gh"
 	},
 	{
 		"title": "OpenAI 推出独立研究 AI 对齐项目",
@@ -1232,6 +1281,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布检测与减少 AI 模型欺骗行为的研究",
+		"url": "https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 将单减振幅方法扩展至引力子研究",
 		"url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/",
 		"source": "OpenAI",
@@ -1346,13 +1402,6 @@
 	{
 		"title": "OpenAI 分享参数高尔夫研究经验",
 		"url": "https://openai.com/index/what-parameter-golf-taught-us/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布检测与减少 AI 模型欺骗行为的研究",
-		"url": "https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -1764,15 +1813,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Natural Language Autoencoders 研究",
-		"url": "https://www.anthropic.com/research/natural-language-autoencoders",
+		"title": "Anthropic 公布研究所研究议程",
+		"url": "https://www.anthropic.com/research/anthropic-institute-agenda",
 		"source": "Anthropic Research",
 		"date": "2026-05-06T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 公布研究所研究议程",
-		"url": "https://www.anthropic.com/research/anthropic-institute-agenda",
+		"title": "Anthropic 发布 Natural Language Autoencoders 研究",
+		"url": "https://www.anthropic.com/research/natural-language-autoencoders",
 		"source": "Anthropic Research",
 		"date": "2026-05-06T16:00:00.000Z",
 		"group": "labs"
@@ -2009,25 +2058,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "Free-TV 持续更新免费电视频道 M3U 播放列表",
-		"url": "https://github.com/Free-TV/IPTV",
-		"source": "GitHub Trending",
-		"date": "2026-04-22T03:58:05Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 在汉诺威工业博览会展示 AI 制造方案",
 		"url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
 		"source": "NVIDIA",
 		"date": "2026-04-21T10:26:32.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "krahets 开源《Hello 算法》动画图解数据结构教程",
-		"url": "https://github.com/krahets/hello-algo",
-		"source": "GitHub Trending",
-		"date": "2026-04-18T18:23:33Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic Labs 发布 Claude Design 设计工具",
@@ -2119,13 +2154,6 @@
 		"source": "Anthropic Engineering",
 		"date": "2026-04-13T17:46:47.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "shiyu-coder 开源金融大模型 Kronos",
-		"url": "https://github.com/shiyu-coder/Kronos",
-		"source": "GitHub Trending",
-		"date": "2026-04-13T12:38:49Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 推出面向金融服务行业的 Claude 解决方案",
@@ -2335,20 +2363,6 @@
 		"url": "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
 		"source": "NVIDIA",
 		"date": "2026-03-19T22:48:45.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Eval Awareness Browsecomp 评测",
-		"url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
-		"source": "Anthropic Engineering",
-		"date": "2026-03-18T20:16:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI Agent 评测指南",
-		"url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
-		"source": "Anthropic Engineering",
-		"date": "2026-03-18T18:48:35.000Z",
 		"group": "labs"
 	}
 ]
