@@ -1,30 +1,114 @@
 [
 	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T02:46:42Z",
+		"date": "2026-06-17T10:26:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T10:22:47Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenWA 开源自托管 WhatsApp API 网关",
 		"url": "https://github.com/rmyndharis/OpenWA",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T02:43:54Z",
+		"date": "2026-06-17T10:22:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T10:22:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 联合亚马逊推出 Strands Agents 实现从 Hub 到机器人硬件的部署",
+		"url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-17T10:18:05.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T10:10:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T10:06:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T09:49:07Z",
 		"group": "gh"
 	},
 	{
 		"title": "Cypress 发布 13.0 版本，专注浏览器测试",
 		"url": "https://github.com/cypress-io/cypress",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T02:32:45Z",
+		"date": "2026-06-17T09:46:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T09:41:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "智谱 AI 发布 GLM-5.2，面向长周期任务",
+		"url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-17T09:01:25.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Apple 开源 MLX 数组框架",
+		"url": "https://github.com/ml-explore/mlx",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T08:26:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "SWC 发布基于 Rust 的 Web 编译平台",
+		"url": "https://github.com/swc-project/swc",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T07:48:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T07:17:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T04:18:19Z",
 		"group": "gh"
 	},
 	{
 		"title": "Microsoft PowerToys 更新系统增强工具集合",
 		"url": "https://github.com/microsoft/PowerToys",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T02:24:07Z",
+		"date": "2026-06-17T03:31:07Z",
 		"group": "gh"
 	},
 	{
@@ -35,66 +119,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T01:58:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T01:51:31Z",
-		"group": "gh"
-	},
-	{
 		"title": "open-notebook 开源 Notebook LM 实现并扩展功能",
 		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
 		"date": "2026-06-17T01:20:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T01:14:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T01:03:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T00:44:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "Apple 开源 MLX 数组框架",
-		"url": "https://github.com/ml-explore/mlx",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T00:36:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T23:42:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T22:56:43Z",
 		"group": "gh"
 	},
 	{
@@ -116,13 +144,6 @@
 		"url": "https://github.com/apple/container",
 		"source": "GitHub Trending",
 		"date": "2026-06-16T21:14:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T20:35:48Z",
 		"group": "gh"
 	},
 	{
@@ -152,13 +173,6 @@
 		"source": "Anthropic News",
 		"date": "2026-06-16T09:51:16.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "SWC 发布基于 Rust 的 Web 编译平台",
-		"url": "https://github.com/swc-project/swc",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T07:32:28Z",
-		"group": "gh"
 	},
 	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
@@ -325,6 +339,13 @@
 		"title": "DeepMind 发布 DiffusionGemma，文本生成速度提升 4 倍",
 		"url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
 		"source": "DeepMind",
+		"date": "2026-06-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 为 eToro 的 AI agent Tori 接入实时市场情绪",
+		"url": "https://x.ai/news/grok-etoro",
+		"source": "xAI",
 		"date": "2026-06-10T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2009,13 +2030,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "DeepSeek 发布 DeepSeek-V4 模型，支持百万 token 上下文",
-		"url": "https://huggingface.co/blog/deepseekv4",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-24T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 将 GPT-5.5 接入企业 Agent 工作流",
 		"url": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
 		"source": "NVIDIA",
@@ -2033,13 +2047,6 @@
 		"title": "xAI 发布 Grok Voice Think Fast 1.0 语音 Agent",
 		"url": "https://x.ai/news/grok-voice-think-fast-1",
 		"source": "xAI",
-		"date": "2026-04-23T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 Transformers.js Chrome 扩展开发指南",
-		"url": "https://huggingface.co/blog/transformersjs-chrome-extension",
-		"source": "Hugging Face Blog",
 		"date": "2026-04-23T00:00:00.000Z",
 		"group": "labs"
 	},
