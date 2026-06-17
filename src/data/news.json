@@ -1,30 +1,121 @@
 [
 	{
+		"title": "open-notebook 开源 Notebook LM 实现并扩展功能",
+		"url": "https://github.com/lfnovo/open-notebook",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T14:53:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T14:52:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "mattpocock 开源真实工程师用的 Claude skill 目录",
+		"url": "https://github.com/mattpocock/skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T14:46:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计协作工具",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T14:46:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T14:37:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T14:35:31Z",
+		"group": "gh"
+	},
+	{
 		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
 		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T10:26:55Z",
+		"date": "2026-06-17T14:20:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T14:16:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "pytest 发布新版测试框架",
+		"url": "https://github.com/pytest-dev/pytest",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T13:35:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google Research 开源时间序列基础模型 TimesFM",
+		"url": "https://github.com/google-research/timesfm",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T13:11:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T12:36:37Z",
 		"group": "gh"
 	},
 	{
 		"title": "Meshery 发布云原生管理器",
 		"url": "https://github.com/meshery/meshery",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T10:22:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenWA 开源自托管 WhatsApp API 网关",
-		"url": "https://github.com/rmyndharis/OpenWA",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T10:22:44Z",
+		"date": "2026-06-17T12:35:45Z",
 		"group": "gh"
 	},
 	{
 		"title": "iptv-org 开源全球 IPTV 频道集合",
 		"url": "https://github.com/iptv-org/iptv",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T10:22:17Z",
+		"date": "2026-06-17T12:34:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "makeplane/plane 开源项目管理平台",
+		"url": "https://github.com/makeplane/plane",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T12:30:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "nautechsystems 开源生产级 Rust 原生交易引擎 Nautilus Trader",
+		"url": "https://github.com/nautechsystems/nautilus_trader",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T12:19:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
+		"url": "https://github.com/puppeteer/puppeteer",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T11:09:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T11:07:20Z",
 		"group": "gh"
 	},
 	{
@@ -35,41 +126,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T10:10:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T10:06:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T09:49:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cypress 发布 13.0 版本，专注浏览器测试",
-		"url": "https://github.com/cypress-io/cypress",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T09:46:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T09:41:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "智谱 AI 发布 GLM-5.2，面向长周期任务",
 		"url": "https://huggingface.co/blog/zai-org/glm-52-blog",
 		"source": "Hugging Face Blog",
@@ -77,31 +133,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Apple 开源 MLX 数组框架",
-		"url": "https://github.com/ml-explore/mlx",
+		"title": "Obra 开源 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T08:26:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "SWC 发布基于 Rust 的 Web 编译平台",
-		"url": "https://github.com/swc-project/swc",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T07:48:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T07:17:30Z",
-		"group": "gh"
-	},
-	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T04:18:19Z",
+		"date": "2026-06-17T05:46:48Z",
 		"group": "gh"
 	},
 	{
@@ -116,13 +151,6 @@
 		"url": "https://github.com/asgeirtj/system_prompts_leaks",
 		"source": "GitHub Trending",
 		"date": "2026-06-17T01:58:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "open-notebook 开源 Notebook LM 实现并扩展功能",
-		"url": "https://github.com/lfnovo/open-notebook",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T01:20:44Z",
 		"group": "gh"
 	},
 	{
@@ -154,18 +182,18 @@
 		"group": "labs"
 	},
 	{
+		"title": "yairm210 发布 Unciv 开源文明 5 复刻版",
+		"url": "https://github.com/yairm210/Unciv",
+		"source": "GitHub Trending",
+		"date": "2026-06-16T20:11:40Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 与 HPE 合作推出 AI Factory Agentic Enterprise",
 		"url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
 		"source": "NVIDIA",
 		"date": "2026-06-16T16:30:27.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "pytest 发布新版测试框架",
-		"url": "https://github.com/pytest-dev/pytest",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T15:14:22Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 AI 安全核心观点",
@@ -189,17 +217,17 @@
 		"group": "labs"
 	},
 	{
-		"title": "Teslamate 发布自托管特斯拉数据记录器",
-		"url": "https://github.com/teslamate-org/teslamate",
+		"title": "restic 发布快速安全的备份程序",
+		"url": "https://github.com/restic/restic",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T13:40:41Z",
+		"date": "2026-06-14T13:30:01Z",
 		"group": "gh"
 	},
 	{
-		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
-		"url": "https://github.com/puppeteer/puppeteer",
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
 		"source": "GitHub Trending",
-		"date": "2026-06-15T12:12:56Z",
+		"date": "2026-06-13T05:43:03Z",
 		"group": "gh"
 	},
 	{
@@ -266,13 +294,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "x1xhlol 开源 AI 工具系统提示与模型集合",
-		"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-		"source": "GitHub Trending",
-		"date": "2026-06-12T08:45:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 与 TCS 合作将 Claude 引入受监管行业",
 		"url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
 		"source": "Anthropic News",
@@ -320,13 +341,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-10T22:10:06.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "OpenBMB 开源 VoxCPM2 无分词器多语言语音生成模型",
-		"url": "https://github.com/OpenBMB/VoxCPM",
-		"source": "GitHub Trending",
-		"date": "2026-06-10T07:23:13Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 更新英国主权 AI 进展",
@@ -445,6 +459,13 @@
 		"url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
 		"source": "GitHub Trending",
 		"date": "2026-06-07T22:15:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "rlm 开源递归语言模型推理库",
+		"url": "https://github.com/alexzhang13/rlm",
+		"source": "GitHub Trending",
+		"date": "2026-06-06T20:18:53Z",
 		"group": "gh"
 	},
 	{
@@ -1113,13 +1134,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "阿里巴巴开源轻量级进程内向量数据库 ZVec",
-		"url": "https://github.com/alibaba/zvec",
-		"source": "GitHub Trending",
-		"date": "2026-05-27T14:58:49Z",
-		"group": "gh"
-	},
-	{
 		"title": "Mistral 发布 Physics AI 工程加速基础模型",
 		"url": "https://mistral.ai/news/introducing-physics-ai-at-mistral",
 		"source": "Mistral",
@@ -1631,6 +1645,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "字节跳动开源 UI-TARS-desktop 多模态 AI Agent 栈",
+		"url": "https://github.com/bytedance/UI-TARS-desktop",
+		"source": "GitHub Trending",
+		"date": "2026-05-18T02:55:49Z",
+		"group": "gh"
+	},
+	{
 		"title": "OpenAI 发布 GPT-5.2 Codex",
 		"url": "https://openai.com/index/introducing-gpt-5-2-codex/",
 		"source": "OpenAI",
@@ -1825,6 +1846,13 @@
 		"source": "DeepMind",
 		"date": "2026-05-07T16:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "OpenMontage 开源首个 Agentic 视频生产系统",
+		"url": "https://github.com/calesthio/OpenMontage",
+		"source": "GitHub Trending",
+		"date": "2026-05-07T12:12:36Z",
+		"group": "gh"
 	},
 	{
 		"title": "vLLM 发布 V1 版本，强化 RL 训练正确性",
