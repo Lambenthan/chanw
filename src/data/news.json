@@ -1,72 +1,128 @@
 [
 	{
-		"title": "Penpot 开源设计协作工具",
-		"url": "https://github.com/penpot/penpot",
+		"title": "AgentView 开源本地优先的编程 agent 会话分析工具",
+		"url": "https://github.com/kenn-io/agentsview",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T10:06:15Z",
+		"date": "2026-06-18T14:53:07Z",
 		"group": "gh"
 	},
 	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
+		"title": "Kilo 开源全能 agent 工程平台",
+		"url": "https://github.com/Kilo-Org/kilocode",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T10:05:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T10:04:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T10:02:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T09:58:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "nautechsystems 开源生产级 Rust 原生交易引擎 Nautilus Trader",
-		"url": "https://github.com/nautechsystems/nautilus_trader",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T09:56:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T09:38:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T09:38:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
-		"url": "https://github.com/puppeteer/puppeteer",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T09:33:25Z",
+		"date": "2026-06-18T14:42:57Z",
 		"group": "gh"
 	},
 	{
 		"title": "freeCodeCamp 更新开源编程课程与代码库",
 		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T09:12:53Z",
+		"date": "2026-06-18T14:29:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T14:28:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T14:17:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T14:17:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T14:08:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "pytest 发布新版测试框架",
+		"url": "https://github.com/pytest-dev/pytest",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T14:06:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepMind 发布 AI Control Roadmap 保障 agent 安全",
+		"url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+		"source": "DeepMind",
+		"date": "2026-06-18T14:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
+		"url": "https://github.com/apple/container",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T13:53:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
+		"url": "https://github.com/puppeteer/puppeteer",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T13:43:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "open-notebook 开源 Notebook LM 实现并扩展功能",
+		"url": "https://github.com/lfnovo/open-notebook",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T13:26:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T12:55:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T12:11:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T11:52:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Jenkins 更新自动化服务器",
+		"url": "https://github.com/jenkinsci/jenkins",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T11:23:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T10:52:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "微软开源 ASP.NET Core 跨平台框架",
+		"url": "https://github.com/dotnet/aspnetcore",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T10:30:15Z",
 		"group": "gh"
 	},
 	{
@@ -77,27 +133,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "mattpocock 开源真实工程师用的 Claude skill 目录",
-		"url": "https://github.com/mattpocock/skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T08:41:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T08:25:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T06:29:12Z",
-		"group": "gh"
-	},
-	{
 		"title": "Universal-Debloater-Alliance 开源跨平台 Android 去臃肿工具",
 		"url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
 		"source": "GitHub Trending",
@@ -105,46 +140,18 @@
 		"group": "gh"
 	},
 	{
-		"title": "Rocket.Chat 开源 Secure CommsOS 安全通信平台",
-		"url": "https://github.com/RocketChat/Rocket.Chat",
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T03:52:14Z",
+		"date": "2026-06-18T05:01:45Z",
 		"group": "gh"
 	},
 	{
-		"title": "字节跳动开源 UI-TARS-desktop 多模态 AI Agent 栈",
-		"url": "https://github.com/bytedance/UI-TARS-desktop",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T03:47:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "Continue 开源 coding agent",
-		"url": "https://github.com/continuedev/continue",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T03:13:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T00:44:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "asgeirtj 开源系统提示语提取项目 system_prompts_leaks",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T00:31:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "open-notebook 开源 Notebook LM 实现并扩展功能",
-		"url": "https://github.com/lfnovo/open-notebook",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T00:06:42Z",
-		"group": "gh"
+		"title": "Hugging Face 发布开源模型 agent 能力基准测试方法",
+		"url": "https://huggingface.co/blog/is-it-agentic-enough",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-18T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Obra 开源 Superpowers agentic skills 框架",
@@ -259,10 +266,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "pytest 发布新版测试框架",
-		"url": "https://github.com/pytest-dev/pytest",
+		"title": "LibreTranslate 发布开源机器翻译 API，支持自托管与离线部署",
+		"url": "https://github.com/LibreTranslate/LibreTranslate",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T14:56:58Z",
+		"date": "2026-06-17T15:01:29Z",
 		"group": "gh"
 	},
 	{
@@ -301,6 +308,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "NVIDIA 发布 XR AI",
+		"url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+		"source": "NVIDIA",
+		"date": "2026-06-17T02:48:28.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Google 发表 AMIE 医疗 AI 管理慢性病研究",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
 		"source": "Google AI",
@@ -312,6 +326,13 @@
 		"url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-17T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 Coherent Texas AI Optical 光学互连方案",
+		"url": "https://blogs.nvidia.com/blog/coherent-texas-ai-optical/",
+		"source": "NVIDIA",
+		"date": "2026-06-16T23:15:27.000Z",
 		"group": "labs"
 	},
 	{
@@ -329,25 +350,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
-		"url": "https://github.com/apple/container",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T21:14:00Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 Blackwell 在 MLPerf Training 6.0 中的训练基准成绩",
 		"url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
 		"source": "NVIDIA",
 		"date": "2026-06-16T20:34:02.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "yairm210 发布 Unciv 开源文明 5 复刻版",
-		"url": "https://github.com/yairm210/Unciv",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T20:11:40Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 与 HPE 合作推出 AI Factory Agentic Enterprise",
@@ -621,13 +628,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-06-08T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "rlm 开源递归语言模型推理库",
-		"url": "https://github.com/alexzhang13/rlm",
-		"source": "GitHub Trending",
-		"date": "2026-06-06T20:18:53Z",
-		"group": "gh"
 	},
 	{
 		"title": "phuryn 开源 PM Skills Marketplace，含 100+ agentic skills",
@@ -1307,6 +1307,13 @@
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "阿里巴巴开源轻量级向量数据库 ZVec",
+		"url": "https://github.com/alibaba/zvec",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T14:58:49Z",
+		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 在 TRL 中推出 Delta Weight Sync 支持万亿参数模型",
@@ -1995,6 +2002,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Lightricks 发布 LTX-2 视频生成模型官方 Python 推理与 LoRA 训练包",
+		"url": "https://github.com/Lightricks/LTX-2",
+		"source": "GitHub Trending",
+		"date": "2026-05-11T13:16:39Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 推出面向金融服务的 Agent 方案",
 		"url": "https://www.anthropic.com/news/finance-agents",
 		"source": "Anthropic News",
@@ -2014,13 +2028,6 @@
 		"source": "DeepMind",
 		"date": "2026-05-07T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "OpenMontage 开源首个 Agentic 视频生产系统",
-		"url": "https://github.com/calesthio/OpenMontage",
-		"source": "GitHub Trending",
-		"date": "2026-05-07T12:12:36Z",
-		"group": "gh"
 	},
 	{
 		"title": "vLLM 发布 V1 版本，强化 RL 训练正确性",
@@ -2198,13 +2205,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 发布 Nemotron 3 Nano Omni 多模态模型",
-		"url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-28T15:58:57.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 分享基础设施噪声管理经验",
 		"url": "https://www.anthropic.com/engineering/infrastructure-noise",
 		"source": "Anthropic Engineering",
@@ -2259,13 +2259,6 @@
 		"source": "NVIDIA",
 		"date": "2026-04-21T10:26:32.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "krahets 开源《Hello 算法》动画图解与多语言编程教程",
-		"url": "https://github.com/krahets/hello-algo",
-		"source": "GitHub Trending",
-		"date": "2026-04-18T18:23:33Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic Labs 发布 Claude Design 设计工具",
