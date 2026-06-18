@@ -1,51 +1,128 @@
 [
 	{
-		"title": "AgentView 开源本地优先的编程 agent 会话分析工具",
-		"url": "https://github.com/kenn-io/agentsview",
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T14:53:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kilo 开源全能 agent 工程平台",
-		"url": "https://github.com/Kilo-Org/kilocode",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T14:42:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T14:29:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T14:28:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T14:17:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T14:17:21Z",
+		"date": "2026-06-18T20:16:57Z",
 		"group": "gh"
 	},
 	{
 		"title": "iptv-org 开源全球 IPTV 频道集合",
 		"url": "https://github.com/iptv-org/iptv",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T14:08:27Z",
+		"date": "2026-06-18T20:14:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T20:14:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Biome 发布 web 项目工具链，提供格式化与 lint 功能",
+		"url": "https://github.com/biomejs/biome",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T20:09:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T20:04:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kilo 开源全能 agent 工程平台",
+		"url": "https://github.com/Kilo-Org/kilocode",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T20:04:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T19:52:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T19:41:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T19:19:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T19:05:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 开源 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T18:49:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
+		"url": "https://github.com/apple/container",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T18:45:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "微软开源 ASP.NET Core 跨平台框架",
+		"url": "https://github.com/dotnet/aspnetcore",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T18:23:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "AgentView 开源本地优先的编程 agent 会话分析工具",
+		"url": "https://github.com/kenn-io/agentsview",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T18:18:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 发布 MosaicLeaks 研究：Agent 能否守住秘密",
+		"url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-18T18:13:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T18:00:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
+		"url": "https://github.com/puppeteer/puppeteer",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T17:22:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "Jenkins 更新自动化服务器",
+		"url": "https://github.com/jenkinsci/jenkins",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T17:10:07Z",
 		"group": "gh"
 	},
 	{
@@ -63,31 +140,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
-		"url": "https://github.com/apple/container",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T13:53:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
-		"url": "https://github.com/puppeteer/puppeteer",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T13:43:58Z",
-		"group": "gh"
-	},
-	{
 		"title": "open-notebook 开源 Notebook LM 实现并扩展功能",
 		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
 		"date": "2026-06-18T13:26:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T12:55:55Z",
 		"group": "gh"
 	},
 	{
@@ -105,24 +161,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Jenkins 更新自动化服务器",
-		"url": "https://github.com/jenkinsci/jenkins",
+		"title": "智谱 AI 发布 GLM-5 大模型",
+		"url": "https://github.com/zai-org/GLM-5",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T11:23:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T10:52:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "微软开源 ASP.NET Core 跨平台框架",
-		"url": "https://github.com/dotnet/aspnetcore",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T10:30:15Z",
+		"date": "2026-06-18T09:18:21Z",
 		"group": "gh"
 	},
 	{
@@ -140,11 +182,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "withastro 开源 Flue 沙箱 agent 框架",
-		"url": "https://github.com/withastro/flue",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T05:01:45Z",
-		"group": "gh"
+		"title": "Anthropic 发布 Project Fetch 第二阶段",
+		"url": "https://www.anthropic.com/research/project-fetch-phase-two",
+		"source": "Anthropic Research",
+		"date": "2026-06-18T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Hugging Face 发布开源模型 agent 能力基准测试方法",
@@ -154,11 +196,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "Obra 开源 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T20:58:54Z",
-		"group": "gh"
+		"title": "Hugging Face 探讨 LoRA 之外的微调方法",
+		"url": "https://huggingface.co/blog/peft-beyond-lora",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-18T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布 Mythos 模型预览",
@@ -294,6 +336,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 用推理模型辅助诊断罕见儿童遗传病",
+		"url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+		"source": "OpenAI",
+		"date": "2026-06-17T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 LifeSciBench 生命科学 AI 评测基准",
 		"url": "https://openai.com/index/introducing-life-sci-bench",
 		"source": "OpenAI",
@@ -371,17 +420,24 @@
 		"group": "labs"
 	},
 	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T00:13:14Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
 		"url": "https://www.anthropic.com/research/claude-code-expertise",
 		"source": "Anthropic Research",
 		"date": "2026-06-16T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 在 Grok Build 中推出 Agent Dashboard",
+		"url": "https://x.ai/news/agent-dashboard",
+		"source": "xAI",
+		"date": "2026-06-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 集成到 Warp 终端",
+		"url": "https://x.ai/news/grok-warp",
+		"source": "xAI",
+		"date": "2026-06-15T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -938,13 +994,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 为 Codex 推出覆盖多角色的插件与注解功能",
-		"url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-		"source": "OpenAI",
-		"date": "2026-06-01T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 在 Computex 发布 RTX AI Garage 本地 Agent 方案",
 		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
 		"source": "NVIDIA",
@@ -1037,6 +1086,13 @@
 	},
 	{
 		"title": "Mistral 发布 Search Toolkit",
+		"url": "https://mistral.ai/news/search-toolkit/",
+		"source": "Mistral",
+		"date": "2026-05-28T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Mistral 发布 Search Toolkit",
 		"url": "https://mistral.ai/news/search-toolkit",
 		"source": "Mistral",
 		"date": "2026-05-28T00:00:00.000Z",
@@ -1047,6 +1103,13 @@
 		"url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
 		"source": "NVIDIA",
 		"date": "2026-05-27T17:00:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 更新模型规范新增青少年保护条款",
+		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1094,13 +1157,6 @@
 	{
 		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
 		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 更新模型规范新增青少年保护条款",
-		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -1344,6 +1400,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Mistral 发布物理 AI 研究进展",
+		"url": "https://mistral.ai/news/physics-ai-research/",
+		"source": "Mistral",
+		"date": "2026-05-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 推出独立研究 AI 对齐项目",
 		"url": "https://openai.com/index/advancing-independent-research-ai-alignment/",
 		"source": "OpenAI",
@@ -1498,6 +1561,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 公布模型规范制定方法",
+		"url": "https://openai.com/index/our-approach-to-the-model-spec/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-5，降低蛋白质合成计算成本",
+		"url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 加速湿实验室生物学研究",
 		"url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
 		"source": "OpenAI",
@@ -1582,13 +1659,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5，降低蛋白质合成计算成本",
-		"url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT Rosalind",
 		"url": "https://openai.com/index/introducing-gpt-rosalind/",
 		"source": "OpenAI",
@@ -1640,13 +1710,6 @@
 	{
 		"title": "OpenAI 发布大模型幻觉原因研究报告",
 		"url": "https://openai.com/index/why-language-models-hallucinate/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 公布模型规范制定方法",
-		"url": "https://openai.com/index/our-approach-to-the-model-spec/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2163,24 +2226,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "IBM 发布 Granite 4.1 语言模型",
-		"url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-29T15:01:48.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 在 GTC 2026 展示 RTX AI Garage 项目 Nemoclaw",
 		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-gtc-2026-nemoclaw/",
 		"source": "NVIDIA",
 		"date": "2026-04-29T00:18:09.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepInfra 加入 Hugging Face Inference Providers",
-		"url": "https://huggingface.co/blog/inference-providers-deepinfra",
-		"source": "Hugging Face Blog",
-		"date": "2026-04-29T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2482,62 +2531,6 @@
 		"url": "https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/",
 		"source": "NVIDIA",
 		"date": "2026-03-23T20:21:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 India AI Mission 基础设施模型",
-		"url": "https://blogs.nvidia.com/blog/india-ai-mission-infrastructure-models/",
-		"source": "NVIDIA",
-		"date": "2026-03-20T18:52:17.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 更新 Lilly Ai Factory Live",
-		"url": "https://blogs.nvidia.com/blog/lilly-ai-factory-live/",
-		"source": "NVIDIA",
-		"date": "2026-03-20T18:50:56.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 MLPerf 训练基准测试结果",
-		"url": "https://blogs.nvidia.com/blog/mlperf-training-benchmarks/",
-		"source": "NVIDIA",
-		"date": "2026-03-20T18:49:51.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 MLPerf 训练榜单中展示 AI 训练扩展能力",
-		"url": "https://blogs.nvidia.com/blog/scaling-ai-training-mlperf/",
-		"source": "NVIDIA",
-		"date": "2026-03-20T18:49:25.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 MLPerf Training Blackwell 基准测试结果",
-		"url": "https://blogs.nvidia.com/blog/mlperf-training-blackwell/",
-		"source": "NVIDIA",
-		"date": "2026-03-20T18:48:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 公布 Blackwell 在 MLPerf 训练中的性能表现",
-		"url": "https://blogs.nvidia.com/blog/blackwell-performance-mlperf-training/",
-		"source": "NVIDIA",
-		"date": "2026-03-20T18:47:27.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 MLPerf Training 基准测试中提交 Blackwell Ultra 成绩",
-		"url": "https://blogs.nvidia.com/blog/mlperf-training-benchmark-blackwell-ultra/",
-		"source": "NVIDIA",
-		"date": "2026-03-20T18:47:07.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Build Robots With Ai 机器人开发方案",
-		"url": "https://blogs.nvidia.com/blog/build-robots-with-ai/",
-		"source": "NVIDIA",
-		"date": "2026-03-20T18:05:30.000Z",
 		"group": "labs"
 	}
 ]
