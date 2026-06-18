@@ -1,65 +1,128 @@
 [
 	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
+		"title": "Penpot 开源设计协作工具",
+		"url": "https://github.com/penpot/penpot",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T02:41:44Z",
+		"date": "2026-06-18T10:06:15Z",
 		"group": "gh"
 	},
 	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T02:32:16Z",
+		"date": "2026-06-18T10:05:54Z",
 		"group": "gh"
 	},
 	{
 		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
 		"url": "https://github.com/refactoringhq/tolaria",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T02:31:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "nautechsystems 开源生产级 Rust 原生交易引擎 Nautilus Trader",
-		"url": "https://github.com/nautechsystems/nautilus_trader",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T02:26:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "Rocket.Chat 开源 Secure CommsOS 安全通信平台",
-		"url": "https://github.com/RocketChat/Rocket.Chat",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T02:20:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T01:46:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T01:38:30Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T01:14:45Z",
+		"date": "2026-06-18T10:04:26Z",
 		"group": "gh"
 	},
 	{
 		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
 		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T01:14:41Z",
+		"date": "2026-06-18T10:02:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T09:58:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "nautechsystems 开源生产级 Rust 原生交易引擎 Nautilus Trader",
+		"url": "https://github.com/nautechsystems/nautilus_trader",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T09:56:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T09:38:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T09:38:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
+		"url": "https://github.com/puppeteer/puppeteer",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T09:33:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T09:12:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "makeplane/plane 开源项目管理平台",
+		"url": "https://github.com/makeplane/plane",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T08:50:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "mattpocock 开源真实工程师用的 Claude skill 目录",
+		"url": "https://github.com/mattpocock/skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T08:41:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T08:25:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T06:29:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "Universal-Debloater-Alliance 开源跨平台 Android 去臃肿工具",
+		"url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T06:01:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Rocket.Chat 开源 Secure CommsOS 安全通信平台",
+		"url": "https://github.com/RocketChat/Rocket.Chat",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T03:52:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "字节跳动开源 UI-TARS-desktop 多模态 AI Agent 栈",
+		"url": "https://github.com/bytedance/UI-TARS-desktop",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T03:47:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Continue 开源 coding agent",
+		"url": "https://github.com/continuedev/continue",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T03:13:52Z",
 		"group": "gh"
 	},
 	{
@@ -84,45 +147,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T23:28:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "mattpocock 开源真实工程师用的 Claude skill 目录",
-		"url": "https://github.com/mattpocock/skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T22:07:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "Penpot 开源设计协作工具",
-		"url": "https://github.com/penpot/penpot",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T21:46:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "Continue 开源 coding agent",
-		"url": "https://github.com/continuedev/continue",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T21:40:08Z",
-		"group": "gh"
-	},
-	{
 		"title": "Obra 开源 Superpowers agentic skills 框架",
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
 		"date": "2026-06-17T20:58:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "Universal-Debloater-Alliance 开源跨平台 Android 去臃肿工具",
-		"url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T18:55:23Z",
 		"group": "gh"
 	},
 	{
@@ -224,13 +252,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T15:39:57Z",
-		"group": "gh"
-	},
-	{
 		"title": "Allen AI 发布 MolmoMotion 语言引导 3D 运动预测模型",
 		"url": "https://huggingface.co/blog/allenai/molmomotion",
 		"source": "Hugging Face Blog",
@@ -249,20 +270,6 @@
 		"url": "https://github.com/google-research/timesfm",
 		"source": "GitHub Trending",
 		"date": "2026-06-17T13:11:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "makeplane/plane 开源项目管理平台",
-		"url": "https://github.com/makeplane/plane",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T12:30:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
-		"url": "https://github.com/puppeteer/puppeteer",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T11:09:19Z",
 		"group": "gh"
 	},
 	{
@@ -1302,13 +1309,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Mistral 发布 Physics AI 工程加速基础模型",
-		"url": "https://mistral.ai/news/introducing-physics-ai-at-mistral",
-		"source": "Mistral",
-		"date": "2026-05-27T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Hugging Face 在 TRL 中推出 Delta Weight Sync 支持万亿参数模型",
 		"url": "https://huggingface.co/blog/delta-weight-sync",
 		"source": "Hugging Face Blog",
@@ -1316,8 +1316,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "Mistral 公布物理学 AI 研究成果",
-		"url": "https://mistral.ai/news/physics-ai-research",
+		"title": "Mistral 发布物理 AI，加速工程计算",
+		"url": "https://mistral.ai/news/introducing-physics-ai-at-mistral/",
 		"source": "Mistral",
 		"date": "2026-05-27T00:00:00.000Z",
 		"group": "labs"
@@ -1379,15 +1379,15 @@
 		"group": "gh"
 	},
 	{
-		"title": "Mistral 在 Vibe 中推出远程 agent 功能，基于 Mistral Medium 3.5",
-		"url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+		"title": "Mistral 发布 Mistral Medium 3.5",
+		"url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
 		"source": "Mistral",
 		"date": "2026-05-22T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "Mistral 在 Studio 中内置 MCP 并支持自定义 MCP",
-		"url": "https://mistral.ai/news/connectors",
+		"title": "Mistral 在 Studio 中内置 MCP 支持并开放自定义 MCP",
+		"url": "https://mistral.ai/news/connectors/",
 		"source": "Mistral",
 		"date": "2026-05-22T00:00:00.000Z",
 		"group": "labs"
@@ -1817,13 +1817,6 @@
 		"url": "https://github.com/Panniantong/Agent-Reach",
 		"source": "GitHub Trending",
 		"date": "2026-05-18T12:39:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "字节跳动开源 UI-TARS-desktop 多模态 AI Agent 栈",
-		"url": "https://github.com/bytedance/UI-TARS-desktop",
-		"source": "GitHub Trending",
-		"date": "2026-05-18T02:55:49Z",
 		"group": "gh"
 	},
 	{
