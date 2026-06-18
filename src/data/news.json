@@ -1,72 +1,121 @@
 [
 	{
-		"title": "Music Assistant 开源媒体库管理器服务器",
-		"url": "https://github.com/music-assistant/server",
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T20:03:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T20:01:03Z",
+		"date": "2026-06-18T02:41:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "Mattermost 开源安全协作平台",
 		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T19:58:47Z",
+		"date": "2026-06-18T02:32:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T02:31:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "nautechsystems 开源生产级 Rust 原生交易引擎 Nautilus Trader",
+		"url": "https://github.com/nautechsystems/nautilus_trader",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T02:26:28Z",
 		"group": "gh"
 	},
 	{
 		"title": "Rocket.Chat 开源 Secure CommsOS 安全通信平台",
 		"url": "https://github.com/RocketChat/Rocket.Chat",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T19:58:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T19:49:46Z",
+		"date": "2026-06-18T02:20:07Z",
 		"group": "gh"
 	},
 	{
 		"title": "freeCodeCamp 更新开源编程课程与代码库",
 		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T19:46:40Z",
+		"date": "2026-06-18T01:46:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "Microsoft PowerToys 更新系统增强工具集合",
 		"url": "https://github.com/microsoft/PowerToys",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T19:43:12Z",
+		"date": "2026-06-18T01:38:30Z",
 		"group": "gh"
 	},
 	{
-		"title": "Penpot 开源设计协作工具",
-		"url": "https://github.com/penpot/penpot",
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T19:35:27Z",
+		"date": "2026-06-18T01:14:45Z",
 		"group": "gh"
 	},
 	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T19:23:39Z",
+		"date": "2026-06-18T01:14:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T00:44:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示语提取项目 system_prompts_leaks",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T00:31:15Z",
 		"group": "gh"
 	},
 	{
 		"title": "open-notebook 开源 Notebook LM 实现并扩展功能",
 		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
-		"date": "2026-06-17T19:08:11Z",
+		"date": "2026-06-18T00:06:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T23:28:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "mattpocock 开源真实工程师用的 Claude skill 目录",
+		"url": "https://github.com/mattpocock/skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T22:07:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计协作工具",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T21:46:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Continue 开源 coding agent",
+		"url": "https://github.com/continuedev/continue",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T21:40:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 开源 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T20:58:54Z",
 		"group": "gh"
 	},
 	{
@@ -91,10 +140,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布 Exploit 安全研究",
+		"url": "https://www.anthropic.com/research/exploit",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:50:37.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Zero Days 安全研究",
 		"url": "https://www.anthropic.com/research/zero-days",
 		"source": "Anthropic Research",
 		"date": "2026-06-17T16:50:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Property Based Testing 研究成果",
+		"url": "https://www.anthropic.com/research/property-based-testing",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:50:01.000Z",
 		"group": "labs"
 	},
 	{
@@ -109,6 +172,13 @@
 		"url": "https://www.anthropic.com/research/critical-infrastructure-defense",
 		"source": "Anthropic Research",
 		"date": "2026-06-17T16:49:31.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布智能合约研究",
+		"url": "https://www.anthropic.com/research/smart-contracts",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:49:21.000Z",
 		"group": "labs"
 	},
 	{
@@ -154,13 +224,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Continue 开源 coding agent",
-		"url": "https://github.com/continuedev/continue",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T16:03:39Z",
-		"group": "gh"
-	},
-	{
 		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
 		"url": "https://github.com/n0-computer/iroh",
 		"source": "GitHub Trending",
@@ -175,13 +238,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "nautechsystems 开源生产级 Rust 原生交易引擎 Nautilus Trader",
-		"url": "https://github.com/nautechsystems/nautilus_trader",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T15:04:14Z",
-		"group": "gh"
-	},
-	{
 		"title": "pytest 发布新版测试框架",
 		"url": "https://github.com/pytest-dev/pytest",
 		"source": "GitHub Trending",
@@ -189,31 +245,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "mattpocock 开源真实工程师用的 Claude skill 目录",
-		"url": "https://github.com/mattpocock/skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T14:46:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "RefactoringHQ 开源 Tolaria 桌面端 Markdown 知识库管理应用",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T14:35:31Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google Research 开源时间序列基础模型 TimesFM",
 		"url": "https://github.com/google-research/timesfm",
 		"source": "GitHub Trending",
 		"date": "2026-06-17T13:11:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T12:34:58Z",
 		"group": "gh"
 	},
 	{
@@ -238,6 +273,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
+		"url": "https://openai.com/index/introducing-life-sci-bench/",
+		"source": "OpenAI",
+		"date": "2026-06-17T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 LifeSciBench 生命科学 AI 评测基准",
+		"url": "https://openai.com/index/introducing-life-sci-bench",
+		"source": "OpenAI",
+		"date": "2026-06-17T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "智谱 AI 发布 GLM-5.2，面向长周期任务",
 		"url": "https://huggingface.co/blog/zai-org/glm-52-blog",
 		"source": "Hugging Face Blog",
@@ -245,38 +294,17 @@
 		"group": "labs"
 	},
 	{
-		"title": "Obra 开源 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T05:46:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "asgeirtj 开源系统提示语提取项目 system_prompts_leaks",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T01:58:39Z",
-		"group": "gh"
+		"title": "Google 发表 AMIE 医疗 AI 管理慢性病研究",
+		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+		"source": "Google AI",
+		"date": "2026-06-17T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Hugging Face 推出 Agentic Resource Discovery 资源发现机制",
 		"url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-17T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 XR AI 技术",
-		"url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
-		"source": "NVIDIA",
-		"date": "2026-06-16T22:33:33.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Coherent Texas AI Optical 方案",
-		"url": "https://blogs.nvidia.com/blog/coherent-texas-ai-optical/",
-		"source": "NVIDIA",
-		"date": "2026-06-16T22:32:34.000Z",
 		"group": "labs"
 	},
 	{
@@ -714,6 +742,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 推出 Partner Network 合作伙伴网络",
+		"url": "https://openai.com/index/introducing-openai-partner-network",
+		"source": "OpenAI",
+		"date": "2026-06-04T09:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Hugging Face 发布 hf CLI 的 agent 优化版本",
 		"url": "https://huggingface.co/blog/hf-cli-for-agents",
 		"source": "Hugging Face Blog",
@@ -1008,6 +1043,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5 Safe Completions",
+		"url": "https://openai.com/index/gpt-5-safe-completions/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布开放权重大模型最坏情况风险评估方法",
 		"url": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/",
 		"source": "OpenAI",
@@ -1017,13 +1059,6 @@
 	{
 		"title": "OpenAI 加速网络防御生态建设",
 		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 Safe Completions",
-		"url": "https://openai.com/index/gpt-5-safe-completions/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -2517,20 +2552,6 @@
 		"url": "https://blogs.nvidia.com/blog/build-robots-with-ai/",
 		"source": "NVIDIA",
 		"date": "2026-03-20T18:05:30.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发文探讨 AI 初创公司应对快餐业劳动力短缺",
-		"url": "https://blogs.nvidia.com/blog/ai-startup-fast-food-labor-crunch/",
-		"source": "NVIDIA",
-		"date": "2026-03-19T22:50:10.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 State of AI Report 2026",
-		"url": "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
-		"source": "NVIDIA",
-		"date": "2026-03-19T22:48:45.000Z",
 		"group": "labs"
 	}
 ]
