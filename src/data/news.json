@@ -1,30 +1,79 @@
 [
 	{
-		"title": "BuilderIO 开源 agent-native 框架",
-		"url": "https://github.com/BuilderIO/agent-native",
+		"title": "AgentView 开源本地优先的编程 agent 会话分析工具",
+		"url": "https://github.com/kenn-io/agentsview",
 		"source": "GitHub Trending",
-		"date": "2026-06-19T14:46:14Z",
+		"date": "2026-06-19T19:29:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Music Assistant 开源媒体库管理器服务器端",
+		"url": "https://github.com/music-assistant/server",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T19:05:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T18:46:04Z",
 		"group": "gh"
 	},
 	{
 		"title": "Meshery 发布云原生管理器",
 		"url": "https://github.com/meshery/meshery",
 		"source": "GitHub Trending",
-		"date": "2026-06-19T14:44:05Z",
+		"date": "2026-06-19T18:33:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cypress 发布浏览器测试工具更新",
+		"url": "https://github.com/cypress-io/cypress",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T18:16:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T18:14:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T17:48:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "BuilderIO 开源 agent-native 框架",
+		"url": "https://github.com/BuilderIO/agent-native",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T16:59:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T16:14:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T15:10:17Z",
 		"group": "gh"
 	},
 	{
 		"title": "freeCodeCamp 更新开源编程课程与代码库",
 		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
 		"source": "GitHub Trending",
-		"date": "2026-06-19T14:41:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "AgentView 开源本地优先的编程 agent 会话分析工具",
-		"url": "https://github.com/kenn-io/agentsview",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T14:33:30Z",
+		"date": "2026-06-19T14:53:38Z",
 		"group": "gh"
 	},
 	{
@@ -32,20 +81,6 @@
 		"url": "https://github.com/swc-project/swc",
 		"source": "GitHub Trending",
 		"date": "2026-06-19T13:33:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cypress 发布浏览器测试工具更新",
-		"url": "https://github.com/cypress-io/cypress",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T13:09:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T13:07:14Z",
 		"group": "gh"
 	},
 	{
@@ -84,27 +119,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T08:10:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T07:55:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "withastro 开源 Flue 沙箱 agent 框架",
-		"url": "https://github.com/withastro/flue",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T06:48:01Z",
-		"group": "gh"
-	},
-	{
 		"title": "WorldMonitor 开源实时全球情报仪表盘",
 		"url": "https://github.com/koala73/worldmonitor",
 		"source": "GitHub Trending",
@@ -116,13 +130,6 @@
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-19T03:51:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T00:48:10Z",
 		"group": "gh"
 	},
 	{
@@ -200,104 +207,6 @@
 		"url": "https://huggingface.co/blog/peft-beyond-lora",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-18T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Mythos 模型预览",
-		"url": "https://www.anthropic.com/research/mythos-preview",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:59:28.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 提出核保障式 AI 安全框架",
-		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:54:35.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Exploit 安全研究",
-		"url": "https://www.anthropic.com/research/exploit",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:50:37.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Zero Days 安全研究",
-		"url": "https://www.anthropic.com/research/zero-days",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:50:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Property Based Testing 研究成果",
-		"url": "https://www.anthropic.com/research/property-based-testing",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:50:01.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 更新网络工具包",
-		"url": "https://www.anthropic.com/research/cyber-toolkits-update",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:49:52.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布关键基础设施防御研究",
-		"url": "https://www.anthropic.com/research/critical-infrastructure-defense",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:49:31.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布智能合约研究",
-		"url": "https://www.anthropic.com/research/smart-contracts",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:49:21.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 与公共部门合作开发 AI 核安全措施",
-		"url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
-		"source": "Anthropic News",
-		"date": "2026-06-17T16:48:41.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Cyber Toolkits 安全工具集",
-		"url": "https://www.anthropic.com/research/cyber-toolkits",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:48:19.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 举办网络安全竞赛",
-		"url": "https://www.anthropic.com/research/cyber-competitions",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:48:02.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude 4 Cyber",
-		"url": "https://www.anthropic.com/research/claude-4-cyber",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:47:45.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布生物风险研究报告",
-		"url": "https://www.anthropic.com/research/biorisk",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:47:23.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 网络防御者研究",
-		"url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:46:57.000Z",
 		"group": "labs"
 	},
 	{
@@ -403,13 +312,6 @@
 		"url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
 		"source": "NVIDIA",
 		"date": "2026-06-16T16:30:27.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 安全核心观点",
-		"url": "https://www.anthropic.com/news/core-views-on-ai-safety",
-		"source": "Anthropic News",
-		"date": "2026-06-16T09:51:16.000Z",
 		"group": "labs"
 	},
 	{
@@ -1085,6 +987,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5 Safe Completions",
+		"url": "https://openai.com/index/gpt-5-safe-completions/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 更新 ChatGPT 敏感对话响应策略",
 		"url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
 		"source": "OpenAI",
@@ -1094,13 +1003,6 @@
 	{
 		"title": "OpenAI 更新模型规范新增青少年保护条款",
 		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 Safe Completions",
-		"url": "https://openai.com/index/gpt-5-safe-completions/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
