@@ -3,35 +3,98 @@
 		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
 		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T20:16:57Z",
+		"date": "2026-06-19T02:37:30Z",
 		"group": "gh"
 	},
 	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
+		"title": "Jenkins 更新自动化服务器",
+		"url": "https://github.com/jenkinsci/jenkins",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T20:14:36Z",
+		"date": "2026-06-19T02:31:10Z",
 		"group": "gh"
 	},
 	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
+		"title": "微软开源 ASP.NET Core 跨平台框架",
+		"url": "https://github.com/dotnet/aspnetcore",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T20:14:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Biome 发布 web 项目工具链，提供格式化与 lint 功能",
-		"url": "https://github.com/biomejs/biome",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T20:09:51Z",
+		"date": "2026-06-19T02:07:55Z",
 		"group": "gh"
 	},
 	{
 		"title": "Mattermost 开源安全协作平台",
 		"url": "https://github.com/mattermost/mattermost",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T20:04:22Z",
+		"date": "2026-06-19T01:35:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T01:21:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T01:20:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "AgentView 开源本地优先的编程 agent 会话分析工具",
+		"url": "https://github.com/kenn-io/agentsview",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T00:49:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T00:48:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T23:47:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T23:40:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 开源 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T22:45:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "Biome 发布 web 项目工具链，提供格式化与 lint 功能",
+		"url": "https://github.com/biomejs/biome",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T21:18:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T21:04:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T20:31:47Z",
 		"group": "gh"
 	},
 	{
@@ -42,38 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T19:52:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T19:41:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T19:19:06Z",
-		"group": "gh"
-	},
-	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-18T19:05:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Obra 开源 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T18:49:56Z",
 		"group": "gh"
 	},
 	{
@@ -84,32 +119,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "微软开源 ASP.NET Core 跨平台框架",
-		"url": "https://github.com/dotnet/aspnetcore",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T18:23:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "AgentView 开源本地优先的编程 agent 会话分析工具",
-		"url": "https://github.com/kenn-io/agentsview",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T18:18:05Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 发布 MosaicLeaks 研究：Agent 能否守住秘密",
 		"url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-18T18:13:13.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "withastro 开源 Flue 沙箱 agent 框架",
-		"url": "https://github.com/withastro/flue",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T18:00:19Z",
-		"group": "gh"
 	},
 	{
 		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
@@ -119,10 +133,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Jenkins 更新自动化服务器",
-		"url": "https://github.com/jenkinsci/jenkins",
+		"title": "Hyper-Extract 开源：LLM 将非结构化文本转为结构化知识",
+		"url": "https://github.com/yifanfeng97/Hyper-Extract",
 		"source": "GitHub Trending",
-		"date": "2026-06-18T17:10:07Z",
+		"date": "2026-06-18T15:37:54Z",
 		"group": "gh"
 	},
 	{
@@ -151,13 +165,6 @@
 		"url": "https://github.com/n0-computer/iroh",
 		"source": "GitHub Trending",
 		"date": "2026-06-18T12:11:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T11:52:01Z",
 		"group": "gh"
 	},
 	{
