@@ -1,9 +1,100 @@
 [
 	{
+		"title": "Kilo 开源全能 agent 工程平台",
+		"url": "https://github.com/Kilo-Org/kilocode",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T10:12:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "makeplane/plane 开源项目管理平台",
+		"url": "https://github.com/makeplane/plane",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T10:12:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T10:11:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
+		"url": "https://github.com/puppeteer/puppeteer",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T10:10:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "Mattermost 开源安全协作平台",
+		"url": "https://github.com/mattermost/mattermost",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T10:06:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "微软开源 ASP.NET Core 跨平台框架",
+		"url": "https://github.com/dotnet/aspnetcore",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T10:02:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Microsoft PowerToys 更新系统增强工具集合",
+		"url": "https://github.com/microsoft/PowerToys",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T09:54:40Z",
+		"group": "gh"
+	},
+	{
 		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
 		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-19T02:37:30Z",
+		"date": "2026-06-19T09:51:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "pytest 发布新版测试框架",
+		"url": "https://github.com/pytest-dev/pytest",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T09:44:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "Biome 发布 web 项目工具链，提供格式化与 lint 功能",
+		"url": "https://github.com/biomejs/biome",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T09:17:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T08:17:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T08:10:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T06:48:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T03:51:37Z",
 		"group": "gh"
 	},
 	{
@@ -11,27 +102,6 @@
 		"url": "https://github.com/jenkinsci/jenkins",
 		"source": "GitHub Trending",
 		"date": "2026-06-19T02:31:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "微软开源 ASP.NET Core 跨平台框架",
-		"url": "https://github.com/dotnet/aspnetcore",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T02:07:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Mattermost 开源安全协作平台",
-		"url": "https://github.com/mattermost/mattermost",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T01:35:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "Microsoft PowerToys 更新系统增强工具集合",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T01:21:57Z",
 		"group": "gh"
 	},
 	{
@@ -56,20 +126,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T23:47:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "withastro 开源 Flue 沙箱 agent 框架",
-		"url": "https://github.com/withastro/flue",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T23:40:55Z",
-		"group": "gh"
-	},
-	{
 		"title": "Obra 开源 Superpowers agentic skills 框架",
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
@@ -77,38 +133,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Biome 发布 web 项目工具链，提供格式化与 lint 功能",
-		"url": "https://github.com/biomejs/biome",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T21:18:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T21:04:41Z",
-		"group": "gh"
-	},
-	{
 		"title": "Kong 开源 Insomnia API 客户端",
 		"url": "https://github.com/Kong/insomnia",
 		"source": "GitHub Trending",
 		"date": "2026-06-18T20:31:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kilo 开源全能 agent 工程平台",
-		"url": "https://github.com/Kilo-Org/kilocode",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T20:04:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T19:05:55Z",
 		"group": "gh"
 	},
 	{
@@ -126,27 +154,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
-		"url": "https://github.com/puppeteer/puppeteer",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T17:22:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "Hyper-Extract 开源：LLM 将非结构化文本转为结构化知识",
-		"url": "https://github.com/yifanfeng97/Hyper-Extract",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T15:37:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "pytest 发布新版测试框架",
-		"url": "https://github.com/pytest-dev/pytest",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T14:06:25Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepMind 发布 AI Control Roadmap 保障 agent 安全",
 		"url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
 		"source": "DeepMind",
@@ -161,24 +168,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T12:11:18Z",
-		"group": "gh"
-	},
-	{
 		"title": "智谱 AI 发布 GLM-5 大模型",
 		"url": "https://github.com/zai-org/GLM-5",
 		"source": "GitHub Trending",
 		"date": "2026-06-18T09:18:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "makeplane/plane 开源项目管理平台",
-		"url": "https://github.com/makeplane/plane",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T08:50:38Z",
 		"group": "gh"
 	},
 	{
@@ -1932,6 +1925,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5.1",
+		"url": "https://openai.com/index/gpt-5-1/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT-5.4",
 		"url": "https://openai.com/index/introducing-gpt-5-4/",
 		"source": "OpenAI",
@@ -2018,13 +2018,6 @@
 	{
 		"title": "OpenAI 发布 Codex 正式版",
 		"url": "https://openai.com/index/codex-now-generally-available/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.1",
-		"url": "https://openai.com/index/gpt-5-1/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
