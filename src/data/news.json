@@ -1,16 +1,65 @@
 [
 	{
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T02:31:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T02:30:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T02:22:19Z",
+		"group": "gh"
+	},
+	{
 		"title": "AgentView 开源本地优先的编程 agent 会话分析工具",
 		"url": "https://github.com/kenn-io/agentsview",
 		"source": "GitHub Trending",
-		"date": "2026-06-19T19:29:01Z",
+		"date": "2026-06-20T01:42:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cypress 发布浏览器测试工具更新",
+		"url": "https://github.com/cypress-io/cypress",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T01:31:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T01:03:31Z",
 		"group": "gh"
 	},
 	{
 		"title": "Music Assistant 开源媒体库管理器服务器端",
 		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-19T19:05:18Z",
+		"date": "2026-06-20T00:37:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T00:26:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "BuilderIO 开源 agent-native 框架",
+		"url": "https://github.com/BuilderIO/agent-native",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T19:52:02Z",
 		"group": "gh"
 	},
 	{
@@ -18,20 +67,6 @@
 		"url": "https://github.com/n0-computer/iroh",
 		"source": "GitHub Trending",
 		"date": "2026-06-19T18:46:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T18:33:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cypress 发布浏览器测试工具更新",
-		"url": "https://github.com/cypress-io/cypress",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T18:16:29Z",
 		"group": "gh"
 	},
 	{
@@ -46,27 +81,6 @@
 		"url": "https://github.com/withastro/flue",
 		"source": "GitHub Trending",
 		"date": "2026-06-19T17:48:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "BuilderIO 开源 agent-native 框架",
-		"url": "https://github.com/BuilderIO/agent-native",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T16:59:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T16:14:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T15:10:17Z",
 		"group": "gh"
 	},
 	{
@@ -98,13 +112,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T11:10:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "pytest 发布新版测试框架",
 		"url": "https://github.com/pytest-dev/pytest",
 		"source": "GitHub Trending",
@@ -130,13 +137,6 @@
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-19T03:51:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T00:34:53Z",
 		"group": "gh"
 	},
 	{
@@ -207,6 +207,90 @@
 		"url": "https://huggingface.co/blog/peft-beyond-lora",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-18T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 提出 AI 核安全保障框架",
+		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:54:35.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Exploit 研究成果",
+		"url": "https://www.anthropic.com/research/exploit",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:50:37.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Zero Days 安全研究",
+		"url": "https://www.anthropic.com/research/zero-days",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:50:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 更新网络工具包",
+		"url": "https://www.anthropic.com/research/cyber-toolkits-update",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:49:52.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发表关键基础设施防御研究",
+		"url": "https://www.anthropic.com/research/critical-infrastructure-defense",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:49:31.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布智能合约研究",
+		"url": "https://www.anthropic.com/research/smart-contracts",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:49:21.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与公共部门合作开发 AI 核安全措施",
+		"url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+		"source": "Anthropic News",
+		"date": "2026-06-17T16:48:41.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布网络工具包安全研究",
+		"url": "https://www.anthropic.com/research/cyber-toolkits",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:48:19.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 举办网络安全竞赛",
+		"url": "https://www.anthropic.com/research/cyber-competitions",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:48:02.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 4 Cyber",
+		"url": "https://www.anthropic.com/research/claude-4-cyber",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:47:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Biorisk 生物风险研究",
+		"url": "https://www.anthropic.com/research/biorisk",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:47:23.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 网络防御者研究",
+		"url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:46:57.000Z",
 		"group": "labs"
 	},
 	{
@@ -315,6 +399,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布 AI 安全核心观点",
+		"url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+		"source": "Anthropic News",
+		"date": "2026-06-16T09:51:16.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
 		"url": "https://www.anthropic.com/research/claude-code-expertise",
 		"source": "Anthropic Research",
@@ -389,6 +480,13 @@
 		"url": "https://blogs.nvidia.com/blog/iaa-mobility-ai-defined-vehicles/",
 		"source": "NVIDIA",
 		"date": "2026-06-12T17:32:32.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 应美国政府指令暂停 Fable 5 和 Mythos 5 访问",
+		"url": "https://www.anthropic.com/news/fable-mythos-access",
+		"source": "Anthropic News",
+		"date": "2026-06-12T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
