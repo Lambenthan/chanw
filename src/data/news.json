@@ -1,23 +1,72 @@
 [
 	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
+		"title": "Music Assistant 开源媒体库管理器服务器端",
+		"url": "https://github.com/music-assistant/server",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T02:31:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T02:30:45Z",
+		"date": "2026-06-20T08:20:33Z",
 		"group": "gh"
 	},
 	{
 		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
 		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T02:22:19Z",
+		"date": "2026-06-20T08:12:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
+		"url": "https://github.com/puppeteer/puppeteer",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T07:22:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T07:18:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "WorldMonitor 开源实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T07:03:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "SWC 开源 Rust 编写的 Web 平台",
+		"url": "https://github.com/swc-project/swc",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T07:02:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T06:25:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T05:42:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "智谱 AI 发布 GLM-5 大模型",
+		"url": "https://github.com/zai-org/GLM-5",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T04:22:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google Research 开源时间序列基础模型 TimesFM",
+		"url": "https://github.com/google-research/timesfm",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T04:13:37Z",
 		"group": "gh"
 	},
 	{
@@ -39,13 +88,6 @@
 		"url": "https://github.com/iptv-org/iptv",
 		"source": "GitHub Trending",
 		"date": "2026-06-20T01:03:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "Music Assistant 开源媒体库管理器服务器端",
-		"url": "https://github.com/music-assistant/server",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T00:37:56Z",
 		"group": "gh"
 	},
 	{
@@ -91,13 +133,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "SWC 开源 Rust 编写的 Web 平台",
-		"url": "https://github.com/swc-project/swc",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T13:33:11Z",
-		"group": "gh"
-	},
-	{
 		"title": "Penpot 开源设计与代码协作工具",
 		"url": "https://github.com/penpot/penpot",
 		"source": "GitHub Trending",
@@ -105,31 +140,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
-		"url": "https://github.com/DeusData/codebase-memory-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T11:56:17Z",
-		"group": "gh"
-	},
-	{
 		"title": "pytest 发布新版测试框架",
 		"url": "https://github.com/pytest-dev/pytest",
 		"source": "GitHub Trending",
 		"date": "2026-06-19T11:05:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
-		"url": "https://github.com/puppeteer/puppeteer",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T10:10:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "WorldMonitor 开源实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T06:40:13Z",
 		"group": "gh"
 	},
 	{
@@ -182,13 +196,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "智谱 AI 发布 GLM-5 大模型",
-		"url": "https://github.com/zai-org/GLM-5",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T09:18:21Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 发布 Project Fetch 第二阶段",
 		"url": "https://www.anthropic.com/research/project-fetch-phase-two",
 		"source": "Anthropic Research",
@@ -210,6 +217,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布 Mythos 预览",
+		"url": "https://www.anthropic.com/research/mythos-preview",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:59:28.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 提出 AI 核安全保障框架",
 		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
 		"source": "Anthropic Research",
@@ -228,6 +242,13 @@
 		"url": "https://www.anthropic.com/research/zero-days",
 		"source": "Anthropic Research",
 		"date": "2026-06-17T16:50:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Property Based Testing 研究",
+		"url": "https://www.anthropic.com/research/property-based-testing",
+		"source": "Anthropic Research",
+		"date": "2026-06-17T16:50:01.000Z",
 		"group": "labs"
 	},
 	{
@@ -299,13 +320,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-17T15:26:44.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Google Research 开源时间序列基础模型 TimesFM",
-		"url": "https://github.com/google-research/timesfm",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T13:11:09Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 联合亚马逊推出 Strands Agents 实现从 Hub 到机器人硬件的部署",
