@@ -1,23 +1,65 @@
 [
 	{
-		"title": "Music Assistant 开源媒体库管理器服务器端",
-		"url": "https://github.com/music-assistant/server",
+		"title": "Turso 开源嵌入式 SQL 数据库，兼容 SQLite",
+		"url": "https://github.com/tursodatabase/turso",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T08:20:33Z",
+		"date": "2026-06-20T13:18:37Z",
 		"group": "gh"
 	},
 	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
+		"title": "Twenty 开源面向 AI 设计的 Salesforce 替代方案",
+		"url": "https://github.com/twentyhq/twenty",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T08:12:27Z",
+		"date": "2026-06-20T13:06:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kilo-Org 开源 KiloCode agent 工程平台",
+		"url": "https://github.com/Kilo-Org/kilocode",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T12:38:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "Plane 发布开源项目管理平台",
+		"url": "https://github.com/makeplane/plane",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T12:06:40Z",
 		"group": "gh"
 	},
 	{
 		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
 		"url": "https://github.com/puppeteer/puppeteer",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T07:22:55Z",
+		"date": "2026-06-20T11:48:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T11:44:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T11:33:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google Research 开源时间序列基础模型 TimesFM",
+		"url": "https://github.com/google-research/timesfm",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T10:51:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T10:31:19Z",
 		"group": "gh"
 	},
 	{
@@ -28,13 +70,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "WorldMonitor 开源实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T07:03:40Z",
-		"group": "gh"
-	},
-	{
 		"title": "SWC 开源 Rust 编写的 Web 平台",
 		"url": "https://github.com/swc-project/swc",
 		"source": "GitHub Trending",
@@ -42,45 +77,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T06:25:50Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
 		"url": "https://github.com/DeusData/codebase-memory-mcp",
 		"source": "GitHub Trending",
 		"date": "2026-06-20T05:42:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "智谱 AI 发布 GLM-5 大模型",
-		"url": "https://github.com/zai-org/GLM-5",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T04:22:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google Research 开源时间序列基础模型 TimesFM",
-		"url": "https://github.com/google-research/timesfm",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T04:13:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "AgentView 开源本地优先的编程 agent 会话分析工具",
-		"url": "https://github.com/kenn-io/agentsview",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T01:42:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cypress 发布浏览器测试工具更新",
-		"url": "https://github.com/cypress-io/cypress",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T01:31:25Z",
 		"group": "gh"
 	},
 	{
@@ -95,20 +95,6 @@
 		"url": "https://github.com/asgeirtj/system_prompts_leaks",
 		"source": "GitHub Trending",
 		"date": "2026-06-20T00:26:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "BuilderIO 开源 agent-native 框架",
-		"url": "https://github.com/BuilderIO/agent-native",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T19:52:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T18:46:04Z",
 		"group": "gh"
 	},
 	{
@@ -154,24 +140,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Obra 开源 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T22:45:11Z",
-		"group": "gh"
-	},
-	{
 		"title": "Kong 开源 Insomnia API 客户端",
 		"url": "https://github.com/Kong/insomnia",
 		"source": "GitHub Trending",
 		"date": "2026-06-18T20:31:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "Apple 发布 container 工具，用于在 Mac 上运行 Linux 容器",
-		"url": "https://github.com/apple/container",
-		"source": "GitHub Trending",
-		"date": "2026-06-18T18:45:25Z",
 		"group": "gh"
 	},
 	{
@@ -193,6 +165,20 @@
 		"url": "https://github.com/lfnovo/open-notebook",
 		"source": "GitHub Trending",
 		"date": "2026-06-18T13:26:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "mattpocock 开源其个人 Claude Skills 集合",
+		"url": "https://github.com/mattpocock/skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T08:41:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Pake 开源：一条命令将任意网页转为桌面应用",
+		"url": "https://github.com/tw93/Pake",
+		"source": "GitHub Trending",
+		"date": "2026-06-18T03:02:27Z",
 		"group": "gh"
 	},
 	{
@@ -530,6 +516,13 @@
 		"source": "DeepMind",
 		"date": "2026-06-11T12:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "pppscn 开源 SmsForwarder 短信转发器",
+		"url": "https://github.com/pppscn/SmsForwarder",
+		"source": "GitHub Trending",
+		"date": "2026-06-11T02:33:21Z",
+		"group": "gh"
 	},
 	{
 		"title": "xAI 为 Grok Build 推出插件市场",
@@ -1533,13 +1526,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "aishwaryanr 开源 Awesome Generative AI Guide 资源库",
-		"url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
-		"source": "GitHub Trending",
-		"date": "2026-05-19T21:20:54Z",
-		"group": "gh"
-	},
-	{
 		"title": "Allen AI 发布 OlmoEarth v1.1 地球观测模型系列",
 		"url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
 		"source": "Hugging Face Blog",
@@ -1897,6 +1883,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "owainlewis 更新 Awesome Artificial Intelligence 学习资源列表",
+		"url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+		"source": "GitHub Trending",
+		"date": "2026-05-17T21:15:30Z",
+		"group": "gh"
+	},
+	{
 		"title": "xAI 将 Grok 接入 Nous Research 的 Hermes Agent",
 		"url": "https://x.ai/news/grok-hermes",
 		"source": "xAI",
@@ -2049,13 +2042,6 @@
 		"source": "OpenAI",
 		"date": "2026-05-11T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Lightricks 发布 LTX-2 视频生成模型官方 Python 推理与 LoRA 训练包",
-		"url": "https://github.com/Lightricks/LTX-2",
-		"source": "GitHub Trending",
-		"date": "2026-05-11T13:16:39Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 推出面向金融服务的 Agent 方案",
@@ -2245,6 +2231,13 @@
 		"source": "Anthropic Research",
 		"date": "2026-04-28T16:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Jamiepine 开源 VoiceBox AI 语音工作室",
+		"url": "https://github.com/jamiepine/voicebox",
+		"source": "GitHub Trending",
+		"date": "2026-04-26T20:29:17Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 分享基础设施噪声管理经验",
