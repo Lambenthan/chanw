@@ -1,30 +1,72 @@
 [
 	{
-		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
-		"url": "https://github.com/bytedance/deer-flow",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T13:44:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T12:08:10Z",
-		"group": "gh"
-	},
-	{
 		"title": "Cognee 开源 AI 记忆平台，为 agent 提供持久知识图谱",
 		"url": "https://github.com/topoteretes/cognee",
 		"source": "GitHub Trending",
-		"date": "2026-06-21T11:22:53Z",
+		"date": "2026-06-21T19:16:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "Meshery 发布云原生管理器",
+		"url": "https://github.com/meshery/meshery",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T19:11:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T19:08:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T19:08:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "mikumifa 开源 biliTickerBuy B站会员购购票辅助工具",
+		"url": "https://github.com/mikumifa/biliTickerBuy",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T17:44:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T15:52:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T15:50:25Z",
 		"group": "gh"
 	},
 	{
 		"title": "SWC 开源 Rust 编写的 Web 平台",
 		"url": "https://github.com/swc-project/swc",
 		"source": "GitHub Trending",
-		"date": "2026-06-21T11:01:37Z",
+		"date": "2026-06-21T14:53:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T14:30:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
+		"url": "https://github.com/bytedance/deer-flow",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T14:30:36Z",
 		"group": "gh"
 	},
 	{
@@ -35,17 +77,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Meshery 发布云原生管理器",
-		"url": "https://github.com/meshery/meshery",
+		"title": "Pake 开源：一条命令将任意网页转为桌面应用",
+		"url": "https://github.com/tw93/Pake",
 		"source": "GitHub Trending",
-		"date": "2026-06-21T10:57:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T09:22:47Z",
+		"date": "2026-06-21T10:09:38Z",
 		"group": "gh"
 	},
 	{
@@ -53,20 +88,6 @@
 		"url": "https://github.com/withastro/flue",
 		"source": "GitHub Trending",
 		"date": "2026-06-21T06:40:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T04:30:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T00:20:14Z",
 		"group": "gh"
 	},
 	{
@@ -81,13 +102,6 @@
 		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
 		"date": "2026-06-20T21:47:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T21:03:35Z",
 		"group": "gh"
 	},
 	{
@@ -1027,6 +1041,13 @@
 		"source": "NVIDIA",
 		"date": "2026-05-28T13:00:51.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "ZhuLinsen 开源 LLM 驱动多市场股票智能分析系统",
+		"url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:48:52Z",
+		"group": "gh"
 	},
 	{
 		"title": "chopratejas 开源 headroom LLM 输入压缩工具",
