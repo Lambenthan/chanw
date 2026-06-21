@@ -1,37 +1,93 @@
 [
 	{
-		"title": "withastro 开源 Flue 沙箱 agent 框架",
-		"url": "https://github.com/withastro/flue",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T19:04:34Z",
-		"group": "gh"
-	},
-	{
 		"title": "Meshery 发布云原生管理器",
 		"url": "https://github.com/meshery/meshery",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T18:58:40Z",
+		"date": "2026-06-21T02:49:56Z",
 		"group": "gh"
 	},
 	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T16:37:26Z",
+		"date": "2026-06-21T02:39:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
+		"url": "https://github.com/puppeteer/puppeteer",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T02:04:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "jcode 开源 Coding Agent Harness 编程工具",
+		"url": "https://github.com/1jehuang/jcode",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T01:18:01Z",
 		"group": "gh"
 	},
 	{
 		"title": "Twenty 开源面向 AI 设计的 Salesforce 替代方案",
 		"url": "https://github.com/twentyhq/twenty",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T16:20:51Z",
+		"date": "2026-06-21T01:17:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "pytest 发布新版测试框架",
+		"url": "https://github.com/pytest-dev/pytest",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T01:11:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T00:28:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T00:20:14Z",
 		"group": "gh"
 	},
 	{
 		"title": "Plane 发布开源项目管理平台",
 		"url": "https://github.com/makeplane/plane",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T13:40:36Z",
+		"date": "2026-06-20T22:01:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T21:47:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T21:03:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T20:46:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
+		"source": "GitHub Trending",
+		"date": "2026-06-20T19:04:34Z",
 		"group": "gh"
 	},
 	{
@@ -49,20 +105,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Puppeteer 发布 JavaScript API 支持 Chrome 和 Firefox",
-		"url": "https://github.com/puppeteer/puppeteer",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T11:48:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T11:33:06Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google Research 开源时间序列基础模型 TimesFM",
 		"url": "https://github.com/google-research/timesfm",
 		"source": "GitHub Trending",
@@ -77,13 +119,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T07:18:14Z",
-		"group": "gh"
-	},
-	{
 		"title": "SWC 开源 Rust 编写的 Web 平台",
 		"url": "https://github.com/swc-project/swc",
 		"source": "GitHub Trending",
@@ -91,31 +126,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "jcode 开源 Coding Agent Harness 编程工具",
-		"url": "https://github.com/1jehuang/jcode",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T06:48:10Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
 		"url": "https://github.com/DeusData/codebase-memory-mcp",
 		"source": "GitHub Trending",
 		"date": "2026-06-20T05:42:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T01:03:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T00:26:41Z",
 		"group": "gh"
 	},
 	{
@@ -130,20 +144,6 @@
 		"url": "https://github.com/penpot/penpot",
 		"source": "GitHub Trending",
 		"date": "2026-06-19T13:05:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "pytest 发布新版测试框架",
-		"url": "https://github.com/pytest-dev/pytest",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T11:05:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-19T03:51:37Z",
 		"group": "gh"
 	},
 	{
