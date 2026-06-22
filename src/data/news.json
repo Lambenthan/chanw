@@ -1,51 +1,142 @@
 [
 	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T16:28:41Z",
+		"date": "2026-06-22T20:34:52Z",
 		"group": "gh"
 	},
 	{
-		"title": "Firecrawl 开源大规模网页搜索与抓取 API",
-		"url": "https://github.com/firecrawl/firecrawl",
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T16:25:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T16:24:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
-		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T16:22:52Z",
+		"date": "2026-06-22T20:34:40Z",
 		"group": "gh"
 	},
 	{
 		"title": "HeyGen 开源 HyperFrames 视频生成框架",
 		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T16:22:40Z",
+		"date": "2026-06-22T20:30:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T20:25:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源大规模网页搜索与抓取 API",
+		"url": "https://github.com/firecrawl/firecrawl",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T20:24:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 推出面向网络运营的电信 Agentic AI",
+		"url": "https://blogs.nvidia.com/blog/telecom-agentic-ai-for-network-operations/",
+		"source": "NVIDIA",
+		"date": "2026-06-22T20:22:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 AI Blueprint 电信网络配置方案",
+		"url": "https://blogs.nvidia.com/blog/ai-blueprint-telco-network-configuration/",
+		"source": "NVIDIA",
+		"date": "2026-06-22T20:21:52.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T20:14:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T20:05:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T19:43:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T19:41:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Turso 开源嵌入式 SQL 数据库，兼容 SQLite",
+		"url": "https://github.com/tursodatabase/turso",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T19:19:02Z",
 		"group": "gh"
 	},
 	{
 		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
 		"url": "https://github.com/n0-computer/iroh",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T15:38:08Z",
+		"date": "2026-06-22T19:02:53Z",
 		"group": "gh"
+	},
+	{
+		"title": "Google Research 开源时间序列基础模型 TimesFM",
+		"url": "https://github.com/google-research/timesfm",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T18:57:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
+		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T18:49:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T18:21:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T18:11:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "mukul975 开源 754 个结构化网络安全 skill，适配 Claude Code 等 20+ 平台",
+		"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T17:11:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 AI for Science 软件 CUDA 更新",
+		"url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+		"source": "NVIDIA",
+		"date": "2026-06-22T17:06:20.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Penpot 开源设计与代码协作工具",
 		"url": "https://github.com/penpot/penpot",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T15:32:12Z",
+		"date": "2026-06-22T16:40:01Z",
 		"group": "gh"
 	},
 	{
@@ -53,20 +144,6 @@
 		"url": "https://github.com/iptv-org/iptv",
 		"source": "GitHub Trending",
 		"date": "2026-06-22T15:16:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T13:59:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "Turso 开源嵌入式 SQL 数据库，兼容 SQLite",
-		"url": "https://github.com/tursodatabase/turso",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T13:47:15Z",
 		"group": "gh"
 	},
 	{
@@ -84,10 +161,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 发布 AI for Science 软件 CUDA 更新",
-		"url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+		"title": "NVIDIA 与 Eco Wave Power 合作推出 AI 数字孪生",
+		"url": "https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/",
 		"source": "NVIDIA",
-		"date": "2026-06-22T13:00:20.000Z",
+		"date": "2026-06-22T13:00:13.000Z",
 		"group": "labs"
 	},
 	{
@@ -105,25 +182,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T11:33:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "withastro 开源 Flue 沙箱 agent 框架",
-		"url": "https://github.com/withastro/flue",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T11:26:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "mukul975 开源 754 个结构化网络安全 skill，适配 Claude Code 等 20+ 平台",
-		"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T11:17:21Z",
-		"group": "gh"
+		"title": "OpenAI 发布 Daybreak 安全工具集，含 Codex Security 与 GPT-5.5-Cyber",
+		"url": "https://openai.com/index/daybreak-securing-the-world",
+		"source": "OpenAI",
+		"date": "2026-06-22T10:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
@@ -131,20 +194,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-06-22T09:16:36.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T08:49:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
-		"url": "https://github.com/DeusData/codebase-memory-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T07:19:51Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布液态冷却 AI 工厂方案",
@@ -161,13 +210,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T19:08:49Z",
-		"group": "gh"
-	},
-	{
 		"title": "garrytan 开源 gstack：Garry Tan 的 Claude Code 工具集",
 		"url": "https://github.com/garrytan/gstack",
 		"source": "GitHub Trending",
@@ -175,17 +217,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Google Research 开源时间序列基础模型 TimesFM",
-		"url": "https://github.com/google-research/timesfm",
+		"title": "OpenCut 开源 CapCut 替代视频编辑工具",
+		"url": "https://github.com/OpenCut-app/OpenCut",
 		"source": "GitHub Trending",
-		"date": "2026-06-20T10:51:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T07:03:40Z",
+		"date": "2026-06-21T13:15:27Z",
 		"group": "gh"
 	},
 	{
@@ -854,13 +889,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Wasmer 借助 Codex 与 GPT-5.5 构建边缘 Node.js 运行时",
-		"url": "https://openai.com/index/wasmer",
-		"source": "OpenAI",
-		"date": "2026-06-03T13:15:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Hugging Face 发布 DPO 在非聊天机器人场景的应用研究",
 		"url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
 		"source": "Hugging Face Blog",
@@ -1120,6 +1148,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5.4-Cyber 网络安全防御模型",
+		"url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 更新 ChatGPT 敏感对话响应策略",
 		"url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
 		"source": "OpenAI",
@@ -1360,13 +1395,6 @@
 	{
 		"title": "OpenAI 推出 AI Agent 链接安全功能",
 		"url": "https://openai.com/index/ai-agent-link-safety/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.4-Cyber 网络安全防御模型",
-		"url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
