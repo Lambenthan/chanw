@@ -1,16 +1,65 @@
 [
 	{
-		"title": "Cognee 开源 AI 记忆平台，为 agent 提供持久知识图谱",
-		"url": "https://github.com/topoteretes/cognee",
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
 		"source": "GitHub Trending",
-		"date": "2026-06-21T19:16:07Z",
+		"date": "2026-06-22T02:48:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
+		"url": "https://github.com/chatwoot/chatwoot",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T02:29:26Z",
 		"group": "gh"
 	},
 	{
 		"title": "Meshery 发布云原生管理器",
 		"url": "https://github.com/meshery/meshery",
 		"source": "GitHub Trending",
-		"date": "2026-06-21T19:11:37Z",
+		"date": "2026-06-22T02:02:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T01:49:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T00:42:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T00:28:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
+		"url": "https://github.com/bytedance/deer-flow",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T00:24:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cognee 开源 AI 记忆平台，为 agent 提供持久知识图谱",
+		"url": "https://github.com/topoteretes/cognee",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T21:01:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-06-21T19:50:33Z",
 		"group": "gh"
 	},
 	{
@@ -21,31 +70,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T19:08:01Z",
-		"group": "gh"
-	},
-	{
 		"title": "mikumifa 开源 biliTickerBuy B站会员购购票辅助工具",
 		"url": "https://github.com/mikumifa/biliTickerBuy",
 		"source": "GitHub Trending",
 		"date": "2026-06-21T17:44:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T15:52:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T15:50:25Z",
 		"group": "gh"
 	},
 	{
@@ -56,31 +84,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T14:30:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
-		"url": "https://github.com/bytedance/deer-flow",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T14:30:36Z",
-		"group": "gh"
-	},
-	{
 		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
 		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
 		"date": "2026-06-21T11:00:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "Pake 开源：一条命令将任意网页转为桌面应用",
-		"url": "https://github.com/tw93/Pake",
-		"source": "GitHub Trending",
-		"date": "2026-06-21T10:09:38Z",
 		"group": "gh"
 	},
 	{
@@ -95,13 +102,6 @@
 		"url": "https://github.com/makeplane/plane",
 		"source": "GitHub Trending",
 		"date": "2026-06-20T22:01:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chatwoot 开源多渠道客服平台上线 GitHub",
-		"url": "https://github.com/chatwoot/chatwoot",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T21:47:09Z",
 		"group": "gh"
 	},
 	{
@@ -137,13 +137,6 @@
 		"url": "https://github.com/koala73/worldmonitor",
 		"source": "GitHub Trending",
 		"date": "2026-06-20T07:03:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
-		"url": "https://github.com/DeusData/codebase-memory-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-06-20T05:42:49Z",
 		"group": "gh"
 	},
 	{
@@ -940,13 +933,6 @@
 	{
 		"title": "OpenAI 为 GPT-Rosalind 新增生物学推理与基因组分析能力",
 		"url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-		"source": "OpenAI",
-		"date": "2026-06-02T09:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Travelers 借助 OpenAI 在全美部署 AI 理赔助手",
-		"url": "https://openai.com/index/travelers",
 		"source": "OpenAI",
 		"date": "2026-06-02T09:00:00.000Z",
 		"group": "labs"
@@ -2503,13 +2489,6 @@
 		"url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
 		"source": "Anthropic Engineering",
 		"date": "2026-03-24T16:23:08.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Nemotron 3 超级 Agentic AI",
-		"url": "https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai/",
-		"source": "NVIDIA",
-		"date": "2026-03-23T20:21:49.000Z",
 		"group": "labs"
 	}
 ]
