@@ -1,23 +1,107 @@
 [
 	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T16:28:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源大规模网页搜索与抓取 API",
+		"url": "https://github.com/firecrawl/firecrawl",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T16:25:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T16:24:14Z",
+		"group": "gh"
+	},
+	{
 		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
 		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T11:35:30Z",
+		"date": "2026-06-22T16:22:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 HyperFrames 视频生成框架",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T16:22:40Z",
 		"group": "gh"
 	},
 	{
 		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
 		"url": "https://github.com/n0-computer/iroh",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T11:34:46Z",
+		"date": "2026-06-22T15:38:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计与代码协作工具",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T15:32:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T15:16:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T13:59:41Z",
 		"group": "gh"
 	},
 	{
 		"title": "Turso 开源嵌入式 SQL 数据库，兼容 SQLite",
 		"url": "https://github.com/tursodatabase/turso",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T11:33:20Z",
+		"date": "2026-06-22T13:47:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "PaddlePaddle 发布 PP-OCRv6，支持 50 种语言 OCR",
+		"url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-22T13:18:56.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 Nairr 科研 AI 基础设施",
+		"url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+		"source": "NVIDIA",
+		"date": "2026-06-22T13:00:38.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 AI for Science 软件 CUDA 更新",
+		"url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+		"source": "NVIDIA",
+		"date": "2026-06-22T13:00:20.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Plane 发布开源项目管理平台",
+		"url": "https://github.com/makeplane/plane",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T12:58:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
+		"url": "https://github.com/bytedance/deer-flow",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T12:45:51Z",
 		"group": "gh"
 	},
 	{
@@ -28,13 +112,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Firecrawl 开源大规模网页搜索与抓取 API",
-		"url": "https://github.com/firecrawl/firecrawl",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T11:30:56Z",
-		"group": "gh"
-	},
-	{
 		"title": "withastro 开源 Flue 沙箱 agent 框架",
 		"url": "https://github.com/withastro/flue",
 		"source": "GitHub Trending",
@@ -42,52 +119,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Penpot 开源设计与代码协作工具",
-		"url": "https://github.com/penpot/penpot",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T11:26:50Z",
-		"group": "gh"
-	},
-	{
 		"title": "mukul975 开源 754 个结构化网络安全 skill，适配 Claude Code 等 20+ 平台",
 		"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-22T11:17:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "Plane 发布开源项目管理平台",
-		"url": "https://github.com/makeplane/plane",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T11:11:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
-		"url": "https://github.com/bytedance/deer-flow",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T10:55:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "HeyGen 开源 HyperFrames 视频生成框架",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T10:42:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T09:41:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T09:31:05Z",
 		"group": "gh"
 	},
 	{
@@ -112,11 +147,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T00:42:45Z",
-		"group": "gh"
+		"title": "NVIDIA 发布液态冷却 AI 工厂方案",
+		"url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+		"source": "NVIDIA",
+		"date": "2026-06-22T05:00:22.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
@@ -385,13 +420,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-16T21:49:11Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 Blackwell 在 MLPerf Training 6.0 中的训练基准成绩",
 		"url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
 		"source": "NVIDIA",
@@ -410,6 +438,13 @@
 		"url": "https://www.anthropic.com/news/core-views-on-ai-safety",
 		"source": "Anthropic News",
 		"date": "2026-06-16T09:51:16.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 推出 Grok for PowerPoint 插件",
+		"url": "https://x.ai/news/introducing-powerpoint-addin",
+		"source": "xAI",
+		"date": "2026-06-16T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -592,6 +627,13 @@
 		"url": "https://openai.com/index/nextdoor",
 		"source": "OpenAI",
 		"date": "2026-06-09T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 PRC 关联影响操作报告",
+		"url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+		"source": "OpenAI",
+		"date": "2026-06-09T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2100,13 +2142,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 为 Open ASR Leaderboard 添加防作弊机制",
-		"url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
-		"source": "Hugging Face Blog",
-		"date": "2026-05-06T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 ChatGPT 公平性评估报告",
 		"url": "https://openai.com/index/evaluating-fairness-in-chatgpt/",
 		"source": "OpenAI",
@@ -2482,13 +2517,6 @@
 		"url": "https://claude.com/blog/auto-mode",
 		"source": "claude.com",
 		"date": "2026-03-25T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布长运行应用设计指南",
-		"url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
-		"source": "Anthropic Engineering",
-		"date": "2026-03-24T16:23:08.000Z",
 		"group": "labs"
 	}
 ]
