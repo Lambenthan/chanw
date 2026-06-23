@@ -1,37 +1,107 @@
 [
 	{
-		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
-		"url": "https://github.com/LMCache/LMCache",
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T20:34:52Z",
+		"date": "2026-06-23T02:08:29Z",
 		"group": "gh"
 	},
 	{
-		"title": "withastro 开源 Flue 沙箱 agent 框架",
-		"url": "https://github.com/withastro/flue",
+		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
+		"url": "https://github.com/bytedance/deer-flow",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T20:34:40Z",
+		"date": "2026-06-23T02:02:38Z",
 		"group": "gh"
 	},
 	{
 		"title": "HeyGen 开源 HyperFrames 视频生成框架",
 		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T20:30:17Z",
+		"date": "2026-06-23T01:54:23Z",
 		"group": "gh"
 	},
 	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
+		"title": "Turso 开源嵌入式 SQL 数据库，兼容 SQLite",
+		"url": "https://github.com/tursodatabase/turso",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T20:25:17Z",
+		"date": "2026-06-23T01:32:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
+		"url": "https://github.com/LMCache/LMCache",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T01:12:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T00:39:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
+		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T00:29:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T00:27:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T23:35:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T23:16:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计与代码协作工具",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T22:59:23Z",
 		"group": "gh"
 	},
 	{
 		"title": "Firecrawl 开源大规模网页搜索与抓取 API",
 		"url": "https://github.com/firecrawl/firecrawl",
 		"source": "GitHub Trending",
-		"date": "2026-06-22T20:24:32Z",
+		"date": "2026-06-22T22:11:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T22:09:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
+		"url": "https://www.anthropic.com/research/claude-code-expertise",
+		"source": "Anthropic Research",
+		"date": "2026-06-22T21:50:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
+		"source": "GitHub Trending",
+		"date": "2026-06-22T20:34:40Z",
 		"group": "gh"
 	},
 	{
@@ -56,34 +126,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
-		"url": "https://github.com/DeusData/codebase-memory-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T20:05:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T19:43:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T19:41:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "Turso 开源嵌入式 SQL 数据库，兼容 SQLite",
-		"url": "https://github.com/tursodatabase/turso",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T19:19:02Z",
-		"group": "gh"
-	},
-	{
 		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
 		"url": "https://github.com/n0-computer/iroh",
 		"source": "GitHub Trending",
@@ -95,13 +137,6 @@
 		"url": "https://github.com/google-research/timesfm",
 		"source": "GitHub Trending",
 		"date": "2026-06-22T18:57:30Z",
-		"group": "gh"
-	},
-	{
-		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
-		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T18:49:00Z",
 		"group": "gh"
 	},
 	{
@@ -133,20 +168,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Penpot 开源设计与代码协作工具",
-		"url": "https://github.com/penpot/penpot",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T16:40:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T15:16:34Z",
-		"group": "gh"
-	},
-	{
 		"title": "PaddlePaddle 发布 PP-OCRv6，支持 50 种语言 OCR",
 		"url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
 		"source": "Hugging Face Blog",
@@ -175,24 +196,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
-		"url": "https://github.com/bytedance/deer-flow",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T12:45:51Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenAI 发布 Daybreak 安全工具集，含 Codex Security 与 GPT-5.5-Cyber",
 		"url": "https://openai.com/index/daybreak-securing-the-world",
 		"source": "OpenAI",
 		"date": "2026-06-22T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
-		"url": "https://www.anthropic.com/research/claude-code-expertise",
-		"source": "Anthropic Research",
-		"date": "2026-06-22T09:16:36.000Z",
 		"group": "labs"
 	},
 	{
@@ -201,13 +208,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-22T05:00:22.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T00:28:36Z",
-		"group": "gh"
 	},
 	{
 		"title": "garrytan 开源 gstack：Garry Tan 的 Claude Code 工具集",
@@ -1141,6 +1141,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 加速网络防御生态建设",
+		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT-5 Safe Completions",
 		"url": "https://openai.com/index/gpt-5-safe-completions/",
 		"source": "OpenAI",
@@ -1171,13 +1178,6 @@
 	{
 		"title": "OpenAI 发布开放权重大模型最坏情况风险评估方法",
 		"url": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 加速网络防御生态建设",
-		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -2538,13 +2538,6 @@
 		"url": "https://www.anthropic.com/research/vibe-physics",
 		"source": "Anthropic Research",
 		"date": "2026-03-25T13:19:51.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude Code 推出自动模式",
-		"url": "https://claude.com/blog/auto-mode",
-		"source": "claude.com",
-		"date": "2026-03-25T00:00:00.000Z",
 		"group": "labs"
 	}
 ]
