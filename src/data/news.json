@@ -1,59 +1,136 @@
 [
 	{
-		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
-		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-06-23T14:31:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
-		"url": "https://github.com/bytedance/deer-flow",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T14:24:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T14:24:15Z",
+		"date": "2026-06-23T19:50:00Z",
 		"group": "gh"
 	},
 	{
 		"title": "NousResearch 发布 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-23T14:19:34Z",
+		"date": "2026-06-23T19:46:40Z",
 		"group": "gh"
 	},
 	{
-		"title": "Penpot 开源设计与代码协作工具",
-		"url": "https://github.com/penpot/penpot",
+		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
+		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
 		"source": "GitHub Trending",
-		"date": "2026-06-23T14:17:04Z",
+		"date": "2026-06-23T19:36:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Tag",
+		"url": "https://www.anthropic.com/news/introducing-claude-tag",
+		"source": "Anthropic News",
+		"date": "2026-06-23T19:22:44.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google Research 开源时间序列基础模型 TimesFM",
+		"url": "https://github.com/google-research/timesfm",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T18:50:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T18:22:37Z",
 		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Claude Code Plugins 官方目录",
 		"url": "https://github.com/anthropics/claude-plugins-official",
 		"source": "GitHub Trending",
-		"date": "2026-06-23T13:59:28Z",
+		"date": "2026-06-23T18:16:43Z",
 		"group": "gh"
 	},
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
 		"source": "GitHub Trending",
-		"date": "2026-06-23T13:17:52Z",
+		"date": "2026-06-23T17:59:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T17:59:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T17:50:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "Chatwoot 开源实时聊天与客服支持平台",
 		"url": "https://github.com/chatwoot/chatwoot",
 		"source": "GitHub Trending",
-		"date": "2026-06-23T13:12:37Z",
+		"date": "2026-06-23T17:09:50Z",
 		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 在 DTW Ignite 2026 发布电信 AI Agents",
+		"url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+		"source": "NVIDIA",
+		"date": "2026-06-23T16:47:41.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Continue 开源 coding agent 项目",
+		"url": "https://github.com/continuedev/continue",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T16:43:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "shanraisshan 开源 Claude Code 最佳实践指南",
+		"url": "https://github.com/shanraisshan/claude-code-best-practice",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T16:12:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计与代码协作工具",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T15:44:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T15:43:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
+		"url": "https://github.com/bytedance/deer-flow",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T15:37:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Plane 发布开源项目管理平台",
+		"url": "https://github.com/makeplane/plane",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T15:25:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Agent Toolkit，集成开放模型、工具、技能与安全运行时",
+		"url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-06-23T13:00:07.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "IBM Research 发布 CUGA 轻量级 agent 框架及 24 个示例应用",
@@ -63,20 +140,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Plane 发布开源项目管理平台",
-		"url": "https://github.com/makeplane/plane",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T12:40:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T12:31:13Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
 		"url": "https://github.com/NVIDIA/SkillSpector",
 		"source": "GitHub Trending",
@@ -84,45 +147,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T12:10:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T11:02:43Z",
-		"group": "gh"
-	},
-	{
 		"title": "iptv-org 开源全球 IPTV 频道集合",
 		"url": "https://github.com/iptv-org/iptv",
 		"source": "GitHub Trending",
 		"date": "2026-06-23T09:58:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "shanraisshan 开源 Claude Code 最佳实践指南",
-		"url": "https://github.com/shanraisshan/claude-code-best-practice",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T09:35:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "withastro 开源 Flue 沙箱 agent 框架",
-		"url": "https://github.com/withastro/flue",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T07:35:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "Continue 开源 coding agent 项目",
-		"url": "https://github.com/continuedev/continue",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T07:31:52Z",
 		"group": "gh"
 	},
 	{
@@ -135,6 +163,13 @@
 	{
 		"title": "Hugging Face 以周更频率发布 huggingface_hub 更新",
 		"url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-23T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Transformers.js 实验跨源存储 API",
+		"url": "https://huggingface.co/blog/cross-origin-storage",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-23T00:00:00.000Z",
 		"group": "labs"
@@ -166,13 +201,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-22T20:21:52.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Google Research 开源时间序列基础模型 TimesFM",
-		"url": "https://github.com/google-research/timesfm",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T18:57:30Z",
-		"group": "gh"
 	},
 	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能集",
@@ -271,6 +299,13 @@
 		"source": "GitHub Trending",
 		"date": "2026-06-18T08:41:52Z",
 		"group": "gh"
+	},
+	{
+		"title": "GPT-5 协助免疫学家破解 T 细胞行为三年未解之谜",
+		"url": "https://openai.com/index/gpt-5-immunology-mystery",
+		"source": "OpenAI",
+		"date": "2026-06-18T08:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布 Project Fetch 第二阶段",
@@ -914,13 +949,6 @@
 		"url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-03T12:55:11.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 AI 生物防御行动计划",
-		"url": "https://openai.com/index/biodefense-in-the-intelligence-age",
-		"source": "OpenAI",
-		"date": "2026-06-03T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1953,13 +1981,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "IBM 开源 Granite Embedding Multilingual R2 多语言嵌入模型",
-		"url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-		"source": "Hugging Face Blog",
-		"date": "2026-05-14T18:55:01.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT-5.5",
 		"url": "https://openai.com/index/introducing-gpt-5-5/",
 		"source": "OpenAI",
@@ -2510,13 +2531,6 @@
 		"url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
 		"source": "Anthropic Engineering",
 		"date": "2026-03-25T23:13:37.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 探讨 AI 工厂与能源电网的灵活供电方案",
-		"url": "https://blogs.nvidia.com/blog/power-flexible-ai-factories-energy-grid/",
-		"source": "NVIDIA",
-		"date": "2026-03-25T19:06:48.000Z",
 		"group": "labs"
 	}
 ]
