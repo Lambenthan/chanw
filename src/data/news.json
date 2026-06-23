@@ -1,37 +1,107 @@
 [
 	{
-		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
-		"url": "https://github.com/palmier-io/palmier-pro",
+		"title": "Firecrawl 开源大规模网页搜索与抓取 API",
+		"url": "https://github.com/firecrawl/firecrawl",
 		"source": "GitHub Trending",
-		"date": "2026-06-23T02:08:29Z",
+		"date": "2026-06-23T08:59:09Z",
 		"group": "gh"
 	},
 	{
-		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
-		"url": "https://github.com/bytedance/deer-flow",
+		"title": "Penpot 开源设计与代码协作工具",
+		"url": "https://github.com/penpot/penpot",
 		"source": "GitHub Trending",
-		"date": "2026-06-23T02:02:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "HeyGen 开源 HyperFrames 视频生成框架",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T01:54:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "Turso 开源嵌入式 SQL 数据库，兼容 SQLite",
-		"url": "https://github.com/tursodatabase/turso",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T01:32:08Z",
+		"date": "2026-06-23T08:58:16Z",
 		"group": "gh"
 	},
 	{
 		"title": "LMCache 开源 KV Cache 层，加速 LLM 推理",
 		"url": "https://github.com/LMCache/LMCache",
 		"source": "GitHub Trending",
-		"date": "2026-06-23T01:12:59Z",
+		"date": "2026-06-23T08:57:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
+		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T08:55:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier 发布面向 AI 的 macOS 视频编辑器 Palmier Pro",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T08:53:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T08:45:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T08:34:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "字节跳动开源 Deer Flow 长周期 SuperAgent 框架",
+		"url": "https://github.com/bytedance/deer-flow",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T08:31:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "withastro 开源 Flue 沙箱 agent 框架",
+		"url": "https://github.com/withastro/flue",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T07:35:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
+		"url": "https://github.com/n0-computer/iroh",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T07:32:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "freeCodeCamp 更新开源编程课程与代码库",
+		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T07:12:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T04:57:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "Turso 开源嵌入式 SQL 数据库，兼容 SQLite",
+		"url": "https://github.com/tursodatabase/turso",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T04:41:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 HyperFrames 视频生成框架",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T04:28:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T03:12:25Z",
 		"group": "gh"
 	},
 	{
@@ -42,25 +112,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
-		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T00:29:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-23T00:27:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T23:35:37Z",
-		"group": "gh"
+		"title": "Hugging Face 以周更频率发布 huggingface_hub 更新",
+		"url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-23T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
@@ -70,39 +126,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "Penpot 开源设计与代码协作工具",
-		"url": "https://github.com/penpot/penpot",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T22:59:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 开源大规模网页搜索与抓取 API",
-		"url": "https://github.com/firecrawl/firecrawl",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T22:11:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T22:09:42Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
 		"url": "https://www.anthropic.com/research/claude-code-expertise",
 		"source": "Anthropic Research",
 		"date": "2026-06-22T21:50:13.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "withastro 开源 Flue 沙箱 agent 框架",
-		"url": "https://github.com/withastro/flue",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T20:34:40Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 推出面向网络运营的电信 Agentic AI",
@@ -119,20 +147,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T20:14:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
-		"url": "https://github.com/n0-computer/iroh",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T19:02:53Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google Research 开源时间序列基础模型 TimesFM",
 		"url": "https://github.com/google-research/timesfm",
 		"source": "GitHub Trending",
@@ -144,13 +158,6 @@
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-06-22T18:21:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "freeCodeCamp 更新开源编程课程与代码库",
-		"url": "https://github.com/freeCodeCamp/freeCodeCamp",
-		"source": "GitHub Trending",
-		"date": "2026-06-22T18:11:19Z",
 		"group": "gh"
 	},
 	{
@@ -207,6 +214,13 @@
 		"url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
 		"source": "NVIDIA",
 		"date": "2026-06-22T05:00:22.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 用本地模型自动分类 OpenClaw 仓库 PR",
+		"url": "https://huggingface.co/blog/local-models-pr-triage",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-22T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1001,13 +1015,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 为 GPT-Rosalind 新增生物学推理与基因组分析能力",
-		"url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-		"source": "OpenAI",
-		"date": "2026-06-02T09:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "JetBrains 发布 Mellum2 12B MoE 模型",
 		"url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
 		"source": "Hugging Face Blog",
@@ -1141,8 +1148,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 加速网络防御生态建设",
-		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+		"title": "OpenAI 发布 GPT-5.4-Cyber 网络安全防御模型",
+		"url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -1155,8 +1162,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5.4-Cyber 网络安全防御模型",
-		"url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+		"title": "OpenAI 加速网络防御生态建设",
+		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -1946,6 +1953,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5.5",
+		"url": "https://openai.com/index/introducing-gpt-5-5/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT-5.1",
 		"url": "https://openai.com/index/gpt-5-1/",
 		"source": "OpenAI",
@@ -2023,13 +2037,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5.5",
-		"url": "https://openai.com/index/introducing-gpt-5-5/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT Realtime",
 		"url": "https://openai.com/index/introducing-gpt-realtime/",
 		"source": "OpenAI",
@@ -2069,13 +2076,6 @@
 		"url": "https://www.anthropic.com/news/claude-for-small-business",
 		"source": "Anthropic News",
 		"date": "2026-05-12T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 推出 AWS 上基础模型训练与推理构建块",
-		"url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-		"source": "Hugging Face Blog",
-		"date": "2026-05-11T23:18:26.000Z",
 		"group": "labs"
 	},
 	{
@@ -2119,13 +2119,6 @@
 		"source": "GitHub Trending",
 		"date": "2026-05-07T09:11:26Z",
 		"group": "gh"
-	},
-	{
-		"title": "vLLM 发布 V1 版本，强化 RL 训练正确性",
-		"url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
-		"source": "Hugging Face Blog",
-		"date": "2026-05-06T19:06:55.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "Anthropic 向开源社区捐赠 Petri 项目",
