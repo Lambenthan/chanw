@@ -1,45 +1,80 @@
 [
 	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-06-24T19:29:18Z",
+		"group": "gh"
+	},
+	{
 		"title": "NousResearch 发布 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-24T14:05:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
-		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T14:05:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "Penpot 开源设计与代码协作工具",
-		"url": "https://github.com/penpot/penpot",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T13:53:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T13:45:51Z",
+		"date": "2026-06-24T19:28:40Z",
 		"group": "gh"
 	},
 	{
 		"title": "Microsoft 开源 Presidio 敏感数据匿名化框架",
 		"url": "https://github.com/microsoft/presidio",
 		"source": "GitHub Trending",
-		"date": "2026-06-24T13:43:54Z",
+		"date": "2026-06-24T19:27:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "Flutter 发布跨平台应用开发框架",
+		"url": "https://github.com/flutter/flutter",
+		"source": "GitHub Trending",
+		"date": "2026-06-24T19:18:21Z",
 		"group": "gh"
 	},
 	{
 		"title": "Kong 开源 Insomnia API 客户端",
 		"url": "https://github.com/Kong/insomnia",
 		"source": "GitHub Trending",
-		"date": "2026-06-24T13:34:34Z",
+		"date": "2026-06-24T18:23:01Z",
 		"group": "gh"
+	},
+	{
+		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-06-24T18:19:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
+		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
+		"source": "GitHub Trending",
+		"date": "2026-06-24T18:15:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
+		"source": "GitHub Trending",
+		"date": "2026-06-24T17:12:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计与代码协作工具",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-06-24T16:47:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 推出 NeMo AutoModel 加速 Transformer 微调",
+		"url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-24T16:00:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 核安全保障研究",
+		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+		"source": "Anthropic Research",
+		"date": "2026-06-24T14:21:03.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "headunit-revived 开源 Android Auto 车载显示应用",
@@ -63,20 +98,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T09:54:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T09:38:27Z",
-		"group": "gh"
-	},
-	{
 		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
 		"url": "https://github.com/n0-computer/iroh",
 		"source": "GitHub Trending",
@@ -88,13 +109,6 @@
 		"url": "https://github.com/DeusData/codebase-memory-mcp",
 		"source": "GitHub Trending",
 		"date": "2026-06-24T06:35:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "Flutter 发布跨平台应用开发框架",
-		"url": "https://github.com/flutter/flutter",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T06:18:06Z",
 		"group": "gh"
 	},
 	{
@@ -116,6 +130,20 @@
 		"url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
 		"source": "NVIDIA",
 		"date": "2026-06-24T00:05:37.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 为 Gemini 3.5 Flash 引入计算机使用能力",
+		"url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+		"source": "DeepMind",
+		"date": "2026-06-24T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 发布 FFASR 榜单，用于真实场景 ASR 评测",
+		"url": "https://huggingface.co/blog/ffasr-leaderboard",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-24T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -525,6 +553,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Google Labs 发布 DESIGN.md 视觉身份描述规范",
+		"url": "https://github.com/google-labs-code/design.md",
+		"source": "GitHub Trending",
+		"date": "2026-06-15T22:22:46Z",
+		"group": "gh"
+	},
+	{
 		"title": "xAI 在 Grok Build 中推出 Agent Dashboard",
 		"url": "https://x.ai/news/agent-dashboard",
 		"source": "xAI",
@@ -632,6 +667,13 @@
 	{
 		"title": "OpenAI 通过 Appia 基金会推动 AI 安全标准共建",
 		"url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+		"source": "OpenAI",
+		"date": "2026-06-11T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "三星电子向全球员工部署 ChatGPT Enterprise 与 Codex",
+		"url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
 		"source": "OpenAI",
 		"date": "2026-06-11T00:00:00.000Z",
 		"group": "labs"
@@ -1869,13 +1911,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布 Ettin Reranker 系列",
-		"url": "https://huggingface.co/blog/ettin-reranker",
-		"source": "Hugging Face Blog",
-		"date": "2026-05-19T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "xAI 将 Grok 集成到 OpenClaw",
 		"url": "https://x.ai/news/grok-openclaw",
 		"source": "xAI",
@@ -1922,13 +1957,6 @@
 		"url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
 		"source": "NVIDIA",
 		"date": "2026-05-18T17:04:59.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "PaddleOCR 3.5 发布，支持 Transformers 后端运行 OCR 与文档解析",
-		"url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
-		"source": "Hugging Face Blog",
-		"date": "2026-05-18T15:12:46.000Z",
 		"group": "labs"
 	},
 	{
@@ -2398,13 +2426,6 @@
 		"url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
 		"source": "Anthropic Engineering",
 		"date": "2026-04-15T14:39:01.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemini 3.1 Flash TTS 语音合成模型",
-		"url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-		"source": "DeepMind",
-		"date": "2026-04-15T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
