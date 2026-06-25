@@ -1,30 +1,65 @@
 [
 	{
-		"title": "Flutter 发布跨平台应用开发框架",
-		"url": "https://github.com/flutter/flutter",
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-06-25T02:31:04Z",
+		"date": "2026-06-25T08:49:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T08:49:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计与代码协作工具",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T08:47:27Z",
 		"group": "gh"
 	},
 	{
 		"title": "NousResearch 发布 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-25T02:28:00Z",
+		"date": "2026-06-25T08:46:54Z",
 		"group": "gh"
 	},
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
+		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
+		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
 		"source": "GitHub Trending",
-		"date": "2026-06-25T02:26:50Z",
+		"date": "2026-06-25T08:43:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "Kong 开源 Insomnia API 客户端",
 		"url": "https://github.com/Kong/insomnia",
 		"source": "GitHub Trending",
-		"date": "2026-06-25T01:01:23Z",
+		"date": "2026-06-25T08:38:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "headunit-revived 开源 Android Auto 车载显示应用",
+		"url": "https://github.com/andreknieriem/headunit-revived",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T08:28:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "Plane 发布开源项目管理平台",
+		"url": "https://github.com/makeplane/plane",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T07:44:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "Flutter 发布跨平台应用开发框架",
+		"url": "https://github.com/flutter/flutter",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T05:23:57Z",
 		"group": "gh"
 	},
 	{
@@ -49,31 +84,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
-		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T21:54:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Penpot 开源设计与代码协作工具",
-		"url": "https://github.com/penpot/penpot",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T19:32:13Z",
-		"group": "gh"
-	},
-	{
 		"title": "Microsoft 开源 Presidio 敏感数据匿名化框架",
 		"url": "https://github.com/microsoft/presidio",
 		"source": "GitHub Trending",
 		"date": "2026-06-24T19:27:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T18:19:32Z",
 		"group": "gh"
 	},
 	{
@@ -89,20 +103,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-06-24T14:21:03.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "headunit-revived 开源 Android Auto 车载显示应用",
-		"url": "https://github.com/andreknieriem/headunit-revived",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T13:25:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "Plane 发布开源项目管理平台",
-		"url": "https://github.com/makeplane/plane",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T12:35:25Z",
-		"group": "gh"
 	},
 	{
 		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
