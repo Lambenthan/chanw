@@ -1,16 +1,65 @@
 [
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
+		"title": "Flutter 发布跨平台应用开发框架",
+		"url": "https://github.com/flutter/flutter",
 		"source": "GitHub Trending",
-		"date": "2026-06-24T19:29:18Z",
+		"date": "2026-06-25T02:31:04Z",
 		"group": "gh"
 	},
 	{
 		"title": "NousResearch 发布 hermes-agent 智能体框架",
 		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-06-24T19:28:40Z",
+		"date": "2026-06-25T02:28:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T02:26:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T01:01:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T00:39:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T00:27:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
+		"url": "https://github.com/NVIDIA/SkillSpector",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T00:23:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
+		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
+		"source": "GitHub Trending",
+		"date": "2026-06-24T21:54:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计与代码协作工具",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-06-24T19:32:13Z",
 		"group": "gh"
 	},
 	{
@@ -21,45 +70,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Flutter 发布跨平台应用开发框架",
-		"url": "https://github.com/flutter/flutter",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T19:18:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T18:23:01Z",
-		"group": "gh"
-	},
-	{
 		"title": "koala73 开源 WorldMonitor 实时全球情报仪表盘",
 		"url": "https://github.com/koala73/worldmonitor",
 		"source": "GitHub Trending",
 		"date": "2026-06-24T18:19:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
-		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T18:15:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 SkillSpector AI agent 技能安全扫描器",
-		"url": "https://github.com/NVIDIA/SkillSpector",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T17:12:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "Penpot 开源设计与代码协作工具",
-		"url": "https://github.com/penpot/penpot",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T16:47:33Z",
 		"group": "gh"
 	},
 	{
@@ -84,13 +98,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T13:12:25Z",
-		"group": "gh"
-	},
-	{
 		"title": "Plane 发布开源项目管理平台",
 		"url": "https://github.com/makeplane/plane",
 		"source": "GitHub Trending",
@@ -109,13 +116,6 @@
 		"url": "https://github.com/DeusData/codebase-memory-mcp",
 		"source": "GitHub Trending",
 		"date": "2026-06-24T06:35:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-06-24T06:12:44Z",
 		"group": "gh"
 	},
 	{
@@ -548,6 +548,13 @@
 	{
 		"title": "xAI 推出 Grok for PowerPoint 插件",
 		"url": "https://x.ai/news/introducing-powerpoint-addin",
+		"source": "xAI",
+		"date": "2026-06-16T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Imagine Video 1.5",
+		"url": "https://x.ai/news/grok-imagine-video-1-5",
 		"source": "xAI",
 		"date": "2026-06-16T00:00:00.000Z",
 		"group": "labs"
@@ -1211,6 +1218,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布内部编码 agent 内部监控方法公开",
+		"url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT-5.4-Cyber 网络安全防御模型",
 		"url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
 		"source": "OpenAI",
@@ -1311,13 +1325,6 @@
 	{
 		"title": "OpenAI 发布 GPT 开源模型卡",
 		"url": "https://openai.com/index/gpt-oss-model-card/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布内部编码 agent 内部监控方法公开",
-		"url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
