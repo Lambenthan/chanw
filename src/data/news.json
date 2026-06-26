@@ -3,43 +3,71 @@
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-06-25T19:45:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
-		"url": "https://github.com/DeusData/codebase-memory-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-06-25T19:42:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "Apple 开源容器工具 container，在 Mac 上运行 Linux 容器",
-		"url": "https://github.com/apple/container",
-		"source": "GitHub Trending",
-		"date": "2026-06-25T19:40:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-25T19:32:14Z",
+		"date": "2026-06-26T02:25:40Z",
 		"group": "gh"
 	},
 	{
 		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
 		"url": "https://github.com/xbtlin/ai-berkshire",
 		"source": "GitHub Trending",
-		"date": "2026-06-25T19:08:12Z",
+		"date": "2026-06-26T02:04:45Z",
 		"group": "gh"
+	},
+	{
+		"title": "Apple 开源容器工具 container，在 Mac 上运行 Linux 容器",
+		"url": "https://github.com/apple/container",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T00:50:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T00:28:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 支持一条命令在 HF Jobs 上运行 vLLM 服务器",
+		"url": "https://huggingface.co/blog/vllm-jobs",
+		"source": "Hugging Face Blog",
+		"date": "2026-06-26T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T23:49:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T23:25:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Agent Toolkit，集成开放模型、工具、技能与安全运行时",
+		"url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-06-25T22:27:28.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "TREK 开源自托管旅行规划器，支持实时协作与交互地图",
 		"url": "https://github.com/mauriceboe/TREK",
 		"source": "GitHub Trending",
-		"date": "2026-06-25T18:33:41Z",
+		"date": "2026-06-25T21:59:11Z",
 		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Blackwell 在 MLPerf Training 6.0 中的训练基准成绩",
+		"url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+		"source": "NVIDIA",
+		"date": "2026-06-25T21:58:19.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Iroh：基于公钥的 Rust 模块化网络栈开源",
@@ -147,13 +175,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-25T00:27:10Z",
-		"group": "gh"
-	},
-	{
 		"title": "every-app 开源 Open SEO，替代 Semrush 和 Ahrefs",
 		"url": "https://github.com/every-app/open-seo",
 		"source": "GitHub Trending",
@@ -243,13 +264,6 @@
 		"source": "GitHub Trending",
 		"date": "2026-06-23T18:50:53Z",
 		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 发布 Agent Toolkit，集成开放模型、工具、技能与安全运行时",
-		"url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-06-23T13:00:07.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "IBM Research 发布 CUGA 轻量级 agent 框架及 24 个示例应用",
@@ -578,13 +592,6 @@
 		"url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
 		"source": "NVIDIA",
 		"date": "2026-06-16T21:49:15.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Blackwell 在 MLPerf Training 6.0 中的训练基准成绩",
-		"url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-		"source": "NVIDIA",
-		"date": "2026-06-16T20:34:02.000Z",
 		"group": "labs"
 	},
 	{
@@ -1684,13 +1691,6 @@
 		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
 		"source": "Google AI",
 		"date": "2026-05-20T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Allen AI 发布 OlmoEarth v1.1 地球观测模型系列",
-		"url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-		"source": "Hugging Face Blog",
-		"date": "2026-05-19T18:38:09.000Z",
 		"group": "labs"
 	},
 	{
