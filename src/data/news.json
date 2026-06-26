@@ -1,58 +1,107 @@
 [
 	{
-		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
-		"url": "https://github.com/xbtlin/ai-berkshire",
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
 		"source": "GitHub Trending",
-		"date": "2026-06-26T14:06:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "mukul975 开源 754 个结构化网络安全 skill，适配 Claude Code 等 20+ 平台",
-		"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-26T14:06:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kong 开源 Insomnia API 客户端",
-		"url": "https://github.com/Kong/insomnia",
-		"source": "GitHub Trending",
-		"date": "2026-06-26T14:05:35Z",
+		"date": "2026-06-26T19:31:36Z",
 		"group": "gh"
 	},
 	{
 		"title": "BuilderIO 发布 agent-native 框架",
 		"url": "https://github.com/BuilderIO/agent-native",
 		"source": "GitHub Trending",
-		"date": "2026-06-26T14:05:29Z",
+		"date": "2026-06-26T19:29:58Z",
 		"group": "gh"
 	},
 	{
-		"title": "SimpleX 发布无用户标识的隐私消息网络",
-		"url": "https://github.com/simplex-chat/simplex-chat",
+		"title": "Grafana 更新开源可观测性与数据可视化平台",
+		"url": "https://github.com/grafana/grafana",
 		"source": "GitHub Trending",
-		"date": "2026-06-26T13:57:55Z",
+		"date": "2026-06-26T19:29:42Z",
 		"group": "gh"
 	},
 	{
-		"title": "TREK 开源自托管旅行规划器，支持实时协作与交互地图",
-		"url": "https://github.com/mauriceboe/TREK",
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-06-26T13:57:22Z",
+		"date": "2026-06-26T19:24:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kong 开源 Insomnia API 客户端",
+		"url": "https://github.com/Kong/insomnia",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T19:20:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "no-mistakes 开源 Git 推送安全工具",
+		"url": "https://github.com/kunchenguid/no-mistakes",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T18:55:49Z",
 		"group": "gh"
 	},
 	{
 		"title": "Penpot 开源设计与代码协作工具",
 		"url": "https://github.com/penpot/penpot",
 		"source": "GitHub Trending",
-		"date": "2026-06-26T13:52:16Z",
+		"date": "2026-06-26T18:48:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 XR AI",
+		"url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+		"source": "NVIDIA",
+		"date": "2026-06-26T18:39:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "TREK 开源自托管旅行规划器，支持实时协作与交互地图",
+		"url": "https://github.com/mauriceboe/TREK",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T17:55:42Z",
 		"group": "gh"
 	},
 	{
 		"title": "Stirling PDF 发布跨平台 PDF 编辑应用",
 		"url": "https://github.com/Stirling-Tools/Stirling-PDF",
 		"source": "GitHub Trending",
-		"date": "2026-06-26T13:48:24Z",
+		"date": "2026-06-26T17:19:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
+		"url": "https://github.com/xbtlin/ai-berkshire",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T17:04:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "SimpleX 发布无用户标识的隐私消息网络",
+		"url": "https://github.com/simplex-chat/simplex-chat",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T15:42:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "AWS 发布 Agent Toolkit for AWS 支持 AI agent 构建",
+		"url": "https://github.com/aws/agent-toolkit-for-aws",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T15:26:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T14:55:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "mukul975 开源 754 个结构化网络安全 skill，适配 Claude Code 等 20+ 平台",
+		"url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T14:37:50Z",
 		"group": "gh"
 	},
 	{
@@ -91,6 +140,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 测评 LLM 开发漏洞利用的能力",
+		"url": "https://www.anthropic.com/research/exploit-evals",
+		"source": "Anthropic Research",
+		"date": "2026-06-26T12:30:07.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Mythos 预览",
 		"url": "https://www.anthropic.com/research/mythos-preview",
 		"source": "Anthropic Research",
@@ -112,20 +168,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
-		"url": "https://github.com/DeusData/codebase-memory-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-06-26T11:50:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-06-26T10:48:53Z",
-		"group": "gh"
-	},
-	{
 		"title": "opendatalab 开源 MinerU 文档转换工具",
 		"url": "https://github.com/opendatalab/MinerU",
 		"source": "GitHub Trending",
@@ -137,13 +179,6 @@
 		"url": "https://github.com/commaai/openpilot",
 		"source": "GitHub Trending",
 		"date": "2026-06-26T10:04:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "asgeirtj 开源系统提示词泄露合集，覆盖 Claude、GPT、Gemini 等模型",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-06-26T00:28:13Z",
 		"group": "gh"
 	},
 	{
@@ -166,13 +201,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-25T21:58:19.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "AWS 发布 Agent Toolkit for AWS 支持 AI agent 构建",
-		"url": "https://github.com/aws/agent-toolkit-for-aws",
-		"source": "GitHub Trending",
-		"date": "2026-06-25T18:23:03Z",
-		"group": "gh"
 	},
 	{
 		"title": "gstack 开源 Garry Tan 的 Claude Code 工具集",
@@ -273,13 +301,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 发布 XR AI",
-		"url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
-		"source": "NVIDIA",
-		"date": "2026-06-23T21:03:26.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "IBM Research 发布 CUGA 轻量级 agent 框架及 24 个示例应用",
 		"url": "https://huggingface.co/blog/ibm-research/cuga-apps",
 		"source": "Hugging Face Blog",
@@ -375,6 +396,20 @@
 		"url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-18T18:13:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 预览 GPT-5.6 Sol",
+		"url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+		"source": "OpenAI",
+		"date": "2026-06-18T17:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-5.6 Sol",
+		"url": "https://openai.com/index/previewing-gpt-5-6-sol",
+		"source": "OpenAI",
+		"date": "2026-06-18T17:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1571,13 +1606,6 @@
 		"title": "Mistral 在 Studio 中内置 MCP 支持并开放自定义 MCP",
 		"url": "https://mistral.ai/news/connectors/",
 		"source": "Mistral",
-		"date": "2026-05-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 测评 LLM 开发漏洞利用的能力",
-		"url": "https://www.anthropic.com/research/exploit-evals",
-		"source": "Anthropic Research",
 		"date": "2026-05-22T00:00:00.000Z",
 		"group": "labs"
 	},
