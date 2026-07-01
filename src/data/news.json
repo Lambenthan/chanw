@@ -3,14 +3,140 @@
 		"title": "BuilderIO 发布 agent-native 框架",
 		"url": "https://github.com/BuilderIO/agent-native",
 		"source": "GitHub Trending",
-		"date": "2026-07-01T14:09:27Z",
+		"date": "2026-07-01T19:43:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源设计系统 Astryx",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T19:41:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T19:40:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google Labs 发布 DESIGN.md 视觉身份描述规范",
+		"url": "https://github.com/google-labs-code/design.md",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T19:38:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "CoreBunch 开源 Instatic 自托管可视化 CMS",
+		"url": "https://github.com/CoreBunch/Instatic",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T19:37:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "SimpleX 发布无用户标识的隐私消息网络",
+		"url": "https://github.com/simplex-chat/simplex-chat",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T19:36:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Fable 5 和 Claude Mythos 5",
+		"url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+		"source": "Anthropic News",
+		"date": "2026-07-01T19:34:43.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T19:33:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T19:25:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Tolaria 开源桌面端 Markdown 知识库管理工具",
+		"url": "https://github.com/refactoringhq/tolaria",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T19:20:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
+		"url": "https://github.com/alibaba/page-agent",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T19:13:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
+		"url": "https://github.com/xbtlin/ai-berkshire",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T18:01:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Science AI Workbench",
+		"url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+		"source": "Anthropic News",
+		"date": "2026-07-01T17:37:46.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "msitarzewski 开源 agency-agents 多智能体框架",
+		"url": "https://github.com/msitarzewski/agency-agents",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T17:23:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Vision AI Agent Skills 集成 Omniverse 与 Metropolis",
+		"url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
+		"source": "NVIDIA",
+		"date": "2026-07-01T16:41:18.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 实现推理软件最低 token 成本",
+		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+		"source": "NVIDIA",
+		"date": "2026-07-01T16:31:32.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Robbyant 开源 lingbot-map 3D 场景重建基础模型",
+		"url": "https://github.com/Robbyant/lingbot-map",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T16:21:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cognee 开源 AI 记忆平台，为 agent 提供持久长期记忆",
+		"url": "https://github.com/topoteretes/cognee",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T15:51:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "MediaCrawler 开源多平台社交媒体爬虫工具",
 		"url": "https://github.com/NanmiCoder/MediaCrawler",
 		"source": "GitHub Trending",
-		"date": "2026-07-01T14:07:16Z",
+		"date": "2026-07-01T15:33:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "FluidVoice 开源 macOS 离线语音转文字应用",
+		"url": "https://github.com/altic-dev/FluidVoice",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T14:56:12Z",
 		"group": "gh"
 	},
 	{
@@ -21,73 +147,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Tolaria 开源桌面端 Markdown 知识库管理工具",
-		"url": "https://github.com/refactoringhq/tolaria",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T14:01:51Z",
-		"group": "gh"
-	},
-	{
 		"title": "TencentCloud 开源 CubeSandbox 沙箱，面向 AI Agent",
 		"url": "https://github.com/TencentCloud/CubeSandbox",
 		"source": "GitHub Trending",
 		"date": "2026-07-01T13:54:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "mauriceboe 开源 TREK 自托管旅行规划工具",
-		"url": "https://github.com/mauriceboe/TREK",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T13:52:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "CoreBunch 开源 Instatic 自托管可视化 CMS",
-		"url": "https://github.com/CoreBunch/Instatic",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T13:49:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "SimpleX 发布无用户标识的隐私消息网络",
-		"url": "https://github.com/simplex-chat/simplex-chat",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T13:49:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cognee 开源 AI 记忆平台，为 agent 提供持久长期记忆",
-		"url": "https://github.com/topoteretes/cognee",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T13:40:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T13:36:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T13:14:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
-		"url": "https://github.com/xbtlin/ai-berkshire",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T12:56:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "Facebook 开源设计系统 Astryx",
-		"url": "https://github.com/facebook/astryx",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T12:51:46Z",
 		"group": "gh"
 	},
 	{
@@ -98,13 +161,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
-		"url": "https://github.com/DeusData/codebase-memory-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T11:42:20Z",
-		"group": "gh"
-	},
-	{
 		"title": "ripienaar 更新 free-for-dev 免费服务列表",
 		"url": "https://github.com/ripienaar/free-for-dev",
 		"source": "GitHub Trending",
@@ -112,24 +168,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "FluidVoice 开源 macOS 离线语音转文字应用",
-		"url": "https://github.com/altic-dev/FluidVoice",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T10:09:34Z",
-		"group": "gh"
-	},
-	{
 		"title": "herdr 开源终端 agent 多路复用器",
 		"url": "https://github.com/ogulcancelik/herdr",
 		"source": "GitHub Trending",
 		"date": "2026-07-01T09:29:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
-		"url": "https://github.com/alibaba/page-agent",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T09:13:17Z",
 		"group": "gh"
 	},
 	{
@@ -161,24 +203,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 实现推理软件最低 token 成本",
-		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
-		"source": "NVIDIA",
-		"date": "2026-06-30T20:15:33.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 联合 Palantir 面向美国机构发布 Nemotron 开放模型",
 		"url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
 		"source": "NVIDIA",
 		"date": "2026-06-30T18:57:35.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Science AI Workbench",
-		"url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-		"source": "Anthropic News",
-		"date": "2026-06-30T18:43:57.000Z",
 		"group": "labs"
 	},
 	{
@@ -200,20 +228,6 @@
 		"url": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
 		"source": "NVIDIA",
 		"date": "2026-06-30T17:01:08.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "msitarzewski 开源 agency-agents 多智能体框架",
-		"url": "https://github.com/msitarzewski/agency-agents",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T16:24:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 发布 Vision AI Agent Skills 集成 Omniverse 与 Metropolis",
-		"url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
-		"source": "NVIDIA",
-		"date": "2026-06-30T16:17:15.000Z",
 		"group": "labs"
 	},
 	{
@@ -369,13 +383,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-25T16:27:15.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Robbyant 开源 lingbot-map 3D 场景重建基础模型",
-		"url": "https://github.com/Robbyant/lingbot-map",
-		"source": "GitHub Trending",
-		"date": "2026-06-25T15:03:12Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 助力法国推动欧洲 AI 发展",
@@ -735,6 +742,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 将 Grok 模型接入 Amazon Bedrock",
+		"url": "https://x.ai/news/grok-amazon-bedrock",
+		"source": "xAI",
+		"date": "2026-06-17T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 在首尔开设办公室并宣布韩国 AI 生态合作",
 		"url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
 		"source": "Anthropic News",
@@ -770,17 +784,24 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google Labs 发布 DESIGN.md 视觉身份描述规范",
-		"url": "https://github.com/google-labs-code/design.md",
-		"source": "GitHub Trending",
-		"date": "2026-06-15T22:22:46Z",
-		"group": "gh"
+		"title": "xAI 发布 Grok Imagine Video 1.5",
+		"url": "https://x.ai/news/grok-imagine-video-1-5",
+		"source": "xAI",
+		"date": "2026-06-16T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Fable 5 和 Claude Mythos 5",
-		"url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-		"source": "Anthropic News",
-		"date": "2026-06-13T02:30:15.000Z",
+		"title": "xAI 在 Grok Build 中推出 Agent Dashboard",
+		"url": "https://x.ai/news/agent-dashboard",
+		"source": "xAI",
+		"date": "2026-06-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 集成到 Warp 终端",
+		"url": "https://x.ai/news/grok-warp",
+		"source": "xAI",
+		"date": "2026-06-15T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -896,6 +917,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 推出 Grok Build 插件市场",
+		"url": "https://x.ai/news/grok-plugin-marketplace",
+		"source": "xAI",
+		"date": "2026-06-11T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "PyTorch 发布从 nn.Linear 到融合 MLP 的性能分析教程",
 		"url": "https://huggingface.co/blog/torch-mlp-fusion",
 		"source": "Hugging Face Blog",
@@ -931,6 +959,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 为 eToro 的 AI 代理 Tori 提供实时市场情绪",
+		"url": "https://x.ai/news/grok-etoro",
+		"source": "xAI",
+		"date": "2026-06-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 在塞拉利昂开展 AI 辅助学习随机对照试验",
 		"url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
 		"source": "DeepMind",
@@ -955,6 +990,13 @@
 		"title": "DeepMind 发布欧洲机器人技术发展计划",
 		"url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
 		"source": "DeepMind",
+		"date": "2026-06-09T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 为 Gopuff 的 Go agent 接入 Grok 多模态模型",
+		"url": "https://x.ai/news/grok-gopuff",
+		"source": "xAI",
 		"date": "2026-06-09T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1169,6 +1211,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Grok Imagine 1.5 Preview 图像转视频模型",
+		"url": "https://x.ai/news/grok-imagine-1-5",
+		"source": "xAI",
+		"date": "2026-06-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Reachy Mini 接入 MCP 工具集成",
 		"url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
 		"source": "Hugging Face Blog",
@@ -1179,6 +1228,13 @@
 		"title": "Anthropic 发布 LLM ATT&CK Navigator 映射 AI 网络威胁",
 		"url": "https://www.anthropic.com/research/attack-navigator",
 		"source": "Anthropic Research",
+		"date": "2026-06-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 语音能力接入 Vapi 平台",
+		"url": "https://x.ai/news/grok-vapi",
+		"source": "xAI",
 		"date": "2026-06-03T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1288,6 +1344,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Composer 2.5",
+		"url": "https://x.ai/news/composer-2-5",
+		"source": "xAI",
+		"date": "2026-06-01T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Google 发布 Gemini Omni 与 Gemini 3.5 能力演示视频",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
 		"source": "Google AI",
@@ -1298,6 +1361,13 @@
 		"title": "滑铁卢大学展示 Futures Lab AI 原型",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
 		"source": "Google AI",
+		"date": "2026-05-29T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Build 0.1 代码模型",
+		"url": "https://x.ai/news/grok-build-0-1",
+		"source": "xAI",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1624,16 +1694,16 @@
 		"group": "labs"
 	},
 	{
-		"title": "Reachy Mini 实现完全本地化运行",
-		"url": "https://huggingface.co/blog/local-reachy-mini-conversation",
-		"source": "Hugging Face Blog",
+		"title": "Mistral 发布物理 AI 研究进展",
+		"url": "https://mistral.ai/news/physics-ai-research/",
+		"source": "Mistral",
 		"date": "2026-05-27T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "Mistral 发布物理 AI 研究进展",
-		"url": "https://mistral.ai/news/physics-ai-research/",
-		"source": "Mistral",
+		"title": "xAI 将 Grok 接入 Kilo Code 编程平台",
+		"url": "https://x.ai/news/grok-kilocode",
+		"source": "xAI",
 		"date": "2026-05-27T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1656,6 +1726,13 @@
 		"url": "https://www.anthropic.com/research/coding-agents-social-sciences",
 		"source": "Anthropic Research",
 		"date": "2026-05-26T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Build 终端编程 agent",
+		"url": "https://x.ai/news/grok-build-cli",
+		"source": "xAI",
+		"date": "2026-05-25T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1719,6 +1796,13 @@
 		"url": "https://www.anthropic.com/research/glasswing-initial-update",
 		"source": "Anthropic Research",
 		"date": "2026-05-21T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 接入 OpenCode",
+		"url": "https://x.ai/news/grok-opencode",
+		"source": "xAI",
+		"date": "2026-05-21T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1988,13 +2072,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google Workspace 新增语音能力并推出 Google Pics 设计工具",
-		"url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
-		"source": "Google AI",
-		"date": "2026-05-19T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 推出 Project Genie 街景驱动场景生成能力",
 		"url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
 		"source": "DeepMind",
@@ -2055,6 +2132,20 @@
 		"url": "https://openai.com/index/gpt-5-2-for-science-and-math/",
 		"source": "OpenAI",
 		"date": "2026-05-18T02:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 为 Grok 推出 Skills 功能",
+		"url": "https://x.ai/news/grok-skills",
+		"source": "xAI",
+		"date": "2026-05-18T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 接入 Hermes Agent",
+		"url": "https://x.ai/news/grok-hermes",
+		"source": "xAI",
+		"date": "2026-05-15T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2240,6 +2331,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 为 Grok 推出跨平台 Connectors 集成功能",
+		"url": "https://x.ai/news/grok-connectors",
+		"source": "xAI",
+		"date": "2026-05-06T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 推出 Grok Imagine Quality Mode API",
+		"url": "https://x.ai/news/grok-imagine-quality-mode",
+		"source": "xAI",
+		"date": "2026-05-06T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 ChatGPT 公平性评估报告",
 		"url": "https://openai.com/index/evaluating-fairness-in-chatgpt/",
 		"source": "OpenAI",
@@ -2310,6 +2415,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布自定义语音与语音库",
+		"url": "https://x.ai/news/grok-custom-voices",
+		"source": "xAI",
+		"date": "2026-04-30T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 在 GTC 2026 展示 RTX AI Garage 项目 Nemoclaw",
 		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-gtc-2026-nemoclaw/",
 		"source": "NVIDIA",
@@ -2366,6 +2478,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Grok Voice Think Fast 1.0 语音 Agent",
+		"url": "https://x.ai/news/grok-voice-think-fast-1",
+		"source": "xAI",
+		"date": "2026-04-23T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 与 Google Cloud 合作推出 Agentic Physical AI 工厂方案",
 		"url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
 		"source": "NVIDIA",
@@ -2391,6 +2510,13 @@
 		"url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
 		"source": "Anthropic News",
 		"date": "2026-04-17T14:58:21.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 推出 Grok 语音识别与语音合成 API",
+		"url": "https://x.ai/news/grok-stt-and-tts-apis",
+		"source": "xAI",
+		"date": "2026-04-17T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2503,13 +2629,6 @@
 		"url": "https://blogs.nvidia.com/blog/sparsity-ai-inference/",
 		"source": "NVIDIA",
 		"date": "2026-04-03T00:10:03.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 RTX AI Garage 开放 Google Gemma 4 模型",
-		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
-		"source": "NVIDIA",
-		"date": "2026-04-02T16:22:47.000Z",
 		"group": "labs"
 	}
 ]
