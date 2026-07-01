@@ -3,35 +3,98 @@
 		"title": "BuilderIO 发布 agent-native 框架",
 		"url": "https://github.com/BuilderIO/agent-native",
 		"source": "GitHub Trending",
-		"date": "2026-06-30T19:44:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "Facebook 开源设计系统 Astryx",
-		"url": "https://github.com/facebook/astryx",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T19:43:56Z",
+		"date": "2026-07-01T02:38:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
 		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-06-30T19:37:08Z",
+		"date": "2026-07-01T02:37:21Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-06-30T19:30:43Z",
+		"date": "2026-07-01T02:33:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "no-mistakes 开源 Git 推送安全工具",
+		"url": "https://github.com/kunchenguid/no-mistakes",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T01:23:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "CoreBunch 开源 Instatic 自托管可视化 CMS",
+		"url": "https://github.com/CoreBunch/Instatic",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T01:17:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T00:48:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "browser-use 发布 video-use 视频编辑编程 agent 工具",
+		"url": "https://github.com/browser-use/video-use",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T00:33:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源设计系统 Astryx",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-06-30T23:48:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "Roboflow 开源 Supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
+		"source": "GitHub Trending",
+		"date": "2026-06-30T23:28:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "jamiepine 开源 AI 语音工作室 Voicebox",
+		"url": "https://github.com/jamiepine/voicebox",
+		"source": "GitHub Trending",
+		"date": "2026-06-30T22:43:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "SimpleX 发布无用户标识的隐私消息网络",
+		"url": "https://github.com/simplex-chat/simplex-chat",
+		"source": "GitHub Trending",
+		"date": "2026-06-30T22:23:32Z",
 		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Claude Sonnet 5",
 		"url": "https://www.anthropic.com/news/claude-sonnet-5",
 		"source": "Anthropic News",
-		"date": "2026-06-30T19:28:48.000Z",
+		"date": "2026-06-30T21:20:30.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "mauriceboe 开源 TREK 自托管旅行规划工具",
+		"url": "https://github.com/mauriceboe/TREK",
+		"source": "GitHub Trending",
+		"date": "2026-06-30T20:59:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 实现推理软件最低 token 成本",
+		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+		"source": "NVIDIA",
+		"date": "2026-06-30T20:15:33.000Z",
 		"group": "labs"
 	},
 	{
@@ -47,20 +110,6 @@
 		"source": "Anthropic News",
 		"date": "2026-06-30T18:43:57.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "obra 开源 Superpowers agentic skills 框架与软件开发方法论",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T18:40:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "SimpleX 发布无用户标识的隐私消息网络",
-		"url": "https://github.com/simplex-chat/simplex-chat",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T18:39:09Z",
-		"group": "gh"
 	},
 	{
 		"title": "IBM 发布 ScarfBench 评测 AI Agent 迁移企业 Java 框架能力",
@@ -89,34 +138,6 @@
 		"source": "GitHub Trending",
 		"date": "2026-06-30T18:10:22Z",
 		"group": "gh"
-	},
-	{
-		"title": "CoreBunch 开源 Instatic 自托管可视化 CMS",
-		"url": "https://github.com/CoreBunch/Instatic",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T18:03:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "Roboflow 开源 Supervision 计算机视觉工具库",
-		"url": "https://github.com/roboflow/supervision",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T17:56:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "mauriceboe 开源 TREK 自托管旅行规划工具",
-		"url": "https://github.com/mauriceboe/TREK",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T17:34:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 实现推理软件最低 token 成本",
-		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
-		"source": "NVIDIA",
-		"date": "2026-06-30T17:20:11.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
@@ -193,20 +214,6 @@
 		"url": "https://github.com/ripienaar/free-for-dev",
 		"source": "GitHub Trending",
 		"date": "2026-06-30T09:12:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "no-mistakes 开源 Git 推送安全工具",
-		"url": "https://github.com/kunchenguid/no-mistakes",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T07:26:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "jamiepine 开源 AI 语音工作室 Voicebox",
-		"url": "https://github.com/jamiepine/voicebox",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T01:09:55Z",
 		"group": "gh"
 	},
 	{
@@ -403,6 +410,13 @@
 		"url": "https://huggingface.co/blog/ffasr-leaderboard",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-24T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布欧洲 AI 劳动力机会报告",
+		"url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+		"source": "OpenAI",
+		"date": "2026-06-23T13:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2126,13 +2140,6 @@
 		"source": "xAI",
 		"date": "2026-05-18T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "browser-use 发布 video-use 视频编辑编程 agent 工具",
-		"url": "https://github.com/browser-use/video-use",
-		"source": "GitHub Trending",
-		"date": "2026-05-15T06:39:02Z",
-		"group": "gh"
 	},
 	{
 		"title": "xAI 将 Grok 接入 Nous Research 的 Hermes Agent",
