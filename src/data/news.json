@@ -1,79 +1,142 @@
 [
 	{
-		"title": "Elasticsearch 开源分布式搜索引擎更新",
-		"url": "https://github.com/elastic/elasticsearch",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T13:42:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "哈佛大学开源机器学习系统课程《Machine Learning Systems》",
-		"url": "https://github.com/harvard-edge/cs249r_book",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T13:40:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "Facebook 开源 Astryx 设计系统",
-		"url": "https://github.com/facebook/astryx",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T13:38:08Z",
-		"group": "gh"
-	},
-	{
 		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
 		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T13:36:24Z",
+		"date": "2026-07-03T19:05:16Z",
 		"group": "gh"
 	},
 	{
-		"title": "Logto 开源认证与授权基础设施",
-		"url": "https://github.com/logto-io/logto",
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T13:34:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cognee 开源 AI 记忆平台，为 agent 提供持久长期记忆",
-		"url": "https://github.com/topoteretes/cognee",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T13:32:56Z",
+		"date": "2026-07-03T19:04:38Z",
 		"group": "gh"
 	},
 	{
 		"title": "PyTorch 更新张量与动态神经网络 Python 框架",
 		"url": "https://github.com/pytorch/pytorch",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T13:32:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "mauriceboe 开源 TREK 旅行规划器",
-		"url": "https://github.com/mauriceboe/TREK",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T13:27:15Z",
+		"date": "2026-07-03T19:03:16Z",
 		"group": "gh"
 	},
 	{
 		"title": "SimpleX 发布无用户标识的隐私消息网络",
 		"url": "https://github.com/simplex-chat/simplex-chat",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T13:22:46Z",
+		"date": "2026-07-03T19:02:38Z",
 		"group": "gh"
 	},
 	{
-		"title": "Apache Maven 发布核心版本更新",
-		"url": "https://github.com/apache/maven",
+		"title": "mauriceboe 开源 TREK 旅行规划器",
+		"url": "https://github.com/mauriceboe/TREK",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T13:08:05Z",
+		"date": "2026-07-03T19:02:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T18:51:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Elasticsearch 开源分布式搜索引擎更新",
+		"url": "https://github.com/elastic/elasticsearch",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T18:46:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "no-mistakes 开源 Git 推送安全工具",
+		"url": "https://github.com/kunchenguid/no-mistakes",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T18:45:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Supabase 更新 Postgres 开发平台",
+		"url": "https://github.com/supabase/supabase",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T18:43:42Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T12:56:29Z",
+		"date": "2026-07-03T18:43:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源 Astryx 设计系统",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T18:42:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
+		"url": "https://github.com/xbtlin/ai-berkshire",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T18:34:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "哈佛大学开源机器学习系统课程《Machine Learning Systems》",
+		"url": "https://github.com/harvard-edge/cs249r_book",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T18:10:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 开源 Claude Code 终端编程工具",
+		"url": "https://github.com/anthropics/claude-code",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T16:52:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 CubeSandbox AI agent 沙箱",
+		"url": "https://github.com/TencentCloud/CubeSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T16:40:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
+		"url": "https://github.com/alibaba/page-agent",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T16:27:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cognee 开源 AI 记忆平台，为 agent 提供持久长期记忆",
+		"url": "https://github.com/topoteretes/cognee",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T16:06:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "usestrix 开源 AI 渗透测试工具 Strix",
+		"url": "https://github.com/usestrix/strix",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T14:43:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "Logto 开源认证与授权基础设施",
+		"url": "https://github.com/logto-io/logto",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T14:05:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apache Maven 发布核心版本更新",
+		"url": "https://github.com/apache/maven",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T13:50:15Z",
 		"group": "gh"
 	},
 	{
@@ -81,13 +144,6 @@
 		"url": "https://github.com/rommapp/romm",
 		"source": "GitHub Trending",
 		"date": "2026-07-03T12:44:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
-		"url": "https://github.com/alibaba/page-agent",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T12:37:49Z",
 		"group": "gh"
 	},
 	{
@@ -112,38 +168,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "腾讯云开源 CubeSandbox AI agent 沙箱",
-		"url": "https://github.com/TencentCloud/CubeSandbox",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T09:55:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
-		"url": "https://github.com/xbtlin/ai-berkshire",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T08:56:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "no-mistakes 开源 Git 推送安全工具",
-		"url": "https://github.com/kunchenguid/no-mistakes",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T08:15:23Z",
-		"group": "gh"
-	},
-	{
 		"title": "Robbyant 开源 lingbot-map 3D 场景重建基础模型",
 		"url": "https://github.com/Robbyant/lingbot-map",
 		"source": "GitHub Trending",
 		"date": "2026-07-03T07:17:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "usestrix 开源 AI 渗透测试工具 Strix",
-		"url": "https://github.com/usestrix/strix",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T04:15:53Z",
 		"group": "gh"
 	},
 	{
@@ -152,27 +180,6 @@
 		"source": "Anthropic News",
 		"date": "2026-07-03T01:20:09.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T01:03:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 开源 Claude Code 终端编程工具",
-		"url": "https://github.com/anthropics/claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-07-02T23:35:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
-		"url": "https://github.com/DeusData/codebase-memory-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-02T22:12:45Z",
-		"group": "gh"
 	},
 	{
 		"title": "obra 开源 Superpowers agent 技能框架与开发方法论",
@@ -1327,6 +1334,13 @@
 		"url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-01T15:45:17.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 完成 H 轮融资",
+		"url": "https://www.anthropic.com/news/series-h",
+		"source": "Anthropic News",
+		"date": "2026-06-01T15:29:46.000Z",
 		"group": "labs"
 	},
 	{
