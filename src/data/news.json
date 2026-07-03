@@ -1,37 +1,128 @@
 [
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
+		"title": "Elasticsearch 开源分布式搜索引擎更新",
+		"url": "https://github.com/elastic/elasticsearch",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T08:51:51Z",
+		"date": "2026-07-03T13:42:35Z",
 		"group": "gh"
 	},
 	{
-		"title": "PyTorch 更新张量与动态神经网络 Python 框架",
-		"url": "https://github.com/pytorch/pytorch",
+		"title": "哈佛大学开源机器学习系统课程《Machine Learning Systems》",
+		"url": "https://github.com/harvard-edge/cs249r_book",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T08:48:57Z",
+		"date": "2026-07-03T13:40:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源 Astryx 设计系统",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T13:38:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T13:36:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "Logto 开源认证与授权基础设施",
+		"url": "https://github.com/logto-io/logto",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T13:34:08Z",
 		"group": "gh"
 	},
 	{
 		"title": "Cognee 开源 AI 记忆平台，为 agent 提供持久长期记忆",
 		"url": "https://github.com/topoteretes/cognee",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T08:47:11Z",
+		"date": "2026-07-03T13:32:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "PyTorch 更新张量与动态神经网络 Python 框架",
+		"url": "https://github.com/pytorch/pytorch",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T13:32:38Z",
 		"group": "gh"
 	},
 	{
 		"title": "mauriceboe 开源 TREK 旅行规划器",
 		"url": "https://github.com/mauriceboe/TREK",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T08:41:48Z",
+		"date": "2026-07-03T13:27:15Z",
 		"group": "gh"
 	},
 	{
 		"title": "SimpleX 发布无用户标识的隐私消息网络",
 		"url": "https://github.com/simplex-chat/simplex-chat",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T08:35:10Z",
+		"date": "2026-07-03T13:22:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apache Maven 发布核心版本更新",
+		"url": "https://github.com/apache/maven",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T13:08:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T12:56:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "rommapp 开源 ROM 管理器 Romm",
+		"url": "https://github.com/rommapp/romm",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T12:44:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
+		"url": "https://github.com/alibaba/page-agent",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T12:37:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chrome DevTools 发布 chrome-devtools-mcp 项目，为编程 agent 提供调试能力",
+		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T11:18:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 推出 Visible Extended Thinking 功能",
+		"url": "https://www.anthropic.com/news/visible-extended-thinking",
+		"source": "Anthropic News",
+		"date": "2026-07-03T10:15:42.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布负责任扩展政策",
+		"url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+		"source": "Anthropic News",
+		"date": "2026-07-03T10:15:38.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "腾讯云开源 CubeSandbox AI agent 沙箱",
+		"url": "https://github.com/TencentCloud/CubeSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T09:55:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
+		"url": "https://github.com/xbtlin/ai-berkshire",
+		"source": "GitHub Trending",
+		"date": "2026-07-03T08:56:54Z",
 		"group": "gh"
 	},
 	{
@@ -42,24 +133,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "ripienaar 更新 free-for-dev 免费服务列表",
-		"url": "https://github.com/ripienaar/free-for-dev",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T07:36:52Z",
-		"group": "gh"
-	},
-	{
 		"title": "Robbyant 开源 lingbot-map 3D 场景重建基础模型",
 		"url": "https://github.com/Robbyant/lingbot-map",
 		"source": "GitHub Trending",
 		"date": "2026-07-03T07:17:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-03T07:01:36Z",
 		"group": "gh"
 	},
 	{
@@ -84,10 +161,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Langflow 发布 AI agent 和工作流构建与部署工具",
-		"url": "https://github.com/langflow-ai/langflow",
+		"title": "Anthropic 开源 Claude Code 终端编程工具",
+		"url": "https://github.com/anthropics/claude-code",
 		"source": "GitHub Trending",
-		"date": "2026-07-03T00:48:10Z",
+		"date": "2026-07-02T23:35:18Z",
 		"group": "gh"
 	},
 	{
@@ -102,41 +179,6 @@
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
 		"date": "2026-07-02T21:58:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "哈佛大学开源机器学习系统课程《Machine Learning Systems》",
-		"url": "https://github.com/harvard-edge/cs249r_book",
-		"source": "GitHub Trending",
-		"date": "2026-07-02T21:36:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
-		"url": "https://github.com/alibaba/page-agent",
-		"source": "GitHub Trending",
-		"date": "2026-07-02T19:04:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "AWS 发布 Agent Toolkit for AWS 支持 AI agent 构建",
-		"url": "https://github.com/aws/agent-toolkit-for-aws",
-		"source": "GitHub Trending",
-		"date": "2026-07-02T17:31:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chrome DevTools 发布 chrome-devtools-mcp 项目，为编程 agent 提供调试能力",
-		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-02T16:30:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
-		"url": "https://github.com/xbtlin/ai-berkshire",
-		"source": "GitHub Trending",
-		"date": "2026-07-02T13:00:00Z",
 		"group": "gh"
 	},
 	{
@@ -175,6 +217,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Ansible 发布 IT 自动化平台",
+		"url": "https://github.com/ansible/ansible",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T18:49:55Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 发布 Claude Science AI Workbench",
 		"url": "https://www.anthropic.com/news/claude-science-ai-workbench",
 		"source": "Anthropic News",
@@ -201,13 +250,6 @@
 		"source": "NVIDIA",
 		"date": "2026-07-01T16:31:32.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "MediaCrawler 开源多平台社交媒体爬虫工具",
-		"url": "https://github.com/NanmiCoder/MediaCrawler",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T15:33:32Z",
-		"group": "gh"
 	},
 	{
 		"title": "craft-ai 开源 Craft Agents 多智能体框架",
@@ -263,13 +305,6 @@
 		"url": "https://github.com/actions/checkout",
 		"source": "GitHub Trending",
 		"date": "2026-06-30T14:34:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "hasaneyldrm 开源 433 项健身运动数据集",
-		"url": "https://github.com/hasaneyldrm/exercises-dataset",
-		"source": "GitHub Trending",
-		"date": "2026-06-30T10:19:40Z",
 		"group": "gh"
 	},
 	{
@@ -1379,20 +1414,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "affaan-m 开源 ECC Agent 性能优化系统",
-		"url": "https://github.com/affaan-m/ECC",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T11:45:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "HKUDS 开源 Vibe-Trading 个人交易 Agent",
-		"url": "https://github.com/HKUDS/Vibe-Trading",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T08:40:07Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
 		"url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations/",
 		"source": "OpenAI",
@@ -1727,13 +1748,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "santifer 发布 Career-Ops AI 求职系统，基于 Claude Code 实现 14 种技能模式",
-		"url": "https://github.com/santifer/career-ops",
-		"source": "GitHub Trending",
-		"date": "2026-05-25T09:52:42Z",
-		"group": "gh"
 	},
 	{
 		"title": "xAI 发布 Grok Build 终端编程 agent",
@@ -2133,13 +2147,6 @@
 		"source": "NVIDIA",
 		"date": "2026-05-18T17:04:59.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Agent-Reach 开源：AI agent 通过 CLI 读取搜索全网平台",
-		"url": "https://github.com/Panniantong/Agent-Reach",
-		"source": "GitHub Trending",
-		"date": "2026-05-18T12:39:22Z",
-		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布 GPT-5.2 Codex",
