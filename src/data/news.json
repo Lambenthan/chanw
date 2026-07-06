@@ -7,59 +7,108 @@
 		"group": "labs"
 	},
 	{
-		"title": "Immich 发布高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
+		"title": "firecrawl 开源 Firecrawl API，支持大规模网络搜索与内容抓取",
+		"url": "https://github.com/firecrawl/firecrawl",
 		"source": "GitHub Trending",
-		"date": "2026-07-06T15:02:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "usestrix 开源 AI 渗透测试工具 Strix",
-		"url": "https://github.com/usestrix/strix",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T14:38:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T14:37:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
-		"url": "https://github.com/xbtlin/ai-berkshire",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T14:33:53Z",
+		"date": "2026-07-06T19:44:18Z",
 		"group": "gh"
 	},
 	{
 		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
 		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-06T14:14:55Z",
+		"date": "2026-07-06T19:44:13Z",
 		"group": "gh"
 	},
 	{
-		"title": "firecrawl 开源 Firecrawl API，支持大规模网络搜索与内容抓取",
-		"url": "https://github.com/firecrawl/firecrawl",
+		"title": "msitarzewski 开源 agency-agents 多智能体框架",
+		"url": "https://github.com/msitarzewski/agency-agents",
 		"source": "GitHub Trending",
-		"date": "2026-07-06T13:33:04Z",
+		"date": "2026-07-06T19:43:08Z",
 		"group": "gh"
 	},
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
+		"title": "Immich 发布高性能自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
 		"source": "GitHub Trending",
-		"date": "2026-07-06T13:32:46Z",
+		"date": "2026-07-06T19:41:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T19:38:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "Gas Town 开源多 Agent 工作区管理器",
+		"url": "https://github.com/gastownhall/gastown",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T19:34:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodexBar 开源：查看 OpenAI Codex 和 Claude Code 使用统计",
+		"url": "https://github.com/steipete/CodexBar",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T19:18:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "alirezarezvani 开源 337 项 Claude Code 技能包",
+		"url": "https://github.com/alirezarezvani/claude-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T19:02:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
 		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-07-06T13:22:07Z",
+		"date": "2026-07-06T18:43:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T18:31:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
+		"url": "https://github.com/xbtlin/ai-berkshire",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T16:55:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T16:51:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 实现推理软件最低 token 成本",
+		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+		"source": "NVIDIA",
+		"date": "2026-07-06T16:40:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "usestrix 开源 AI 渗透测试工具 Strix",
+		"url": "https://github.com/usestrix/strix",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T15:45:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chrome DevTools 发布 MCP 协议，为 coding agent 提供浏览器调试能力",
+		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T15:02:41Z",
 		"group": "gh"
 	},
 	{
@@ -67,20 +116,6 @@
 		"url": "https://github.com/karakeep-app/karakeep",
 		"source": "GitHub Trending",
 		"date": "2026-07-06T13:05:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "Gas Town 开源多 Agent 工作区管理器",
-		"url": "https://github.com/gastownhall/gastown",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T12:42:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodexBar 开源：查看 OpenAI Codex 和 Claude Code 使用统计",
-		"url": "https://github.com/steipete/CodexBar",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T10:28:19Z",
 		"group": "gh"
 	},
 	{
@@ -119,13 +154,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "alirezarezvani 开源 337 项 Claude Code 技能包",
-		"url": "https://github.com/alirezarezvani/claude-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T07:10:24Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 发布 Kernels 重大更新",
 		"url": "https://huggingface.co/blog/revamped-kernels",
 		"source": "Hugging Face Blog",
@@ -133,24 +161,24 @@
 		"group": "labs"
 	},
 	{
-		"title": "msitarzewski 开源 agency-agents 多智能体框架",
-		"url": "https://github.com/msitarzewski/agency-agents",
-		"source": "GitHub Trending",
-		"date": "2026-07-05T22:25:10Z",
-		"group": "gh"
+		"title": "Anthropic 研究发现语言模型存在全局工作空间",
+		"url": "https://www.anthropic.com/research/global-workspace",
+		"source": "Anthropic Research",
+		"date": "2026-07-06T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Alberta 省政府使用 Claude 查找并修复政府系统网络安全漏洞",
+		"url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+		"source": "Anthropic News",
+		"date": "2026-07-06T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Starmel 开源 macOS 语音听写应用 OpenSuperWhisper",
 		"url": "https://github.com/Starmel/OpenSuperWhisper",
 		"source": "GitHub Trending",
 		"date": "2026-07-05T19:00:30Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-04T06:57:31Z",
 		"group": "gh"
 	},
 	{
@@ -214,13 +242,6 @@
 		"url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
 		"source": "NVIDIA",
 		"date": "2026-07-01T16:41:18.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 实现推理软件最低 token 成本",
-		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
-		"source": "NVIDIA",
-		"date": "2026-07-01T16:31:32.000Z",
 		"group": "labs"
 	},
 	{
@@ -354,6 +375,13 @@
 		"url": "https://www.anthropic.com/news/claude-corps",
 		"source": "Anthropic News",
 		"date": "2026-06-26T12:32:44.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DXC 将 Claude 集成到银行、航空等受监管行业系统",
+		"url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+		"source": "Anthropic News",
+		"date": "2026-06-26T12:32:30.000Z",
 		"group": "labs"
 	},
 	{
@@ -945,13 +973,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "DXC 将 Claude 集成到银行、航空等受监管行业系统",
-		"url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-		"source": "Anthropic News",
-		"date": "2026-06-11T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "BBVA 将 ChatGPT Enterprise 推广至 10 万员工",
 		"url": "https://openai.com/index/bbva",
 		"source": "OpenAI",
@@ -1306,13 +1327,6 @@
 		"url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
 		"source": "Anthropic News",
 		"date": "2026-06-01T15:59:13.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "JetBrains 发布 Mellum2 12B MoE 模型",
-		"url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-01T15:45:17.000Z",
 		"group": "labs"
 	},
 	{
@@ -2338,6 +2352,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "Anthropic 发布 Natural Language Autoencoders 研究",
+		"url": "https://www.anthropic.com/research/natural-language-autoencoders",
+		"source": "Anthropic Research",
+		"date": "2026-05-06T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 向开源社区捐赠 Petri 项目",
 		"url": "https://www.anthropic.com/research/donating-open-source-petri",
 		"source": "Anthropic Research",
@@ -2347,13 +2368,6 @@
 	{
 		"title": "Anthropic 公布研究所研究议程",
 		"url": "https://www.anthropic.com/research/anthropic-institute-agenda",
-		"source": "Anthropic Research",
-		"date": "2026-05-06T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Natural Language Autoencoders 研究",
-		"url": "https://www.anthropic.com/research/natural-language-autoencoders",
 		"source": "Anthropic Research",
 		"date": "2026-05-06T16:00:00.000Z",
 		"group": "labs"
