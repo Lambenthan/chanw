@@ -1,5 +1,82 @@
 [
 	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T02:08:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Immich 发布高性能自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T02:01:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "firecrawl 开源 Firecrawl API，支持大规模网络搜索与内容抓取",
+		"url": "https://github.com/firecrawl/firecrawl",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T01:49:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "usestrix 开源 AI 渗透测试工具 Strix",
+		"url": "https://github.com/usestrix/strix",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T01:19:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "alirezarezvani 开源 337 项 Claude Code 技能包",
+		"url": "https://github.com/alirezarezvani/claude-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T01:05:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T00:59:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T00:50:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T00:50:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodexBar 开源：查看 OpenAI Codex 和 Claude Code 使用统计",
+		"url": "https://github.com/steipete/CodexBar",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T00:27:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 项目收录多款 AI 模型系统提示词",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T00:25:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Gas Town 开源多 Agent 工作区管理器",
+		"url": "https://github.com/gastownhall/gastown",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T00:05:17Z",
+		"group": "gh"
+	},
+	{
 		"title": "Hugging Face 发布 LeRobot v0.6.0 机器人训练框架",
 		"url": "https://huggingface.co/blog/lerobot-release-v060",
 		"source": "Hugging Face Blog",
@@ -7,17 +84,52 @@
 		"group": "labs"
 	},
 	{
-		"title": "firecrawl 开源 Firecrawl API，支持大规模网络搜索与内容抓取",
-		"url": "https://github.com/firecrawl/firecrawl",
+		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
+		"url": "https://github.com/DeusData/codebase-memory-mcp",
 		"source": "GitHub Trending",
-		"date": "2026-07-06T19:44:18Z",
+		"date": "2026-07-06T23:55:20Z",
 		"group": "gh"
 	},
 	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"title": "Anthropic 为 Claude 构建安全防护措施",
+		"url": "https://www.anthropic.com/news/building-safeguards-for-claude",
+		"source": "Anthropic News",
+		"date": "2026-07-06T23:32:01.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "FluidVoice 发布 macOS 本地语音听写应用",
+		"url": "https://github.com/altic-dev/FluidVoice",
 		"source": "GitHub Trending",
-		"date": "2026-07-06T19:44:13Z",
+		"date": "2026-07-06T22:46:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T22:32:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
+		"url": "https://github.com/alibaba/page-agent",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T21:52:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "Starmel 开源 macOS 语音听写应用 OpenSuperWhisper",
+		"url": "https://github.com/Starmel/OpenSuperWhisper",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T20:46:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "Karakeep 开源自托管收藏应用，支持 AI 自动标签与全文搜索",
+		"url": "https://github.com/karakeep-app/karakeep",
+		"source": "GitHub Trending",
+		"date": "2026-07-06T20:04:11Z",
 		"group": "gh"
 	},
 	{
@@ -28,66 +140,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Immich 发布高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T19:41:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T19:38:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "Gas Town 开源多 Agent 工作区管理器",
-		"url": "https://github.com/gastownhall/gastown",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T19:34:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodexBar 开源：查看 OpenAI Codex 和 Claude Code 使用统计",
-		"url": "https://github.com/steipete/CodexBar",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T19:18:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "alirezarezvani 开源 337 项 Claude Code 技能包",
-		"url": "https://github.com/alirezarezvani/claude-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T19:02:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T18:43:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T18:31:00Z",
-		"group": "gh"
-	},
-	{
 		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
 		"url": "https://github.com/xbtlin/ai-berkshire",
 		"source": "GitHub Trending",
 		"date": "2026-07-06T16:55:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T16:51:28Z",
 		"group": "gh"
 	},
 	{
@@ -98,13 +154,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "usestrix 开源 AI 渗透测试工具 Strix",
-		"url": "https://github.com/usestrix/strix",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T15:45:30Z",
-		"group": "gh"
-	},
-	{
 		"title": "Chrome DevTools 发布 MCP 协议，为 coding agent 提供浏览器调试能力",
 		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
 		"source": "GitHub Trending",
@@ -112,45 +161,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Karakeep 开源自托管收藏应用，支持 AI 自动标签与全文搜索",
-		"url": "https://github.com/karakeep-app/karakeep",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T13:05:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
-		"url": "https://github.com/alibaba/page-agent",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T09:35:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
-		"url": "https://github.com/DeusData/codebase-memory-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T09:25:19Z",
-		"group": "gh"
-	},
-	{
 		"title": "Robbyant 开源 lingbot-map 3D 场景重建基础模型",
 		"url": "https://github.com/Robbyant/lingbot-map",
 		"source": "GitHub Trending",
 		"date": "2026-07-06T07:43:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "FluidVoice 发布 macOS 本地语音听写应用",
-		"url": "https://github.com/altic-dev/FluidVoice",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T07:36:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 项目收录多款 AI 模型系统提示词",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T07:18:17Z",
 		"group": "gh"
 	},
 	{
@@ -173,13 +187,6 @@
 		"source": "Anthropic News",
 		"date": "2026-07-06T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Starmel 开源 macOS 语音听写应用 OpenSuperWhisper",
-		"url": "https://github.com/Starmel/OpenSuperWhisper",
-		"source": "GitHub Trending",
-		"date": "2026-07-05T19:00:30Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 开源 speech-to-speech 语音 agent 框架",
@@ -661,6 +668,13 @@
 		"title": "Hugging Face 探讨 LoRA 之外的微调方法",
 		"url": "https://huggingface.co/blog/peft-beyond-lora",
 		"source": "Hugging Face Blog",
+		"date": "2026-06-18T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok for Word 插件",
+		"url": "https://x.ai/news/introducing-word-addin",
+		"source": "xAI",
 		"date": "2026-06-18T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1442,6 +1456,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 更新美国 CAISI 与英国 AISI 的 AI 治理进展",
+		"url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布内部编码 agent 内部监控方法公开",
 		"url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
 		"source": "OpenAI",
@@ -1549,13 +1570,6 @@
 	{
 		"title": "OpenAI 发布 GPT 开源模型卡",
 		"url": "https://openai.com/index/gpt-oss-model-card/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 更新美国 CAISI 与英国 AISI 的 AI 治理进展",
-		"url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
