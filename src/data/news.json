@@ -3,63 +3,98 @@
 		"title": "Immich 发布高性能自托管照片与视频管理方案",
 		"url": "https://github.com/immich-app/immich",
 		"source": "GitHub Trending",
-		"date": "2026-07-07T09:22:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chrome DevTools 发布 MCP 协议，为 coding agent 提供浏览器调试能力",
-		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T09:07:13Z",
+		"date": "2026-07-07T14:10:38Z",
 		"group": "gh"
 	},
 	{
 		"title": "DeusData 开源 Codebase Memory MCP 高性能代码智能服务器",
 		"url": "https://github.com/DeusData/codebase-memory-mcp",
 		"source": "GitHub Trending",
-		"date": "2026-07-07T08:50:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
-		"url": "https://github.com/alibaba/page-agent",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T08:41:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "Hugging Face 开源 speech-to-speech 语音 agent 框架",
-		"url": "https://github.com/huggingface/speech-to-speech",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T08:17:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T08:07:28Z",
+		"date": "2026-07-07T13:54:56Z",
 		"group": "gh"
 	},
 	{
 		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
 		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-07T08:05:26Z",
+		"date": "2026-07-07T13:49:53Z",
 		"group": "gh"
 	},
 	{
-		"title": "firecrawl 开源 Firecrawl API，支持大规模网络搜索与内容抓取",
-		"url": "https://github.com/firecrawl/firecrawl",
+		"title": "GitHub 项目收录多款 AI 模型系统提示词",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
 		"source": "GitHub Trending",
-		"date": "2026-07-07T07:18:48Z",
+		"date": "2026-07-07T13:28:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T13:27:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
+		"url": "https://github.com/alibaba/page-agent",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T13:08:36Z",
 		"group": "gh"
 	},
 	{
 		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
 		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-07-07T07:18:45Z",
+		"date": "2026-07-07T12:55:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "awesome-claude-code 收录 Claude Code 资源列表",
+		"url": "https://github.com/hesreallyhim/awesome-claude-code",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T12:51:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
+		"url": "https://github.com/TencentCloud/CubeSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T12:45:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
+		"url": "https://github.com/dotnet/skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T12:18:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chrome DevTools 发布 MCP 协议，为 coding agent 提供浏览器调试能力",
+		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T11:34:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 开源 speech-to-speech 语音 agent 框架",
+		"url": "https://github.com/huggingface/speech-to-speech",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T11:13:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T10:54:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodexBar 开源：查看 OpenAI Codex 和 Claude Code 使用统计",
+		"url": "https://github.com/steipete/CodexBar",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T10:35:26Z",
 		"group": "gh"
 	},
 	{
@@ -84,38 +119,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "GitHub 项目收录多款 AI 模型系统提示词",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T02:16:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "alirezarezvani 开源 337 项 Claude Code 技能包",
-		"url": "https://github.com/alirezarezvani/claude-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T01:05:13Z",
-		"group": "gh"
-	},
-	{
 		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-07-07T00:59:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodexBar 开源：查看 OpenAI Codex 和 Claude Code 使用统计",
-		"url": "https://github.com/steipete/CodexBar",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T00:27:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Gas Town 开源多 Agent 工作区管理器",
-		"url": "https://github.com/gastownhall/gastown",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T00:05:17Z",
 		"group": "gh"
 	},
 	{
@@ -131,27 +138,6 @@
 		"source": "Anthropic News",
 		"date": "2026-07-06T23:32:01.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T22:32:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Starmel 开源 macOS 语音听写应用 OpenSuperWhisper",
-		"url": "https://github.com/Starmel/OpenSuperWhisper",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T20:46:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "Karakeep 开源自托管收藏应用，支持 AI 自动标签与全文搜索",
-		"url": "https://github.com/karakeep-app/karakeep",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T20:04:11Z",
-		"group": "gh"
 	},
 	{
 		"title": "msitarzewski 开源 agency-agents 多智能体框架",
@@ -172,6 +158,13 @@
 		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
 		"source": "NVIDIA",
 		"date": "2026-07-06T16:40:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Photoroom 公开 PRX 项目数据策略",
+		"url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-06T15:30:55.000Z",
 		"group": "labs"
 	},
 	{
@@ -242,6 +235,13 @@
 		"url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
 		"source": "NVIDIA",
 		"date": "2026-07-01T22:05:56.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 重新部署 Fable 5 并联合提出越狱评分框架",
+		"url": "https://www.anthropic.com/news/redeploying-fable-5",
+		"source": "Anthropic News",
+		"date": "2026-07-01T19:40:52.000Z",
 		"group": "labs"
 	},
 	{
@@ -325,13 +325,6 @@
 		"title": "DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
 		"url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
 		"source": "DeepMind",
-		"date": "2026-06-30T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 重新部署 Fable 5 并联合提出越狱评分框架",
-		"url": "https://www.anthropic.com/news/redeploying-fable-5",
-		"source": "Anthropic News",
 		"date": "2026-06-30T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -536,6 +529,13 @@
 		"url": "https://github.com/openai/codex-plugin-cc",
 		"source": "GitHub Trending",
 		"date": "2026-06-23T17:36:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kyutai Labs 开源 Pocket-TTS 轻量级语音合成模型",
+		"url": "https://github.com/kyutai-labs/pocket-tts",
+		"source": "GitHub Trending",
+		"date": "2026-06-23T13:12:05Z",
 		"group": "gh"
 	},
 	{
@@ -1729,13 +1729,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "阿里巴巴开源轻量级进程内向量数据库 ZVector",
-		"url": "https://github.com/alibaba/zvec",
-		"source": "GitHub Trending",
-		"date": "2026-05-27T14:58:49Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenAI 通过核心转储分析修复 18 年历史的基础设施 Bug",
 		"url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
 		"source": "OpenAI",
@@ -1764,13 +1757,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "taste-skill 开源 AI 品味技能，阻止生成乏味内容",
-		"url": "https://github.com/Leonxlnx/taste-skill",
-		"source": "GitHub Trending",
-		"date": "2026-05-26T19:31:39Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenAI 推出独立研究 AI 对齐项目",
 		"url": "https://openai.com/index/advancing-independent-research-ai-alignment/",
 		"source": "OpenAI",
@@ -1797,13 +1783,6 @@
 		"source": "xAI",
 		"date": "2026-05-25T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "last30days-skill 开源跨平台 AI agent 研究技能",
-		"url": "https://github.com/mvanhorn/last30days-skill",
-		"source": "GitHub Trending",
-		"date": "2026-05-22T15:14:46Z",
-		"group": "gh"
 	},
 	{
 		"title": "Mistral 发布 Mistral Medium 3.5",
@@ -2219,6 +2198,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "AhmadIbrahiim 开源 Website-downloader 网站源码下载工具",
+		"url": "https://github.com/AhmadIbrahiim/Website-downloader",
+		"source": "GitHub Trending",
+		"date": "2026-05-15T17:34:36Z",
+		"group": "gh"
+	},
+	{
 		"title": "xAI 将 Grok 接入 Hermes Agent",
 		"url": "https://x.ai/news/grok-hermes",
 		"source": "xAI",
@@ -2371,13 +2357,6 @@
 		"source": "DeepMind",
 		"date": "2026-05-07T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "JCodesMore 开源 ai-website-cloner-template 一键克隆网站",
-		"url": "https://github.com/JCodesMore/ai-website-cloner-template",
-		"source": "GitHub Trending",
-		"date": "2026-05-07T09:11:26Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Natural Language Autoencoders 研究",
