@@ -1,9 +1,114 @@
 [
 	{
+		"title": "Immich 发布高性能自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T19:08:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T19:08:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T19:08:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
+		"url": "https://github.com/dotnet/skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T19:02:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T18:56:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Interviewer 面试评测工具",
+		"url": "https://www.anthropic.com/research/anthropic-interviewer",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T18:48:57.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T18:34:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "Argo CD 发布声明式持续部署工具",
+		"url": "https://github.com/argoproj/argo-cd",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T18:07:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 探讨面向 agent 的数据策略",
+		"url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-08T17:16:05.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Chrome DevTools 发布 MCP 协议，为 coding agent 提供浏览器调试能力",
+		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T17:01:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
+		"url": "https://github.com/xbtlin/ai-berkshire",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T16:45:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 项目收录多款 AI 模型系统提示词",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T16:28:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
+		"url": "https://github.com/iOfficeAI/OfficeCLI",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T15:48:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "Exercises-Dataset 开源 433 项健身动作数据集",
+		"url": "https://github.com/hasaneyldrm/exercises-dataset",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T15:40:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA Nemotron 3 Ultra 在 LangChain Deep Agents 上取得领先性能",
+		"url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+		"source": "NVIDIA",
+		"date": "2026-07-08T15:00:27.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "huxingyi 开源 Automatic Quad Remesher 自动四边形网格重划分工具",
 		"url": "https://github.com/huxingyi/autoremesher",
 		"source": "GitHub Trending",
-		"date": "2026-07-08T13:43:16Z",
+		"date": "2026-07-08T14:28:05Z",
 		"group": "gh"
 	},
 	{
@@ -14,24 +119,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
+		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
 		"source": "GitHub Trending",
-		"date": "2026-07-08T13:26:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "Argo CD 发布声明式持续部署工具",
-		"url": "https://github.com/argoproj/argo-cd",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T13:16:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "Immich 发布高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T13:07:03Z",
+		"date": "2026-07-08T12:57:35Z",
 		"group": "gh"
 	},
 	{
@@ -39,20 +130,6 @@
 		"url": "https://github.com/TencentCloud/CubeSandbox",
 		"source": "GitHub Trending",
 		"date": "2026-07-08T12:51:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T12:50:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T12:40:13Z",
 		"group": "gh"
 	},
 	{
@@ -70,20 +147,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Chrome DevTools 发布 MCP 协议，为 coding agent 提供浏览器调试能力",
-		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T11:47:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
-		"url": "https://github.com/xbtlin/ai-berkshire",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T10:45:39Z",
-		"group": "gh"
-	},
-	{
 		"title": "FluidVoice 发布 macOS 本地语音听写应用",
 		"url": "https://github.com/altic-dev/FluidVoice",
 		"source": "GitHub Trending",
@@ -98,38 +161,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
-		"url": "https://github.com/dotnet/skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T08:54:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "Exercises-Dataset 开源 433 项健身动作数据集",
-		"url": "https://github.com/hasaneyldrm/exercises-dataset",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T08:00:07Z",
-		"group": "gh"
-	},
-	{
 		"title": "alirezarezvani 开源 Claude Skills 技能集合，含 345 个技能与 30+ Agent",
 		"url": "https://github.com/alirezarezvani/claude-skills",
 		"source": "GitHub Trending",
 		"date": "2026-07-08T06:41:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
-		"url": "https://github.com/iOfficeAI/OfficeCLI",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T03:47:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 项目收录多款 AI 模型系统提示词",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T00:20:27Z",
 		"group": "gh"
 	},
 	{
@@ -140,18 +175,18 @@
 		"group": "gh"
 	},
 	{
+		"title": "Hugging Face 推出 vLLM transformers 建模后端实现原生速度",
+		"url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-08T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Hugging Face 一键部署至 Amazon SageMaker Studio",
 		"url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
 		"source": "Hugging Face Blog",
 		"date": "2026-07-07T21:15:33.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "ai-job-search 发布基于 Claude Code 的 AI 求职代理框架",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T17:41:23Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 与 Hugging Face 开源机器人学习模型与框架",
@@ -483,6 +518,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT Live",
+		"url": "https://openai.com/index/introducing-gpt-live/",
+		"source": "OpenAI",
+		"date": "2026-06-26T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "腾讯云开源 TencentDB Agent Memory 本地长期记忆方案",
 		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
 		"source": "GitHub Trending",
@@ -724,6 +766,13 @@
 		"title": "Anthropic 发布 Project Fetch 第二阶段",
 		"url": "https://www.anthropic.com/research/project-fetch-phase-two",
 		"source": "Anthropic Research",
+		"date": "2026-06-18T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 模型接入 Databricks 平台",
+		"url": "https://x.ai/news/grok-databricks",
+		"source": "xAI",
 		"date": "2026-06-18T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1057,13 +1106,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "BBVA 将 ChatGPT Enterprise 推广至 10 万员工",
-		"url": "https://openai.com/index/bbva",
-		"source": "OpenAI",
-		"date": "2026-06-11T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 更新英国主权 AI 进展",
 		"url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
 		"source": "NVIDIA",
@@ -1253,13 +1295,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 发布 Nemotron 3.5 Content Safety 多模态安全方案",
-		"url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-04T18:57:45.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 推出 Deployment Simulation 部署模拟工具",
 		"url": "https://openai.com/index/deployment-simulation/",
 		"source": "OpenAI",
@@ -1278,13 +1313,6 @@
 		"url": "https://openai.com/index/introducing-openai-partner-network",
 		"source": "OpenAI",
 		"date": "2026-06-04T09:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 hf CLI 的 agent 优化版本",
-		"url": "https://huggingface.co/blog/hf-cli-for-agents",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-04T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1755,6 +1783,13 @@
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "阿里巴巴开源 zvec 进程内向量数据库",
+		"url": "https://github.com/alibaba/zvec",
+		"source": "GitHub Trending",
+		"date": "2026-05-27T14:58:49Z",
+		"group": "gh"
 	},
 	{
 		"title": "OpenAI 通过核心转储分析修复 18 年历史的基础设施 Bug",
@@ -2685,13 +2720,6 @@
 		"url": "https://www.anthropic.com/news/healthcare-life-sciences",
 		"source": "Anthropic News",
 		"date": "2026-04-09T20:25:31.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布可信 Agent 研究报告",
-		"url": "https://www.anthropic.com/research/trustworthy-agents",
-		"source": "Anthropic Research",
-		"date": "2026-04-09T17:00:08.000Z",
 		"group": "labs"
 	}
 ]
