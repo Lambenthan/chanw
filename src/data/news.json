@@ -1,38 +1,283 @@
 [
 	{
-		"title": "Immich 发布高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T19:08:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T19:08:38Z",
-		"group": "gh"
-	},
-	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-08T19:08:28Z",
+		"date": "2026-07-09T02:01:55Z",
 		"group": "gh"
 	},
 	{
 		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
 		"url": "https://github.com/dotnet/skills",
 		"source": "GitHub Trending",
-		"date": "2026-07-08T19:02:46Z",
+		"date": "2026-07-09T02:01:42Z",
 		"group": "gh"
 	},
 	{
 		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
 		"url": "https://github.com/facebook/astryx",
 		"source": "GitHub Trending",
-		"date": "2026-07-08T18:56:54Z",
+		"date": "2026-07-09T01:48:17Z",
 		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T01:33:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Immich 发布高性能自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T01:09:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T00:47:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T00:36:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Earth-2 生成式 AI 全球气候公里级分辨率基础模型",
+		"url": "https://blogs.nvidia.com/blog/earth2-generative-ai-foundation-model-global-climate-kilometer-scale-resolution/",
+		"source": "NVIDIA",
+		"date": "2026-07-08T22:48:15.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布液态冷却 AI 工厂方案",
+		"url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+		"source": "NVIDIA",
+		"date": "2026-07-08T22:47:09.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 AI Earth-2 地球日更新",
+		"url": "https://blogs.nvidia.com/blog/ai-earth2-earth-day/",
+		"source": "NVIDIA",
+		"date": "2026-07-08T22:45:37.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 前沿红队发布 AI 风险进展与战略警告",
+		"url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
+		"source": "Anthropic News",
+		"date": "2026-07-08T22:43:38.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布经济政策应对研究",
+		"url": "https://www.anthropic.com/research/economic-policy-responses",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:43:16.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Agentic Misalignment 研究",
+		"url": "https://www.anthropic.com/research/agentic-misalignment",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:42:47.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布前沿威胁红队测试方法",
+		"url": "https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety",
+		"source": "Anthropic News",
+		"date": "2026-07-08T22:42:17.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 探讨 AI 问责路径",
+		"url": "https://www.anthropic.com/news/charting-a-path-to-ai-accountability",
+		"source": "Anthropic News",
+		"date": "2026-07-08T22:41:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 BioCLIP2 基础 AI 模型",
+		"url": "https://blogs.nvidia.com/blog/bioclip2-foundation-ai-model/",
+		"source": "NVIDIA",
+		"date": "2026-07-08T22:35:27.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 与 Eco Wave Power 合作推出 AI 数字孪生",
+		"url": "https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/",
+		"source": "NVIDIA",
+		"date": "2026-07-08T22:33:16.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T22:27:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 AI 安全核心观点",
+		"url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+		"source": "Anthropic News",
+		"date": "2026-07-08T22:23:46.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Tracing Thoughts 语言模型",
+		"url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:16:10.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Alignment Faking 研究报告",
+		"url": "https://www.anthropic.com/research/alignment-faking",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:15:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI Fluency Index 评测指标",
+		"url": "https://www.anthropic.com/research/AI-fluency-index",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:14:20.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Economic Index Primitives 经济指数基础指标",
+		"url": "https://www.anthropic.com/research/economic-index-primitives",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:08:50.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 辅助工作生产力提升估算研究",
+		"url": "https://www.anthropic.com/research/estimating-productivity-gains",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:07:23.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Economic Index Geography 报告",
+		"url": "https://www.anthropic.com/research/economic-index-geography",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:06:38.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Impact Software Development 研究",
+		"url": "https://www.anthropic.com/research/impact-software-development",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:05:40.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 系统去权模式研究",
+		"url": "https://www.anthropic.com/research/disempowerment-patterns",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:04:35.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI Assistance Coding Skills 研究",
+		"url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:03:46.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 网络防御者研究",
+		"url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T22:00:39.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Constitutional Classifiers",
+		"url": "https://www.anthropic.com/research/constitutional-classifiers",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T21:59:48.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Values Wild 价值观对齐研究",
+		"url": "https://www.anthropic.com/research/values-wild",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T21:58:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布模型说服力测量研究",
+		"url": "https://www.anthropic.com/research/measuring-model-persuasiveness",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T21:42:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Persona Vectors 研究发布",
+		"url": "https://www.anthropic.com/research/persona-vectors",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T21:35:26.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布自我反省能力研究 Introspection",
+		"url": "https://www.anthropic.com/research/introspection",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T21:34:31.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究揭示大模型涌现性奖励黑客行为",
+		"url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T21:33:46.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Biorisk 生物风险研究",
+		"url": "https://www.anthropic.com/research/biorisk",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T20:53:48.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "GitHub 项目收录多款 AI 模型系统提示词",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-07-08T20:41:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Assistant Axis",
+		"url": "https://www.anthropic.com/research/assistant-axis",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T20:11:22.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Persona Selection Model",
+		"url": "https://www.anthropic.com/research/persona-selection-model",
+		"source": "Anthropic Research",
+		"date": "2026-07-08T20:10:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Golden Gate Claude",
+		"url": "https://www.anthropic.com/news/golden-gate-claude",
+		"source": "Anthropic News",
+		"date": "2026-07-08T20:08:28.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布 Interviewer 面试评测工具",
@@ -40,13 +285,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-07-08T18:48:57.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T18:34:47Z",
-		"group": "gh"
 	},
 	{
 		"title": "Argo CD 发布声明式持续部署工具",
@@ -74,13 +312,6 @@
 		"url": "https://github.com/xbtlin/ai-berkshire",
 		"source": "GitHub Trending",
 		"date": "2026-07-08T16:45:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 项目收录多款 AI 模型系统提示词",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T16:28:33Z",
 		"group": "gh"
 	},
 	{
@@ -133,13 +364,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T12:22:57Z",
-		"group": "gh"
-	},
-	{
 		"title": "msitarzewski 开源 agency-agents 多智能体框架",
 		"url": "https://github.com/msitarzewski/agency-agents",
 		"source": "GitHub Trending",
@@ -178,6 +402,13 @@
 		"title": "Hugging Face 推出 vLLM transformers 建模后端实现原生速度",
 		"url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
 		"source": "Hugging Face Blog",
+		"date": "2026-07-08T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 提出 AI 模型双用知识关闭机制",
+		"url": "https://www.anthropic.com/research/off-switch-dual-use",
+		"source": "Anthropic Research",
 		"date": "2026-07-08T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -221,13 +452,6 @@
 		"url": "https://github.com/huggingface/speech-to-speech",
 		"source": "GitHub Trending",
 		"date": "2026-07-07T11:13:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T00:59:41Z",
 		"group": "gh"
 	},
 	{
@@ -420,6 +644,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布分离信号与噪声的编码评估方法",
+		"url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+		"source": "OpenAI",
+		"date": "2026-06-30T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 分析编程基准测试 SWE-Bench Pro 中的可靠性问题",
+		"url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+		"source": "OpenAI",
+		"date": "2026-06-30T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
 		"url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
 		"source": "DeepMind",
@@ -459,13 +697,6 @@
 		"url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
 		"source": "NVIDIA",
 		"date": "2026-06-26T18:39:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 安全核心观点",
-		"url": "https://www.anthropic.com/news/core-views-on-ai-safety",
-		"source": "Anthropic News",
-		"date": "2026-06-26T12:34:51.000Z",
 		"group": "labs"
 	},
 	{
@@ -520,6 +751,13 @@
 	{
 		"title": "OpenAI 发布 GPT Live",
 		"url": "https://openai.com/index/introducing-gpt-live/",
+		"source": "OpenAI",
+		"date": "2026-06-26T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-Live 语音模型",
+		"url": "https://openai.com/index/introducing-gpt-live",
 		"source": "OpenAI",
 		"date": "2026-06-26T10:00:00.000Z",
 		"group": "labs"
@@ -585,13 +823,6 @@
 		"url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
 		"source": "NVIDIA",
 		"date": "2026-06-24T19:01:01.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布液态冷却 AI 工厂方案",
-		"url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
-		"source": "NVIDIA",
-		"date": "2026-06-24T18:33:47.000Z",
 		"group": "labs"
 	},
 	{
@@ -690,13 +921,6 @@
 		"url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
 		"source": "NVIDIA",
 		"date": "2026-06-22T13:00:38.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 Eco Wave Power 合作推出 AI 数字孪生",
-		"url": "https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/",
-		"source": "NVIDIA",
-		"date": "2026-06-22T13:00:13.000Z",
 		"group": "labs"
 	},
 	{
@@ -851,20 +1075,6 @@
 		"url": "https://www.anthropic.com/research/claude-4-cyber",
 		"source": "Anthropic Research",
 		"date": "2026-06-17T16:47:45.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Biorisk 生物风险研究",
-		"url": "https://www.anthropic.com/research/biorisk",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:47:23.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 网络防御者研究",
-		"url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:46:57.000Z",
 		"group": "labs"
 	},
 	{
@@ -1211,13 +1421,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Values Wild 价值观对齐研究",
-		"url": "https://www.anthropic.com/research/values-wild",
-		"source": "Anthropic Research",
-		"date": "2026-06-05T15:38:54.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 分享 AI 如何改变公司内部工作方式",
 		"url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
 		"source": "Anthropic Research",
@@ -1225,45 +1428,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Assistant Axis",
-		"url": "https://www.anthropic.com/research/assistant-axis",
-		"source": "Anthropic Research",
-		"date": "2026-06-05T15:37:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布自我反省能力研究 Introspection",
-		"url": "https://www.anthropic.com/research/introspection",
-		"source": "Anthropic Research",
-		"date": "2026-06-05T15:36:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 辅助工作生产力提升估算研究",
-		"url": "https://www.anthropic.com/research/estimating-productivity-gains",
-		"source": "Anthropic Research",
-		"date": "2026-06-05T15:32:46.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究揭示大模型涌现性奖励黑客行为",
-		"url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
-		"source": "Anthropic Research",
-		"date": "2026-06-05T15:20:07.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布下一代宪法分类器",
 		"url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
 		"source": "Anthropic Research",
 		"date": "2026-06-05T15:19:41.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Persona Selection Model",
-		"url": "https://www.anthropic.com/research/persona-selection-model",
-		"source": "Anthropic Research",
-		"date": "2026-06-05T15:19:12.000Z",
 		"group": "labs"
 	},
 	{
@@ -2713,13 +2881,6 @@
 		"url": "https://www.anthropic.com/news/claude-for-financial-services",
 		"source": "Anthropic News",
 		"date": "2026-04-10T12:11:09.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Healthcare Life Sciences 行业方案",
-		"url": "https://www.anthropic.com/news/healthcare-life-sciences",
-		"source": "Anthropic News",
-		"date": "2026-04-09T20:25:31.000Z",
 		"group": "labs"
 	}
 ]
