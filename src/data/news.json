@@ -1,9 +1,86 @@
 [
 	{
+		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
+		"url": "https://github.com/TencentCloud/CubeSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T09:22:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
+		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T09:21:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chrome DevTools 发布 MCP 协议，为 coding agent 提供浏览器调试能力",
+		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T09:18:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T09:18:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "Argo CD 发布声明式持续部署工具",
+		"url": "https://github.com/argoproj/argo-cd",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T09:16:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "huxingyi 开源 Automatic Quad Remesher 自动四边形网格重划分工具",
+		"url": "https://github.com/huxingyi/autoremesher",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T09:16:21Z",
+		"group": "gh"
+	},
+	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-09T02:01:55Z",
+		"date": "2026-07-09T09:13:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "Immich 发布高性能自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T09:01:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T08:50:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
+		"url": "https://github.com/alibaba/page-agent",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T08:05:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T07:19:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "MadsLorentzen 开源 AI 求职框架 ai-job-search",
+		"url": "https://github.com/MadsLorentzen/ai-job-search",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T04:10:18Z",
 		"group": "gh"
 	},
 	{
@@ -11,34 +88,6 @@
 		"url": "https://github.com/dotnet/skills",
 		"source": "GitHub Trending",
 		"date": "2026-07-09T02:01:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
-		"url": "https://github.com/facebook/astryx",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T01:48:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T01:33:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "Immich 发布高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T01:09:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T00:47:23Z",
 		"group": "gh"
 	},
 	{
@@ -287,25 +336,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "Argo CD 发布声明式持续部署工具",
-		"url": "https://github.com/argoproj/argo-cd",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T18:07:04Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 探讨面向 agent 的数据策略",
 		"url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
 		"source": "Hugging Face Blog",
 		"date": "2026-07-08T17:16:05.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Chrome DevTools 发布 MCP 协议，为 coding agent 提供浏览器调试能力",
-		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T17:01:39Z",
-		"group": "gh"
 	},
 	{
 		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
@@ -336,31 +371,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "huxingyi 开源 Automatic Quad Remesher 自动四边形网格重划分工具",
-		"url": "https://github.com/huxingyi/autoremesher",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T14:28:05Z",
-		"group": "gh"
-	},
-	{
 		"title": "Prisma 发布下一代 Node.js 与 TypeScript ORM",
 		"url": "https://github.com/prisma/prisma",
 		"source": "GitHub Trending",
 		"date": "2026-07-08T13:32:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
-		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T12:57:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
-		"url": "https://github.com/TencentCloud/CubeSandbox",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T12:51:18Z",
 		"group": "gh"
 	},
 	{
@@ -375,13 +389,6 @@
 		"url": "https://github.com/altic-dev/FluidVoice",
 		"source": "GitHub Trending",
 		"date": "2026-07-08T10:20:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
-		"url": "https://github.com/alibaba/page-agent",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T09:17:00Z",
 		"group": "gh"
 	},
 	{
