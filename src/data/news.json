@@ -1,23 +1,149 @@
 [
 	{
+		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
+		"url": "https://github.com/oven-sh/bun",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T19:18:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T19:12:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "Vercel 更新 Next.js React 框架",
+		"url": "https://github.com/vercel/next.js",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T19:12:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T19:11:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "zeux 开源 meshoptimizer 网格优化库",
+		"url": "https://github.com/zeux/meshoptimizer",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T19:05:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T19:00:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "HashiCorp 开源 Terraform 基础设施即代码工具",
+		"url": "https://github.com/hashicorp/terraform",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T18:35:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T18:34:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
+		"url": "https://github.com/dotnet/skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T18:33:58Z",
+		"group": "gh"
+	},
+	{
 		"title": "Tailscale 开源最易用的 WireGuard 与 2FA 工具",
 		"url": "https://github.com/tailscale/tailscale",
 		"source": "GitHub Trending",
-		"date": "2026-07-10T13:59:01Z",
+		"date": "2026-07-10T18:31:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 项目收录多款 AI 模型系统提示词",
+		"url": "https://github.com/asgeirtj/system_prompts_leaks",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T18:30:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "gRPC 更新 C++ 核心实现",
+		"url": "https://github.com/grpc/grpc",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T18:09:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 更新 Abseil Common Libraries (C++)",
+		"url": "https://github.com/abseil/abseil-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T17:43:50Z",
 		"group": "gh"
 	},
 	{
 		"title": "usestrix 开源 AI 渗透测试工具 Strix",
 		"url": "https://github.com/usestrix/strix",
 		"source": "GitHub Trending",
-		"date": "2026-07-10T13:55:39Z",
+		"date": "2026-07-10T17:42:06Z",
 		"group": "gh"
 	},
 	{
-		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
-		"url": "https://github.com/oven-sh/bun",
+		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
+		"url": "https://github.com/xbtlin/ai-berkshire",
 		"source": "GitHub Trending",
-		"date": "2026-07-10T13:51:08Z",
+		"date": "2026-07-10T17:10:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T17:01:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
+		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T16:38:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "obra 开源 Superpowers agentic skills 框架与开发方法论",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T15:58:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Catch2 发布 C++ 原生测试框架更新",
+		"url": "https://github.com/catchorg/Catch2",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T15:47:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
+		"url": "https://github.com/TencentCloud/CubeSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T15:32:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "davila7 开源 Claude Code Templates 配置与管理 CLI 工具",
+		"url": "https://github.com/davila7/claude-code-templates",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T14:13:41Z",
 		"group": "gh"
 	},
 	{
@@ -28,31 +154,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "davila7 开源 Claude Code Templates 配置与管理 CLI 工具",
-		"url": "https://github.com/davila7/claude-code-templates",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T13:20:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
-		"url": "https://github.com/TencentCloud/CubeSandbox",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T13:16:07Z",
-		"group": "gh"
-	},
-	{
 		"title": "mattpocock 开源 Skills for Real Engineers 技能集",
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
 		"date": "2026-07-10T13:15:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 项目收录多款 AI 模型系统提示词",
-		"url": "https://github.com/asgeirtj/system_prompts_leaks",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T13:10:25Z",
 		"group": "gh"
 	},
 	{
@@ -63,66 +168,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T13:00:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T12:50:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T12:47:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
-		"url": "https://github.com/dotnet/skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T12:31:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T12:01:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "gRPC 更新 C++ 核心实现",
-		"url": "https://github.com/grpc/grpc",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T11:52:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
-		"url": "https://github.com/facebook/astryx",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T11:34:32Z",
-		"group": "gh"
-	},
-	{
 		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
 		"url": "https://github.com/alibaba/page-agent",
 		"source": "GitHub Trending",
 		"date": "2026-07-10T09:42:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T02:59:20Z",
 		"group": "gh"
 	},
 	{
@@ -145,20 +194,6 @@
 		"source": "Anthropic News",
 		"date": "2026-07-09T20:02:16.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
-		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T20:00:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "xbtlin 开源 ai-berkshire 价值投资研究框架",
-		"url": "https://github.com/xbtlin/ai-berkshire",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T16:56:22Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 开源 speech-to-speech 语音 agent 框架",
@@ -462,10 +497,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Catch2 发布 C++ 原生测试框架更新",
-		"url": "https://github.com/catchorg/Catch2",
+		"title": "Asio C++ 库更新",
+		"url": "https://github.com/chriskohlhoff/asio",
 		"source": "GitHub Trending",
-		"date": "2026-07-08T08:30:00Z",
+		"date": "2026-07-08T09:28:48Z",
 		"group": "gh"
 	},
 	{
@@ -525,6 +560,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "yaml-cpp 开源 C++ YAML 解析与生成库",
+		"url": "https://github.com/jbeder/yaml-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-07T12:21:46Z",
+		"group": "gh"
+	},
+	{
 		"title": "Google 更新 Gemini API Managed Agents，支持后台任务与远程 MCP",
 		"url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
 		"source": "Google AI",
@@ -551,13 +593,6 @@
 		"source": "Anthropic News",
 		"date": "2026-07-06T23:32:01.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "obra 开源 Superpowers agentic skills 框架与开发方法论",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T21:53:36Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 实现推理软件最低 token 成本",
@@ -838,6 +873,13 @@
 		"source": "OpenAI",
 		"date": "2026-06-26T10:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "腾讯云开源 TencentDB-Agent-Memory，实现全本地长期记忆",
+		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T03:31:09Z",
+		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 支持一条命令在 HF Jobs 上运行 vLLM 服务器",
@@ -2023,15 +2065,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出独立研究 AI 对齐项目",
-		"url": "https://openai.com/index/advancing-independent-research-ai-alignment/",
+		"title": "OpenAI 发布社会科学研究规模化方法",
+		"url": "https://openai.com/index/scaling-social-science-research/",
 		"source": "OpenAI",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布社会科学研究规模化方法",
-		"url": "https://openai.com/index/scaling-social-science-research/",
+		"title": "OpenAI 推出独立研究 AI 对齐项目",
+		"url": "https://openai.com/index/advancing-independent-research-ai-alignment/",
 		"source": "OpenAI",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
@@ -2158,6 +2200,13 @@
 	{
 		"title": "OpenAI 发布 Gdpval 评测基准",
 		"url": "https://openai.com/index/gdpval/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Frontierscience 前沿科学项目",
+		"url": "https://openai.com/index/frontierscience/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2305,13 +2354,6 @@
 	{
 		"title": "OpenAI 发布大模型幻觉原因研究报告",
 		"url": "https://openai.com/index/why-language-models-hallucinate/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Frontierscience 前沿科学项目",
-		"url": "https://openai.com/index/frontierscience/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2471,8 +2513,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5",
-		"url": "https://openai.com/index/introducing-gpt-5/",
+		"title": "OpenAI 发布 GPT-5.4",
+		"url": "https://openai.com/index/introducing-gpt-5-4/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
@@ -2480,6 +2522,13 @@
 	{
 		"title": "OpenAI 发布 GPT-5.5",
 		"url": "https://openai.com/index/introducing-gpt-5-5/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-5",
+		"url": "https://openai.com/index/introducing-gpt-5/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
@@ -2501,13 +2550,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5.1 Codex Max",
 		"url": "https://openai.com/index/gpt-5-1-codex-max/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.4",
-		"url": "https://openai.com/index/introducing-gpt-5-4/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
