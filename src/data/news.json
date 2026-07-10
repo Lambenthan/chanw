@@ -1,65 +1,100 @@
 [
 	{
-		"title": "Immich 发布高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T19:24:55Z",
-		"group": "gh"
-	},
-	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-09T19:17:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
-		"url": "https://github.com/dotnet/skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T19:16:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "MadsLorentzen 开源 AI 求职框架 ai-job-search",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T19:14:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T19:13:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T18:40:34Z",
+		"date": "2026-07-10T02:02:35Z",
 		"group": "gh"
 	},
 	{
 		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
 		"url": "https://github.com/facebook/astryx",
 		"source": "GitHub Trending",
-		"date": "2026-07-09T17:49:10Z",
+		"date": "2026-07-10T01:50:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T01:49:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodexBar 开源：无需登录即可查看 OpenAI Codex 和 Claude Code 使用统计",
+		"url": "https://github.com/steipete/CodexBar",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T01:25:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T01:22:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T00:47:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
+		"url": "https://github.com/dotnet/skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T00:13:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "Immich 发布高性能自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T23:04:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "huxingyi 开源 Automatic Quad Remesher 自动四边形网格重划分工具",
+		"url": "https://github.com/huxingyi/autoremesher",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T22:43:35Z",
 		"group": "gh"
 	},
 	{
 		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
 		"url": "https://github.com/iOfficeAI/OfficeCLI",
 		"source": "GitHub Trending",
-		"date": "2026-07-09T17:44:25Z",
+		"date": "2026-07-09T21:16:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Golden Gate Claude",
+		"url": "https://www.anthropic.com/news/golden-gate-claude",
+		"source": "Anthropic News",
+		"date": "2026-07-09T20:02:16.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
+		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T20:00:08Z",
 		"group": "gh"
 	},
 	{
 		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
-		"date": "2026-07-09T17:23:44Z",
+		"date": "2026-07-09T19:49:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "MadsLorentzen 开源 AI 求职框架 ai-job-search",
+		"url": "https://github.com/MadsLorentzen/ai-job-search",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T19:32:43Z",
 		"group": "gh"
 	},
 	{
@@ -74,13 +109,6 @@
 		"url": "https://github.com/prisma/prisma",
 		"source": "GitHub Trending",
 		"date": "2026-07-09T15:48:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodexBar 开源：无需登录即可查看 OpenAI Codex 和 Claude Code 使用统计",
-		"url": "https://github.com/steipete/CodexBar",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T15:47:49Z",
 		"group": "gh"
 	},
 	{
@@ -105,27 +133,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "huxingyi 开源 Automatic Quad Remesher 自动四边形网格重划分工具",
-		"url": "https://github.com/huxingyi/autoremesher",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T14:07:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T13:32:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
-		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T12:16:54Z",
-		"group": "gh"
-	},
-	{
 		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
 		"url": "https://github.com/TencentCloud/CubeSandbox",
 		"source": "GitHub Trending",
@@ -142,6 +149,13 @@
 	{
 		"title": "OpenAI 发布 GPT-5.6",
 		"url": "https://openai.com/index/gpt-5-6/",
+		"source": "OpenAI",
+		"date": "2026-07-09T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 将 GPT-5.6 设为 Microsoft 365 Copilot 首选模型",
+		"url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
 		"source": "OpenAI",
 		"date": "2026-07-09T10:00:00.000Z",
 		"group": "labs"
@@ -170,6 +184,13 @@
 	{
 		"title": "Anthropic 推出 Claude 使用反思功能",
 		"url": "https://www.anthropic.com/news/reflect-with-claude",
+		"source": "Anthropic News",
+		"date": "2026-07-09T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "UST 将 Claude 引入物理 AI 领域",
+		"url": "https://www.anthropic.com/news/ust-claude",
 		"source": "Anthropic News",
 		"date": "2026-07-09T00:00:00.000Z",
 		"group": "labs"
@@ -382,13 +403,6 @@
 		"url": "https://www.anthropic.com/research/persona-selection-model",
 		"source": "Anthropic Research",
 		"date": "2026-07-08T20:10:45.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Golden Gate Claude",
-		"url": "https://www.anthropic.com/news/golden-gate-claude",
-		"source": "Anthropic News",
-		"date": "2026-07-08T20:08:28.000Z",
 		"group": "labs"
 	},
 	{
@@ -791,6 +805,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 在首尔开设办公室并宣布韩国 AI 生态合作",
+		"url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+		"source": "Anthropic News",
+		"date": "2026-06-26T12:27:32.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT Live",
 		"url": "https://openai.com/index/introducing-gpt-live/",
 		"source": "OpenAI",
@@ -1162,13 +1183,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 LifeSciBench 生命科学 AI 评测基准",
-		"url": "https://openai.com/index/introducing-life-sci-bench",
-		"source": "OpenAI",
-		"date": "2026-06-17T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "智谱 AI 发布 GLM-5.2，面向长周期任务",
 		"url": "https://huggingface.co/blog/zai-org/glm-52-blog",
 		"source": "Hugging Face Blog",
@@ -1193,13 +1207,6 @@
 		"title": "xAI 将 Grok 模型接入 Amazon Bedrock",
 		"url": "https://x.ai/news/grok-amazon-bedrock",
 		"source": "xAI",
-		"date": "2026-06-17T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 在首尔开设办公室并宣布韩国 AI 生态合作",
-		"url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-		"source": "Anthropic News",
 		"date": "2026-06-17T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2464,6 +2471,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5",
+		"url": "https://openai.com/index/introducing-gpt-5/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT-5.5",
 		"url": "https://openai.com/index/introducing-gpt-5-5/",
 		"source": "OpenAI",
@@ -2543,13 +2557,6 @@
 	{
 		"title": "OpenAI 发布 GPT OSS",
 		"url": "https://openai.com/index/introducing-gpt-oss/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5",
-		"url": "https://openai.com/index/introducing-gpt-5/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
