@@ -3,28 +3,91 @@
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-10T02:02:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
-		"url": "https://github.com/facebook/astryx",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T01:50:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T01:49:06Z",
+		"date": "2026-07-10T09:22:07Z",
 		"group": "gh"
 	},
 	{
 		"title": "CodexBar 开源：无需登录即可查看 OpenAI Codex 和 Claude Code 使用统计",
 		"url": "https://github.com/steipete/CodexBar",
 		"source": "GitHub Trending",
-		"date": "2026-07-10T01:25:20Z",
+		"date": "2026-07-10T09:20:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T09:20:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
+		"url": "https://github.com/alibaba/page-agent",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T09:10:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
+		"url": "https://github.com/dotnet/skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T09:06:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "Immich 发布高性能自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T09:03:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
+		"url": "https://github.com/TencentCloud/CubeSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T07:55:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T07:17:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T06:29:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 开源 Claude Cookbooks 示例集合",
+		"url": "https://github.com/anthropics/claude-cookbooks",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T05:06:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "usestrix 开源 AI 渗透测试工具 Strix",
+		"url": "https://github.com/usestrix/strix",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T04:38:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
+		"url": "https://github.com/iOfficeAI/OfficeCLI",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T03:48:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T02:59:20Z",
 		"group": "gh"
 	},
 	{
@@ -35,38 +98,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T00:47:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "dotnet 开源 Skills 仓库，辅助 AI 编码 agent 使用 .NET 和 C#",
-		"url": "https://github.com/dotnet/skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T00:13:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "Immich 发布高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T23:04:46Z",
-		"group": "gh"
+		"title": "PyTorch 发布注意力机制性能分析教程",
+		"url": "https://huggingface.co/blog/torch-attention-profile",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-10T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "huxingyi 开源 Automatic Quad Remesher 自动四边形网格重划分工具",
 		"url": "https://github.com/huxingyi/autoremesher",
 		"source": "GitHub Trending",
 		"date": "2026-07-09T22:43:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
-		"url": "https://github.com/iOfficeAI/OfficeCLI",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T21:16:58Z",
 		"group": "gh"
 	},
 	{
@@ -81,20 +123,6 @@
 		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
 		"source": "GitHub Trending",
 		"date": "2026-07-09T20:00:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 发布 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T19:49:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "MadsLorentzen 开源 AI 求职框架 ai-job-search",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T19:32:43Z",
 		"group": "gh"
 	},
 	{
@@ -119,24 +147,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "usestrix 开源 AI 渗透测试工具 Strix",
-		"url": "https://github.com/usestrix/strix",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T14:55:45Z",
-		"group": "gh"
-	},
-	{
 		"title": "Crawl4AI 开源 LLM 友好的网页爬虫与抓取工具",
 		"url": "https://github.com/unclecode/crawl4ai",
 		"source": "GitHub Trending",
 		"date": "2026-07-09T14:46:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
-		"url": "https://github.com/TencentCloud/CubeSandbox",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T12:07:16Z",
 		"group": "gh"
 	},
 	{
@@ -175,13 +189,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
-		"url": "https://github.com/alibaba/page-agent",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T08:05:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 推出 Claude 使用反思功能",
 		"url": "https://www.anthropic.com/news/reflect-with-claude",
 		"source": "Anthropic News",
@@ -191,6 +198,13 @@
 	{
 		"title": "UST 将 Claude 引入物理 AI 领域",
 		"url": "https://www.anthropic.com/news/ust-claude",
+		"source": "Anthropic News",
+		"date": "2026-07-09T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 邀请公众提出 AI 相关难题",
+		"url": "https://www.anthropic.com/news/hard-questions",
 		"source": "Anthropic News",
 		"date": "2026-07-09T00:00:00.000Z",
 		"group": "labs"
@@ -516,13 +530,6 @@
 		"source": "Anthropic News",
 		"date": "2026-07-06T23:32:01.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 开源 Claude Cookbooks 示例集合",
-		"url": "https://github.com/anthropics/claude-cookbooks",
-		"source": "GitHub Trending",
-		"date": "2026-07-06T19:52:00Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 实现推理软件最低 token 成本",
@@ -1445,13 +1452,6 @@
 		"title": "Anthropic 发布生物学 agent 研究进展",
 		"url": "https://www.anthropic.com/research/agents-in-biology",
 		"source": "Anthropic Research",
-		"date": "2026-06-08T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "开源社区支持 OpenEnv 用于 Agent 强化学习",
-		"url": "https://huggingface.co/blog/openenv-agentic-rl",
-		"source": "Hugging Face Blog",
 		"date": "2026-06-08T00:00:00.000Z",
 		"group": "labs"
 	},
