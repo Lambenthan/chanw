@@ -1,16 +1,79 @@
 [
 	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T12:53:35Z",
-		"group": "gh"
-	},
-	{
 		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
 		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-07-12T12:23:45Z",
+		"date": "2026-07-12T18:54:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "Home Assistant Core 开源家庭自动化平台更新",
+		"url": "https://github.com/home-assistant/core",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T18:53:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T18:52:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "usestrix 开源 AI 渗透测试工具 Strix",
+		"url": "https://github.com/usestrix/strix",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T18:52:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T18:52:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T18:48:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "ColeMurray 开源 background-agents 后台编码系统",
+		"url": "https://github.com/ColeMurray/background-agents",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T18:42:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "davila7 开源 Claude Code Templates 配置与管理 CLI 工具",
+		"url": "https://github.com/davila7/claude-code-templates",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T17:38:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Crosstalk-Solutions 开源 Project N.O.M.A.D 离线生存电脑",
+		"url": "https://github.com/Crosstalk-Solutions/project-nomad",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T16:56:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "par274 开源 PlayStation 5 模拟器 SharpEmu",
+		"url": "https://github.com/par274/sharpemu",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T16:29:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "T3 Code 发布开源编程工具",
+		"url": "https://github.com/pingdotgg/t3code",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T16:14:58Z",
 		"group": "gh"
 	},
 	{
@@ -21,38 +84,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
-		"url": "https://github.com/facebook/astryx",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T11:25:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "Home Assistant Core 开源家庭自动化平台更新",
-		"url": "https://github.com/home-assistant/core",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T11:22:01Z",
-		"group": "gh"
-	},
-	{
 		"title": "Chrome DevTools 发布 chrome-devtools-mcp，为 coding agents 提供调试能力",
 		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
 		"source": "GitHub Trending",
 		"date": "2026-07-12T10:15:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "par274 开源 PlayStation 5 模拟器 SharpEmu",
-		"url": "https://github.com/par274/sharpemu",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T09:56:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T09:38:32Z",
 		"group": "gh"
 	},
 	{
@@ -63,24 +98,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Crosstalk-Solutions 开源 Project N.O.M.A.D 离线生存电脑",
-		"url": "https://github.com/Crosstalk-Solutions/project-nomad",
+		"title": "Prefect 开源工作流编排框架用于构建数据管道",
+		"url": "https://github.com/PrefectHQ/prefect",
 		"source": "GitHub Trending",
-		"date": "2026-07-12T04:30:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "usestrix 开源 AI 渗透测试工具 Strix",
-		"url": "https://github.com/usestrix/strix",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T04:20:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "davila7 开源 Claude Code Templates 配置与管理 CLI 工具",
-		"url": "https://github.com/davila7/claude-code-templates",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T04:17:50Z",
+		"date": "2026-07-12T08:47:46Z",
 		"group": "gh"
 	},
 	{
@@ -151,6 +172,13 @@
 		"url": "https://github.com/virattt/ai-hedge-fund",
 		"source": "GitHub Trending",
 		"date": "2026-07-10T19:24:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "pbakaus 开源 Impeccable 设计语言",
+		"url": "https://github.com/pbakaus/impeccable",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T19:02:56Z",
 		"group": "gh"
 	},
 	{
@@ -2909,13 +2937,6 @@
 		"url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
 		"source": "DeepMind",
 		"date": "2026-04-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布《构建有效 Agent》研究报告",
-		"url": "https://www.anthropic.com/engineering/building-effective-agents",
-		"source": "Anthropic Engineering",
-		"date": "2026-04-13T17:46:47.000Z",
 		"group": "labs"
 	}
 ]
