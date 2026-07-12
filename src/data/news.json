@@ -1,58 +1,114 @@
 [
 	{
-		"title": "alirezarezvani 开源 Claude Skills 技能库含 330 余项自定义技能",
-		"url": "https://github.com/alirezarezvani/claude-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T18:48:23Z",
-		"group": "gh"
-	},
-	{
 		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
 		"url": "https://github.com/facebook/astryx",
 		"source": "GitHub Trending",
-		"date": "2026-07-11T18:47:25Z",
+		"date": "2026-07-12T01:45:16Z",
 		"group": "gh"
 	},
 	{
 		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
 		"url": "https://github.com/oven-sh/bun",
 		"source": "GitHub Trending",
-		"date": "2026-07-11T18:44:33Z",
+		"date": "2026-07-12T01:45:00Z",
 		"group": "gh"
 	},
 	{
-		"title": "Vercel 更新 Next.js React 框架",
-		"url": "https://github.com/vercel/next.js",
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-11T18:27:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T18:22:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "ASP.NET Core 开源跨平台 Web 框架更新",
-		"url": "https://github.com/dotnet/aspnetcore",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T18:22:06Z",
+		"date": "2026-07-12T01:44:19Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-11T18:05:42Z",
+		"date": "2026-07-12T01:37:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "davila7 开源 Claude Code Templates 配置与管理 CLI 工具",
+		"url": "https://github.com/davila7/claude-code-templates",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T01:22:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cypress 更新浏览器测试框架",
+		"url": "https://github.com/cypress-io/cypress",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T01:13:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T01:01:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T00:44:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "Vercel 更新 Next.js React 框架",
+		"url": "https://github.com/vercel/next.js",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T00:30:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "Home Assistant Core 开源家庭自动化平台更新",
+		"url": "https://github.com/home-assistant/core",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T00:14:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "DayuanJiang 开源 next-ai-draw-io 集成 AI 的绘图应用",
+		"url": "https://github.com/DayuanJiang/next-ai-draw-io",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T00:10:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chrome DevTools 发布 chrome-devtools-mcp，为 coding agents 提供调试能力",
+		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T00:03:40Z",
 		"group": "gh"
 	},
 	{
 		"title": "微软更新 PowerToys 实用工具集",
 		"url": "https://github.com/microsoft/PowerToys",
 		"source": "GitHub Trending",
-		"date": "2026-07-11T16:29:08Z",
+		"date": "2026-07-11T23:23:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "ASP.NET Core 开源跨平台 Web 框架更新",
+		"url": "https://github.com/dotnet/aspnetcore",
+		"source": "GitHub Trending",
+		"date": "2026-07-11T20:14:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "alirezarezvani 开源 Claude Skills 技能库含 330 余项自定义技能",
+		"url": "https://github.com/alirezarezvani/claude-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-11T19:43:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 更新 Abseil Common Libraries (C++)",
+		"url": "https://github.com/abseil/abseil-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-11T19:08:20Z",
 		"group": "gh"
 	},
 	{
@@ -60,41 +116,6 @@
 		"url": "https://github.com/zeux/meshoptimizer",
 		"source": "GitHub Trending",
 		"date": "2026-07-11T16:03:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "davila7 开源 Claude Code Templates 配置与管理 CLI 工具",
-		"url": "https://github.com/davila7/claude-code-templates",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T15:35:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cypress 更新浏览器测试框架",
-		"url": "https://github.com/cypress-io/cypress",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T15:31:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T14:57:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chrome DevTools 发布 chrome-devtools-mcp，为 coding agents 提供调试能力",
-		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T14:15:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "Home Assistant Core 开源家庭自动化平台更新",
-		"url": "https://github.com/home-assistant/core",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T14:14:38Z",
 		"group": "gh"
 	},
 	{
@@ -119,13 +140,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T04:56:04Z",
-		"group": "gh"
-	},
-	{
 		"title": "vxcontrol 开源 Pentagi 全自主 AI Agent 渗透测试系统",
 		"url": "https://github.com/vxcontrol/pentagi",
 		"source": "GitHub Trending",
@@ -133,24 +147,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T23:47:07Z",
-		"group": "gh"
-	},
-	{
 		"title": "GitHub 项目收录多款 AI 模型系统提示词",
 		"url": "https://github.com/asgeirtj/system_prompts_leaks",
 		"source": "GitHub Trending",
 		"date": "2026-07-10T23:19:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "DayuanJiang 开源 next-ai-draw-io 集成 AI 的绘图应用",
-		"url": "https://github.com/DayuanJiang/next-ai-draw-io",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T23:16:52Z",
 		"group": "gh"
 	},
 	{
@@ -193,6 +193,13 @@
 		"url": "https://github.com/catchorg/Catch2",
 		"source": "GitHub Trending",
 		"date": "2026-07-10T15:47:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Prisma 发布下一代 ORM 框架",
+		"url": "https://github.com/prisma/prisma",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T15:03:42Z",
 		"group": "gh"
 	},
 	{
