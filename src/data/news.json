@@ -1,72 +1,72 @@
 [
 	{
-		"title": "Vercel 更新 Next.js React 框架",
-		"url": "https://github.com/vercel/next.js",
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-12T08:01:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
-		"url": "https://github.com/facebook/astryx",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T08:00:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "ASP.NET Core 开源跨平台 Web 框架更新",
-		"url": "https://github.com/dotnet/aspnetcore",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T08:00:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
-		"url": "https://github.com/oven-sh/bun",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T07:55:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "Home Assistant Core 开源家庭自动化平台更新",
-		"url": "https://github.com/home-assistant/core",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T07:53:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T07:38:36Z",
+		"date": "2026-07-12T12:53:35Z",
 		"group": "gh"
 	},
 	{
 		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
 		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-07-12T06:58:48Z",
+		"date": "2026-07-12T12:23:45Z",
 		"group": "gh"
 	},
 	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
 		"source": "GitHub Trending",
-		"date": "2026-07-12T06:41:50Z",
+		"date": "2026-07-12T12:07:48Z",
 		"group": "gh"
 	},
 	{
-		"title": "DayuanJiang 开源 next-ai-draw-io 集成 AI 的绘图应用",
-		"url": "https://github.com/DayuanJiang/next-ai-draw-io",
+		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
+		"url": "https://github.com/facebook/astryx",
 		"source": "GitHub Trending",
-		"date": "2026-07-12T06:33:21Z",
+		"date": "2026-07-12T11:25:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "Home Assistant Core 开源家庭自动化平台更新",
+		"url": "https://github.com/home-assistant/core",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T11:22:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chrome DevTools 发布 chrome-devtools-mcp，为 coding agents 提供调试能力",
+		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T10:15:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "par274 开源 PlayStation 5 模拟器 SharpEmu",
+		"url": "https://github.com/par274/sharpemu",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T09:56:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T09:38:32Z",
 		"group": "gh"
 	},
 	{
 		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
 		"url": "https://github.com/TencentCloud/CubeSandbox",
 		"source": "GitHub Trending",
-		"date": "2026-07-12T04:33:13Z",
+		"date": "2026-07-12T09:21:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "Crosstalk-Solutions 开源 Project N.O.M.A.D 离线生存电脑",
+		"url": "https://github.com/Crosstalk-Solutions/project-nomad",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T04:30:11Z",
 		"group": "gh"
 	},
 	{
@@ -84,31 +84,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
+		"title": "Dicklesworthstone 开源 Destructive Command Guard 阻止危险命令执行",
+		"url": "https://github.com/Dicklesworthstone/destructive_command_guard",
 		"source": "GitHub Trending",
-		"date": "2026-07-12T01:56:14Z",
+		"date": "2026-07-11T21:44:17Z",
 		"group": "gh"
 	},
 	{
-		"title": "Cypress 更新浏览器测试框架",
-		"url": "https://github.com/cypress-io/cypress",
+		"title": "FlClash 开源基于 ClashMeta 的多平台代理客户端",
+		"url": "https://github.com/chen08209/FlClash",
 		"source": "GitHub Trending",
-		"date": "2026-07-12T01:13:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chrome DevTools 发布 chrome-devtools-mcp，为 coding agents 提供调试能力",
-		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T00:03:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "微软更新 PowerToys 实用工具集",
-		"url": "https://github.com/microsoft/PowerToys",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T23:23:10Z",
+		"date": "2026-07-11T21:28:12Z",
 		"group": "gh"
 	},
 	{
@@ -126,20 +112,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "zeux 开源 meshoptimizer 网格优化库",
-		"url": "https://github.com/zeux/meshoptimizer",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T16:03:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "HashiCorp 开源 Terraform 基础设施即代码工具",
-		"url": "https://github.com/hashicorp/terraform",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T12:00:23Z",
-		"group": "gh"
-	},
-	{
 		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
 		"url": "https://github.com/iOfficeAI/OfficeCLI",
 		"source": "GitHub Trending",
@@ -151,6 +123,13 @@
 		"url": "https://github.com/vxcontrol/pentagi",
 		"source": "GitHub Trending",
 		"date": "2026-07-11T03:13:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
+		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+		"source": "GitHub Trending",
+		"date": "2026-07-11T00:14:37Z",
 		"group": "gh"
 	},
 	{
@@ -168,10 +147,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Nuxt 发布全栈 Vue 框架",
-		"url": "https://github.com/nuxt/nuxt",
+		"title": "virattt 开源 AI 对冲基金团队框架",
+		"url": "https://github.com/virattt/ai-hedge-fund",
 		"source": "GitHub Trending",
-		"date": "2026-07-10T17:18:42Z",
+		"date": "2026-07-10T19:24:04Z",
 		"group": "gh"
 	},
 	{
@@ -179,27 +158,6 @@
 		"url": "https://github.com/anthropics/claude-cookbooks",
 		"source": "GitHub Trending",
 		"date": "2026-07-10T16:10:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "obra 开源 Superpowers agentic skills 框架与开发方法论",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T15:58:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Catch2 发布 C++ 原生测试框架更新",
-		"url": "https://github.com/catchorg/Catch2",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T15:47:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "Prisma 发布下一代 ORM 框架",
-		"url": "https://github.com/prisma/prisma",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T15:03:42Z",
 		"group": "gh"
 	},
 	{
@@ -214,20 +172,6 @@
 		"url": "https://github.com/malisper/pgrust",
 		"source": "GitHub Trending",
 		"date": "2026-07-10T07:04:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "NASA 开源飞行软件与嵌入式系统框架 F´",
-		"url": "https://github.com/nasa/fprime",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T03:28:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 发布插件系统",
-		"url": "https://github.com/openai/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T02:04:32Z",
 		"group": "gh"
 	},
 	{
@@ -250,13 +194,6 @@
 		"source": "Anthropic News",
 		"date": "2026-07-09T20:02:16.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Ansible 发布 IT 自动化平台",
-		"url": "https://github.com/ansible/ansible",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T16:55:45Z",
-		"group": "gh"
 	},
 	{
 		"title": "Deutsche Telekom 与 OpenAI 合作推进电信 AI 转型",
@@ -546,13 +483,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Asio C++ 库更新",
-		"url": "https://github.com/chriskohlhoff/asio",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T09:28:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenAI 发布 codex-plugin-cc，支持从 Claude Code 调用 Codex",
 		"url": "https://github.com/openai/codex-plugin-cc",
 		"source": "GitHub Trending",
@@ -579,13 +509,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-07-07T21:15:33.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "GitHub Actions 发布 checkout Action 更新",
-		"url": "https://github.com/actions/checkout",
-		"source": "GitHub Trending",
-		"date": "2026-07-07T20:35:00Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 与 Hugging Face 开源机器人学习模型与框架",
@@ -670,6 +593,13 @@
 		"source": "Anthropic News",
 		"date": "2026-07-06T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "k1tbyte 发布 Wand-Enhancer 扩展，增强 Wand 应用 UX 与互操作性",
+		"url": "https://github.com/k1tbyte/Wand-Enhancer",
+		"source": "GitHub Trending",
+		"date": "2026-07-04T08:37:38Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 推出 Visible Extended Thinking 功能",
@@ -812,13 +742,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google Labs 开源 Stitch Skills Agent 技能库",
-		"url": "https://github.com/google-labs-code/stitch-skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-29T23:38:54Z",
-		"group": "gh"
-	},
-	{
 		"title": "Allen AI 发布 DiScoFormer 统一密度与分数估计",
 		"url": "https://huggingface.co/blog/allenai/discoformer",
 		"source": "Hugging Face Blog",
@@ -901,6 +824,13 @@
 		"source": "Anthropic News",
 		"date": "2026-06-26T12:27:32.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Nutlope 发布 Hallmark 反 AI 水印设计 skill",
+		"url": "https://github.com/Nutlope/hallmark",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T10:08:58Z",
+		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布 GPT Live",
@@ -1790,6 +1720,13 @@
 		"source": "xAI",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "HKUDS 发布 Vibe-Trading 个人交易 Agent",
+		"url": "https://github.com/HKUDS/Vibe-Trading",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T08:40:07Z",
+		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
