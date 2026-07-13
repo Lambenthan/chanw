@@ -1,51 +1,100 @@
 [
 	{
-		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
-		"url": "https://github.com/facebook/astryx",
-		"source": "GitHub Trending",
-		"date": "2026-07-13T14:21:35Z",
-		"group": "gh"
-	},
-	{
 		"title": "GitHub 发布 spec-kit 规范驱动开发工具包",
 		"url": "https://github.com/github/spec-kit",
 		"source": "GitHub Trending",
-		"date": "2026-07-13T14:17:47Z",
+		"date": "2026-07-13T19:13:45Z",
 		"group": "gh"
 	},
 	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
+		"title": "Corey Haines 开源 marketing skills 技能包",
+		"url": "https://github.com/coreyhaines31/marketingskills",
 		"source": "GitHub Trending",
-		"date": "2026-07-13T14:12:35Z",
+		"date": "2026-07-13T19:12:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-13T14:12:22Z",
+		"date": "2026-07-13T19:08:22Z",
 		"group": "gh"
 	},
 	{
-		"title": "Dicklesworthstone 开源 Destructive Command Guard 阻止危险命令执行",
-		"url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
+		"url": "https://github.com/alibaba/page-agent",
 		"source": "GitHub Trending",
-		"date": "2026-07-13T13:10:22Z",
+		"date": "2026-07-13T19:06:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
+		"url": "https://github.com/facebook/astryx",
+		"source": "GitHub Trending",
+		"date": "2026-07-13T19:01:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 更新 Abseil Common Libraries (C++)",
+		"url": "https://github.com/abseil/abseil-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-13T18:51:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
+		"url": "https://github.com/iOfficeAI/OfficeCLI",
+		"source": "GitHub Trending",
+		"date": "2026-07-13T18:46:25Z",
 		"group": "gh"
 	},
 	{
 		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
 		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-07-13T12:55:06Z",
+		"date": "2026-07-13T18:37:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "usestrix 开源 AI 渗透测试工具 Strix",
+		"url": "https://github.com/usestrix/strix",
+		"source": "GitHub Trending",
+		"date": "2026-07-13T18:33:49Z",
 		"group": "gh"
 	},
 	{
 		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
 		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-13T12:12:41Z",
+		"date": "2026-07-13T18:32:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Agentic Misalignment 研究",
+		"url": "https://www.anthropic.com/research/agentic-misalignment",
+		"source": "Anthropic Research",
+		"date": "2026-07-13T18:27:52.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "pbakaus 开源 Impeccable 设计语言",
+		"url": "https://github.com/pbakaus/impeccable",
+		"source": "GitHub Trending",
+		"date": "2026-07-13T17:05:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-13T15:45:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
+		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+		"source": "GitHub Trending",
+		"date": "2026-07-13T14:32:12Z",
 		"group": "gh"
 	},
 	{
@@ -63,18 +112,18 @@
 		"group": "gh"
 	},
 	{
-		"title": "usestrix 开源 AI 渗透测试工具 Strix",
-		"url": "https://github.com/usestrix/strix",
-		"source": "GitHub Trending",
-		"date": "2026-07-13T03:44:09Z",
-		"group": "gh"
-	},
-	{
 		"title": "moeru-ai 开源 AI 陪伴 agent Airi",
 		"url": "https://github.com/moeru-ai/airi",
 		"source": "GitHub Trending",
 		"date": "2026-07-13T03:34:20Z",
 		"group": "gh"
+	},
+	{
+		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
+		"url": "https://www.anthropic.com/research/claude-values-models-languages",
+		"source": "Anthropic Research",
+		"date": "2026-07-13T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "GitHub 项目收录多款 AI 模型系统提示词",
@@ -84,31 +133,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
-		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T19:37:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T19:08:20Z",
-		"group": "gh"
-	},
-	{
 		"title": "Win11Debloat 发布轻量级 PowerShell 脚本清理 Windows 预装应用",
 		"url": "https://github.com/Raphire/Win11Debloat",
 		"source": "GitHub Trending",
 		"date": "2026-07-11T18:07:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
-		"url": "https://github.com/iOfficeAI/OfficeCLI",
-		"source": "GitHub Trending",
-		"date": "2026-07-11T06:01:11Z",
 		"group": "gh"
 	},
 	{
@@ -130,20 +158,6 @@
 		"url": "https://github.com/OpenCut-app/OpenCut",
 		"source": "GitHub Trending",
 		"date": "2026-07-10T20:26:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "pbakaus 开源 Impeccable 设计语言",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T19:02:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里巴巴 开源 page-agent 页面 GUI Agent",
-		"url": "https://github.com/alibaba/page-agent",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T09:42:14Z",
 		"group": "gh"
 	},
 	{
@@ -270,13 +284,6 @@
 		"url": "https://www.anthropic.com/research/economic-policy-responses",
 		"source": "Anthropic Research",
 		"date": "2026-07-08T22:43:16.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Agentic Misalignment 研究",
-		"url": "https://www.anthropic.com/research/agentic-misalignment",
-		"source": "Anthropic Research",
-		"date": "2026-07-08T22:42:47.000Z",
 		"group": "labs"
 	},
 	{
@@ -788,6 +795,13 @@
 		"url": "https://www.anthropic.com/research/exploit-evals",
 		"source": "Anthropic Research",
 		"date": "2026-06-26T12:30:07.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 LLM ATT&CK Navigator 映射 AI 网络威胁",
+		"url": "https://www.anthropic.com/research/attack-navigator",
+		"source": "Anthropic Research",
+		"date": "2026-06-26T12:29:48.000Z",
 		"group": "labs"
 	},
 	{
@@ -1540,13 +1554,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 LLM ATT&CK Navigator 映射 AI 网络威胁",
-		"url": "https://www.anthropic.com/research/attack-navigator",
-		"source": "Anthropic Research",
-		"date": "2026-06-03T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "xAI 将 Grok 语音能力接入 Vapi 平台",
 		"url": "https://x.ai/news/grok-vapi",
 		"source": "xAI",
@@ -2135,6 +2142,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5 加速科学研究",
+		"url": "https://openai.com/index/accelerating-science-gpt-5/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 开放 Proof 子任务提交",
 		"url": "https://openai.com/index/first-proof-submissions/",
 		"source": "OpenAI",
@@ -2235,13 +2249,6 @@
 	{
 		"title": "OpenAI 发布 Instruction Hierarchy Challenge",
 		"url": "https://openai.com/index/instruction-hierarchy-challenge/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 加速科学研究",
-		"url": "https://openai.com/index/accelerating-science-gpt-5/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2860,20 +2867,6 @@
 		"url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
 		"source": "Anthropic Engineering",
 		"date": "2026-04-15T14:39:01.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Automated Alignment Researchers 研究",
-		"url": "https://www.anthropic.com/research/automated-alignment-researchers",
-		"source": "Anthropic Research",
-		"date": "2026-04-14T19:00:21.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemini Robotics-ER 1.6 具身推理模型",
-		"url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-		"source": "DeepMind",
-		"date": "2026-04-14T16:00:00.000Z",
 		"group": "labs"
 	}
 ]
