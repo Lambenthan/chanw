@@ -1,58 +1,93 @@
 [
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
+		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
+		"url": "https://github.com/oven-sh/bun",
 		"source": "GitHub Trending",
-		"date": "2026-07-14T13:10:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "Argo CD 发布声明式持续部署工具",
-		"url": "https://github.com/argoproj/argo-cd",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T13:02:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T12:54:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T12:16:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "par274 开源实验性 PlayStation 5 模拟器 SharpEmu",
-		"url": "https://github.com/par274/sharpemu",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T12:09:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "chenyme/grok2api 开源多账号 API 网关",
-		"url": "https://github.com/chenyme/grok2api",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T11:59:53Z",
+		"date": "2026-07-14T19:03:47Z",
 		"group": "gh"
 	},
 	{
 		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
 		"url": "https://github.com/facebook/astryx",
 		"source": "GitHub Trending",
-		"date": "2026-07-14T11:29:32Z",
+		"date": "2026-07-14T18:59:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T18:57:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T18:55:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "mattpocock 开源 Skills for Real Engineers 技能集合",
+		"url": "https://github.com/mattpocock/skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T18:32:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 更新 Abseil Common Libraries (C++)",
+		"url": "https://github.com/abseil/abseil-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T18:02:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T17:41:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Argo CD 发布声明式持续部署工具",
+		"url": "https://github.com/argoproj/argo-cd",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T17:27:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "par274 开源实验性 PlayStation 5 模拟器 SharpEmu",
+		"url": "https://github.com/par274/sharpemu",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T17:25:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "chenyme/grok2api 开源多账号 API 网关",
+		"url": "https://github.com/chenyme/grok2api",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T17:19:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计平台发布，支持产品团队协作",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T15:48:36Z",
 		"group": "gh"
 	},
 	{
 		"title": "pbakaus 开源 Impeccable 设计语言",
 		"url": "https://github.com/pbakaus/impeccable",
 		"source": "GitHub Trending",
-		"date": "2026-07-14T10:21:45Z",
+		"date": "2026-07-14T14:53:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 TencentDB Agent Memory 本地长期记忆方案",
+		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+		"source": "GitHub Trending",
+		"date": "2026-07-14T14:08:03Z",
 		"group": "gh"
 	},
 	{
@@ -84,13 +119,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "mattpocock 开源 Skills for Real Engineers 技能集合",
-		"url": "https://github.com/mattpocock/skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T09:13:19Z",
-		"group": "gh"
-	},
-	{
 		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
 		"url": "https://github.com/iOfficeAI/OfficeCLI",
 		"source": "GitHub Trending",
@@ -105,11 +133,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T05:40:32Z",
-		"group": "gh"
+		"title": "Anthropic 推出 Claude for Teachers",
+		"url": "https://www.anthropic.com/news/claude-for-teachers",
+		"source": "Anthropic News",
+		"date": "2026-07-14T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Dicklesworthstone 开源 Destructive Command Guard 安全工具",
@@ -138,13 +166,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-07-13T18:27:52.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "腾讯云开源 TencentDB Agent Memory 本地长期记忆方案",
-		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-		"source": "GitHub Trending",
-		"date": "2026-07-13T11:27:21Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
@@ -187,6 +208,13 @@
 		"source": "GitHub Trending",
 		"date": "2026-07-09T18:10:16Z",
 		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 在 DTW Ignite 2026 发布电信 AI Agents",
+		"url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+		"source": "NVIDIA",
+		"date": "2026-07-09T16:15:43.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Deutsche Telekom 与 OpenAI 合作推进电信 AI 转型",
@@ -882,13 +910,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 在 DTW Ignite 2026 发布电信 AI Agents",
-		"url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
-		"source": "NVIDIA",
-		"date": "2026-06-25T16:27:15.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google 升级 Google Finance 并推出新应用",
 		"url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
 		"source": "Google AI",
@@ -1353,13 +1374,6 @@
 	{
 		"title": "OpenAI 通过 Appia 基金会推动 AI 安全标准共建",
 		"url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-		"source": "OpenAI",
-		"date": "2026-06-11T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "三星电子向全球员工部署 ChatGPT Enterprise 与 Codex",
-		"url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
 		"source": "OpenAI",
 		"date": "2026-06-11T00:00:00.000Z",
 		"group": "labs"
@@ -2142,10 +2156,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 推出 Google Beam 提升群体会议体验",
-		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
-		"source": "Google AI",
-		"date": "2026-05-20T00:00:00.000Z",
+		"title": "OpenAI 加速湿实验室生物学研究",
+		"url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2214,13 +2228,6 @@
 	{
 		"title": "OpenAI 公布模型规范制定方法",
 		"url": "https://openai.com/index/our-approach-to-the-model-spec/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 加速湿实验室生物学研究",
-		"url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2853,34 +2860,6 @@
 		"url": "https://blogs.nvidia.com/blog/ai-inference-platform/",
 		"source": "NVIDIA",
 		"date": "2026-04-15T20:19:50.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 详解 AI token 概念",
-		"url": "https://blogs.nvidia.com/blog/ai-tokens-explained/",
-		"source": "NVIDIA",
-		"date": "2026-04-15T18:09:32.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Blackwell 推理优化方案，降低开源模型每 token 成本",
-		"url": "https://blogs.nvidia.com/blog/inference-open-source-models-blackwell-reduce-cost-per-token/",
-		"source": "NVIDIA",
-		"date": "2026-04-15T18:07:29.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Opus 4.7",
-		"url": "https://www.anthropic.com/news/claude-opus-4-7",
-		"source": "Anthropic News",
-		"date": "2026-04-15T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Agent Skills 赋能真实世界 agent",
-		"url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
-		"source": "Anthropic Engineering",
-		"date": "2026-04-15T14:39:01.000Z",
 		"group": "labs"
 	}
 ]
