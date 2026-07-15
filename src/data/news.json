@@ -1,51 +1,79 @@
 [
 	{
-		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
-		"url": "https://github.com/oven-sh/bun",
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T01:26:55Z",
+		"date": "2026-07-15T07:41:51Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T01:23:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T01:19:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T01:09:24Z",
+		"date": "2026-07-15T07:35:42Z",
 		"group": "gh"
 	},
 	{
 		"title": "Facebook 开源 Astryx 设计系统，可定制且支持 agent 集成",
 		"url": "https://github.com/facebook/astryx",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T00:49:17Z",
+		"date": "2026-07-15T07:32:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
+		"url": "https://github.com/TencentCloud/CubeSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T07:16:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "Penpot 开源设计平台发布，支持产品团队协作",
+		"url": "https://github.com/penpot/penpot",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T07:16:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "HenryNdubuaku 开源 AI/ML 研究工程师学习路线图",
+		"url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T07:15:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
+		"url": "https://github.com/oven-sh/bun",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T07:10:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "chenyme/grok2api 开源多账号 API 网关",
+		"url": "https://github.com/chenyme/grok2api",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T05:39:26Z",
 		"group": "gh"
 	},
 	{
 		"title": "par274 开源实验性 PlayStation 5 模拟器 SharpEmu",
 		"url": "https://github.com/par274/sharpemu",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T00:38:27Z",
+		"date": "2026-07-15T03:53:06Z",
 		"group": "gh"
 	},
 	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T00:06:51Z",
+		"date": "2026-07-15T02:47:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T01:43:21Z",
 		"group": "gh"
 	},
 	{
@@ -91,32 +119,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "MadsLorentzen 开源 AI 求职框架 ai-job-search",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T18:11:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "chenyme/grok2api 开源多账号 API 网关",
-		"url": "https://github.com/chenyme/grok2api",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T17:19:27Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 Nemotron 开源模型系列",
 		"url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
 		"source": "NVIDIA",
 		"date": "2026-07-14T16:45:13.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Penpot 开源设计平台发布，支持产品团队协作",
-		"url": "https://github.com/penpot/penpot",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T15:48:36Z",
-		"group": "gh"
 	},
 	{
 		"title": "腾讯云开源 TencentDB Agent Memory 本地长期记忆方案",
@@ -130,13 +137,6 @@
 		"url": "https://github.com/vxcontrol/pentagi",
 		"source": "GitHub Trending",
 		"date": "2026-07-14T10:06:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
-		"url": "https://github.com/TencentCloud/CubeSandbox",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T09:52:15Z",
 		"group": "gh"
 	},
 	{
@@ -168,13 +168,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Dicklesworthstone 开源 Destructive Command Guard 安全工具",
-		"url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-		"source": "GitHub Trending",
-		"date": "2026-07-13T23:11:56Z",
-		"group": "gh"
-	},
-	{
 		"title": "Clypra 开源基于 Tauri 和 React 的现代视频编辑器",
 		"url": "https://github.com/AIEraDev/Clypra",
 		"source": "GitHub Trending",
@@ -200,6 +193,13 @@
 		"url": "https://github.com/OpenCut-app/OpenCut",
 		"source": "GitHub Trending",
 		"date": "2026-07-10T20:26:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "virattt 开源 AI Hedge Fund 多智能体投资系统",
+		"url": "https://github.com/virattt/ai-hedge-fund",
+		"source": "GitHub Trending",
+		"date": "2026-07-10T19:24:04Z",
 		"group": "gh"
 	},
 	{
@@ -775,13 +775,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-29T18:02:48.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "HenryNdubuaku 开源 AI/ML 研究工程师学习路线图",
-		"url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-		"source": "GitHub Trending",
-		"date": "2026-06-27T10:00:04Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
@@ -2853,13 +2846,6 @@
 		"url": "https://x.ai/news/grok-stt-and-tts-apis",
 		"source": "xAI",
 		"date": "2026-04-17T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布最低 Token 成本 AI 工厂方案",
-		"url": "https://blogs.nvidia.com/blog/lowest-token-cost-ai-factories/",
-		"source": "NVIDIA",
-		"date": "2026-04-16T04:01:45.000Z",
 		"group": "labs"
 	}
 ]
