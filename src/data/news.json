@@ -1,37 +1,79 @@
 [
 	{
-		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
-		"url": "https://github.com/davila7/claude-code-templates",
+		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
+		"url": "https://github.com/oven-sh/bun",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T13:12:30Z",
+		"date": "2026-07-15T18:56:15Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T13:00:41Z",
+		"date": "2026-07-15T18:55:45Z",
 		"group": "gh"
 	},
 	{
 		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
 		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T12:48:56Z",
+		"date": "2026-07-15T18:53:18Z",
 		"group": "gh"
 	},
 	{
-		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
-		"url": "https://github.com/oven-sh/bun",
+		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
+		"url": "https://github.com/openinterpreter/openinterpreter",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T12:43:30Z",
+		"date": "2026-07-15T18:34:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 总结构建 Shippy 的 agent 开发经验",
+		"url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-15T17:29:41.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "coreyhaines31 开源 Marketing Skills 技能包，面向 Claude Code 和 AI agents",
+		"url": "https://github.com/coreyhaines31/marketingskills",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T16:56:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T16:36:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T16:29:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 更新 Abseil Common Libraries (C++)",
+		"url": "https://github.com/abseil/abseil-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T15:29:38Z",
 		"group": "gh"
 	},
 	{
 		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
 		"url": "https://github.com/TencentCloud/CubeSandbox",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T12:03:51Z",
+		"date": "2026-07-15T14:21:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
+		"url": "https://github.com/davila7/claude-code-templates",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T14:10:57Z",
 		"group": "gh"
 	},
 	{
@@ -56,34 +98,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "MadsLorentzen 开源 ai-job-search AI 求职应用框架",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T05:53:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T02:47:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
-		"url": "https://github.com/openinterpreter/openinterpreter",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T02:17:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T01:43:21Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 发布 Real World VoiceEQ 语音 AI 人类质量评测基准",
 		"url": "https://huggingface.co/blog/real-world-voiceeq",
 		"source": "Hugging Face Blog",
@@ -91,11 +105,18 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T20:41:27Z",
-		"group": "gh"
+		"title": "Thinking Machines 发布 Inkling 模型",
+		"url": "https://huggingface.co/blog/thinkingmachines-inkling",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 AI 基础设施能效分析报告",
+		"url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+		"source": "NVIDIA",
+		"date": "2026-07-14T23:36:52.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "pbakaus 开源 Impeccable 设计语言",
@@ -152,6 +173,13 @@
 		"source": "Anthropic Research",
 		"date": "2026-07-13T18:27:52.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Google Labs 开源 Stitch Skills 库，为 Stitch MCP 服务器提供 Agent Skills",
+		"url": "https://github.com/google-labs-code/stitch-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-13T18:23:03Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 开源 Claude Cookbooks 示例集合",
@@ -1022,13 +1050,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Daybreak 安全工具集，含 Codex Security 与 GPT-5.5-Cyber",
-		"url": "https://openai.com/index/daybreak-securing-the-world",
-		"source": "OpenAI",
-		"date": "2026-06-22T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google DeepMind 宣布与 A24 建立研究合作",
 		"url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
 		"source": "DeepMind",
@@ -1211,13 +1232,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 推出 Agentic Resource Discovery 资源发现机制",
-		"url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-17T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "xAI 将 Grok 模型接入 Amazon Bedrock",
 		"url": "https://x.ai/news/grok-amazon-bedrock",
 		"source": "xAI",
@@ -1365,13 +1379,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "PyTorch 发布从 nn.Linear 到融合 MLP 的性能分析教程",
-		"url": "https://huggingface.co/blog/torch-mlp-fusion",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-11T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 更新英国主权 AI 进展",
 		"url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
 		"source": "NVIDIA",
@@ -1397,13 +1404,6 @@
 		"url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
 		"source": "DeepMind",
 		"date": "2026-06-09T13:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 展示 agent 串联两个 Spaces 构建 3D 巴黎画廊",
-		"url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-09T10:46:19.000Z",
 		"group": "labs"
 	},
 	{
@@ -1736,15 +1736,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 加速网络防御生态建设",
-		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+		"title": "OpenAI 更新美国 CAISI 与英国 AISI 的 AI 治理进展",
+		"url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 更新美国 CAISI 与英国 AISI 的 AI 治理进展",
-		"url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
+		"title": "OpenAI 加速网络防御生态建设",
+		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -2135,6 +2135,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布链式思维可监控性评估",
+		"url": "https://openai.com/index/evaluating-chain-of-thought-monitorability/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 加速湿实验室生物学研究",
 		"url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
 		"source": "OpenAI",
@@ -2179,13 +2186,6 @@
 	{
 		"title": "OpenAI 分享参数高尔夫研究经验",
 		"url": "https://openai.com/index/what-parameter-golf-taught-us/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布链式思维可监控性评估",
-		"url": "https://openai.com/index/evaluating-chain-of-thought-monitorability/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2450,6 +2450,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 Codex 正式版",
+		"url": "https://openai.com/index/codex-now-generally-available/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT-5.2",
 		"url": "https://openai.com/index/introducing-gpt-5-2/",
 		"source": "OpenAI",
@@ -2480,13 +2487,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5",
 		"url": "https://openai.com/index/introducing-gpt-5/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Codex 正式版",
-		"url": "https://openai.com/index/codex-now-generally-available/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
