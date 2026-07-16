@@ -1,30 +1,93 @@
 [
 	{
-		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
-		"url": "https://github.com/oven-sh/bun",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T18:56:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T18:55:45Z",
+		"date": "2026-07-16T01:49:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
+		"url": "https://github.com/oven-sh/bun",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T01:47:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "moeru-ai 开源 Airi 自托管 AI 伴侣 Agent",
+		"url": "https://github.com/moeru-ai/airi",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T01:40:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
+		"url": "https://github.com/TencentCloud/CubeSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T01:35:14Z",
 		"group": "gh"
 	},
 	{
 		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
 		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T18:53:18Z",
+		"date": "2026-07-16T00:57:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T00:29:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "pbakaus 开源 Impeccable 设计语言",
+		"url": "https://github.com/pbakaus/impeccable",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T00:05:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Jetson Thor 机器人边缘 AI agent 计算平台",
+		"url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+		"source": "NVIDIA",
+		"date": "2026-07-15T23:37:32.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google 更新 Abseil Common Libraries (C++)",
+		"url": "https://github.com/abseil/abseil-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T23:27:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Tag",
+		"url": "https://www.anthropic.com/news/introducing-claude-tag",
+		"source": "Anthropic News",
+		"date": "2026-07-15T22:12:10.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 在 CVPR 发布 Physical AI 研究 Agent 技能",
+		"url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+		"source": "NVIDIA",
+		"date": "2026-07-15T21:54:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Dicklesworthstone 开源 Destructive Command Guard 阻止 agent 执行危险命令",
+		"url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T19:55:42Z",
 		"group": "gh"
 	},
 	{
 		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
 		"url": "https://github.com/openinterpreter/openinterpreter",
 		"source": "GitHub Trending",
-		"date": "2026-07-15T18:34:39Z",
+		"date": "2026-07-15T19:19:47Z",
 		"group": "gh"
 	},
 	{
@@ -35,17 +98,17 @@
 		"group": "labs"
 	},
 	{
+		"title": "IBM Research 发布模型路由研究",
+		"url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-15T17:27:01.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "coreyhaines31 开源 Marketing Skills 技能包，面向 Claude Code 和 AI agents",
 		"url": "https://github.com/coreyhaines31/marketingskills",
 		"source": "GitHub Trending",
 		"date": "2026-07-15T16:56:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T16:36:32Z",
 		"group": "gh"
 	},
 	{
@@ -56,38 +119,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T15:29:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
-		"url": "https://github.com/TencentCloud/CubeSandbox",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T14:21:38Z",
-		"group": "gh"
-	},
-	{
 		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
 		"url": "https://github.com/davila7/claude-code-templates",
 		"source": "GitHub Trending",
 		"date": "2026-07-15T14:10:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "moeru-ai 开源 Airi 自托管 AI 伴侣 Agent",
-		"url": "https://github.com/moeru-ai/airi",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T11:06:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "Dicklesworthstone 开源 Destructive Command Guard 阻止 agent 执行危险命令",
-		"url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T07:41:25Z",
 		"group": "gh"
 	},
 	{
@@ -117,13 +152,6 @@
 		"source": "NVIDIA",
 		"date": "2026-07-14T23:36:52.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "pbakaus 开源 Impeccable 设计语言",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T19:50:11Z",
-		"group": "gh"
 	},
 	{
 		"title": "mattpocock 开源 Skills for Real Engineers 技能集合",
@@ -164,6 +192,13 @@
 		"title": "Anthropic 推出 Claude for Teachers",
 		"url": "https://www.anthropic.com/news/claude-for-teachers",
 		"source": "Anthropic News",
+		"date": "2026-07-14T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布加拿大使用 Claude 的经济指数报告",
+		"url": "https://www.anthropic.com/research/how-canada-uses-claude",
+		"source": "Anthropic Research",
 		"date": "2026-07-14T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -868,13 +903,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Tag",
-		"url": "https://www.anthropic.com/news/introducing-claude-tag",
-		"source": "Anthropic News",
-		"date": "2026-06-26T12:23:43.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Nutlope 发布 Hallmark 反 AI 水印设计 skill",
 		"url": "https://github.com/Nutlope/hallmark",
 		"source": "GitHub Trending",
@@ -1060,6 +1088,13 @@
 		"title": "Hugging Face 用本地模型自动分类 OpenClaw 仓库 PR",
 		"url": "https://huggingface.co/blog/local-models-pr-triage",
 		"source": "Hugging Face Blog",
+		"date": "2026-06-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 /goal 指令功能",
+		"url": "https://x.ai/news/introducing-goal",
+		"source": "xAI",
 		"date": "2026-06-22T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1306,13 +1341,6 @@
 		"url": "https://blogs.nvidia.com/blog/seti-institute-ai-fast-radio-bursts/",
 		"source": "NVIDIA",
 		"date": "2026-06-12T17:46:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 CVPR 发布 Physical AI 研究 Agent 技能",
-		"url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
-		"source": "NVIDIA",
-		"date": "2026-06-12T17:46:11.000Z",
 		"group": "labs"
 	},
 	{
@@ -2450,6 +2478,27 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5.4",
+		"url": "https://openai.com/index/introducing-gpt-5-4/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Codex 升级",
+		"url": "https://openai.com/index/introducing-upgrades-to-codex/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-5.1 Codex Max",
+		"url": "https://openai.com/index/gpt-5-1-codex-max/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 Codex 正式版",
 		"url": "https://openai.com/index/codex-now-generally-available/",
 		"source": "OpenAI",
@@ -2471,13 +2520,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5.4",
-		"url": "https://openai.com/index/introducing-gpt-5-4/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT-5.5",
 		"url": "https://openai.com/index/introducing-gpt-5-5/",
 		"source": "OpenAI",
@@ -2487,20 +2529,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5",
 		"url": "https://openai.com/index/introducing-gpt-5/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Codex 升级",
-		"url": "https://openai.com/index/introducing-upgrades-to-codex/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.1 Codex Max",
-		"url": "https://openai.com/index/gpt-5-1-codex-max/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
@@ -2811,13 +2839,6 @@
 		"url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
 		"source": "Anthropic News",
 		"date": "2026-04-17T14:58:21.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 推出 Grok 语音识别与语音合成 API",
-		"url": "https://x.ai/news/grok-stt-and-tts-apis",
-		"source": "xAI",
-		"date": "2026-04-17T00:00:00.000Z",
 		"group": "labs"
 	}
 ]
