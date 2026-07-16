@@ -1,16 +1,65 @@
 [
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T01:49:34Z",
-		"group": "gh"
-	},
-	{
 		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
 		"url": "https://github.com/oven-sh/bun",
 		"source": "GitHub Trending",
-		"date": "2026-07-16T01:47:17Z",
+		"date": "2026-07-16T08:00:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T07:55:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
+		"url": "https://github.com/TencentCloud/CubeSandbox",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T07:23:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "hasaneyldrm 开源 1,324 个健身动作数据集",
+		"url": "https://github.com/hasaneyldrm/exercises-dataset",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T06:50:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T05:45:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "coreyhaines31 开源 Marketing Skills 技能包，面向 Claude Code 和 AI agents",
+		"url": "https://github.com/coreyhaines31/marketingskills",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T05:42:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Jetson Thor 机器人边缘 AI agent 计算平台",
+		"url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T05:16:48.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google 更新 Abseil Common Libraries (C++)",
+		"url": "https://github.com/abseil/abseil-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T04:39:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
+		"url": "https://github.com/davila7/claude-code-templates",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T04:09:30Z",
 		"group": "gh"
 	},
 	{
@@ -18,20 +67,6 @@
 		"url": "https://github.com/moeru-ai/airi",
 		"source": "GitHub Trending",
 		"date": "2026-07-16T01:40:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯云开源 CubeSandbox 轻量级 AI Agent 沙箱",
-		"url": "https://github.com/TencentCloud/CubeSandbox",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T01:35:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T00:57:51Z",
 		"group": "gh"
 	},
 	{
@@ -46,20 +81,6 @@
 		"url": "https://github.com/pbakaus/impeccable",
 		"source": "GitHub Trending",
 		"date": "2026-07-16T00:05:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 发布 Jetson Thor 机器人边缘 AI agent 计算平台",
-		"url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
-		"source": "NVIDIA",
-		"date": "2026-07-15T23:37:32.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T23:27:01Z",
 		"group": "gh"
 	},
 	{
@@ -91,60 +112,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "Hugging Face 总结构建 Shippy 的 agent 开发经验",
-		"url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-15T17:29:41.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "IBM Research 发布模型路由研究",
-		"url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-15T17:27:01.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "coreyhaines31 开源 Marketing Skills 技能包，面向 Claude Code 和 AI agents",
-		"url": "https://github.com/coreyhaines31/marketingskills",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T16:56:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T16:29:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
-		"url": "https://github.com/davila7/claude-code-templates",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T14:10:57Z",
-		"group": "gh"
-	},
-	{
 		"title": "HenryNdubuaku 开源 AI/ML 研究工程师学习路线图",
 		"url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
 		"source": "GitHub Trending",
 		"date": "2026-07-15T07:15:54Z",
 		"group": "gh"
-	},
-	{
-		"title": "Hugging Face 发布 Real World VoiceEQ 语音 AI 人类质量评测基准",
-		"url": "https://huggingface.co/blog/real-world-voiceeq",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-15T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Thinking Machines 发布 Inkling 模型",
-		"url": "https://huggingface.co/blog/thinkingmachines-inkling",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-15T00:00:00.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 发布 AI 基础设施能效分析报告",
@@ -238,25 +210,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "PyTorch 发布注意力机制性能分析教程",
-		"url": "https://huggingface.co/blog/torch-attention-profile",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Golden Gate Claude",
 		"url": "https://www.anthropic.com/news/golden-gate-claude",
 		"source": "Anthropic News",
 		"date": "2026-07-09T20:02:16.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "hasaneyldrm 开源 1,324 个健身动作数据集",
-		"url": "https://github.com/hasaneyldrm/exercises-dataset",
-		"source": "GitHub Trending",
-		"date": "2026-07-09T18:10:16Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 在 DTW Ignite 2026 发布电信 AI Agents",
@@ -539,13 +497,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 探讨面向 agent 的数据策略",
-		"url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-08T17:16:05.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA Nemotron 3 Ultra 在 LangChain Deep Agents 上取得领先性能",
 		"url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
 		"source": "NVIDIA",
@@ -567,24 +518,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Hugging Face 推出 vLLM transformers 建模后端实现原生速度",
-		"url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-08T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 提出 AI 模型双用知识关闭机制",
 		"url": "https://www.anthropic.com/research/off-switch-dual-use",
 		"source": "Anthropic Research",
 		"date": "2026-07-08T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 一键部署至 Amazon SageMaker Studio",
-		"url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-07T21:15:33.000Z",
 		"group": "labs"
 	},
 	{
@@ -602,30 +539,9 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 模型上线 Foundry 托管计算服务",
-		"url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-07T15:20:06.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google 更新 Gemini API Managed Agents，支持后台任务与远程 MCP",
 		"url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
 		"source": "Google AI",
-		"date": "2026-07-07T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 LeRobot v0.6.0 机器人训练框架",
-		"url": "https://huggingface.co/blog/lerobot-release-v060",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-07T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 与 SkyPilot 推出零出站流量存储方案",
-		"url": "https://huggingface.co/blog/skypilot-hf-storage",
-		"source": "Hugging Face Blog",
 		"date": "2026-07-07T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -641,20 +557,6 @@
 		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
 		"source": "NVIDIA",
 		"date": "2026-07-06T16:40:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Photoroom 公开 PRX 项目数据策略",
-		"url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-06T15:30:55.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 Kernels 重大更新",
-		"url": "https://huggingface.co/blog/revamped-kernels",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-06T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -742,13 +644,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 与 Cerebras 将 Gemma 4 接入实时语音 AI",
-		"url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 联合 Palantir 面向美国机构发布 Nemotron 开放模型",
 		"url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
 		"source": "NVIDIA",
@@ -756,24 +651,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "IBM 发布 ScarfBench 评测 AI Agent 迁移企业 Java 框架能力",
-		"url": "https://huggingface.co/blog/ibm-research/scarfbench",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-30T18:32:50.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Claude Science BioNeMo Agent Toolkit",
 		"url": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
 		"source": "NVIDIA",
 		"date": "2026-06-30T17:01:08.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 博客探讨模型专业化趋势",
-		"url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-30T14:39:11.000Z",
 		"group": "labs"
 	},
 	{
@@ -795,20 +676,6 @@
 		"url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
 		"source": "DeepMind",
 		"date": "2026-06-30T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 在模型页新增“Every Eval Ever”评测结果功能",
-		"url": "https://huggingface.co/blog/eee-community-evals",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-30T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Allen AI 发布 DiScoFormer 统一密度与分数估计",
-		"url": "https://huggingface.co/blog/allenai/discoformer",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-29T18:02:48.000Z",
 		"group": "labs"
 	},
 	{
@@ -924,13 +791,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 支持一条命令在 HF Jobs 上运行 vLLM 服务器",
-		"url": "https://huggingface.co/blog/vllm-jobs",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-26T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Agent Toolkit，集成开放模型、工具、技能与安全运行时",
 		"url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
 		"source": "NVIDIA",
@@ -973,13 +833,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 推出 NeMo AutoModel 加速 Transformer 微调",
-		"url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-24T16:00:13.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 AI 核安全保障研究",
 		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
 		"source": "Anthropic Research",
@@ -1008,31 +861,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布 FFASR 榜单，用于真实场景 ASR 评测",
-		"url": "https://huggingface.co/blog/ffasr-leaderboard",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-24T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布欧洲 AI 劳动力机会报告",
 		"url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
 		"source": "OpenAI",
 		"date": "2026-06-23T13:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 以周更频率发布 huggingface_hub 更新",
-		"url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-23T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Transformers.js 实验跨源存储 API",
-		"url": "https://huggingface.co/blog/cross-origin-storage",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-23T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1057,13 +889,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "PaddlePaddle 发布 PP-OCRv6，支持 50 种语言 OCR",
-		"url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-22T13:18:56.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Nairr 科研 AI 基础设施",
 		"url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
 		"source": "NVIDIA",
@@ -1085,24 +910,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 用本地模型自动分类 OpenClaw 仓库 PR",
-		"url": "https://huggingface.co/blog/local-models-pr-triage",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "xAI 发布 /goal 指令功能",
 		"url": "https://x.ai/news/introducing-goal",
 		"source": "xAI",
 		"date": "2026-06-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 MosaicLeaks 研究：Agent 能否守住秘密",
-		"url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-18T18:13:13.000Z",
 		"group": "labs"
 	},
 	{
@@ -1144,20 +955,6 @@
 		"title": "xAI 将 Grok 模型接入 Databricks 平台",
 		"url": "https://x.ai/news/grok-databricks",
 		"source": "xAI",
-		"date": "2026-06-18T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布开源模型 agent 能力基准测试方法",
-		"url": "https://huggingface.co/blog/is-it-agentic-enough",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-18T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 探讨 LoRA 之外的微调方法",
-		"url": "https://huggingface.co/blog/peft-beyond-lora",
-		"source": "Hugging Face Blog",
 		"date": "2026-06-18T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1225,10 +1022,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 联合亚马逊推出 Strands Agents 实现从 Hub 到机器人硬件的部署",
-		"url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-17T10:18:05.000Z",
+		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
+		"url": "https://openai.com/index/introducing-life-sci-bench/",
+		"source": "OpenAI",
+		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1243,20 +1040,6 @@
 		"url": "https://openai.com/index/introducing-genebench-pro",
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
-		"url": "https://openai.com/index/introducing-life-sci-bench/",
-		"source": "OpenAI",
-		"date": "2026-06-17T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "智谱 AI 发布 GLM-5.2，面向长周期任务",
-		"url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-17T09:01:25.000Z",
 		"group": "labs"
 	},
 	{
@@ -1764,6 +1547,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5 Safe Completions",
+		"url": "https://openai.com/index/gpt-5-safe-completions/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Codex 安全运行指南",
+		"url": "https://openai.com/index/running-codex-safely/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 更新美国 CAISI 与英国 AISI 的 AI 治理进展",
 		"url": "https://openai.com/index/us-caisi-uk-aisi-ai-update/",
 		"source": "OpenAI",
@@ -1787,13 +1584,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5.4-Cyber 网络安全防御模型",
 		"url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 Safe Completions",
-		"url": "https://openai.com/index/gpt-5-safe-completions/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -1955,13 +1745,6 @@
 	{
 		"title": "OpenAI 推进内容溯源技术",
 		"url": "https://openai.com/index/advancing-content-provenance/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Codex 安全运行指南",
-		"url": "https://openai.com/index/running-codex-safely/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
