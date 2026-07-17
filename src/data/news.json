@@ -3,21 +3,70 @@
 		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
 		"url": "https://github.com/oven-sh/bun",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T01:50:20Z",
+		"date": "2026-07-17T07:52:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T07:46:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T01:47:37Z",
+		"date": "2026-07-17T07:41:47Z",
 		"group": "gh"
 	},
 	{
 		"title": "LobeHub 发布 LobeHub Agent 编排平台",
 		"url": "https://github.com/lobehub/lobehub",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T01:46:30Z",
+		"date": "2026-07-17T07:41:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
+		"url": "https://github.com/openinterpreter/openinterpreter",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T07:41:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 开源 Copilot SDK，用于集成 Copilot Agent",
+		"url": "https://github.com/github/copilot-sdk",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T07:36:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "YimMenuV2 发布《GTA 5: Enhanced》实验菜单",
+		"url": "https://github.com/YimMenu/YimMenuV2",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T06:55:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apache 推出 Ossie 语义元数据交换规范",
+		"url": "https://github.com/apache/ossie",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T06:51:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
+		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T05:45:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
+		"url": "https://github.com/davila7/claude-code-templates",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T04:04:20Z",
 		"group": "gh"
 	},
 	{
@@ -25,27 +74,6 @@
 		"url": "https://github.com/abseil/abseil-cpp",
 		"source": "GitHub Trending",
 		"date": "2026-07-17T01:26:30Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 开源 Copilot SDK，用于集成 Copilot Agent",
-		"url": "https://github.com/github/copilot-sdk",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T01:23:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
-		"url": "https://github.com/openinterpreter/openinterpreter",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T01:08:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T00:49:33Z",
 		"group": "gh"
 	},
 	{
@@ -63,13 +91,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
-		"url": "https://github.com/davila7/claude-code-templates",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T21:55:51Z",
-		"group": "gh"
-	},
-	{
 		"title": "pbakaus 开源 Impeccable 设计语言",
 		"url": "https://github.com/pbakaus/impeccable",
 		"source": "GitHub Trending",
@@ -81,13 +102,6 @@
 		"url": "https://github.com/jrouwe/JoltPhysics",
 		"source": "GitHub Trending",
 		"date": "2026-07-16T19:51:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "Apache 推出 Ossie 语义元数据交换规范",
-		"url": "https://github.com/apache/ossie",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T18:38:57Z",
 		"group": "gh"
 	},
 	{
@@ -238,13 +252,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
-		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T06:23:01Z",
-		"group": "gh"
-	},
-	{
 		"title": "OSS 大学计算机科学发布免费自学课程路径",
 		"url": "https://github.com/ossu/computer-science",
 		"source": "GitHub Trending",
@@ -285,13 +292,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-07-13T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "YimMenuV2 发布《GTA 5: Enhanced》实验菜单",
-		"url": "https://github.com/YimMenu/YimMenuV2",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T14:51:35Z",
-		"group": "gh"
 	},
 	{
 		"title": "OpenCut 开源发布 CapCut 替代品",
