@@ -1,58 +1,107 @@
 [
 	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"title": "Google 发布 Protocol Buffers 数据交换格式",
+		"url": "https://github.com/protocolbuffers/protobuf",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T13:08:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
-		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T13:08:03Z",
+		"date": "2026-07-17T18:55:45Z",
 		"group": "gh"
 	},
 	{
 		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T13:07:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 发布 Protocol Buffers 数据交换格式",
-		"url": "https://github.com/protocolbuffers/protobuf",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T13:04:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T13:03:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 开源 Copilot SDK，用于集成 Copilot Agent",
-		"url": "https://github.com/github/copilot-sdk",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T12:58:00Z",
+		"date": "2026-07-17T18:55:35Z",
 		"group": "gh"
 	},
 	{
 		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
 		"url": "https://github.com/oven-sh/bun",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T12:57:19Z",
+		"date": "2026-07-17T18:52:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 开源 Copilot SDK，用于集成 Copilot Agent",
+		"url": "https://github.com/github/copilot-sdk",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T18:51:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Vercel Labs 开源 native 桌面应用开发工具包",
+		"url": "https://github.com/vercel-labs/native",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T18:49:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 更新 actions/checkout 仓库检出 action",
+		"url": "https://github.com/actions/checkout",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T18:45:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T18:37:03Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T12:42:12Z",
+		"date": "2026-07-17T17:52:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 更新 Abseil Common Libraries (C++)",
+		"url": "https://github.com/abseil/abseil-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T17:21:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
+		"url": "https://github.com/davila7/claude-code-templates",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T17:16:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
+		"url": "https://github.com/iOfficeAI/OfficeCLI",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T17:14:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Vera Rubin 平台，提升后训练智能每美元性能",
+		"url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+		"source": "NVIDIA",
+		"date": "2026-07-17T16:01:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 联合 Hugging Face 发布大规模视频与图像模型微调方案",
+		"url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-17T15:57:54.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T13:39:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
+		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T13:08:53Z",
 		"group": "gh"
 	},
 	{
@@ -63,20 +112,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
-		"url": "https://github.com/iOfficeAI/OfficeCLI",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T09:17:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "Vercel Labs 开源 native 桌面应用开发工具包",
-		"url": "https://github.com/vercel-labs/native",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T08:10:52Z",
-		"group": "gh"
-	},
-	{
 		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
 		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
 		"source": "GitHub Trending",
@@ -84,18 +119,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
-		"url": "https://github.com/davila7/claude-code-templates",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T04:04:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T01:26:30Z",
-		"group": "gh"
+		"title": "NVIDIA 发布金融服务 Agentic AI 金融行业方案",
+		"url": "https://blogs.nvidia.com/blog/financial-services-agentic-ai/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T22:05:05.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "pbakaus 开源 Impeccable 设计语言",
@@ -105,24 +133,108 @@
 		"group": "gh"
 	},
 	{
-		"title": "GitHub 更新 actions/checkout 仓库检出 action",
-		"url": "https://github.com/actions/checkout",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T19:44:09Z",
-		"group": "gh"
+		"title": "NVIDIA 推出 AI Agent 客服方案",
+		"url": "https://blogs.nvidia.com/blog/ai-agents-customer-service/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T20:19:36.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 推出 AI agent 在线购物方案",
+		"url": "https://blogs.nvidia.com/blog/ai-agents-online-shopping/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T20:19:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 AI Agent 决策推理能力更新",
+		"url": "https://blogs.nvidia.com/blog/reasoning-ai-agents-decision-making/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T20:18:43.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布企业 AI Agent 团队入门指南",
+		"url": "https://blogs.nvidia.com/blog/onboarding-teams-ai-agents-productivity-revenue-businesses/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T20:16:37.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 探讨将 Agentic AI 引入计算机视觉应用",
+		"url": "https://blogs.nvidia.com/blog/ways-to-bring-agentic-ai-to-computer-vision-applications/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T20:16:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布专用 AI Agent 方案",
+		"url": "https://blogs.nvidia.com/blog/specialized-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T20:15:30.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 Agent Toolkit，集成开放模型、工具、技能与安全运行时",
+		"url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T19:24:04.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 AI Agent 智能文档处理方案",
+		"url": "https://blogs.nvidia.com/blog/ai-agents-intelligent-document-processing/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T19:21:35.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 联合 AI2 推出开源 AI 模型",
+		"url": "https://blogs.nvidia.com/blog/national-science-foundation-ai2-open-ai-models/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T19:18:57.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布语音 AI 数据集与模型",
+		"url": "https://blogs.nvidia.com/blog/speech-ai-dataset-models/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T19:18:34.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 开源 Nemotron 系列 AI 模型",
+		"url": "https://blogs.nvidia.com/blog/nemotron-open-source-ai/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T19:18:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布开放模型与数据计划",
+		"url": "https://blogs.nvidia.com/blog/open-models-data-ai/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T19:16:20.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 联合 Palantir 面向美国机构发布 Nemotron 开放模型",
+		"url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T19:06:55.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 Nemotron 开源模型系列",
+		"url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
+		"source": "NVIDIA",
+		"date": "2026-07-16T19:05:34.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 发布 Jetson Thor 机器人边缘 AI agent 计算平台",
 		"url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
 		"source": "NVIDIA",
-		"date": "2026-07-16T17:24:54.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA Nemotron 3 Embed 在 RTEB 评测中排名第一",
-		"url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-16T16:01:21.000Z",
+		"date": "2026-07-16T18:15:40.000Z",
 		"group": "labs"
 	},
 	{
@@ -131,6 +243,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-07-16T11:49:48.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "HenryNdubuaku 开源 AI/ML 研究工程师学习路线图",
+		"url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T08:20:37Z",
+		"group": "gh"
 	},
 	{
 		"title": "PrismML-Eng 开源 Bonsai Demo 项目",
@@ -208,13 +327,6 @@
 		"source": "GitHub Trending",
 		"date": "2026-07-14T19:25:58Z",
 		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 发布 Nemotron 开源模型系列",
-		"url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
-		"source": "NVIDIA",
-		"date": "2026-07-14T16:45:13.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "Google 与 AIM 发布 ATL Saathi 教育 AI 工具",
@@ -763,13 +875,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 联合 Palantir 面向美国机构发布 Nemotron 开放模型",
-		"url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
-		"source": "NVIDIA",
-		"date": "2026-06-30T18:57:35.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "IBM 发布 ScarfBench 基准测试，评估 AI Agent 迁移企业 Java 框架能力",
 		"url": "https://huggingface.co/blog/ibm-research/scarfbench",
 		"source": "Hugging Face Blog",
@@ -942,13 +1047,6 @@
 		"url": "https://huggingface.co/blog/vllm-jobs",
 		"source": "Hugging Face Blog",
 		"date": "2026-06-26T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Agent Toolkit，集成开放模型、工具、技能与安全运行时",
-		"url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-06-25T22:27:28.000Z",
 		"group": "labs"
 	},
 	{
@@ -1138,13 +1236,6 @@
 		"url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
 		"source": "DeepMind",
 		"date": "2026-06-18T14:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "GPT-5 协助免疫学家破解 T 细胞行为三年未解之谜",
-		"url": "https://openai.com/index/gpt-5-immunology-mystery",
-		"source": "OpenAI",
-		"date": "2026-06-18T08:00:00.000Z",
 		"group": "labs"
 	},
 	{
