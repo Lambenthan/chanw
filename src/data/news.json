@@ -1,37 +1,86 @@
 [
 	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T01:32:08Z",
-		"group": "gh"
-	},
-	{
 		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
 		"url": "https://github.com/oven-sh/bun",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T01:32:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
-		"url": "https://github.com/openinterpreter/openinterpreter",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T01:31:15Z",
+		"date": "2026-07-18T07:30:50Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T01:29:46Z",
+		"date": "2026-07-18T07:28:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
+		"url": "https://github.com/openinterpreter/openinterpreter",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T07:26:33Z",
 		"group": "gh"
 	},
 	{
 		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T01:23:45Z",
+		"date": "2026-07-18T07:16:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T06:20:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 发布 Protocol Buffers 数据交换格式",
+		"url": "https://github.com/protocolbuffers/protobuf",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T06:18:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrismML-Eng 开源 Bonsai Demo 项目",
+		"url": "https://github.com/PrismML-Eng/Bonsai-demo",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T06:12:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
+		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T05:57:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
+		"url": "https://github.com/iOfficeAI/OfficeCLI",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T05:33:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
+		"url": "https://github.com/davila7/claude-code-templates",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T04:08:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 开源 Copilot SDK，用于集成 Copilot Agent",
+		"url": "https://github.com/github/copilot-sdk",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T03:56:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "pbakaus 开源 Impeccable 设计语言",
+		"url": "https://github.com/pbakaus/impeccable",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T01:56:36Z",
 		"group": "gh"
 	},
 	{
@@ -49,45 +98,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "pbakaus 开源 Impeccable 设计语言",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T00:39:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 发布 Protocol Buffers 数据交换格式",
-		"url": "https://github.com/protocolbuffers/protobuf",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T23:26:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrismML-Eng 开源 Bonsai Demo 项目",
-		"url": "https://github.com/PrismML-Eng/Bonsai-demo",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T23:02:40Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google 更新 Abseil Common Libraries (C++)",
 		"url": "https://github.com/abseil/abseil-cpp",
 		"source": "GitHub Trending",
 		"date": "2026-07-17T21:52:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 开源 Copilot SDK，用于集成 Copilot Agent",
-		"url": "https://github.com/github/copilot-sdk",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T21:52:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
-		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T21:51:17Z",
 		"group": "gh"
 	},
 	{
@@ -98,24 +112,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
-		"url": "https://github.com/iOfficeAI/OfficeCLI",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T20:13:56Z",
-		"group": "gh"
-	},
-	{
 		"title": "GitHub 更新 actions/checkout 仓库检出 action",
 		"url": "https://github.com/actions/checkout",
 		"source": "GitHub Trending",
 		"date": "2026-07-17T18:45:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
-		"url": "https://github.com/davila7/claude-code-templates",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T17:16:18Z",
 		"group": "gh"
 	},
 	{
@@ -275,6 +275,13 @@
 	{
 		"title": "Google Vids 更新：支持 Gemini Omni 与个人虚拟形象",
 		"url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+		"source": "Google AI",
+		"date": "2026-07-16T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google 更新搜索 AI 模式，支持更多应用连接",
+		"url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
 		"source": "Google AI",
 		"date": "2026-07-16T00:00:00.000Z",
 		"group": "labs"
