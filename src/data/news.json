@@ -1,51 +1,51 @@
 [
 	{
-		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
-		"url": "https://github.com/oven-sh/bun",
+		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
+		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T07:30:50Z",
+		"date": "2026-07-18T12:56:03Z",
 		"group": "gh"
 	},
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
+		"title": "OpenAI 开源 Codex 终端编程 agent",
+		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T07:28:13Z",
+		"date": "2026-07-18T12:49:29Z",
 		"group": "gh"
 	},
 	{
 		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
 		"url": "https://github.com/openinterpreter/openinterpreter",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T07:26:33Z",
+		"date": "2026-07-18T12:48:49Z",
 		"group": "gh"
 	},
 	{
-		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
-		"url": "https://github.com/PostHog/posthog",
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T07:16:24Z",
+		"date": "2026-07-18T12:35:44Z",
 		"group": "gh"
 	},
 	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"title": "wigolo 开源本地优先的 AI 编码 agent 搜索与爬虫工具",
+		"url": "https://github.com/KnockOutEZ/wigolo",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T06:20:17Z",
+		"date": "2026-07-18T12:12:57Z",
 		"group": "gh"
 	},
 	{
-		"title": "Google 发布 Protocol Buffers 数据交换格式",
-		"url": "https://github.com/protocolbuffers/protobuf",
+		"title": "Graphify-Labs 开源 Graphify：AI 编程助手 skill 将代码库转为知识图谱",
+		"url": "https://github.com/Graphify-Labs/graphify",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T06:18:10Z",
+		"date": "2026-07-18T11:56:41Z",
 		"group": "gh"
 	},
 	{
-		"title": "PrismML-Eng 开源 Bonsai Demo 项目",
-		"url": "https://github.com/PrismML-Eng/Bonsai-demo",
+		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
+		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T06:12:49Z",
+		"date": "2026-07-18T11:11:20Z",
 		"group": "gh"
 	},
 	{
@@ -63,41 +63,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
-		"url": "https://github.com/davila7/claude-code-templates",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T04:08:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 开源 Copilot SDK，用于集成 Copilot Agent",
-		"url": "https://github.com/github/copilot-sdk",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T03:56:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "pbakaus 开源 Impeccable 设计语言",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T01:56:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T00:57:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "Vercel Labs 开源 native 桌面应用开发工具包",
-		"url": "https://github.com/vercel-labs/native",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T00:42:35Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google 更新 Abseil Common Libraries (C++)",
 		"url": "https://github.com/abseil/abseil-cpp",
 		"source": "GitHub Trending",
@@ -109,13 +74,6 @@
 		"url": "https://github.com/OpenCut-app/OpenCut",
 		"source": "GitHub Trending",
 		"date": "2026-07-17T21:23:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitHub 更新 actions/checkout 仓库检出 action",
-		"url": "https://github.com/actions/checkout",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T18:45:12Z",
 		"group": "gh"
 	},
 	{
@@ -133,10 +91,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
-		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+		"title": "ibelick 发布 ui-skills，面向设计工程师的 UI 技能库",
+		"url": "https://github.com/ibelick/ui-skills",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T13:08:53Z",
+		"date": "2026-07-17T12:31:36Z",
 		"group": "gh"
 	},
 	{
@@ -145,6 +103,13 @@
 		"source": "NVIDIA",
 		"date": "2026-07-16T22:05:05.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "lyogavin 开源 AirLLM，单张 4GB GPU 即可运行 70B 模型推理",
+		"url": "https://github.com/lyogavin/airllm",
+		"source": "GitHub Trending",
+		"date": "2026-07-16T20:32:44Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 推出 AI Agent 客服方案",
@@ -259,10 +224,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "HenryNdubuaku 开源 AI/ML 研究工程师学习路线图",
-		"url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+		"title": "月之暗面 发布 Kimi Code CLI agent",
+		"url": "https://github.com/MoonshotAI/kimi-cli",
 		"source": "GitHub Trending",
-		"date": "2026-07-16T08:20:37Z",
+		"date": "2026-07-16T10:05:51Z",
 		"group": "gh"
 	},
 	{
@@ -283,6 +248,13 @@
 		"title": "Google 更新搜索 AI 模式，支持更多应用连接",
 		"url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
 		"source": "Google AI",
+		"date": "2026-07-16T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 披露 2026 年 7 月安全事件",
+		"url": "https://huggingface.co/blog/security-incident-july-2026",
+		"source": "Hugging Face Blog",
 		"date": "2026-07-16T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -313,6 +285,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-07-15T17:27:01.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "G0DM0D3 开源 LIBERATED AI CHAT 项目",
+		"url": "https://github.com/elder-plinius/G0DM0D3",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T14:48:02Z",
+		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 发布 Real World VoiceEQ 语音 AI 人类质量评测工具",
@@ -369,20 +348,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-07-13T18:27:52.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Google Labs 开源 Stitch Skills 库，为 Stitch MCP 服务器提供 Agent Skills",
-		"url": "https://github.com/google-labs-code/stitch-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-13T18:23:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "Docuseal 开源数字文档签署工具，替代 DocuSign",
-		"url": "https://github.com/docusealco/docuseal",
-		"source": "GitHub Trending",
-		"date": "2026-07-13T11:15:49Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
@@ -693,13 +658,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 codex-plugin-cc，支持从 Claude Code 调用 Codex",
-		"url": "https://github.com/openai/codex-plugin-cc",
-		"source": "GitHub Trending",
-		"date": "2026-07-08T00:17:31Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 提出 AI 模型双用知识关闭机制",
 		"url": "https://www.anthropic.com/research/off-switch-dual-use",
 		"source": "Anthropic Research",
@@ -957,13 +915,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-26T18:39:12.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 开源 cwc-workshops 项目",
-		"url": "https://github.com/anthropics/cwc-workshops",
-		"source": "GitHub Trending",
-		"date": "2026-06-26T16:32:46Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 让 Claude 具备化学推理与实验能力",
@@ -1853,13 +1804,6 @@
 		"source": "Mistral",
 		"date": "2026-05-28T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "RyanCodrai 开源 TurboVec 向量索引",
-		"url": "https://github.com/RyanCodrai/turbovec",
-		"source": "GitHub Trending",
-		"date": "2026-05-27T17:40:37Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 AI 工厂基础设施方案",
