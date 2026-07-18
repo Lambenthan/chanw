@@ -1,37 +1,107 @@
 [
 	{
-		"title": "Google 发布 Protocol Buffers 数据交换格式",
-		"url": "https://github.com/protocolbuffers/protobuf",
+		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T18:55:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
-		"url": "https://github.com/PostHog/posthog",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T18:55:35Z",
+		"date": "2026-07-18T01:32:08Z",
 		"group": "gh"
 	},
 	{
 		"title": "Bun 发布一体化 JavaScript 运行时、打包器、测试运行器和包管理器",
 		"url": "https://github.com/oven-sh/bun",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T18:52:48Z",
+		"date": "2026-07-18T01:32:04Z",
 		"group": "gh"
 	},
 	{
-		"title": "GitHub 开源 Copilot SDK，用于集成 Copilot Agent",
-		"url": "https://github.com/github/copilot-sdk",
+		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
+		"url": "https://github.com/openinterpreter/openinterpreter",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T18:51:02Z",
+		"date": "2026-07-18T01:31:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T01:29:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
+		"url": "https://github.com/PostHog/posthog",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T01:23:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "herdr 开源终端 agent 多路复用器",
+		"url": "https://github.com/ogulcancelik/herdr",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T00:57:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "Vercel Labs 开源 native 桌面应用开发工具包",
 		"url": "https://github.com/vercel-labs/native",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T18:49:13Z",
+		"date": "2026-07-18T00:42:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "pbakaus 开源 Impeccable 设计语言",
+		"url": "https://github.com/pbakaus/impeccable",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T00:39:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 发布 Protocol Buffers 数据交换格式",
+		"url": "https://github.com/protocolbuffers/protobuf",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T23:26:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrismML-Eng 开源 Bonsai Demo 项目",
+		"url": "https://github.com/PrismML-Eng/Bonsai-demo",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T23:02:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 更新 Abseil Common Libraries (C++)",
+		"url": "https://github.com/abseil/abseil-cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T21:52:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 开源 Copilot SDK，用于集成 Copilot Agent",
+		"url": "https://github.com/github/copilot-sdk",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T21:52:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
+		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T21:51:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenCut 开源发布 CapCut 替代品",
+		"url": "https://github.com/OpenCut-app/OpenCut",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T21:23:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
+		"url": "https://github.com/iOfficeAI/OfficeCLI",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T20:13:56Z",
 		"group": "gh"
 	},
 	{
@@ -42,38 +112,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "OmniRoute 开源免费 AI 网关，支持 160+ 模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T18:37:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T17:52:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T17:21:11Z",
-		"group": "gh"
-	},
-	{
 		"title": "davila7 开源 Claude Code 配置与监控 CLI 工具",
 		"url": "https://github.com/davila7/claude-code-templates",
 		"source": "GitHub Trending",
 		"date": "2026-07-17T17:16:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
-		"url": "https://github.com/iOfficeAI/OfficeCLI",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T17:14:34Z",
 		"group": "gh"
 	},
 	{
@@ -91,31 +133,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "herdr 开源终端 agent 多路复用器",
-		"url": "https://github.com/ogulcancelik/herdr",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T13:39:28Z",
-		"group": "gh"
-	},
-	{
 		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
 		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
 		"source": "GitHub Trending",
 		"date": "2026-07-17T13:08:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
-		"url": "https://github.com/openinterpreter/openinterpreter",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T09:19:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
-		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T05:45:50Z",
 		"group": "gh"
 	},
 	{
@@ -124,13 +145,6 @@
 		"source": "NVIDIA",
 		"date": "2026-07-16T22:05:05.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "pbakaus 开源 Impeccable 设计语言",
-		"url": "https://github.com/pbakaus/impeccable",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T20:37:27Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 推出 AI Agent 客服方案",
@@ -252,13 +266,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "PrismML-Eng 开源 Bonsai Demo 项目",
-		"url": "https://github.com/PrismML-Eng/Bonsai-demo",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T08:10:44Z",
-		"group": "gh"
-	},
-	{
 		"title": "kangarooking 开源 cangjie-skill，将书籍与播客蒸馏为 Agent Skills",
 		"url": "https://github.com/kangarooking/cangjie-skill",
 		"source": "GitHub Trending",
@@ -376,13 +383,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-07-13T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "OpenCut 开源发布 CapCut 替代品",
-		"url": "https://github.com/OpenCut-app/OpenCut",
-		"source": "GitHub Trending",
-		"date": "2026-07-10T20:26:18Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 发布 PyTorch 性能分析系列第三篇：Attention 性能剖析",
@@ -950,6 +950,13 @@
 		"source": "NVIDIA",
 		"date": "2026-06-26T18:39:12.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Anthropic 开源 cwc-workshops 项目",
+		"url": "https://github.com/anthropics/cwc-workshops",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T16:32:46Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 让 Claude 具备化学推理与实验能力",
