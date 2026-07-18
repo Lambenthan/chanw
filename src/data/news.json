@@ -3,28 +3,35 @@
 		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T12:56:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 开源 Codex 终端编程 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T12:49:29Z",
+		"date": "2026-07-18T18:48:58Z",
 		"group": "gh"
 	},
 	{
 		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
 		"url": "https://github.com/openinterpreter/openinterpreter",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T12:48:49Z",
+		"date": "2026-07-18T18:23:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 开源 Codex 终端编程 agent",
+		"url": "https://github.com/openai/codex",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T18:21:57Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 发布 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T12:35:44Z",
+		"date": "2026-07-18T17:17:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Graphify-Labs 开源 Graphify：AI 编程助手 skill 将代码库转为知识图谱",
+		"url": "https://github.com/Graphify-Labs/graphify",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T13:59:13Z",
 		"group": "gh"
 	},
 	{
@@ -32,13 +39,6 @@
 		"url": "https://github.com/KnockOutEZ/wigolo",
 		"source": "GitHub Trending",
 		"date": "2026-07-18T12:12:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "Graphify-Labs 开源 Graphify：AI 编程助手 skill 将代码库转为知识图谱",
-		"url": "https://github.com/Graphify-Labs/graphify",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T11:56:41Z",
 		"group": "gh"
 	},
 	{
@@ -60,6 +60,13 @@
 		"url": "https://github.com/iOfficeAI/OfficeCLI",
 		"source": "GitHub Trending",
 		"date": "2026-07-18T05:33:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apache 发起 Ossie 项目，标准化语义元数据交换",
+		"url": "https://github.com/apache/ossie",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T22:28:32Z",
 		"group": "gh"
 	},
 	{
@@ -95,6 +102,13 @@
 		"url": "https://github.com/ibelick/ui-skills",
 		"source": "GitHub Trending",
 		"date": "2026-07-17T12:31:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "mattpocock 开源 .agents 目录下的工程师技能集",
+		"url": "https://github.com/mattpocock/skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T09:51:15Z",
 		"group": "gh"
 	},
 	{
@@ -355,6 +369,13 @@
 		"source": "Anthropic Research",
 		"date": "2026-07-13T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "lingbot-map 开源前馈3D基础模型，支持流数据场景重建",
+		"url": "https://github.com/Robbyant/lingbot-map",
+		"source": "GitHub Trending",
+		"date": "2026-07-12T17:14:27Z",
+		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 发布 PyTorch 性能分析系列第三篇：Attention 性能剖析",
