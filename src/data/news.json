@@ -1,37 +1,51 @@
 [
 	{
-		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
-		"url": "https://github.com/PostHog/posthog",
+		"title": "stablyai 发布 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T18:48:58Z",
+		"date": "2026-07-19T01:43:18Z",
 		"group": "gh"
 	},
 	{
-		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
-		"url": "https://github.com/openinterpreter/openinterpreter",
+		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
+		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T18:23:48Z",
+		"date": "2026-07-19T00:39:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
+		"url": "https://github.com/PostHog/posthog",
+		"source": "GitHub Trending",
+		"date": "2026-07-19T00:26:27Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenAI 开源 Codex 终端编程 agent",
 		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T18:21:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T17:17:17Z",
+		"date": "2026-07-19T00:04:10Z",
 		"group": "gh"
 	},
 	{
 		"title": "Graphify-Labs 开源 Graphify：AI 编程助手 skill 将代码库转为知识图谱",
 		"url": "https://github.com/Graphify-Labs/graphify",
 		"source": "GitHub Trending",
-		"date": "2026-07-18T13:59:13Z",
+		"date": "2026-07-18T21:29:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
+		"url": "https://github.com/iOfficeAI/OfficeCLI",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T20:52:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
+		"url": "https://github.com/openinterpreter/openinterpreter",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T19:26:26Z",
 		"group": "gh"
 	},
 	{
@@ -46,20 +60,6 @@
 		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
 		"source": "GitHub Trending",
 		"date": "2026-07-18T11:11:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
-		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T05:57:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
-		"url": "https://github.com/iOfficeAI/OfficeCLI",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T05:33:55Z",
 		"group": "gh"
 	},
 	{
@@ -1041,6 +1041,13 @@
 		"source": "NVIDIA",
 		"date": "2026-06-25T21:58:19.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零到部署学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-06-25T19:43:11Z",
+		"group": "gh"
 	},
 	{
 		"title": "Google 升级 Google Finance 并推出新应用",
