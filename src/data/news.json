@@ -1,23 +1,142 @@
 [
 	{
-		"title": "PostHog 开源产品分析平台，支持 AI 可观测性与 agent 调试",
-		"url": "https://github.com/PostHog/posthog",
+		"title": "OpenAI 开源 Codex 终端编程 agent",
+		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-07-19T07:57:48Z",
+		"date": "2026-07-20T19:25:40Z",
 		"group": "gh"
 	},
 	{
-		"title": "stablyai 发布 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
+		"title": "ibelick 发布 ui-skills，面向设计工程师的 UI 技能库",
+		"url": "https://github.com/ibelick/ui-skills",
 		"source": "GitHub Trending",
-		"date": "2026-07-19T07:48:38Z",
+		"date": "2026-07-20T19:24:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T19:10:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrefectHQ 开源 FastMCP：构建 MCP 服务器与客户端的 Python 工具",
+		"url": "https://github.com/PrefectHQ/fastmcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T19:01:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "jcode 开源 Rust 代码智能体工具集",
+		"url": "https://github.com/1jehuang/jcode",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T18:55:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenShip 开源自托管部署平台",
+		"url": "https://github.com/oblien/openship",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T18:24:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cognee 开源 AI agent 持久记忆平台",
+		"url": "https://github.com/topoteretes/cognee",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T17:28:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "AstrBot 开源 AI Agent 开发框架，集成多 IM 平台与 LLM",
+		"url": "https://github.com/AstrBotDevs/AstrBot",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T16:15:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "lingbot-map 开源前馈3D基础模型，支持流数据场景重建",
+		"url": "https://github.com/Robbyant/lingbot-map",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T16:06:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Cosmos 3 Edge",
+		"url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-20T15:58:51.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "earendil-works 开源 AI agent 工具包 pi",
+		"url": "https://github.com/earendil-works/pi",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T15:54:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "tokio-rs 发布 Topcoat Web 应用框架",
+		"url": "https://github.com/tokio-rs/topcoat",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T14:39:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球公开 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T13:07:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill，可生成架构图并切换主题",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T11:41:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "ktransformers 开源异构 LLM 推理与微调框架",
+		"url": "https://github.com/kvcache-ai/ktransformers",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T09:14:45Z",
 		"group": "gh"
 	},
 	{
 		"title": "wigolo 开源本地优先的 AI 编码 agent 搜索与爬虫工具",
 		"url": "https://github.com/KnockOutEZ/wigolo",
 		"source": "GitHub Trending",
-		"date": "2026-07-19T07:01:55Z",
+		"date": "2026-07-20T08:17:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "kangarooking 开源 cangjie-skill，将书籍与播客蒸馏为 Agent Skills",
+		"url": "https://github.com/kangarooking/cangjie-skill",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T03:46:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "handy-computer 开源 transcribe.cpp 语音识别推理库",
+		"url": "https://github.com/handy-computer/transcribe.cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T00:20:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
+		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+		"source": "GitHub Trending",
+		"date": "2026-07-19T18:47:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "every-app 开源 SEO 分析工具 Open SEO",
+		"url": "https://github.com/every-app/open-seo",
+		"source": "GitHub Trending",
+		"date": "2026-07-19T06:19:44Z",
 		"group": "gh"
 	},
 	{
@@ -28,52 +147,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
-		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-		"source": "GitHub Trending",
-		"date": "2026-07-19T00:39:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 开源 Codex 终端编程 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-07-19T00:04:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "Graphify-Labs 开源 Graphify：AI 编程助手 skill 将代码库转为知识图谱",
-		"url": "https://github.com/Graphify-Labs/graphify",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T21:29:17Z",
-		"group": "gh"
-	},
-	{
 		"title": "Open Interpreter 发布面向低成本模型的编程 agent",
 		"url": "https://github.com/openinterpreter/openinterpreter",
 		"source": "GitHub Trending",
 		"date": "2026-07-18T19:26:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "wonderwhy-er 开源 DesktopCommanderMCP，为 Claude 提供终端控制与文件编辑能力",
-		"url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T11:11:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Apache 发起 Ossie 项目，标准化语义元数据交换",
-		"url": "https://github.com/apache/ossie",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T22:28:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 更新 Abseil Common Libraries (C++)",
-		"url": "https://github.com/abseil/abseil-cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T21:52:52Z",
 		"group": "gh"
 	},
 	{
@@ -91,17 +168,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 联合 Hugging Face 发布大规模视频与图像模型微调方案",
-		"url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-17T15:57:54.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "ibelick 发布 ui-skills，面向设计工程师的 UI 技能库",
-		"url": "https://github.com/ibelick/ui-skills",
+		"title": "msitarzewski 开源 agency-agents 多智能体协作框架",
+		"url": "https://github.com/msitarzewski/agency-agents",
 		"source": "GitHub Trending",
-		"date": "2026-07-17T12:31:36Z",
+		"date": "2026-07-17T15:25:48Z",
 		"group": "gh"
 	},
 	{
@@ -117,13 +187,6 @@
 		"source": "NVIDIA",
 		"date": "2026-07-16T22:05:05.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "lyogavin 开源 AirLLM，单张 4GB GPU 即可运行 70B 模型推理",
-		"url": "https://github.com/lyogavin/airllm",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T20:32:44Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 推出 AI Agent 客服方案",
@@ -245,13 +308,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "kangarooking 开源 cangjie-skill，将书籍与播客蒸馏为 Agent Skills",
-		"url": "https://github.com/kangarooking/cangjie-skill",
-		"source": "GitHub Trending",
-		"date": "2026-07-16T03:00:58Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google Vids 更新：支持 Gemini Omni 与个人虚拟形象",
 		"url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
 		"source": "Google AI",
@@ -299,13 +355,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-07-15T17:27:01.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "G0DM0D3 开源 LIBERATED AI CHAT 项目",
-		"url": "https://github.com/elder-plinius/G0DM0D3",
-		"source": "GitHub Trending",
-		"date": "2026-07-15T14:48:02Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 发布 Real World VoiceEQ 语音 AI 人类质量评测工具",
@@ -364,18 +413,18 @@
 		"group": "labs"
 	},
 	{
+		"title": "VoiceBox 开源 AI 语音克隆与创作工具",
+		"url": "https://github.com/jamiepine/voicebox",
+		"source": "GitHub Trending",
+		"date": "2026-07-13T01:35:17Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
 		"url": "https://www.anthropic.com/research/claude-values-models-languages",
 		"source": "Anthropic Research",
 		"date": "2026-07-13T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "lingbot-map 开源前馈3D基础模型，支持流数据场景重建",
-		"url": "https://github.com/Robbyant/lingbot-map",
-		"source": "GitHub Trending",
-		"date": "2026-07-12T17:14:27Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 发布 PyTorch 性能分析系列第三篇：Attention 性能剖析",
@@ -861,6 +910,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Grok Voice Agent Builder",
+		"url": "https://x.ai/news/grok-voice-agent-builder",
+		"source": "xAI",
+		"date": "2026-07-01T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "IBM 发布 ScarfBench 基准测试，评估 AI Agent 迁移企业 Java 框架能力",
 		"url": "https://huggingface.co/blog/ibm-research/scarfbench",
 		"source": "Hugging Face Blog",
@@ -936,6 +992,13 @@
 		"source": "NVIDIA",
 		"date": "2026-06-26T18:39:12.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 cwc-workshops 代码工作坊项目",
+		"url": "https://github.com/anthropics/cwc-workshops",
+		"source": "GitHub Trending",
+		"date": "2026-06-26T16:32:46Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 让 Claude 具备化学推理与实验能力",
@@ -1202,6 +1265,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-06-22T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Microsoft 开源 Ontology Playground 本体学习工具",
+		"url": "https://github.com/microsoft/Ontology-Playground",
+		"source": "GitHub Trending",
+		"date": "2026-06-19T21:14:11Z",
+		"group": "gh"
 	},
 	{
 		"title": "MosaicLeaks 评测研究 Agent 能否保守秘密",
@@ -1474,13 +1544,6 @@
 		"url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
 		"source": "DeepMind",
 		"date": "2026-06-11T12:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 通过 Appia 基金会推动 AI 安全标准共建",
-		"url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-		"source": "OpenAI",
-		"date": "2026-06-11T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
