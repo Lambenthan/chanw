@@ -1,9 +1,79 @@
 [
 	{
+		"title": "VoiceBox 开源 AI 语音克隆与创作工具",
+		"url": "https://github.com/jamiepine/voicebox",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T01:47:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrefectHQ 开源 FastMCP：构建 MCP 服务器与客户端的 Python 工具",
+		"url": "https://github.com/PrefectHQ/fastmcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T01:43:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "Moonshine 开源低延迟语音识别与语音合成框架",
+		"url": "https://github.com/moonshine-ai/moonshine",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T01:34:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T01:26:13Z",
+		"group": "gh"
+	},
+	{
 		"title": "OpenAI 开源 Codex 终端编程 agent",
 		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-07-20T19:25:40Z",
+		"date": "2026-07-21T01:17:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
+		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T01:17:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "iptv-org 开源全球公开 IPTV 频道集合",
+		"url": "https://github.com/iptv-org/iptv",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T00:27:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "jcode 开源 Rust 代码智能体工具集",
+		"url": "https://github.com/1jehuang/jcode",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T23:09:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cognee 开源 AI agent 持久记忆平台",
+		"url": "https://github.com/topoteretes/cognee",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T23:07:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "earendil-works 开源 AI agent 工具包 pi",
+		"url": "https://github.com/earendil-works/pi",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T20:29:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenShip 开源自托管部署平台",
+		"url": "https://github.com/oblien/openship",
+		"source": "GitHub Trending",
+		"date": "2026-07-20T20:24:36Z",
 		"group": "gh"
 	},
 	{
@@ -11,41 +81,6 @@
 		"url": "https://github.com/ibelick/ui-skills",
 		"source": "GitHub Trending",
 		"date": "2026-07-20T19:24:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T19:10:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrefectHQ 开源 FastMCP：构建 MCP 服务器与客户端的 Python 工具",
-		"url": "https://github.com/PrefectHQ/fastmcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T19:01:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "jcode 开源 Rust 代码智能体工具集",
-		"url": "https://github.com/1jehuang/jcode",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T18:55:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenShip 开源自托管部署平台",
-		"url": "https://github.com/oblien/openship",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T18:24:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cognee 开源 AI agent 持久记忆平台",
-		"url": "https://github.com/topoteretes/cognee",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T17:28:43Z",
 		"group": "gh"
 	},
 	{
@@ -70,24 +105,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "earendil-works 开源 AI agent 工具包 pi",
-		"url": "https://github.com/earendil-works/pi",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T15:54:47Z",
-		"group": "gh"
-	},
-	{
 		"title": "tokio-rs 发布 Topcoat Web 应用框架",
 		"url": "https://github.com/tokio-rs/topcoat",
 		"source": "GitHub Trending",
 		"date": "2026-07-20T14:39:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球公开 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T13:07:53Z",
 		"group": "gh"
 	},
 	{
@@ -123,13 +144,6 @@
 		"url": "https://github.com/handy-computer/transcribe.cpp",
 		"source": "GitHub Trending",
 		"date": "2026-07-20T00:20:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
-		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-		"source": "GitHub Trending",
-		"date": "2026-07-19T18:47:08Z",
 		"group": "gh"
 	},
 	{
@@ -411,13 +425,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-07-13T18:27:52.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "VoiceBox 开源 AI 语音克隆与创作工具",
-		"url": "https://github.com/jamiepine/voicebox",
-		"source": "GitHub Trending",
-		"date": "2026-07-13T01:35:17Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
