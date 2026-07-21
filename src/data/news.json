@@ -1,9 +1,107 @@
 [
 	{
+		"title": "Cognee 开源 AI agent 持久记忆平台",
+		"url": "https://github.com/topoteretes/cognee",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T08:08:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 开源 Codex 终端编程 agent",
+		"url": "https://github.com/openai/codex",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T08:03:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T07:57:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "earendil-works 开源 AI agent 工具包 pi",
+		"url": "https://github.com/earendil-works/pi",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T07:48:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "wigolo 开源本地优先的 AI 编码 agent 搜索与爬虫工具",
+		"url": "https://github.com/KnockOutEZ/wigolo",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T07:42:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenShip 开源自托管部署平台",
+		"url": "https://github.com/oblien/openship",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T07:18:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "ibelick 发布 ui-skills，面向设计工程师的 UI 技能库",
+		"url": "https://github.com/ibelick/ui-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T07:02:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "李博杰开源 AI Agent 书籍《深入理解 AI Agent》",
+		"url": "https://github.com/bojieli/ai-agent-book",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T06:56:01Z",
+		"group": "gh"
+	},
+	{
 		"title": "VoiceBox 开源 AI 语音克隆与创作工具",
 		"url": "https://github.com/jamiepine/voicebox",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T01:47:11Z",
+		"date": "2026-07-21T05:36:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "handy-computer 开源 transcribe.cpp 语音识别推理库",
+		"url": "https://github.com/handy-computer/transcribe.cpp",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T04:51:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill，可生成架构图并切换主题",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T04:26:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "every-app 开源 SEO 分析工具 Open SEO",
+		"url": "https://github.com/every-app/open-seo",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T03:24:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "AstrBot 开源 AI Agent 开发框架，集成多 IM 平台与 LLM",
+		"url": "https://github.com/AstrBotDevs/AstrBot",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T03:24:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "jcode 开源 Rust 代码智能体工具集",
+		"url": "https://github.com/1jehuang/jcode",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T03:14:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "Moonshine 开源低延迟语音识别与语音合成框架",
+		"url": "https://github.com/moonshine-ai/moonshine",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T02:39:27Z",
 		"group": "gh"
 	},
 	{
@@ -11,27 +109,6 @@
 		"url": "https://github.com/PrefectHQ/fastmcp",
 		"source": "GitHub Trending",
 		"date": "2026-07-21T01:43:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "Moonshine 开源低延迟语音识别与语音合成框架",
-		"url": "https://github.com/moonshine-ai/moonshine",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T01:34:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T01:26:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 开源 Codex 终端编程 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T01:17:32Z",
 		"group": "gh"
 	},
 	{
@@ -49,46 +126,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "jcode 开源 Rust 代码智能体工具集",
-		"url": "https://github.com/1jehuang/jcode",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T23:09:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cognee 开源 AI agent 持久记忆平台",
-		"url": "https://github.com/topoteretes/cognee",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T23:07:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "earendil-works 开源 AI agent 工具包 pi",
-		"url": "https://github.com/earendil-works/pi",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T20:29:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenShip 开源自托管部署平台",
-		"url": "https://github.com/oblien/openship",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T20:24:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "ibelick 发布 ui-skills，面向设计工程师的 UI 技能库",
-		"url": "https://github.com/ibelick/ui-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T19:24:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "AstrBot 开源 AI Agent 开发框架，集成多 IM 平台与 LLM",
-		"url": "https://github.com/AstrBotDevs/AstrBot",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T16:15:02Z",
-		"group": "gh"
+		"title": "Bristol Myers Squibb 基于 NVIDIA Vera Rubin 构建生命科学 AI 工厂",
+		"url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+		"source": "NVIDIA",
+		"date": "2026-07-20T18:21:02.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "lingbot-map 开源前馈3D基础模型，支持流数据场景重建",
@@ -112,10 +154,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "tt-a1i 开源 Archify agent skill，可生成架构图并切换主题",
-		"url": "https://github.com/tt-a1i/archify",
+		"title": "Destructive Command Guard 发布危险命令防护工具",
+		"url": "https://github.com/Dicklesworthstone/destructive_command_guard",
 		"source": "GitHub Trending",
-		"date": "2026-07-20T11:41:55Z",
+		"date": "2026-07-20T13:11:03Z",
 		"group": "gh"
 	},
 	{
@@ -126,31 +168,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "wigolo 开源本地优先的 AI 编码 agent 搜索与爬虫工具",
-		"url": "https://github.com/KnockOutEZ/wigolo",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T08:17:21Z",
-		"group": "gh"
-	},
-	{
 		"title": "kangarooking 开源 cangjie-skill，将书籍与播客蒸馏为 Agent Skills",
 		"url": "https://github.com/kangarooking/cangjie-skill",
 		"source": "GitHub Trending",
 		"date": "2026-07-20T03:46:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "handy-computer 开源 transcribe.cpp 语音识别推理库",
-		"url": "https://github.com/handy-computer/transcribe.cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T00:20:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "every-app 开源 SEO 分析工具 Open SEO",
-		"url": "https://github.com/every-app/open-seo",
-		"source": "GitHub Trending",
-		"date": "2026-07-19T06:19:44Z",
 		"group": "gh"
 	},
 	{
@@ -1400,15 +1421,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
-		"url": "https://openai.com/index/introducing-life-sci-bench/",
+		"title": "OpenAI 推出 Genebench Pro 评测基准",
+		"url": "https://openai.com/index/introducing-genebench-pro/",
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出 Genebench Pro 评测基准",
-		"url": "https://openai.com/index/introducing-genebench-pro/",
+		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
+		"url": "https://openai.com/index/introducing-life-sci-bench/",
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
@@ -2317,6 +2338,27 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 研究通过忏悔机制提升语言模型诚实性",
+		"url": "https://openai.com/index/how-confessions-can-keep-language-models-honest/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Evmbench 评测基准",
+		"url": "https://openai.com/index/introducing-evmbench/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Frontierscience 前沿科学项目",
+		"url": "https://openai.com/index/frontierscience/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布链式思维可监控性评估",
 		"url": "https://openai.com/index/evaluating-chain-of-thought-monitorability/",
 		"source": "OpenAI",
@@ -2324,8 +2366,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 加速湿实验室生物学研究",
-		"url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
+		"title": "OpenAI 发布 Instruction Hierarchy Challenge",
+		"url": "https://openai.com/index/instruction-hierarchy-challenge/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-5，降低蛋白质合成计算成本",
+		"url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2333,6 +2382,20 @@
 	{
 		"title": "OpenAI 发布 GPT-5 加速科学研究",
 		"url": "https://openai.com/index/accelerating-science-gpt-5/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布稀疏电路理解神经网络研究",
+		"url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 加速湿实验室生物学研究",
+		"url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2359,29 +2422,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Frontierscience 前沿科学项目",
-		"url": "https://openai.com/index/frontierscience/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 分享参数高尔夫研究经验",
 		"url": "https://openai.com/index/what-parameter-golf-taught-us/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 研究通过忏悔机制提升语言模型诚实性",
-		"url": "https://openai.com/index/how-confessions-can-keep-language-models-honest/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5，降低蛋白质合成计算成本",
-		"url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2422,22 +2464,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Instruction Hierarchy Challenge",
-		"url": "https://openai.com/index/instruction-hierarchy-challenge/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 Aardvark",
 		"url": "https://openai.com/index/introducing-aardvark/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Evmbench 评测基准",
-		"url": "https://openai.com/index/introducing-evmbench/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2452,13 +2480,6 @@
 	{
 		"title": "OpenAI 不再使用 SWE-bench Verified 评估模型",
 		"url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布稀疏电路理解神经网络研究",
-		"url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2604,15 +2625,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5.2 Codex",
-		"url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+		"title": "OpenAI 发布 GPT-5.2 聚焦科学和数学推理",
+		"url": "https://openai.com/index/gpt-5-2-for-science-and-math/",
 		"source": "OpenAI",
 		"date": "2026-05-18T02:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5.2 聚焦科学和数学推理",
-		"url": "https://openai.com/index/gpt-5-2-for-science-and-math/",
+		"title": "OpenAI 发布 GPT-5.2 Codex",
+		"url": "https://openai.com/index/introducing-gpt-5-2-codex/",
 		"source": "OpenAI",
 		"date": "2026-05-18T02:00:00.000Z",
 		"group": "labs"
