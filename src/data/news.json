@@ -1,30 +1,156 @@
 [
 	{
-		"title": "Cognee 开源 AI agent 持久记忆平台",
-		"url": "https://github.com/topoteretes/cognee",
+		"title": "dottxt-ai 开源 Outlines 结构化输出库",
+		"url": "https://github.com/dottxt-ai/outlines",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T08:08:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 开源 Codex 终端编程 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T08:03:09Z",
+		"date": "2026-07-21T19:03:57Z",
 		"group": "gh"
 	},
 	{
 		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
 		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T07:57:29Z",
+		"date": "2026-07-21T18:53:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 开源 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T18:50:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
+		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T18:35:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 开源 Codex 终端编程 agent",
+		"url": "https://github.com/openai/codex",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T18:25:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenShip 开源自托管部署平台",
+		"url": "https://github.com/oblien/openship",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T18:08:23Z",
 		"group": "gh"
 	},
 	{
 		"title": "earendil-works 开源 AI agent 工具包 pi",
 		"url": "https://github.com/earendil-works/pi",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T07:48:38Z",
+		"date": "2026-07-21T18:06:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 与 LG 集团合作建设 AI 工厂",
+		"url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+		"source": "NVIDIA",
+		"date": "2026-07-21T17:56:34.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 AI 云生态系统",
+		"url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+		"source": "NVIDIA",
+		"date": "2026-07-21T17:55:56.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 与斗山集团合作推进物理 AI",
+		"url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
+		"source": "NVIDIA",
+		"date": "2026-07-21T17:51:18.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 Spectrum Six 网络方案",
+		"url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+		"source": "NVIDIA",
+		"date": "2026-07-21T17:29:29.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "worldmonitor 开源实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T17:10:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "agegr 开源 pi 编程 agent 的 Web UI",
+		"url": "https://github.com/agegr/pi-web",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T16:17:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 发布 Gemini 3.5 Flash Cyber 网络安全模型",
+		"url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+		"source": "DeepMind",
+		"date": "2026-07-21T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "AstrBot 开源 AI Agent 开发框架，集成多 IM 平台与 LLM",
+		"url": "https://github.com/AstrBotDevs/AstrBot",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T15:59:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Destructive Command Guard 发布危险命令防护工具",
+		"url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T15:49:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "李博杰开源 AI Agent 书籍《深入理解 AI Agent》",
+		"url": "https://github.com/bojieli/ai-agent-book",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T15:40:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "ibelick 发布 ui-skills，面向设计工程师的 UI 技能库",
+		"url": "https://github.com/ibelick/ui-skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T13:36:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "llmfit 开源命令行工具，一键查询数百模型在本地硬件的兼容性",
+		"url": "https://github.com/AlexsJones/llmfit",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T11:52:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "mattpocock 开源 .agents 目录下的工程师技能集",
+		"url": "https://github.com/mattpocock/skills",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T10:29:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill，可生成架构图并切换主题",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T09:55:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "ayghri 开源 i-have-adhd 技能，让 coding agent 输出更直接",
+		"url": "https://github.com/ayghri/i-have-adhd",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T09:18:40Z",
 		"group": "gh"
 	},
 	{
@@ -35,59 +161,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "OpenShip 开源自托管部署平台",
-		"url": "https://github.com/oblien/openship",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T07:18:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "ibelick 发布 ui-skills，面向设计工程师的 UI 技能库",
-		"url": "https://github.com/ibelick/ui-skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T07:02:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "李博杰开源 AI Agent 书籍《深入理解 AI Agent》",
-		"url": "https://github.com/bojieli/ai-agent-book",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T06:56:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "VoiceBox 开源 AI 语音克隆与创作工具",
-		"url": "https://github.com/jamiepine/voicebox",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T05:36:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "handy-computer 开源 transcribe.cpp 语音识别推理库",
-		"url": "https://github.com/handy-computer/transcribe.cpp",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T04:51:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill，可生成架构图并切换主题",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T04:26:06Z",
-		"group": "gh"
-	},
-	{
 		"title": "every-app 开源 SEO 分析工具 Open SEO",
 		"url": "https://github.com/every-app/open-seo",
 		"source": "GitHub Trending",
 		"date": "2026-07-21T03:24:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "AstrBot 开源 AI Agent 开发框架，集成多 IM 平台与 LLM",
-		"url": "https://github.com/AstrBotDevs/AstrBot",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T03:24:05Z",
 		"group": "gh"
 	},
 	{
@@ -98,32 +175,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "Moonshine 开源低延迟语音识别与语音合成框架",
-		"url": "https://github.com/moonshine-ai/moonshine",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T02:39:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrefectHQ 开源 FastMCP：构建 MCP 服务器与客户端的 Python 工具",
-		"url": "https://github.com/PrefectHQ/fastmcp",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T01:43:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
-		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T01:17:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "iptv-org 开源全球公开 IPTV 频道集合",
-		"url": "https://github.com/iptv-org/iptv",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T00:27:47Z",
-		"group": "gh"
+		"title": "DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber",
+		"url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+		"source": "DeepMind",
+		"date": "2026-07-21T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Bristol Myers Squibb 基于 NVIDIA Vera Rubin 构建生命科学 AI 工厂",
@@ -133,10 +189,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "lingbot-map 开源前馈3D基础模型，支持流数据场景重建",
-		"url": "https://github.com/Robbyant/lingbot-map",
+		"title": "croc 开源跨设备安全文件传输工具",
+		"url": "https://github.com/schollz/croc",
 		"source": "GitHub Trending",
-		"date": "2026-07-20T16:06:29Z",
+		"date": "2026-07-20T16:22:45Z",
 		"group": "gh"
 	},
 	{
@@ -147,24 +203,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "tokio-rs 发布 Topcoat Web 应用框架",
-		"url": "https://github.com/tokio-rs/topcoat",
+		"title": "Dioxus 发布全栈应用框架，支持 Web、桌面和移动端",
+		"url": "https://github.com/DioxusLabs/dioxus",
 		"source": "GitHub Trending",
-		"date": "2026-07-20T14:39:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "Destructive Command Guard 发布危险命令防护工具",
-		"url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T13:11:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "ktransformers 开源异构 LLM 推理与微调框架",
-		"url": "https://github.com/kvcache-ai/ktransformers",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T09:14:45Z",
+		"date": "2026-07-20T12:32:44Z",
 		"group": "gh"
 	},
 	{
@@ -201,20 +243,6 @@
 		"source": "NVIDIA",
 		"date": "2026-07-17T16:01:14.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "msitarzewski 开源 agency-agents 多智能体协作框架",
-		"url": "https://github.com/msitarzewski/agency-agents",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T15:25:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "mattpocock 开源 .agents 目录下的工程师技能集",
-		"url": "https://github.com/mattpocock/skills",
-		"source": "GitHub Trending",
-		"date": "2026-07-17T09:51:15Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布金融服务 Agentic AI 金融行业方案",
@@ -392,6 +420,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Apollo-11 原始制导计算机源代码开源",
+		"url": "https://github.com/chrislgarry/Apollo-11",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T02:29:53Z",
+		"group": "gh"
+	},
+	{
 		"title": "Hugging Face 发布 Real World VoiceEQ 语音 AI 人类质量评测工具",
 		"url": "https://huggingface.co/blog/real-world-voiceeq",
 		"source": "Hugging Face Blog",
@@ -411,13 +446,6 @@
 		"source": "NVIDIA",
 		"date": "2026-07-14T23:36:52.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "codecrafters-io 的 build-your-own-x 开源项目，通过重建技术学习编程",
-		"url": "https://github.com/codecrafters-io/build-your-own-x",
-		"source": "GitHub Trending",
-		"date": "2026-07-14T19:25:58Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google 与 AIM 发布 ATL Saathi 教育 AI 工具",
@@ -453,6 +481,13 @@
 		"source": "Anthropic Research",
 		"date": "2026-07-13T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "text-to-cad 开源 CAD 与硬件设计 agent skills 集合",
+		"url": "https://github.com/earthtojake/text-to-cad",
+		"source": "GitHub Trending",
+		"date": "2026-07-11T00:26:42Z",
+		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 发布 PyTorch 性能分析系列第三篇：Attention 性能剖析",
@@ -861,6 +896,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 21 种新旗舰 Grok 语音",
+		"url": "https://x.ai/news/new-flagship-voices",
+		"source": "xAI",
+		"date": "2026-07-06T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 推出 Visible Extended Thinking 功能",
 		"url": "https://www.anthropic.com/news/visible-extended-thinking",
 		"source": "Anthropic News",
@@ -1022,13 +1064,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 cwc-workshops 代码工作坊项目",
-		"url": "https://github.com/anthropics/cwc-workshops",
-		"source": "GitHub Trending",
-		"date": "2026-06-26T16:32:46Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 让 Claude 具备化学推理与实验能力",
 		"url": "https://www.anthropic.com/research/making-claude-a-chemist",
 		"source": "Anthropic Research",
@@ -1132,13 +1167,6 @@
 		"source": "NVIDIA",
 		"date": "2026-06-25T21:58:19.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "rohitg00 开源 AI 工程从零到部署学习项目",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-06-25T19:43:11Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google 升级 Google Finance 并推出新应用",
@@ -1351,13 +1379,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布开源模型 agent 能力评测框架",
-		"url": "https://huggingface.co/blog/is-it-agentic-enough",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-18T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "xAI 发布 Grok for Word 插件",
 		"url": "https://x.ai/news/introducing-word-addin",
 		"source": "xAI",
@@ -1467,13 +1488,6 @@
 		"url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
 		"source": "DeepMind",
 		"date": "2026-06-16T22:30:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 LG 集团合作建设 AI 工厂",
-		"url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
-		"source": "NVIDIA",
-		"date": "2026-06-16T21:49:15.000Z",
 		"group": "labs"
 	},
 	{
@@ -1631,13 +1645,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 与斗山集团合作推进物理 AI",
-		"url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
-		"source": "NVIDIA",
-		"date": "2026-06-08T02:28:42.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布生物学 agent 研究进展",
 		"url": "https://www.anthropic.com/research/agents-in-biology",
 		"source": "Anthropic Research",
@@ -1764,13 +1771,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 发布 AI 云生态系统",
-		"url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-		"source": "NVIDIA",
-		"date": "2026-06-02T15:50:20.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 扩展 Project Glasswing 安全研究项目",
 		"url": "https://www.anthropic.com/news/expanding-project-glasswing",
 		"source": "Anthropic News",
@@ -1888,6 +1888,13 @@
 		"source": "xAI",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "HKUDS 开源 nanobot 轻量级 AI agent 框架",
+		"url": "https://github.com/HKUDS/nanobot",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:20:33Z",
+		"group": "gh"
 	},
 	{
 		"title": "HKUDS 开源 DeepTutor 终身个性化辅导系统",
@@ -2993,13 +3000,6 @@
 		"url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
 		"source": "NVIDIA",
 		"date": "2026-04-22T20:20:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 81k Economics 研究",
-		"url": "https://www.anthropic.com/research/81k-economics",
-		"source": "Anthropic Research",
-		"date": "2026-04-22T17:04:00.000Z",
 		"group": "labs"
 	}
 ]
