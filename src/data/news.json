@@ -1,51 +1,156 @@
 [
 	{
-		"title": "dottxt-ai 开源 Outlines 结构化输出库",
-		"url": "https://github.com/dottxt-ai/outlines",
+		"title": "OpenShip 开源自托管部署平台",
+		"url": "https://github.com/oblien/openship",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T19:03:57Z",
+		"date": "2026-07-22T08:07:30Z",
 		"group": "gh"
 	},
 	{
-		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"title": "AstrBot 开源 AI Agent 开发框架，集成多 IM 平台与 LLM",
+		"url": "https://github.com/AstrBotDevs/AstrBot",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T18:53:18Z",
+		"date": "2026-07-22T07:49:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "wigolo 开源本地优先的 AI 编码 agent 搜索与爬虫工具",
+		"url": "https://github.com/KnockOutEZ/wigolo",
+		"source": "GitHub Trending",
+		"date": "2026-07-22T07:42:32Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 开源 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T18:50:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
-		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T18:35:39Z",
+		"date": "2026-07-22T07:31:02Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenAI 开源 Codex 终端编程 agent",
 		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T18:25:47Z",
+		"date": "2026-07-22T07:23:47Z",
 		"group": "gh"
 	},
 	{
-		"title": "OpenShip 开源自托管部署平台",
-		"url": "https://github.com/oblien/openship",
+		"title": "worldmonitor 开源实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T18:08:23Z",
+		"date": "2026-07-22T07:13:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "ayghri 开源 i-have-adhd 技能，让 coding agent 输出更直接",
+		"url": "https://github.com/ayghri/i-have-adhd",
+		"source": "GitHub Trending",
+		"date": "2026-07-22T06:46:43Z",
 		"group": "gh"
 	},
 	{
 		"title": "earendil-works 开源 AI agent 工具包 pi",
 		"url": "https://github.com/earendil-works/pi",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T18:06:11Z",
+		"date": "2026-07-22T06:35:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "llmfit 开源命令行工具，一键查询数百模型在本地硬件的兼容性",
+		"url": "https://github.com/AlexsJones/llmfit",
+		"source": "GitHub Trending",
+		"date": "2026-07-22T05:50:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "李博杰开源 AI Agent 书籍《深入理解 AI Agent》",
+		"url": "https://github.com/bojieli/ai-agent-book",
+		"source": "GitHub Trending",
+		"date": "2026-07-22T05:39:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-22T05:35:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "Shubhamsaboo 开源 awesome-llm-apps 项目，提供 100+ 可运行 AI Agent 与 RAG 应用",
+		"url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+		"source": "GitHub Trending",
+		"date": "2026-07-22T05:30:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "dottxt-ai 开源 Outlines 结构化输出库",
+		"url": "https://github.com/dottxt-ai/outlines",
+		"source": "GitHub Trending",
+		"date": "2026-07-22T02:01:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "jcode 开源 Rust 代码智能体工具集",
+		"url": "https://github.com/1jehuang/jcode",
+		"source": "GitHub Trending",
+		"date": "2026-07-22T02:01:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
+		"url": "https://github.com/iOfficeAI/OfficeCLI",
+		"source": "GitHub Trending",
+		"date": "2026-07-22T02:00:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Opus 4.8",
+		"url": "https://www.anthropic.com/news/claude-opus-4-8",
+		"source": "Anthropic News",
+		"date": "2026-07-22T01:28:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Sonnet 5",
+		"url": "https://www.anthropic.com/news/claude-sonnet-5",
+		"source": "Anthropic News",
+		"date": "2026-07-22T01:20:28.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Sonnet 4.5",
+		"url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+		"source": "Anthropic News",
+		"date": "2026-07-22T01:13:43.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Haiku 4.5",
+		"url": "https://www.anthropic.com/news/claude-haiku-4-5",
+		"source": "Anthropic News",
+		"date": "2026-07-22T01:05:15.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "tradingview-mcp 开源，实现 Claude Code 与 TradingView 图表分析集成",
+		"url": "https://github.com/tradesdontlie/tradingview-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T22:58:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "every-app 开源 SEO 分析工具 Open SEO",
+		"url": "https://github.com/every-app/open-seo",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T20:40:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "croc 开源跨设备安全文件传输工具",
+		"url": "https://github.com/schollz/croc",
+		"source": "GitHub Trending",
+		"date": "2026-07-21T20:26:42Z",
 		"group": "gh"
 	},
 	{
@@ -77,13 +182,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "worldmonitor 开源实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T17:10:05Z",
-		"group": "gh"
-	},
-	{
 		"title": "agegr 开源 pi 编程 agent 的 Web UI",
 		"url": "https://github.com/agegr/pi-web",
 		"source": "GitHub Trending",
@@ -98,13 +196,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "AstrBot 开源 AI Agent 开发框架，集成多 IM 平台与 LLM",
-		"url": "https://github.com/AstrBotDevs/AstrBot",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T15:59:36Z",
-		"group": "gh"
-	},
-	{
 		"title": "Destructive Command Guard 发布危险命令防护工具",
 		"url": "https://github.com/Dicklesworthstone/destructive_command_guard",
 		"source": "GitHub Trending",
@@ -112,10 +203,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "李博杰开源 AI Agent 书籍《深入理解 AI Agent》",
-		"url": "https://github.com/bojieli/ai-agent-book",
+		"title": "Hyprland 发布高度可定制的动态平铺 Wayland 合成器",
+		"url": "https://github.com/hyprwm/Hyprland",
 		"source": "GitHub Trending",
-		"date": "2026-07-21T15:40:05Z",
+		"date": "2026-07-21T13:52:10Z",
 		"group": "gh"
 	},
 	{
@@ -126,52 +217,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "llmfit 开源命令行工具，一键查询数百模型在本地硬件的兼容性",
-		"url": "https://github.com/AlexsJones/llmfit",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T11:52:13Z",
-		"group": "gh"
-	},
-	{
 		"title": "mattpocock 开源 .agents 目录下的工程师技能集",
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
 		"date": "2026-07-21T10:29:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill，可生成架构图并切换主题",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T09:55:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "ayghri 开源 i-have-adhd 技能，让 coding agent 输出更直接",
-		"url": "https://github.com/ayghri/i-have-adhd",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T09:18:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "wigolo 开源本地优先的 AI 编码 agent 搜索与爬虫工具",
-		"url": "https://github.com/KnockOutEZ/wigolo",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T07:42:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "every-app 开源 SEO 分析工具 Open SEO",
-		"url": "https://github.com/every-app/open-seo",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T03:24:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "jcode 开源 Rust 代码智能体工具集",
-		"url": "https://github.com/1jehuang/jcode",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T03:14:04Z",
 		"group": "gh"
 	},
 	{
@@ -182,24 +231,17 @@
 		"group": "labs"
 	},
 	{
+		"title": "Grabette 开源机器人操作数据记录系统",
+		"url": "https://huggingface.co/blog/grabette",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-21T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Bristol Myers Squibb 基于 NVIDIA Vera Rubin 构建生命科学 AI 工厂",
 		"url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
 		"source": "NVIDIA",
 		"date": "2026-07-20T18:21:02.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "croc 开源跨设备安全文件传输工具",
-		"url": "https://github.com/schollz/croc",
-		"source": "GitHub Trending",
-		"date": "2026-07-20T16:22:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 发布 Cosmos 3 Edge",
-		"url": "https://huggingface.co/blog/nvidia/cosmos3edge",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-20T15:58:51.000Z",
 		"group": "labs"
 	},
 	{
@@ -214,13 +256,6 @@
 		"url": "https://github.com/kangarooking/cangjie-skill",
 		"source": "GitHub Trending",
 		"date": "2026-07-20T03:46:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "OfficeCLI 开源专为 AI agent 构建的 Office 命令行套件",
-		"url": "https://github.com/iOfficeAI/OfficeCLI",
-		"source": "GitHub Trending",
-		"date": "2026-07-19T05:14:02Z",
 		"group": "gh"
 	},
 	{
@@ -243,6 +278,13 @@
 		"source": "NVIDIA",
 		"date": "2026-07-17T16:01:14.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "LangChain 开源 Open Deep Research",
+		"url": "https://github.com/langchain-ai/open_deep_research",
+		"source": "GitHub Trending",
+		"date": "2026-07-17T07:26:56Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布金融服务 Agentic AI 金融行业方案",
@@ -819,13 +861,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Sonnet 5",
-		"url": "https://www.anthropic.com/news/claude-sonnet-5",
-		"source": "Anthropic News",
-		"date": "2026-07-07T17:07:52.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Hugging Face 模型上线 Foundry 托管计算",
 		"url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
 		"source": "Hugging Face Blog",
@@ -892,13 +927,6 @@
 		"title": "Hugging Face 发布 Kernels 重大更新",
 		"url": "https://huggingface.co/blog/revamped-kernels",
 		"source": "Hugging Face Blog",
-		"date": "2026-07-06T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 发布 21 种新旗舰 Grok 语音",
-		"url": "https://x.ai/news/new-flagship-voices",
-		"source": "xAI",
 		"date": "2026-07-06T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -976,13 +1004,6 @@
 		"title": "Hugging Face 与 Cerebras 将 Gemma 4 用于实时语音 AI",
 		"url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
 		"source": "Hugging Face Blog",
-		"date": "2026-07-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 发布 Grok Voice Agent Builder",
-		"url": "https://x.ai/news/grok-voice-agent-builder",
-		"source": "xAI",
 		"date": "2026-07-01T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1176,13 +1197,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 旗下 Grok 接入盈透证券市场数据",
-		"url": "https://x.ai/news/grok-interactive-brokers",
-		"source": "xAI",
-		"date": "2026-06-25T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 助力法国推动欧洲 AI 发展",
 		"url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
 		"source": "NVIDIA",
@@ -1215,13 +1229,6 @@
 		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
 		"source": "Anthropic Research",
 		"date": "2026-06-24T14:21:03.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 AI Agent 如何改变工作的研究报告",
-		"url": "https://openai.com/index/how-agents-are-transforming-work",
-		"source": "OpenAI",
-		"date": "2026-06-24T06:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1309,13 +1316,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 发布 /goal 指令功能",
-		"url": "https://x.ai/news/introducing-goal",
-		"source": "xAI",
-		"date": "2026-06-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Hugging Face 用本地模型实现 OpenClaw 仓库 PR 自动分类",
 		"url": "https://huggingface.co/blog/local-models-pr-triage",
 		"source": "Hugging Face Blog",
@@ -1344,13 +1344,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5.6 Sol",
-		"url": "https://openai.com/index/previewing-gpt-5-6-sol",
-		"source": "OpenAI",
-		"date": "2026-06-18T17:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 发布 AI Control Roadmap 保障 agent 安全",
 		"url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
 		"source": "DeepMind",
@@ -1365,23 +1358,9 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 将 Grok 模型接入 Databricks 平台",
-		"url": "https://x.ai/news/grok-databricks",
-		"source": "xAI",
-		"date": "2026-06-18T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Hugging Face 发布超越 LoRA 的微调技术研究",
 		"url": "https://huggingface.co/blog/peft-beyond-lora",
 		"source": "Hugging Face Blog",
-		"date": "2026-06-18T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 发布 Grok for Word 插件",
-		"url": "https://x.ai/news/introducing-word-addin",
-		"source": "xAI",
 		"date": "2026-06-18T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1470,13 +1449,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 将 Grok 模型接入 Amazon Bedrock",
-		"url": "https://x.ai/news/grok-amazon-bedrock",
-		"source": "xAI",
-		"date": "2026-06-17T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Coherent Texas AI Optical 光学互连方案",
 		"url": "https://blogs.nvidia.com/blog/coherent-texas-ai-optical/",
 		"source": "NVIDIA",
@@ -1495,34 +1467,6 @@
 		"url": "https://www.anthropic.com/research/claude-code-expertise",
 		"source": "Anthropic Research",
 		"date": "2026-06-16T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 发布 Grok Imagine Video 1.5",
-		"url": "https://x.ai/news/grok-imagine-video-1-5",
-		"source": "xAI",
-		"date": "2026-06-16T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 推出 Grok for PowerPoint 插件",
-		"url": "https://x.ai/news/introducing-powerpoint-addin",
-		"source": "xAI",
-		"date": "2026-06-16T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 在 Grok Build 中推出 Agent Dashboard",
-		"url": "https://x.ai/news/agent-dashboard",
-		"source": "xAI",
-		"date": "2026-06-15T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 将 Grok 集成到 Warp 终端",
-		"url": "https://x.ai/news/grok-warp",
-		"source": "xAI",
-		"date": "2026-06-15T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1589,13 +1533,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 推出 Grok Build 插件市场",
-		"url": "https://x.ai/news/grok-plugin-marketplace",
-		"source": "xAI",
-		"date": "2026-06-11T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 更新英国主权 AI 进展",
 		"url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
 		"source": "NVIDIA",
@@ -1606,13 +1543,6 @@
 		"title": "DeepMind 发布 DiffusionGemma，文本生成速度提升 4 倍",
 		"url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
 		"source": "DeepMind",
-		"date": "2026-06-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 为 eToro 的 AI 代理 Tori 提供实时市场情绪",
-		"url": "https://x.ai/news/grok-etoro",
-		"source": "xAI",
 		"date": "2026-06-10T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1634,13 +1564,6 @@
 		"title": "DeepMind 发布欧洲机器人技术发展计划",
 		"url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
 		"source": "DeepMind",
-		"date": "2026-06-09T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 为 Gopuff 的 Go agent 接入 Grok 多模态模型",
-		"url": "https://x.ai/news/grok-gopuff",
-		"source": "xAI",
 		"date": "2026-06-09T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1743,20 +1666,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 发布 Grok Imagine 1.5 Preview 图像转视频模型",
-		"url": "https://x.ai/news/grok-imagine-1-5",
-		"source": "xAI",
-		"date": "2026-06-03T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 将 Grok 语音能力接入 Vapi 平台",
-		"url": "https://x.ai/news/grok-vapi",
-		"source": "xAI",
-		"date": "2026-06-03T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Cosmos-3 物理 AI 世界基础模型",
 		"url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
 		"source": "NVIDIA",
@@ -1813,13 +1722,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Opus 4.8",
-		"url": "https://www.anthropic.com/news/claude-opus-4-8",
-		"source": "Anthropic News",
-		"date": "2026-06-01T10:18:23.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 在 Computex 发布 RTX AI Garage 本地 Agent 方案",
 		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
 		"source": "NVIDIA",
@@ -1855,13 +1757,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 发布 Composer 2.5",
-		"url": "https://x.ai/news/composer-2-5",
-		"source": "xAI",
-		"date": "2026-06-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google AI Studio 制作 I/O 2026 主题问答活动",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
 		"source": "Google AI",
@@ -1879,13 +1774,6 @@
 		"title": "滑铁卢大学展示 Futures Lab AI 原型",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
 		"source": "Google AI",
-		"date": "2026-05-29T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 发布 Grok Build 0.1 代码模型",
-		"url": "https://x.ai/news/grok-build-0-1",
-		"source": "xAI",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2212,13 +2100,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 将 Grok 接入 Kilo Code 编程平台",
-		"url": "https://x.ai/news/grok-kilocode",
-		"source": "xAI",
-		"date": "2026-05-27T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布社会科学研究规模化方法",
 		"url": "https://openai.com/index/scaling-social-science-research/",
 		"source": "OpenAI",
@@ -2245,13 +2126,6 @@
 		"source": "GitHub Trending",
 		"date": "2026-05-25T22:03:58Z",
 		"group": "gh"
-	},
-	{
-		"title": "xAI 发布 Grok Build 终端编程 agent",
-		"url": "https://x.ai/news/grok-build-cli",
-		"source": "xAI",
-		"date": "2026-05-25T00:00:00.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "Mistral 发布 Mistral Medium 3.5",
@@ -2314,13 +2188,6 @@
 		"url": "https://www.anthropic.com/research/glasswing-initial-update",
 		"source": "Anthropic Research",
 		"date": "2026-05-21T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 将 Grok 接入 OpenCode",
-		"url": "https://x.ai/news/grok-opencode",
-		"source": "xAI",
-		"date": "2026-05-21T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2583,13 +2450,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 将 Grok 接入 OpenClaw 本地 agent 平台",
-		"url": "https://x.ai/news/grok-openclaw",
-		"source": "xAI",
-		"date": "2026-05-19T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 推出 Project Genie 街景驱动场景生成能力",
 		"url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
 		"source": "DeepMind",
@@ -2643,20 +2503,6 @@
 		"url": "https://openai.com/index/introducing-gpt-5-2-codex/",
 		"source": "OpenAI",
 		"date": "2026-05-18T02:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 为 Grok 推出 Skills 功能",
-		"url": "https://x.ai/news/grok-skills",
-		"source": "xAI",
-		"date": "2026-05-18T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 将 Grok 接入 Hermes Agent",
-		"url": "https://x.ai/news/grok-hermes",
-		"source": "xAI",
-		"date": "2026-05-15T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2835,27 +2681,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 为 Grok 推出跨平台 Connectors 集成功能",
-		"url": "https://x.ai/news/grok-connectors",
-		"source": "xAI",
-		"date": "2026-05-06T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 推出 Grok Imagine Quality Mode API",
-		"url": "https://x.ai/news/grok-imagine-quality-mode",
-		"source": "xAI",
-		"date": "2026-05-06T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 与 Anthropic 达成计算资源合作",
-		"url": "https://x.ai/news/anthropic-compute-partnership",
-		"source": "xAI",
-		"date": "2026-05-06T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 ChatGPT 公平性评估报告",
 		"url": "https://openai.com/index/evaluating-fairness-in-chatgpt/",
 		"source": "OpenAI",
@@ -2923,13 +2748,6 @@
 		"url": "https://deepmind.google/blog/ai-co-clinician/",
 		"source": "DeepMind",
 		"date": "2026-04-30T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "xAI 发布自定义语音与语音库",
-		"url": "https://x.ai/news/grok-custom-voices",
-		"source": "xAI",
-		"date": "2026-04-30T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
