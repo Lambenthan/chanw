@@ -2798,12 +2798,5 @@
 		"source": "NVIDIA",
 		"date": "2026-04-23T20:45:24.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Decoupled DiLoCo 分布式训练方法",
-		"url": "https://deepmind.google/blog/decoupled-diloco/",
-		"source": "DeepMind",
-		"date": "2026-04-23T16:00:00.000Z",
-		"group": "labs"
 	}
 ]
