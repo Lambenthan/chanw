@@ -2987,19 +2987,5 @@
 		"source": "DeepMind",
 		"date": "2026-04-23T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "xAI 发布 Grok Voice Think Fast 1.0 语音 Agent",
-		"url": "https://x.ai/news/grok-voice-think-fast-1",
-		"source": "xAI",
-		"date": "2026-04-23T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 Google Cloud 合作推出 Agentic Physical AI 工厂方案",
-		"url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/",
-		"source": "NVIDIA",
-		"date": "2026-04-22T20:20:49.000Z",
-		"group": "labs"
 	}
 ]
