@@ -2777,19 +2777,5 @@
 		"source": "Anthropic Research",
 		"date": "2026-04-28T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 分享基础设施噪声管理经验",
-		"url": "https://www.anthropic.com/engineering/infrastructure-noise",
-		"source": "Anthropic Engineering",
-		"date": "2026-04-24T14:21:28.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Managed Agents 托管服务",
-		"url": "https://www.anthropic.com/engineering/managed-agents",
-		"source": "Anthropic Engineering",
-		"date": "2026-04-24T14:19:43.000Z",
-		"group": "labs"
 	}
 ]
