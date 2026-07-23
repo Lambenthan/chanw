@@ -2791,12 +2791,5 @@
 		"source": "Anthropic Engineering",
 		"date": "2026-04-24T14:19:43.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 将 GPT-5.5 接入企业 Agent 工作流",
-		"url": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-04-23T20:45:24.000Z",
-		"group": "labs"
 	}
 ]
