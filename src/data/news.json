@@ -1,9 +1,86 @@
 [
 	{
+		"title": "block 开源 Buzz 蜂群思维通信平台",
+		"url": "https://github.com/block/buzz",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T18:55:04Z",
+		"group": "gh"
+	},
+	{
 		"title": "stablyai 开源 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-25T12:43:36Z",
+		"date": "2026-07-25T18:51:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 开源利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T18:22:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "worldmonitor 开源实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T18:14:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "permissionlesstech 开源 BitChat 蓝牙 Mesh 聊天工具",
+		"url": "https://github.com/permissionlesstech/bitchat",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T18:10:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "Pumpkin-MC 开源 Rust 编写的 Minecraft 服务器 Pumpkin",
+		"url": "https://github.com/Pumpkin-MC/Pumpkin",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T17:57:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "agegr 开源 pi 编程 agent 的 Web UI",
+		"url": "https://github.com/agegr/pi-web",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T17:30:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零开始学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T17:30:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chat2DB 开源 AI 驱动的数据库工具与 SQL 客户端",
+		"url": "https://github.com/OtterMind/Chat2DB",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T16:45:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T15:55:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "李博杰开源 AI Agent 书籍《深入理解 AI Agent》",
+		"url": "https://github.com/bojieli/ai-agent-book",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T15:55:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "citrolabs 开源 Ego-Lite 浏览器，为 AI agent 提供高速网页自动化",
+		"url": "https://github.com/citrolabs/ego-lite",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T15:39:13Z",
 		"group": "gh"
 	},
 	{
@@ -14,13 +91,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "worldmonitor 开源实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T12:37:01Z",
-		"group": "gh"
-	},
-	{
 		"title": "jcode 开源 Rust 代码智能体工具集",
 		"url": "https://github.com/1jehuang/jcode",
 		"source": "GitHub Trending",
@@ -28,59 +98,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "RuView 开源利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T12:25:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chat2DB 开源 AI 驱动的数据库工具与 SQL 客户端",
-		"url": "https://github.com/OtterMind/Chat2DB",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T12:24:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T12:09:41Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hyprland 发布高度可定制的动态平铺 Wayland 合成器",
 		"url": "https://github.com/hyprwm/Hyprland",
 		"source": "GitHub Trending",
 		"date": "2026-07-25T11:53:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "李博杰开源 AI Agent 书籍《深入理解 AI Agent》",
-		"url": "https://github.com/bojieli/ai-agent-book",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T11:37:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "Pumpkin-MC 开源 Rust 编写的 Minecraft 服务器 Pumpkin",
-		"url": "https://github.com/Pumpkin-MC/Pumpkin",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T10:38:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "permissionlesstech 开源 BitChat 蓝牙 Mesh 聊天工具",
-		"url": "https://github.com/permissionlesstech/bitchat",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T10:25:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "agegr 开源 pi 编程 agent 的 Web UI",
-		"url": "https://github.com/agegr/pi-web",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T09:05:05Z",
 		"group": "gh"
 	},
 	{
@@ -95,13 +116,6 @@
 		"url": "https://github.com/MoonshotAI/kimi-code",
 		"source": "GitHub Trending",
 		"date": "2026-07-24T18:15:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "citrolabs 开源 Ego-Lite 浏览器，为 AI agent 提供高速网页自动化",
-		"url": "https://github.com/citrolabs/ego-lite",
-		"source": "GitHub Trending",
-		"date": "2026-07-24T14:25:24Z",
 		"group": "gh"
 	},
 	{
@@ -152,6 +166,13 @@
 		"source": "Anthropic News",
 		"date": "2026-07-23T20:11:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Anthropic 开源 Claude Cookbooks 示例集合",
+		"url": "https://github.com/anthropics/claude-cookbooks",
+		"source": "GitHub Trending",
+		"date": "2026-07-23T17:32:41Z",
+		"group": "gh"
 	},
 	{
 		"title": "ibelick 发布 ui-skills，面向设计工程师的 UI 技能库",
@@ -945,6 +966,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 为 Grok 新增 21 种旗舰语音",
+		"url": "https://x.ai/news/new-flagship-voices",
+		"source": "xAI",
+		"date": "2026-07-06T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 推出 Visible Extended Thinking 功能",
 		"url": "https://www.anthropic.com/news/visible-extended-thinking",
 		"source": "Anthropic News",
@@ -1330,6 +1358,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 在 Grok Build 中引入 /goal 自主任务执行",
+		"url": "https://x.ai/news/introducing-goal",
+		"source": "xAI",
+		"date": "2026-06-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Hugging Face 用本地模型实现 OpenClaw 仓库 PR 自动分类",
 		"url": "https://huggingface.co/blog/local-models-pr-triage",
 		"source": "Hugging Face Blog",
@@ -1507,6 +1542,13 @@
 	{
 		"title": "xAI 发布 Grok Build 的 Agent Dashboard",
 		"url": "https://x.ai/news/agent-dashboard",
+		"source": "xAI",
+		"date": "2026-06-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 集成到 Warp 终端",
+		"url": "https://x.ai/news/grok-warp",
 		"source": "xAI",
 		"date": "2026-06-15T00:00:00.000Z",
 		"group": "labs"
@@ -1816,6 +1858,13 @@
 		"title": "Google 使用 Gemini 构建 I/O 2026 大会",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
 		"source": "Google AI",
+		"date": "2026-06-01T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Composer 2.5",
+		"url": "https://x.ai/news/composer-2-5",
+		"source": "xAI",
 		"date": "2026-06-01T00:00:00.000Z",
 		"group": "labs"
 	},
