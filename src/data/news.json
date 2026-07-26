@@ -1,37 +1,93 @@
 [
 	{
-		"title": "block 开源 Buzz 蜂群思维通信平台",
-		"url": "https://github.com/block/buzz",
+		"title": "阿里巴巴开源 open-code-review 代码审查工具",
+		"url": "https://github.com/alibaba/open-code-review",
 		"source": "GitHub Trending",
-		"date": "2026-07-25T18:55:04Z",
+		"date": "2026-07-26T01:41:11Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 开源 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-25T18:51:28Z",
+		"date": "2026-07-26T01:38:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "block 开源 Buzz 蜂群思维通信平台",
+		"url": "https://github.com/block/buzz",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T00:56:20Z",
 		"group": "gh"
 	},
 	{
 		"title": "RuView 开源利用 WiFi 信号实现空间感知与生命体征监测",
 		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-07-25T18:22:45Z",
+		"date": "2026-07-26T00:46:48Z",
 		"group": "gh"
 	},
 	{
-		"title": "worldmonitor 开源实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
+		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
 		"source": "GitHub Trending",
-		"date": "2026-07-25T18:14:31Z",
+		"date": "2026-07-26T00:46:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "jcode 开源 Rust 代码智能体工具集",
+		"url": "https://github.com/1jehuang/jcode",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T00:40:55Z",
 		"group": "gh"
 	},
 	{
 		"title": "permissionlesstech 开源 BitChat 蓝牙 Mesh 聊天工具",
 		"url": "https://github.com/permissionlesstech/bitchat",
 		"source": "GitHub Trending",
-		"date": "2026-07-25T18:10:14Z",
+		"date": "2026-07-26T00:19:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零开始学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T00:08:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "worldmonitor 开源实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T23:02:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "earendil-works 开源 AI agent 工具包 pi",
+		"url": "https://github.com/earendil-works/pi",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T21:02:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier Pro 发布 macOS AI 视频编辑器",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T19:58:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Andrew Ng 开源 aisuite 统一接口",
+		"url": "https://github.com/andrewyng/aisuite",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T19:14:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "CoreBunch 开源 Instatic agent 驱动可视化 CMS",
+		"url": "https://github.com/CoreBunch/Instatic",
+		"source": "GitHub Trending",
+		"date": "2026-07-25T18:47:54Z",
 		"group": "gh"
 	},
 	{
@@ -49,24 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "rohitg00 开源 AI 工程从零开始学习项目",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T17:30:38Z",
-		"group": "gh"
-	},
-	{
 		"title": "Chat2DB 开源 AI 驱动的数据库工具与 SQL 客户端",
 		"url": "https://github.com/OtterMind/Chat2DB",
 		"source": "GitHub Trending",
 		"date": "2026-07-25T16:45:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T15:55:32Z",
 		"group": "gh"
 	},
 	{
@@ -84,20 +126,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "earendil-works 开源 AI agent 工具包 pi",
-		"url": "https://github.com/earendil-works/pi",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T12:37:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "jcode 开源 Rust 代码智能体工具集",
-		"url": "https://github.com/1jehuang/jcode",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T12:28:24Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hyprland 发布高度可定制的动态平铺 Wayland 合成器",
 		"url": "https://github.com/hyprwm/Hyprland",
 		"source": "GitHub Trending",
@@ -105,10 +133,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "阿里巴巴开源 open-code-review 代码审查工具",
-		"url": "https://github.com/alibaba/open-code-review",
+		"title": "obra 开源 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
-		"date": "2026-07-25T01:34:58Z",
+		"date": "2026-07-24T21:21:36Z",
 		"group": "gh"
 	},
 	{
@@ -236,13 +264,6 @@
 		"source": "Anthropic News",
 		"date": "2026-07-22T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Andrew Ng 开源 aisuite 统一接口",
-		"url": "https://github.com/andrewyng/aisuite",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T21:33:48Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 发布物理 AI 模拟现状综述",
@@ -521,6 +542,13 @@
 		"title": "Thinking Machines 发布 Inkling 模型",
 		"url": "https://huggingface.co/blog/thinkingmachines-inkling",
 		"source": "Hugging Face Blog",
+		"date": "2026-07-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 开源 Grok Build",
+		"url": "https://x.ai/news/grok-build-open-source",
+		"source": "xAI",
 		"date": "2026-07-15T00:00:00.000Z",
 		"group": "labs"
 	},
