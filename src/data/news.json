@@ -1,51 +1,100 @@
 [
 	{
-		"title": "阿里巴巴开源 open-code-review 代码审查工具",
-		"url": "https://github.com/alibaba/open-code-review",
-		"source": "GitHub Trending",
-		"date": "2026-07-26T01:41:11Z",
-		"group": "gh"
-	},
-	{
 		"title": "stablyai 开源 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-07-26T01:38:38Z",
+		"date": "2026-07-26T08:06:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chat2DB 开源 AI 驱动的数据库工具与 SQL 客户端",
+		"url": "https://github.com/OtterMind/Chat2DB",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T08:06:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "Automattic 开源 Harper 离线语法检查工具",
+		"url": "https://github.com/Automattic/harper",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T08:03:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "worldmonitor 开源实时全球情报仪表盘",
+		"url": "https://github.com/koala73/worldmonitor",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T08:02:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "block 开源 Buzz 蜂群思维通信平台",
 		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-07-26T00:56:20Z",
+		"date": "2026-07-26T07:57:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "阿里巴巴开源 open-code-review 代码审查工具",
+		"url": "https://github.com/alibaba/open-code-review",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T07:36:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "agegr 开源 pi 编程 agent 的 Web UI",
+		"url": "https://github.com/agegr/pi-web",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T07:35:50Z",
 		"group": "gh"
 	},
 	{
 		"title": "RuView 开源利用 WiFi 信号实现空间感知与生命体征监测",
 		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-07-26T00:46:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
-		"url": "https://github.com/diegosouzapw/OmniRoute",
-		"source": "GitHub Trending",
-		"date": "2026-07-26T00:46:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "jcode 开源 Rust 代码智能体工具集",
-		"url": "https://github.com/1jehuang/jcode",
-		"source": "GitHub Trending",
-		"date": "2026-07-26T00:40:55Z",
+		"date": "2026-07-26T07:00:51Z",
 		"group": "gh"
 	},
 	{
 		"title": "permissionlesstech 开源 BitChat 蓝牙 Mesh 聊天工具",
 		"url": "https://github.com/permissionlesstech/bitchat",
 		"source": "GitHub Trending",
-		"date": "2026-07-26T00:19:29Z",
+		"date": "2026-07-26T06:54:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "OmniRoute 开源免费 AI 网关，聚合 268 家模型提供商",
+		"url": "https://github.com/diegosouzapw/OmniRoute",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T06:53:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "MoonshotAI 发布 Kimi Code CLI 编程工具",
+		"url": "https://github.com/MoonshotAI/kimi-code",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T06:35:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "Palmier Pro 发布 macOS AI 视频编辑器",
+		"url": "https://github.com/palmier-io/palmier-pro",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T05:35:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "jcode 开源 Rust 代码智能体工具集",
+		"url": "https://github.com/1jehuang/jcode",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T05:33:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "李博杰开源 AI Agent 书籍《深入理解 AI Agent》",
+		"url": "https://github.com/bojieli/ai-agent-book",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T04:11:37Z",
 		"group": "gh"
 	},
 	{
@@ -56,24 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "worldmonitor 开源实时全球情报仪表盘",
-		"url": "https://github.com/koala73/worldmonitor",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T23:02:57Z",
-		"group": "gh"
-	},
-	{
 		"title": "earendil-works 开源 AI agent 工具包 pi",
 		"url": "https://github.com/earendil-works/pi",
 		"source": "GitHub Trending",
 		"date": "2026-07-25T21:02:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "Palmier Pro 发布 macOS AI 视频编辑器",
-		"url": "https://github.com/palmier-io/palmier-pro",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T19:58:33Z",
 		"group": "gh"
 	},
 	{
@@ -98,27 +133,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "agegr 开源 pi 编程 agent 的 Web UI",
-		"url": "https://github.com/agegr/pi-web",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T17:30:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "Chat2DB 开源 AI 驱动的数据库工具与 SQL 客户端",
-		"url": "https://github.com/OtterMind/Chat2DB",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T16:45:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "李博杰开源 AI Agent 书籍《深入理解 AI Agent》",
-		"url": "https://github.com/bojieli/ai-agent-book",
-		"source": "GitHub Trending",
-		"date": "2026-07-25T15:55:22Z",
-		"group": "gh"
-	},
-	{
 		"title": "citrolabs 开源 Ego-Lite 浏览器，为 AI agent 提供高速网页自动化",
 		"url": "https://github.com/citrolabs/ego-lite",
 		"source": "GitHub Trending",
@@ -140,13 +154,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "MoonshotAI 发布 Kimi Code CLI 编程工具",
-		"url": "https://github.com/MoonshotAI/kimi-code",
-		"source": "GitHub Trending",
-		"date": "2026-07-24T18:15:07Z",
-		"group": "gh"
-	},
-	{
 		"title": "croc 开源跨设备安全文件传输工具",
 		"url": "https://github.com/schollz/croc",
 		"source": "GitHub Trending",
@@ -158,13 +165,6 @@
 		"url": "https://github.com/ComposioHQ/awesome-claude-skills",
 		"source": "GitHub Trending",
 		"date": "2026-07-24T07:48:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "Automattic 开源 Harper 离线语法检查工具",
-		"url": "https://github.com/Automattic/harper",
-		"source": "GitHub Trending",
-		"date": "2026-07-24T04:09:59Z",
 		"group": "gh"
 	},
 	{
@@ -221,6 +221,13 @@
 		"url": "https://huggingface.co/blog/nunchaku-diffusers",
 		"source": "Hugging Face Blog",
 		"date": "2026-07-23T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 在 ChatGPT 中推出健康功能",
+		"url": "https://openai.com/index/health-in-chatgpt",
+		"source": "OpenAI",
+		"date": "2026-07-22T05:30:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1379,6 +1386,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 与 Hugging Face 合作应对模型评测安全事件",
+		"url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+		"source": "OpenAI",
+		"date": "2026-06-22T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Google DeepMind 宣布与 A24 建立研究合作",
 		"url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
 		"source": "DeepMind",
@@ -1662,6 +1676,13 @@
 		"title": "DeepMind 发布 DiffusionGemma，文本生成速度提升 4 倍",
 		"url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
 		"source": "DeepMind",
+		"date": "2026-06-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 为 eToro 的 Tori 提供实时市场情绪能力",
+		"url": "https://x.ai/news/grok-etoro",
+		"source": "xAI",
 		"date": "2026-06-10T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2607,6 +2628,13 @@
 		"title": "Google AI 发布 AI 生成内容在线识别方案",
 		"url": "https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/",
 		"source": "Google AI",
+		"date": "2026-05-19T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 集成到 OpenClaw 开源 Agent 平台",
+		"url": "https://x.ai/news/grok-openclaw",
+		"source": "xAI",
 		"date": "2026-05-19T00:00:00.000Z",
 		"group": "labs"
 	},
