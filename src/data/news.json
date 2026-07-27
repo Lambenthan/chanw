@@ -2770,12 +2770,5 @@
 		"source": "NVIDIA",
 		"date": "2026-04-28T20:53:45.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 BioMysteryBench 评估 Claude 生物信息学能力",
-		"url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-		"source": "Anthropic Research",
-		"date": "2026-04-28T16:00:00.000Z",
-		"group": "labs"
 	}
 ]
