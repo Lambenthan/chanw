@@ -2644,26 +2644,5 @@
 		"source": "Anthropic Engineering",
 		"date": "2026-04-30T21:34:23.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 设立长期利益信托",
-		"url": "https://www.anthropic.com/news/the-long-term-benefit-trust",
-		"source": "Anthropic News",
-		"date": "2026-04-30T16:44:34.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 RTX AI Garage，为 Adobe Premiere 引入 AI 调色模式",
-		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-nab-adobe-premiere-color-mode/",
-		"source": "NVIDIA",
-		"date": "2026-04-30T16:22:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 提出 AI 联合临床医生模型",
-		"url": "https://deepmind.google/blog/ai-co-clinician/",
-		"source": "DeepMind",
-		"date": "2026-04-30T16:00:00.000Z",
-		"group": "labs"
 	}
 ]
