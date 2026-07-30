@@ -2623,12 +2623,5 @@
 		"source": "OpenAI",
 		"date": "2026-05-05T02:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Claude for Creative Work",
-		"url": "https://www.anthropic.com/news/claude-for-creative-work",
-		"source": "Anthropic News",
-		"date": "2026-05-01T15:44:00.000Z",
-		"group": "labs"
 	}
 ]
