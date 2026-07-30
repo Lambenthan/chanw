@@ -2637,12 +2637,5 @@
 		"source": "Anthropic Research",
 		"date": "2026-05-01T13:51:54.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 4 月 23 日事故复盘报告",
-		"url": "https://www.anthropic.com/engineering/april-23-postmortem",
-		"source": "Anthropic Engineering",
-		"date": "2026-04-30T21:34:23.000Z",
-		"group": "labs"
 	}
 ]
