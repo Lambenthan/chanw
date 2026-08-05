@@ -1,30 +1,72 @@
 [
 	{
-		"title": "Openwork 开源发布，替代 Claude Cowork",
-		"url": "https://github.com/different-ai/openwork",
+		"title": "block 开源 Buzz 蜂群思维通信平台",
+		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T13:44:35Z",
+		"date": "2026-08-05T19:17:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T19:09:28Z",
 		"group": "gh"
 	},
 	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T13:43:09Z",
+		"date": "2026-08-05T19:02:37Z",
 		"group": "gh"
 	},
 	{
-		"title": "block 开源 Buzz 蜂群思维通信平台",
-		"url": "https://github.com/block/buzz",
+		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T13:27:12Z",
+		"date": "2026-08-05T18:33:57Z",
 		"group": "gh"
+	},
+	{
+		"title": "Roboflow 开源 Supervision 计算机视觉工具库",
+		"url": "https://github.com/roboflow/supervision",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T17:59:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "ayghri 开源 ADHD-friendly 编码 agent skill",
+		"url": "https://github.com/ayghri/i-have-adhd",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T17:26:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T17:22:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "Openwork 开源发布，替代 Claude Cowork",
+		"url": "https://github.com/different-ai/openwork",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T16:27:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发起 Open Secure AI Alliance",
+		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+		"source": "NVIDIA",
+		"date": "2026-08-05T16:07:54.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Cloudflare 开源 computer 项目，为 agent 提供虚拟计算机",
 		"url": "https://github.com/cloudflare/computer",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T13:17:56Z",
+		"date": "2026-08-05T15:40:06Z",
 		"group": "gh"
 	},
 	{
@@ -63,31 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T05:08:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T04:16:33Z",
-		"group": "gh"
-	},
-	{
 		"title": "Obra 发布 Superpowers agentic skills 框架",
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
 		"date": "2026-08-05T03:16:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "ayghri 开源 ADHD-friendly 编码 agent skill",
-		"url": "https://github.com/ayghri/i-have-adhd",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T02:46:10Z",
 		"group": "gh"
 	},
 	{
@@ -98,17 +119,17 @@
 		"group": "gh"
 	},
 	{
+		"title": "NVIDIA 发布 AI 存储 FMS",
+		"url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
+		"source": "NVIDIA",
+		"date": "2026-08-04T19:32:04.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布 Alpamayo 2 Super 开源模型",
 		"url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
 		"source": "NVIDIA",
 		"date": "2026-08-04T15:00:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 AI 存储 FMS",
-		"url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
-		"source": "NVIDIA",
-		"date": "2026-08-04T15:00:47.000Z",
 		"group": "labs"
 	},
 	{
@@ -117,20 +138,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-04T13:58:29.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发起 Open Secure AI Alliance",
-		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-		"source": "NVIDIA",
-		"date": "2026-08-04T13:32:30.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T04:08:25Z",
-		"group": "gh"
 	},
 	{
 		"title": "DataExpert-io 开源数据工程师学习资源手册",
@@ -2895,13 +2902,6 @@
 		"url": "https://www.anthropic.com/news/model-context-protocol",
 		"source": "Anthropic News",
 		"date": "2026-05-07T20:07:05.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemini 驱动的编码 Agent AlphaEvolve",
-		"url": "https://deepmind.google/blog/alphaevolve-impact/",
-		"source": "DeepMind",
-		"date": "2026-05-07T16:00:00.000Z",
 		"group": "labs"
 	}
 ]
