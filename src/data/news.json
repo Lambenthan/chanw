@@ -1,86 +1,135 @@
 [
 	{
-		"title": "block 开源 Buzz 蜂群思维通信平台",
-		"url": "https://github.com/block/buzz",
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T01:41:52Z",
+		"date": "2026-08-05T08:19:47Z",
 		"group": "gh"
 	},
 	{
 		"title": "moeru-ai 开源 Airi 自托管 AI 伴侣，支持实时语音与游戏交互",
 		"url": "https://github.com/moeru-ai/airi",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T01:39:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cypress 开源浏览器测试框架",
-		"url": "https://github.com/cypress-io/cypress",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T01:38:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T01:35:09Z",
+		"date": "2026-08-05T08:16:26Z",
 		"group": "gh"
 	},
 	{
 		"title": "Openwork 开源发布，替代 Claude Cowork",
 		"url": "https://github.com/different-ai/openwork",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T01:34:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T01:25:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Obra 发布 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T01:24:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "EveryInc 发布 Compound Engineering 插件，支持 Claude Code、Codex、Cursor",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T00:41:08Z",
+		"date": "2026-08-05T08:16:19Z",
 		"group": "gh"
 	},
 	{
 		"title": "livekit 开源 agents 框架，用于构建实时语音 AI agent",
 		"url": "https://github.com/livekit/agents",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T00:10:30Z",
+		"date": "2026-08-05T08:14:59Z",
 		"group": "gh"
 	},
 	{
-		"title": "GeoLibre 开源轻量级云原生 GIS 平台",
-		"url": "https://github.com/opengeos/GeoLibre",
+		"title": "阿里巴巴开源代码审查工具 open-code-review",
+		"url": "https://github.com/alibaba/open-code-review",
 		"source": "GitHub Trending",
-		"date": "2026-08-04T23:53:33Z",
+		"date": "2026-08-05T08:14:25Z",
 		"group": "gh"
 	},
 	{
-		"title": "pascalorg 开源 3D 建筑项目编辑器",
-		"url": "https://github.com/pascalorg/editor",
+		"title": "block 开源 Buzz 蜂群思维通信平台",
+		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-08-04T23:47:48Z",
+		"date": "2026-08-05T08:05:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
+		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T08:04:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "citrolabs 发布 ego-lite 浏览器自动化工具",
+		"url": "https://github.com/citrolabs/ego-lite",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T06:49:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "EveryInc 发布 Compound Engineering 插件，支持 Claude Code、Codex、Cursor",
+		"url": "https://github.com/EveryInc/compound-engineering-plugin",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T06:04:48Z",
 		"group": "gh"
 	},
 	{
 		"title": "jcode 开源 Rust 代码智能体工具集",
 		"url": "https://github.com/1jehuang/jcode",
 		"source": "GitHub Trending",
-		"date": "2026-08-04T23:33:40Z",
+		"date": "2026-08-05T05:56:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "GeoLibre 开源轻量级云原生 GIS 平台",
+		"url": "https://github.com/opengeos/GeoLibre",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T05:33:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "webpack 发布 JavaScript 模块打包工具",
+		"url": "https://github.com/webpack/webpack",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T05:14:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T04:16:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "pascalorg 开源 3D 建筑项目编辑器",
+		"url": "https://github.com/pascalorg/editor",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T03:38:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Deno 发布现代 JavaScript 与 TypeScript 运行时",
+		"url": "https://github.com/denoland/deno",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T03:31:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 发布 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T03:16:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cypress 开源浏览器测试框架",
+		"url": "https://github.com/cypress-io/cypress",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T03:10:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "ayghri 开源 ADHD-friendly 编码 agent skill",
+		"url": "https://github.com/ayghri/i-have-adhd",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T02:46:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T02:11:11Z",
 		"group": "gh"
 	},
 	{
@@ -95,13 +144,6 @@
 		"url": "https://github.com/tailwindlabs/tailwindcss",
 		"source": "GitHub Trending",
 		"date": "2026-08-04T22:36:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T18:59:45Z",
 		"group": "gh"
 	},
 	{
@@ -147,13 +189,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "阿里巴巴开源代码审查工具 open-code-review",
-		"url": "https://github.com/alibaba/open-code-review",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T13:07:31Z",
-		"group": "gh"
-	},
-	{
 		"title": "reverse-skill 发布安全研究技能路由包",
 		"url": "https://github.com/zhaoxuya520/reverse-skill",
 		"source": "GitHub Trending",
@@ -175,18 +210,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
-		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-03T12:49:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "ayghri 开源 ADHD-friendly 编码 agent skill",
-		"url": "https://github.com/ayghri/i-have-adhd",
-		"source": "GitHub Trending",
-		"date": "2026-07-31T21:12:50Z",
-		"group": "gh"
+		"title": "Circles 借助 OpenAI 技术提升电信个性化服务",
+		"url": "https://openai.com/index/circles",
+		"source": "OpenAI",
+		"date": "2026-08-03T07:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 在 GTC 2025 介绍主权 AI 计划",
@@ -1293,6 +1321,13 @@
 		"source": "NVIDIA",
 		"date": "2026-07-01T16:41:18.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "browser-use 开源 video-use 视频编辑工具",
+		"url": "https://github.com/browser-use/video-use",
+		"source": "GitHub Trending",
+		"date": "2026-07-01T00:33:52Z",
+		"group": "gh"
 	},
 	{
 		"title": "Google AI 发布 2026 年 6 月 AI 更新汇总",
