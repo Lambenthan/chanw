@@ -1,44 +1,44 @@
 [
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T08:19:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "moeru-ai 开源 Airi 自托管 AI 伴侣，支持实时语音与游戏交互",
-		"url": "https://github.com/moeru-ai/airi",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T08:16:26Z",
-		"group": "gh"
-	},
-	{
 		"title": "Openwork 开源发布，替代 Claude Cowork",
 		"url": "https://github.com/different-ai/openwork",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T08:16:19Z",
+		"date": "2026-08-05T13:44:35Z",
 		"group": "gh"
 	},
 	{
-		"title": "livekit 开源 agents 框架，用于构建实时语音 AI agent",
-		"url": "https://github.com/livekit/agents",
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T08:14:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "阿里巴巴开源代码审查工具 open-code-review",
-		"url": "https://github.com/alibaba/open-code-review",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T08:14:25Z",
+		"date": "2026-08-05T13:43:09Z",
 		"group": "gh"
 	},
 	{
 		"title": "block 开源 Buzz 蜂群思维通信平台",
 		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T08:05:29Z",
+		"date": "2026-08-05T13:27:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cloudflare 开源 computer 项目，为 agent 提供虚拟计算机",
+		"url": "https://github.com/cloudflare/computer",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T13:17:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Tailwind CSS 发布 utility-first CSS 框架更新",
+		"url": "https://github.com/tailwindlabs/tailwindcss",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T10:39:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T10:05:07Z",
 		"group": "gh"
 	},
 	{
@@ -56,13 +56,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "EveryInc 发布 Compound Engineering 插件，支持 Claude Code、Codex、Cursor",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T06:04:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "jcode 开源 Rust 代码智能体工具集",
 		"url": "https://github.com/1jehuang/jcode",
 		"source": "GitHub Trending",
@@ -70,17 +63,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "GeoLibre 开源轻量级云原生 GIS 平台",
-		"url": "https://github.com/opengeos/GeoLibre",
+		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T05:33:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "webpack 发布 JavaScript 模块打包工具",
-		"url": "https://github.com/webpack/webpack",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T05:14:56Z",
+		"date": "2026-08-05T05:08:01Z",
 		"group": "gh"
 	},
 	{
@@ -91,31 +77,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "pascalorg 开源 3D 建筑项目编辑器",
-		"url": "https://github.com/pascalorg/editor",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T03:38:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "Deno 发布现代 JavaScript 与 TypeScript 运行时",
-		"url": "https://github.com/denoland/deno",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T03:31:39Z",
-		"group": "gh"
-	},
-	{
 		"title": "Obra 发布 Superpowers agentic skills 框架",
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
 		"date": "2026-08-05T03:16:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cypress 开源浏览器测试框架",
-		"url": "https://github.com/cypress-io/cypress",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T03:10:08Z",
 		"group": "gh"
 	},
 	{
@@ -130,34 +95,6 @@
 		"url": "https://github.com/virgiliojr94/book-to-skill",
 		"source": "GitHub Trending",
 		"date": "2026-08-05T02:11:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kaneo 开源项目管理工具",
-		"url": "https://github.com/usekaneo/kaneo",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T22:36:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "Tailwind CSS 发布 utility-first CSS 框架更新",
-		"url": "https://github.com/tailwindlabs/tailwindcss",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T22:36:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "Angular 发布 web 应用框架更新",
-		"url": "https://github.com/angular/angular",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T18:51:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "微软发布《生成式 AI 入门》21 课教程",
-		"url": "https://github.com/microsoft/generative-ai-for-beginners",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T18:21:38Z",
 		"group": "gh"
 	},
 	{
@@ -189,10 +126,17 @@
 		"group": "labs"
 	},
 	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
-		"date": "2026-08-04T02:46:28Z",
+		"date": "2026-08-04T04:08:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "DataExpert-io 开源数据工程师学习资源手册",
+		"url": "https://github.com/DataExpert-io/data-engineer-handbook",
+		"source": "GitHub Trending",
+		"date": "2026-08-03T20:29:57Z",
 		"group": "gh"
 	},
 	{
@@ -399,6 +343,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 阐述全栈式 AI 发展路径",
+		"url": "https://openai.com/index/building-abundant-intelligence",
+		"source": "OpenAI",
+		"date": "2026-07-29T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 通过两项设置将 GPT-5.6 在 ARC-AGI-3 上的得分提升三倍",
+		"url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+		"source": "OpenAI",
+		"date": "2026-07-29T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
 		"url": "https://github.com/lyogavin/airllm",
 		"source": "GitHub Trending",
@@ -434,6 +392,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Google 搜索 AI Mode 帮助用户规划线下活动",
+		"url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+		"source": "Google AI",
+		"date": "2026-07-28T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 利用 Claude 发现加密弱点",
 		"url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
 		"source": "Anthropic Research",
@@ -460,13 +425,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-07-27T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "spdlog 更新：高性能 C++ 日志库",
-		"url": "https://github.com/gabime/spdlog",
-		"source": "GitHub Trending",
-		"date": "2026-07-24T13:24:39Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Claude Opus 5",
@@ -816,6 +774,13 @@
 		"url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
 		"source": "Hugging Face Blog",
 		"date": "2026-07-15T17:27:01.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 为青少年加强 ChatGPT 安全保护",
+		"url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+		"source": "OpenAI",
+		"date": "2026-07-15T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1321,13 +1286,6 @@
 		"source": "NVIDIA",
 		"date": "2026-07-01T16:41:18.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "browser-use 开源 video-use 视频编辑工具",
-		"url": "https://github.com/browser-use/video-use",
-		"source": "GitHub Trending",
-		"date": "2026-07-01T00:33:52Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google AI 发布 2026 年 6 月 AI 更新汇总",
