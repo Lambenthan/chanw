@@ -3,21 +3,98 @@
 		"title": "block 开源 Buzz 蜂群思维通信平台",
 		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-08-04T19:18:59Z",
+		"date": "2026-08-05T01:41:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "moeru-ai 开源 Airi 自托管 AI 伴侣，支持实时语音与游戏交互",
+		"url": "https://github.com/moeru-ai/airi",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T01:39:17Z",
 		"group": "gh"
 	},
 	{
 		"title": "Cypress 开源浏览器测试框架",
 		"url": "https://github.com/cypress-io/cypress",
 		"source": "GitHub Trending",
-		"date": "2026-08-04T19:18:39Z",
+		"date": "2026-08-05T01:38:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T01:35:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Openwork 开源发布，替代 Claude Cowork",
+		"url": "https://github.com/different-ai/openwork",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T01:34:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T01:25:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 发布 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T01:24:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "EveryInc 发布 Compound Engineering 插件，支持 Claude Code、Codex、Cursor",
+		"url": "https://github.com/EveryInc/compound-engineering-plugin",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T00:41:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "livekit 开源 agents 框架，用于构建实时语音 AI agent",
+		"url": "https://github.com/livekit/agents",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T00:10:30Z",
 		"group": "gh"
 	},
 	{
 		"title": "GeoLibre 开源轻量级云原生 GIS 平台",
 		"url": "https://github.com/opengeos/GeoLibre",
 		"source": "GitHub Trending",
-		"date": "2026-08-04T19:14:10Z",
+		"date": "2026-08-04T23:53:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "pascalorg 开源 3D 建筑项目编辑器",
+		"url": "https://github.com/pascalorg/editor",
+		"source": "GitHub Trending",
+		"date": "2026-08-04T23:47:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "jcode 开源 Rust 代码智能体工具集",
+		"url": "https://github.com/1jehuang/jcode",
+		"source": "GitHub Trending",
+		"date": "2026-08-04T23:33:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kaneo 开源项目管理工具",
+		"url": "https://github.com/usekaneo/kaneo",
+		"source": "GitHub Trending",
+		"date": "2026-08-04T22:36:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "Tailwind CSS 发布 utility-first CSS 框架更新",
+		"url": "https://github.com/tailwindlabs/tailwindcss",
+		"source": "GitHub Trending",
+		"date": "2026-08-04T22:36:27Z",
 		"group": "gh"
 	},
 	{
@@ -28,24 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"title": "Angular 发布 web 应用框架更新",
+		"url": "https://github.com/angular/angular",
 		"source": "GitHub Trending",
-		"date": "2026-08-04T18:58:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "pascalorg 开源 3D 建筑项目编辑器",
-		"url": "https://github.com/pascalorg/editor",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T18:53:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T18:31:58Z",
+		"date": "2026-08-04T18:51:28Z",
 		"group": "gh"
 	},
 	{
@@ -53,27 +116,6 @@
 		"url": "https://github.com/microsoft/generative-ai-for-beginners",
 		"source": "GitHub Trending",
 		"date": "2026-08-04T18:21:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "Obra 发布 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T18:17:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kaneo 开源项目管理工具",
-		"url": "https://github.com/usekaneo/kaneo",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T18:17:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "moeru-ai 开源 Airi 自托管 AI 伴侣，支持实时语音与游戏交互",
-		"url": "https://github.com/moeru-ai/airi",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T16:57:06Z",
 		"group": "gh"
 	},
 	{
@@ -98,17 +140,17 @@
 		"group": "labs"
 	},
 	{
+		"title": "NVIDIA 发起 Open Secure AI Alliance",
+		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+		"source": "NVIDIA",
+		"date": "2026-08-04T13:32:30.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "阿里巴巴开源代码审查工具 open-code-review",
 		"url": "https://github.com/alibaba/open-code-review",
 		"source": "GitHub Trending",
 		"date": "2026-08-04T13:07:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "EveryInc 发布 Compound Engineering 插件，支持 Claude Code、Codex、Cursor",
-		"url": "https://github.com/EveryInc/compound-engineering-plugin",
-		"source": "GitHub Trending",
-		"date": "2026-08-04T06:27:46Z",
 		"group": "gh"
 	},
 	{
@@ -119,10 +161,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "jcode 开源 Rust 代码智能体工具集",
-		"url": "https://github.com/1jehuang/jcode",
+		"title": "Uber 开源 ADR 企业 AI Agent 安全框架",
+		"url": "https://github.com/uber/ADR",
 		"source": "GitHub Trending",
-		"date": "2026-08-04T00:27:06Z",
+		"date": "2026-08-03T18:11:16Z",
 		"group": "gh"
 	},
 	{
@@ -301,6 +343,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Hugging Face 博客探讨 GPU 闲置管理问题",
+		"url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+		"source": "Hugging Face Blog",
+		"date": "2026-07-30T15:09:09.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 推出 Jetson 构建 AI 方案",
 		"url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
 		"source": "NVIDIA",
@@ -329,6 +378,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "OpenAI 发布 GPT-Live 实时语音交互系统",
+		"url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+		"source": "OpenAI",
+		"date": "2026-07-29T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 在 Google Flow Music 中发布 Lyria 3.5",
 		"url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
 		"source": "DeepMind",
@@ -346,6 +402,13 @@
 		"title": "Google 为 Gemini API Managed Agents 新增 3.6 Flash 与 hooks 支持",
 		"url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
 		"source": "Google AI",
+		"date": "2026-07-28T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 利用 Claude 发现加密弱点",
+		"url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+		"source": "Anthropic Research",
 		"date": "2026-07-28T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -455,6 +518,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Google 在 Galaxy Unpacked 2026 发布三项更新",
+		"url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+		"source": "Google AI",
+		"date": "2026-07-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "xAI 发布 Grok 4.5 并上线全平台",
 		"url": "https://x.ai/news/grok-4-5-everywhere",
 		"source": "xAI",
@@ -518,10 +588,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 推出 Grok for Outlook 插件",
+		"url": "https://x.ai/news/introducing-outlook-addin",
+		"source": "xAI",
+		"date": "2026-07-21T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Bristol Myers Squibb 基于 NVIDIA Vera Rubin 构建生命科学 AI 工厂",
 		"url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
 		"source": "NVIDIA",
 		"date": "2026-07-20T18:21:02.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 推出 Grok for Excel 插件",
+		"url": "https://x.ai/news/introducing-excel-addin",
+		"source": "xAI",
+		"date": "2026-07-20T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1680,6 +1764,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Grok for PowerPoint 插件",
+		"url": "https://x.ai/news/introducing-powerpoint-addin",
+		"source": "xAI",
+		"date": "2026-06-16T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "xAI 在 Grok Build 中推出 Agent Dashboard",
 		"url": "https://x.ai/news/agent-dashboard",
 		"source": "xAI",
@@ -1771,6 +1862,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 与 eToro 合作将实时市场情绪接入 Tori 投资智能体",
+		"url": "https://x.ai/news/grok-etoro",
+		"source": "xAI",
+		"date": "2026-06-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 在塞拉利昂开展 AI 辅助学习随机对照试验",
 		"url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
 		"source": "DeepMind",
@@ -1788,6 +1886,13 @@
 		"title": "DeepMind 发布欧洲机器人技术发展计划",
 		"url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
 		"source": "DeepMind",
+		"date": "2026-06-09T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 与 Gopuff 合作推出 AI 购物助手 Go",
+		"url": "https://x.ai/news/grok-gopuff",
+		"source": "xAI",
 		"date": "2026-06-09T00:00:00.000Z",
 		"group": "labs"
 	},
