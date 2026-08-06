@@ -1,9 +1,65 @@
 [
 	{
+		"title": "Vercel 更新 Next.js React 框架",
+		"url": "https://github.com/vercel/next.js",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T01:42:33Z",
+		"group": "gh"
+	},
+	{
 		"title": "block 开源 Buzz 蜂群思维通信平台",
 		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T19:17:50Z",
+		"date": "2026-08-06T01:39:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 发布 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T01:23:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T00:53:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T23:43:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
+		"url": "https://github.com/lyogavin/airllm",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T22:50:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T22:31:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "Openwork 开源发布，替代 Claude Cowork",
+		"url": "https://github.com/different-ai/openwork",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T20:23:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T19:24:45Z",
 		"group": "gh"
 	},
 	{
@@ -11,20 +67,6 @@
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-05T19:09:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T19:02:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T18:33:57Z",
 		"group": "gh"
 	},
 	{
@@ -39,20 +81,6 @@
 		"url": "https://github.com/ayghri/i-have-adhd",
 		"source": "GitHub Trending",
 		"date": "2026-08-05T17:26:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T17:22:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "Openwork 开源发布，替代 Claude Cowork",
-		"url": "https://github.com/different-ai/openwork",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T16:27:46Z",
 		"group": "gh"
 	},
 	{
@@ -102,20 +130,6 @@
 		"url": "https://github.com/1jehuang/jcode",
 		"source": "GitHub Trending",
 		"date": "2026-08-05T05:56:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "Obra 发布 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T03:16:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T02:11:11Z",
 		"group": "gh"
 	},
 	{
@@ -362,13 +376,6 @@
 		"source": "OpenAI",
 		"date": "2026-07-29T10:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
-		"url": "https://github.com/lyogavin/airllm",
-		"source": "GitHub Trending",
-		"date": "2026-07-29T01:08:32Z",
-		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布 GPT-Live 实时语音交互系统",
@@ -1491,6 +1498,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Interactive Brokers 集成 Grok 推出 AI 交易助手",
+		"url": "https://x.ai/news/grok-interactive-brokers",
+		"source": "xAI",
+		"date": "2026-06-25T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 助力法国推动欧洲 AI 发展",
 		"url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
 		"source": "NVIDIA",
@@ -2478,6 +2492,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 公布模型规范制定方法",
+		"url": "https://openai.com/index/our-approach-to-the-model-spec/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 开放 Proof 子任务提交",
 		"url": "https://openai.com/index/first-proof-submissions/",
 		"source": "OpenAI",
@@ -2592,13 +2613,6 @@
 	{
 		"title": "OpenAI 发布理论物理学新成果",
 		"url": "https://openai.com/index/new-result-theoretical-physics/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 公布模型规范制定方法",
-		"url": "https://openai.com/index/our-approach-to-the-model-spec/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2888,20 +2902,6 @@
 		"url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
 		"source": "OpenAI",
 		"date": "2026-05-11T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出面向金融服务的 Agent 方案",
-		"url": "https://www.anthropic.com/news/finance-agents",
-		"source": "Anthropic News",
-		"date": "2026-05-07T20:29:52.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Model Context Protocol",
-		"url": "https://www.anthropic.com/news/model-context-protocol",
-		"source": "Anthropic News",
-		"date": "2026-05-07T20:07:05.000Z",
 		"group": "labs"
 	}
 ]
