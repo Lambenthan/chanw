@@ -1,30 +1,58 @@
 [
 	{
-		"title": "Vercel 更新 Next.js React 框架",
-		"url": "https://github.com/vercel/next.js",
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
 		"source": "GitHub Trending",
-		"date": "2026-08-06T01:42:33Z",
+		"date": "2026-08-06T08:08:15Z",
 		"group": "gh"
 	},
 	{
 		"title": "block 开源 Buzz 蜂群思维通信平台",
 		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-08-06T01:39:42Z",
+		"date": "2026-08-06T08:06:16Z",
 		"group": "gh"
 	},
 	{
-		"title": "Obra 发布 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
+		"title": "Vercel 更新 Next.js React 框架",
+		"url": "https://github.com/vercel/next.js",
 		"source": "GitHub Trending",
-		"date": "2026-08-06T01:23:47Z",
+		"date": "2026-08-06T08:03:03Z",
 		"group": "gh"
 	},
 	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-06T00:53:15Z",
+		"date": "2026-08-06T07:54:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T07:37:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "jcode 开源 Rust 代码智能体工具集",
+		"url": "https://github.com/1jehuang/jcode",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T07:28:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 发布 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T06:17:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "Uber 开源 ADR 企业 AI Agent 安全框架",
+		"url": "https://github.com/uber/ADR",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T05:25:15Z",
 		"group": "gh"
 	},
 	{
@@ -39,13 +67,6 @@
 		"url": "https://github.com/lyogavin/airllm",
 		"source": "GitHub Trending",
 		"date": "2026-08-05T22:50:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T22:31:12Z",
 		"group": "gh"
 	},
 	{
@@ -105,13 +126,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T10:05:07Z",
-		"group": "gh"
-	},
-	{
 		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
 		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
 		"source": "GitHub Trending",
@@ -123,13 +137,6 @@
 		"url": "https://github.com/citrolabs/ego-lite",
 		"source": "GitHub Trending",
 		"date": "2026-08-05T06:49:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "jcode 开源 Rust 代码智能体工具集",
-		"url": "https://github.com/1jehuang/jcode",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T05:56:38Z",
 		"group": "gh"
 	},
 	{
@@ -161,13 +168,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Uber 开源 ADR 企业 AI Agent 安全框架",
-		"url": "https://github.com/uber/ADR",
-		"source": "GitHub Trending",
-		"date": "2026-08-03T18:11:16Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 推出 Claude for Nonprofits 公益计划",
 		"url": "https://www.anthropic.com/news/claude-for-nonprofits",
 		"source": "Anthropic News",
@@ -179,6 +179,13 @@
 		"url": "https://openai.com/index/circles",
 		"source": "OpenAI",
 		"date": "2026-08-03T07:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google AI 与 Kaggle 联合推出 35.3 万人参与的 AI 智能体免费课程",
+		"url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+		"source": "Google AI",
+		"date": "2026-08-03T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
