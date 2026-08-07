@@ -1,23 +1,58 @@
 [
 	{
-		"title": "Significant-Gravitas 为 AutoGPT 更新核心能力",
-		"url": "https://github.com/Significant-Gravitas/AutoGPT",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T06:57:31Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T06:53:21Z",
+		"date": "2026-08-07T12:42:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "Openwork 开源发布，替代 Claude Cowork",
+		"url": "https://github.com/different-ai/openwork",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T12:40:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cloudflare 开源 computer 项目，为 agent 提供虚拟计算机",
+		"url": "https://github.com/cloudflare/computer",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T12:39:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T12:15:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "Significant-Gravitas 为 AutoGPT 更新核心能力",
+		"url": "https://github.com/Significant-Gravitas/AutoGPT",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T11:57:54Z",
 		"group": "gh"
 	},
 	{
 		"title": "block 开源 Buzz 蜂群思维通信平台",
 		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T05:40:02Z",
+		"date": "2026-08-07T11:55:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T10:22:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
+		"url": "https://github.com/embabel/embabel-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T07:29:44Z",
 		"group": "gh"
 	},
 	{
@@ -28,17 +63,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
+		"title": "Kaneo 开源项目管理系统",
+		"url": "https://github.com/usekaneo/kaneo",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T05:18:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T04:15:44Z",
+		"date": "2026-08-07T04:22:30Z",
 		"group": "gh"
 	},
 	{
@@ -49,11 +77,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T23:24:20Z",
-		"group": "gh"
+		"title": "Anthropic 更新 Fable 5 生物学安全防护",
+		"url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+		"source": "Anthropic News",
+		"date": "2026-08-07T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
@@ -61,6 +89,27 @@
 		"source": "GitHub Trending",
 		"date": "2026-08-06T22:45:51Z",
 		"group": "gh"
+	},
+	{
+		"title": "swarm-forge 发布 AI agent 协调工具",
+		"url": "https://github.com/unclebob/swarm-forge",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T21:54:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T21:24:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 在 CES 展示 AI 汽车创新",
+		"url": "https://blogs.nvidia.com/blog/ai-automotive-innovation-ces/",
+		"source": "NVIDIA",
+		"date": "2026-08-06T20:59:19.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 发布 Alpamayo 2 Super 开源模型",
@@ -77,24 +126,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Openwork 开源发布，替代 Claude Cowork",
-		"url": "https://github.com/different-ai/openwork",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T19:13:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "ayghri 开源 ADHD-friendly 编码 agent skill",
 		"url": "https://github.com/ayghri/i-have-adhd",
 		"source": "GitHub Trending",
 		"date": "2026-08-06T18:19:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cloudflare 开源 computer 项目，为 agent 提供虚拟计算机",
-		"url": "https://github.com/cloudflare/computer",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T16:13:02Z",
 		"group": "gh"
 	},
 	{
@@ -140,20 +175,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "agavra 开源 tuicr：带 vim 键位的代码审查 TUI",
-		"url": "https://github.com/agavra/tuicr",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T23:32:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
-		"url": "https://github.com/embabel/embabel-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T23:11:20Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 AI 存储 FMS",
 		"url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
 		"source": "NVIDIA",
@@ -182,10 +203,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "deepfakes 开源 Faceswap 换脸软件",
-		"url": "https://github.com/deepfakes/faceswap",
+		"title": "Deno 开源 celld 分布式 Durable Objects 实现",
+		"url": "https://github.com/denoland/celld",
 		"source": "GitHub Trending",
-		"date": "2026-08-05T11:39:37Z",
+		"date": "2026-08-05T13:43:16Z",
 		"group": "gh"
 	},
 	{
@@ -215,6 +236,13 @@
 		"source": "Anthropic News",
 		"date": "2026-08-03T16:00:43.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "MiroFish 开源群体智能引擎",
+		"url": "https://github.com/666ghj/MiroFish",
+		"source": "GitHub Trending",
+		"date": "2026-08-03T10:19:15Z",
+		"group": "gh"
 	},
 	{
 		"title": "Circles 借助 OpenAI 技术提升电信个性化服务",
@@ -2455,13 +2483,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "code-review-graph 开源本地优先代码智能图，用于 MCP 和 CLI",
-		"url": "https://github.com/tirth8205/code-review-graph",
-		"source": "GitHub Trending",
-		"date": "2026-05-25T22:03:58Z",
-		"group": "gh"
 	},
 	{
 		"title": "Mistral 发布 Mistral Medium 3.5",
