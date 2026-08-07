@@ -3,70 +3,119 @@
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T12:42:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "Openwork 开源发布，替代 Claude Cowork",
-		"url": "https://github.com/different-ai/openwork",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T12:40:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cloudflare 开源 computer 项目，为 agent 提供虚拟计算机",
-		"url": "https://github.com/cloudflare/computer",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T12:39:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T12:15:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "Significant-Gravitas 为 AutoGPT 更新核心能力",
-		"url": "https://github.com/Significant-Gravitas/AutoGPT",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T11:57:54Z",
+		"date": "2026-08-07T18:42:12Z",
 		"group": "gh"
 	},
 	{
 		"title": "block 开源 Buzz 蜂群思维通信平台",
 		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T11:55:41Z",
+		"date": "2026-08-07T18:42:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "jdx/mise 开源 dev tools、env vars 和 task runner 工具",
+		"url": "https://github.com/jdx/mise",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T18:40:27Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T10:22:49Z",
+		"date": "2026-08-07T18:39:44Z",
 		"group": "gh"
 	},
 	{
-		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
-		"url": "https://github.com/embabel/embabel-agent",
+		"title": "Significant-Gravitas 为 AutoGPT 更新核心能力",
+		"url": "https://github.com/Significant-Gravitas/AutoGPT",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T07:29:44Z",
+		"date": "2026-08-07T18:35:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T17:59:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "Allen AI 发布 TutorMoments 数据集，评估 AI 辅导系统干预时机",
+		"url": "https://huggingface.co/blog/allenai/tutormoments",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-07T17:53:32.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Openwork 开源发布，替代 Claude Cowork",
+		"url": "https://github.com/different-ai/openwork",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T17:52:23Z",
 		"group": "gh"
 	},
 	{
 		"title": "Obra 发布 Superpowers agentic skills 框架",
 		"url": "https://github.com/obra/superpowers",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T05:20:58Z",
+		"date": "2026-08-07T17:51:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T17:30:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T17:21:16Z",
 		"group": "gh"
 	},
 	{
 		"title": "Kaneo 开源项目管理系统",
 		"url": "https://github.com/usekaneo/kaneo",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T04:22:30Z",
+		"date": "2026-08-07T17:15:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Matt Pocock 开源个人 .agents 目录中的工程师技能集",
+		"url": "https://github.com/mattpocock/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T15:50:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cloudflare 开源 computer 项目，为 agent 提供虚拟计算机",
+		"url": "https://github.com/cloudflare/computer",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T15:35:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T15:34:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
+		"url": "https://github.com/embabel/embabel-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T13:06:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "chenyme 开源 Grok2API 多账号 API 网关",
+		"url": "https://github.com/chenyme/grok2api",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T09:42:51Z",
 		"group": "gh"
 	},
 	{
@@ -98,13 +147,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
-		"url": "https://github.com/google/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T21:24:27Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 在 CES 展示 AI 汽车创新",
 		"url": "https://blogs.nvidia.com/blog/ai-automotive-innovation-ces/",
 		"source": "NVIDIA",
@@ -117,13 +159,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-06T20:54:09.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Matt Pocock 开源个人 .agents 目录中的工程师技能集",
-		"url": "https://github.com/mattpocock/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T19:49:51Z",
-		"group": "gh"
 	},
 	{
 		"title": "ayghri 开源 ADHD-friendly 编码 agent skill",
@@ -161,13 +196,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T08:08:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "Baseten 加入 Hugging Face 推理提供商平台",
 		"url": "https://huggingface.co/blog/baseten",
 		"source": "Hugging Face Blog",
@@ -180,13 +208,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-05T21:15:27.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T19:24:45Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发起 Open Secure AI Alliance",
@@ -371,6 +392,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "witr 开源进程溯源 CLI/TUI 工具",
+		"url": "https://github.com/pranshuparmar/witr",
+		"source": "GitHub Trending",
+		"date": "2026-07-31T06:49:53Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 发布 Nemotron 开源模型系列",
 		"url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
 		"source": "NVIDIA",
@@ -466,13 +494,6 @@
 		"url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
 		"source": "DeepMind",
 		"date": "2026-07-29T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Allen AI 发布 OlmoEarth 地理空间推理平台",
-		"url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-28T16:27:42.000Z",
 		"group": "labs"
 	},
 	{
