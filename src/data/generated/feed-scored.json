@@ -1,22 +1,34 @@
 {
-  "fetchedAt": "2026-08-07T02:19:25.395Z",
+  "fetchedAt": "2026-08-07T07:07:58.168Z",
   "items": [
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
-      "id": "5912247006ebb2f5",
-      "title": "block 开源 Buzz 蜂群思维通信平台",
-      "url": "https://github.com/block/buzz",
-      "summary": "A hive mind communication platform",
+      "id": "7fc08de27bce1b0c",
+      "title": "Significant-Gravitas 为 AutoGPT 更新核心能力",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "summary": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "category": "Agent",
-      "publishedAt": "2026-08-07T02:11:05Z",
-      "discoveredAt": "2026-08-04T19:20:38.754Z",
-      "stars": 22414,
-      "repoTopics": [],
-      "owner": "block",
-      "originalTitle": "block/buzz · A hive mind communication platform",
-      "score": 3,
-      "cn": "block 公司近日在 GitHub 上开源了 Buzz，一个自称“蜂群思维”的通信平台。该项目使用 Rust 编写，旨在为多个智能体或节点提供低延迟、高并发的消息传递能力，适合构建去中心化的协作系统。Buzz 的定位介于消息队列与 agent 通信协议之间，代码量不大但设计精巧，为多智能体场景下的实时信息交换提供了一种轻量级选择。"
+      "publishedAt": "2026-08-07T06:57:31Z",
+      "discoveredAt": "2026-08-07T07:02:41.883Z",
+      "stars": 186121,
+      "repoTopics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "owner": "Significant-Gravitas",
+      "originalTitle": "Significant-Gravitas/AutoGPT · AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi",
+      "score": 4,
+      "cn": "AutoGPT 是面向所有人的可访问 AI 愿景，旨在提供易于使用和构建的工具。项目通过开源方式持续迭代，让用户能够专注于真正重要的事情。此次更新聚焦于提升 agent 的自主性和实用性。"
     },
     {
       "source": "github-trending",
@@ -26,7 +38,7 @@
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "summary": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "category": "编程工具",
-      "publishedAt": "2026-08-07T01:53:11Z",
+      "publishedAt": "2026-08-07T06:53:21Z",
       "discoveredAt": "2026-08-04T19:20:37.119Z",
       "stars": 30704,
       "repoTopics": [
@@ -53,6 +65,49 @@
       "cn": "DeepSeek-Reasonix 是一个面向终端的 AI 编程 agent，专为 DeepSeek 模型设计。项目围绕前缀缓存稳定性进行工程优化，允许长时间运行而无需频繁重建上下文，从而降低推理成本并提升响应速度。对于依赖 DeepSeek 进行日常编码的开发者，这个工具提供了更高效的交互方式。"
     },
     {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "5912247006ebb2f5",
+      "title": "block 开源 Buzz 蜂群思维通信平台",
+      "url": "https://github.com/block/buzz",
+      "summary": "A hive mind communication platform",
+      "category": "Agent",
+      "publishedAt": "2026-08-07T05:40:02Z",
+      "discoveredAt": "2026-08-04T19:20:38.754Z",
+      "stars": 22414,
+      "repoTopics": [],
+      "owner": "block",
+      "originalTitle": "block/buzz · A hive mind communication platform",
+      "score": 3,
+      "cn": "block 公司近日在 GitHub 上开源了 Buzz，一个自称“蜂群思维”的通信平台。该项目使用 Rust 编写，旨在为多个智能体或节点提供低延迟、高并发的消息传递能力，适合构建去中心化的协作系统。Buzz 的定位介于消息队列与 agent 通信协议之间，代码量不大但设计精巧，为多智能体场景下的实时信息交换提供了一种轻量级选择。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "8c6014a36ca90e3f",
+      "title": "Obra 发布 Superpowers agentic skills 框架",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "An agentic skills framework & software development methodology that works.",
+      "category": "skill",
+      "publishedAt": "2026-08-07T05:20:58Z",
+      "discoveredAt": "2026-08-04T19:20:30.757Z",
+      "stars": 266350,
+      "repoTopics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "owner": "obra",
+      "originalTitle": "obra/superpowers · An agentic skills framework & software development methodology that works.",
+      "score": 4,
+      "cn": "Obra 在 GitHub 上开源了 Superpowers，一个 agentic skills 框架及配套的软件开发方法论。这个项目旨在用结构化的技能定义来构建更可靠的 agent 工作流，强调开发者可在明确的约束与接口下组合能力，而非依赖黑盒 prompt。Superpowers 不仅是一套技能库，还给出了从需求到部署的完整方法指引，适合正在探索 agent 工程化落地的团队参考。"
+    },
+    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "3cbf229f397a89c6",
@@ -60,7 +115,7 @@
       "url": "https://openai.com/index/our-approach-to-the-model-spec/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-08-07T01:35:02.484Z",
+      "publishedAt": "2026-08-07T05:19:30.913Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Our Approach To The Model Spec",
       "score": 1,
@@ -74,7 +129,7 @@
       "url": "https://github.com/goauthentik/authentik",
       "summary": "The authentication glue you need.",
       "category": "安全",
-      "publishedAt": "2026-08-07T01:34:05Z",
+      "publishedAt": "2026-08-07T05:18:53Z",
       "discoveredAt": "2026-08-06T13:45:26.965Z",
       "stars": 22861,
       "repoTopics": [
@@ -100,6 +155,32 @@
       "originalTitle": "goauthentik/authentik · The authentication glue you need.",
       "score": 3,
       "cn": "authentik 是一个开源的身份认证与授权中间件，旨在为各类应用提供统一的认证入口。它支持 LDAP、OAuth2、SAML 等多种协议，并允许用户通过灵活的配置和策略引擎实现单点登录、多因素认证及权限管理。项目采用 Python 开发，部署简洁，可作为企业级认证基础设施的轻量替代方案。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "7ae06cb99d6d4f9f",
+      "title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
+      "url": "https://github.com/huangruiteng/loopx",
+      "summary": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "category": "Agent",
+      "publishedAt": "2026-08-07T04:15:44Z",
+      "discoveredAt": "2026-08-05T13:46:10.227Z",
+      "stars": 1816,
+      "repoTopics": [
+        "agent-control-plane",
+        "agent-ops",
+        "ai-agents",
+        "codex",
+        "long-running-agents",
+        "loop-engineering",
+        "loopx",
+        "workflow-automation"
+      ],
+      "owner": "huangruiteng",
+      "originalTitle": "huangruiteng/loopx · Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic acros",
+      "score": 4,
+      "cn": "LoopX 是一个轻量级的循环工程状态内核，专为长期运行的 AI Agent 团队设计。它不绑定特定 Agent 循环，兼容 Codex、Claude Code 等编程 Agent，提供持久化目标、配额感知自动唤醒、可执行待办事项、证据日志和可验证交接等核心能力。该项目旨在解决多 Agent 协作中状态管理与任务延续的痛点，为构建可靠的长周期自动化工作流提供基础设施。"
     },
     {
       "source": "github-trending",
@@ -148,32 +229,6 @@
       "originalTitle": "Scientific Computing Agentic Ai",
       "score": 4,
       "cn": "OpenAI 发布了一个面向科学计算领域的 Agent 框架，旨在将大语言模型与数值计算、模拟工具结合，辅助研究人员完成复杂的数据分析和建模任务。该框架支持调用外部科学计算库，并能在多步推理中自主调整计算策略。对于需要频繁进行参数扫描、方程求解或数据拟合的科研场景，这一 Agent 有望降低重复劳动的门槛，让研究者更专注于问题定义与结果解读。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "8c6014a36ca90e3f",
-      "title": "Obra 发布 Superpowers agentic skills 框架",
-      "url": "https://github.com/obra/superpowers",
-      "summary": "An agentic skills framework & software development methodology that works.",
-      "category": "skill",
-      "publishedAt": "2026-08-07T00:29:59Z",
-      "discoveredAt": "2026-08-04T19:20:30.757Z",
-      "stars": 266350,
-      "repoTopics": [
-        "ai",
-        "brainstorming",
-        "coding",
-        "obra",
-        "sdlc",
-        "skills",
-        "subagent-driven-development",
-        "superpowers"
-      ],
-      "owner": "obra",
-      "originalTitle": "obra/superpowers · An agentic skills framework & software development methodology that works.",
-      "score": 4,
-      "cn": "Obra 在 GitHub 上开源了 Superpowers，一个 agentic skills 框架及配套的软件开发方法论。这个项目旨在用结构化的技能定义来构建更可靠的 agent 工作流，强调开发者可在明确的约束与接口下组合能力，而非依赖黑盒 prompt。Superpowers 不仅是一套技能库，还给出了从需求到部署的完整方法指引，适合正在探索 agent 工程化落地的团队参考。"
     },
     {
       "source": "github-trending",
@@ -254,32 +309,6 @@
       "originalTitle": "Alpamayo 2 Super Open Model Now Available",
       "score": 5,
       "cn": "NVIDIA 正式推出 Alpamayo 2 Super 开源模型，作为 Alpamayo 系列的最新成员，它在推理能力、多语言支持和指令遵循方面均有显著提升。该模型采用更高效的架构，在多个基准测试中表现出色，同时保持了开源可定制的特性，为研究社区和企业提供了更强大的基础模型选择。NVIDIA 同时发布了配套的训练工具与部署方案，旨在降低大模型的应用门槛。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "7ae06cb99d6d4f9f",
-      "title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
-      "url": "https://github.com/huangruiteng/loopx",
-      "summary": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
-      "category": "Agent",
-      "publishedAt": "2026-08-06T19:54:33Z",
-      "discoveredAt": "2026-08-05T13:46:10.227Z",
-      "stars": 1816,
-      "repoTopics": [
-        "agent-control-plane",
-        "agent-ops",
-        "ai-agents",
-        "codex",
-        "long-running-agents",
-        "loop-engineering",
-        "loopx",
-        "workflow-automation"
-      ],
-      "owner": "huangruiteng",
-      "originalTitle": "huangruiteng/loopx · Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic acros",
-      "score": 4,
-      "cn": "LoopX 是一个轻量级的循环工程状态内核，专为长期运行的 AI Agent 团队设计。它不绑定特定 Agent 循环，兼容 Codex、Claude Code 等编程 Agent，提供持久化目标、配额感知自动唤醒、可执行待办事项、证据日志和可验证交接等核心能力。该项目旨在解决多 Agent 协作中状态管理与任务延续的痛点，为构建可靠的长周期自动化工作流提供基础设施。"
     },
     {
       "source": "github-trending",
@@ -603,6 +632,38 @@
       "originalTitle": "antirez/ds4 · DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
       "score": 4,
       "cn": "Redis 作者 antirez 新开源项目 ds4，为 DeepSeek 4 Flash 和 PRO 模型提供本地推理引擎。它支持 Metal、CUDA 和 ROCm 三种后端，覆盖 Apple Silicon、NVIDIA 和 AMD 显卡，让用户能在本地高效运行这些模型，无需依赖云端 API。项目代码简洁，适合自部署和二次开发。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "ac49b80df960f905",
+      "title": "deepfakes 开源 Faceswap 换脸软件",
+      "url": "https://github.com/deepfakes/faceswap",
+      "summary": "Deepfakes Software For All",
+      "category": "图像模型",
+      "publishedAt": "2026-08-05T11:39:37Z",
+      "discoveredAt": "2026-08-07T07:02:49.922Z",
+      "stars": 57348,
+      "repoTopics": [
+        "deep-face-swap",
+        "deep-learning",
+        "deep-neural-networks",
+        "deepface",
+        "deepfakes",
+        "deeplearning",
+        "face-swap",
+        "faceswap",
+        "fakeapp",
+        "machine-learning",
+        "myfakeapp",
+        "neural-nets",
+        "neural-networks",
+        "openfaceswap"
+      ],
+      "owner": "deepfakes",
+      "originalTitle": "deepfakes/faceswap · Deepfakes Software For All",
+      "score": 3,
+      "cn": "Faceswap 是 deepfakes 团队维护的开源换脸工具，基于深度学习实现面部识别、训练与替换。项目提供完整的数据预处理、模型训练和视频合成流程，支持多种后端加速，用户可通过命令行或图形界面操作。该软件广泛用于视觉研究、数字合成和娱乐场景，同时也因深度伪造议题引发伦理讨论。项目在 GitHub 上持续更新，社区文档与模型库相对完善，适合有技术基础的研究者或开发者进一步探索。"
     },
     {
       "source": "openai",
@@ -1891,6 +1952,20 @@
       "cn": "NVIDIA 推出 Cosmos-H-Dreams，将实时生成式仿真引入手术机器人领域。该系统基于世界模型技术，能够动态生成手术场景，帮助机器人在虚拟环境中进行训练和验证，减少对真实手术数据的依赖。该模型支持高保真视觉与物理交互，有望提升手术机器人的安全性和操作精度。"
     },
     {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "f143efbfe201f040",
+      "title": "OpenAI 发布研究揭示 AI 如何扩展工作者的任务范围",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "category": "其他",
+      "publishedAt": "2026-07-27T03:30:00.000Z",
+      "discoveredAt": "2026-08-07T07:00:44.722Z",
+      "originalTitle": "How AI is expanding what people do at work",
+      "score": 4,
+      "cn": "OpenAI 发布最新研究，探讨人工智能如何改变工作方式。研究发现，使用 ChatGPT 的用户正在跨越传统岗位边界，承担更多样化的任务。这一趋势表明，AI 工具不仅提升效率，还在重新定义职业角色和工作内容。研究为理解 AI 对劳动力市场的影响提供了新视角。"
+    },
+    {
       "source": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
       "id": "8ff67d77127ccd24",
@@ -3025,6 +3100,20 @@
       "cn": "Google DeepMind 公布了其参加 ICLR 2024 国际学术会议的情况。作为人工智能领域的重要学术交流活动，团队在会上展示了多篇研究成果和论文，涵盖深度学习的多个前沿方向，属于常规的学术会议参与动态。"
     },
     {
+      "source": "deepmind",
+      "sourceName": "DeepMind",
+      "id": "15eb5b1c419aea07",
+      "title": "Google 承诺 4000 万美元支持 Genesis 科学发现任务",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "category": "其他",
+      "publishedAt": "2026-07-22T13:38:54.000Z",
+      "discoveredAt": "2026-08-07T07:00:44.722Z",
+      "originalTitle": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "score": 4,
+      "cn": "Google 宣布向 Genesis Mission 提供价值 4000 万美元的 AI 代金券与信用额度，以加速前沿科学探索。这笔资金将用于资助研究者利用 AI 模型处理蛋白质结构预测、材料设计、天体物理模拟等课题。DeepMind 通过此举将大模型能力间接注入基础科研领域，为开放科学合作提供计算资源支撑。"
+    },
+    {
       "source": "google-ai",
       "sourceName": "Google AI",
       "id": "23fca7e728256313",
@@ -3234,6 +3323,20 @@
       "originalTitle": "Claude Sonnet 4 6",
       "score": 5,
       "cn": "Anthropic 正式发布 Claude Sonnet 4.6，这是其最新一代语言模型，在推理、编码和长上下文理解上取得显著提升。该模型延续 Sonnet 系列的平衡路线，兼顾速度与能力，适用于复杂 agent 任务和企业级应用。官方公告提供了详细的性能基准与能力对比。"
+    },
+    {
+      "source": "anthropic-news",
+      "sourceName": "Anthropic News",
+      "id": "d37ce11fa5e902fc",
+      "title": "Anthropic 推出 Claude for Teachers",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-07-21T23:43:25.000Z",
+      "discoveredAt": "2026-07-14T19:03:24.758Z",
+      "originalTitle": "Introducing Claude for Teachers",
+      "score": 4,
+      "cn": "Anthropic 发布面向教师群体的 Claude for Teachers 服务，利用其语言模型能力辅助备课、出题和批改作业。该版本在对话交互上针对教育场景做了调优，支持教师快速生成教学素材、设计课堂活动，并能在合规框架下控制输出内容。Claude for Teachers 延续了 Anthropic 对安全性的重视，加入了针对未成年人与教育数据保护的额外限制。这一产品扩展意味着大模型正在进入更细分的专业工作流。"
     },
     {
       "source": "nvidia",
@@ -4270,20 +4373,6 @@
       "originalTitle": "Accelerating Biological Research In The Wet Lab",
       "score": 4,
       "cn": "OpenAI 将 AI 模型引入湿实验室场景，辅助科研人员加速实验设计、数据分析和假设验证。这项应用旨在缩短从实验构思到结果产出的周期，提升生物研究效率。OpenAI 并未发布新模型，而是展示了大模型在真实实验室环境中的落地潜力，为生命科学领域提供新的工具思路。"
-    },
-    {
-      "source": "anthropic-news",
-      "sourceName": "Anthropic News",
-      "id": "d37ce11fa5e902fc",
-      "title": "Anthropic 推出 Claude for Teachers",
-      "url": "https://www.anthropic.com/news/claude-for-teachers",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-07-14T00:00:00.000Z",
-      "discoveredAt": "2026-07-14T19:03:24.758Z",
-      "originalTitle": "Introducing Claude for Teachers",
-      "score": 4,
-      "cn": "Anthropic 发布面向教师群体的 Claude for Teachers 服务，利用其语言模型能力辅助备课、出题和批改作业。该版本在对话交互上针对教育场景做了调优，支持教师快速生成教学素材、设计课堂活动，并能在合规框架下控制输出内容。Claude for Teachers 延续了 Anthropic 对安全性的重视，加入了针对未成年人与教育数据保护的额外限制。这一产品扩展意味着大模型正在进入更细分的专业工作流。"
     },
     {
       "source": "anthropic-research",
@@ -29642,6 +29731,34 @@
       "cn": "Meta AI 在 3D 内容理解领域取得新进展，相关成果有望提升机器对三维世界的感知与交互能力。该研究聚焦于从多视角图像或视频中重建并理解三维场景，可能涉及物体识别、空间关系推断等任务。这一突破或将推动 AR/VR、机器人导航等应用的发展，为后续研究提供更强大的基础模型。"
     },
     {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "d8e158250d77821f",
+      "title": "Meta AI 获 Test Of Time Award 奖项",
+      "url": "https://ai.meta.com/blog/test-of-time-award/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-07T07:00:44.722Z",
+      "originalTitle": "Test Of Time Award",
+      "score": 5,
+      "cn": "Meta AI 因其长期贡献获得 Test Of Time Award 奖项，表彰其在人工智能研究领域的持续影响力。该奖项肯定了 Meta AI 多年来的创新成果和学术价值，反映出业界对其在模型架构、训练方法及开源生态上所做工作的认可。这一荣誉凸显了基础研究在推动 AI 发展中的重要作用。"
+    },
+    {
+      "source": "xai",
+      "sourceName": "xAI",
+      "id": "493bf5935edae08d",
+      "title": "xAI 完成 Series C 融资",
+      "url": "https://x.ai/news/series-c",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-07T07:00:44.722Z",
+      "originalTitle": "Series C",
+      "score": 5,
+      "cn": "xAI 宣布完成 Series C 轮融资，具体金额未披露。该公司由埃隆·马斯克创立，专注于开发先进的人工智能模型，此次融资将用于加速其大模型技术的研发与部署。"
+    },
+    {
       "source": "claude-com",
       "sourceName": "claude.com",
       "id": "74bb6d8328496e68",
@@ -34411,6 +34528,20 @@
       "cn": "Meta AI 将人工智能能力融入社交、广告、硬件等全线产品。用户将在更多场景中体验 AI 驱动的推荐与交互，这是 Meta 在 AI 落地层面的一次重要推进。"
     },
     {
+      "source": "xai",
+      "sourceName": "xAI",
+      "id": "6605bff5a0150a28",
+      "title": "xAI 完成 Series E 融资",
+      "url": "https://x.ai/news/series-e",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-07T07:00:44.722Z",
+      "originalTitle": "Series E",
+      "score": 4,
+      "cn": "xAI 宣布完成 Series E 轮融资，具体金额未披露。本轮融资将用于加速 Grok 系列模型的训练与部署，以及扩大算力基础设施。xAI 自成立以来已快速迭代 Grok 模型，此次融资表明投资者对其技术路线和商业前景的持续看好。"
+    },
+    {
       "source": "claude-com",
       "sourceName": "claude.com",
       "id": "bc898c4e9b7c67e7",
@@ -38394,6 +38525,48 @@
       "originalTitle": "Yann Lecun Advances In Ai Research",
       "score": 3,
       "cn": "Meta AI 发布了一篇由首席 AI 科学家 Yann LeCun 撰写的博客，围绕其近期在人工智能研究上的思考进行阐述。文章回顾了 LeCun 在深度学习、表征学习等方向的一贯主张，并展望了下一代 AI 系统可能需要的架构突破。内容属于研究者个人视角的阶段性总结，未附带具体模型或代码发布，对关注 LeCun 学术观点的人有一定参考价值。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "18aa71336420c2e8",
+      "title": "Meta AI 推出 Llama 初创企业计划首批入选名单",
+      "url": "https://ai.meta.com/blog/llama-startup-program-first-cohort/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-07T07:00:44.722Z",
+      "originalTitle": "Llama Startup Program First Cohort",
+      "score": 3,
+      "cn": "Meta AI 公布了 Llama 初创企业计划的第一批入选者，该计划旨在为早期创业公司提供 Llama 模型的使用支持、技术资源和算力扶持。首批入选团队覆盖了医疗、教育、金融等多个行业，正在利用 Llama 构建垂直领域的应用。这一生态举措有助于加速 Llama 模型在真实商业场景中的落地，同时为 Meta 提供了更多来自产业侧的需求反馈。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "0ca6b4202f09d162",
+      "title": "Meta AI 发布 Llama 3 黑客马拉松回顾",
+      "url": "https://ai.meta.com/blog/llama-3-hackathon-recap-cerebral-valley/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-07T07:00:44.722Z",
+      "originalTitle": "Llama 3 Hackathon Recap Cerebral Valley",
+      "score": 3,
+      "cn": "Meta AI 近日发布 Llama 3 黑客马拉松回顾，总结开发者如何利用该模型构建创意工具与生产力应用。活动展示了社区在开源模型上快速迭代的活力，项目多围绕文本生成、代码辅助与本地化功能展开，体现了 Llama 3 在灵活部署方面的优势。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "3b5437446426593a",
+      "title": "Meta AI 在 CSCW 会议发表多篇研究论文",
+      "url": "https://ai.meta.com/blog/facebook-research-at-cscw/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-07T07:00:44.722Z",
+      "originalTitle": "Facebook Research At Cscw",
+      "score": 3,
+      "cn": "Meta AI 在 CSCW 2025 会议上展示了多项研究成果，涵盖人机协作、社交计算与 AI 系统设计等方向。这些工作来自 Facebook Research 团队，涉及如何让 AI 更好地理解人类社交行为、支持群体决策以及提升在线协作效率。论文内容体现了 Meta 在将 AI 应用于真实社交场景中的持续探索。"
     }
   ]
 }

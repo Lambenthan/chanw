@@ -1,23 +1,44 @@
 [
 	{
-		"title": "block 开源 Buzz 蜂群思维通信平台",
-		"url": "https://github.com/block/buzz",
+		"title": "Significant-Gravitas 为 AutoGPT 更新核心能力",
+		"url": "https://github.com/Significant-Gravitas/AutoGPT",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T02:11:05Z",
+		"date": "2026-08-07T06:57:31Z",
 		"group": "gh"
 	},
 	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T01:53:11Z",
+		"date": "2026-08-07T06:53:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "block 开源 Buzz 蜂群思维通信平台",
+		"url": "https://github.com/block/buzz",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T05:40:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 发布 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T05:20:58Z",
 		"group": "gh"
 	},
 	{
 		"title": "goauthentik 开源 authentik 身份认证平台",
 		"url": "https://github.com/goauthentik/authentik",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T01:34:05Z",
+		"date": "2026-08-07T05:18:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T04:15:44Z",
 		"group": "gh"
 	},
 	{
@@ -25,13 +46,6 @@
 		"url": "https://github.com/google/guava",
 		"source": "GitHub Trending",
 		"date": "2026-08-07T01:04:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "Obra 发布 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T00:29:59Z",
 		"group": "gh"
 	},
 	{
@@ -54,13 +68,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-06T20:54:09.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T19:54:33Z",
-		"group": "gh"
 	},
 	{
 		"title": "Matt Pocock 开源个人 .agents 目录中的工程师技能集",
@@ -172,6 +179,13 @@
 		"url": "https://github.com/antirez/ds4",
 		"source": "GitHub Trending",
 		"date": "2026-08-05T14:37:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "deepfakes 开源 Faceswap 换脸软件",
+		"url": "https://github.com/deepfakes/faceswap",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T11:39:37Z",
 		"group": "gh"
 	},
 	{
@@ -553,6 +567,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Google 承诺 4000 万美元支持 Genesis 科学发现任务",
+		"url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+		"source": "DeepMind",
+		"date": "2026-07-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Google 在 Galaxy Unpacked 2026 发布三项更新",
 		"url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
 		"source": "Google AI",
@@ -571,6 +592,13 @@
 		"url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
 		"source": "Anthropic News",
 		"date": "2026-07-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出 Claude for Teachers",
+		"url": "https://www.anthropic.com/news/claude-for-teachers",
+		"source": "Anthropic News",
+		"date": "2026-07-21T23:43:25.000Z",
 		"group": "labs"
 	},
 	{
@@ -858,13 +886,6 @@
 		"url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
 		"source": "DeepMind",
 		"date": "2026-07-14T07:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Claude for Teachers",
-		"url": "https://www.anthropic.com/news/claude-for-teachers",
-		"source": "Anthropic News",
-		"date": "2026-07-14T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
