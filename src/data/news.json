@@ -1,16 +1,37 @@
 [
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T23:48:05Z",
-		"group": "gh"
-	},
-	{
 		"title": "block 开源 Buzz 蜂群思维通信平台",
 		"url": "https://github.com/block/buzz",
 		"source": "GitHub Trending",
-		"date": "2026-08-06T23:46:51Z",
+		"date": "2026-08-07T02:11:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T01:53:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T01:34:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 更新 Guava Java 核心库",
+		"url": "https://github.com/google/guava",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T01:04:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 发布 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T00:29:59Z",
 		"group": "gh"
 	},
 	{
@@ -21,24 +42,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Obra 发布 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T23:21:21Z",
-		"group": "gh"
-	},
-	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-06T22:45:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T21:06:21Z",
 		"group": "gh"
 	},
 	{
@@ -77,13 +84,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Google 更新 Guava Java 核心库",
-		"url": "https://github.com/google/guava",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T17:19:57Z",
-		"group": "gh"
-	},
-	{
 		"title": "Cloudflare 开源 computer 项目，为 agent 提供虚拟计算机",
 		"url": "https://github.com/cloudflare/computer",
 		"source": "GitHub Trending",
@@ -95,6 +95,13 @@
 		"url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
 		"source": "DeepMind",
 		"date": "2026-08-06T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 Open World Models 物理 AI",
+		"url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+		"source": "NVIDIA",
+		"date": "2026-08-06T13:00:00.000Z",
 		"group": "labs"
 	},
 	{
