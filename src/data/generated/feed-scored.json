@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T13:51:26.020Z",
+  "fetchedAt": "2026-08-06T23:57:35.958Z",
   "items": [
     {
       "source": "github-trending",
@@ -9,7 +9,7 @@
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "summary": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "category": "编程工具",
-      "publishedAt": "2026-08-06T13:44:53Z",
+      "publishedAt": "2026-08-06T23:48:05Z",
       "discoveredAt": "2026-08-04T19:20:37.119Z",
       "stars": 30704,
       "repoTopics": [
@@ -36,6 +36,91 @@
       "cn": "DeepSeek-Reasonix 是一个面向终端的 AI 编程 agent，专为 DeepSeek 模型设计。项目围绕前缀缓存稳定性进行工程优化，允许长时间运行而无需频繁重建上下文，从而降低推理成本并提升响应速度。对于依赖 DeepSeek 进行日常编码的开发者，这个工具提供了更高效的交互方式。"
     },
     {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "5912247006ebb2f5",
+      "title": "block 开源 Buzz 蜂群思维通信平台",
+      "url": "https://github.com/block/buzz",
+      "summary": "A hive mind communication platform",
+      "category": "Agent",
+      "publishedAt": "2026-08-06T23:46:51Z",
+      "discoveredAt": "2026-08-04T19:20:38.754Z",
+      "stars": 22414,
+      "repoTopics": [],
+      "owner": "block",
+      "originalTitle": "block/buzz · A hive mind communication platform",
+      "score": 3,
+      "cn": "block 公司近日在 GitHub 上开源了 Buzz，一个自称“蜂群思维”的通信平台。该项目使用 Rust 编写，旨在为多个智能体或节点提供低延迟、高并发的消息传递能力，适合构建去中心化的协作系统。Buzz 的定位介于消息队列与 agent 通信协议之间，代码量不大但设计精巧，为多智能体场景下的实时信息交换提供了一种轻量级选择。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "4fcf7dd2b25b7a7c",
+      "title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "summary": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "category": "其他",
+      "publishedAt": "2026-08-06T23:24:20Z",
+      "discoveredAt": "2026-08-04T19:20:29.657Z",
+      "stars": 9764,
+      "repoTopics": [
+        "markdown",
+        "nodejs",
+        "ocr-routing",
+        "pdf",
+        "pdf-classification",
+        "pdf-extraction",
+        "pdf-parser",
+        "python",
+        "rust",
+        "text-extraction"
+      ],
+      "owner": "firecrawl",
+      "originalTitle": "firecrawl/pdf-inspector · Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects sca",
+      "score": 3,
+      "cn": "firecrawl 发布了 PDF Inspector，一个用 Rust 编写的 PDF 处理库。它能自动区分扫描版 PDF 和文本版 PDF，从而为后续的 OCR 或直接提取做出智能路由。库本身轻量且速度快，适合需要批量处理 PDF 文档、做文档分类或内容抽取的场景。对于依赖 PDF 数据流的 RAG 管道或文档管理系统来说，这个库提供了一个简洁的底层工具。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "8c6014a36ca90e3f",
+      "title": "Obra 发布 Superpowers agentic skills 框架",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "An agentic skills framework & software development methodology that works.",
+      "category": "skill",
+      "publishedAt": "2026-08-06T23:21:21Z",
+      "discoveredAt": "2026-08-04T19:20:30.757Z",
+      "stars": 266350,
+      "repoTopics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "owner": "obra",
+      "originalTitle": "obra/superpowers · An agentic skills framework & software development methodology that works.",
+      "score": 4,
+      "cn": "Obra 在 GitHub 上开源了 Superpowers，一个 agentic skills 框架及配套的软件开发方法论。这个项目旨在用结构化的技能定义来构建更可靠的 agent 工作流，强调开发者可在明确的约束与接口下组合能力，而非依赖黑盒 prompt。Superpowers 不仅是一套技能库，还给出了从需求到部署的完整方法指引，适合正在探索 agent 工程化落地的团队参考。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "ff4ecb27326bf416",
+      "title": "OpenAI 公布数学领域十项新进展",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-08-06T22:57:17.324Z",
+      "discoveredAt": "2026-08-04T19:18:29.629Z",
+      "originalTitle": "Ten Advances In Mathematics",
+      "score": 4,
+      "cn": "OpenAI 发布了一份关于数学领域十项重要进展的回顾，涵盖多项式恒等式、组合学与数论等多个分支的 AI 辅助发现或经典难题的新解法。报告展示了语言模型在符号推理与模式挖掘上的能力，其中部分结果已被数学家验证并收录为正式定理。这组工作并非单一模型发布，而是 OpenAI 对 AI for Math 研究方向的阶段性总结，为后续自动化数学研究提供了可复用的思路与实验基准。"
+    },
+    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "3cbf229f397a89c6",
@@ -43,11 +128,49 @@
       "url": "https://openai.com/index/our-approach-to-the-model-spec/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-08-06T13:40:03.108Z",
+      "publishedAt": "2026-08-06T22:56:18.009Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Our Approach To The Model Spec",
       "score": 1,
       "cn": "OpenAI 公开了其制定模型规范的方法论，阐述如何通过规则与原则引导模型行为。这份文档面向开发者与研究者，解释模型在安全、合规与价值观对齐方面的设计思路上的对齐方式。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "dae9f02535f7c22f",
+      "title": "addyosmani 开源 agent-skills 生产级工程技能库",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "Production-grade engineering skills for AI coding agents.",
+      "category": "skill",
+      "publishedAt": "2026-08-06T22:45:51Z",
+      "discoveredAt": "2026-08-05T13:46:13.359Z",
+      "stars": 81803,
+      "repoTopics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "owner": "addyosmani",
+      "originalTitle": "addyosmani/agent-skills · Production-grade engineering skills for AI coding agents.",
+      "score": 4,
+      "cn": "addyosmani 开源了 agent-skills，一套为 AI 编程 agent 准备的生产级工程技能集合。该项目涵盖代码审查、重构、测试和部署等真实场景，帮助开发者更高效地利用 agent 完成复杂任务。"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA",
+      "id": "39a35004934cb427",
+      "title": "NVIDIA 将 GPT-5.5 接入企业 Agent 工作流",
+      "url": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-08-06T21:27:54.000Z",
+      "discoveredAt": "2026-05-18T03:43:58.954Z",
+      "originalTitle": "Openai Codex Gpt 5 5 Ai Agents",
+      "score": 4,
+      "cn": "NVIDIA 宣布在 Codex 中集成 OpenAI 的 GPT-5.5 模型，用于企业级 AI Agent 工作流。该结合提升代码生成与自动化任务能力，使企业能借助最新模型构建更灵活的 agent 应用。NVIDIA 同时提供基础设施优化，保障 GPT-5.5 在推理和部署中的运行效率。"
     },
     {
       "source": "github-trending",
@@ -57,7 +180,7 @@
       "url": "https://github.com/goauthentik/authentik",
       "summary": "The authentication glue you need.",
       "category": "安全",
-      "publishedAt": "2026-08-06T13:35:46Z",
+      "publishedAt": "2026-08-06T21:06:21Z",
       "discoveredAt": "2026-08-06T13:45:26.965Z",
       "stars": 22861,
       "repoTopics": [
@@ -85,21 +208,44 @@
       "cn": "authentik 是一个开源的身份认证与授权中间件，旨在为各类应用提供统一的认证入口。它支持 LDAP、OAuth2、SAML 等多种协议，并允许用户通过灵活的配置和策略引擎实现单点登录、多因素认证及权限管理。项目采用 Python 开发，部署简洁，可作为企业级认证基础设施的轻量替代方案。"
     },
     {
+      "source": "nvidia",
+      "sourceName": "NVIDIA",
+      "id": "bac8cf8c63f210cc",
+      "title": "NVIDIA 发布 Alpamayo 2 Super 开源模型",
+      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-08-06T20:54:09.000Z",
+      "discoveredAt": "2026-08-04T19:18:29.629Z",
+      "originalTitle": "Alpamayo 2 Super Open Model Now Available",
+      "score": 5,
+      "cn": "NVIDIA 正式推出 Alpamayo 2 Super 开源模型，作为 Alpamayo 系列的最新成员，它在推理能力、多语言支持和指令遵循方面均有显著提升。该模型采用更高效的架构，在多个基准测试中表现出色，同时保持了开源可定制的特性，为研究社区和企业提供了更强大的基础模型选择。NVIDIA 同时发布了配套的训练工具与部署方案，旨在降低大模型的应用门槛。"
+    },
+    {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
-      "id": "5912247006ebb2f5",
-      "title": "block 开源 Buzz 蜂群思维通信平台",
-      "url": "https://github.com/block/buzz",
-      "summary": "A hive mind communication platform",
+      "id": "7ae06cb99d6d4f9f",
+      "title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
+      "url": "https://github.com/huangruiteng/loopx",
+      "summary": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
       "category": "Agent",
-      "publishedAt": "2026-08-06T13:31:54Z",
-      "discoveredAt": "2026-08-04T19:20:38.754Z",
-      "stars": 22414,
-      "repoTopics": [],
-      "owner": "block",
-      "originalTitle": "block/buzz · A hive mind communication platform",
-      "score": 3,
-      "cn": "block 公司近日在 GitHub 上开源了 Buzz，一个自称“蜂群思维”的通信平台。该项目使用 Rust 编写，旨在为多个智能体或节点提供低延迟、高并发的消息传递能力，适合构建去中心化的协作系统。Buzz 的定位介于消息队列与 agent 通信协议之间，代码量不大但设计精巧，为多智能体场景下的实时信息交换提供了一种轻量级选择。"
+      "publishedAt": "2026-08-06T19:54:33Z",
+      "discoveredAt": "2026-08-05T13:46:10.227Z",
+      "stars": 1816,
+      "repoTopics": [
+        "agent-control-plane",
+        "agent-ops",
+        "ai-agents",
+        "codex",
+        "long-running-agents",
+        "loop-engineering",
+        "loopx",
+        "workflow-automation"
+      ],
+      "owner": "huangruiteng",
+      "originalTitle": "huangruiteng/loopx · Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic acros",
+      "score": 4,
+      "cn": "LoopX 是一个轻量级的循环工程状态内核，专为长期运行的 AI Agent 团队设计。它不绑定特定 Agent 循环，兼容 Codex、Claude Code 等编程 Agent，提供持久化目标、配额感知自动唤醒、可执行待办事项、证据日志和可验证交接等核心能力。该项目旨在解决多 Agent 协作中状态管理与任务延续的痛点，为构建可靠的长周期自动化工作流提供基础设施。"
     },
     {
       "source": "github-trending",
@@ -109,7 +255,7 @@
       "url": "https://github.com/mattpocock/skills",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
       "category": "skill",
-      "publishedAt": "2026-08-06T13:15:03Z",
+      "publishedAt": "2026-08-06T19:49:51Z",
       "discoveredAt": "2026-08-06T13:45:26.428Z",
       "stars": 206149,
       "repoTopics": [],
@@ -126,7 +272,7 @@
       "url": "https://github.com/different-ai/openwork",
       "summary": "The open-source alternative to Claude Cowork (powered by opencode)",
       "category": "编程工具",
-      "publishedAt": "2026-08-06T12:56:18Z",
+      "publishedAt": "2026-08-06T19:13:48Z",
       "discoveredAt": "2026-08-05T01:45:50.709Z",
       "stars": 20929,
       "repoTopics": [],
@@ -143,7 +289,7 @@
       "url": "https://github.com/ayghri/i-have-adhd",
       "summary": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
       "category": "skill",
-      "publishedAt": "2026-08-06T12:48:27Z",
+      "publishedAt": "2026-08-06T18:19:11Z",
       "discoveredAt": "2026-07-29T08:21:57.263Z",
       "stars": 13077,
       "repoTopics": [
@@ -158,6 +304,57 @@
       "originalTitle": "ayghri/i-have-adhd · A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
       "score": 3,
       "cn": "ayghri 发布了一个名为 i-have-adhd 的 skill，专为编码 agent 设计，旨在防止 agent 在输出中埋没关键答案。该 skill 通过优化输出格式，让回答更直接、更易读，适合需要快速获取核心信息的开发者。项目以开源形式发布，可集成到现有 agent 工作流中。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "0d012134d38ad609",
+      "title": "Google 更新 Guava Java 核心库",
+      "url": "https://github.com/google/guava",
+      "summary": "Google core libraries for Java",
+      "category": "其他",
+      "publishedAt": "2026-08-06T17:19:57Z",
+      "discoveredAt": "2026-08-06T23:52:24.192Z",
+      "stars": 51624,
+      "repoTopics": [
+        "guava",
+        "java"
+      ],
+      "owner": "google",
+      "originalTitle": "google/guava · Google core libraries for Java",
+      "score": 3,
+      "cn": "Google 的 Guava 是 Java 开发中常用的核心库，提供了集合、缓存、并发、字符串处理等实用工具。此次更新在 GitHub 上获得关注，继续为 Java 生态提供稳定的基础组件。对于使用 Java 的开发者而言，Guava 的持续维护和更新保证了代码的可靠性和效率。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "36da1b921f121c1d",
+      "title": "Cloudflare 开源 computer 项目，为 agent 提供虚拟计算机",
+      "url": "https://github.com/cloudflare/computer",
+      "summary": "Give your agent a computer 👾",
+      "category": "Agent",
+      "publishedAt": "2026-08-06T16:13:02Z",
+      "discoveredAt": "2026-08-05T13:46:09.630Z",
+      "stars": 1754,
+      "repoTopics": [],
+      "owner": "cloudflare",
+      "originalTitle": "cloudflare/computer · Give your agent a computer 👾",
+      "score": 4,
+      "cn": "Cloudflare 开源了名为 computer 的项目，旨在为 AI agent 提供一个可操作的虚拟计算机环境。该工具允许 agent 通过 API 控制浏览器、处理文件、执行命令，从而在隔离的沙箱中完成复杂任务。对于需要让 agent 自主操作桌面应用的开发者而言，这是一个实用的基础设施组件。"
+    },
+    {
+      "source": "deepmind",
+      "sourceName": "DeepMind",
+      "id": "7fa201e30c7e3776",
+      "title": "DeepMind 发布 WeatherNext 气象模型，实现气旋预测突破",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-08-06T15:06:15.000Z",
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "score": 5,
+      "cn": "DeepMind 推出 WeatherNext 模型，专门用于气旋（热带气旋）的短期和中期预报。该模型在路径和强度预测上明显优于传统数值方法，能将预警窗口提前数小时，对防灾减灾有直接帮助。这是 AI 在极端天气预测领域的一个重要里程碑，也为后续更精细的区域气象模型提供了技术路线参考。"
     },
     {
       "source": "github-trending",
@@ -185,32 +382,6 @@
       "originalTitle": "TencentCloud/TencentDB-Agent-Memory · TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and c",
       "score": 4,
       "cn": "腾讯云开源 TencentDB Agent Memory，一个面向 AI Agent 的团队级记忆中心。它将对话、文档和代码转化为四种可复用的记忆资产：聊天记忆、技能、LLM 知识库和代码图谱，支持跨 Agent 和框架的治理、共享与调用。该项目旨在解决多 Agent 协作中的记忆碎片化问题，为团队提供统一的记忆管理基础设施。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "7ae06cb99d6d4f9f",
-      "title": "LoopX 开源面向长期 AI Agent 团队的轻量级循环工程状态内核",
-      "url": "https://github.com/huangruiteng/loopx",
-      "summary": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
-      "category": "Agent",
-      "publishedAt": "2026-08-06T10:16:12Z",
-      "discoveredAt": "2026-08-05T13:46:10.227Z",
-      "stars": 1816,
-      "repoTopics": [
-        "agent-control-plane",
-        "agent-ops",
-        "ai-agents",
-        "codex",
-        "long-running-agents",
-        "loop-engineering",
-        "loopx",
-        "workflow-automation"
-      ],
-      "owner": "huangruiteng",
-      "originalTitle": "huangruiteng/loopx · Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic acros",
-      "score": 4,
-      "cn": "LoopX 是一个轻量级的循环工程状态内核，专为长期运行的 AI Agent 团队设计。它不绑定特定 Agent 循环，兼容 Codex、Claude Code 等编程 Agent，提供持久化目标、配额感知自动唤醒、可执行待办事项、证据日志和可验证交接等核心能力。该项目旨在解决多 Agent 协作中状态管理与任务延续的痛点，为构建可靠的长周期自动化工作流提供基础设施。"
     },
     {
       "source": "github-trending",
@@ -261,58 +432,18 @@
       "cn": "reverse-skill 是一个面向逆向工程、渗透测试与安全研究的技能路由包，可接入 Claude Code、Kiro、Cursor、Cline 等 AI 编程客户端。该工具包含 AI 自动路由、按需工具链自举和自动进化经验库三项能力，供安全研究人员在 AI 辅助下完成分析任务。"
     },
     {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "8c6014a36ca90e3f",
-      "title": "Obra 发布 Superpowers agentic skills 框架",
-      "url": "https://github.com/obra/superpowers",
-      "summary": "An agentic skills framework & software development methodology that works.",
-      "category": "skill",
-      "publishedAt": "2026-08-06T06:17:22Z",
-      "discoveredAt": "2026-08-04T19:20:30.757Z",
-      "stars": 266350,
-      "repoTopics": [
-        "ai",
-        "brainstorming",
-        "coding",
-        "obra",
-        "sdlc",
-        "skills",
-        "subagent-driven-development",
-        "superpowers"
-      ],
-      "owner": "obra",
-      "originalTitle": "obra/superpowers · An agentic skills framework & software development methodology that works.",
-      "score": 4,
-      "cn": "Obra 在 GitHub 上开源了 Superpowers，一个 agentic skills 框架及配套的软件开发方法论。这个项目旨在用结构化的技能定义来构建更可靠的 agent 工作流，强调开发者可在明确的约束与接口下组合能力，而非依赖黑盒 prompt。Superpowers 不仅是一套技能库，还给出了从需求到部署的完整方法指引，适合正在探索 agent 工程化落地的团队参考。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "4fcf7dd2b25b7a7c",
-      "title": "firecrawl 开源 PDF Inspector 库，用于 PDF 检查、分类与文本提取",
-      "url": "https://github.com/firecrawl/pdf-inspector",
-      "summary": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "source": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "id": "72ea094fa822e0b0",
+      "title": "Baseten 加入 Hugging Face 推理提供商平台",
+      "url": "https://huggingface.co/blog/baseten",
+      "summary": "",
       "category": "其他",
-      "publishedAt": "2026-08-05T23:43:11Z",
-      "discoveredAt": "2026-08-04T19:20:29.657Z",
-      "stars": 9764,
-      "repoTopics": [
-        "markdown",
-        "nodejs",
-        "ocr-routing",
-        "pdf",
-        "pdf-classification",
-        "pdf-extraction",
-        "pdf-parser",
-        "python",
-        "rust",
-        "text-extraction"
-      ],
-      "owner": "firecrawl",
-      "originalTitle": "firecrawl/pdf-inspector · Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects sca",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Baseten on Hugging Face Inference Providers 🔥",
       "score": 3,
-      "cn": "firecrawl 发布了 PDF Inspector，一个用 Rust 编写的 PDF 处理库。它能自动区分扫描版 PDF 和文本版 PDF，从而为后续的 OCR 或直接提取做出智能路由。库本身轻量且速度快，适合需要批量处理 PDF 文档、做文档分类或内容抽取的场景。对于依赖 PDF 数据流的 RAG 管道或文档管理系统来说，这个库提供了一个简洁的底层工具。"
+      "cn": "Baseten 宣布成为 Hugging Face Inference Providers 的一员，用户可直接在 Hugging Face 生态中调用 Baseten 的推理服务，无需额外配置。这一合作降低了开发者部署和运行模型的门槛，Baseten 的 GPU 集群与 Hugging Face 的模型库无缝衔接，适合需要低延迟、高吞吐量的生产场景。"
     },
     {
       "source": "github-trending",
@@ -370,6 +501,20 @@
       "cn": "embabel 开源了一个面向 JVM 的 agent 框架 embabel-agent，名称读作 Em-BAY-bel。该项目为 Java 虚拟机生态带来了构建智能 agent 的能力，让开发者能在熟悉的 JVM 环境下开发 agent 应用，填补了该领域在 Java 生态中的空白。"
     },
     {
+      "source": "nvidia",
+      "sourceName": "NVIDIA",
+      "id": "caaa8a69287edbc2",
+      "title": "NVIDIA 发布 AI 存储 FMS",
+      "url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-08-05T21:15:27.000Z",
+      "discoveredAt": "2026-08-04T19:18:29.629Z",
+      "originalTitle": "Ai Storage Fms",
+      "score": 4,
+      "cn": "NVIDIA 发布 AI 存储 FMS，面向大规模 AI 训练与推理场景优化数据管理流程。该方案旨在解决深度学习工作负载中存储吞吐与文件组织效率的瓶颈，通过更智能的调度和元数据管理，减少数据预处理时间，并提升多节点训练时的数据读取稳定性。对于部署大型模型的企业而言，这一更新意味着存储层不再是算力扩展的短板，后续实际效果值得关注。"
+    },
+    {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
       "id": "16a73b8e53c5832a",
@@ -387,30 +532,6 @@
       "cn": "book-to-skill 是一个开源工具，能将技术书籍的 PDF 文件转换为 Claude Code 可直接调用的 skill 格式。转换后的技能单元便于在编码时查询、引用和学习，省去手动整理笔记的环节，让书中知识直接融入开发工作流。"
     },
     {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "dae9f02535f7c22f",
-      "title": "addyosmani 开源 agent-skills 生产级工程技能库",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "summary": "Production-grade engineering skills for AI coding agents.",
-      "category": "skill",
-      "publishedAt": "2026-08-05T19:09:28Z",
-      "discoveredAt": "2026-08-05T13:46:13.359Z",
-      "stars": 81803,
-      "repoTopics": [
-        "agent-skills",
-        "antigravity",
-        "claude-code",
-        "codex",
-        "cursor",
-        "skills"
-      ],
-      "owner": "addyosmani",
-      "originalTitle": "addyosmani/agent-skills · Production-grade engineering skills for AI coding agents.",
-      "score": 4,
-      "cn": "addyosmani 开源了 agent-skills，一套为 AI 编程 agent 准备的生产级工程技能集合。该项目涵盖代码审查、重构、测试和部署等真实场景，帮助开发者更高效地利用 agent 完成复杂任务。"
-    },
-    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "9cca7914de44d729",
@@ -425,20 +546,6 @@
       "cn": "OpenAI 发布了一个面向科学计算领域的 Agent 框架，旨在将大语言模型与数值计算、模拟工具结合，辅助研究人员完成复杂的数据分析和建模任务。该框架支持调用外部科学计算库，并能在多步推理中自主调整计算策略。对于需要频繁进行参数扫描、方程求解或数据拟合的科研场景，这一 Agent 有望降低重复劳动的门槛，让研究者更专注于问题定义与结果解读。"
     },
     {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "ff4ecb27326bf416",
-      "title": "OpenAI 公布数学领域十项新进展",
-      "url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-08-05T17:42:15.586Z",
-      "discoveredAt": "2026-08-04T19:18:29.629Z",
-      "originalTitle": "Ten Advances In Mathematics",
-      "score": 4,
-      "cn": "OpenAI 发布了一份关于数学领域十项重要进展的回顾，涵盖多项式恒等式、组合学与数论等多个分支的 AI 辅助发现或经典难题的新解法。报告展示了语言模型在符号推理与模式挖掘上的能力，其中部分结果已被数学家验证并收录为正式定理。这组工作并非单一模型发布，而是 OpenAI 对 AI for Math 研究方向的阶段性总结，为后续自动化数学研究提供了可复用的思路与实验基准。"
-    },
-    {
       "source": "nvidia",
       "sourceName": "NVIDIA",
       "id": "338eb622f724237e",
@@ -451,23 +558,6 @@
       "originalTitle": "Open Secure Ai Alliance",
       "score": 3,
       "cn": "NVIDIA 联合多家企业发起 Open Secure AI Alliance，旨在推动人工智能系统的安全标准和最佳实践。该联盟将聚焦于模型安全、数据隐私与基础设施防护，通过开放协作减少 AI 部署中的风险。初期成员涵盖芯片厂商、云服务商与安全公司，共同制定可互操作的 AI 安全框架。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "36da1b921f121c1d",
-      "title": "Cloudflare 开源 computer 项目，为 agent 提供虚拟计算机",
-      "url": "https://github.com/cloudflare/computer",
-      "summary": "Give your agent a computer 👾",
-      "category": "Agent",
-      "publishedAt": "2026-08-05T15:40:06Z",
-      "discoveredAt": "2026-08-05T13:46:09.630Z",
-      "stars": 1754,
-      "repoTopics": [],
-      "owner": "cloudflare",
-      "originalTitle": "cloudflare/computer · Give your agent a computer 👾",
-      "score": 4,
-      "cn": "Cloudflare 开源了名为 computer 的项目，旨在为 AI agent 提供一个可操作的虚拟计算机环境。该工具允许 agent 通过 API 控制浏览器、处理文件、执行命令，从而在隔离的沙箱中完成复杂任务。对于需要让 agent 自主操作桌面应用的开发者而言，这是一个实用的基础设施组件。"
     },
     {
       "source": "github-trending",
@@ -503,20 +593,6 @@
     {
       "source": "nvidia",
       "sourceName": "NVIDIA",
-      "id": "caaa8a69287edbc2",
-      "title": "NVIDIA 发布 AI 存储 FMS",
-      "url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-08-04T19:32:04.000Z",
-      "discoveredAt": "2026-08-04T19:18:29.629Z",
-      "originalTitle": "Ai Storage Fms",
-      "score": 4,
-      "cn": "NVIDIA 发布 AI 存储 FMS，面向大规模 AI 训练与推理场景优化数据管理流程。该方案旨在解决深度学习工作负载中存储吞吐与文件组织效率的瓶颈，通过更智能的调度和元数据管理，减少数据预处理时间，并提升多节点训练时的数据读取稳定性。对于部署大型模型的企业而言，这一更新意味着存储层不再是算力扩展的短板，后续实际效果值得关注。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
       "id": "e45661ea00116c4d",
       "title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
       "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
@@ -541,20 +617,6 @@
       "originalTitle": "Third-party cyber evaluations involving OpenAI models",
       "score": 3,
       "cn": "OpenAI 就近期第三方网络安全评估事件发布说明，并推出新的防护机制以强化 AI 模型测试与评估流程。这些措施旨在提升外部安全审计的透明度和可靠性，确保模型在部署前经过充分的安全验证。对于关注 AI 安全与对齐的开发者而言，这一更新提供了更清晰的评估框架和协作规范。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "bac8cf8c63f210cc",
-      "title": "NVIDIA 发布 Alpamayo 2 Super 开源模型",
-      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-08-04T15:00:49.000Z",
-      "discoveredAt": "2026-08-04T19:18:29.629Z",
-      "originalTitle": "Alpamayo 2 Super Open Model Now Available",
-      "score": 5,
-      "cn": "NVIDIA 正式推出 Alpamayo 2 Super 开源模型，作为 Alpamayo 系列的最新成员，它在推理能力、多语言支持和指令遵循方面均有显著提升。该模型采用更高效的架构，在多个基准测试中表现出色，同时保持了开源可定制的特性，为研究社区和企业提供了更强大的基础模型选择。NVIDIA 同时发布了配套的训练工具与部署方案，旨在降低大模型的应用门槛。"
     },
     {
       "source": "openai",
@@ -1435,6 +1497,20 @@
       "originalTitle": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
       "score": 3,
       "cn": "OpenAI 分享了一项实验发现：通过启用保留推理和压缩两项 API 设置，GPT-5.6 在 ARC-AGI-3 基准测试中的得分提升了三倍。该结果显示了推理链保留与输出压缩对复杂视觉推理任务的显著影响，为模型在抽象图形理解上的能力优化提供了新思路。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "14fd05ad34f9923e",
+      "title": "OpenAI 为学术研究者提供 ChatGPT 免费访问",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "category": "其他",
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "score": 4,
+      "cn": "OpenAI 宣布向 10 万名学术研究者免费开放 ChatGPT 最先进模型的使用权限。该计划旨在降低 AI 工具在科研领域的门槛，推动科学发现与跨学科协作。研究者可通过 ChatGPT 加速文献分析、实验设计、数据解读等环节，提升研究效率。此举是 OpenAI 在学术合作领域的重要投入，有望加速 AI 在科学发现中的实际应用。"
     },
     {
       "source": "openai",
@@ -2937,6 +3013,20 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
+      "id": "130e23c4bd2f87cb",
+      "title": "OpenAI 介绍新闻机构利用 AI 提升报道与运营",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "category": "其他",
+      "publishedAt": "2026-07-22T13:00:00.000Z",
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "How news organizations are using AI to advance their vital missions",
+      "score": 3,
+      "cn": "OpenAI 发布了一篇案例汇编，展示全球新闻机构如何将 AI 融入日常工作。报道中提及的工具用于辅助事实核查、内容生成和受众分析，帮助记者在有限人力下扩大报道覆盖。同时，AI 也被用于优化订阅推荐和广告投放，提升商业效率。OpenAI 强调其产品在支持出版商的同时，也注重内容授权和版权规范。文章未透露具体技术细节，更多是呈现落地场景与协作模式。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
       "id": "c54f46e53d48e304",
       "title": "OpenAI 发布企业 AI Agent 平台 Presence",
       "url": "https://openai.com/index/introducing-openai-presence",
@@ -3482,20 +3572,6 @@
       "cn": "Google 推出 Gemini 3.5 Flash Cyber，一款轻量级网络安全模型，专注于自动发现和修补漏洞。该模型基于 Gemini 3.5 Flash 架构，针对安全场景优化，旨在提升漏洞检测与修复效率。作为专门的安全模型，它可能集成到 Google 的安全工具中，帮助企业和开发者更快应对威胁。"
     },
     {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "3ebda52fc80ebe33",
-      "title": "OpenAI 推出 AI 投资回报评估工具 Scorecard",
-      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "category": "其他",
-      "publishedAt": "2026-07-17T10:00:00.000Z",
-      "discoveredAt": "2026-08-05T19:15:54.619Z",
-      "originalTitle": "A scorecard for the AI age",
-      "score": 3,
-      "cn": "OpenAI 首席财务官 Sarah Friar 发布了一款名为 Scorecard 的实用工具，旨在帮助企业衡量 AI 投资的实际回报。该工具从四个维度进行评估：有用工作量、单次成功任务成本、可靠性以及计算资源回报率。Scorecard 为企业提供了一套标准化框架，用于量化 AI 部署的商业价值，从而更理性地规划 AI 预算和项目优先级。"
-    },
-    {
       "source": "nvidia",
       "sourceName": "NVIDIA",
       "id": "c439dcc2c463feb4",
@@ -3774,20 +3850,6 @@
       "originalTitle": "Connect more of your apps to Search",
       "score": 3,
       "cn": "Google 在搜索的 AI 模式中新增了应用连接功能。用户现在可以安全地将常用服务与搜索关联，并直接在 AI 模式下与这些应用进行交互。这一更新使得搜索不仅限于网页结果，还能调用外部服务的能力，例如在搜索框内直接完成预订、查询等操作，提升了搜索作为信息与行动入口的实用性。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "8fe39edff791751d",
-      "title": "OpenAI 为青少年加强 ChatGPT 安全保护",
-      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-      "category": "安全",
-      "publishedAt": "2026-07-16T16:00:00.000Z",
-      "discoveredAt": "2026-08-05T13:44:16.966Z",
-      "originalTitle": "Why teens deserve access to safe AI",
-      "score": 3,
-      "cn": "OpenAI 宣布为青少年用户推出更安全的 ChatGPT 体验，包括年龄适配的保护措施、学习工具和家长控制功能。该公司与专家合作设计这些保护，旨在平衡安全性与青少年对 AI 的正当需求。此举延续了 OpenAI 在安全对齐上的持续投入，也回应了业界对未成年人使用生成式 AI 的关切。"
     },
     {
       "source": "openai",
@@ -5555,6 +5617,20 @@
     {
       "source": "deepmind",
       "sourceName": "DeepMind",
+      "id": "ec8cac2807cd8c53",
+      "title": "DeepMind 用 Co-Scientist 加速肝脏疾病机制发现",
+      "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
+      "summary": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.",
+      "category": "其他",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "discoveredAt": "2026-05-19T19:53:36.518Z",
+      "originalTitle": "Accelerating discovery of liver disease mechanisms",
+      "score": 4,
+      "cn": "DeepMind 与科学家合作，将 Co-Scientist 应用于肝脏疾病研究。Filippo Menolascina 利用该工具识别新的治疗机制，并解释为何现有药物只对部分患者有效。这展现了 AI 在生物医学发现中的实际价值。"
+    },
+    {
+      "source": "deepmind",
+      "sourceName": "DeepMind",
       "id": "cb64c502c5dc5fab",
       "title": "DeepMind 发布体育分析 AI 研究成果",
       "url": "https://deepmind.google/blog/advancing-sports-analytics-through-ai-research/",
@@ -7063,6 +7139,20 @@
       "originalTitle": "PRX Part 4: Our Data Strategy",
       "score": 3,
       "cn": "Photoroom 公布了其图像模型 PRX 系列的第四部分——数据策略。该方案旨在通过精细化数据管理提升模型在图像编辑与生成任务上的表现，包括数据筛选、清洗与增强等环节。这一策略为 PRX 后续能力的迭代提供了基础支撑。"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA",
+      "id": "678333367e3eca5a",
+      "title": "NVIDIA 分享多国 AI 战略部署优先级",
+      "url": "https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-07-06T15:00:25.000Z",
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Nations Deploy Ai Strategic Priorities",
+      "score": 3,
+      "cn": "NVIDIA 发布博客文章，探讨各国在推进 AI 战略时的优先级设定。文章梳理了多个国家在基础设施、人才培养、产业应用等方向的部署重点，为政策制定者和行业从业者提供了参考框架。这既是 NVIDIA 对全球 AI 治理趋势的一次观察，也反映了其作为基础设施提供方在生态中的角色定位。"
     },
     {
       "source": "deepmind",
@@ -9975,20 +10065,6 @@
       "originalTitle": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
       "score": 3,
       "cn": "Hugging Face 团队分享了他们如何借助 AI 和开源工具，将 huggingface_hub 的发布周期压缩到每周一次。核心思路是让 AI 负责自动生成发布说明、检查变更日志、筛选 PR，而人工则负责最终审核与关键决策。这种"
-    },
-    {
-      "source": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "id": "dba1e8f05869c4fb",
-      "title": "Transformers.js 实验性支持 Cross-Origin Storage API",
-      "url": "https://huggingface.co/blog/cross-origin-storage",
-      "summary": "",
-      "category": "编程工具",
-      "publishedAt": "2026-06-23T00:00:00.000Z",
-      "discoveredAt": "2026-07-16T18:56:51.753Z",
-      "originalTitle": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-      "score": 3,
-      "cn": "Hugging Face 在 Transformers.js 中实验性地加入了 Cross-Origin Storage API。该 API 允许跨源存储模型权重与数据，使得浏览器端推理时能复用已下载的资源，避免重复加载。跨源安全边界是设计中的主要约束，该 API 仍在提案阶段，需关注浏览器的支持与限制。"
     },
     {
       "source": "nvidia",
@@ -13939,20 +14015,6 @@
       "cn": "DeepMind 与 Calico Life Sciences 合作，将 Co-Scientist 系统应用于衰老研究领域。该系统能够连接分散的研究发现，生成新的研究线索，帮助科学家在复杂的衰老机制中找到突破方向。这一合作展示了 AI 在生物医学基础研究中的潜力。"
     },
     {
-      "source": "deepmind",
-      "sourceName": "DeepMind",
-      "id": "ec8cac2807cd8c53",
-      "title": "DeepMind 用 Co-Scientist 加速肝脏疾病机制发现",
-      "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
-      "summary": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.",
-      "category": "其他",
-      "publishedAt": "2026-05-16T08:00:15.000Z",
-      "discoveredAt": "2026-05-19T19:53:36.518Z",
-      "originalTitle": "Accelerating discovery of liver disease mechanisms",
-      "score": 4,
-      "cn": "DeepMind 与科学家合作，将 Co-Scientist 应用于肝脏疾病研究。Filippo Menolascina 利用该工具识别新的治疗机制，并解释为何现有药物只对部分患者有效。这展现了 AI 在生物医学发现中的实际价值。"
-    },
-    {
       "source": "google-ai",
       "sourceName": "Google AI",
       "id": "002d50d67b58ccc8",
@@ -14259,20 +14321,6 @@
       "originalTitle": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
       "score": 2,
       "cn": "Anthropic 与日本 NEC 公司宣布合作，计划共同培养日本规模最大的 AI 工程人才队伍。双方将结合 Anthropic 的大模型技术与 NEC 的行业经验，推动企业级 AI 应用在日本市场的落地。这一合作主要聚焦于人才培训和生态建设，而非直接发布新产品或模型。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "39a35004934cb427",
-      "title": "NVIDIA 将 GPT-5.5 接入企业 Agent 工作流",
-      "url": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-04-23T20:45:24.000Z",
-      "discoveredAt": "2026-05-18T03:43:58.954Z",
-      "originalTitle": "Openai Codex Gpt 5 5 Ai Agents",
-      "score": 4,
-      "cn": "NVIDIA 宣布在 Codex 中集成 OpenAI 的 GPT-5.5 模型，用于企业级 AI Agent 工作流。该结合提升代码生成与自动化任务能力，使企业能借助最新模型构建更灵活的 agent 应用。NVIDIA 同时提供基础设施优化，保障 GPT-5.5 在推理和部署中的运行效率。"
     },
     {
       "source": "openai",
@@ -22199,6 +22247,23 @@
       "cn": "NVIDIA 与 Google Cloud 宣布深化合作，共同推动企业级 AI 在工业数字化场景中的落地。双方将整合 NVIDIA 的加速计算平台与 Google Cloud 的 AI 基础设施，为制造业、能源等行业提供从模型训练到边缘部署的端到端方案。这一合作旨在降低企业采用 AI 的门槛，加速工业领域的智能化转型。"
     },
     {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "526169bdd5ce5cb8",
+      "title": "TapXWorld 开源 ChinaTextbook 小初高及大学 PDF 教材合集",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "summary": "所有小初高、大学PDF教材。",
+      "category": "其他",
+      "publishedAt": "2025-10-18T13:39:24Z",
+      "discoveredAt": "2026-08-06T23:52:24.735Z",
+      "stars": 77045,
+      "repoTopics": [],
+      "owner": "TapXWorld",
+      "originalTitle": "TapXWorld/ChinaTextbook · 所有小初高、大学PDF教材。",
+      "score": 3,
+      "cn": "TapXWorld 在 GitHub 上开源了 ChinaTextbook 项目，汇集了从小学、初中、高中到大学的 PDF 教材资源。该项目以目录形式整理了各学科教材，方便学生和教师查阅。作为教育资源的开源集合，它降低了获取教材的门槛，对自学和教学都有实用价值。不过项目本身不涉及模型或算法，属于资料整理类仓库，适合需要教材电子版的用户收藏。"
+    },
+    {
       "source": "anthropic-news",
       "sourceName": "Anthropic News",
       "id": "2c70a8cefc3c2821",
@@ -23821,6 +23886,20 @@
       "originalTitle": "Utah Ai Education",
       "score": 3,
       "cn": "NVIDIA 宣布在犹他州启动 AI 教育计划，将深度学习学院的内容引入当地学校，为学生和教育工作者提供 AI 课程与实训资源，以提升区域内 AI 人才的培养能力。"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA",
+      "id": "0475e88fbb76065d",
+      "title": "NVIDIA 发布 AI 社会影响 2024 报告",
+      "url": "https://blogs.nvidia.com/blog/ai-social-impact-2024/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2025-07-31T21:29:35.000Z",
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Ai Social Impact 2024",
+      "score": 4,
+      "cn": "NVIDIA 发布 AI 社会影响 2024 报告，概述了公司在人工智能领域推动社会进步的各项举措。报告涵盖了 AI 在医疗、气候、教育等领域的应用案例，展示了 NVIDIA 如何利用其技术平台支持研究人员和开发者解决全球性挑战。"
     },
     {
       "source": "nvidia",
@@ -27517,34 +27596,6 @@
       "originalTitle": "Ai Us Manufacturing",
       "score": 3,
       "cn": "NVIDIA 发布一篇关于 AI 技术如何助力美国制造业转型升级的文章，探讨大模型、数字孪生和智能机器人等技术在工厂自动化、质检和供应链优化方面的应用前景。该文属于行业趋势分析与倡议性质的内容，并未发布具体产品或开源项目，但对于了解 NVIDIA 在工业 AI 领域的布局有一定参考价值。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "e9129dfedc1f3ff7",
-      "title": "NVIDIA 推出 AI on 5G 系统",
-      "url": "https://blogs.nvidia.com/blog/mwc-ai-on-5g-system/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-12-12T17:38:48.000Z",
-      "discoveredAt": "2026-05-18T15:35:01.462Z",
-      "originalTitle": "Mwc Ai On 5g System",
-      "score": 3,
-      "cn": "NVIDIA 在 MWC 上发布 AI on 5G 系统，将 AI 推理能力直接集成到 5G 网络基础设施中。该系统利用 GPU 加速处理实时数据，为边缘场景提供低延迟的智能服务，可应用于工业自动化、智能交通和远程医疗等领域。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "aa5248d81e868551",
-      "title": "NVIDIA 展示 AI 数字孪生工业自动化演示",
-      "url": "https://blogs.nvidia.com/blog/ai-digital-twins-industrial-automation-demo/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-12-12T17:15:34.000Z",
-      "discoveredAt": "2026-05-17T19:12:01.330Z",
-      "originalTitle": "Ai Digital Twins Industrial Automation Demo",
-      "score": 3,
-      "cn": "NVIDIA 发布了一则 AI 数字孪生技术在工业自动化领域的演示。该演示展示如何利用数字孪生模拟工厂生产线，通过实时数据同步与 AI 模型优化生产流程。这套方案可降低物理试验成本，提升产线调试效率，适用于制造、物流等场景。NVIDIA 的 Omniverse 平台为数字孪生提供底层支持，结合 AI 推理能力，使虚拟环境中的自动化决策更贴近现实。"
     },
     {
       "source": "anthropic-news",
@@ -34306,6 +34357,34 @@
     {
       "source": "claude-com",
       "sourceName": "claude.com",
+      "id": "e1795e8997d99892",
+      "title": "Anthropic 发布 Claude Enterprise Inference Hooks",
+      "url": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Claude Enterprise Inference Hooks",
+      "score": 4,
+      "cn": "Anthropic 为 Claude 企业版推出 Inference Hooks 功能，允许开发者在模型推理过程中注入自定义逻辑，实现更精细的请求控制、数据过滤和结果后处理。该特性面向企业级部署场景，可结合现有安全策略与合规要求，在不牺牲模型能力的前提下增强可观测性与治理能力。Inference Hooks 通过 API 调用即可启用，无需额外基础设施，降低了企业将 Claude 集成到生产环境的门槛。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "9a7b62d30f94a7e3",
+      "title": "Meta AI 发布全产品线 AI 集成更新",
+      "url": "https://ai.meta.com/blog/building-with-ai-across-all-of-meta/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Building With Ai Across All Of Meta",
+      "score": 4,
+      "cn": "Meta AI 将人工智能能力融入社交、广告、硬件等全线产品。用户将在更多场景中体验 AI 驱动的推荐与交互，这是 Meta 在 AI 落地层面的一次重要推进。"
+    },
+    {
+      "source": "claude-com",
+      "sourceName": "claude.com",
       "id": "bc898c4e9b7c67e7",
       "title": "Claude 发布金融服务业 AI Agent 构建指南",
       "url": "https://claude.com/blog/building-ai-agents-in-financial-services",
@@ -38189,6 +38268,62 @@
       "originalTitle": "Assessing Fairness Of Our Products While Protecting Peoples Privacy",
       "score": 3,
       "cn": "Meta AI 发布博客，介绍其在产品公平性评估中如何保护用户隐私。文章讨论了差分隐私等技术的应用，在评估模型或产品对各类用户群体是否公平时，避免收集和使用个人敏感信息。方法在统计层面衡量公平性指标，同时降低隐私风险。该方案适用于检测算法偏见、评估推荐系统等问题，为企业在合规前提下开展公平性审计提供参考。"
+    },
+    {
+      "source": "claude-com",
+      "sourceName": "claude.com",
+      "id": "18fb3985cb585883",
+      "title": "Millennium 与 Anthropic 合作构建数字风险分析师",
+      "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
+      "summary": "",
+      "category": "Agent",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Millennium And Anthropic Are Building A Digital Risk Analyst With Claude",
+      "score": 3,
+      "cn": "Millennium 与 Anthropic 合作，基于 Claude 开发数字风险分析师 agent。该 agent 能自动化处理安全事件响应、威胁情报分析等任务，提升企业风险管理的效率与准确性。合作展示了大型语言模型在专业安全领域的应用潜力。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "9965da9feb03a610",
+      "title": "Meta 的 Llama 模型帮助澳新银行提升效率",
+      "url": "https://ai.meta.com/blog/llama-helps-efficiency-anz-bank/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Llama Helps Efficiency Anz Bank",
+      "score": 3,
+      "cn": "Meta 宣布其 Llama 大语言模型已被澳大利亚澳新银行（ANZ）采用，用于提升内部运营效率。该银行通过 Llama 优化客户服务流程和数据处理，展示了开源模型在企业级应用中的潜力。这一合作案例表明，大型语言模型在金融行业的实际落地正在加速。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "e3f91514cafa33ee",
+      "title": "Meta AI 更新 AI 购物体验功能",
+      "url": "https://ai.meta.com/blog/advancing-ai-to-make-shopping-easier-for-everyone/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Advancing Ai To Make Shopping Easier For Everyone",
+      "score": 3,
+      "cn": "Meta AI 发布博客，介绍其在购物场景中的 AI 应用进展。通过计算机视觉和自然语言处理，用户能更便捷地搜索商品、获得个性化推荐，并尝试虚拟试穿。这些功能正在逐步上线，旨在降低购物决策成本。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "fd7e42169870aa3f",
+      "title": "Meta AI 在 NeurIPS 2020 展示多项研究成果",
+      "url": "https://ai.meta.com/blog/facebook-research-at-neurips-2020/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-06T23:50:11.291Z",
+      "originalTitle": "Facebook Research At Neurips 2020",
+      "score": 3,
+      "cn": "Meta AI（原 Facebook AI）在 NeurIPS 2020 会议上展示了多项研究成果，涵盖强化学习、计算机视觉、自然语言处理等领域。这些工作体现了 Meta 在基础研究方面的持续投入，包括新的算法、开源工具和数据集。对于关注 AI 前沿进展的研究者和工程师来说，这是一个了解 Meta 研究方向和成果的窗口。"
     }
   ]
 }
