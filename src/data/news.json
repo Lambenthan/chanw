@@ -1,37 +1,86 @@
 [
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T18:42:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "block 开源 Buzz 蜂群思维通信平台",
-		"url": "https://github.com/block/buzz",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T18:42:05Z",
-		"group": "gh"
-	},
-	{
 		"title": "jdx/mise 开源 dev tools、env vars 和 task runner 工具",
 		"url": "https://github.com/jdx/mise",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T18:40:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T18:39:44Z",
+		"date": "2026-08-08T00:54:58Z",
 		"group": "gh"
 	},
 	{
 		"title": "Significant-Gravitas 为 AutoGPT 更新核心能力",
 		"url": "https://github.com/Significant-Gravitas/AutoGPT",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T18:35:23Z",
+		"date": "2026-08-08T00:43:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T00:40:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 发布 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T00:37:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T00:27:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "block 开源 Buzz 蜂群思维通信平台",
+		"url": "https://github.com/block/buzz",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T00:22:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
+		"url": "https://github.com/embabel/embabel-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T00:20:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T00:15:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T22:50:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发起 Open Secure AI Alliance",
+		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+		"source": "NVIDIA",
+		"date": "2026-08-07T22:42:33.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google 更新 Guava Java 核心库",
+		"url": "https://github.com/google/guava",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T21:42:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "swarm-forge 发布 AI agent 协调工具",
+		"url": "https://github.com/unclebob/swarm-forge",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T20:22:31Z",
 		"group": "gh"
 	},
 	{
@@ -56,27 +105,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Obra 发布 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T17:51:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T17:30:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
-		"url": "https://github.com/google/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T17:21:16Z",
-		"group": "gh"
-	},
-	{
 		"title": "Kaneo 开源项目管理系统",
 		"url": "https://github.com/usekaneo/kaneo",
 		"source": "GitHub Trending",
@@ -88,6 +116,13 @@
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-07T15:50:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Tailwind CSS 发布实用优先的 CSS 框架",
+		"url": "https://github.com/tailwindlabs/tailwindcss",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T15:44:35Z",
 		"group": "gh"
 	},
 	{
@@ -105,10 +140,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
-		"url": "https://github.com/embabel/embabel-agent",
+		"title": "semantica 开源图原生基础设施，面向上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T13:06:11Z",
+		"date": "2026-08-07T11:19:25Z",
 		"group": "gh"
 	},
 	{
@@ -116,13 +151,6 @@
 		"url": "https://github.com/chenyme/grok2api",
 		"source": "GitHub Trending",
 		"date": "2026-08-07T09:42:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 更新 Guava Java 核心库",
-		"url": "https://github.com/google/guava",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T01:04:40Z",
 		"group": "gh"
 	},
 	{
@@ -137,13 +165,6 @@
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-06T22:45:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "swarm-forge 发布 AI agent 协调工具",
-		"url": "https://github.com/unclebob/swarm-forge",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T21:54:27Z",
 		"group": "gh"
 	},
 	{
@@ -207,13 +228,6 @@
 		"url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
 		"source": "NVIDIA",
 		"date": "2026-08-05T21:15:27.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发起 Open Secure AI Alliance",
-		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-		"source": "NVIDIA",
-		"date": "2026-08-05T16:07:54.000Z",
 		"group": "labs"
 	},
 	{
@@ -535,6 +549,13 @@
 		"title": "Hugging Face 发布前沿实验室 agent 入侵事件技术时间线",
 		"url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
 		"source": "Hugging Face Blog",
+		"date": "2026-07-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Cognizant 与 Anthropic 扩大合作向企业客户交付 Claude",
+		"url": "https://www.anthropic.com/news/cognizant-anthropic",
+		"source": "Anthropic News",
 		"date": "2026-07-27T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2597,6 +2618,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布链式思维可监控性评估",
+		"url": "https://openai.com/index/evaluating-chain-of-thought-monitorability/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 开放 Proof 子任务提交",
 		"url": "https://openai.com/index/first-proof-submissions/",
 		"source": "OpenAI",
@@ -2662,13 +2690,6 @@
 	{
 		"title": "OpenAI 发布 Frontierscience 前沿科学项目",
 		"url": "https://openai.com/index/frontierscience/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布链式思维可监控性评估",
-		"url": "https://openai.com/index/evaluating-chain-of-thought-monitorability/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2877,6 +2898,27 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5.4",
+		"url": "https://openai.com/index/introducing-gpt-5-4/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Codex 正式版",
+		"url": "https://openai.com/index/codex-now-generally-available/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT Realtime",
+		"url": "https://openai.com/index/introducing-gpt-realtime/",
+		"source": "OpenAI",
+		"date": "2026-05-14T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT-5.5",
 		"url": "https://openai.com/index/introducing-gpt-5-5/",
 		"source": "OpenAI",
@@ -2891,13 +2933,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT Realtime",
-		"url": "https://openai.com/index/introducing-gpt-realtime/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 Codex 升级",
 		"url": "https://openai.com/index/introducing-upgrades-to-codex/",
 		"source": "OpenAI",
@@ -2907,13 +2942,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5 5 Instant",
 		"url": "https://openai.com/index/gpt-5-5-instant/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.4",
-		"url": "https://openai.com/index/introducing-gpt-5-4/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
@@ -2963,13 +2991,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5.1 Codex Max",
 		"url": "https://openai.com/index/gpt-5-1-codex-max/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Codex 正式版",
-		"url": "https://openai.com/index/codex-now-generally-available/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
