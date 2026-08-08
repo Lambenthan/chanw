@@ -1,44 +1,58 @@
 [
 	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T12:15:06Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T12:04:36Z",
+		"date": "2026-08-08T18:13:31Z",
 		"group": "gh"
 	},
 	{
-		"title": "Kaneo 开源项目管理系统",
-		"url": "https://github.com/usekaneo/kaneo",
+		"title": "swarm-forge 发布 AI agent 协调工具",
+		"url": "https://github.com/unclebob/swarm-forge",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T11:52:23Z",
+		"date": "2026-08-08T18:02:22Z",
 		"group": "gh"
 	},
 	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T10:38:00Z",
+		"date": "2026-08-08T17:50:09Z",
 		"group": "gh"
 	},
 	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T09:55:27Z",
+		"date": "2026-08-08T17:10:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T15:51:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T15:44:19Z",
 		"group": "gh"
 	},
 	{
 		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
 		"url": "https://github.com/embabel/embabel-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T09:41:30Z",
+		"date": "2026-08-08T15:39:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kaneo 开源项目管理系统",
+		"url": "https://github.com/usekaneo/kaneo",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T15:29:36Z",
 		"group": "gh"
 	},
 	{
@@ -60,13 +74,6 @@
 		"url": "https://github.com/lyogavin/airllm",
 		"source": "GitHub Trending",
 		"date": "2026-08-08T06:54:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T06:12:25Z",
 		"group": "gh"
 	},
 	{
@@ -102,13 +109,6 @@
 		"url": "https://github.com/google/guava",
 		"source": "GitHub Trending",
 		"date": "2026-08-07T21:42:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "swarm-forge 发布 AI agent 协调工具",
-		"url": "https://github.com/unclebob/swarm-forge",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T20:22:31Z",
 		"group": "gh"
 	},
 	{
@@ -511,6 +511,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布对开放权重模型的立场声明",
+		"url": "https://www.anthropic.com/news/position-open-weights-models",
+		"source": "Anthropic News",
+		"date": "2026-07-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Claude Opus 5",
 		"url": "https://www.anthropic.com/news/claude-opus-5",
 		"source": "Anthropic News",
@@ -893,6 +900,13 @@
 		"url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
 		"source": "Hugging Face Blog",
 		"date": "2026-07-15T17:27:01.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 启动加拿大 AI 研究计划",
+		"url": "https://www.anthropic.com/news/canadian-ai-research",
+		"source": "Anthropic News",
+		"date": "2026-07-15T09:21:26.000Z",
 		"group": "labs"
 	},
 	{
