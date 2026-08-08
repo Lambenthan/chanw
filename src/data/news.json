@@ -1,58 +1,86 @@
 [
 	{
-		"title": "jdx/mise 开源 dev tools、env vars 和 task runner 工具",
-		"url": "https://github.com/jdx/mise",
+		"title": "semantica 开源图原生基础设施，面向上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T00:54:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "Significant-Gravitas 为 AutoGPT 更新核心能力",
-		"url": "https://github.com/Significant-Gravitas/AutoGPT",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T00:43:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T00:40:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "Obra 发布 Superpowers agentic skills 框架",
-		"url": "https://github.com/obra/superpowers",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T00:37:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T00:27:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "block 开源 Buzz 蜂群思维通信平台",
-		"url": "https://github.com/block/buzz",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T00:22:17Z",
+		"date": "2026-08-08T06:27:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
 		"url": "https://github.com/embabel/embabel-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T00:20:19Z",
+		"date": "2026-08-08T06:19:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T06:15:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "block 开源 Buzz 蜂群思维通信平台",
+		"url": "https://github.com/block/buzz",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T06:10:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Openwork 开源发布，替代 Claude Cowork",
+		"url": "https://github.com/different-ai/openwork",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T05:27:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T04:54:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "Significant-Gravitas 为 AutoGPT 更新核心能力",
+		"url": "https://github.com/Significant-Gravitas/AutoGPT",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T03:51:58Z",
 		"group": "gh"
 	},
 	{
 		"title": "goauthentik 开源 authentik 身份认证平台",
 		"url": "https://github.com/goauthentik/authentik",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T00:15:35Z",
+		"date": "2026-08-08T03:38:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "witr 开源进程溯源 CLI/TUI 工具",
+		"url": "https://github.com/pranshuparmar/witr",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T03:33:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kaneo 开源项目管理系统",
+		"url": "https://github.com/usekaneo/kaneo",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T03:19:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "jdx/mise 开源 dev tools、env vars 和 task runner 工具",
+		"url": "https://github.com/jdx/mise",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T02:52:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Obra 发布 Superpowers agentic skills 框架",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T01:45:49Z",
 		"group": "gh"
 	},
 	{
@@ -98,20 +126,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Openwork 开源发布，替代 Claude Cowork",
-		"url": "https://github.com/different-ai/openwork",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T17:52:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kaneo 开源项目管理系统",
-		"url": "https://github.com/usekaneo/kaneo",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T17:15:01Z",
-		"group": "gh"
-	},
-	{
 		"title": "Matt Pocock 开源个人 .agents 目录中的工程师技能集",
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
@@ -137,13 +151,6 @@
 		"url": "https://github.com/virgiliojr94/book-to-skill",
 		"source": "GitHub Trending",
 		"date": "2026-08-07T15:34:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，面向上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T11:19:25Z",
 		"group": "gh"
 	},
 	{
@@ -406,13 +413,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "witr 开源进程溯源 CLI/TUI 工具",
-		"url": "https://github.com/pranshuparmar/witr",
-		"source": "GitHub Trending",
-		"date": "2026-07-31T06:49:53Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 Nemotron 开源模型系列",
 		"url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
 		"source": "NVIDIA",
@@ -570,6 +570,13 @@
 		"title": "Anthropic 发布 Project Pilot 研究：AI 控制无人机",
 		"url": "https://www.anthropic.com/research/project-pilot",
 		"source": "Anthropic Research",
+		"date": "2026-07-24T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 集成至 Google Workspace",
+		"url": "https://x.ai/news/introducing-google-workspace-addon",
+		"source": "xAI",
 		"date": "2026-07-24T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2618,6 +2625,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布稀疏电路理解神经网络研究",
+		"url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布链式思维可监控性评估",
 		"url": "https://openai.com/index/evaluating-chain-of-thought-monitorability/",
 		"source": "OpenAI",
@@ -2711,13 +2725,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5 加速科学研究",
 		"url": "https://openai.com/index/accelerating-science-gpt-5/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布稀疏电路理解神经网络研究",
-		"url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
