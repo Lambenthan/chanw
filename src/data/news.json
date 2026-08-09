@@ -3,35 +3,63 @@
 		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
 		"url": "https://github.com/pingdotgg/t3code",
 		"source": "GitHub Trending",
-		"date": "2026-08-09T12:28:13Z",
+		"date": "2026-08-09T18:26:48Z",
 		"group": "gh"
 	},
 	{
-		"title": "livekit 开源实时语音 AI Agent 框架 agents",
-		"url": "https://github.com/livekit/agents",
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
 		"source": "GitHub Trending",
-		"date": "2026-08-09T12:24:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T12:22:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T12:11:13Z",
+		"date": "2026-08-09T18:24:48Z",
 		"group": "gh"
 	},
 	{
 		"title": "Kaneo 开源项目管理系统",
 		"url": "https://github.com/usekaneo/kaneo",
 		"source": "GitHub Trending",
-		"date": "2026-08-09T11:39:46Z",
+		"date": "2026-08-09T18:12:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T18:08:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T18:06:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T18:03:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "swarm-forge 发布 AI agent 协调工具",
+		"url": "https://github.com/unclebob/swarm-forge",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T18:01:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "livekit 开源实时语音 AI Agent 框架 agents",
+		"url": "https://github.com/livekit/agents",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T18:00:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
+		"url": "https://github.com/drawdb-io/drawdb",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T15:02:51Z",
 		"group": "gh"
 	},
 	{
@@ -49,24 +77,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T07:10:33Z",
-		"group": "gh"
-	},
-	{
 		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
 		"url": "https://github.com/lyogavin/airllm",
 		"source": "GitHub Trending",
 		"date": "2026-08-09T06:59:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T06:54:58Z",
 		"group": "gh"
 	},
 	{
@@ -88,20 +102,6 @@
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-08T21:05:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
-		"url": "https://github.com/drawdb-io/drawdb",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T19:11:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "swarm-forge 发布 AI agent 协调工具",
-		"url": "https://github.com/unclebob/swarm-forge",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T18:02:22Z",
 		"group": "gh"
 	},
 	{
@@ -3042,13 +3042,6 @@
 		"url": "https://www.anthropic.com/news/claude-for-small-business",
 		"source": "Anthropic News",
 		"date": "2026-05-12T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 模型推翻离散几何猜想",
-		"url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-		"source": "OpenAI",
-		"date": "2026-05-11T16:00:00.000Z",
 		"group": "labs"
 	}
 ]
