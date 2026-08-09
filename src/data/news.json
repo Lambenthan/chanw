@@ -1,16 +1,72 @@
 [
 	{
-		"title": "Kaneo 开源项目管理系统",
-		"url": "https://github.com/usekaneo/kaneo",
+		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
+		"url": "https://github.com/pingdotgg/t3code",
 		"source": "GitHub Trending",
-		"date": "2026-08-09T06:41:06Z",
+		"date": "2026-08-09T12:28:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "livekit 开源实时语音 AI Agent 框架 agents",
+		"url": "https://github.com/livekit/agents",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T12:24:48Z",
 		"group": "gh"
 	},
 	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-09T06:39:07Z",
+		"date": "2026-08-09T12:22:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T12:11:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kaneo 开源项目管理系统",
+		"url": "https://github.com/usekaneo/kaneo",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T11:39:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T10:25:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T10:17:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T07:10:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
+		"url": "https://github.com/lyogavin/airllm",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T06:59:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T06:54:58Z",
 		"group": "gh"
 	},
 	{
@@ -21,20 +77,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T04:19:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T03:56:27Z",
-		"group": "gh"
-	},
-	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
@@ -42,17 +84,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T00:16:14Z",
-		"group": "gh"
-	},
-	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-08T21:05:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
+		"url": "https://github.com/drawdb-io/drawdb",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T19:11:20Z",
 		"group": "gh"
 	},
 	{
@@ -70,24 +112,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Openwork 开源发布，替代 Claude Cowork",
-		"url": "https://github.com/different-ai/openwork",
+		"title": "witr 开源 CLI+TUI 工具可追溯进程端口容器和文件来源",
+		"url": "https://github.com/pranshuparmar/witr",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T09:13:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "LadybirdBrowser 开源独立网页浏览器 Ladybird",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T08:53:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
-		"url": "https://github.com/lyogavin/airllm",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T06:54:20Z",
+		"date": "2026-08-08T03:33:55Z",
 		"group": "gh"
 	},
 	{
@@ -112,13 +140,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 更新 Guava Java 核心库",
-		"url": "https://github.com/google/guava",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T21:42:55Z",
-		"group": "gh"
-	},
-	{
 		"title": "Allen AI 发布 TutorMoments 数据集，评估 AI 辅导系统干预时机",
 		"url": "https://huggingface.co/blog/allenai/tutormoments",
 		"source": "Hugging Face Blog",
@@ -126,10 +147,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Matt Pocock 开源个人 .agents 目录中的工程师技能集",
-		"url": "https://github.com/mattpocock/skills",
+		"title": "Harvey AI 发布法律工作 Agent 能力评测基准",
+		"url": "https://github.com/harveyai/harvey-labs",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T15:50:46Z",
+		"date": "2026-08-07T17:00:18Z",
 		"group": "gh"
 	},
 	{
@@ -137,6 +158,13 @@
 		"url": "https://github.com/virgiliojr94/book-to-skill",
 		"source": "GitHub Trending",
 		"date": "2026-08-07T15:34:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google DeepMind 开源 WeatherNext 天气预测模型",
+		"url": "https://github.com/google-deepmind/weathernext",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T10:10:42Z",
 		"group": "gh"
 	},
 	{
@@ -168,6 +196,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "agency-agents 开源多智能体代理集合",
+		"url": "https://github.com/msitarzewski/agency-agents",
+		"source": "GitHub Trending",
+		"date": "2026-08-06T13:29:47Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 发布 Open World Models 物理 AI",
 		"url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
 		"source": "NVIDIA",
@@ -196,20 +231,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "antirez 开源 DeepSeek 4 Flash 和 PRO 本地推理引擎 ds4",
-		"url": "https://github.com/antirez/ds4",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T14:37:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "Deno 开源 celld 分布式 Durable Objects 实现",
-		"url": "https://github.com/denoland/celld",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T13:43:16Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
 		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
 		"source": "NVIDIA",
@@ -231,11 +252,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "DataExpert-io 开源数据工程师学习资源手册",
-		"url": "https://github.com/DataExpert-io/data-engineer-handbook",
-		"source": "GitHub Trending",
-		"date": "2026-08-03T20:29:57Z",
-		"group": "gh"
+		"title": "Google 汇总 2026 年 7 月 AI 更新",
+		"url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+		"source": "Google AI",
+		"date": "2026-08-04T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 推出 Claude for Nonprofits 公益计划",
@@ -726,13 +747,6 @@
 		"source": "xAI",
 		"date": "2026-07-20T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "TauricResearch 开源 TradingAgents 多智能体金融交易框架",
-		"url": "https://github.com/TauricResearch/TradingAgents",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T15:55:05Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Vera Rubin 平台，提升后训练智能每美元性能",
@@ -2224,6 +2238,13 @@
 		"source": "xAI",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "ZhuLinsen 开源 LLM 驱动的多市场股票智能分析系统",
+		"url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:48:52Z",
+		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
