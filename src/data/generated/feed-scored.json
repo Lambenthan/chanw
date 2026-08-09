@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T18:28:28.311Z",
+  "fetchedAt": "2026-08-09T01:04:27.030Z",
   "items": [
     {
       "source": "github-trending",
@@ -9,7 +9,7 @@
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "summary": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "category": "编程工具",
-      "publishedAt": "2026-08-08T18:13:31Z",
+      "publishedAt": "2026-08-09T00:40:24Z",
       "discoveredAt": "2026-08-04T19:20:37.119Z",
       "stars": 30704,
       "repoTopics": [
@@ -38,29 +38,12 @@
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
-      "id": "91ad171deae90329",
-      "title": "swarm-forge 发布 AI agent 协调工具",
-      "url": "https://github.com/unclebob/swarm-forge",
-      "summary": "A simple tool for coordinating several AI agents.",
-      "category": "Agent",
-      "publishedAt": "2026-08-08T18:02:22Z",
-      "discoveredAt": "2026-08-07T12:43:02.980Z",
-      "stars": 1709,
-      "repoTopics": [],
-      "owner": "unclebob",
-      "originalTitle": "unclebob/swarm-forge · A simple tool for coordinating several AI agents.",
-      "score": 3,
-      "cn": "swarm-forge 是一个轻量级工具，用于协调多个 AI agent 的协作。它由 unclebob 开发，旨在简化多 agent 系统的编排流程，让开发者能够更便捷地定义 agent 之间的交互与任务分配。项目代码以 Clojure 编写，适合对函数式编程和 agent 架构感兴趣的团队参考。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
       "id": "32faae70661994ba",
       "title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "category": "图像模型",
-      "publishedAt": "2026-08-08T17:50:09Z",
+      "publishedAt": "2026-08-09T00:24:20Z",
       "discoveredAt": "2026-08-08T12:30:26.953Z",
       "stars": 124767,
       "repoTopics": [
@@ -79,36 +62,12 @@
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
-      "id": "dae9f02535f7c22f",
-      "title": "addyosmani 开源 agent-skills 生产级工程技能库",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "summary": "Production-grade engineering skills for AI coding agents.",
-      "category": "skill",
-      "publishedAt": "2026-08-08T17:10:58Z",
-      "discoveredAt": "2026-08-05T13:46:13.359Z",
-      "stars": 81803,
-      "repoTopics": [
-        "agent-skills",
-        "antigravity",
-        "claude-code",
-        "codex",
-        "cursor",
-        "skills"
-      ],
-      "owner": "addyosmani",
-      "originalTitle": "addyosmani/agent-skills · Production-grade engineering skills for AI coding agents.",
-      "score": 4,
-      "cn": "addyosmani 开源了 agent-skills，一套为 AI 编程 agent 准备的生产级工程技能集合。该项目涵盖代码审查、重构、测试和部署等真实场景，帮助开发者更高效地利用 agent 完成复杂任务。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
       "id": "57ea4df37382825e",
       "title": "goauthentik 开源 authentik 身份认证平台",
       "url": "https://github.com/goauthentik/authentik",
       "summary": "The authentication glue you need.",
       "category": "安全",
-      "publishedAt": "2026-08-08T15:51:31Z",
+      "publishedAt": "2026-08-09T00:16:14Z",
       "discoveredAt": "2026-08-06T13:45:26.965Z",
       "stars": 22861,
       "repoTopics": [
@@ -138,29 +97,12 @@
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
-      "id": "0396398dad51ec9d",
-      "title": "reverse-skill 发布安全研究技能路由包",
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "category": "skill",
-      "publishedAt": "2026-08-08T15:44:19Z",
-      "discoveredAt": "2026-08-04T19:20:29.120Z",
-      "stars": 17662,
-      "repoTopics": [],
-      "owner": "zhaoxuya520",
-      "originalTitle": "zhaoxuya520/reverse-skill · Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powere",
-      "score": 3,
-      "cn": "reverse-skill 是一个面向逆向工程、渗透测试与安全研究的技能路由包，可接入 Claude Code、Kiro、Cursor、Cline 等 AI 编程客户端。该工具包含 AI 自动路由、按需工具链自举和自动进化经验库三项能力，供安全研究人员在 AI 辅助下完成分析任务。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
       "id": "406a85b388590eb0",
       "title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
       "url": "https://github.com/embabel/embabel-agent",
       "summary": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
       "category": "Agent",
-      "publishedAt": "2026-08-08T15:39:36Z",
+      "publishedAt": "2026-08-08T23:30:51Z",
       "discoveredAt": "2026-08-06T13:45:37.337Z",
       "stars": 3979,
       "repoTopics": [
@@ -184,6 +126,64 @@
       "originalTitle": "embabel/embabel-agent · Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
       "score": 3,
       "cn": "embabel 开源了一个面向 JVM 的 agent 框架 embabel-agent，名称读作 Em-BAY-bel。该项目为 Java 虚拟机生态带来了构建智能 agent 的能力，让开发者能在熟悉的 JVM 环境下开发 agent 应用，填补了该领域在 Java 生态中的空白。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "dae9f02535f7c22f",
+      "title": "addyosmani 开源 agent-skills 生产级工程技能库",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "Production-grade engineering skills for AI coding agents.",
+      "category": "skill",
+      "publishedAt": "2026-08-08T21:05:57Z",
+      "discoveredAt": "2026-08-05T13:46:13.359Z",
+      "stars": 81803,
+      "repoTopics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "owner": "addyosmani",
+      "originalTitle": "addyosmani/agent-skills · Production-grade engineering skills for AI coding agents.",
+      "score": 4,
+      "cn": "addyosmani 开源了 agent-skills，一套为 AI 编程 agent 准备的生产级工程技能集合。该项目涵盖代码审查、重构、测试和部署等真实场景，帮助开发者更高效地利用 agent 完成复杂任务。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "91ad171deae90329",
+      "title": "swarm-forge 发布 AI agent 协调工具",
+      "url": "https://github.com/unclebob/swarm-forge",
+      "summary": "A simple tool for coordinating several AI agents.",
+      "category": "Agent",
+      "publishedAt": "2026-08-08T18:02:22Z",
+      "discoveredAt": "2026-08-07T12:43:02.980Z",
+      "stars": 1709,
+      "repoTopics": [],
+      "owner": "unclebob",
+      "originalTitle": "unclebob/swarm-forge · A simple tool for coordinating several AI agents.",
+      "score": 3,
+      "cn": "swarm-forge 是一个轻量级工具，用于协调多个 AI agent 的协作。它由 unclebob 开发，旨在简化多 agent 系统的编排流程，让开发者能够更便捷地定义 agent 之间的交互与任务分配。项目代码以 Clojure 编写，适合对函数式编程和 agent 架构感兴趣的团队参考。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "0396398dad51ec9d",
+      "title": "reverse-skill 发布安全研究技能路由包",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "category": "skill",
+      "publishedAt": "2026-08-08T15:44:19Z",
+      "discoveredAt": "2026-08-04T19:20:29.120Z",
+      "stars": 17662,
+      "repoTopics": [],
+      "owner": "zhaoxuya520",
+      "originalTitle": "zhaoxuya520/reverse-skill · Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powere",
+      "score": 3,
+      "cn": "reverse-skill 是一个面向逆向工程、渗透测试与安全研究的技能路由包，可接入 Claude Code、Kiro、Cursor、Cline 等 AI 编程客户端。该工具包含 AI 自动路由、按需工具链自举和自动进化经验库三项能力，供安全研究人员在 AI 辅助下完成分析任务。"
     },
     {
       "source": "github-trending",
@@ -213,6 +213,20 @@
       "originalTitle": "usekaneo/kaneo · 🎯 All you need. Nothing you don't. Open source project management that works for you, not against y",
       "score": 3,
       "cn": "Kaneo 是一个开源的项目管理工具，主打简洁与专注，避免功能臃肿。它提供任务管理、看板视图、团队协作等核心功能，适用于希望轻量替代商业软件的小团队或个人。项目基于 TypeScript 构建，社区活跃，适合有定制需求的开发者快速部署。"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA",
+      "id": "831d74e969cf6ba2",
+      "title": "NVIDIA 在亚美尼亚建设 Firebird AI 工厂，采用 Blackwell 与 Rubin 架构",
+      "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+      "summary": "",
+      "category": "训练",
+      "publishedAt": "2026-08-08T15:22:04.000Z",
+      "discoveredAt": "2026-08-09T00:59:10.027Z",
+      "originalTitle": "Firebird Ai Factory Armenia Blackwell Rubin Dsx",
+      "score": 4,
+      "cn": "NVIDIA 宣布在亚美尼亚启动 Firebird AI 工厂项目，该设施将基于 Blackwell 与 Rubin 架构部署 DSX 系统，为大规模模型训练与推理提供算力支撑。此举进一步拓展了 NVIDIA 在全球的高性能计算基础设施布局，面向需要本地化 AI 计算能力的企业与研究机构。"
     },
     {
       "source": "github-trending",
@@ -27801,20 +27815,6 @@
       "cn": "NVIDIA 与 Skycatch 联合发布 Vision AI 数字孪生方案，将无人机采集的工地影像通过 AI 模型实时转化为高精度三维点云与 BIM 模型。该方案整合了 NVIDIA 的 GPU 加速推理与 Skycatch 的计算机视觉技术，可在数小时内完成传统数周才能完成的工地数字化建模，为建筑、采矿等行业的进度监控与安全管理提供实时数字镜像。"
     },
     {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "91f9c224f0028b30",
-      "title": "NVIDIA 发文讨论 AI 对美国制造业的影响",
-      "url": "https://blogs.nvidia.com/blog/ai-us-manufacturing/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-12-12T17:39:58.000Z",
-      "discoveredAt": "2026-05-19T19:53:36.518Z",
-      "originalTitle": "Ai Us Manufacturing",
-      "score": 3,
-      "cn": "NVIDIA 发布一篇关于 AI 技术如何助力美国制造业转型升级的文章，探讨大模型、数字孪生和智能机器人等技术在工厂自动化、质检和供应链优化方面的应用前景。该文属于行业趋势分析与倡议性质的内容，并未发布具体产品或开源项目，但对于了解 NVIDIA 在工业 AI 领域的布局有一定参考价值。"
-    },
-    {
       "source": "anthropic-news",
       "sourceName": "Anthropic News",
       "id": "22e7bdad8415bdb7",
@@ -38765,6 +38765,20 @@
       "originalTitle": "Emmi joins Mistral to accelerate the AI-native industry",
       "score": 3,
       "cn": "Mistral 宣布 Emmi 加入公司，旨在推动 AI 原生产业的加速发展。这一人事变动体现了 Mistral 在人工智能领域持续扩张的战略，有望为行业带来新的技术视角和增长动力。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "37052aa6f68b967a",
+      "title": "Meta 改进 Facebook 信息流 AI 推荐机制",
+      "url": "https://ai.meta.com/blog/facebook-feed-improvements-ai-show-more-less/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-09T00:59:10.027Z",
+      "originalTitle": "Facebook Feed Improvements Ai Show More Less",
+      "score": 3,
+      "cn": "Meta AI 发布博客，介绍 Facebook 信息流推荐系统的更新，新增“显示更多”和“显示更少”控制选项，用户可主动调整内容偏好，影响推荐结果。此次改进将用户反馈直接纳入模型训练，使信息流更符合个人兴趣，同时减少无关内容干扰。官方称新机制在测试中提升了用户满意度。"
     }
   ]
 }

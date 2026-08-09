@@ -3,7 +3,35 @@
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-08T18:13:31Z",
+		"date": "2026-08-09T00:40:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T00:24:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-09T00:16:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
+		"url": "https://github.com/embabel/embabel-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T23:30:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-08T21:05:57Z",
 		"group": "gh"
 	},
 	{
@@ -14,38 +42,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T17:50:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T17:10:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T15:51:31Z",
-		"group": "gh"
-	},
-	{
 		"title": "reverse-skill 发布安全研究技能路由包",
 		"url": "https://github.com/zhaoxuya520/reverse-skill",
 		"source": "GitHub Trending",
 		"date": "2026-08-08T15:44:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
-		"url": "https://github.com/embabel/embabel-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T15:39:36Z",
 		"group": "gh"
 	},
 	{
@@ -54,6 +54,13 @@
 		"source": "GitHub Trending",
 		"date": "2026-08-08T15:29:36Z",
 		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 在亚美尼亚建设 Firebird AI 工厂，采用 Blackwell 与 Rubin 架构",
+		"url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+		"source": "NVIDIA",
+		"date": "2026-08-08T15:22:04.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Openwork 开源发布，替代 Claude Cowork",
