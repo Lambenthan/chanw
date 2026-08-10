@@ -1,5 +1,68 @@
 [
 	{
+		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
+		"url": "https://github.com/embabel/embabel-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T06:56:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T06:53:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
+		"url": "https://github.com/pingdotgg/t3code",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T06:53:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T06:38:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T06:09:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T04:25:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kaneo 开源项目管理系统",
+		"url": "https://github.com/usekaneo/kaneo",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T03:48:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T03:46:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "livekit 开源实时语音 AI Agent 框架 agents",
+		"url": "https://github.com/livekit/agents",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T02:19:47Z",
+		"group": "gh"
+	},
+	{
 		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
 		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
@@ -7,66 +70,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T00:58:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
-		"url": "https://github.com/pingdotgg/t3code",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T00:57:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T00:45:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T00:17:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kaneo 开源项目管理系统",
-		"url": "https://github.com/usekaneo/kaneo",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T23:38:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
-		"url": "https://github.com/embabel/embabel-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T22:55:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T22:12:35Z",
-		"group": "gh"
-	},
-	{
 		"title": "Invidious 开源 YouTube 替代前端",
 		"url": "https://github.com/iv-org/invidious",
 		"source": "GitHub Trending",
 		"date": "2026-08-09T19:34:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "livekit 开源实时语音 AI Agent 框架 agents",
-		"url": "https://github.com/livekit/agents",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T18:34:29Z",
 		"group": "gh"
 	},
 	{
@@ -95,13 +102,6 @@
 		"url": "https://github.com/lyogavin/airllm",
 		"source": "GitHub Trending",
 		"date": "2026-08-09T06:59:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T01:55:56Z",
 		"group": "gh"
 	},
 	{
