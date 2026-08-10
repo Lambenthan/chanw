@@ -1,79 +1,121 @@
 [
 	{
-		"title": "embabel 开源 JVM 平台 Agent 框架 embabel-agent",
-		"url": "https://github.com/embabel/embabel-agent",
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T06:56:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T06:53:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
-		"url": "https://github.com/pingdotgg/t3code",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T06:53:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T06:38:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T06:09:58Z",
+		"date": "2026-08-10T12:47:01Z",
 		"group": "gh"
 	},
 	{
 		"title": "goauthentik 开源 authentik 身份认证平台",
 		"url": "https://github.com/goauthentik/authentik",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T04:25:21Z",
+		"date": "2026-08-10T12:45:37Z",
 		"group": "gh"
 	},
 	{
-		"title": "Kaneo 开源项目管理系统",
-		"url": "https://github.com/usekaneo/kaneo",
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T03:48:16Z",
+		"date": "2026-08-10T12:43:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
+		"url": "https://github.com/pingdotgg/t3code",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T12:37:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T12:33:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 发布上下文 API，支持大规模网页搜索与抓取",
+		"url": "https://github.com/firecrawl/firecrawl",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T12:33:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T12:21:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T12:21:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T11:22:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ladybird 开源独立网页浏览器",
+		"url": "https://github.com/LadybirdBrowser/ladybird",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T10:43:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 提出高效知识蒸馏方法",
+		"url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-10T10:05:36.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
+		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T09:22:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T09:17:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T09:10:28Z",
 		"group": "gh"
 	},
 	{
 		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
 		"url": "https://github.com/firecrawl/pdf-inspector",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T03:46:28Z",
+		"date": "2026-08-10T08:34:41Z",
 		"group": "gh"
 	},
 	{
-		"title": "livekit 开源实时语音 AI Agent 框架 agents",
-		"url": "https://github.com/livekit/agents",
+		"title": "Kaneo 开源项目管理系统",
+		"url": "https://github.com/usekaneo/kaneo",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T02:19:47Z",
+		"date": "2026-08-10T07:39:22Z",
 		"group": "gh"
 	},
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
+		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
+		"url": "https://github.com/lyogavin/airllm",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T00:59:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "Invidious 开源 YouTube 替代前端",
-		"url": "https://github.com/iv-org/invidious",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T19:34:50Z",
+		"date": "2026-08-10T07:35:33Z",
 		"group": "gh"
 	},
 	{
@@ -91,20 +133,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T10:17:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
-		"url": "https://github.com/lyogavin/airllm",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T06:59:19Z",
-		"group": "gh"
-	},
-	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
@@ -117,13 +145,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-08T15:22:04.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "witr 开源 CLI+TUI 工具可追溯进程端口容器和文件来源",
-		"url": "https://github.com/pranshuparmar/witr",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T03:33:55Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
@@ -147,10 +168,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Harvey AI 发布法律工作 Agent 能力评测基准",
-		"url": "https://github.com/harveyai/harvey-labs",
+		"title": "Daniel Miessler 开源 LifeOS 通用爬山 AI 框架",
+		"url": "https://github.com/danielmiessler/LifeOS",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T17:00:18Z",
+		"date": "2026-08-07T16:06:46Z",
 		"group": "gh"
 	},
 	{
@@ -210,13 +231,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
-		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T12:07:09Z",
-		"group": "gh"
-	},
-	{
 		"title": "Baseten 加入 Hugging Face 推理提供商平台",
 		"url": "https://huggingface.co/blog/baseten",
 		"source": "Hugging Face Blog",
@@ -229,6 +243,13 @@
 		"source": "NVIDIA",
 		"date": "2026-08-05T21:15:27.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "MediaCrawler 开源多平台社交媒体爬虫工具",
+		"url": "https://github.com/NanmiCoder/MediaCrawler",
+		"source": "GitHub Trending",
+		"date": "2026-08-05T09:39:38Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
@@ -257,6 +278,13 @@
 		"source": "Google AI",
 		"date": "2026-08-04T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "DataExpert-io 开源数据工程师学习手册",
+		"url": "https://github.com/DataExpert-io/data-engineer-handbook",
+		"source": "GitHub Trending",
+		"date": "2026-08-03T20:29:57Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 推出 Claude for Nonprofits 公益计划",
@@ -1701,20 +1729,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布 FFASR 排行榜，用于真实世界 ASR 基准测试",
-		"url": "https://huggingface.co/blog/ffasr-leaderboard",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-24T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 实现每周发布 huggingface_hub 的 AI 辅助流程",
-		"url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-23T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 推出面向网络运营的电信 Agentic AI",
 		"url": "https://blogs.nvidia.com/blog/telecom-agentic-ai-for-network-operations/",
 		"source": "NVIDIA",
@@ -2238,13 +2252,6 @@
 		"source": "xAI",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "ZhuLinsen 开源 LLM 驱动的多市场股票智能分析系统",
-		"url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T12:48:52Z",
-		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
