@@ -1,72 +1,135 @@
 [
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T12:47:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T12:45:37Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T12:43:41Z",
+		"date": "2026-08-10T18:42:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
 		"url": "https://github.com/pingdotgg/t3code",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T12:37:36Z",
+		"date": "2026-08-10T18:42:32Z",
 		"group": "gh"
 	},
 	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
+		"url": "https://github.com/paperclipai/paperclip",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T12:33:19Z",
+		"date": "2026-08-10T18:40:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T18:36:10Z",
 		"group": "gh"
 	},
 	{
 		"title": "Firecrawl 发布上下文 API，支持大规模网页搜索与抓取",
 		"url": "https://github.com/firecrawl/firecrawl",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T12:33:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T12:21:49Z",
+		"date": "2026-08-10T18:36:03Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T12:21:29Z",
+		"date": "2026-08-10T18:22:38Z",
 		"group": "gh"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T11:22:22Z",
+		"date": "2026-08-10T18:20:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T18:17:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T17:56:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T17:42:01Z",
 		"group": "gh"
 	},
 	{
 		"title": "Ladybird 开源独立网页浏览器",
 		"url": "https://github.com/LadybirdBrowser/ladybird",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T10:43:52Z",
+		"date": "2026-08-10T17:36:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kaneo 开源项目管理系统",
+		"url": "https://github.com/usekaneo/kaneo",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T17:27:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T17:25:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Magpie TTS 低延迟多语言语音模型",
+		"url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-10T16:25:36.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T15:50:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T15:48:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "swarm-forge 发布 AI agent 协调工具",
+		"url": "https://github.com/unclebob/swarm-forge",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T15:38:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T15:19:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T12:50:28Z",
 		"group": "gh"
 	},
 	{
@@ -84,34 +147,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T09:17:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T09:10:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T08:34:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kaneo 开源项目管理系统",
-		"url": "https://github.com/usekaneo/kaneo",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T07:39:22Z",
-		"group": "gh"
-	},
-	{
 		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
 		"url": "https://github.com/lyogavin/airllm",
 		"source": "GitHub Trending",
@@ -119,10 +154,24 @@
 		"group": "gh"
 	},
 	{
-		"title": "swarm-forge 发布 AI agent 协调工具",
-		"url": "https://github.com/unclebob/swarm-forge",
+		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
+		"url": "https://www.anthropic.com/research/riemann-zeta",
+		"source": "Anthropic Research",
+		"date": "2026-08-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Meta 发布 Muse Glimmer 多模态 Agent 模型",
+		"url": "https://huggingface.co/blog/muse-glimmer",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Dopamine 发布 iOS 15–26 半越狱工具",
+		"url": "https://github.com/opa334/Dopamine",
 		"source": "GitHub Trending",
-		"date": "2026-08-09T18:01:49Z",
+		"date": "2026-08-09T18:05:26Z",
 		"group": "gh"
 	},
 	{
@@ -147,13 +196,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
-		"url": "https://github.com/google/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T22:50:54Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发起 Open Secure AI Alliance",
 		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
 		"source": "NVIDIA",
@@ -172,13 +214,6 @@
 		"url": "https://github.com/danielmiessler/LifeOS",
 		"source": "GitHub Trending",
 		"date": "2026-08-07T16:06:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T15:34:15Z",
 		"group": "gh"
 	},
 	{
@@ -623,13 +658,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NTT DATA Group 使用 Codex 将事件分析缩短至 30 分钟",
-		"url": "https://openai.com/index/ntt-data",
-		"source": "OpenAI",
-		"date": "2026-07-22T13:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 在 ChatGPT 中推出健康功能",
 		"url": "https://openai.com/index/health-in-chatgpt",
 		"source": "OpenAI",
@@ -775,6 +803,13 @@
 		"source": "xAI",
 		"date": "2026-07-20T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "TauricResearch 开源 TradingAgents 多智能体金融交易框架",
+		"url": "https://github.com/TauricResearch/TradingAgents",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T15:55:05Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Vera Rubin 平台，提升后训练智能每美元性能",
@@ -1012,6 +1047,13 @@
 		"url": "https://www.anthropic.com/research/agentic-misalignment",
 		"source": "Anthropic Research",
 		"date": "2026-07-13T18:27:52.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究发现语言模型存在全局工作空间",
+		"url": "https://www.anthropic.com/research/global-workspace",
+		"source": "Anthropic Research",
+		"date": "2026-07-13T12:08:40.000Z",
 		"group": "labs"
 	},
 	{
@@ -1386,13 +1428,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 研究发现语言模型存在全局工作空间",
-		"url": "https://www.anthropic.com/research/global-workspace",
-		"source": "Anthropic Research",
-		"date": "2026-07-06T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Hugging Face 发布 Kernels 重大更新",
 		"url": "https://huggingface.co/blog/revamped-kernels",
 		"source": "Hugging Face Blog",
@@ -1547,13 +1582,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
-		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-		"source": "Anthropic Research",
-		"date": "2026-06-26T23:50:17.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 与 HPE 合作推出 AI Factory Agentic Enterprise",
 		"url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
 		"source": "NVIDIA",
@@ -1645,6 +1673,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
+		"url": "https://www.anthropic.com/research/claude-code-expertise",
+		"source": "Anthropic Research",
+		"date": "2026-06-26T12:25:45.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布 GPT Live",
 		"url": "https://openai.com/index/introducing-gpt-live/",
 		"source": "OpenAI",
@@ -1655,6 +1690,13 @@
 		"title": "Hugging Face 支持一键部署 vLLM 推理服务器",
 		"url": "https://huggingface.co/blog/vllm-jobs",
 		"source": "Hugging Face Blog",
+		"date": "2026-06-26T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
+		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+		"source": "Anthropic Research",
 		"date": "2026-06-26T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1698,13 +1740,6 @@
 		"url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
 		"source": "NVIDIA",
 		"date": "2026-06-24T19:01:01.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 NeMo AutoModel 加速 Transformer 微调",
-		"url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-24T16:00:13.000Z",
 		"group": "labs"
 	},
 	{
@@ -1754,13 +1789,6 @@
 		"url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
 		"source": "NVIDIA",
 		"date": "2026-06-22T13:00:38.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 与 Hugging Face 合作应对模型评测安全事件",
-		"url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-		"source": "OpenAI",
-		"date": "2026-06-22T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1915,13 +1943,6 @@
 		"url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
 		"source": "DeepMind",
 		"date": "2026-06-16T22:30:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
-		"url": "https://www.anthropic.com/research/claude-code-expertise",
-		"source": "Anthropic Research",
-		"date": "2026-06-16T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2138,13 +2159,6 @@
 		"title": "DeepMind 发布 Gemma 4 12B 统一多模态模型",
 		"url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
 		"source": "DeepMind",
-		"date": "2026-06-03T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google 搜索上线 AI 工具助力二手复古购物",
-		"url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-		"source": "Google AI",
 		"date": "2026-06-03T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -3035,20 +3049,6 @@
 		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
 		"source": "NVIDIA",
 		"date": "2026-05-13T13:00:10.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 将鼠标指针变为上下文感知 AI 协作助手",
-		"url": "https://deepmind.google/blog/ai-pointer/",
-		"source": "DeepMind",
-		"date": "2026-05-12T18:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Claude for Small Business",
-		"url": "https://www.anthropic.com/news/claude-for-small-business",
-		"source": "Anthropic News",
-		"date": "2026-05-12T16:00:00.000Z",
 		"group": "labs"
 	}
 ]
