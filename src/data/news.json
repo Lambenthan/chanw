@@ -1,79 +1,93 @@
 [
 	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T12:41:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 开源 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T12:41:49Z",
+		"group": "gh"
+	},
+	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T06:51:41Z",
+		"date": "2026-08-11T12:40:14Z",
 		"group": "gh"
 	},
 	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
+		"title": "Ladybird 开源独立网页浏览器",
+		"url": "https://github.com/LadybirdBrowser/ladybird",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T06:41:39Z",
+		"date": "2026-08-11T12:30:58Z",
 		"group": "gh"
 	},
 	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T06:24:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 发布上下文 API，支持大规模网页搜索与抓取",
-		"url": "https://github.com/firecrawl/firecrawl",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T06:23:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T06:13:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T06:12:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T05:58:27Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T05:03:12Z",
+		"date": "2026-08-11T12:21:02Z",
 		"group": "gh"
 	},
 	{
 		"title": "goauthentik 开源 authentik 身份认证平台",
 		"url": "https://github.com/goauthentik/authentik",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T04:14:42Z",
+		"date": "2026-08-11T12:15:52Z",
 		"group": "gh"
 	},
 	{
-		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
-		"url": "https://github.com/pingdotgg/t3code",
+		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
+		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T03:54:12Z",
+		"date": "2026-08-11T12:12:06Z",
 		"group": "gh"
 	},
 	{
-		"title": "Kaneo 开源项目管理系统",
-		"url": "https://github.com/usekaneo/kaneo",
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T03:38:31Z",
+		"date": "2026-08-11T11:54:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T11:46:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T11:27:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T09:09:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T07:23:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
+		"url": "https://github.com/lyogavin/airllm",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T07:09:59Z",
 		"group": "gh"
 	},
 	{
@@ -84,17 +98,17 @@
 		"group": "gh"
 	},
 	{
+		"title": "Harvey AI 开源 Harvey Labs 法律 agent 评测基准",
+		"url": "https://github.com/harveyai/harvey-labs",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T01:06:00Z",
+		"group": "gh"
+	},
+	{
 		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
 		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
 		"date": "2026-08-11T00:55:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T00:06:53Z",
 		"group": "gh"
 	},
 	{
@@ -110,13 +124,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-10T21:00:21.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Ladybird 开源独立网页浏览器",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T20:20:33Z",
-		"group": "gh"
 	},
 	{
 		"title": "swarm-forge 发布 AI agent 协调工具",
@@ -147,13 +154,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T15:48:02Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 提出高效知识蒸馏方法",
 		"url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
 		"source": "Hugging Face Blog",
@@ -161,17 +161,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
-		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+		"title": "GitHub 项目 practical-tutorials 整理项目制学习教程清单",
+		"url": "https://github.com/practical-tutorials/project-based-learning",
 		"source": "GitHub Trending",
-		"date": "2026-08-10T09:22:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "AirLLM 开源：单张 4GB GPU 即可运行 70B 模型推理",
-		"url": "https://github.com/lyogavin/airllm",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T07:35:33Z",
+		"date": "2026-08-10T07:04:22Z",
 		"group": "gh"
 	},
 	{
@@ -187,13 +180,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-10T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Dopamine 发布 iOS 15–26 半越狱工具",
-		"url": "https://github.com/opa334/Dopamine",
-		"source": "GitHub Trending",
-		"date": "2026-08-09T18:05:26Z",
-		"group": "gh"
 	},
 	{
 		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
@@ -224,17 +210,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Daniel Miessler 开源 LifeOS 通用爬山 AI 框架",
-		"url": "https://github.com/danielmiessler/LifeOS",
+		"title": "Anthropic 开源 Agent Skills 公共仓库",
+		"url": "https://github.com/anthropics/skills",
 		"source": "GitHub Trending",
-		"date": "2026-08-07T16:06:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google DeepMind 开源 WeatherNext 天气预测模型",
-		"url": "https://github.com/google-deepmind/weathernext",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T10:10:42Z",
+		"date": "2026-08-07T17:14:15Z",
 		"group": "gh"
 	},
 	{
@@ -294,13 +273,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "MediaCrawler 开源多平台社交媒体爬虫工具",
-		"url": "https://github.com/NanmiCoder/MediaCrawler",
-		"source": "GitHub Trending",
-		"date": "2026-08-05T09:39:38Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 参与 NSF 区域 AI 中心计划",
 		"url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program/",
 		"source": "NVIDIA",
@@ -320,13 +292,6 @@
 		"source": "Google AI",
 		"date": "2026-08-04T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "DataExpert-io 开源数据工程师学习手册",
-		"url": "https://github.com/DataExpert-io/data-engineer-handbook",
-		"source": "GitHub Trending",
-		"date": "2026-08-03T20:29:57Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 推出 Claude for Nonprofits 公益计划",
@@ -756,13 +721,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "微软 AI-For-Beginners 开源 12 周 AI 入门课程",
-		"url": "https://github.com/microsoft/AI-For-Beginners",
-		"source": "GitHub Trending",
-		"date": "2026-07-21T11:11:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepMind 发布 Gemini 3.6 Flash 等三款新模型",
 		"url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
 		"source": "DeepMind",
@@ -796,13 +754,6 @@
 		"source": "xAI",
 		"date": "2026-07-20T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "TauricResearch 开源 TradingAgents 多智能体金融交易框架",
-		"url": "https://github.com/TauricResearch/TradingAgents",
-		"source": "GitHub Trending",
-		"date": "2026-07-18T15:55:05Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Vera Rubin 平台，提升后训练智能每美元性能",
@@ -2259,6 +2210,13 @@
 		"source": "xAI",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "HKUDS 开源 DeepTutor 终身个性化辅导系统",
+		"url": "https://github.com/HKUDS/DeepTutor",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T10:00:17Z",
+		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
