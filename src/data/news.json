@@ -1,9 +1,86 @@
 [
 	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T06:51:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T06:41:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
+		"url": "https://github.com/ruvnet/RuView",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T06:24:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 发布上下文 API，支持大规模网页搜索与抓取",
+		"url": "https://github.com/firecrawl/firecrawl",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T06:23:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T06:13:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T06:12:54Z",
+		"group": "gh"
+	},
+	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T00:59:22Z",
+		"date": "2026-08-11T05:58:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T05:03:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T04:14:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
+		"url": "https://github.com/pingdotgg/t3code",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T03:54:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "Kaneo 开源项目管理系统",
+		"url": "https://github.com/usekaneo/kaneo",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T03:38:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T01:59:50Z",
 		"group": "gh"
 	},
 	{
@@ -14,80 +91,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T00:51:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "RuView 利用 WiFi 信号实现空间感知与生命体征监测",
-		"url": "https://github.com/ruvnet/RuView",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T00:50:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "t3code 开源基于 VS Code 的 AI 编程助手",
-		"url": "https://github.com/pingdotgg/t3code",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T00:42:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T00:41:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T00:19:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T00:14:58Z",
-		"group": "gh"
-	},
-	{
 		"title": "reverse-skill 发布安全研究技能路由包",
 		"url": "https://github.com/zhaoxuya520/reverse-skill",
 		"source": "GitHub Trending",
 		"date": "2026-08-11T00:06:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "Kaneo 开源项目管理系统",
-		"url": "https://github.com/usekaneo/kaneo",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T22:42:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 发布上下文 API，支持大规模网页搜索与抓取",
-		"url": "https://github.com/firecrawl/firecrawl",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T22:13:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T22:10:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T21:05:22Z",
 		"group": "gh"
 	},
 	{
@@ -116,13 +123,6 @@
 		"url": "https://github.com/unclebob/swarm-forge",
 		"source": "GitHub Trending",
 		"date": "2026-08-10T19:50:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
-		"url": "https://github.com/google/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T19:32:05Z",
 		"group": "gh"
 	},
 	{
