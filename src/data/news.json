@@ -1,86 +1,135 @@
 [
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T12:41:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 开源 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T12:41:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T12:40:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "Ladybird 开源独立网页浏览器",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T12:30:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T12:21:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T12:15:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
-		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T12:12:06Z",
-		"group": "gh"
-	},
-	{
 		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
 		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T11:54:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T11:46:36Z",
+		"date": "2026-08-11T18:48:29Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T11:27:47Z",
+		"date": "2026-08-11T18:46:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T18:45:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T18:42:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T18:42:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T18:41:56Z",
 		"group": "gh"
 	},
 	{
 		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
 		"url": "https://github.com/Comfy-Org/ComfyUI",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T09:09:39Z",
+		"date": "2026-08-11T18:40:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 开源 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T18:38:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
+		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+		"source": "NVIDIA",
+		"date": "2026-08-11T18:38:34.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "swarm-forge 发布 AI agent 协调工具",
+		"url": "https://github.com/unclebob/swarm-forge",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T18:13:55Z",
 		"group": "gh"
 	},
 	{
 		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
 		"url": "https://github.com/firecrawl/pdf-inspector",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T07:23:39Z",
+		"date": "2026-08-11T17:55:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T17:45:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T17:15:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cloudflare 开源 agent 计算机工具 Computer",
+		"url": "https://github.com/cloudflare/computer",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T17:05:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ladybird 开源独立网页浏览器",
+		"url": "https://github.com/LadybirdBrowser/ladybird",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T16:35:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T14:50:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T14:09:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
+		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+		"source": "NVIDIA",
+		"date": "2026-08-11T13:17:06.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
+		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T12:12:06Z",
 		"group": "gh"
 	},
 	{
@@ -91,10 +140,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
-		"url": "https://github.com/google/skills",
+		"title": "cathrynlavery 开源 diagram-design 29 种编辑用图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T01:59:50Z",
+		"date": "2026-08-11T04:24:51Z",
 		"group": "gh"
 	},
 	{
@@ -105,17 +154,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T00:55:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
-		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-		"source": "NVIDIA",
-		"date": "2026-08-10T21:00:50.000Z",
+		"title": "Google 发布 AMIE 实时临床视频咨询 AI 系统",
+		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+		"source": "Google AI",
+		"date": "2026-08-11T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -124,20 +166,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-10T21:00:21.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "swarm-forge 发布 AI agent 协调工具",
-		"url": "https://github.com/unclebob/swarm-forge",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T19:50:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T19:25:58Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Claude Sonnet 5",
@@ -549,6 +577,13 @@
 		"title": "Anthropic 利用 Claude 发现加密弱点",
 		"url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
 		"source": "Anthropic Research",
+		"date": "2026-07-28T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 4.5 接入 GitHub Copilot",
+		"url": "https://x.ai/news/grok-github-copilot",
+		"source": "xAI",
 		"date": "2026-07-28T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1631,13 +1666,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 支持一键部署 vLLM 推理服务器",
-		"url": "https://huggingface.co/blog/vllm-jobs",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-26T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
 		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
 		"source": "Anthropic Research",
@@ -2058,13 +2086,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google AI 发布 2026 年 5 月产品更新汇总",
-		"url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-		"source": "Google AI",
-		"date": "2026-06-05T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "工程软件龙头采用自主 AI 工程师 Nemoclaw",
 		"url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
 		"source": "NVIDIA",
@@ -2210,6 +2231,13 @@
 		"source": "xAI",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "ZhuLinsen 开源 LLM 驱动的多市场股票智能分析系统",
+		"url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:48:52Z",
+		"group": "gh"
 	},
 	{
 		"title": "HKUDS 开源 DeepTutor 终身个性化辅导系统",
@@ -2993,13 +3021,6 @@
 		"url": "https://openai.com/index/gpt-5-1-codex-max/",
 		"source": "OpenAI",
 		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Hermes Agent 和 DGX Spark",
-		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
-		"source": "NVIDIA",
-		"date": "2026-05-13T13:00:10.000Z",
 		"group": "labs"
 	}
 ]
