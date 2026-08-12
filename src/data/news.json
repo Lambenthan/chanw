@@ -1,23 +1,135 @@
 [
 	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T18:48:29Z",
+		"date": "2026-08-12T07:10:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "stablyai 开源 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T07:09:27Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 代理",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T18:46:03Z",
+		"date": "2026-08-12T07:08:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T07:06:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T07:05:03Z",
 		"group": "gh"
 	},
 	{
 		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
 		"url": "https://github.com/paperclipai/paperclip",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T18:45:32Z",
+		"date": "2026-08-12T07:04:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T07:03:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T06:46:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T06:13:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ladybird 开源独立网页浏览器",
+		"url": "https://github.com/LadybirdBrowser/ladybird",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T05:56:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T01:57:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "Harvey AI 开源 Harvey Labs 法律 agent 评测基准",
+		"url": "https://github.com/harveyai/harvey-labs",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T01:03:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 AI Factory Compute 方案",
+		"url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
+		"source": "NVIDIA",
+		"date": "2026-08-12T00:38:21.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T23:49:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 更新 Transformers 框架",
+		"url": "https://github.com/huggingface/transformers",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T22:54:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T21:56:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
+		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+		"source": "NVIDIA",
+		"date": "2026-08-11T21:25:32.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "swarm-forge 发布 AI agent 协调工具",
+		"url": "https://github.com/unclebob/swarm-forge",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T20:36:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T19:48:56Z",
 		"group": "gh"
 	},
 	{
@@ -28,69 +140,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T18:42:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T18:41:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T18:40:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "stablyai 开源 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T18:38:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
-		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-		"source": "NVIDIA",
-		"date": "2026-08-11T18:38:34.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "swarm-forge 发布 AI agent 协调工具",
-		"url": "https://github.com/unclebob/swarm-forge",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T18:13:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T17:55:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T17:45:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T17:15:00Z",
-		"group": "gh"
-	},
-	{
 		"title": "Cloudflare 开源 agent 计算机工具 Computer",
 		"url": "https://github.com/cloudflare/computer",
 		"source": "GitHub Trending",
@@ -98,25 +147,18 @@
 		"group": "gh"
 	},
 	{
-		"title": "Ladybird 开源独立网页浏览器",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
+		"title": "3b1b 开源 Manim 数学动画引擎",
+		"url": "https://github.com/3b1b/manim",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T16:35:01Z",
+		"date": "2026-08-11T14:41:19Z",
 		"group": "gh"
 	},
 	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T14:50:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T14:09:26Z",
-		"group": "gh"
+		"title": "IBM Research 提出 ALTK-Evolve 方法，用更少 token 实现类似 ACE 的效果",
+		"url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-11T13:37:10.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
@@ -140,17 +182,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "cathrynlavery 开源 diagram-design 29 种编辑用图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
+		"title": "Uber 开源 ADR 企业 AI agent 安全框架",
+		"url": "https://github.com/uber/ADR",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T04:24:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "Harvey AI 开源 Harvey Labs 法律 agent 评测基准",
-		"url": "https://github.com/harveyai/harvey-labs",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T01:06:00Z",
+		"date": "2026-08-11T02:50:45Z",
 		"group": "gh"
 	},
 	{
@@ -196,6 +231,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "Google 为 Ads 和 Analytics 推出新 AI 工具",
+		"url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+		"source": "Google AI",
+		"date": "2026-08-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
 		"url": "https://www.anthropic.com/research/riemann-zeta",
 		"source": "Anthropic Research",
@@ -214,13 +256,6 @@
 		"url": "https://github.com/drawdb-io/drawdb",
 		"source": "GitHub Trending",
 		"date": "2026-08-09T15:02:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-08T21:05:57Z",
 		"group": "gh"
 	},
 	{
@@ -2268,6 +2303,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 在 ChatGPT 中推出 Lockdown Mode 与风险标签",
+		"url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 推进内容溯源技术",
 		"url": "https://openai.com/index/advancing-content-provenance/",
 		"source": "OpenAI",
@@ -2438,13 +2480,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5.1 Codex Max 系统卡",
 		"url": "https://openai.com/index/gpt-5-1-codex-max-system-card/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 在 ChatGPT 中推出 Lockdown Mode 与风险标签",
-		"url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
