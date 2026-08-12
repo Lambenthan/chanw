@@ -1,65 +1,135 @@
 [
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
+		"url": "https://github.com/paperclipai/paperclip",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T12:46:55Z",
+		"date": "2026-08-12T18:49:25Z",
 		"group": "gh"
 	},
 	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T12:44:47Z",
+		"date": "2026-08-12T18:48:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "stablyai 开源 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T12:43:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T12:36:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T12:36:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "RAGFlow 开源检索增强生成引擎",
-		"url": "https://github.com/infiniflow/ragflow",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T12:28:23Z",
+		"date": "2026-08-12T18:48:32Z",
 		"group": "gh"
 	},
 	{
 		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
 		"url": "https://github.com/semantica-agi/semantica",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T12:13:11Z",
+		"date": "2026-08-12T18:44:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T18:43:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T18:39:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA NeMo 开源 Switchyard",
+		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T18:27:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T18:27:18Z",
 		"group": "gh"
 	},
 	{
 		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
 		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T11:47:54Z",
+		"date": "2026-08-12T17:48:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T17:23:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T17:09:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T17:05:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "Allen AI 推出 OlmoEarth 嵌入自定义导出功能",
+		"url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-12T16:14:36.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T16:07:56Z",
 		"group": "gh"
 	},
 	{
 		"title": "reverse-skill 发布安全研究技能路由包",
 		"url": "https://github.com/zhaoxuya520/reverse-skill",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T11:39:17Z",
+		"date": "2026-08-12T16:06:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ladybird 开源独立网页浏览器",
+		"url": "https://github.com/LadybirdBrowser/ladybird",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T15:00:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepMind 推出手语转文字模型 SL2T",
+		"url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+		"source": "DeepMind",
+		"date": "2026-08-12T15:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "RAGFlow 开源检索增强生成引擎",
+		"url": "https://github.com/infiniflow/ragflow",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T14:46:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T14:24:33Z",
 		"group": "gh"
 	},
 	{
@@ -70,38 +140,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Ladybird 开源独立网页浏览器",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T11:14:02Z",
-		"group": "gh"
-	},
-	{
 		"title": "Cloudflare 开源 agent 计算机工具 Computer",
 		"url": "https://github.com/cloudflare/computer",
 		"source": "GitHub Trending",
 		"date": "2026-08-12T10:44:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T10:04:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
-		"url": "https://github.com/google/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T09:50:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T09:02:13Z",
 		"group": "gh"
 	},
 	{
@@ -116,20 +158,6 @@
 		"url": "https://github.com/embabel/embabel-agent",
 		"source": "GitHub Trending",
 		"date": "2026-08-12T08:02:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T04:00:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T01:57:58Z",
 		"group": "gh"
 	},
 	{
@@ -252,13 +280,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Allen AI 发布 TutorMoments 数据集，评估 AI 辅导系统干预时机",
-		"url": "https://huggingface.co/blog/allenai/tutormoments",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-07T17:53:32.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 更新 Fable 5 生物学安全防护",
 		"url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
 		"source": "Anthropic News",
@@ -319,13 +340,6 @@
 		"url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program/",
 		"source": "NVIDIA",
 		"date": "2026-08-04T16:01:33.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Liquid AI 发布 LFM2.5-2.6B 本地 agent 部署模型",
-		"url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-04T13:58:29.000Z",
 		"group": "labs"
 	},
 	{
@@ -597,6 +611,13 @@
 	{
 		"title": "xAI 将 Grok 4.5 接入 GitHub Copilot",
 		"url": "https://x.ai/news/grok-github-copilot",
+		"source": "xAI",
+		"date": "2026-07-28T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 推出 Grok Build Mode",
+		"url": "https://x.ai/news/grok-build-mode",
 		"source": "xAI",
 		"date": "2026-07-28T00:00:00.000Z",
 		"group": "labs"
@@ -1659,6 +1680,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布 Project Fetch 第二阶段",
+		"url": "https://www.anthropic.com/research/project-fetch-phase-two",
+		"source": "Anthropic Research",
+		"date": "2026-06-26T12:28:05.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Mythos 预览",
 		"url": "https://www.anthropic.com/research/mythos-preview",
 		"source": "Anthropic Research",
@@ -1810,13 +1838,6 @@
 		"url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
 		"source": "DeepMind",
 		"date": "2026-06-18T14:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Project Fetch 第二阶段",
-		"url": "https://www.anthropic.com/research/project-fetch-phase-two",
-		"source": "Anthropic Research",
-		"date": "2026-06-18T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2842,6 +2863,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "DeepMind 与 Calico 合作将 Co-Scientist 用于衰老研究",
+		"url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+		"source": "DeepMind",
+		"date": "2026-05-19T10:30:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind Co-Scientist 协助找到肝纤维化候选药物",
 		"url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
 		"source": "DeepMind",
@@ -2865,13 +2893,6 @@
 	{
 		"title": "DeepMind 利用 Co-Scientist 识别新发传染病分子开关",
 		"url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-		"source": "DeepMind",
-		"date": "2026-05-19T10:30:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 与 Calico 合作将 Co-Scientist 用于衰老研究",
-		"url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
 		"source": "DeepMind",
 		"date": "2026-05-19T10:30:00.000Z",
 		"group": "labs"
@@ -2937,104 +2958,6 @@
 		"url": "https://openai.com/index/introducing-gpt-5-2-codex/",
 		"source": "OpenAI",
 		"date": "2026-05-18T02:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.4",
-		"url": "https://openai.com/index/introducing-gpt-5-4/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Codex 正式版",
-		"url": "https://openai.com/index/codex-now-generally-available/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT Realtime",
-		"url": "https://openai.com/index/introducing-gpt-realtime/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.5",
-		"url": "https://openai.com/index/introducing-gpt-5-5/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5",
-		"url": "https://openai.com/index/introducing-gpt-5/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Codex 升级",
-		"url": "https://openai.com/index/introducing-upgrades-to-codex/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 5 Instant",
-		"url": "https://openai.com/index/gpt-5-5-instant/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT OSS",
-		"url": "https://openai.com/index/introducing-gpt-oss/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.3 Instant",
-		"url": "https://openai.com/index/gpt-5-3-instant/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.1",
-		"url": "https://openai.com/index/gpt-5-1/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 在 API 中推出新的语音模型",
-		"url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.2",
-		"url": "https://openai.com/index/introducing-gpt-5-2/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 ChatGPT Agent",
-		"url": "https://openai.com/index/introducing-chatgpt-agent/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.1 Codex Max",
-		"url": "https://openai.com/index/gpt-5-1-codex-max/",
-		"source": "OpenAI",
-		"date": "2026-05-14T16:00:00.000Z",
 		"group": "labs"
 	}
 ]
