@@ -1,58 +1,79 @@
 [
 	{
-		"title": "stablyai 开源 Orca 并行 agent 开发环境",
-		"url": "https://github.com/stablyai/orca",
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T07:12:20Z",
+		"date": "2026-08-13T12:40:19Z",
 		"group": "gh"
 	},
 	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T07:11:55Z",
+		"date": "2026-08-13T12:39:34Z",
 		"group": "gh"
 	},
 	{
-		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
-		"url": "https://github.com/paperclipai/paperclip",
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T07:11:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T07:10:30Z",
+		"date": "2026-08-13T12:37:38Z",
 		"group": "gh"
 	},
 	{
 		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
 		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T07:09:01Z",
+		"date": "2026-08-13T12:33:52Z",
 		"group": "gh"
 	},
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T07:05:25Z",
+		"date": "2026-08-13T12:21:54Z",
 		"group": "gh"
 	},
 	{
 		"title": "RAGFlow 开源检索增强生成引擎",
 		"url": "https://github.com/infiniflow/ragflow",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T06:59:12Z",
+		"date": "2026-08-13T12:17:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cloudflare 开源 agent 计算机工具 Computer",
+		"url": "https://github.com/cloudflare/computer",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T11:47:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ladybird 开源独立网页浏览器",
+		"url": "https://github.com/LadybirdBrowser/ladybird",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T10:56:29Z",
 		"group": "gh"
 	},
 	{
 		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
 		"url": "https://github.com/Comfy-Org/ComfyUI",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T06:49:24Z",
+		"date": "2026-08-13T10:42:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T07:25:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "altic-dev 开源 FluidVoice macOS 听写应用",
+		"url": "https://github.com/altic-dev/FluidVoice",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T06:25:47Z",
 		"group": "gh"
 	},
 	{
@@ -60,41 +81,6 @@
 		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
 		"date": "2026-08-13T04:50:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T04:14:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T04:01:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "embabel 开源 Em-BAY-bel Agent 框架，面向 JVM 的 agent 开发工具",
-		"url": "https://github.com/embabel/embabel-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T03:01:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "LocalSend 开源跨平台文件传输工具更新",
-		"url": "https://github.com/localsend/localsend",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T01:31:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T00:18:47Z",
 		"group": "gh"
 	},
 	{
@@ -117,13 +103,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-08-13T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Cloudflare 开源 agent 计算机工具 Computer",
-		"url": "https://github.com/cloudflare/computer",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T21:48:07Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
@@ -161,13 +140,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Ladybird 开源独立网页浏览器",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T15:00:19Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepMind 推出手语转文字模型 SL2T",
 		"url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
 		"source": "DeepMind",
@@ -189,13 +161,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "MediaCrawler 开源多平台社交媒体内容爬虫工具",
-		"url": "https://github.com/NanmiCoder/MediaCrawler",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T11:22:26Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 Spectrum Six 网络方案",
 		"url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
 		"source": "NVIDIA",
@@ -214,6 +179,13 @@
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-11T19:48:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Manim 开源动画引擎更新",
+		"url": "https://github.com/3b1b/manim",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T14:41:19Z",
 		"group": "gh"
 	},
 	{
@@ -299,6 +271,13 @@
 		"source": "NVIDIA",
 		"date": "2026-08-07T22:42:33.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Anthropic 开源 Agent Skills 公共仓库",
+		"url": "https://github.com/anthropics/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-07T17:14:15Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 更新 Fable 5 生物学安全防护",
@@ -1603,13 +1582,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "ZuodaoTech 开源 everyone-can-use-english 英语学习项目",
-		"url": "https://github.com/ZuodaoTech/everyone-can-use-english",
-		"source": "GitHub Trending",
-		"date": "2026-06-29T09:40:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google AI 专家解读全栈 AI 方法",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
 		"source": "Google AI",
@@ -2114,6 +2086,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "kepano 开源 Obsidian Skills，提供 agent 使用 Obsidian CLI 和 Markdown 等格式的技能",
+		"url": "https://github.com/kepano/obsidian-skills",
+		"source": "GitHub Trending",
+		"date": "2026-06-08T16:12:01Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 在 CVPR 发布抓取、驾驶与 Agent 训练研究",
 		"url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
 		"source": "NVIDIA",
@@ -2287,6 +2266,13 @@
 		"source": "xAI",
 		"date": "2026-05-29T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "holaOS 开源 AI agent 工作空间，支持 Claude Code 和 Codex",
+		"url": "https://github.com/holaboss-ai/holaOS",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T12:24:22Z",
+		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
@@ -2562,13 +2548,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "hugohe3/ppt-master 开源 AI 生成原生 PowerPoint 文档工具",
-		"url": "https://github.com/hugohe3/ppt-master",
-		"source": "GitHub Trending",
-		"date": "2026-05-27T12:24:31Z",
-		"group": "gh"
-	},
-	{
 		"title": "Mistral 发布物理 AI，加速工程计算",
 		"url": "https://mistral.ai/news/introducing-physics-ai-at-mistral/",
 		"source": "Mistral",
@@ -2602,6 +2581,13 @@
 		"source": "Anthropic Research",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Lightningpixel 开源 Modly 桌面应用，用本地 AI 从图像生成 3D 模型",
+		"url": "https://github.com/lightningpixel/modly",
+		"source": "GitHub Trending",
+		"date": "2026-05-22T13:41:55Z",
+		"group": "gh"
 	},
 	{
 		"title": "Mistral 发布 Mistral Medium 3.5",
