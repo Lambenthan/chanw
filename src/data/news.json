@@ -1,51 +1,121 @@
 [
 	{
-		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T18:49:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T18:48:59Z",
-		"group": "gh"
-	},
-	{
 		"title": "stablyai 开源 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T18:48:32Z",
+		"date": "2026-08-13T01:09:47Z",
 		"group": "gh"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T18:44:26Z",
+		"date": "2026-08-13T01:05:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T01:04:18Z",
 		"group": "gh"
 	},
 	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T18:43:01Z",
+		"date": "2026-08-13T01:02:47Z",
 		"group": "gh"
 	},
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
+		"title": "embabel 开源 Em-BAY-bel Agent 框架，面向 JVM 的 agent 开发工具",
+		"url": "https://github.com/embabel/embabel-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T18:39:43Z",
+		"date": "2026-08-13T00:23:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T00:18:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T00:14:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T00:07:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T00:06:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T00:05:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "NVIDIA NeMo 开源 Switchyard",
 		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
 		"source": "GitHub Trending",
-		"date": "2026-08-12T18:27:55Z",
+		"date": "2026-08-13T00:02:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T22:45:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cloudflare 开源 agent 计算机工具 Computer",
+		"url": "https://github.com/cloudflare/computer",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T21:48:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
+		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+		"source": "NVIDIA",
+		"date": "2026-08-12T19:52:44.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T19:35:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T19:16:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
+		"url": "https://github.com/drawdb-io/drawdb",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T19:01:54Z",
 		"group": "gh"
 	},
 	{
@@ -56,46 +126,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T17:48:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T17:23:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T17:09:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T17:05:03Z",
-		"group": "gh"
-	},
-	{
 		"title": "Allen AI 推出 OlmoEarth 嵌入自定义导出功能",
 		"url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-12T16:14:36.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T16:07:56Z",
-		"group": "gh"
 	},
 	{
 		"title": "reverse-skill 发布安全研究技能路由包",
@@ -133,6 +168,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "Liquid AI 发布 LFM2.5-VL-3B 边缘视觉模型",
+		"url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-12T14:00:51.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "MediaCrawler 开源多平台社交媒体内容爬虫工具",
 		"url": "https://github.com/NanmiCoder/MediaCrawler",
 		"source": "GitHub Trending",
@@ -140,25 +182,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "Cloudflare 开源 agent 计算机工具 Computer",
-		"url": "https://github.com/cloudflare/computer",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T10:44:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
-		"url": "https://github.com/drawdb-io/drawdb",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T08:08:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "embabel 开源 Em-BAY-bel Agent 框架，面向 JVM 的 agent 开发工具",
-		"url": "https://github.com/embabel/embabel-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T08:02:50Z",
-		"group": "gh"
+		"title": "NVIDIA 发布 Spectrum Six 网络方案",
+		"url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+		"source": "NVIDIA",
+		"date": "2026-08-12T04:11:20.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 发布 AI Factory Compute 方案",
@@ -175,24 +203,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
-		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-		"source": "NVIDIA",
-		"date": "2026-08-11T21:25:32.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
 		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-11T19:48:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T15:53:23Z",
 		"group": "gh"
 	},
 	{
@@ -774,13 +788,6 @@
 		"url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
 		"source": "NVIDIA",
 		"date": "2026-07-21T17:51:18.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Spectrum Six 网络方案",
-		"url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-		"source": "NVIDIA",
-		"date": "2026-07-21T17:29:29.000Z",
 		"group": "labs"
 	},
 	{
