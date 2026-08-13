@@ -3,35 +3,91 @@
 		"title": "stablyai 开源 Orca 并行 agent 开发环境",
 		"url": "https://github.com/stablyai/orca",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T01:09:47Z",
+		"date": "2026-08-13T07:12:20Z",
 		"group": "gh"
 	},
 	{
-		"title": "goauthentik 开源 authentik 身份认证平台",
-		"url": "https://github.com/goauthentik/authentik",
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T01:05:44Z",
+		"date": "2026-08-13T07:11:55Z",
 		"group": "gh"
 	},
 	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
+		"url": "https://github.com/paperclipai/paperclip",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T01:04:18Z",
+		"date": "2026-08-13T07:11:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T07:10:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T07:09:01Z",
 		"group": "gh"
 	},
 	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T01:02:47Z",
+		"date": "2026-08-13T07:05:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "RAGFlow 开源检索增强生成引擎",
+		"url": "https://github.com/infiniflow/ragflow",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T06:59:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T06:49:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T04:50:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "goauthentik 开源 authentik 身份认证平台",
+		"url": "https://github.com/goauthentik/authentik",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T04:14:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T04:01:48Z",
 		"group": "gh"
 	},
 	{
 		"title": "embabel 开源 Em-BAY-bel Agent 框架，面向 JVM 的 agent 开发工具",
 		"url": "https://github.com/embabel/embabel-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T00:23:50Z",
+		"date": "2026-08-13T03:01:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "LocalSend 开源跨平台文件传输工具更新",
+		"url": "https://github.com/localsend/localsend",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T01:31:25Z",
 		"group": "gh"
 	},
 	{
@@ -42,31 +98,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T00:14:21Z",
-		"group": "gh"
-	},
-	{
 		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
 		"url": "https://github.com/firecrawl/pdf-inspector",
 		"source": "GitHub Trending",
 		"date": "2026-08-13T00:07:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "paperclipai 开源 Paperclip 企业 agent 管理工具",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T00:06:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T00:05:24Z",
 		"group": "gh"
 	},
 	{
@@ -77,11 +112,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T22:45:36Z",
-		"group": "gh"
+		"title": "Anthropic 发布多智能体系统模式与问题研究",
+		"url": "https://www.anthropic.com/research/multiagent-systems",
+		"source": "Anthropic Research",
+		"date": "2026-08-13T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Cloudflare 开源 agent 计算机工具 Computer",
@@ -96,20 +131,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-12T19:52:44.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T19:35:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T19:16:58Z",
-		"group": "gh"
 	},
 	{
 		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
@@ -154,13 +175,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "RAGFlow 开源检索增强生成引擎",
-		"url": "https://github.com/infiniflow/ragflow",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T14:46:25Z",
-		"group": "gh"
-	},
-	{
 		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
 		"url": "https://github.com/virgiliojr94/book-to-skill",
 		"source": "GitHub Trending",
@@ -194,13 +208,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-12T00:38:21.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "LocalSend 开源跨平台文件传输工具更新",
-		"url": "https://github.com/localsend/localsend",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T21:48:29Z",
-		"group": "gh"
 	},
 	{
 		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
@@ -1610,6 +1617,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
+		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+		"source": "Anthropic Research",
+		"date": "2026-06-26T23:50:17.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 与 HPE 合作推出 AI Factory Agentic Enterprise",
 		"url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
 		"source": "NVIDIA",
@@ -1719,13 +1733,6 @@
 		"url": "https://openai.com/index/introducing-gpt-live/",
 		"source": "OpenAI",
 		"date": "2026-06-26T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
-		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-		"source": "Anthropic Research",
-		"date": "2026-06-26T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
