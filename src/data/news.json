@@ -1,72 +1,135 @@
 [
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T12:40:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T12:39:34Z",
+		"date": "2026-08-13T18:51:39Z",
 		"group": "gh"
 	},
 	{
 		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
 		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T12:37:38Z",
+		"date": "2026-08-13T18:49:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T18:45:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T18:42:40Z",
 		"group": "gh"
 	},
 	{
 		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
 		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T12:33:52Z",
+		"date": "2026-08-13T18:35:38Z",
 		"group": "gh"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T12:21:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "RAGFlow 开源检索增强生成引擎",
-		"url": "https://github.com/infiniflow/ragflow",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T12:17:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cloudflare 开源 agent 计算机工具 Computer",
-		"url": "https://github.com/cloudflare/computer",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T11:47:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "Ladybird 开源独立网页浏览器",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T10:56:29Z",
+		"date": "2026-08-13T18:35:31Z",
 		"group": "gh"
 	},
 	{
 		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
 		"url": "https://github.com/Comfy-Org/ComfyUI",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T10:42:47Z",
+		"date": "2026-08-13T18:25:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 开源 Agent Skills 公共仓库",
+		"url": "https://github.com/anthropics/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T18:09:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA NeMo 开源 Switchyard",
+		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T18:04:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T17:37:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T17:32:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T17:25:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "reverse-skill 发布安全研究技能路由包",
+		"url": "https://github.com/zhaoxuya520/reverse-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T17:18:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 联合发布 Strands Agents、LeRobot 与 Storage Buckets 一站式数据循环方案",
+		"url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-13T17:16:04.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
+		"url": "https://github.com/drawdb-io/drawdb",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T17:10:29Z",
 		"group": "gh"
 	},
 	{
 		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T07:25:52Z",
+		"date": "2026-08-13T16:16:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cloudflare 开源 agent 计算机工具 Computer",
+		"url": "https://github.com/cloudflare/computer",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T15:43:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "RAGFlow 开源检索增强生成引擎",
+		"url": "https://github.com/infiniflow/ragflow",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T14:18:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ladybird 开源独立网页浏览器",
+		"url": "https://github.com/LadybirdBrowser/ladybird",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T14:00:36Z",
 		"group": "gh"
 	},
 	{
@@ -84,23 +147,23 @@
 		"group": "gh"
 	},
 	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T00:07:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA NeMo 开源 Switchyard",
-		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T00:02:54Z",
-		"group": "gh"
+		"title": "DeepMind 发布 Gemini 3.7 Flash",
+		"url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+		"source": "DeepMind",
+		"date": "2026-08-13T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布多智能体系统模式与问题研究",
 		"url": "https://www.anthropic.com/research/multiagent-systems",
 		"source": "Anthropic Research",
+		"date": "2026-08-13T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 分享复现 2,200 篇 ICML 论文的经验",
+		"url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+		"source": "Hugging Face Blog",
 		"date": "2026-08-13T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -112,20 +175,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
-		"url": "https://github.com/drawdb-io/drawdb",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T19:01:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
-		"url": "https://github.com/google/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T18:27:18Z",
-		"group": "gh"
-	},
-	{
 		"title": "Allen AI 推出 OlmoEarth 嵌入自定义导出功能",
 		"url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
 		"source": "Hugging Face Blog",
@@ -133,25 +182,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T16:06:45Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepMind 推出手语转文字模型 SL2T",
 		"url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
 		"source": "DeepMind",
 		"date": "2026-08-12T15:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T14:24:33Z",
-		"group": "gh"
 	},
 	{
 		"title": "Liquid AI 发布 LFM2.5-VL-3B 边缘视觉模型",
@@ -271,13 +306,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-07T22:42:33.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 开源 Agent Skills 公共仓库",
-		"url": "https://github.com/anthropics/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-07T17:14:15Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 更新 Fable 5 生物学安全防护",
@@ -562,13 +590,6 @@
 	{
 		"title": "OpenAI 阐述全栈式 AI 发展路径",
 		"url": "https://openai.com/index/building-abundant-intelligence",
-		"source": "OpenAI",
-		"date": "2026-07-29T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 通过两项设置将 GPT-5.6 在 ARC-AGI-3 上的得分提升三倍",
-		"url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
 		"source": "OpenAI",
 		"date": "2026-07-29T10:00:00.000Z",
 		"group": "labs"
@@ -1565,20 +1586,6 @@
 		"url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
 		"source": "DeepMind",
 		"date": "2026-06-30T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 模型页面展示社区所有评测结果",
-		"url": "https://huggingface.co/blog/eee-community-evals",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-30T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Allen AI 发布 DiScoFormer 跨分布密度与分数 Transformer",
-		"url": "https://huggingface.co/blog/allenai/discoformer",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-29T18:02:48.000Z",
 		"group": "labs"
 	},
 	{
@@ -2863,6 +2870,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "DeepMind 利用 Co-Scientist 识别新发传染病分子开关",
+		"url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+		"source": "DeepMind",
+		"date": "2026-05-19T10:30:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 与 Calico 合作将 Co-Scientist 用于衰老研究",
 		"url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
 		"source": "DeepMind",
@@ -2886,13 +2900,6 @@
 	{
 		"title": "DeepMind 利用 Co-Scientist 发现逆转细胞衰老的遗传因子",
 		"url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-		"source": "DeepMind",
-		"date": "2026-05-19T10:30:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 利用 Co-Scientist 识别新发传染病分子开关",
-		"url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
 		"source": "DeepMind",
 		"date": "2026-05-19T10:30:00.000Z",
 		"group": "labs"
