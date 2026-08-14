@@ -1,51 +1,86 @@
 [
 	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T07:03:36Z",
+		"date": "2026-08-14T12:44:25Z",
 		"group": "gh"
 	},
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T06:54:00Z",
+		"date": "2026-08-14T12:38:51Z",
 		"group": "gh"
 	},
 	{
 		"title": "RAGFlow 开源检索增强生成引擎",
 		"url": "https://github.com/infiniflow/ragflow",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T06:52:26Z",
+		"date": "2026-08-14T12:22:29Z",
 		"group": "gh"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T06:21:17Z",
+		"date": "2026-08-14T12:20:58Z",
 		"group": "gh"
 	},
 	{
 		"title": "Ladybird 开源独立网页浏览器",
 		"url": "https://github.com/LadybirdBrowser/ladybird",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T06:06:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA NeMo 开源 Switchyard",
-		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T05:34:07Z",
+		"date": "2026-08-14T12:14:19Z",
 		"group": "gh"
 	},
 	{
 		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
 		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T03:25:58Z",
+		"date": "2026-08-14T12:13:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
+		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T12:12:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T12:06:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cloudflare 开源 agent 计算机工具 Computer",
+		"url": "https://github.com/cloudflare/computer",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T11:25:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "RustDesk 开源远程桌面应用，支持自托管",
+		"url": "https://github.com/rustdesk/rustdesk",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T10:52:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T09:01:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA NeMo 开源 Switchyard",
+		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T08:04:22Z",
 		"group": "gh"
 	},
 	{
@@ -56,20 +91,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T01:37:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T01:12:56Z",
-		"group": "gh"
-	},
-	{
 		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
@@ -77,24 +98,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
+		"title": "Cursor 发布插件规范及官方插件",
+		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T23:17:44Z",
+		"date": "2026-08-13T22:02:02Z",
 		"group": "gh"
 	},
 	{
-		"title": "altic-dev 开源 FluidVoice macOS 听写应用",
-		"url": "https://github.com/altic-dev/FluidVoice",
+		"title": "GitHub 发布 spec-kit 规范驱动开发工具包",
+		"url": "https://github.com/github/spec-kit",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T22:39:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T21:23:18Z",
+		"date": "2026-08-13T21:56:12Z",
 		"group": "gh"
 	},
 	{
@@ -105,31 +119,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T19:44:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 开源 Agent Skills 公共仓库",
-		"url": "https://github.com/anthropics/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T18:09:56Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
 		"url": "https://github.com/google/skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-13T17:32:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "reverse-skill 发布安全研究技能路由包",
-		"url": "https://github.com/zhaoxuya520/reverse-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T17:18:33Z",
 		"group": "gh"
 	},
 	{
@@ -138,20 +131,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-13T17:16:04.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "drawdb-io 开源免费在线数据库图表编辑器与 SQL 生成器",
-		"url": "https://github.com/drawdb-io/drawdb",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T17:10:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cloudflare 开源 agent 计算机工具 Computer",
-		"url": "https://github.com/cloudflare/computer",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T15:43:11Z",
-		"group": "gh"
 	},
 	{
 		"title": "DeepMind 发布 Gemini 3.7 Flash",
@@ -180,6 +159,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-13T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "denoland 开源 celld 自托管分布式 Durable Objects",
+		"url": "https://github.com/denoland/celld",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T22:54:29Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
@@ -252,10 +238,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
-		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+		"title": "citrolabs 开源 Ego Lite 浏览器，专为 AI agent 自动化设计",
+		"url": "https://github.com/citrolabs/ego-lite",
 		"source": "GitHub Trending",
-		"date": "2026-08-11T12:12:06Z",
+		"date": "2026-08-11T04:47:29Z",
 		"group": "gh"
 	},
 	{
@@ -348,13 +334,6 @@
 		"source": "DeepMind",
 		"date": "2026-08-06T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "agency-agents 开源多智能体代理集合",
-		"url": "https://github.com/msitarzewski/agency-agents",
-		"source": "GitHub Trending",
-		"date": "2026-08-06T13:29:47Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Open World Models 物理 AI",
@@ -1939,6 +1918,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "DeepSeek 发布 Awesome DeepSeek Agent 资源列表",
+		"url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T01:24:37Z",
+		"group": "gh"
+	},
+	{
 		"title": "Google 发表 AMIE 医疗 AI 管理慢性病研究",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
 		"source": "Google AI",
@@ -2105,13 +2091,6 @@
 		"source": "xAI",
 		"date": "2026-06-09T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "kepano 开源 Obsidian Skills，提供 agent 使用 Obsidian CLI 和 Markdown 等格式的技能",
-		"url": "https://github.com/kepano/obsidian-skills",
-		"source": "GitHub Trending",
-		"date": "2026-06-08T16:12:01Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 在 CVPR 发布抓取、驾驶与 Agent 训练研究",
@@ -2317,15 +2296,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 加速网络防御生态建设",
-		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+		"title": "OpenAI 推出 AI 精神健康研究资助项目",
+		"url": "https://openai.com/index/ai-mental-health-research-grants/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出 AI 精神健康研究资助项目",
-		"url": "https://openai.com/index/ai-mental-health-research-grants/",
+		"title": "OpenAI 加速网络防御生态建设",
+		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
