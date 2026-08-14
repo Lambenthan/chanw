@@ -1,44 +1,72 @@
 [
 	{
-		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
-		"url": "https://github.com/esengine/DeepSeek-Reasonix",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T01:08:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T01:04:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T00:51:06Z",
-		"group": "gh"
-	},
-	{
 		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
 		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T00:39:05Z",
+		"date": "2026-08-14T07:03:36Z",
 		"group": "gh"
 	},
 	{
-		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
-		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
+		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T23:55:28Z",
+		"date": "2026-08-14T06:54:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "RAGFlow 开源检索增强生成引擎",
+		"url": "https://github.com/infiniflow/ragflow",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T06:52:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T06:21:17Z",
 		"group": "gh"
 	},
 	{
 		"title": "Ladybird 开源独立网页浏览器",
 		"url": "https://github.com/LadybirdBrowser/ladybird",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T23:46:11Z",
+		"date": "2026-08-14T06:06:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA NeMo 开源 Switchyard",
+		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T05:34:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T03:25:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T02:34:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T01:37:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
+		"url": "https://github.com/Comfy-Org/ComfyUI",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T01:12:56Z",
 		"group": "gh"
 	},
 	{
@@ -63,24 +91,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "NVIDIA NeMo 开源 Switchyard",
-		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T22:13:50Z",
-		"group": "gh"
-	},
-	{
 		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
 		"url": "https://github.com/firecrawl/pdf-inspector",
 		"source": "GitHub Trending",
 		"date": "2026-08-13T21:23:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T21:09:38Z",
 		"group": "gh"
 	},
 	{
@@ -102,13 +116,6 @@
 		"url": "https://github.com/anthropics/skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-13T18:09:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T17:37:36Z",
 		"group": "gh"
 	},
 	{
@@ -144,13 +151,6 @@
 		"url": "https://github.com/cloudflare/computer",
 		"source": "GitHub Trending",
 		"date": "2026-08-13T15:43:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "RAGFlow 开源检索增强生成引擎",
-		"url": "https://github.com/infiniflow/ragflow",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T14:18:33Z",
 		"group": "gh"
 	},
 	{
@@ -1925,15 +1925,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
-		"url": "https://openai.com/index/introducing-life-sci-bench/",
+		"title": "OpenAI 推出 Genebench Pro 评测基准",
+		"url": "https://openai.com/index/introducing-genebench-pro/",
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出 Genebench Pro 评测基准",
-		"url": "https://openai.com/index/introducing-genebench-pro/",
+		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
+		"url": "https://openai.com/index/introducing-life-sci-bench/",
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
@@ -2324,6 +2324,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 推出 AI 精神健康研究资助项目",
+		"url": "https://openai.com/index/ai-mental-health-research-grants/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 更新安全漏洞赏金计划",
 		"url": "https://openai.com/index/safety-bug-bounty/",
 		"source": "OpenAI",
@@ -2382,13 +2389,6 @@
 	{
 		"title": "OpenAI 优化 ChatGPT",
 		"url": "https://openai.com/index/optimizing-chatgpt/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推出 AI 精神健康研究资助项目",
-		"url": "https://openai.com/index/ai-mental-health-research-grants/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -2702,6 +2702,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 Indqa",
+		"url": "https://openai.com/index/introducing-indqa/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布理论物理学新成果",
+		"url": "https://openai.com/index/new-result-theoretical-physics/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 公布模型规范制定方法",
 		"url": "https://openai.com/index/our-approach-to-the-model-spec/",
 		"source": "OpenAI",
@@ -2814,22 +2828,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布理论物理学新成果",
-		"url": "https://openai.com/index/new-result-theoretical-physics/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 将单减振幅方法扩展至引力子研究",
 		"url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Indqa",
-		"url": "https://openai.com/index/introducing-indqa/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
