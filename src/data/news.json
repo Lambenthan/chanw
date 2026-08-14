@@ -1,44 +1,142 @@
 [
 	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T12:44:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T12:38:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "RAGFlow 开源检索增强生成引擎",
-		"url": "https://github.com/infiniflow/ragflow",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T12:22:29Z",
+		"date": "2026-08-14T18:42:20Z",
 		"group": "gh"
 	},
 	{
 		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
 		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T12:20:58Z",
+		"date": "2026-08-14T18:40:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "pingdotgg 开源 t3code 项目",
+		"url": "https://github.com/pingdotgg/t3code",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T18:39:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T18:35:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA NeMo 开源 Switchyard",
+		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T18:26:18Z",
 		"group": "gh"
 	},
 	{
 		"title": "Ladybird 开源独立网页浏览器",
 		"url": "https://github.com/LadybirdBrowser/ladybird",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T12:14:19Z",
+		"date": "2026-08-14T18:16:54Z",
 		"group": "gh"
 	},
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T12:13:24Z",
+		"date": "2026-08-14T18:07:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T18:05:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T18:02:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T17:55:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "Manim 开源动画引擎更新",
+		"url": "https://github.com/3b1b/manim",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T17:42:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
+		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+		"source": "NVIDIA",
+		"date": "2026-08-14T17:42:05.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T17:18:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "denoland 开源 celld 自托管分布式 Durable Objects",
+		"url": "https://github.com/denoland/celld",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T17:11:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "RustDesk 开源远程桌面应用，支持自托管",
+		"url": "https://github.com/rustdesk/rustdesk",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T17:04:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitHub 发布 spec-kit 规范驱动开发工具包",
+		"url": "https://github.com/github/spec-kit",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T16:44:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "citrolabs 开源 Ego Lite 浏览器，专为 AI agent 自动化设计",
+		"url": "https://github.com/citrolabs/ego-lite",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T14:38:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "RAGFlow 开源检索增强生成引擎",
+		"url": "https://github.com/infiniflow/ragflow",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T14:26:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cloudflare 开源 agent 计算机工具 Computer",
+		"url": "https://github.com/cloudflare/computer",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T14:18:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "ToolJet 开源企业应用生成平台 ToolJet AI",
+		"url": "https://github.com/ToolJet/ToolJet",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T14:11:22Z",
 		"group": "gh"
 	},
 	{
@@ -49,52 +147,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T12:06:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cloudflare 开源 agent 计算机工具 Computer",
-		"url": "https://github.com/cloudflare/computer",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T11:25:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "RustDesk 开源远程桌面应用，支持自托管",
-		"url": "https://github.com/rustdesk/rustdesk",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T10:52:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T09:01:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA NeMo 开源 Switchyard",
-		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T08:04:22Z",
-		"group": "gh"
-	},
-	{
 		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
 		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
 		"date": "2026-08-14T02:34:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T23:26:11Z",
 		"group": "gh"
 	},
 	{
@@ -105,25 +161,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "GitHub 发布 spec-kit 规范驱动开发工具包",
-		"url": "https://github.com/github/spec-kit",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T21:56:12Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 Maxine 通信 AI 平台",
 		"url": "https://blogs.nvidia.com/blog/maxine-reinvents-communication-ai/",
 		"source": "NVIDIA",
 		"date": "2026-08-13T20:49:46.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
-		"url": "https://github.com/google/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T17:32:58Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 联合发布 Strands Agents、LeRobot 与 Storage Buckets 一站式数据循环方案",
@@ -158,20 +200,6 @@
 		"url": "https://huggingface.co/blog/icml-2026-open-reproductions",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-13T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "denoland 开源 celld 自托管分布式 Durable Objects",
-		"url": "https://github.com/denoland/celld",
-		"source": "GitHub Trending",
-		"date": "2026-08-12T22:54:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
-		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-		"source": "NVIDIA",
-		"date": "2026-08-12T19:52:44.000Z",
 		"group": "labs"
 	},
 	{
@@ -217,13 +245,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Manim 开源动画引擎更新",
-		"url": "https://github.com/3b1b/manim",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T14:41:19Z",
-		"group": "gh"
-	},
-	{
 		"title": "IBM Research 提出 ALTK-Evolve 方法，用更少 token 实现类似 ACE 的效果",
 		"url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
 		"source": "Hugging Face Blog",
@@ -236,13 +257,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-11T13:17:06.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "citrolabs 开源 Ego Lite 浏览器，专为 AI agent 自动化设计",
-		"url": "https://github.com/citrolabs/ego-lite",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T04:47:29Z",
-		"group": "gh"
 	},
 	{
 		"title": "Google 发布 AMIE 实时临床视频咨询 AI 系统",
@@ -264,6 +278,13 @@
 		"source": "Anthropic News",
 		"date": "2026-08-10T19:00:15.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "OpenCut 开源 CapCut 替代视频编辑工具",
+		"url": "https://github.com/OpenCut-app/OpenCut",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T16:38:36Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Magpie TTS 低延迟多语言语音模型",
@@ -598,6 +619,13 @@
 		"title": "DeepMind 在 Google Flow Music 中发布 Lyria 3.5",
 		"url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
 		"source": "DeepMind",
+		"date": "2026-07-29T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Voice Think Fast 2.0",
+		"url": "https://x.ai/news/grok-voice-think-fast-2",
+		"source": "xAI",
 		"date": "2026-07-29T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1561,13 +1589,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 博客探讨模型专业化趋势",
-		"url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-30T14:39:11.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布分离信号与噪声的编码评估方法",
 		"url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
 		"source": "OpenAI",
@@ -2296,6 +2317,48 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布儿童安全蓝图",
+		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
+		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 面向青少年与家长推出 AI 素养资源",
+		"url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 更新模型规范新增青少年保护条款",
+		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 优化 ChatGPT",
+		"url": "https://openai.com/index/optimizing-chatgpt/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布年龄预测研究",
+		"url": "https://openai.com/index/building-towards-age-prediction/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 推出 AI 精神健康研究资助项目",
 		"url": "https://openai.com/index/ai-mental-health-research-grants/",
 		"source": "OpenAI",
@@ -2326,48 +2389,6 @@
 	{
 		"title": "OpenAI 推进内容溯源技术",
 		"url": "https://openai.com/index/advancing-content-provenance/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 更新青少年安全政策与 GPT 开源防护措施",
-		"url": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布儿童安全蓝图",
-		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布年龄预测研究",
-		"url": "https://openai.com/index/building-towards-age-prediction/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 面向青少年与家长推出 AI 素养资源",
-		"url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 更新模型规范新增青少年保护条款",
-		"url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 优化 ChatGPT",
-		"url": "https://openai.com/index/optimizing-chatgpt/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
