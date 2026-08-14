@@ -1,51 +1,100 @@
 [
 	{
-		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
-		"url": "https://github.com/virgiliojr94/book-to-skill",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T18:51:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T18:49:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
-		"url": "https://github.com/firecrawl/pdf-inspector",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T18:45:57Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepSeek-Reasonix 发布终端 AI 编程 agent，优化前缀缓存稳定性",
 		"url": "https://github.com/esengine/DeepSeek-Reasonix",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T18:42:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T18:35:38Z",
+		"date": "2026-08-14T01:08:43Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T18:35:31Z",
+		"date": "2026-08-14T01:04:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T00:51:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T00:39:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "Comfy-Org 开源 ComfyUI 扩散模型图形化界面",
 		"url": "https://github.com/Comfy-Org/ComfyUI",
 		"source": "GitHub Trending",
-		"date": "2026-08-13T18:25:16Z",
+		"date": "2026-08-13T23:55:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ladybird 开源独立网页浏览器",
+		"url": "https://github.com/LadybirdBrowser/ladybird",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T23:46:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T23:26:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T23:17:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "altic-dev 开源 FluidVoice macOS 听写应用",
+		"url": "https://github.com/altic-dev/FluidVoice",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T22:39:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA NeMo 开源 Switchyard",
+		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T22:13:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "Firecrawl 开源 PDF 检查与分类库 pdf-inspector",
+		"url": "https://github.com/firecrawl/pdf-inspector",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T21:23:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T21:09:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Maxine 通信 AI 平台",
+		"url": "https://blogs.nvidia.com/blog/maxine-reinvents-communication-ai/",
+		"source": "NVIDIA",
+		"date": "2026-08-13T20:49:46.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "book-to-skill 开源将技术书 PDF 转为 Claude Code skill 的工具",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T19:44:34Z",
 		"group": "gh"
 	},
 	{
@@ -53,13 +102,6 @@
 		"url": "https://github.com/anthropics/skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-13T18:09:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA NeMo 开源 Switchyard",
-		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T18:04:32Z",
 		"group": "gh"
 	},
 	{
@@ -74,13 +116,6 @@
 		"url": "https://github.com/google/skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-13T17:32:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T17:25:33Z",
 		"group": "gh"
 	},
 	{
@@ -105,13 +140,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T16:16:48Z",
-		"group": "gh"
-	},
-	{
 		"title": "Cloudflare 开源 agent 计算机工具 Computer",
 		"url": "https://github.com/cloudflare/computer",
 		"source": "GitHub Trending",
@@ -126,30 +154,16 @@
 		"group": "gh"
 	},
 	{
-		"title": "Ladybird 开源独立网页浏览器",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T14:00:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "altic-dev 开源 FluidVoice macOS 听写应用",
-		"url": "https://github.com/altic-dev/FluidVoice",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T06:25:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T04:50:37Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepMind 发布 Gemini 3.7 Flash",
 		"url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
 		"source": "DeepMind",
+		"date": "2026-08-13T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google Sheets 推出 Sheets canvas 交互式仪表盘功能",
+		"url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+		"source": "Google AI",
 		"date": "2026-08-13T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1911,15 +1925,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出 Genebench Pro 评测基准",
-		"url": "https://openai.com/index/introducing-genebench-pro/",
+		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
+		"url": "https://openai.com/index/introducing-life-sci-bench/",
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
-		"url": "https://openai.com/index/introducing-life-sci-bench/",
+		"title": "OpenAI 推出 Genebench Pro 评测基准",
+		"url": "https://openai.com/index/introducing-genebench-pro/",
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
@@ -2303,6 +2317,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 加速网络防御生态建设",
+		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 更新安全漏洞赏金计划",
+		"url": "https://openai.com/index/safety-bug-bounty/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 在 ChatGPT 中推出 Lockdown Mode 与风险标签",
 		"url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
 		"source": "OpenAI",
@@ -2429,13 +2457,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 加速网络防御生态建设",
-		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布开放权重大模型最坏情况风险评估方法",
 		"url": "https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms/",
 		"source": "OpenAI",
@@ -2480,13 +2501,6 @@
 	{
 		"title": "OpenAI 发布 GPT-5.1 Codex Max 系统卡",
 		"url": "https://openai.com/index/gpt-5-1-codex-max-system-card/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 更新安全漏洞赏金计划",
-		"url": "https://openai.com/index/safety-bug-bounty/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -2681,6 +2695,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 发布 GPT-5，降低蛋白质合成计算成本",
+		"url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/",
+		"source": "OpenAI",
+		"date": "2026-05-19T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 公布模型规范制定方法",
 		"url": "https://openai.com/index/our-approach-to-the-model-spec/",
 		"source": "OpenAI",
@@ -2774,13 +2795,6 @@
 	{
 		"title": "OpenAI 发布 Instruction Hierarchy Challenge",
 		"url": "https://openai.com/index/instruction-hierarchy-challenge/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5，降低蛋白质合成计算成本",
-		"url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/",
 		"source": "OpenAI",
 		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
@@ -2954,15 +2968,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5.2 聚焦科学和数学推理",
-		"url": "https://openai.com/index/gpt-5-2-for-science-and-math/",
+		"title": "OpenAI 发布 GPT-5.2 Codex",
+		"url": "https://openai.com/index/introducing-gpt-5-2-codex/",
 		"source": "OpenAI",
 		"date": "2026-05-18T02:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 GPT-5.2 Codex",
-		"url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+		"title": "OpenAI 发布 GPT-5.2 聚焦科学和数学推理",
+		"url": "https://openai.com/index/gpt-5-2-for-science-and-math/",
 		"source": "OpenAI",
 		"date": "2026-05-18T02:00:00.000Z",
 		"group": "labs"
