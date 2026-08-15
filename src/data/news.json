@@ -1,16 +1,44 @@
 [
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T12:18:36Z",
-		"group": "gh"
-	},
-	{
 		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
 		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T12:16:58Z",
+		"date": "2026-08-15T18:16:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "Soup 开源 LLM 微调工具，通过 YAML 配置在 4GB 笔记本 GPU 上训练 8B 模型",
+		"url": "https://github.com/MakazhanAlpamys/Soup",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T17:19:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T16:49:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T16:40:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T16:03:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 agent 管理应用 Paperclip",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T15:15:39Z",
 		"group": "gh"
 	},
 	{
@@ -28,24 +56,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "paperclipai 开源 agent 管理应用 Paperclip",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T09:23:08Z",
-		"group": "gh"
-	},
-	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
 		"date": "2026-08-15T02:41:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T02:28:27Z",
 		"group": "gh"
 	},
 	{
@@ -88,13 +102,6 @@
 		"url": "https://github.com/google/skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-14T19:19:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T19:00:52Z",
 		"group": "gh"
 	},
 	{
@@ -173,6 +180,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-13T17:16:04.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Cordiverse 开源 Cordis 时空组合性元框架",
+		"url": "https://github.com/cordiverse/cordis",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T13:48:22Z",
+		"group": "gh"
 	},
 	{
 		"title": "HKUDS 开源 CLI-Anything，将任意软件接入 agent 控制",
@@ -793,6 +807,13 @@
 	{
 		"title": "Anthropic 上线经济指数查询功能",
 		"url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+		"source": "Anthropic News",
+		"date": "2026-07-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公布经济未来研究基金研究议程",
+		"url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
 		"source": "Anthropic News",
 		"date": "2026-07-22T00:00:00.000Z",
 		"group": "labs"
