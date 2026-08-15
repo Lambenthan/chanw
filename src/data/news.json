@@ -1,23 +1,37 @@
 [
 	{
-		"title": "pingdotgg 开源 t3code 项目",
-		"url": "https://github.com/pingdotgg/t3code",
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T00:39:40Z",
+		"date": "2026-08-15T06:09:09Z",
 		"group": "gh"
 	},
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
+		"title": "pingdotgg 开源 t3code 项目",
+		"url": "https://github.com/pingdotgg/t3code",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T00:28:10Z",
+		"date": "2026-08-15T04:12:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T02:41:29Z",
 		"group": "gh"
 	},
 	{
 		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
 		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T00:23:55Z",
+		"date": "2026-08-15T02:28:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T00:44:14Z",
 		"group": "gh"
 	},
 	{
@@ -42,13 +56,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T21:50:13Z",
-		"group": "gh"
-	},
-	{
 		"title": "Manim 开源动画引擎更新",
 		"url": "https://github.com/3b1b/manim",
 		"source": "GitHub Trending",
@@ -60,13 +67,6 @@
 		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
 		"date": "2026-08-14T21:28:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T21:04:43Z",
 		"group": "gh"
 	},
 	{
@@ -1145,6 +1145,13 @@
 		"url": "https://www.anthropic.com/news/golden-gate-claude",
 		"source": "Anthropic News",
 		"date": "2026-07-09T20:02:16.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 宣布 Ben Bernanke 加入顾问团队",
+		"url": "https://www.anthropic.com/news/ben-bernanke",
+		"source": "Anthropic News",
+		"date": "2026-07-09T18:07:20.000Z",
 		"group": "labs"
 	},
 	{
