@@ -1,93 +1,107 @@
 [
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T18:42:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T18:40:29Z",
-		"group": "gh"
-	},
-	{
 		"title": "pingdotgg 开源 t3code 项目",
 		"url": "https://github.com/pingdotgg/t3code",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T18:39:48Z",
+		"date": "2026-08-15T00:39:40Z",
 		"group": "gh"
 	},
 	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T18:35:00Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA NeMo 开源 Switchyard",
-		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T18:26:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "Ladybird 开源独立网页浏览器",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T18:16:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T18:07:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
-		"url": "https://github.com/google/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T18:05:11Z",
+		"date": "2026-08-15T00:28:10Z",
 		"group": "gh"
 	},
 	{
 		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
 		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T18:02:31Z",
+		"date": "2026-08-15T00:23:55Z",
 		"group": "gh"
 	},
 	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T17:55:55Z",
+		"date": "2026-08-14T22:52:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ladybird 开源独立网页浏览器",
+		"url": "https://github.com/LadybirdBrowser/ladybird",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T22:51:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA NeMo 开源 Switchyard",
+		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T22:34:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
+		"url": "https://github.com/huangruiteng/loopx",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T21:50:13Z",
 		"group": "gh"
 	},
 	{
 		"title": "Manim 开源动画引擎更新",
 		"url": "https://github.com/3b1b/manim",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T17:42:46Z",
+		"date": "2026-08-14T21:30:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T21:28:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T21:04:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T19:38:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Agent Skills 框架，面向 Google 产品与技术",
+		"url": "https://github.com/google/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T19:19:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
+		"source": "GitHub Trending",
+		"date": "2026-08-14T19:00:52Z",
 		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
 		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
 		"source": "NVIDIA",
-		"date": "2026-08-14T17:42:05.000Z",
+		"date": "2026-08-14T18:52:30.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
+		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
 		"source": "GitHub Trending",
-		"date": "2026-08-14T17:18:46Z",
+		"date": "2026-08-14T18:51:33Z",
 		"group": "gh"
 	},
 	{
@@ -147,11 +161,18 @@
 		"group": "gh"
 	},
 	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T02:34:14Z",
-		"group": "gh"
+		"title": "Anthropic 公开 Claude 文本水印技术原理",
+		"url": "https://www.anthropic.com/news/claude-text-watermark",
+		"source": "Anthropic News",
+		"date": "2026-08-14T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 发布 2026 年夏季开源模型观察报告",
+		"url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-14T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Cursor 发布插件规范及官方插件",
@@ -236,13 +257,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-12T00:38:21.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-11T19:48:56Z",
-		"group": "gh"
 	},
 	{
 		"title": "IBM Research 提出 ALTK-Evolve 方法，用更少 token 实现类似 ACE 的效果",
@@ -2317,6 +2331,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
+		"url": "https://openai.com/index/trusted-access-for-cyber/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 发布儿童安全蓝图",
 		"url": "https://openai.com/index/introducing-child-safety-blueprint/",
 		"source": "OpenAI",
@@ -2515,13 +2536,6 @@
 	{
 		"title": "OpenAI 公布 Sora Feed 设计理念",
 		"url": "https://openai.com/index/sora-feed-philosophy/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
-		"url": "https://openai.com/index/trusted-access-for-cyber/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
