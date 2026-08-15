@@ -1,16 +1,37 @@
 [
 	{
-		"title": "huangruiteng 开源 LoopX 轻量级循环引擎状态内核",
-		"url": "https://github.com/huangruiteng/loopx",
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T06:09:09Z",
+		"date": "2026-08-15T12:18:36Z",
 		"group": "gh"
 	},
 	{
-		"title": "pingdotgg 开源 t3code 项目",
-		"url": "https://github.com/pingdotgg/t3code",
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T04:12:08Z",
+		"date": "2026-08-15T12:16:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
+		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T10:06:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "citrolabs 开源 Ego Lite 浏览器，专为 AI agent 自动化设计",
+		"url": "https://github.com/citrolabs/ego-lite",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T09:56:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 agent 管理应用 Paperclip",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T09:23:08Z",
 		"group": "gh"
 	},
 	{
@@ -28,10 +49,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
+		"title": "altic-dev 开源 FluidVoice macOS 听写应用",
+		"url": "https://github.com/altic-dev/FluidVoice",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T00:44:14Z",
+		"date": "2026-08-15T00:44:54Z",
 		"group": "gh"
 	},
 	{
@@ -39,13 +60,6 @@
 		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
 		"date": "2026-08-14T22:52:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "Ladybird 开源独立网页浏览器",
-		"url": "https://github.com/LadybirdBrowser/ladybird",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T22:51:31Z",
 		"group": "gh"
 	},
 	{
@@ -67,13 +81,6 @@
 		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
 		"date": "2026-08-14T21:28:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T19:38:14Z",
 		"group": "gh"
 	},
 	{
@@ -105,38 +112,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "denoland 开源 celld 自托管分布式 Durable Objects",
-		"url": "https://github.com/denoland/celld",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T17:11:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "RustDesk 开源远程桌面应用，支持自托管",
-		"url": "https://github.com/rustdesk/rustdesk",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T17:04:14Z",
-		"group": "gh"
-	},
-	{
 		"title": "GitHub 发布 spec-kit 规范驱动开发工具包",
 		"url": "https://github.com/github/spec-kit",
 		"source": "GitHub Trending",
 		"date": "2026-08-14T16:44:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "citrolabs 开源 Ego Lite 浏览器，专为 AI agent 自动化设计",
-		"url": "https://github.com/citrolabs/ego-lite",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T14:38:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "RAGFlow 开源检索增强生成引擎",
-		"url": "https://github.com/infiniflow/ragflow",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T14:26:58Z",
 		"group": "gh"
 	},
 	{
@@ -151,13 +130,6 @@
 		"url": "https://github.com/ToolJet/ToolJet",
 		"source": "GitHub Trending",
 		"date": "2026-08-14T14:11:22Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
-		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T12:12:31Z",
 		"group": "gh"
 	},
 	{
@@ -182,6 +154,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "public-apis 更新免费 API 集合列表",
+		"url": "https://github.com/public-apis/public-apis",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T21:07:34Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 发布 Maxine 通信 AI 平台",
 		"url": "https://blogs.nvidia.com/blog/maxine-reinvents-communication-ai/",
 		"source": "NVIDIA",
@@ -194,6 +173,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-13T17:16:04.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "HKUDS 开源 CLI-Anything，将任意软件接入 agent 控制",
+		"url": "https://github.com/HKUDS/CLI-Anything",
+		"source": "GitHub Trending",
+		"date": "2026-08-13T04:30:15Z",
+		"group": "gh"
 	},
 	{
 		"title": "DeepMind 发布 Gemini 3.7 Flash",
@@ -273,6 +259,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Google DeepMind 开源 WeatherNext 天气预测模型",
+		"url": "https://github.com/google-deepmind/weathernext",
+		"source": "GitHub Trending",
+		"date": "2026-08-11T12:29:00Z",
+		"group": "gh"
+	},
+	{
 		"title": "Google 发布 AMIE 实时临床视频咨询 AI 系统",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
 		"source": "Google AI",
@@ -292,13 +285,6 @@
 		"source": "Anthropic News",
 		"date": "2026-08-10T19:00:15.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "OpenCut 开源 CapCut 替代视频编辑工具",
-		"url": "https://github.com/OpenCut-app/OpenCut",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T16:38:36Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Magpie TTS 低延迟多语言语音模型",
@@ -1960,13 +1946,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "DeepSeek 发布 Awesome DeepSeek Agent 资源列表",
-		"url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T01:24:37Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google 发表 AMIE 医疗 AI 管理慢性病研究",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
 		"source": "Google AI",
@@ -2310,13 +2289,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "holaOS 开源 AI agent 工作空间，支持 Claude Code 和 Codex",
-		"url": "https://github.com/holaboss-ai/holaOS",
-		"source": "GitHub Trending",
-		"date": "2026-05-28T12:24:22Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenAI 发布可靠第三方评估基础框架",
 		"url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations/",
 		"source": "OpenAI",
@@ -2623,13 +2595,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Lightningpixel 开源 Modly 桌面应用，用本地 AI 从图像生成 3D 模型",
-		"url": "https://github.com/lightningpixel/modly",
-		"source": "GitHub Trending",
-		"date": "2026-05-22T13:41:55Z",
-		"group": "gh"
 	},
 	{
 		"title": "Mistral 发布 Mistral Medium 3.5",
