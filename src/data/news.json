@@ -1,23 +1,51 @@
 [
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-16T00:37:31Z",
+		"date": "2026-08-16T06:25:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T06:23:25Z",
 		"group": "gh"
 	},
 	{
 		"title": "paperclipai 开源 agent 管理应用 Paperclip",
 		"url": "https://github.com/paperclipai/paperclip",
 		"source": "GitHub Trending",
-		"date": "2026-08-16T00:35:47Z",
+		"date": "2026-08-16T06:11:32Z",
 		"group": "gh"
 	},
 	{
 		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
 		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T23:09:35Z",
+		"date": "2026-08-16T04:04:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T03:55:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "citrolabs 开源 Ego Lite 浏览器，专为 AI agent 自动化设计",
+		"url": "https://github.com/citrolabs/ego-lite",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T03:28:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "altic-dev 开源 FluidVoice macOS 听写应用",
+		"url": "https://github.com/altic-dev/FluidVoice",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T00:53:02Z",
 		"group": "gh"
 	},
 	{
@@ -35,20 +63,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T16:49:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T16:40:05Z",
-		"group": "gh"
-	},
-	{
 		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
@@ -63,24 +77,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "citrolabs 开源 Ego Lite 浏览器，专为 AI agent 自动化设计",
-		"url": "https://github.com/citrolabs/ego-lite",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T09:56:46Z",
-		"group": "gh"
-	},
-	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
 		"date": "2026-08-15T02:41:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "altic-dev 开源 FluidVoice macOS 听写应用",
-		"url": "https://github.com/altic-dev/FluidVoice",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T00:44:54Z",
 		"group": "gh"
 	},
 	{
@@ -2972,20 +2972,6 @@
 		"url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
 		"source": "NVIDIA",
 		"date": "2026-05-18T17:04:59.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.2 Codex",
-		"url": "https://openai.com/index/introducing-gpt-5-2-codex/",
-		"source": "OpenAI",
-		"date": "2026-05-18T02:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5.2 聚焦科学和数学推理",
-		"url": "https://openai.com/index/gpt-5-2-for-science-and-math/",
-		"source": "OpenAI",
-		"date": "2026-05-18T02:00:00.000Z",
 		"group": "labs"
 	}
 ]
