@@ -3,14 +3,35 @@
 		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
 		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T18:16:41Z",
+		"date": "2026-08-16T00:37:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 agent 管理应用 Paperclip",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T00:35:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T23:09:35Z",
 		"group": "gh"
 	},
 	{
 		"title": "Soup 开源 LLM 微调工具，通过 YAML 配置在 4GB 笔记本 GPU 上训练 8B 模型",
 		"url": "https://github.com/MakazhanAlpamys/Soup",
 		"source": "GitHub Trending",
-		"date": "2026-08-15T17:19:01Z",
+		"date": "2026-08-15T18:54:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "Manim 开源动画引擎更新",
+		"url": "https://github.com/3b1b/manim",
+		"source": "GitHub Trending",
+		"date": "2026-08-15T18:23:32Z",
 		"group": "gh"
 	},
 	{
@@ -32,13 +53,6 @@
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
 		"date": "2026-08-15T16:03:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "paperclipai 开源 agent 管理应用 Paperclip",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T15:15:39Z",
 		"group": "gh"
 	},
 	{
@@ -70,24 +84,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T22:52:52Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA NeMo 开源 Switchyard",
 		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
 		"source": "GitHub Trending",
 		"date": "2026-08-14T22:34:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "Manim 开源动画引擎更新",
-		"url": "https://github.com/3b1b/manim",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T21:30:30Z",
 		"group": "gh"
 	},
 	{

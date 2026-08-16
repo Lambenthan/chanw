@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-15T18:20:17.788Z",
+  "fetchedAt": "2026-08-16T00:49:54.998Z",
   "items": [
     {
       "source": "github-trending",
@@ -9,7 +9,7 @@
       "url": "https://github.com/vitali87/code-graph-rag",
       "summary": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
       "category": "知识库",
-      "publishedAt": "2026-08-15T18:16:41Z",
+      "publishedAt": "2026-08-16T00:37:31Z",
       "discoveredAt": "2026-08-09T12:31:57.279Z",
       "stars": 2680,
       "repoTopics": [
@@ -42,12 +42,67 @@
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
+      "id": "a5e43b1572bfaf36",
+      "title": "paperclipai 开源 agent 管理应用 Paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "summary": "The open-source app everyone uses to manage agents at work",
+      "category": "Agent",
+      "publishedAt": "2026-08-16T00:35:47Z",
+      "discoveredAt": "2026-08-15T12:20:56.929Z",
+      "stars": 78206,
+      "repoTopics": [],
+      "owner": "paperclipai",
+      "originalTitle": "paperclipai/paperclip · The open-source app everyone uses to manage agents at work",
+      "score": 4,
+      "cn": "Paperclip 是一个开源应用，用于在工作环境中管理多个 AI agent。它提供统一的界面来部署、监控和协调 agent 任务，帮助团队提升自动化效率。该项目在 GitHub 上获得关注，适合需要集中管理 agent 的团队使用。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "844fbd0518c26ea6",
+      "title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+      "url": "https://github.com/macro-inc/macro",
+      "summary": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "category": "Agent",
+      "publishedAt": "2026-08-15T23:09:35Z",
+      "discoveredAt": "2026-08-12T12:47:18.893Z",
+      "stars": 1202,
+      "repoTopics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "all-in-one",
+        "crm",
+        "crm-system",
+        "email",
+        "linear",
+        "mcp",
+        "messaging",
+        "notes",
+        "notion",
+        "office",
+        "rust",
+        "slack",
+        "slack-alternative",
+        "startup",
+        "startup-tools",
+        "typescript",
+        "workspace"
+      ],
+      "owner": "macro-inc",
+      "originalTitle": "macro-inc/macro · Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked ",
+      "score": 4,
+      "cn": "Macro 是一个面向团队的开源统一工作空间，将邮件、聊天、文档、任务、调用、CRM 和 AI agent 整合到一个平台中，并通过 @ 符号链接和共享 AI 记忆实现跨模块协作。项目用 Rust 编写，强调在单一界面内完成团队沟通与任务管理，同时让 AI agent 能够访问全局上下文，减少信息孤岛。对于希望将 agent 能力嵌入日常协作流程的团队，Macro 提供了一种可自托管的开箱方案。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
       "id": "82f6447f851685ec",
       "title": "Soup 开源 LLM 微调工具，通过 YAML 配置在 4GB 笔记本 GPU 上训练 8B 模型",
       "url": "https://github.com/MakazhanAlpamys/Soup",
       "summary": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
       "category": "训练",
-      "publishedAt": "2026-08-15T17:19:01Z",
+      "publishedAt": "2026-08-15T18:54:34Z",
       "discoveredAt": "2026-08-15T18:16:41.596Z",
       "stars": 1553,
       "repoTopics": [
@@ -76,6 +131,28 @@
       "originalTitle": "MakazhanAlpamys/Soup · Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
       "score": 4,
       "cn": "Soup 是一个开源项目，允许开发者通过单个 YAML 配置文件微调大语言模型。其核心亮点是层流式训练技术，能够在仅有 4 GB 显存的笔记本 GPU 上完成 8B 模型的微调，大幅降低了模型定制门槛。对于资源受限的团队和个人研究者来说，这提供了一种更轻量的实验路径。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "330ec54bca59ecf0",
+      "title": "Manim 开源动画引擎更新",
+      "url": "https://github.com/3b1b/manim",
+      "summary": "Animation engine for explanatory math videos",
+      "category": "编程工具",
+      "publishedAt": "2026-08-15T18:23:32Z",
+      "discoveredAt": "2026-08-13T12:48:32.982Z",
+      "stars": 90669,
+      "repoTopics": [
+        "3b1b-videos",
+        "animation",
+        "explanatory-math-videos",
+        "python"
+      ],
+      "owner": "3b1b",
+      "originalTitle": "3b1b/manim · Animation engine for explanatory math videos",
+      "score": 3,
+      "cn": "Manim 是 3Blue1Brown 开发的数学解释视频动画引擎，通过 Python 代码驱动精确的图形和动画生成。该项目在 GitHub 上持续获得关注，近日再次登上 Trending 榜单，说明社区对其迭代和发展的认可。无论用于教学演示还是科普创作，Manim 都提供了一套完整且灵活的编程接口，让复杂的数学概念变得直观可见。"
     },
     {
       "source": "github-trending",
@@ -175,23 +252,6 @@
       "originalTitle": "cactus-compute/needle · 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "score": 4,
       "cn": "cactus-compute 在 GitHub 上开源了 Needle，一个仅有 14MB 的基础模型，专为手机、可穿戴设备、智能家居和机器人等资源受限的终端设计。模型体积虽小，但保留了 foundation model 的核心能力，让本地推理在低功耗硬件上成为可能。这一方向有望推动边缘 AI 的实用化，降低对云端算力的依赖。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "a5e43b1572bfaf36",
-      "title": "paperclipai 开源 agent 管理应用 Paperclip",
-      "url": "https://github.com/paperclipai/paperclip",
-      "summary": "The open-source app everyone uses to manage agents at work",
-      "category": "Agent",
-      "publishedAt": "2026-08-15T15:15:39Z",
-      "discoveredAt": "2026-08-15T12:20:56.929Z",
-      "stars": 78206,
-      "repoTopics": [],
-      "owner": "paperclipai",
-      "originalTitle": "paperclipai/paperclip · The open-source app everyone uses to manage agents at work",
-      "score": 4,
-      "cn": "Paperclip 是一个开源应用，用于在工作环境中管理多个 AI agent。它提供统一的界面来部署、监控和协调 agent 任务，帮助团队提升自动化效率。该项目在 GitHub 上获得关注，适合需要集中管理 agent 的团队使用。"
     },
     {
       "source": "openai",
@@ -302,44 +362,6 @@
       "originalTitle": "altic-dev/FluidVoice · Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A l",
       "score": 4,
       "cn": "FluidVoice 是一个专为 macOS 设计的离线听写应用，集成本地语音识别与自训练的 AI 增强模型，可替代 Wispr Flow 等在线服务。它完全在设备端运行，无需联网即可实现实时语音转文字，兼顾隐私与响应速度。项目已在 GitHub 开源，Windows 版和 iOS 版开放候补，Linux 版本也在计划中。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "844fbd0518c26ea6",
-      "title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-      "url": "https://github.com/macro-inc/macro",
-      "summary": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-      "category": "Agent",
-      "publishedAt": "2026-08-14T22:52:52Z",
-      "discoveredAt": "2026-08-12T12:47:18.893Z",
-      "stars": 1202,
-      "repoTopics": [
-        "agent",
-        "ai",
-        "ai-agents",
-        "all-in-one",
-        "crm",
-        "crm-system",
-        "email",
-        "linear",
-        "mcp",
-        "messaging",
-        "notes",
-        "notion",
-        "office",
-        "rust",
-        "slack",
-        "slack-alternative",
-        "startup",
-        "startup-tools",
-        "typescript",
-        "workspace"
-      ],
-      "owner": "macro-inc",
-      "originalTitle": "macro-inc/macro · Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked ",
-      "score": 4,
-      "cn": "Macro 是一个面向团队的开源统一工作空间，将邮件、聊天、文档、任务、调用、CRM 和 AI agent 整合到一个平台中，并通过 @ 符号链接和共享 AI 记忆实现跨模块协作。项目用 Rust 编写，强调在单一界面内完成团队沟通与任务管理，同时让 AI agent 能够访问全局上下文，减少信息孤岛。对于希望将 agent 能力嵌入日常协作流程的团队，Macro 提供了一种可自托管的开箱方案。"
     },
     {
       "source": "github-trending",
@@ -469,28 +491,6 @@
       "originalTitle": "OpenAI深夜炸弹放出了：GPT-5.5，超Claude Opus 4.7",
       "score": 5,
       "cn": "OpenAI 正式推出 GPT-5.5，这是一款主打 agentic 自主执行能力的新模型。相比前代 GPT-5.4 和 Claude Opus 4.7，GPT-5.5 在 Terminal-Bench 2.0 编程评测上领先约 8 至 13 个百分点，在 GDPval 知识工作、OSWorld-Verified 计算机操作以及 GeneBench 科研任务上也展现出显著优势。OpenAI 强调该模型能自主理解复杂目标、规划工具使用、检查工作并推进任务闭环，同时保持与 GPT-5.4 相同的推理速度但 token 消耗更低。内部研究还发现 GPT-5.5 协助在 Ramsey 数问题上发现了新的证明。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "330ec54bca59ecf0",
-      "title": "Manim 开源动画引擎更新",
-      "url": "https://github.com/3b1b/manim",
-      "summary": "Animation engine for explanatory math videos",
-      "category": "编程工具",
-      "publishedAt": "2026-08-14T21:30:30Z",
-      "discoveredAt": "2026-08-13T12:48:32.982Z",
-      "stars": 90669,
-      "repoTopics": [
-        "3b1b-videos",
-        "animation",
-        "explanatory-math-videos",
-        "python"
-      ],
-      "owner": "3b1b",
-      "originalTitle": "3b1b/manim · Animation engine for explanatory math videos",
-      "score": 3,
-      "cn": "Manim 是 3Blue1Brown 开发的数学解释视频动画引擎，通过 Python 代码驱动精确的图形和动画生成。该项目在 GitHub 上持续获得关注，近日再次登上 Trending 榜单，说明社区对其迭代和发展的认可。无论用于教学演示还是科普创作，Manim 都提供了一套完整且灵活的编程接口，让复杂的数学概念变得直观可见。"
     },
     {
       "source": "github-trending",
@@ -39038,6 +39038,34 @@
       "originalTitle": "Facebook Research At Icml 2019",
       "score": 3,
       "cn": "Meta AI 在 ICML 2019 上展示了多项研究成果，涵盖机器学习、自然语言处理等领域。这些工作反映了 Facebook 研究院在基础算法与模型优化上的持续投入，为行业社区提供了可复现的技术路径。"
+    },
+    {
+      "source": "claude-com",
+      "sourceName": "claude.com",
+      "id": "3be2b1fcdc2c7902",
+      "title": "Anthropic 业务团队用 Claude 规模化处理入站与出站",
+      "url": "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale",
+      "summary": "",
+      "category": "Agent",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-16T00:43:29.502Z",
+      "originalTitle": "How Anthropics Business Development Team Uses Claude To Run Inbound And Outbound At Scale",
+      "score": 3,
+      "cn": "Anthropic 的业务开发团队分享了一篇实践文章，展示如何利用 Claude 自动化处理入站和出站沟通。团队将 Claude 接入 CRM 系统，用于筛选线索、撰写邮件、跟进客户，大幅提升效率。文章详细描述了 prompt 设计和流程搭建的细节，为其他企业提供了可参考的 agent 应用案例。"
+    },
+    {
+      "source": "meta-ai",
+      "sourceName": "Meta AI",
+      "id": "bac4dcaf0df27247",
+      "title": "Meta AI 回顾 CVPR 2019 研究成果",
+      "url": "https://ai.meta.com/blog/facebook-research-at-cvpr-2019/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": null,
+      "discoveredAt": "2026-08-16T00:43:29.502Z",
+      "originalTitle": "Facebook Research At Cvpr 2019",
+      "score": 3,
+      "cn": "Meta AI 梳理了其在 CVPR 2019 上展示的多项计算机视觉研究成果。这些工作涉及图像识别、视频理解与生成等方向，体现了公司在视觉 AI 领域的技术积累。"
     }
   ]
 }
