@@ -1,23 +1,37 @@
 [
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
+		"title": "paperclipai 开源 agent 管理应用 Paperclip",
+		"url": "https://github.com/paperclipai/paperclip",
 		"source": "GitHub Trending",
-		"date": "2026-08-16T12:21:24Z",
+		"date": "2026-08-16T18:16:45Z",
 		"group": "gh"
 	},
 	{
 		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
 		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-16T12:20:07Z",
+		"date": "2026-08-16T17:51:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Manim 开源动画引擎更新",
+		"url": "https://github.com/3b1b/manim",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T17:09:36Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-16T12:05:33Z",
+		"date": "2026-08-16T17:03:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T12:21:24Z",
 		"group": "gh"
 	},
 	{
@@ -35,24 +49,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "paperclipai 开源 agent 管理应用 Paperclip",
-		"url": "https://github.com/paperclipai/paperclip",
-		"source": "GitHub Trending",
-		"date": "2026-08-16T06:11:32Z",
-		"group": "gh"
-	},
-	{
 		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
 		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
 		"date": "2026-08-16T04:04:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "Manim 开源动画引擎更新",
-		"url": "https://github.com/3b1b/manim",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T18:23:32Z",
 		"group": "gh"
 	},
 	{
@@ -2916,13 +2916,6 @@
 		"url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
 		"source": "DeepMind",
 		"date": "2026-05-19T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "ServiceNow 与 NVIDIA 联合发布企业自主 AI Agent 上线",
-		"url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
-		"source": "NVIDIA",
-		"date": "2026-05-18T17:04:59.000Z",
 		"group": "labs"
 	}
 ]
