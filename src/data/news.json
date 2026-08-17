@@ -1,16 +1,58 @@
 [
 	{
-		"title": "paperclipai 开源 agent 管理应用 Paperclip",
-		"url": "https://github.com/paperclipai/paperclip",
+		"title": "NVIDIA NeMo 开源 Switchyard",
+		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
 		"source": "GitHub Trending",
-		"date": "2026-08-16T18:16:45Z",
+		"date": "2026-08-17T00:29:08Z",
 		"group": "gh"
 	},
 	{
 		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
 		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-16T17:51:10Z",
+		"date": "2026-08-16T22:19:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 agent 管理应用 Paperclip",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T22:14:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T20:32:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T20:22:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "public-apis 更新免费 API 集合列表",
+		"url": "https://github.com/public-apis/public-apis",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T19:26:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T19:08:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-16T18:29:44Z",
 		"group": "gh"
 	},
 	{
@@ -18,34 +60,6 @@
 		"url": "https://github.com/3b1b/manim",
 		"source": "GitHub Trending",
 		"date": "2026-08-16T17:09:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-16T17:03:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-16T12:21:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-16T11:51:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-16T11:30:38Z",
 		"group": "gh"
 	},
 	{
@@ -67,13 +81,6 @@
 		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
 		"source": "GitHub Trending",
 		"date": "2026-08-15T10:06:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA NeMo 开源 Switchyard",
-		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T22:34:53Z",
 		"group": "gh"
 	},
 	{
@@ -117,13 +124,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-14T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "public-apis 更新免费 API 集合列表",
-		"url": "https://github.com/public-apis/public-apis",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T21:07:34Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Maxine 通信 AI 平台",
@@ -2881,41 +2881,6 @@
 		"url": "https://openai.com/index/openai-frontier-governance-framework/",
 		"source": "OpenAI",
 		"date": "2026-05-19T02:45:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google AI 发布 AI 生成内容在线识别方案",
-		"url": "https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/",
-		"source": "Google AI",
-		"date": "2026-05-19T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 推出 Project Genie 街景驱动场景生成能力",
-		"url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
-		"source": "DeepMind",
-		"date": "2026-05-19T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemini Omni",
-		"url": "https://deepmind.google/blog/introducing-gemini-omni/",
-		"source": "DeepMind",
-		"date": "2026-05-19T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemini for Science 科学探索工具集",
-		"url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
-		"source": "DeepMind",
-		"date": "2026-05-19T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 扩展内容溯源工具以揭示编辑历史",
-		"url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
-		"source": "DeepMind",
-		"date": "2026-05-19T00:00:00.000Z",
 		"group": "labs"
 	}
 ]
