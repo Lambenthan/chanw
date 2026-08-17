@@ -1,9 +1,79 @@
 [
 	{
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T18:25:37Z",
+		"group": "gh"
+	},
+	{
 		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
 		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-17T12:24:34Z",
+		"date": "2026-08-17T18:23:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "Manim 开源动画引擎更新",
+		"url": "https://github.com/3b1b/manim",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T18:20:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "Immich 开源高性能自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T18:03:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T18:02:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T17:56:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Agent Skills 公共仓库",
+		"url": "https://github.com/anthropics/skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T17:23:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "Motrix 发布全功能下载管理器",
+		"url": "https://github.com/agalwood/Motrix",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T16:58:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T16:04:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "Strix 开源 AI 渗透测试工具，帮助发现并修复应用漏洞",
+		"url": "https://github.com/usestrix/strix",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T14:16:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T13:25:38Z",
 		"group": "gh"
 	},
 	{
@@ -14,52 +84,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Immich 开源高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T12:16:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T11:35:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "Strix 开源 AI 渗透测试工具，帮助发现并修复应用漏洞",
-		"url": "https://github.com/usestrix/strix",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T11:35:24Z",
-		"group": "gh"
-	},
-	{
 		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
 		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
 		"date": "2026-08-17T11:12:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T11:02:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T10:35:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T10:19:30Z",
 		"group": "gh"
 	},
 	{
@@ -70,24 +98,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Motrix 发布全功能下载管理器",
-		"url": "https://github.com/agalwood/Motrix",
+		"title": "akitaonrails 开源 AI-Memory 长期记忆方案",
+		"url": "https://github.com/akitaonrails/ai-memory",
 		"source": "GitHub Trending",
-		"date": "2026-08-17T05:28:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "Manim 开源动画引擎更新",
-		"url": "https://github.com/3b1b/manim",
-		"source": "GitHub Trending",
-		"date": "2026-08-16T17:09:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-16T04:04:03Z",
+		"date": "2026-08-17T02:39:12Z",
 		"group": "gh"
 	},
 	{
@@ -138,13 +152,6 @@
 		"source": "NVIDIA",
 		"date": "2026-08-13T20:49:46.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Agent Skills 公共仓库",
-		"url": "https://github.com/anthropics/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T18:09:56Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 联合发布 Strands Agents、LeRobot 与 Storage Buckets 一站式数据循环方案",
@@ -581,13 +588,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 阐述全栈式 AI 发展路径",
-		"url": "https://openai.com/index/building-abundant-intelligence",
-		"source": "OpenAI",
-		"date": "2026-07-29T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT-Live 实时语音交互系统",
 		"url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
 		"source": "OpenAI",
@@ -598,6 +598,13 @@
 		"title": "DeepMind 在 Google Flow Music 中发布 Lyria 3.5",
 		"url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
 		"source": "DeepMind",
+		"date": "2026-07-29T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Voice Think Fast 2.0 语音模型",
+		"url": "https://x.ai/news/grok-voice-think-fast-2",
+		"source": "xAI",
 		"date": "2026-07-29T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -626,6 +633,13 @@
 		"title": "Anthropic 利用 Claude 发现加密弱点",
 		"url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
 		"source": "Anthropic Research",
+		"date": "2026-07-28T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 推出 Grok Build Mode 构建模式",
+		"url": "https://x.ai/news/grok-build-mode",
+		"source": "xAI",
 		"date": "2026-07-28T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -696,6 +710,13 @@
 		"title": "Nunchaku 将 4-bit 扩散推理集成到 Diffusers",
 		"url": "https://huggingface.co/blog/nunchaku-diffusers",
 		"source": "Hugging Face Blog",
+		"date": "2026-07-23T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 为 Grok Build 加入工作流功能",
+		"url": "https://x.ai/news/workflows",
+		"source": "xAI",
 		"date": "2026-07-23T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -801,6 +822,13 @@
 		"title": "Grabette 开源机器人操作数据记录系统",
 		"url": "https://huggingface.co/blog/grabette",
 		"source": "Hugging Face Blog",
+		"date": "2026-07-21T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok for Outlook 插件",
+		"url": "https://x.ai/news/introducing-outlook-addin",
+		"source": "xAI",
 		"date": "2026-07-21T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -961,6 +989,13 @@
 	{
 		"title": "xAI 发布 Grok 4.5",
 		"url": "https://x.ai/news/grok-4-5",
+		"source": "xAI",
+		"date": "2026-07-16T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 在 Grok 中推出自动化任务功能",
+		"url": "https://x.ai/news/grok-automations",
 		"source": "xAI",
 		"date": "2026-07-16T00:00:00.000Z",
 		"group": "labs"
@@ -1431,6 +1466,13 @@
 		"title": "Hugging Face 发布 Kernels 重大更新",
 		"url": "https://huggingface.co/blog/revamped-kernels",
 		"source": "Hugging Face Blog",
+		"date": "2026-07-06T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 为 Grok Voice 新增 21 种多语言语音",
+		"url": "https://x.ai/news/new-flagship-voices",
+		"source": "xAI",
 		"date": "2026-07-06T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1918,6 +1960,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 在 Grok Build 中推出 Agent Dashboard",
+		"url": "https://x.ai/news/agent-dashboard",
+		"source": "xAI",
+		"date": "2026-06-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 应美国政府指令暂停 Fable 5 和 Mythos 5 访问",
 		"url": "https://www.anthropic.com/news/fable-mythos-access",
 		"source": "Anthropic News",
@@ -1991,6 +2040,13 @@
 		"title": "DeepMind 发布 DiffusionGemma，文本生成速度提升 4 倍",
 		"url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
 		"source": "DeepMind",
+		"date": "2026-06-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 为 eToro 的 AI agent Tori 集成实时市场情绪",
+		"url": "https://x.ai/news/grok-etoro",
+		"source": "xAI",
 		"date": "2026-06-10T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2580,174 +2636,6 @@
 		"url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/",
 		"source": "OpenAI",
 		"date": "2026-05-20T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5，降低蛋白质合成计算成本",
-		"url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Indqa",
-		"url": "https://openai.com/index/introducing-indqa/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布理论物理学新成果",
-		"url": "https://openai.com/index/new-result-theoretical-physics/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 公布模型规范制定方法",
-		"url": "https://openai.com/index/our-approach-to-the-model-spec/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布稀疏电路理解神经网络研究",
-		"url": "https://openai.com/index/understanding-neural-networks-through-sparse-circuits/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布链式思维可监控性评估",
-		"url": "https://openai.com/index/evaluating-chain-of-thought-monitorability/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 开放 Proof 子任务提交",
-		"url": "https://openai.com/index/first-proof-submissions/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Aardvark",
-		"url": "https://openai.com/index/introducing-aardvark/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Gdpval 评测基准",
-		"url": "https://openai.com/index/gdpval/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布检测与减少 AI 模型欺骗行为的研究",
-		"url": "https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT Rosalind",
-		"url": "https://openai.com/index/introducing-gpt-rosalind/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 研究通过忏悔机制提升语言模型诚实性",
-		"url": "https://openai.com/index/how-confessions-can-keep-language-models-honest/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 AI 评测驱动下一阶段发展报告",
-		"url": "https://openai.com/index/evals-drive-next-chapter-of-ai/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 分享参数高尔夫研究经验",
-		"url": "https://openai.com/index/what-parameter-golf-taught-us/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Evmbench 评测基准",
-		"url": "https://openai.com/index/introducing-evmbench/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Frontierscience 前沿科学项目",
-		"url": "https://openai.com/index/frontierscience/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Instruction Hierarchy Challenge",
-		"url": "https://openai.com/index/instruction-hierarchy-challenge/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-5 加速科学研究",
-		"url": "https://openai.com/index/accelerating-science-gpt-5/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 加速湿实验室生物学研究",
-		"url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 将单减振幅方法扩展至引力子研究",
-		"url": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推出隐私过滤器",
-		"url": "https://openai.com/index/introducing-openai-privacy-filter/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 不再使用 SWE-bench Verified 评估模型",
-		"url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布大模型幻觉原因研究报告",
-		"url": "https://openai.com/index/why-language-models-hallucinate/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 LLM 政治偏见定义与评测方法",
-		"url": "https://openai.com/index/defining-and-evaluating-political-bias-in-llms/",
-		"source": "OpenAI",
-		"date": "2026-05-19T16:00:00.000Z",
 		"group": "labs"
 	}
 ]
