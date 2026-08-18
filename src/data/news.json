@@ -3,43 +3,85 @@
 		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
 		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-17T18:25:37Z",
+		"date": "2026-08-18T00:43:07Z",
 		"group": "gh"
 	},
 	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
+		"title": "nautechsystems 开源 Nautilus Trader 交易引擎",
+		"url": "https://github.com/nautechsystems/nautilus_trader",
 		"source": "GitHub Trending",
-		"date": "2026-08-17T18:23:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "Manim 开源动画引擎更新",
-		"url": "https://github.com/3b1b/manim",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T18:20:18Z",
+		"date": "2026-08-18T00:39:04Z",
 		"group": "gh"
 	},
 	{
 		"title": "Immich 开源高性能自托管照片与视频管理方案",
 		"url": "https://github.com/immich-app/immich",
 		"source": "GitHub Trending",
-		"date": "2026-08-17T18:03:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T18:02:24Z",
+		"date": "2026-08-18T00:29:26Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-17T17:56:19Z",
+		"date": "2026-08-18T00:28:07Z",
 		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T00:15:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T00:10:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Motrix 发布全功能下载管理器",
+		"url": "https://github.com/agalwood/Motrix",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T22:49:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T22:03:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T21:18:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Strix 开源 AI 渗透测试工具，帮助发现并修复应用漏洞",
+		"url": "https://github.com/usestrix/strix",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T20:55:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "Manim 开源动画引擎更新",
+		"url": "https://github.com/3b1b/manim",
+		"source": "GitHub Trending",
+		"date": "2026-08-17T20:15:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 博客：通过调整任务顺序将 GPU 集群利用率提升 33 个百分点",
+		"url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-17T19:46:21.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布 Agent Skills 公共仓库",
@@ -49,31 +91,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Motrix 发布全功能下载管理器",
-		"url": "https://github.com/agalwood/Motrix",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T16:58:08Z",
-		"group": "gh"
-	},
-	{
 		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
 		"date": "2026-08-17T16:04:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "Strix 开源 AI 渗透测试工具，帮助发现并修复应用漏洞",
-		"url": "https://github.com/usestrix/strix",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T14:16:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T13:25:38Z",
 		"group": "gh"
 	},
 	{
@@ -109,13 +130,6 @@
 		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
 		"source": "GitHub Trending",
 		"date": "2026-08-15T10:06:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T21:28:44Z",
 		"group": "gh"
 	},
 	{
@@ -1050,6 +1064,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 开源 Grok Build",
+		"url": "https://x.ai/news/grok-build-open-source",
+		"source": "xAI",
+		"date": "2026-07-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布 AI 基础设施能效分析报告",
 		"url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
 		"source": "NVIDIA",
@@ -1558,13 +1579,6 @@
 		"url": "https://x.ai/news/grok-voice-agent-builder",
 		"source": "xAI",
 		"date": "2026-07-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "IBM 发布 ScarfBench 基准测试，评估 AI Agent 迁移企业 Java 框架能力",
-		"url": "https://huggingface.co/blog/ibm-research/scarfbench",
-		"source": "Hugging Face Blog",
-		"date": "2026-06-30T18:32:50.000Z",
 		"group": "labs"
 	},
 	{
@@ -2629,13 +2643,6 @@
 		"url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
 		"source": "DeepMind",
 		"date": "2026-05-20T10:30:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推出 Rosalind 生物防御计划",
-		"url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/",
-		"source": "OpenAI",
-		"date": "2026-05-20T00:00:00.000Z",
 		"group": "labs"
 	}
 ]
