@@ -1,51 +1,72 @@
 [
 	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T00:43:07Z",
+		"date": "2026-08-18T06:28:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T06:19:32Z",
 		"group": "gh"
 	},
 	{
 		"title": "nautechsystems 开源 Nautilus Trader 交易引擎",
 		"url": "https://github.com/nautechsystems/nautilus_trader",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T00:39:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "Immich 开源高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T00:29:26Z",
+		"date": "2026-08-18T06:12:50Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T00:28:07Z",
+		"date": "2026-08-18T06:04:12Z",
 		"group": "gh"
 	},
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
+		"title": "Immich 开源高性能自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T00:15:25Z",
+		"date": "2026-08-18T04:30:06Z",
 		"group": "gh"
 	},
 	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
+		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T00:10:44Z",
+		"date": "2026-08-18T03:46:29Z",
 		"group": "gh"
 	},
 	{
 		"title": "Motrix 发布全功能下载管理器",
 		"url": "https://github.com/agalwood/Motrix",
 		"source": "GitHub Trending",
-		"date": "2026-08-17T22:49:49Z",
+		"date": "2026-08-18T03:06:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T02:49:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "akitaonrails 开源 AI-Memory 长期记忆方案",
+		"url": "https://github.com/akitaonrails/ai-memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T01:24:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T01:23:45Z",
 		"group": "gh"
 	},
 	{
@@ -53,13 +74,6 @@
 		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
 		"date": "2026-08-17T22:03:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T21:18:40Z",
 		"group": "gh"
 	},
 	{
@@ -105,24 +119,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T11:12:12Z",
-		"group": "gh"
-	},
-	{
 		"title": "llmfit 发布模型硬件适配查询工具",
 		"url": "https://github.com/AlexsJones/llmfit",
 		"source": "GitHub Trending",
 		"date": "2026-08-17T07:35:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "akitaonrails 开源 AI-Memory 长期记忆方案",
-		"url": "https://github.com/akitaonrails/ai-memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T02:39:12Z",
 		"group": "gh"
 	},
 	{
