@@ -3,56 +3,84 @@
 		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
 		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T06:28:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T06:19:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "nautechsystems 开源 Nautilus Trader 交易引擎",
-		"url": "https://github.com/nautechsystems/nautilus_trader",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T06:12:50Z",
+		"date": "2026-08-18T12:26:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T06:04:12Z",
+		"date": "2026-08-18T12:19:44Z",
 		"group": "gh"
 	},
 	{
-		"title": "Immich 开源高性能自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T04:30:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T03:46:29Z",
+		"date": "2026-08-18T12:10:33Z",
 		"group": "gh"
 	},
 	{
 		"title": "Motrix 发布全功能下载管理器",
 		"url": "https://github.com/agalwood/Motrix",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T03:06:56Z",
+		"date": "2026-08-18T12:05:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T12:02:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "《深入理解 AI Agent》开源书籍发布，包含正文、PDF与配套代码",
+		"url": "https://github.com/bojieli/ai-agent-book",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T11:16:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
+		"url": "https://github.com/superradcompany/microsandbox",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T10:49:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "llmfit 发布模型硬件适配查询工具",
+		"url": "https://github.com/AlexsJones/llmfit",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T10:34:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "chaitanyagiri 开源本地多智能体框架 Munder Difflin",
+		"url": "https://github.com/chaitanyagiri/munder-difflin",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T10:21:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T10:05:17Z",
 		"group": "gh"
 	},
 	{
 		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
 		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T02:49:45Z",
+		"date": "2026-08-18T09:18:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T08:12:04Z",
 		"group": "gh"
 	},
 	{
@@ -60,27 +88,6 @@
 		"url": "https://github.com/akitaonrails/ai-memory",
 		"source": "GitHub Trending",
 		"date": "2026-08-18T01:24:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T01:23:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T22:03:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "Strix 开源 AI 渗透测试工具，帮助发现并修复应用漏洞",
-		"url": "https://github.com/usestrix/strix",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T20:55:28Z",
 		"group": "gh"
 	},
 	{
@@ -98,13 +105,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Agent Skills 公共仓库",
-		"url": "https://github.com/anthropics/skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T17:23:18Z",
-		"group": "gh"
-	},
-	{
 		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
@@ -119,32 +119,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "llmfit 发布模型硬件适配查询工具",
-		"url": "https://github.com/AlexsJones/llmfit",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T07:35:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯云开源 TencentDB Agent Memory 团队级记忆中心",
-		"url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-15T10:06:58Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
 		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
 		"source": "NVIDIA",
 		"date": "2026-08-14T18:52:30.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T18:51:33Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 公开 Claude 文本水印技术原理",
@@ -173,13 +152,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-13T17:16:04.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Cordiverse 开源 Cordis 时空组合性元框架",
-		"url": "https://github.com/cordiverse/cordis",
-		"source": "GitHub Trending",
-		"date": "2026-08-13T13:48:22Z",
-		"group": "gh"
 	},
 	{
 		"title": "DeepMind 发布 Gemini 3.7 Flash",
@@ -278,6 +250,13 @@
 		"source": "Anthropic News",
 		"date": "2026-08-10T19:00:15.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "OpenCut 开源视频编辑工具，作为 CapCut 替代品",
+		"url": "https://github.com/OpenCut-app/OpenCut",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T16:38:36Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Magpie TTS 低延迟多语言语音模型",
@@ -691,6 +670,13 @@
 		"source": "Anthropic News",
 		"date": "2026-07-27T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "genlayerlabs 发布 genlayer-project-boilerplate 项目模板",
+		"url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+		"source": "GitHub Trending",
+		"date": "2026-07-26T17:56:20Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Claude Opus 5",
@@ -1743,6 +1729,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 与 Interactive Brokers 集成 Grok 交易功能",
+		"url": "https://x.ai/news/grok-interactive-brokers",
+		"source": "xAI",
+		"date": "2026-06-25T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 助力法国推动欧洲 AI 发展",
 		"url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
 		"source": "NVIDIA",
@@ -1930,6 +1923,13 @@
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "NawfalMotii79 开源低成本 10.5 GHz PLFM 相控阵雷达系统",
+		"url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+		"source": "GitHub Trending",
+		"date": "2026-06-17T02:44:52Z",
+		"group": "gh"
 	},
 	{
 		"title": "Google 发表 AMIE 医疗 AI 管理慢性病研究",
@@ -2238,6 +2238,13 @@
 		"source": "NVIDIA",
 		"date": "2026-06-01T04:15:40.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "火山引擎开源 OpenViking 自进化上下文数据库",
+		"url": "https://github.com/volcengine/OpenViking",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T13:00:05Z",
+		"group": "gh"
 	},
 	{
 		"title": "omlx 推出面向 Apple Silicon 的 LLM 推理服务器",
@@ -2555,13 +2562,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "santifer 开源 Career-Ops AI 求职工具",
-		"url": "https://github.com/santifer/career-ops",
-		"source": "GitHub Trending",
-		"date": "2026-05-25T09:52:42Z",
-		"group": "gh"
-	},
-	{
 		"title": "Modly 发布本地 AI 桌面应用，从图像或文字生成 3D 模型",
 		"url": "https://github.com/lightningpixel/modly",
 		"source": "GitHub Trending",
@@ -2636,13 +2636,6 @@
 		"url": "https://www.anthropic.com/research/teaching-claude-why",
 		"source": "Anthropic Research",
 		"date": "2026-05-20T13:19:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google DeepMind 宣布与新加坡达成国家级 AI 合作伙伴关系",
-		"url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
-		"source": "DeepMind",
-		"date": "2026-05-20T10:30:00.000Z",
 		"group": "labs"
 	}
 ]
