@@ -3,42 +3,84 @@
 		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
 		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T12:26:24Z",
+		"date": "2026-08-18T18:20:10Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T12:19:44Z",
+		"date": "2026-08-18T18:11:26Z",
 		"group": "gh"
 	},
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
+		"title": "IBM Research 探讨 agent 实际所需内存",
+		"url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-18T18:09:38.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T12:10:33Z",
+		"date": "2026-08-18T17:50:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T17:38:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "llmfit 发布模型硬件适配查询工具",
+		"url": "https://github.com/AlexsJones/llmfit",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T17:33:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "akitaonrails 开源 AI-Memory 长期记忆方案",
+		"url": "https://github.com/akitaonrails/ai-memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T17:19:58Z",
 		"group": "gh"
 	},
 	{
 		"title": "Motrix 发布全功能下载管理器",
 		"url": "https://github.com/agalwood/Motrix",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T12:05:06Z",
+		"date": "2026-08-18T17:18:51Z",
 		"group": "gh"
 	},
 	{
 		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
 		"url": "https://github.com/semantica-agi/semantica",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T12:02:54Z",
+		"date": "2026-08-18T17:05:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T16:29:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "《深入理解 AI Agent》开源书籍发布，包含正文、PDF与配套代码",
 		"url": "https://github.com/bojieli/ai-agent-book",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T11:16:45Z",
+		"date": "2026-08-18T15:55:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T15:12:56Z",
 		"group": "gh"
 	},
 	{
@@ -46,13 +88,6 @@
 		"url": "https://github.com/superradcompany/microsandbox",
 		"source": "GitHub Trending",
 		"date": "2026-08-18T10:49:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "llmfit 发布模型硬件适配查询工具",
-		"url": "https://github.com/AlexsJones/llmfit",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T10:34:33Z",
 		"group": "gh"
 	},
 	{
@@ -70,25 +105,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T09:18:12Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T08:12:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "akitaonrails 开源 AI-Memory 长期记忆方案",
-		"url": "https://github.com/akitaonrails/ai-memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T01:24:51Z",
-		"group": "gh"
+		"title": "Hugging Face 为 Sentence Transformers 添加多向量嵌入模型支持",
+		"url": "https://huggingface.co/blog/multi-vector-encoder",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-18T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Manim 开源动画引擎更新",
@@ -109,13 +130,6 @@
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
 		"date": "2026-08-17T16:04:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T12:22:09Z",
 		"group": "gh"
 	},
 	{
@@ -214,13 +228,6 @@
 		"url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
 		"source": "NVIDIA",
 		"date": "2026-08-12T00:38:21.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "IBM Research 提出 ALTK-Evolve 方法，用更少 token 实现类似 ACE 的效果",
-		"url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-11T13:37:10.000Z",
 		"group": "labs"
 	},
 	{
@@ -375,13 +382,6 @@
 		"url": "https://www.anthropic.com/news/claude-for-nonprofits",
 		"source": "Anthropic News",
 		"date": "2026-08-03T16:00:43.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Circles 借助 OpenAI 技术提升电信个性化服务",
-		"url": "https://openai.com/index/circles",
-		"source": "OpenAI",
-		"date": "2026-08-03T07:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1554,13 +1554,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 与 Cerebras 将 Gemma 4 用于实时语音 AI",
-		"url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "xAI 推出 Voice Agent Builder 零代码构建语音 agent",
 		"url": "https://x.ai/news/grok-voice-agent-builder",
 		"source": "xAI",
@@ -2629,13 +2622,6 @@
 		"url": "https://www.anthropic.com/research/glasswing-initial-update",
 		"source": "Anthropic Research",
 		"date": "2026-05-21T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Teaching Claude Why 研究",
-		"url": "https://www.anthropic.com/research/teaching-claude-why",
-		"source": "Anthropic Research",
-		"date": "2026-05-20T13:19:12.000Z",
 		"group": "labs"
 	}
 ]
