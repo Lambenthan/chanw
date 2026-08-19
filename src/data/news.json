@@ -1,37 +1,65 @@
 [
 	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T06:27:24Z",
-		"group": "gh"
-	},
-	{
 		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
 		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T06:26:51Z",
+		"date": "2026-08-19T12:23:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T12:22:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T12:21:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T12:08:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T12:06:02Z",
 		"group": "gh"
 	},
 	{
 		"title": "chaitanyagiri 开源本地多智能体框架 Munder Difflin",
 		"url": "https://github.com/chaitanyagiri/munder-difflin",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T06:10:59Z",
+		"date": "2026-08-19T11:51:43Z",
 		"group": "gh"
 	},
 	{
-		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
-		"url": "https://github.com/superradcompany/microsandbox",
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T05:51:49Z",
+		"date": "2026-08-19T11:24:22Z",
 		"group": "gh"
 	},
 	{
 		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
 		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T05:42:24Z",
+		"date": "2026-08-19T08:30:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
+		"url": "https://github.com/superradcompany/microsandbox",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T07:52:35Z",
 		"group": "gh"
 	},
 	{
@@ -42,13 +70,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T02:53:11Z",
-		"group": "gh"
-	},
-	{
 		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
@@ -56,24 +77,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T00:43:57Z",
-		"group": "gh"
-	},
-	{
 		"title": "Manim 开源动画引擎更新",
 		"url": "https://github.com/3b1b/manim",
 		"source": "GitHub Trending",
 		"date": "2026-08-18T21:03:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T20:33:56Z",
 		"group": "gh"
 	},
 	{
@@ -109,13 +116,6 @@
 		"url": "https://github.com/agalwood/Motrix",
 		"source": "GitHub Trending",
 		"date": "2026-08-18T17:18:51Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T17:05:58Z",
 		"group": "gh"
 	},
 	{
@@ -242,6 +242,13 @@
 		"url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
 		"source": "NVIDIA",
 		"date": "2026-08-12T00:38:21.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布工人再培训计划证据回顾报告",
+		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+		"source": "Anthropic Research",
+		"date": "2026-08-12T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
