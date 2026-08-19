@@ -1,16 +1,72 @@
 [
 	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
+		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
+		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T18:20:10Z",
+		"date": "2026-08-19T00:43:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
+		"url": "https://github.com/superradcompany/microsandbox",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T00:39:25Z",
 		"group": "gh"
 	},
 	{
 		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
 		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T18:11:26Z",
+		"date": "2026-08-19T00:37:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T00:34:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T00:32:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T23:49:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T22:24:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "Manim 开源动画引擎更新",
+		"url": "https://github.com/3b1b/manim",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T21:03:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T20:33:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "public-apis 项目聚合免费 API 列表",
+		"url": "https://github.com/public-apis/public-apis",
+		"source": "GitHub Trending",
+		"date": "2026-08-18T19:20:39Z",
 		"group": "gh"
 	},
 	{
@@ -19,20 +75,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-18T18:09:38.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T17:50:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T17:38:58Z",
-		"group": "gh"
 	},
 	{
 		"title": "llmfit 发布模型硬件适配查询工具",
@@ -63,31 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T16:29:24Z",
-		"group": "gh"
-	},
-	{
 		"title": "《深入理解 AI Agent》开源书籍发布，包含正文、PDF与配套代码",
 		"url": "https://github.com/bojieli/ai-agent-book",
 		"source": "GitHub Trending",
 		"date": "2026-08-18T15:55:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T15:12:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
-		"url": "https://github.com/superradcompany/microsandbox",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T10:49:10Z",
 		"group": "gh"
 	},
 	{
@@ -112,11 +133,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "Manim 开源动画引擎更新",
-		"url": "https://github.com/3b1b/manim",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T20:15:32Z",
-		"group": "gh"
+		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
+		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+		"source": "Anthropic Research",
+		"date": "2026-08-18T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Hugging Face 博客：通过调整任务顺序将 GPU 集群利用率提升 33 个百分点",
@@ -124,13 +145,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-08-17T19:46:21.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-17T16:04:35Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
@@ -165,6 +179,13 @@
 		"url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-13T17:16:04.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布面向青少年的 ChatGPT for Teens",
+		"url": "https://openai.com/index/chatgpt-for-teens/",
+		"source": "OpenAI",
+		"date": "2026-08-13T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -578,13 +599,6 @@
 		"url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
 		"source": "NVIDIA",
 		"date": "2026-07-29T23:32:47.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT-Live 实时语音交互系统",
-		"url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-		"source": "OpenAI",
-		"date": "2026-07-29T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1974,6 +1988,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 将 Grok 集成到 Warp 终端",
+		"url": "https://x.ai/news/grok-warp",
+		"source": "xAI",
+		"date": "2026-06-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 应美国政府指令暂停 Fable 5 和 Mythos 5 访问",
 		"url": "https://www.anthropic.com/news/fable-mythos-access",
 		"source": "Anthropic News",
@@ -2268,6 +2289,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 公布 Sora Feed 设计理念",
+		"url": "https://openai.com/index/sora-feed-philosophy/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
 		"url": "https://openai.com/index/trusted-access-for-cyber/",
 		"source": "OpenAI",
@@ -2466,13 +2494,6 @@
 	{
 		"title": "OpenAI 加强外部安全测试机制",
 		"url": "https://openai.com/index/strengthening-safety-with-external-testing/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 公布 Sora Feed 设计理念",
-		"url": "https://openai.com/index/sora-feed-philosophy/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
