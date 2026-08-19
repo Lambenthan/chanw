@@ -1,51 +1,65 @@
 [
 	{
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T06:27:24Z",
+		"group": "gh"
+	},
+	{
 		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
 		"url": "https://github.com/vitali87/code-graph-rag",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T00:43:09Z",
+		"date": "2026-08-19T06:26:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "chaitanyagiri 开源本地多智能体框架 Munder Difflin",
+		"url": "https://github.com/chaitanyagiri/munder-difflin",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T06:10:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
 		"url": "https://github.com/superradcompany/microsandbox",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T00:39:25Z",
+		"date": "2026-08-19T05:51:49Z",
 		"group": "gh"
 	},
 	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T00:37:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T00:34:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T00:32:23Z",
+		"date": "2026-08-19T05:42:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
 		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T23:49:39Z",
+		"date": "2026-08-19T05:31:48Z",
 		"group": "gh"
 	},
 	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T22:24:26Z",
+		"date": "2026-08-19T02:53:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T01:43:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
+		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T00:43:57Z",
 		"group": "gh"
 	},
 	{
@@ -102,27 +116,6 @@
 		"url": "https://github.com/semantica-agi/semantica",
 		"source": "GitHub Trending",
 		"date": "2026-08-18T17:05:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "《深入理解 AI Agent》开源书籍发布，包含正文、PDF与配套代码",
-		"url": "https://github.com/bojieli/ai-agent-book",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T15:55:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "chaitanyagiri 开源本地多智能体框架 Munder Difflin",
-		"url": "https://github.com/chaitanyagiri/munder-difflin",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T10:21:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T10:05:17Z",
 		"group": "gh"
 	},
 	{
