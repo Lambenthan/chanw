@@ -1,51 +1,100 @@
 [
 	{
-		"title": "code-graph-rag 开源基于知识图谱的多语言代码库 RAG 工具",
-		"url": "https://github.com/vitali87/code-graph-rag",
+		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
+		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T12:23:43Z",
+		"date": "2026-08-19T18:18:45Z",
 		"group": "gh"
 	},
 	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
+		"title": "CodebuffAI 开源 Freebuff 编程 agent",
+		"url": "https://github.com/CodebuffAI/freebuff",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T12:22:52Z",
+		"date": "2026-08-19T18:16:56Z",
 		"group": "gh"
 	},
 	{
 		"title": "Basecamp 发布 Omarchy Linux 发行版",
 		"url": "https://github.com/basecamp/omarchy",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T12:21:35Z",
+		"date": "2026-08-19T18:16:48Z",
 		"group": "gh"
 	},
 	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
+		"title": "akitaonrails 开源 AI-Memory 长期记忆方案",
+		"url": "https://github.com/akitaonrails/ai-memory",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T12:08:51Z",
+		"date": "2026-08-19T18:13:24Z",
 		"group": "gh"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T12:06:02Z",
+		"date": "2026-08-19T18:13:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
+		"url": "https://github.com/superradcompany/microsandbox",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T17:56:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "Immich 更新高绩效自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T17:34:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "superpowers 开源 agentic skills 框架与软件开发方法论",
+		"url": "https://github.com/obra/superpowers",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T17:33:23Z",
 		"group": "gh"
 	},
 	{
 		"title": "chaitanyagiri 开源本地多智能体框架 Munder Difflin",
 		"url": "https://github.com/chaitanyagiri/munder-difflin",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T11:51:43Z",
+		"date": "2026-08-19T17:32:28Z",
 		"group": "gh"
 	},
 	{
-		"title": "PrimeIntellect-ai 开源 prime-agent 自改进 RLM 编程 agent",
-		"url": "https://github.com/PrimeIntellect-ai/prime-agent",
+		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
+		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T11:24:22Z",
+		"date": "2026-08-19T16:06:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T14:21:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "Liquid AI 发布 LFM2.5 Q4_0 量化感知蒸馏检查点",
+		"url": "https://huggingface.co/blog/LiquidAI/qad",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-19T13:48:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "llmfit 发布模型硬件适配查询工具",
+		"url": "https://github.com/AlexsJones/llmfit",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T13:43:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "nautechsystems 开源 Nautilus Trader 交易引擎",
+		"url": "https://github.com/nautechsystems/nautilus_trader",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T13:25:01Z",
 		"group": "gh"
 	},
 	{
@@ -56,31 +105,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
-		"url": "https://github.com/superradcompany/microsandbox",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T07:52:35Z",
-		"group": "gh"
-	},
-	{
 		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
 		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
 		"date": "2026-08-19T05:31:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T01:43:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "Manim 开源动画引擎更新",
-		"url": "https://github.com/3b1b/manim",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T21:03:49Z",
 		"group": "gh"
 	},
 	{
@@ -98,24 +126,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "llmfit 发布模型硬件适配查询工具",
-		"url": "https://github.com/AlexsJones/llmfit",
+		"title": "Amadeus Protocol 开源 Node 节点实现",
+		"url": "https://github.com/amadeusprotocol/node",
 		"source": "GitHub Trending",
-		"date": "2026-08-18T17:33:15Z",
-		"group": "gh"
-	},
-	{
-		"title": "akitaonrails 开源 AI-Memory 长期记忆方案",
-		"url": "https://github.com/akitaonrails/ai-memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T17:19:58Z",
-		"group": "gh"
-	},
-	{
-		"title": "Motrix 发布全功能下载管理器",
-		"url": "https://github.com/agalwood/Motrix",
-		"source": "GitHub Trending",
-		"date": "2026-08-18T17:18:51Z",
+		"date": "2026-08-18T12:34:39Z",
 		"group": "gh"
 	},
 	{
@@ -224,13 +238,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Liquid AI 发布 LFM2.5-VL-3B 边缘视觉模型",
-		"url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-12T14:00:51.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Spectrum Six 网络方案",
 		"url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
 		"source": "NVIDIA",
@@ -278,13 +285,6 @@
 		"source": "Anthropic News",
 		"date": "2026-08-10T19:00:15.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "OpenCut 开源视频编辑工具，作为 CapCut 替代品",
-		"url": "https://github.com/OpenCut-app/OpenCut",
-		"source": "GitHub Trending",
-		"date": "2026-08-10T16:38:36Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Magpie TTS 低延迟多语言语音模型",
@@ -525,6 +525,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Imagine Video 1.5 视频生成模型",
+		"url": "https://x.ai/news/grok-imagine-video-1-5-references",
+		"source": "xAI",
+		"date": "2026-07-31T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布 Nemotron 开源模型系列",
 		"url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
 		"source": "NVIDIA",
@@ -558,6 +565,13 @@
 		"source": "NVIDIA",
 		"date": "2026-07-30T22:20:47.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "prettymaps 开源 OpenStreetMap 地图绘制工具",
+		"url": "https://github.com/marceloprates/prettymaps",
+		"source": "GitHub Trending",
+		"date": "2026-07-30T16:29:42Z",
+		"group": "gh"
 	},
 	{
 		"title": "DeepMind 发布 Gemini Robotics 2 机器人全身智能模型",
@@ -1932,13 +1946,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NawfalMotii79 开源低成本 10.5 GHz PLFM 相控阵雷达系统",
-		"url": "https://github.com/NawfalMotii79/PLFM_RADAR",
-		"source": "GitHub Trending",
-		"date": "2026-06-17T02:44:52Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google 发表 AMIE 医疗 AI 管理慢性病研究",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
 		"source": "Google AI",
@@ -2576,6 +2583,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "santifer 开源 career-ops AI 求职工具",
+		"url": "https://github.com/santifer/career-ops",
+		"source": "GitHub Trending",
+		"date": "2026-05-25T09:52:42Z",
+		"group": "gh"
+	},
+	{
 		"title": "Modly 发布本地 AI 桌面应用，从图像或文字生成 3D 模型",
 		"url": "https://github.com/lightningpixel/modly",
 		"source": "GitHub Trending",
@@ -2636,13 +2650,6 @@
 		"url": "https://blogs.nvidia.com/blog/secure-autonomous-ai-agents-openshell/",
 		"source": "NVIDIA",
 		"date": "2026-05-21T23:00:41.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Project Glasswing 初步更新",
-		"url": "https://www.anthropic.com/research/glasswing-initial-update",
-		"source": "Anthropic Research",
-		"date": "2026-05-21T16:00:00.000Z",
 		"group": "labs"
 	}
 ]
