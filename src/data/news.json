@@ -3,40 +3,82 @@
 		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
 		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-20T00:41:25Z",
+		"date": "2026-08-20T06:20:07Z",
 		"group": "gh"
 	},
 	{
-		"title": "CodebuffAI 开源 Freebuff 编程 agent",
-		"url": "https://github.com/CodebuffAI/freebuff",
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
 		"source": "GitHub Trending",
-		"date": "2026-08-20T00:41:09Z",
+		"date": "2026-08-20T06:19:40Z",
 		"group": "gh"
 	},
 	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
+		"title": "Immich 更新高绩效自托管照片与视频管理方案",
+		"url": "https://github.com/immich-app/immich",
 		"source": "GitHub Trending",
-		"date": "2026-08-20T00:40:26Z",
+		"date": "2026-08-20T06:16:29Z",
 		"group": "gh"
 	},
 	{
 		"title": "nautechsystems 开源 Nautilus Trader 交易引擎",
 		"url": "https://github.com/nautechsystems/nautilus_trader",
 		"source": "GitHub Trending",
-		"date": "2026-08-20T00:36:56Z",
+		"date": "2026-08-20T06:12:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "chaitanyagiri 开源本地多智能体框架 Munder Difflin",
+		"url": "https://github.com/chaitanyagiri/munder-difflin",
+		"source": "GitHub Trending",
+		"date": "2026-08-20T06:12:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "CodebuffAI 开源 Freebuff 编程 agent",
+		"url": "https://github.com/CodebuffAI/freebuff",
+		"source": "GitHub Trending",
+		"date": "2026-08-20T05:30:39Z",
 		"group": "gh"
 	},
 	{
 		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
 		"url": "https://github.com/macro-inc/macro",
 		"source": "GitHub Trending",
-		"date": "2026-08-20T00:31:24Z",
+		"date": "2026-08-20T03:52:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-20T03:45:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-08-20T02:36:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
+		"url": "https://github.com/superradcompany/microsandbox",
+		"source": "GitHub Trending",
+		"date": "2026-08-20T01:30:36Z",
 		"group": "gh"
 	},
 	{
 		"title": "JetBrains 评估并部署 Claude Fable 5",
 		"url": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
+		"source": "claude.com",
+		"date": "2026-08-20T00:28:43.230Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 推出 AI CI/CD On Call 功能",
+		"url": "https://claude.com/blog/ai-ci-cd-on-call",
 		"source": "claude.com",
 		"date": "2026-08-20T00:28:43.230Z",
 		"group": "labs"
@@ -49,31 +91,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "superradcompany 开源 microsandbox 本地优先 microVM 运行时",
-		"url": "https://github.com/superradcompany/microsandbox",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T23:55:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "Immich 更新高绩效自托管照片与视频管理方案",
-		"url": "https://github.com/immich-app/immich",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T21:49:45Z",
-		"group": "gh"
-	},
-	{
 		"title": "public-apis 项目聚合免费 API 列表",
 		"url": "https://github.com/public-apis/public-apis",
 		"source": "GitHub Trending",
 		"date": "2026-08-19T21:44:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "chaitanyagiri 开源本地多智能体框架 Munder Difflin",
-		"url": "https://github.com/chaitanyagiri/munder-difflin",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T20:54:46Z",
 		"group": "gh"
 	},
 	{
@@ -98,13 +119,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T14:21:07Z",
-		"group": "gh"
-	},
-	{
 		"title": "Liquid AI 发布 LFM2.5 Q4_0 量化感知蒸馏检查点",
 		"url": "https://huggingface.co/blog/LiquidAI/qad",
 		"source": "Hugging Face Blog",
@@ -126,13 +140,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-08-19T08:30:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "Claude Managed Agents 更新：支持自托管沙箱和 MCP 隧道",
 		"url": "https://claude.com/blog/claude-managed-agents-updates",
 		"source": "claude.com",
@@ -144,13 +151,6 @@
 		"url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-18T18:09:38.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Science 产品指南",
-		"url": "https://claude.com/blog/the-claude-science-product-guide",
-		"source": "claude.com",
-		"date": "2026-08-18T16:33:44.012Z",
 		"group": "labs"
 	},
 	{
