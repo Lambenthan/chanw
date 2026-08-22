@@ -3,42 +3,49 @@
 		"title": "PostHog 开源 AI 可观测性平台 PostHog",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T00:42:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "mahlernim 开源 Google Timeline 数据可视化工具",
-		"url": "https://github.com/mahlernim/google-timeline-visualizer",
-		"source": "GitHub Trending",
-		"date": "2026-08-22T00:37:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "Ghost 开源发布现代出版平台",
-		"url": "https://github.com/TryGhost/Ghost",
-		"source": "GitHub Trending",
-		"date": "2026-08-22T00:30:56Z",
+		"date": "2026-08-22T06:23:13Z",
 		"group": "gh"
 	},
 	{
 		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
 		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T00:19:58Z",
+		"date": "2026-08-22T06:20:21Z",
 		"group": "gh"
 	},
 	{
-		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"title": "Apache 孵化项目 Maka 发布本地优先 AI agent 工作空间",
+		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T00:14:27Z",
+		"date": "2026-08-22T06:19:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "Google 开源 Protocol Buffers 数据交换格式",
 		"url": "https://github.com/protocolbuffers/protobuf",
 		"source": "GitHub Trending",
-		"date": "2026-08-21T23:52:26Z",
+		"date": "2026-08-22T06:15:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "mahlernim 开源 Google Timeline 数据可视化工具",
+		"url": "https://github.com/mahlernim/google-timeline-visualizer",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T05:32:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ghost 开源发布现代出版平台",
+		"url": "https://github.com/TryGhost/Ghost",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T04:29:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T00:58:57Z",
 		"group": "gh"
 	},
 	{
@@ -77,17 +84,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "Apache 孵化项目 Maka 发布本地优先 AI agent 工作空间",
-		"url": "https://github.com/apache/maka",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T20:07:03Z",
-		"group": "gh"
-	},
-	{
 		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
 		"date": "2026-08-21T16:06:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "ruvnet 开源 Agent 元框架 ruflo",
+		"url": "https://github.com/ruvnet/ruflo",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T15:23:37Z",
 		"group": "gh"
 	},
 	{
@@ -263,6 +270,13 @@
 		"url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-20T16:52:57.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Monday.com 将平台转型为 Agent 优先产品",
+		"url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+		"source": "claude.com",
+		"date": "2026-08-20T14:57:39.076Z",
 		"group": "labs"
 	},
 	{
