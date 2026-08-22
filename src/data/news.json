@@ -3,49 +3,70 @@
 		"title": "PostHog 开源 AI 可观测性平台 PostHog",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T06:23:13Z",
+		"date": "2026-08-22T12:21:54Z",
 		"group": "gh"
 	},
 	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T06:20:21Z",
+		"date": "2026-08-22T12:20:53Z",
 		"group": "gh"
 	},
 	{
 		"title": "Apache 孵化项目 Maka 发布本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T06:19:59Z",
+		"date": "2026-08-22T12:19:44Z",
 		"group": "gh"
 	},
 	{
-		"title": "Google 开源 Protocol Buffers 数据交换格式",
-		"url": "https://github.com/protocolbuffers/protobuf",
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T06:15:31Z",
+		"date": "2026-08-22T12:14:14Z",
 		"group": "gh"
 	},
 	{
 		"title": "mahlernim 开源 Google Timeline 数据可视化工具",
 		"url": "https://github.com/mahlernim/google-timeline-visualizer",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T05:32:05Z",
+		"date": "2026-08-22T12:06:52Z",
 		"group": "gh"
 	},
 	{
-		"title": "Ghost 开源发布现代出版平台",
-		"url": "https://github.com/TryGhost/Ghost",
+		"title": "Google 开源 Protocol Buffers 数据交换格式",
+		"url": "https://github.com/protocolbuffers/protobuf",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T04:29:41Z",
+		"date": "2026-08-22T12:06:01Z",
 		"group": "gh"
 	},
 	{
 		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
 		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T00:58:57Z",
+		"date": "2026-08-22T11:44:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "Ghost 开源发布现代出版平台",
+		"url": "https://github.com/TryGhost/Ghost",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T10:29:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
+		"url": "https://github.com/semantica-agi/semantica",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T09:42:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "llmfit 发布模型硬件适配查询工具",
+		"url": "https://github.com/AlexsJones/llmfit",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T07:49:13Z",
 		"group": "gh"
 	},
 	{
@@ -63,17 +84,17 @@
 		"group": "gh"
 	},
 	{
+		"title": "微软发布 TypeScript 编程语言",
+		"url": "https://github.com/microsoft/TypeScript",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T21:39:39Z",
+		"group": "gh"
+	},
+	{
 		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
 		"url": "https://github.com/AprilNEA/OpenLogi",
 		"source": "GitHub Trending",
 		"date": "2026-08-21T20:42:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T20:39:31Z",
 		"group": "gh"
 	},
 	{
@@ -98,20 +119,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "llmfit 发布模型硬件适配查询工具",
-		"url": "https://github.com/AlexsJones/llmfit",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T15:06:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T14:08:25Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google DeepMind 与游戏工作室合作推进 AI 游戏研究",
 		"url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
 		"source": "DeepMind",
@@ -123,6 +130,13 @@
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-21T10:56:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "cordiverse 开源 Cordis 时空可组合元框架",
+		"url": "https://github.com/cordiverse/cordis",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T07:31:48Z",
 		"group": "gh"
 	},
 	{
