@@ -3,63 +3,84 @@
 		"title": "PostHog 开源 AI 可观测性平台 PostHog",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-08-21T18:25:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "Macro 开源统一工作空间，集成 AI agent 与共享记忆",
-		"url": "https://github.com/macro-inc/macro",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T18:23:07Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
-		"url": "https://github.com/AprilNEA/OpenLogi",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T18:20:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "chaitanyagiri 开源本地多智能体框架 Munder Difflin",
-		"url": "https://github.com/chaitanyagiri/munder-difflin",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T18:15:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "CodebuffAI 开源 Freebuff 编程 agent",
-		"url": "https://github.com/CodebuffAI/freebuff",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T17:57:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T17:23:44Z",
+		"date": "2026-08-22T00:42:11Z",
 		"group": "gh"
 	},
 	{
 		"title": "mahlernim 开源 Google Timeline 数据可视化工具",
 		"url": "https://github.com/mahlernim/google-timeline-visualizer",
 		"source": "GitHub Trending",
-		"date": "2026-08-21T17:18:47Z",
+		"date": "2026-08-22T00:37:28Z",
 		"group": "gh"
 	},
 	{
-		"title": "agent-substrate 开源 Agent Substrate 核心系统",
-		"url": "https://github.com/agent-substrate/substrate",
+		"title": "Ghost 开源发布现代出版平台",
+		"url": "https://github.com/TryGhost/Ghost",
 		"source": "GitHub Trending",
-		"date": "2026-08-21T16:49:59Z",
+		"date": "2026-08-22T00:30:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
+		"url": "https://github.com/unslothai/unsloth",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T00:19:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T00:14:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 Protocol Buffers 数据交换格式",
+		"url": "https://github.com/protocolbuffers/protobuf",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T23:52:26Z",
 		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Switchyard 流量路由框架",
 		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
 		"source": "GitHub Trending",
-		"date": "2026-08-21T16:45:51Z",
+		"date": "2026-08-21T22:27:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T22:26:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
+		"url": "https://github.com/AprilNEA/OpenLogi",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T20:42:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T20:39:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "akitaonrails 开源 ai-memory 长期记忆解决方案",
+		"url": "https://github.com/akitaonrails/ai-memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T20:07:18Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apache 孵化项目 Maka 发布本地优先 AI agent 工作空间",
+		"url": "https://github.com/apache/maka",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T20:07:03Z",
 		"group": "gh"
 	},
 	{
@@ -67,13 +88,6 @@
 		"url": "https://github.com/cactus-compute/needle",
 		"source": "GitHub Trending",
 		"date": "2026-08-21T16:06:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T15:49:04Z",
 		"group": "gh"
 	},
 	{
@@ -98,38 +112,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T12:38:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T12:30:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "makeplane/plane 开源项目管理平台",
-		"url": "https://github.com/makeplane/plane",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T11:54:27Z",
-		"group": "gh"
-	},
-	{
 		"title": "Matt Pocock 开源 skills 项目，提供简易 Agent 技能配置",
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-21T10:56:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯开源 AI-Infra-Guard 全栈 AI 红队平台",
-		"url": "https://github.com/Tencent/AI-Infra-Guard",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T09:38:00Z",
 		"group": "gh"
 	},
 	{
@@ -585,6 +571,13 @@
 		"url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
 		"source": "NVIDIA",
 		"date": "2026-08-12T00:38:21.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok 4.6",
+		"url": "https://x.ai/news/grok-4-6",
+		"source": "xAI",
+		"date": "2026-08-12T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -3822,6 +3815,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "affaan-m 开源 ECC Agent 性能优化系统",
+		"url": "https://github.com/affaan-m/ECC",
+		"source": "GitHub Trending",
+		"date": "2026-05-28T11:45:48Z",
+		"group": "gh"
+	},
+	{
 		"title": "omlx 推出面向 Apple Silicon 的 LLM 推理服务器",
 		"url": "https://github.com/jundot/omlx",
 		"source": "GitHub Trending",
@@ -3841,13 +3841,6 @@
 		"source": "Mistral",
 		"date": "2026-05-28T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "RyanCodrai 开源 TurboVec 向量索引，基于 TurboQuant 构建",
-		"url": "https://github.com/RyanCodrai/turbovec",
-		"source": "GitHub Trending",
-		"date": "2026-05-27T17:40:37Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 AI 工厂基础设施方案",
