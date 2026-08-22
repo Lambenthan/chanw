@@ -3,63 +3,56 @@
 		"title": "PostHog 开源 AI 可观测性平台 PostHog",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T12:21:54Z",
+		"date": "2026-08-22T18:17:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Sub2API 开源统一 API 中转服务，支持多模型订阅接入",
+		"url": "https://github.com/Wei-Shaw/sub2api",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T18:11:25Z",
 		"group": "gh"
 	},
 	{
 		"title": "Basecamp 发布 Omarchy Linux 发行版",
 		"url": "https://github.com/basecamp/omarchy",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T12:20:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "Apache 孵化项目 Maka 发布本地优先 AI agent 工作空间",
-		"url": "https://github.com/apache/maka",
-		"source": "GitHub Trending",
-		"date": "2026-08-22T12:19:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "Unsloth 发布本地 UI 用于训练和运行大模型与扩散模型",
-		"url": "https://github.com/unslothai/unsloth",
-		"source": "GitHub Trending",
-		"date": "2026-08-22T12:14:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "mahlernim 开源 Google Timeline 数据可视化工具",
-		"url": "https://github.com/mahlernim/google-timeline-visualizer",
-		"source": "GitHub Trending",
-		"date": "2026-08-22T12:06:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 开源 Protocol Buffers 数据交换格式",
-		"url": "https://github.com/protocolbuffers/protobuf",
-		"source": "GitHub Trending",
-		"date": "2026-08-22T12:06:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-08-22T11:44:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "Ghost 开源发布现代出版平台",
-		"url": "https://github.com/TryGhost/Ghost",
-		"source": "GitHub Trending",
-		"date": "2026-08-22T10:29:18Z",
+		"date": "2026-08-22T17:57:57Z",
 		"group": "gh"
 	},
 	{
 		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
 		"url": "https://github.com/semantica-agi/semantica",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T09:42:52Z",
+		"date": "2026-08-22T17:31:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "akitaonrails 开源 ai-memory 长期记忆解决方案",
+		"url": "https://github.com/akitaonrails/ai-memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T17:29:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "mahlernim 开源 Google Timeline 数据可视化工具",
+		"url": "https://github.com/mahlernim/google-timeline-visualizer",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T15:49:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "n8n 发布具备原生 AI 能力的公平代码工作流自动化平台",
+		"url": "https://github.com/n8n-io/n8n",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T15:14:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T14:29:05Z",
 		"group": "gh"
 	},
 	{
@@ -67,6 +60,13 @@
 		"url": "https://github.com/AlexsJones/llmfit",
 		"source": "GitHub Trending",
 		"date": "2026-08-22T07:49:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 发布 Codex 轻量级编码 agent",
+		"url": "https://github.com/openai/codex",
+		"source": "GitHub Trending",
+		"date": "2026-08-22T05:57:03Z",
 		"group": "gh"
 	},
 	{
@@ -98,27 +98,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "akitaonrails 开源 ai-memory 长期记忆解决方案",
-		"url": "https://github.com/akitaonrails/ai-memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T20:07:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "cactus-compute 开源 14MB 基础模型 Needle，面向小型设备",
-		"url": "https://github.com/cactus-compute/needle",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T16:06:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "ruvnet 开源 Agent 元框架 ruflo",
-		"url": "https://github.com/ruvnet/ruflo",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T15:23:37Z",
-		"group": "gh"
-	},
-	{
 		"title": "Google DeepMind 与游戏工作室合作推进 AI 游戏研究",
 		"url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
 		"source": "DeepMind",
@@ -126,10 +105,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "makeplane/plane 开源项目管理平台",
+		"url": "https://github.com/makeplane/plane",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T11:54:27Z",
+		"group": "gh"
+	},
+	{
 		"title": "Matt Pocock 开源 skills 项目，提供简易 Agent 技能配置",
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-21T10:56:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯开源 AI-Infra-Guard 全栈 AI 红队安全平台",
+		"url": "https://github.com/Tencent/AI-Infra-Guard",
+		"source": "GitHub Trending",
+		"date": "2026-08-21T09:38:00Z",
 		"group": "gh"
 	},
 	{
@@ -278,6 +271,13 @@
 		"source": "claude.com",
 		"date": "2026-08-20T18:52:27.790Z",
 		"group": "labs"
+	},
+	{
+		"title": "eneskirca 开源 NodeTerm 节点式终端管理器",
+		"url": "https://github.com/eneskirca/nodeterm",
+		"source": "GitHub Trending",
+		"date": "2026-08-20T16:56:04Z",
+		"group": "gh"
 	},
 	{
 		"title": "Liquid AI 发布 LFM2.5-DSpark 推理加速方案",
@@ -4163,12 +4163,5 @@
 		"source": "Anthropic Research",
 		"date": "2026-05-26T16:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "santifer 开源 career-ops AI 求职工具",
-		"url": "https://github.com/santifer/career-ops",
-		"source": "GitHub Trending",
-		"date": "2026-05-25T09:52:42Z",
-		"group": "gh"
 	}
 ]
