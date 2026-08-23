@@ -1,79 +1,72 @@
 [
 	{
-		"title": "Modular 发布 Modular Platform，整合 MAX 与 Mojo",
-		"url": "https://github.com/modular/modular",
+		"title": "free-for-dev 更新免费 SaaS、PaaS 和 IaaS 服务列表",
+		"url": "https://github.com/ripienaar/free-for-dev",
 		"source": "GitHub Trending",
-		"date": "2026-08-23T06:26:10Z",
+		"date": "2026-08-23T12:19:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
+		"url": "https://github.com/apache/maka",
+		"source": "GitHub Trending",
+		"date": "2026-08-23T12:00:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
+		"url": "https://github.com/tinyhumansai/openhuman",
+		"source": "GitHub Trending",
+		"date": "2026-08-23T11:57:43Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
 		"url": "https://github.com/AprilNEA/OpenLogi",
 		"source": "GitHub Trending",
-		"date": "2026-08-23T06:21:05Z",
+		"date": "2026-08-23T11:34:24Z",
 		"group": "gh"
 	},
 	{
-		"title": "mahlernim 开源 Google Timeline 数据可视化工具",
-		"url": "https://github.com/mahlernim/google-timeline-visualizer",
+		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
-		"date": "2026-08-23T06:18:44Z",
+		"date": "2026-08-23T10:12:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布 Codex 轻量级编码 agent",
 		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-08-23T06:12:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "Sub2API 开源统一 API 中转服务，支持多模型订阅接入",
-		"url": "https://github.com/Wei-Shaw/sub2api",
-		"source": "GitHub Trending",
-		"date": "2026-08-23T05:50:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "腾讯开源 AI-Infra-Guard 全栈 AI 红队安全平台",
-		"url": "https://github.com/Tencent/AI-Infra-Guard",
-		"source": "GitHub Trending",
-		"date": "2026-08-23T05:28:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "PostHog 开源 AI 可观测性平台 PostHog",
-		"url": "https://github.com/PostHog/posthog",
-		"source": "GitHub Trending",
-		"date": "2026-08-23T05:26:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "n8n 发布具备原生 AI 能力的公平代码工作流自动化平台",
-		"url": "https://github.com/n8n-io/n8n",
-		"source": "GitHub Trending",
-		"date": "2026-08-23T03:18:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 终端编程工具",
-		"url": "https://github.com/anthropics/claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-08-23T00:52:16Z",
+		"date": "2026-08-23T10:09:18Z",
 		"group": "gh"
 	},
 	{
 		"title": "Basecamp 发布 Omarchy Linux 发行版",
 		"url": "https://github.com/basecamp/omarchy",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T18:18:17Z",
+		"date": "2026-08-23T09:49:23Z",
 		"group": "gh"
 	},
 	{
-		"title": "semantica 开源图原生基础设施，用于上下文与可问责 AI 系统",
-		"url": "https://github.com/semantica-agi/semantica",
+		"title": "VoltAgent 开源 awesome-agent-skills 收录 1000+ agent skill",
+		"url": "https://github.com/VoltAgent/awesome-agent-skills",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T17:31:32Z",
+		"date": "2026-08-23T09:33:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "free-claude-code 开源免费使用 Claude Code 等编程助手",
+		"url": "https://github.com/Alishahryar1/free-claude-code",
+		"source": "GitHub Trending",
+		"date": "2026-08-23T07:07:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "Modular 发布 Modular Platform，整合 MAX 与 Mojo",
+		"url": "https://github.com/modular/modular",
+		"source": "GitHub Trending",
+		"date": "2026-08-23T06:28:26Z",
 		"group": "gh"
 	},
 	{
@@ -84,45 +77,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "free-for-dev 更新免费 SaaS、PaaS 和 IaaS 服务列表",
-		"url": "https://github.com/ripienaar/free-for-dev",
+		"title": "ruvnet 开源 Ruflo agent 元框架，支持多智能体协作",
+		"url": "https://github.com/ruvnet/ruflo",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T15:21:25Z",
+		"date": "2026-08-22T16:40:30Z",
 		"group": "gh"
 	},
 	{
-		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"title": "Vaultwarden 开源 Bitwarden 兼容服务器 Rust 实现",
+		"url": "https://github.com/dani-garcia/vaultwarden",
 		"source": "GitHub Trending",
-		"date": "2026-08-22T14:29:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "llmfit 发布模型硬件适配查询工具",
-		"url": "https://github.com/AlexsJones/llmfit",
-		"source": "GitHub Trending",
-		"date": "2026-08-22T07:49:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 开源 Switchyard 流量路由框架",
-		"url": "https://github.com/NVIDIA-NeMo/Switchyard",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T22:27:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "diagram-design 为 Claude Code 提供 29 种编辑级图表类型",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T22:26:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "微软发布 TypeScript 编程语言",
-		"url": "https://github.com/microsoft/TypeScript",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T21:39:39Z",
+		"date": "2026-08-22T12:09:35Z",
 		"group": "gh"
 	},
 	{
@@ -131,13 +96,6 @@
 		"source": "DeepMind",
 		"date": "2026-08-21T13:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "makeplane/plane 开源项目管理平台",
-		"url": "https://github.com/makeplane/plane",
-		"source": "GitHub Trending",
-		"date": "2026-08-21T11:54:27Z",
-		"group": "gh"
 	},
 	{
 		"title": "Matt Pocock 开源 skills 项目，提供简易 Agent 技能配置",
@@ -287,13 +245,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "eneskirca 开源 NodeTerm 节点式终端管理器",
-		"url": "https://github.com/eneskirca/nodeterm",
-		"source": "GitHub Trending",
-		"date": "2026-08-20T16:56:04Z",
-		"group": "gh"
-	},
-	{
 		"title": "Liquid AI 发布 LFM2.5-DSpark 推理加速方案",
 		"url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
 		"source": "Hugging Face Blog",
@@ -329,10 +280,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "superpowers 开源 agentic skills 框架与软件开发方法论",
-		"url": "https://github.com/obra/superpowers",
+		"title": "book-to-skill 开源：将技术书 PDF 转为 Claude Code skill",
+		"url": "https://github.com/virgiliojr94/book-to-skill",
 		"source": "GitHub Trending",
-		"date": "2026-08-19T17:33:23Z",
+		"date": "2026-08-19T20:59:45Z",
 		"group": "gh"
 	},
 	{
