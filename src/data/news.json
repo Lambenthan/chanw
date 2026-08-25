@@ -1,58 +1,100 @@
 [
 	{
-		"title": "akitaonrails 开源 ai-memory 长期记忆解决方案",
-		"url": "https://github.com/akitaonrails/ai-memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-24T18:27:47Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenClaw 开源个人 AI 助手，支持多操作系统与平台",
 		"url": "https://github.com/openclaw/openclaw",
 		"source": "GitHub Trending",
-		"date": "2026-08-24T18:27:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "NousResearch 开源 hermes-agent 智能体框架",
-		"url": "https://github.com/NousResearch/hermes-agent",
-		"source": "GitHub Trending",
-		"date": "2026-08-24T18:25:08Z",
+		"date": "2026-08-25T00:43:33Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布 Codex 轻量级编码 agent",
 		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-08-24T18:24:36Z",
+		"date": "2026-08-25T00:40:58Z",
 		"group": "gh"
 	},
 	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
+		"title": "NousResearch 开源 hermes-agent 智能体框架",
+		"url": "https://github.com/NousResearch/hermes-agent",
 		"source": "GitHub Trending",
-		"date": "2026-08-24T17:58:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
-		"url": "https://github.com/tinyhumansai/openhuman",
-		"source": "GitHub Trending",
-		"date": "2026-08-24T17:53:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
-		"url": "https://github.com/apache/maka",
-		"source": "GitHub Trending",
-		"date": "2026-08-24T17:40:10Z",
+		"date": "2026-08-24T22:18:09Z",
 		"group": "gh"
 	},
 	{
 		"title": "free-claude-code 开源免费使用 Claude Code 等编程助手",
 		"url": "https://github.com/Alishahryar1/free-claude-code",
 		"source": "GitHub Trending",
-		"date": "2026-08-24T17:38:49Z",
+		"date": "2026-08-24T21:33:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "FreeLLM API 开源：聚合 28 家 LLM 免费层的 OpenAI 兼容代理",
+		"url": "https://github.com/tashfeenahmed/freellmapi",
+		"source": "GitHub Trending",
+		"date": "2026-08-24T21:10:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "makeplane 开源 Plane 项目管理平台",
+		"url": "https://github.com/makeplane/plane",
+		"source": "GitHub Trending",
+		"date": "2026-08-24T20:44:20Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-24T19:59:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
+		"url": "https://github.com/apache/maka",
+		"source": "GitHub Trending",
+		"date": "2026-08-24T19:57:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 AI Native SDLC Playbook",
+		"url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+		"source": "claude.com",
+		"date": "2026-08-24T19:50:50.584Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 在 Slack 中部署 Claude Tag 实现自助数据分析",
+		"url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+		"source": "claude.com",
+		"date": "2026-08-24T19:50:50.584Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 5 的上下文工程新规则",
+		"url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+		"source": "claude.com",
+		"date": "2026-08-24T19:50:50.584Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 推出 Enterprise Managed Auth 企业身份管理",
+		"url": "https://claude.com/blog/enterprise-managed-auth",
+		"source": "claude.com",
+		"date": "2026-08-24T19:50:50.584Z",
+		"group": "labs"
+	},
+	{
+		"title": "akitaonrails 开源 ai-memory 长期记忆解决方案",
+		"url": "https://github.com/akitaonrails/ai-memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-24T19:48:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
+		"url": "https://github.com/tinyhumansai/openhuman",
+		"source": "GitHub Trending",
+		"date": "2026-08-24T19:04:47Z",
 		"group": "gh"
 	},
 	{
@@ -63,11 +105,25 @@
 		"group": "gh"
 	},
 	{
+		"title": "NodeTerm 发布面向 AI 编程 agent 的 Node 终端管理器",
+		"url": "https://github.com/eneskirca/nodeterm",
+		"source": "GitHub Trending",
+		"date": "2026-08-24T17:23:20Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 开源 Claude 插件社区市场",
 		"url": "https://github.com/anthropics/claude-plugins-community",
 		"source": "GitHub Trending",
 		"date": "2026-08-24T17:07:15Z",
 		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 NvLink Fusion XPU AI Factory",
+		"url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+		"source": "NVIDIA",
+		"date": "2026-08-24T16:26:23.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "NVIDIA 发布 Vera Rubin Nvl72 提升 AI agent 效率",
@@ -112,13 +168,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "FreeLLM API 开源：聚合 28 家 LLM 免费层的 OpenAI 兼容代理",
-		"url": "https://github.com/tashfeenahmed/freellmapi",
-		"source": "GitHub Trending",
-		"date": "2026-08-24T10:57:24Z",
-		"group": "gh"
-	},
-	{
 		"title": "freestylefly 开源 GPT-Image2 工业级提示词引擎与模板库",
 		"url": "https://github.com/freestylefly/awesome-gpt-image-2",
 		"source": "GitHub Trending",
@@ -144,6 +193,13 @@
 		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
 		"source": "GitHub Trending",
 		"date": "2026-08-24T05:58:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零到实战的学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-08-23T20:29:51Z",
 		"group": "gh"
 	},
 	{
@@ -179,6 +235,13 @@
 		"url": "https://huggingface.co/blog/asr-benchmark-optimization",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-21T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Monday.com 将平台转型为 Agent 优先产品",
+		"url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+		"source": "claude.com",
+		"date": "2026-08-20T22:17:55.304Z",
 		"group": "labs"
 	},
 	{
@@ -231,13 +294,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 在 Slack 中部署 Claude Tag 实现自助数据分析",
-		"url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
-		"source": "claude.com",
-		"date": "2026-08-20T18:52:27.790Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude 发表 AI 指数时代产品管理文章",
 		"url": "https://claude.com/blog/product-management-on-the-ai-exponential",
 		"source": "claude.com",
@@ -273,13 +329,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude 5 的上下文工程新规则",
-		"url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-		"source": "claude.com",
-		"date": "2026-08-20T18:52:27.790Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 介绍 AI 原生软件开发生命周期的安全实践",
 		"url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
 		"source": "claude.com",
@@ -305,13 +354,6 @@
 		"url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-20T16:52:57.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Monday.com 将平台转型为 Agent 优先产品",
-		"url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
-		"source": "claude.com",
-		"date": "2026-08-20T14:57:39.076Z",
 		"group": "labs"
 	},
 	{
@@ -847,13 +889,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Claude 推出 Enterprise Managed Auth 企业身份管理",
-		"url": "https://claude.com/blog/enterprise-managed-auth",
-		"source": "claude.com",
-		"date": "2026-08-03T15:58:20.921Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude Fable 使用指南",
 		"url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
 		"source": "claude.com",
@@ -1122,6 +1157,13 @@
 	{
 		"title": "xAI 将 Grok 4.5 接入 GitHub Copilot",
 		"url": "https://x.ai/news/grok-github-copilot",
+		"source": "xAI",
+		"date": "2026-07-28T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Build Mode 应用构建功能",
+		"url": "https://x.ai/news/grok-build-mode",
 		"source": "xAI",
 		"date": "2026-07-28T00:00:00.000Z",
 		"group": "labs"
@@ -3836,6 +3878,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "OpenAI 推进内容溯源技术",
+		"url": "https://openai.com/index/advancing-content-provenance/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 加速网络防御生态建设",
+		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+		"source": "OpenAI",
+		"date": "2026-05-27T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 公布 Sora Feed 设计理念",
 		"url": "https://openai.com/index/sora-feed-philosophy/",
 		"source": "OpenAI",
@@ -3899,13 +3955,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 加速网络防御生态建设",
-		"url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 更新安全漏洞赏金计划",
 		"url": "https://openai.com/index/safety-bug-bounty/",
 		"source": "OpenAI",
@@ -3915,13 +3964,6 @@
 	{
 		"title": "OpenAI 在 ChatGPT 中推出 Lockdown Mode 与风险标签",
 		"url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
-		"source": "OpenAI",
-		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推进内容溯源技术",
-		"url": "https://openai.com/index/advancing-content-provenance/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
 		"group": "labs"
@@ -4085,20 +4127,6 @@
 		"url": "https://openai.com/index/ai-agent-link-safety/",
 		"source": "OpenAI",
 		"date": "2026-05-27T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Mistral 发布物理 AI，加速工程计算",
-		"url": "https://mistral.ai/news/introducing-physics-ai-at-mistral/",
-		"source": "Mistral",
-		"date": "2026-05-27T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Mistral 发布物理 AI 研究进展",
-		"url": "https://mistral.ai/news/physics-ai-research/",
-		"source": "Mistral",
-		"date": "2026-05-27T00:00:00.000Z",
 		"group": "labs"
 	}
 ]
