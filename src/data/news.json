@@ -3862,19 +3862,5 @@
 		"source": "GitHub Trending",
 		"date": "2026-05-28T08:53:20Z",
 		"group": "gh"
-	},
-	{
-		"title": "OpenAI 发布可靠第三方评估基础框架",
-		"url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations/",
-		"source": "OpenAI",
-		"date": "2026-05-28T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Mistral 发布 Search Toolkit",
-		"url": "https://mistral.ai/news/search-toolkit/",
-		"source": "Mistral",
-		"date": "2026-05-28T00:00:00.000Z",
-		"group": "labs"
 	}
 ]
