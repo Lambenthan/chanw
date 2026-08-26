@@ -1,23 +1,100 @@
 [
 	{
+		"title": "Modular 发布 Modular Platform，整合 MAX 与 Mojo",
+		"url": "https://github.com/modular/modular",
+		"source": "GitHub Trending",
+		"date": "2026-08-26T06:33:18Z",
+		"group": "gh"
+	},
+	{
 		"title": "PostHog 发布自驱产品开发者平台",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-08-25T18:26:55Z",
+		"date": "2026-08-26T06:33:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
+		"url": "https://github.com/apache/maka",
+		"source": "GitHub Trending",
+		"date": "2026-08-26T06:08:08Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布 Codex 轻量级编码 agent",
 		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-08-25T18:21:48Z",
+		"date": "2026-08-26T06:05:16Z",
 		"group": "gh"
 	},
 	{
 		"title": "Marin 开源基础模型研发框架",
 		"url": "https://github.com/marin-community/marin",
 		"source": "GitHub Trending",
-		"date": "2026-08-25T18:18:12Z",
+		"date": "2026-08-26T06:03:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
+		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
+		"source": "GitHub Trending",
+		"date": "2026-08-26T02:31:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "claude-obsidian 开源自组织 AI 第二大脑，连接 Obsidian 与 Claude Code",
+		"url": "https://github.com/AgriciDaniel/claude-obsidian",
+		"source": "GitHub Trending",
+		"date": "2026-08-25T23:32:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 推出 Clio 对话分析系统",
+		"url": "https://www.anthropic.com/research/clio",
+		"source": "Anthropic Research",
+		"date": "2026-08-25T23:30:03.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NodeTerm 发布面向 AI 编程 agent 的 Node 终端管理器",
+		"url": "https://github.com/eneskirca/nodeterm",
+		"source": "GitHub Trending",
+		"date": "2026-08-25T22:47:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 插件官方目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-08-25T22:10:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "akitaonrails 开源 ai-memory 长期记忆解决方案",
+		"url": "https://github.com/akitaonrails/ai-memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-25T21:19:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Claude 上线跨会话记忆功能",
+		"url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+		"source": "claude.com",
+		"date": "2026-08-25T20:58:20.842Z",
+		"group": "labs"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-25T20:52:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 开源 Claude 插件社区市场",
+		"url": "https://github.com/anthropics/claude-plugins-community",
+		"source": "GitHub Trending",
+		"date": "2026-08-25T20:01:46Z",
 		"group": "gh"
 	},
 	{
@@ -25,20 +102,6 @@
 		"url": "https://github.com/AprilNEA/OpenLogi",
 		"source": "GitHub Trending",
 		"date": "2026-08-25T16:55:16Z",
-		"group": "gh"
-	},
-	{
-		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
-		"url": "https://github.com/apache/maka",
-		"source": "GitHub Trending",
-		"date": "2026-08-25T16:38:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-25T16:18:49Z",
 		"group": "gh"
 	},
 	{
@@ -126,10 +189,17 @@
 		"group": "labs"
 	},
 	{
-		"title": "NodeTerm 发布面向 AI 编程 agent 的 Node 终端管理器",
-		"url": "https://github.com/eneskirca/nodeterm",
+		"title": "IBM Granite 发布 Granite 4.2 大语言模型",
+		"url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-25T15:14:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "MadsLorentzen 开源 AI 求职框架 ai-job-search",
+		"url": "https://github.com/MadsLorentzen/ai-job-search",
 		"source": "GitHub Trending",
-		"date": "2026-08-25T15:48:37Z",
+		"date": "2026-08-25T14:55:43Z",
 		"group": "gh"
 	},
 	{
@@ -161,31 +231,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "MoneyPrinterTurbo 开源 AI 短视频生成工具",
-		"url": "https://github.com/harry0703/MoneyPrinterTurbo",
-		"source": "GitHub Trending",
-		"date": "2026-08-25T10:01:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "Modular 发布 Modular Platform，整合 MAX 与 Mojo",
-		"url": "https://github.com/modular/modular",
-		"source": "GitHub Trending",
-		"date": "2026-08-25T09:53:13Z",
-		"group": "gh"
-	},
-	{
 		"title": "asciimoo 开源自建搜索引擎 hister",
 		"url": "https://github.com/asciimoo/hister",
 		"source": "GitHub Trending",
 		"date": "2026-08-25T07:48:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 插件官方目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-08-25T07:41:14Z",
 		"group": "gh"
 	},
 	{
@@ -243,13 +292,6 @@
 		"source": "claude.com",
 		"date": "2026-08-24T19:50:50.584Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 开源 Claude 插件社区市场",
-		"url": "https://github.com/anthropics/claude-plugins-community",
-		"source": "GitHub Trending",
-		"date": "2026-08-24T17:07:15Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 NvLink Fusion XPU AI Factory",
@@ -992,13 +1034,6 @@
 		"source": "Google AI",
 		"date": "2026-08-03T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "claude-obsidian 开源自组织 AI 第二大脑，连接 Obsidian 与 Claude Code",
-		"url": "https://github.com/AgriciDaniel/claude-obsidian",
-		"source": "GitHub Trending",
-		"date": "2026-08-01T12:03:27Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 在 GTC 2025 介绍主权 AI 计划",
