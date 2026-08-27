@@ -3,63 +3,175 @@
 		"title": "PostHog 发布自驱产品开发者平台",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-08-26T19:41:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 发布 Codex 轻量级编码 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T19:41:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "akitaonrails 开源 ai-memory 长期记忆解决方案",
-		"url": "https://github.com/akitaonrails/ai-memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T19:36:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
-		"url": "https://github.com/tinyhumansai/openhuman",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T19:30:15Z",
+		"date": "2026-08-27T05:47:52Z",
 		"group": "gh"
 	},
 	{
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-26T19:21:58Z",
+		"date": "2026-08-27T05:47:33Z",
 		"group": "gh"
 	},
 	{
-		"title": "BookOrbit 发布个人阅读空间软件 BookOrbit",
-		"url": "https://github.com/bookorbit/bookorbit",
+		"title": "OpenAI 发布 Codex 轻量级编码 agent",
+		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-08-26T19:21:32Z",
+		"date": "2026-08-27T05:37:36Z",
 		"group": "gh"
 	},
 	{
-		"title": "public-apis 项目聚合免费 API 列表",
-		"url": "https://github.com/public-apis/public-apis",
+		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
+		"url": "https://github.com/Alishahryar1/free-claude-code",
 		"source": "GitHub Trending",
-		"date": "2026-08-26T19:19:56Z",
+		"date": "2026-08-27T05:36:39Z",
 		"group": "gh"
 	},
 	{
 		"title": "Marin 开源基础模型研发框架",
 		"url": "https://github.com/marin-community/marin",
 		"source": "GitHub Trending",
-		"date": "2026-08-26T19:14:25Z",
+		"date": "2026-08-27T05:23:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T05:18:19Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
 		"url": "https://github.com/AprilNEA/OpenLogi",
 		"source": "GitHub Trending",
-		"date": "2026-08-26T18:55:36Z",
+		"date": "2026-08-27T04:53:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "BookOrbit 发布个人阅读空间软件 BookOrbit",
+		"url": "https://github.com/bookorbit/bookorbit",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T04:16:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "chaitanyagiri 开源 Munder-Difflin 本地多智能体框架",
+		"url": "https://github.com/chaitanyagiri/munder-difflin",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T02:51:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T01:42:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "akitaonrails 开源 ai-memory 长期记忆解决方案",
+		"url": "https://github.com/akitaonrails/ai-memory",
+		"source": "GitHub Trending",
+		"date": "2026-08-26T23:16:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
+		"url": "https://github.com/tinyhumansai/openhuman",
+		"source": "GitHub Trending",
+		"date": "2026-08-26T22:30:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-26T21:56:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 签署美国青少年 AI 教育投资承诺",
+		"url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
+		"source": "Anthropic News",
+		"date": "2026-08-26T21:03:43.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 核安全保障研究",
+		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+		"source": "Anthropic Research",
+		"date": "2026-08-26T20:55:42.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 更新使用政策",
+		"url": "https://www.anthropic.com/news/usage-policy-update",
+		"source": "Anthropic News",
+		"date": "2026-08-26T20:54:44.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Persona Vectors 研究发布",
+		"url": "https://www.anthropic.com/research/persona-vectors",
+		"source": "Anthropic Research",
+		"date": "2026-08-26T20:53:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "劳伦斯利弗莫尔国家实验室扩大 Claude for Enterprise 部署",
+		"url": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
+		"source": "Anthropic News",
+		"date": "2026-08-26T20:52:11.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 恶意使用检测与应对报告 2025 年 3 月版",
+		"url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+		"source": "Anthropic News",
+		"date": "2026-08-26T20:47:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI Native SDLC Playbook",
+		"url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+		"source": "claude.com",
+		"date": "2026-08-26T20:46:51.070Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出 Compliance API 与 Claude Code 协作功能",
+		"url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+		"source": "claude.com",
+		"date": "2026-08-26T20:46:51.070Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 让 Claude 在 Chrome 中正式可用",
+		"url": "https://claude.com/blog/claude-in-chrome-generally-available",
+		"source": "claude.com",
+		"date": "2026-08-26T20:46:51.070Z",
+		"group": "labs"
+	},
+	{
+		"title": "Warp 基于 Claude 构建自我改进 Agent",
+		"url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+		"source": "claude.com",
+		"date": "2026-08-26T20:46:51.070Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Constitutional Classifiers",
+		"url": "https://www.anthropic.com/research/constitutional-classifiers",
+		"source": "Anthropic Research",
+		"date": "2026-08-26T20:45:34.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "public-apis 项目聚合免费 API 列表",
+		"url": "https://github.com/public-apis/public-apis",
+		"source": "GitHub Trending",
+		"date": "2026-08-26T19:19:56Z",
 		"group": "gh"
 	},
 	{
@@ -112,13 +224,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T18:20:07Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 宣布与 SKT 达成合作伙伴关系",
 		"url": "https://www.anthropic.com/news/skt-partnership-announcement",
 		"source": "Anthropic News",
@@ -131,13 +236,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-08-26T18:16:30.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
-		"url": "https://github.com/Alishahryar1/free-claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T18:16:24Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布前沿模型安全方案",
@@ -215,13 +313,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-08-26T18:03:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "chaitanyagiri 开源 Munder-Difflin 本地多智能体框架",
-		"url": "https://github.com/chaitanyagiri/munder-difflin",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T14:21:25Z",
-		"group": "gh"
 	},
 	{
 		"title": "VoltAgent 开源 awesome-agent-skills 收录 1000+ agent skills",
@@ -427,24 +518,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-08-25T06:47:17Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 发布 Gradio AI 工作流指南",
 		"url": "https://huggingface.co/blog/gradio-workflow-guide",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-25T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI Native SDLC Playbook",
-		"url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
-		"source": "claude.com",
-		"date": "2026-08-24T19:50:50.584Z",
 		"group": "labs"
 	},
 	{
@@ -735,6 +812,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 将 Grok 4.6 集成到 GitHub Copilot",
+		"url": "https://x.ai/news/grok-4-6-github-copilot",
+		"source": "xAI",
+		"date": "2026-08-14T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 团队分享 Claude Code 使用实践",
 		"url": "https://claude.com/blog/how-anthropic-teams-use-claude-code",
 		"source": "claude.com",
@@ -912,13 +996,6 @@
 	{
 		"title": "Anthropic 发布 Claude Cowork 产品指南",
 		"url": "https://claude.com/blog/the-claude-cowork-product-guide",
-		"source": "claude.com",
-		"date": "2026-08-12T00:50:51.791Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Compliance API 与 Claude Code 协作功能",
-		"url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
 		"source": "claude.com",
 		"date": "2026-08-12T00:50:51.791Z",
 		"group": "labs"
@@ -2289,24 +2366,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Constitutional Classifiers",
-		"url": "https://www.anthropic.com/research/constitutional-classifiers",
-		"source": "Anthropic Research",
-		"date": "2026-07-08T21:59:48.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Values Wild 价值观对齐研究",
 		"url": "https://www.anthropic.com/research/values-wild",
 		"source": "Anthropic Research",
 		"date": "2026-07-08T21:58:13.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Persona Vectors 研究发布",
-		"url": "https://www.anthropic.com/research/persona-vectors",
-		"source": "Anthropic Research",
-		"date": "2026-07-08T21:35:26.000Z",
 		"group": "labs"
 	},
 	{
@@ -2755,13 +2818,6 @@
 		"url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
 		"source": "NVIDIA",
 		"date": "2026-06-24T19:01:01.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 核安全保障研究",
-		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
-		"source": "Anthropic Research",
-		"date": "2026-06-24T14:21:03.000Z",
 		"group": "labs"
 	},
 	{
