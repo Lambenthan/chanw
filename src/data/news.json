@@ -3,63 +3,189 @@
 		"title": "PostHog 发布自驱产品开发者平台",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T05:47:52Z",
+		"date": "2026-08-27T17:08:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T05:47:33Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 发布 Codex 轻量级编码 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T05:37:36Z",
-		"group": "gh"
-	},
-	{
-		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
-		"url": "https://github.com/Alishahryar1/free-claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T05:36:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "Marin 开源基础模型研发框架",
-		"url": "https://github.com/marin-community/marin",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T05:23:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T05:18:19Z",
+		"date": "2026-08-27T17:07:35Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
 		"url": "https://github.com/AprilNEA/OpenLogi",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T04:53:37Z",
+		"date": "2026-08-27T17:07:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "Marin 开源基础模型研发框架",
+		"url": "https://github.com/marin-community/marin",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T17:01:54Z",
 		"group": "gh"
 	},
 	{
 		"title": "BookOrbit 发布个人阅读空间软件 BookOrbit",
 		"url": "https://github.com/bookorbit/bookorbit",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T04:16:28Z",
+		"date": "2026-08-27T16:58:02Z",
 		"group": "gh"
 	},
 	{
 		"title": "chaitanyagiri 开源 Munder-Difflin 本地多智能体框架",
 		"url": "https://github.com/chaitanyagiri/munder-difflin",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T02:51:50Z",
+		"date": "2026-08-27T15:59:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T15:36:32Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 发布 Codex 轻量级编码 agent",
+		"url": "https://github.com/openai/codex",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T15:30:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 推出 AI for Science 计划",
+		"url": "https://www.anthropic.com/news/ai-for-science-program",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:14:27.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推进 Claude 在教育领域的应用",
+		"url": "https://www.anthropic.com/news/advancing-claude-for-education",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:13:58.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出 Claude for Life Sciences",
+		"url": "https://www.anthropic.com/news/claude-for-life-sciences",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:13:34.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与冰岛启动国家级 AI 教育试点项目",
+		"url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:13:17.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 加速科学研究新计划",
+		"url": "https://www.anthropic.com/news/accelerating-scientific-research",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:12:10.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 Teach For All 达成合作",
+		"url": "https://www.anthropic.com/news/anthropic-teach-for-all",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:12:05.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与卢旺达政府合作推进 AI 教育",
+		"url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:11:25.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与艾伦研究所和霍华德·休斯医学研究所达成合作",
+		"url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:10:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 Codepath 达成合作",
+		"url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:10:26.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 在卢旺达签署谅解备忘录",
+		"url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:09:47.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出 Claude Corps 服务",
+		"url": "https://www.anthropic.com/news/claude-corps",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:08:34.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Science AI Workbench",
+		"url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:08:16.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出 Claude for Teachers",
+		"url": "https://www.anthropic.com/news/claude-for-teachers",
+		"source": "Anthropic News",
+		"date": "2026-08-27T15:07:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 首次试点双盲 AI 评估",
+		"url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+		"source": "DeepMind",
+		"date": "2026-08-27T14:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 插件官方目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T10:42:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
+		"url": "https://github.com/Alishahryar1/free-claude-code",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T10:20:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "Modular 发布 Modular Platform，整合 MAX 与 Mojo",
+		"url": "https://github.com/modular/modular",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T08:59:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T06:49:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
+		"url": "https://github.com/tinyhumansai/openhuman",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T06:30:11Z",
 		"group": "gh"
 	},
 	{
@@ -70,25 +196,25 @@
 		"group": "gh"
 	},
 	{
-		"title": "akitaonrails 开源 ai-memory 长期记忆解决方案",
-		"url": "https://github.com/akitaonrails/ai-memory",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T23:16:41Z",
-		"group": "gh"
+		"title": "Anthropic 正式推出浏览器内置的一项协作功能 Cowork",
+		"url": "https://claude.com/blog/cowork-built-in-browser",
+		"source": "claude.com",
+		"date": "2026-08-27T00:30:59.718Z",
+		"group": "labs"
 	},
 	{
-		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
-		"url": "https://github.com/tinyhumansai/openhuman",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T22:30:49Z",
-		"group": "gh"
+		"title": "DeepMind 发布 Gemini Omni 1.1 Flash",
+		"url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+		"source": "DeepMind",
+		"date": "2026-08-27T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T21:56:34Z",
-		"group": "gh"
+		"title": "Google 搜索 AI Mode 新增旅行规划与预订功能",
+		"url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+		"source": "Google AI",
+		"date": "2026-08-27T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 签署美国青少年 AI 教育投资承诺",
@@ -166,20 +292,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-08-26T20:45:34.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "public-apis 项目聚合免费 API 列表",
-		"url": "https://github.com/public-apis/public-apis",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T19:19:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "browser-use 开源浏览器自动化工具，让 AI agent 访问网站",
-		"url": "https://github.com/browser-use/browser-use",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T18:41:37Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布理解与应对 AI 危害的方法",
@@ -280,13 +392,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "MadsLorentzen 开源 AI 求职框架 ai-job-search",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T18:07:41Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 发布 Constitutional AI 从 AI 反馈中学习无害性研究",
 		"url": "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
 		"source": "Anthropic Research",
@@ -315,17 +420,17 @@
 		"group": "labs"
 	},
 	{
-		"title": "VoltAgent 开源 awesome-agent-skills 收录 1000+ agent skills",
-		"url": "https://github.com/VoltAgent/awesome-agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T12:15:01Z",
-		"group": "gh"
-	},
-	{
 		"title": "claude-obsidian 开源自组织 AI 第二大脑，连接 Obsidian 与 Claude Code",
 		"url": "https://github.com/AgriciDaniel/claude-obsidian",
 		"source": "GitHub Trending",
 		"date": "2026-08-26T11:43:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "Nitter 开源替代 Twitter 前端",
+		"url": "https://github.com/zedeus/nitter",
+		"source": "GitHub Trending",
+		"date": "2026-08-26T11:19:23Z",
 		"group": "gh"
 	},
 	{
@@ -347,20 +452,6 @@
 		"url": "https://github.com/freestylefly/awesome-gpt-image-2",
 		"source": "GitHub Trending",
 		"date": "2026-08-26T08:54:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 插件官方目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T07:40:55Z",
-		"group": "gh"
-	},
-	{
-		"title": "Modular 发布 Modular Platform，整合 MAX 与 Mojo",
-		"url": "https://github.com/modular/modular",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T06:38:38Z",
 		"group": "gh"
 	},
 	{
@@ -392,6 +483,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "NVIDIA 发布 NvLink Fusion XPU AI Factory",
+		"url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
+		"source": "NVIDIA",
+		"date": "2026-08-25T21:55:10.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Claude 上线跨会话记忆功能",
 		"url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
 		"source": "claude.com",
@@ -404,6 +502,13 @@
 		"source": "GitHub Trending",
 		"date": "2026-08-25T20:01:46Z",
 		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Vera Rubin Nvl72 提升 AI agent 效率",
+		"url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-08-25T17:45:35.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布 AI 辅助工作生产力提升估算研究",
@@ -553,20 +658,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 发布 NvLink Fusion XPU AI Factory",
-		"url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
-		"source": "NVIDIA",
-		"date": "2026-08-24T16:26:23.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Vera Rubin Nvl72 提升 AI agent 效率",
-		"url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-08-24T16:19:14.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 更新 Fable 5 生物学安全防护",
 		"url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
 		"source": "Anthropic News",
@@ -632,6 +723,13 @@
 	{
 		"title": "Anthropic 推出 Computer Use Skills API 与 Files API",
 		"url": "https://claude.com/blog/computer-use-skills-api-files-api",
+		"source": "claude.com",
+		"date": "2026-08-20T20:26:34.432Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 创业公司指南",
+		"url": "https://claude.com/blog/claude-code-guide-for-startups",
 		"source": "claude.com",
 		"date": "2026-08-20T20:26:34.432Z",
 		"group": "labs"
@@ -754,6 +852,13 @@
 		"source": "claude.com",
 		"date": "2026-08-20T00:28:43.230Z",
 		"group": "labs"
+	},
+	{
+		"title": "JetBrains 发布 Go Modern Guidelines 帮助 AI 编码 agent 编写现代 Go 代码",
+		"url": "https://github.com/JetBrains/go-modern-guidelines",
+		"source": "GitHub Trending",
+		"date": "2026-08-19T17:39:58Z",
+		"group": "gh"
 	},
 	{
 		"title": "Claude Managed Agents 更新：支持自托管沙箱和 MCP 隧道",
@@ -1057,6 +1162,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "ComposioHQ 开源 awesome-claude-skills 精选资源列表",
+		"url": "https://github.com/ComposioHQ/awesome-claude-skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T21:45:44Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 在亚美尼亚建设 Firebird AI 工厂，采用 Blackwell 与 Rubin 架构",
 		"url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
 		"source": "NVIDIA",
@@ -1069,6 +1181,13 @@
 		"source": "Anthropic News",
 		"date": "2026-08-10T19:00:15.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "OpenCut 开源视频编辑器 OpenCut，作为 CapCut 替代方案",
+		"url": "https://github.com/OpenCut-app/OpenCut",
+		"source": "GitHub Trending",
+		"date": "2026-08-10T16:38:36Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 开源 Magpie TTS 低延迟多语言语音模型",
@@ -1701,13 +1820,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 推出 Claude for Teachers",
-		"url": "https://www.anthropic.com/news/claude-for-teachers",
-		"source": "Anthropic News",
-		"date": "2026-07-21T23:43:25.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 分享 Claude 在法律行业的应用案例与最佳实践",
 		"url": "https://claude.com/blog/claude-for-the-legal-industry",
 		"source": "claude.com",
@@ -1783,6 +1895,13 @@
 		"source": "xAI",
 		"date": "2026-07-20T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "TauricResearch 开源 TradingAgents 多智能体金融交易框架",
+		"url": "https://github.com/TauricResearch/TradingAgents",
+		"source": "GitHub Trending",
+		"date": "2026-07-18T15:55:05Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 分享 Claude 在 Cursor 中的使用实践",
@@ -2555,13 +2674,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Science AI Workbench",
-		"url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-		"source": "Anthropic News",
-		"date": "2026-07-01T17:37:46.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Vision AI Agent Skills 集成 Omniverse 与 Metropolis",
 		"url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
 		"source": "NVIDIA",
@@ -2622,13 +2734,6 @@
 		"url": "https://claude.com/blog/claude-in-microsoft-foundry",
 		"source": "claude.com",
 		"date": "2026-06-29T19:08:50.737Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google AI 专家解读全栈 AI 方法",
-		"url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-		"source": "Google AI",
-		"date": "2026-06-29T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2720,13 +2825,6 @@
 		"url": "https://www.anthropic.com/research/exploit",
 		"source": "Anthropic Research",
 		"date": "2026-06-26T12:33:25.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Claude Corps 服务",
-		"url": "https://www.anthropic.com/news/claude-corps",
-		"source": "Anthropic News",
-		"date": "2026-06-26T12:32:44.000Z",
 		"group": "labs"
 	},
 	{
