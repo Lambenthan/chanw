@@ -3,56 +3,105 @@
 		"title": "PostHog 发布自驱产品开发者平台",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T17:08:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
-		"url": "https://github.com/apache/maka",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T17:07:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
-		"url": "https://github.com/AprilNEA/OpenLogi",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T17:07:01Z",
+		"date": "2026-08-28T01:57:18Z",
 		"group": "gh"
 	},
 	{
 		"title": "Marin 开源基础模型研发框架",
 		"url": "https://github.com/marin-community/marin",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T17:01:54Z",
+		"date": "2026-08-28T01:52:09Z",
 		"group": "gh"
 	},
 	{
-		"title": "BookOrbit 发布个人阅读空间软件 BookOrbit",
-		"url": "https://github.com/bookorbit/bookorbit",
+		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
+		"url": "https://github.com/Alishahryar1/free-claude-code",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T16:58:02Z",
+		"date": "2026-08-28T01:42:43Z",
 		"group": "gh"
 	},
 	{
-		"title": "chaitanyagiri 开源 Munder-Difflin 本地多智能体框架",
-		"url": "https://github.com/chaitanyagiri/munder-difflin",
+		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
+		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T15:59:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T15:36:32Z",
+		"date": "2026-08-28T01:25:41Z",
 		"group": "gh"
 	},
 	{
 		"title": "OpenAI 发布 Codex 轻量级编码 agent",
 		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-08-27T15:30:37Z",
+		"date": "2026-08-28T01:15:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "bilawalsidhu 开源 God's Eye View 卫星模拟器",
+		"url": "https://github.com/bilawalsidhu/gods-eye-view",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T00:46:30Z",
+		"group": "gh"
+	},
+	{
+		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
+		"url": "https://github.com/tashfeenahmed/freellmapi",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T00:05:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T23:19:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
+		"url": "https://github.com/tinyhumansai/openhuman",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T22:59:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "BookOrbit 发布个人阅读空间软件 BookOrbit",
+		"url": "https://github.com/bookorbit/bookorbit",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T20:59:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Modular 发布 Modular Platform，整合 MAX 与 Mojo",
+		"url": "https://github.com/modular/modular",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T20:53:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 插件官方目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T20:05:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
+		"url": "https://github.com/AprilNEA/OpenLogi",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T18:49:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T18:47:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "chaitanyagiri 开源 Munder-Difflin 本地多智能体框架",
+		"url": "https://github.com/chaitanyagiri/munder-difflin",
+		"source": "GitHub Trending",
+		"date": "2026-08-27T18:01:46Z",
 		"group": "gh"
 	},
 	{
@@ -154,45 +203,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Code 插件官方目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T10:42:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
-		"url": "https://github.com/Alishahryar1/free-claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T10:20:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "Modular 发布 Modular Platform，整合 MAX 与 Mojo",
-		"url": "https://github.com/modular/modular",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T08:59:08Z",
-		"group": "gh"
-	},
-	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
 		"date": "2026-08-27T06:49:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
-		"url": "https://github.com/tinyhumansai/openhuman",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T06:30:11Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T01:42:41Z",
 		"group": "gh"
 	},
 	{
@@ -215,6 +229,27 @@
 		"source": "Google AI",
 		"date": "2026-08-27T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
+		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+		"source": "Anthropic News",
+		"date": "2026-08-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 扩大对科学家的支持",
+		"url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+		"source": "Anthropic News",
+		"date": "2026-08-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "claude-mem 开源跨会话 agent 上下文记忆工具",
+		"url": "https://github.com/thedotmack/claude-mem",
+		"source": "GitHub Trending",
+		"date": "2026-08-26T22:04:47Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 签署美国青少年 AI 教育投资承诺",
@@ -441,13 +476,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
-		"url": "https://github.com/tashfeenahmed/freellmapi",
-		"source": "GitHub Trending",
-		"date": "2026-08-26T09:06:41Z",
-		"group": "gh"
-	},
-	{
 		"title": "freestylefly 开源 GPT-Image2 工业级提示词引擎与模板库",
 		"url": "https://github.com/freestylefly/awesome-gpt-image-2",
 		"source": "GitHub Trending",
@@ -574,6 +602,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 上线经济指数查询功能",
+		"url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+		"source": "Anthropic News",
+		"date": "2026-08-25T16:13:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公布经济未来研究基金研究议程",
+		"url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+		"source": "Anthropic News",
+		"date": "2026-08-25T16:13:14.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布印度经济指数简报",
 		"url": "https://www.anthropic.com/research/india-brief-economic-index",
 		"source": "Anthropic Research",
@@ -655,13 +697,6 @@
 		"url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
 		"source": "claude.com",
 		"date": "2026-08-24T19:50:50.584Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 更新 Fable 5 生物学安全防护",
-		"url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-		"source": "Anthropic News",
-		"date": "2026-08-24T15:42:06.000Z",
 		"group": "labs"
 	},
 	{
@@ -1274,6 +1309,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 更新 Fable 5 生物学安全防护",
+		"url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+		"source": "Anthropic News",
+		"date": "2026-08-07T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 在 CES 展示 AI 汽车创新",
 		"url": "https://blogs.nvidia.com/blog/ai-automotive-innovation-ces/",
 		"source": "NVIDIA",
@@ -1687,6 +1729,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布 Claude Opus 5",
+		"url": "https://www.anthropic.com/news/claude-opus-5",
+		"source": "Anthropic News",
+		"date": "2026-07-25T02:03:36.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Claude 发布 AI 代码迁移功能",
 		"url": "https://claude.com/blog/ai-code-migration",
 		"source": "claude.com",
@@ -1712,13 +1761,6 @@
 		"url": "https://claude.com/blog/four-role-based-claude-certifications",
 		"source": "claude.com",
 		"date": "2026-07-24T17:01:50.943Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Opus 5",
-		"url": "https://www.anthropic.com/news/claude-opus-5",
-		"source": "Anthropic News",
-		"date": "2026-07-24T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1802,20 +1844,6 @@
 		"title": "xAI 发布 Grok 4.5 并上线全平台",
 		"url": "https://x.ai/news/grok-4-5-everywhere",
 		"source": "xAI",
-		"date": "2026-07-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 上线经济指数查询功能",
-		"url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-		"source": "Anthropic News",
-		"date": "2026-07-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 公布经济未来研究基金研究议程",
-		"url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
-		"source": "Anthropic News",
 		"date": "2026-07-22T00:00:00.000Z",
 		"group": "labs"
 	},
