@@ -3,49 +3,98 @@
 		"title": "PostHog 发布自驱产品开发者平台",
 		"url": "https://github.com/PostHog/posthog",
 		"source": "GitHub Trending",
-		"date": "2026-08-28T17:56:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 发布 Codex 轻量级编码 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-08-28T17:51:41Z",
+		"date": "2026-08-29T01:19:48Z",
 		"group": "gh"
 	},
 	{
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-28T17:49:28Z",
+		"date": "2026-08-29T01:19:41Z",
 		"group": "gh"
 	},
 	{
-		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
-		"url": "https://github.com/Alishahryar1/free-claude-code",
+		"title": "chaitanyagiri 开源 Munder-Difflin 本地多智能体框架",
+		"url": "https://github.com/chaitanyagiri/munder-difflin",
 		"source": "GitHub Trending",
-		"date": "2026-08-28T17:48:19Z",
+		"date": "2026-08-29T01:02:40Z",
 		"group": "gh"
 	},
 	{
 		"title": "BookOrbit 发布个人阅读空间软件 BookOrbit",
 		"url": "https://github.com/bookorbit/bookorbit",
 		"source": "GitHub Trending",
-		"date": "2026-08-28T17:47:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "GitNexus 开源客户端知识图谱引擎，支持本地代码分析",
-		"url": "https://github.com/abhigyanpatwari/GitNexus",
-		"source": "GitHub Trending",
-		"date": "2026-08-28T17:47:43Z",
+		"date": "2026-08-29T00:41:53Z",
 		"group": "gh"
 	},
 	{
 		"title": "Marin 开源基础模型研发框架",
 		"url": "https://github.com/marin-community/marin",
 		"source": "GitHub Trending",
-		"date": "2026-08-28T17:40:31Z",
+		"date": "2026-08-29T00:40:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 发布 Codex 轻量级编码 agent",
+		"url": "https://github.com/openai/codex",
+		"source": "GitHub Trending",
+		"date": "2026-08-29T00:35:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "LiveKit 开源 Agents 框架，用于构建实时语音 AI 智能体",
+		"url": "https://github.com/livekit/agents",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T23:37:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
+		"url": "https://github.com/Alishahryar1/free-claude-code",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T23:25:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "Basecamp 发布 Omarchy Linux 发行版",
+		"url": "https://github.com/basecamp/omarchy",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T23:18:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
+		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T21:41:24Z",
+		"group": "gh"
+	},
+	{
+		"title": "GitNexus 开源客户端知识图谱引擎，支持本地代码分析",
+		"url": "https://github.com/abhigyanpatwari/GitNexus",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T20:22:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "Tailscale 开源 tailcat，基于数据平面的 netcat 替代工具",
+		"url": "https://github.com/tailscale/tailcat",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T19:41:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T18:45:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 插件官方目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T18:40:54Z",
 		"group": "gh"
 	},
 	{
@@ -53,27 +102,6 @@
 		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
 		"date": "2026-08-28T17:12:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "Basecamp 发布 Omarchy Linux 发行版",
-		"url": "https://github.com/basecamp/omarchy",
-		"source": "GitHub Trending",
-		"date": "2026-08-28T17:06:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "chaitanyagiri 开源 Munder-Difflin 本地多智能体框架",
-		"url": "https://github.com/chaitanyagiri/munder-difflin",
-		"source": "GitHub Trending",
-		"date": "2026-08-28T16:55:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "LiveKit 开源 Agents 框架，用于构建实时语音 AI 智能体",
-		"url": "https://github.com/livekit/agents",
-		"source": "GitHub Trending",
-		"date": "2026-08-28T16:25:04Z",
 		"group": "gh"
 	},
 	{
@@ -98,10 +126,17 @@
 		"group": "gh"
 	},
 	{
-		"title": "Anthropic 发布 Claude Code 插件官方目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
+		"title": "Swoole 开源 TypePHP，将 PHP 编译为原生二进制",
+		"url": "https://github.com/swoole/typephp",
 		"source": "GitHub Trending",
-		"date": "2026-08-28T11:07:33Z",
+		"date": "2026-08-28T13:02:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "Chrome DevTools 发布 chrome-devtools-mcp，为 coding agent 提供调试能力",
+		"url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+		"source": "GitHub Trending",
+		"date": "2026-08-28T12:24:25Z",
 		"group": "gh"
 	},
 	{
@@ -119,13 +154,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-08-28T06:02:22Z",
-		"group": "gh"
-	},
-	{
 		"title": "bilawalsidhu 开源 God's Eye View 卫星模拟器",
 		"url": "https://github.com/bilawalsidhu/gods-eye-view",
 		"source": "GitHub Trending",
@@ -138,6 +166,13 @@
 		"source": "GitHub Trending",
 		"date": "2026-08-28T00:05:52Z",
 		"group": "gh"
+	},
+	{
+		"title": "Hugging Face ASR 评测榜单加入首个全球南方语言",
+		"url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-28T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
@@ -249,13 +284,6 @@
 		"url": "https://github.com/google/googletest",
 		"source": "GitHub Trending",
 		"date": "2026-08-27T11:15:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "Tailscale 开源 tailcat，基于数据平面的 netcat 替代工具",
-		"url": "https://github.com/tailscale/tailcat",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T01:41:43Z",
 		"group": "gh"
 	},
 	{
@@ -733,13 +761,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-08-24T15:30:22.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
-		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-24T09:22:55Z",
-		"group": "gh"
 	},
 	{
 		"title": "rohitg00 开源 AI 工程从零到实战的学习项目",
@@ -2342,13 +2363,6 @@
 		"url": "https://www.anthropic.com/news/ust-claude",
 		"source": "Anthropic News",
 		"date": "2026-07-10T00:37:25.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 PyTorch 性能分析系列第三篇：Attention 性能剖析",
-		"url": "https://huggingface.co/blog/torch-attention-profile",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-10T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
