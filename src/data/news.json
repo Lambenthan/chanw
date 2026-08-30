@@ -1,23 +1,44 @@
 [
 	{
-		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
-		"url": "https://github.com/Alishahryar1/free-claude-code",
+		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
+		"url": "https://github.com/tinyhumansai/openhuman",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T10:57:42Z",
+		"date": "2026-08-30T15:44:25Z",
 		"group": "gh"
 	},
 	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
+		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
+		"url": "https://github.com/Alishahryar1/free-claude-code",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T10:54:58Z",
+		"date": "2026-08-30T15:34:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T10:51:26Z",
+		"date": "2026-08-30T15:18:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T15:05:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 发布 Codex 轻量级编码 agent",
+		"url": "https://github.com/openai/codex",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T14:05:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
+		"url": "https://github.com/AprilNEA/OpenLogi",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T13:49:53Z",
 		"group": "gh"
 	},
 	{
@@ -28,31 +49,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
-		"url": "https://github.com/tinyhumansai/openhuman",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T10:32:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
-		"url": "https://github.com/AprilNEA/OpenLogi",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T10:04:16Z",
-		"group": "gh"
-	},
-	{
 		"title": "rohitg00 开源 AI 工程从零到实战的学习项目",
 		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
 		"source": "GitHub Trending",
 		"date": "2026-08-30T09:25:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 发布 Codex 轻量级编码 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T07:42:57Z",
 		"group": "gh"
 	},
 	{
@@ -4106,13 +4106,6 @@
 		"url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
 		"source": "Anthropic News",
 		"date": "2026-06-01T15:59:13.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 完成 H 轮融资",
-		"url": "https://www.anthropic.com/news/series-h",
-		"source": "Anthropic News",
-		"date": "2026-06-01T15:29:46.000Z",
 		"group": "labs"
 	}
 ]
