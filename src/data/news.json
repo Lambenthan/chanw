@@ -1,44 +1,58 @@
 [
 	{
-		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
-		"url": "https://github.com/apache/maka",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T02:12:30Z",
-		"group": "gh"
-	},
-	{
 		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
 		"url": "https://github.com/Alishahryar1/free-claude-code",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T01:49:59Z",
+		"date": "2026-08-30T10:57:42Z",
 		"group": "gh"
 	},
 	{
-		"title": "Tailscale 开源 tailcat，基于数据平面的 netcat 替代工具",
-		"url": "https://github.com/tailscale/tailcat",
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T01:06:07Z",
+		"date": "2026-08-30T10:54:58Z",
 		"group": "gh"
 	},
 	{
-		"title": "OpenAI 发布 Codex 轻量级编码 agent",
-		"url": "https://github.com/openai/codex",
+		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
+		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T00:43:48Z",
+		"date": "2026-08-30T10:51:26Z",
 		"group": "gh"
 	},
 	{
-		"title": "rohitg00 开源 AI 工程从零到实战的学习项目",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"title": "freestylefly 开源 GPT-Image2 工业级提示词引擎与模板库",
+		"url": "https://github.com/freestylefly/awesome-gpt-image-2",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T00:25:04Z",
+		"date": "2026-08-30T10:46:30Z",
 		"group": "gh"
 	},
 	{
 		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
 		"url": "https://github.com/tinyhumansai/openhuman",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T00:21:39Z",
+		"date": "2026-08-30T10:32:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
+		"url": "https://github.com/AprilNEA/OpenLogi",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T10:04:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零到实战的学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T09:25:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 发布 Codex 轻量级编码 agent",
+		"url": "https://github.com/openai/codex",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T07:42:57Z",
 		"group": "gh"
 	},
 	{
@@ -46,27 +60,6 @@
 		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-29T22:55:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "JetBrains 发布 Go Modern Guidelines 帮助 AI 编码 agent 编写现代 Go 代码",
-		"url": "https://github.com/JetBrains/go-modern-guidelines",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T18:39:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T17:13:30Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
-		"url": "https://github.com/AprilNEA/OpenLogi",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T17:00:13Z",
 		"group": "gh"
 	},
 	{
@@ -96,20 +89,6 @@
 		"source": "Anthropic News",
 		"date": "2026-08-28T15:01:10.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "freestylefly 开源 GPT-Image2 工业级提示词引擎与模板库",
-		"url": "https://github.com/freestylefly/awesome-gpt-image-2",
-		"source": "GitHub Trending",
-		"date": "2026-08-28T10:25:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "bilawalsidhu 开源 God's Eye View 卫星模拟器",
-		"url": "https://github.com/bilawalsidhu/gods-eye-view",
-		"source": "GitHub Trending",
-		"date": "2026-08-28T00:46:30Z",
-		"group": "gh"
 	},
 	{
 		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
@@ -4134,34 +4113,6 @@
 		"url": "https://www.anthropic.com/news/series-h",
 		"source": "Anthropic News",
 		"date": "2026-06-01T15:29:46.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 Computex 发布 RTX AI Garage 本地 Agent 方案",
-		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
-		"source": "NVIDIA",
-		"date": "2026-06-01T09:51:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 Google Cloud 社区合作推出 AI Builders 项目",
-		"url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
-		"source": "NVIDIA",
-		"date": "2026-06-01T06:18:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布台湾 AI 基础设施生态报告",
-		"url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-		"source": "NVIDIA",
-		"date": "2026-06-01T05:01:36.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出基于 Blackwell 和 CUDA X 的半导体 EDA 解决方案",
-		"url": "https://blogs.nvidia.com/blog/semiconductor-industry-electronic-design-automation-blackwell-cuda-x/",
-		"source": "NVIDIA",
-		"date": "2026-06-01T04:15:40.000Z",
 		"group": "labs"
 	}
 ]
