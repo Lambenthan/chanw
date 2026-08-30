@@ -3,28 +3,49 @@
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-29T20:12:52Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 发布 Codex 轻量级编码 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T20:09:30Z",
-		"group": "gh"
-	},
-	{
-		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
-		"url": "https://github.com/tinyhumansai/openhuman",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T18:49:21Z",
+		"date": "2026-08-30T02:12:30Z",
 		"group": "gh"
 	},
 	{
 		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
 		"url": "https://github.com/Alishahryar1/free-claude-code",
 		"source": "GitHub Trending",
-		"date": "2026-08-29T18:46:13Z",
+		"date": "2026-08-30T01:49:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "Tailscale 开源 tailcat，基于数据平面的 netcat 替代工具",
+		"url": "https://github.com/tailscale/tailcat",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T01:06:07Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenAI 发布 Codex 轻量级编码 agent",
+		"url": "https://github.com/openai/codex",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T00:43:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零到实战的学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T00:25:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
+		"url": "https://github.com/tinyhumansai/openhuman",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T00:21:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
+		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-29T22:55:14Z",
 		"group": "gh"
 	},
 	{
@@ -42,24 +63,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "rohitg00 开源 AI 工程从零到实战的学习项目",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T17:00:17Z",
-		"group": "gh"
-	},
-	{
 		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
 		"url": "https://github.com/AprilNEA/OpenLogi",
 		"source": "GitHub Trending",
 		"date": "2026-08-29T17:00:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
-		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T13:57:33Z",
 		"group": "gh"
 	},
 	{
@@ -74,13 +81,6 @@
 		"url": "https://github.com/anthropics/claude-plugins-official",
 		"source": "GitHub Trending",
 		"date": "2026-08-29T07:31:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "Tailscale 开源 tailcat，基于数据平面的 netcat 替代工具",
-		"url": "https://github.com/tailscale/tailcat",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T04:25:04Z",
 		"group": "gh"
 	},
 	{
@@ -872,6 +872,13 @@
 		"url": "https://claude.com/blog/claude-managed-agents-updates",
 		"source": "claude.com",
 		"date": "2026-08-19T00:49:22.957Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 推出 Grok Build，支持网页与移动端",
+		"url": "https://x.ai/news/grok-build-for-everyone",
+		"source": "xAI",
+		"date": "2026-08-19T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
