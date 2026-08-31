@@ -1,30 +1,44 @@
 [
 	{
-		"title": "OpenAI 发布 Codex 轻量级编码 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-08-31T02:20:34Z",
-		"group": "gh"
-	},
-	{
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-31T02:18:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
-		"url": "https://github.com/Alishahryar1/free-claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-08-31T01:47:25Z",
+		"date": "2026-08-31T12:12:54Z",
 		"group": "gh"
 	},
 	{
 		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
 		"url": "https://github.com/tinyhumansai/openhuman",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T22:35:51Z",
+		"date": "2026-08-31T12:11:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
+		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T09:27:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 插件官方目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T07:41:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
+		"url": "https://github.com/AprilNEA/OpenLogi",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T04:55:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T04:41:21Z",
 		"group": "gh"
 	},
 	{
@@ -32,13 +46,6 @@
 		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
 		"date": "2026-08-30T19:32:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
-		"url": "https://github.com/AprilNEA/OpenLogi",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T18:37:53Z",
 		"group": "gh"
 	},
 	{
@@ -56,13 +63,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T15:05:12Z",
-		"group": "gh"
-	},
-	{
 		"title": "freestylefly 开源 GPT-Image2 工业级提示词引擎与模板库",
 		"url": "https://github.com/freestylefly/awesome-gpt-image-2",
 		"source": "GitHub Trending",
@@ -74,20 +74,6 @@
 		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
 		"source": "GitHub Trending",
 		"date": "2026-08-30T09:25:48Z",
-		"group": "gh"
-	},
-	{
-		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
-		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T22:55:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 插件官方目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-08-29T07:31:08Z",
 		"group": "gh"
 	},
 	{
@@ -4085,20 +4071,6 @@
 		"url": "https://www.anthropic.com/news/expanding-project-glasswing",
 		"source": "Anthropic News",
 		"date": "2026-06-02T14:03:15.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 为 GPT Rosalind 引入新能力",
-		"url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
-		"source": "OpenAI",
-		"date": "2026-06-02T09:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推出生物安全漏洞赏金计划",
-		"url": "https://openai.com/index/bio-bug-bounty/",
-		"source": "OpenAI",
-		"date": "2026-06-02T07:00:00.000Z",
 		"group": "labs"
 	}
 ]
