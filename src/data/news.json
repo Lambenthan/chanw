@@ -1,23 +1,37 @@
 [
 	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
+		"title": "OpenAI 发布 Codex 轻量级编码 agent",
+		"url": "https://github.com/openai/codex",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T19:32:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
-		"url": "https://github.com/Alishahryar1/free-claude-code",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T19:14:45Z",
+		"date": "2026-08-31T02:20:34Z",
 		"group": "gh"
 	},
 	{
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-30T18:50:12Z",
+		"date": "2026-08-31T02:18:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "Alishahryar1 开源 Free Claude Code 免费获取 1.3B+ tokens",
+		"url": "https://github.com/Alishahryar1/free-claude-code",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T01:47:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
+		"url": "https://github.com/tinyhumansai/openhuman",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T22:35:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-08-30T19:32:38Z",
 		"group": "gh"
 	},
 	{
@@ -39,20 +53,6 @@
 		"url": "https://github.com/tashfeenahmed/freellmapi",
 		"source": "GitHub Trending",
 		"date": "2026-08-30T18:17:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
-		"url": "https://github.com/tinyhumansai/openhuman",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T17:54:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "OpenAI 发布 Codex 轻量级编码 agent",
-		"url": "https://github.com/openai/codex",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T16:47:55Z",
 		"group": "gh"
 	},
 	{
