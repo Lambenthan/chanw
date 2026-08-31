@@ -3,21 +3,49 @@
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-31T12:12:54Z",
+		"date": "2026-08-31T20:49:04Z",
 		"group": "gh"
 	},
 	{
-		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
-		"url": "https://github.com/tinyhumansai/openhuman",
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
-		"date": "2026-08-31T12:11:41Z",
+		"date": "2026-08-31T19:42:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 GoogleTest 测试与模拟框架",
+		"url": "https://github.com/google/googletest",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T19:19:58Z",
 		"group": "gh"
 	},
 	{
 		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
 		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
 		"source": "GitHub Trending",
-		"date": "2026-08-31T09:27:47Z",
+		"date": "2026-08-31T17:14:03Z",
+		"group": "gh"
+	},
+	{
+		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
+		"url": "https://github.com/MadsLorentzen/ai-job-search",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T15:49:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "tinyhumansai 开源 OpenHuman 个人 AI 超级智能项目",
+		"url": "https://github.com/tinyhumansai/openhuman",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T15:46:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T14:16:46Z",
 		"group": "gh"
 	},
 	{
@@ -32,27 +60,6 @@
 		"url": "https://github.com/AprilNEA/OpenLogi",
 		"source": "GitHub Trending",
 		"date": "2026-08-31T04:55:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-08-31T04:41:21Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T19:32:38Z",
-		"group": "gh"
-	},
-	{
-		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T18:27:51Z",
 		"group": "gh"
 	},
 	{
@@ -187,13 +194,6 @@
 		"source": "DeepMind",
 		"date": "2026-08-27T14:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Google 开源 GoogleTest 测试与模拟框架",
-		"url": "https://github.com/google/googletest",
-		"source": "GitHub Trending",
-		"date": "2026-08-27T11:15:21Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 正式推出浏览器内置的一项协作功能 Cowork",
@@ -3836,15 +3836,15 @@
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
-		"url": "https://openai.com/index/introducing-life-sci-bench/",
+		"title": "OpenAI 推出 Genebench Pro 评测基准",
+		"url": "https://openai.com/index/introducing-genebench-pro/",
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "OpenAI 推出 Genebench Pro 评测基准",
-		"url": "https://openai.com/index/introducing-genebench-pro/",
+		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
+		"url": "https://openai.com/index/introducing-life-sci-bench/",
 		"source": "OpenAI",
 		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
@@ -4050,27 +4050,6 @@
 		"url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
 		"source": "DeepMind",
 		"date": "2026-06-03T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Cosmos-3 物理 AI 世界基础模型",
-		"url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
-		"source": "NVIDIA",
-		"date": "2026-06-02T20:48:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出工厂运营 Fox Blueprint AI Brain",
-		"url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-		"source": "NVIDIA",
-		"date": "2026-06-02T20:43:15.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 扩展 Project Glasswing 安全研究项目",
-		"url": "https://www.anthropic.com/news/expanding-project-glasswing",
-		"source": "Anthropic News",
-		"date": "2026-06-02T14:03:15.000Z",
 		"group": "labs"
 	}
 ]
