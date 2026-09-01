@@ -3,21 +3,28 @@
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-09-01T10:41:10Z",
+		"date": "2026-09-01T15:42:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-01T10:27:59Z",
+		"date": "2026-09-01T15:27:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Google 开源 GoogleTest 测试与模拟框架",
+		"url": "https://github.com/google/googletest",
+		"source": "GitHub Trending",
+		"date": "2026-09-01T15:18:58Z",
 		"group": "gh"
 	},
 	{
 		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
 		"url": "https://github.com/tashfeenahmed/freellmapi",
 		"source": "GitHub Trending",
-		"date": "2026-09-01T09:16:58Z",
+		"date": "2026-09-01T11:22:21Z",
 		"group": "gh"
 	},
 	{
@@ -32,13 +39,6 @@
 		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
 		"date": "2026-08-31T19:42:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 开源 GoogleTest 测试与模拟框架",
-		"url": "https://github.com/google/googletest",
-		"source": "GitHub Trending",
-		"date": "2026-08-31T19:19:58Z",
 		"group": "gh"
 	},
 	{
@@ -1939,13 +1939,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布 Real World VoiceEQ 语音 AI 人类质量评测工具",
-		"url": "https://huggingface.co/blog/real-world-voiceeq",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-15T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Thinking Machines 发布 Inkling 模型",
 		"url": "https://huggingface.co/blog/thinkingmachines-inkling",
 		"source": "Hugging Face Blog",
@@ -3826,20 +3819,6 @@
 		"url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
 		"source": "Anthropic News",
 		"date": "2026-06-03T16:18:23.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Claude 合作伙伴网络服务通道与合作伙伴中心",
-		"url": "https://www.anthropic.com/news/services-track-partner-hub",
-		"source": "Anthropic News",
-		"date": "2026-06-03T15:30:11.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推出 ChatGPT 记忆梦境功能",
-		"url": "https://openai.com/index/chatgpt-memory-dreaming/",
-		"source": "OpenAI",
-		"date": "2026-06-03T13:15:00.000Z",
 		"group": "labs"
 	}
 ]
