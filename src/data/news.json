@@ -3,7 +3,14 @@
 		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
 		"url": "https://github.com/apache/maka",
 		"source": "GitHub Trending",
-		"date": "2026-08-31T20:49:04Z",
+		"date": "2026-09-01T02:32:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
+		"url": "https://github.com/tashfeenahmed/freellmapi",
+		"source": "GitHub Trending",
+		"date": "2026-08-31T23:27:58Z",
 		"group": "gh"
 	},
 	{
@@ -60,13 +67,6 @@
 		"url": "https://github.com/AprilNEA/OpenLogi",
 		"source": "GitHub Trending",
 		"date": "2026-08-31T04:55:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
-		"url": "https://github.com/tashfeenahmed/freellmapi",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T18:17:31Z",
 		"group": "gh"
 	},
 	{
@@ -4043,13 +4043,6 @@
 		"url": "https://openai.com/index/chatgpt-memory-dreaming/",
 		"source": "OpenAI",
 		"date": "2026-06-03T13:15:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemma 4 12B 统一多模态模型",
-		"url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-		"source": "DeepMind",
-		"date": "2026-06-03T00:00:00.000Z",
 		"group": "labs"
 	}
 ]
