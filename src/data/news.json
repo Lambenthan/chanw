@@ -1,30 +1,58 @@
 [
 	{
-		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
-		"url": "https://github.com/apache/maka",
+		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
+		"url": "https://github.com/tashfeenahmed/freellmapi",
 		"source": "GitHub Trending",
-		"date": "2026-09-01T15:42:05Z",
+		"date": "2026-09-01T20:20:35Z",
 		"group": "gh"
 	},
 	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
-		"date": "2026-09-01T15:27:02Z",
+		"date": "2026-09-01T20:07:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
+		"url": "https://github.com/apache/maka",
+		"source": "GitHub Trending",
+		"date": "2026-09-01T19:54:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
+		"url": "https://github.com/MadsLorentzen/ai-job-search",
+		"source": "GitHub Trending",
+		"date": "2026-09-01T19:35:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "Google 开源 GoogleTest 测试与模拟框架",
 		"url": "https://github.com/google/googletest",
 		"source": "GitHub Trending",
-		"date": "2026-09-01T15:18:58Z",
+		"date": "2026-09-01T19:15:12Z",
 		"group": "gh"
 	},
 	{
-		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
-		"url": "https://github.com/tashfeenahmed/freellmapi",
+		"title": "Anthropic 发布 Claude Code 创业公司指南",
+		"url": "https://claude.com/blog/claude-code-guide-for-startups",
+		"source": "claude.com",
+		"date": "2026-09-01T18:13:20.788Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公开 Claude 文本水印技术原理",
+		"url": "https://www.anthropic.com/news/claude-text-watermark",
+		"source": "Anthropic News",
+		"date": "2026-09-01T18:01:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-01T11:22:21Z",
+		"date": "2026-09-01T15:27:02Z",
 		"group": "gh"
 	},
 	{
@@ -35,24 +63,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-08-31T19:42:40Z",
-		"group": "gh"
-	},
-	{
 		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
 		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
 		"source": "GitHub Trending",
 		"date": "2026-08-31T17:14:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-08-31T15:49:22Z",
 		"group": "gh"
 	},
 	{
@@ -68,6 +82,13 @@
 		"source": "GitHub Trending",
 		"date": "2026-08-30T09:25:48Z",
 		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
+		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+		"source": "Anthropic News",
+		"date": "2026-08-29T10:57:56.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 推出 Claude for Teachers",
@@ -199,13 +220,6 @@
 		"title": "Google 搜索 AI Mode 新增旅行规划与预订功能",
 		"url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
 		"source": "Google AI",
-		"date": "2026-08-27T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
-		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-		"source": "Anthropic News",
 		"date": "2026-08-27T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -644,13 +658,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 公开 Claude 文本水印技术原理",
-		"url": "https://www.anthropic.com/news/claude-text-watermark",
-		"source": "Anthropic News",
-		"date": "2026-08-24T15:41:58.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
 		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
 		"source": "Anthropic Research",
@@ -688,13 +695,6 @@
 	{
 		"title": "Anthropic 推出 Computer Use Skills API 与 Files API",
 		"url": "https://claude.com/blog/computer-use-skills-api-files-api",
-		"source": "claude.com",
-		"date": "2026-08-20T20:26:34.432Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 创业公司指南",
-		"url": "https://claude.com/blog/claude-code-guide-for-startups",
 		"source": "claude.com",
 		"date": "2026-08-20T20:26:34.432Z",
 		"group": "labs"
@@ -1554,6 +1554,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Cognizant 与 Anthropic 扩大合作向企业客户交付 Claude",
+		"url": "https://www.anthropic.com/news/cognizant-anthropic",
+		"source": "Anthropic News",
+		"date": "2026-07-27T15:34:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布 Cosmos-H-Dreams，为手术机器人提供实时生成式仿真",
 		"url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
 		"source": "Hugging Face Blog",
@@ -1564,13 +1571,6 @@
 		"title": "Hugging Face 发布前沿实验室 agent 入侵事件技术时间线",
 		"url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
 		"source": "Hugging Face Blog",
-		"date": "2026-07-27T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Cognizant 与 Anthropic 扩大合作向企业客户交付 Claude",
-		"url": "https://www.anthropic.com/news/cognizant-anthropic",
-		"source": "Anthropic News",
 		"date": "2026-07-27T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -3812,13 +3812,6 @@
 		"url": "https://openai.com/index/deployment-simulation/",
 		"source": "OpenAI",
 		"date": "2026-06-04T09:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 网络威胁年度分析报告",
-		"url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-		"source": "Anthropic News",
-		"date": "2026-06-03T16:18:23.000Z",
 		"group": "labs"
 	}
 ]
