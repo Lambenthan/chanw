@@ -1,5 +1,19 @@
 [
 	{
+		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
+		"url": "https://github.com/MadsLorentzen/ai-job-search",
+		"source": "GitHub Trending",
+		"date": "2026-09-02T19:35:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
+		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-09-02T16:25:37Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 发布工人再培训计划证据回顾报告",
 		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
 		"source": "Anthropic Research",
@@ -35,13 +49,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-09-01T19:35:59Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 发布 Claude Code 创业公司指南",
 		"url": "https://claude.com/blog/claude-code-guide-for-startups",
 		"source": "claude.com",
@@ -54,13 +61,6 @@
 		"source": "Anthropic News",
 		"date": "2026-09-01T18:01:14.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
-		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-08-31T17:14:03Z",
-		"group": "gh"
 	},
 	{
 		"title": "freestylefly 开源 GPT-Image2 工业级提示词引擎与模板库",
@@ -2440,13 +2440,6 @@
 		"url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
 		"source": "NVIDIA",
 		"date": "2026-07-01T16:41:18.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google AI 发布 2026 年 6 月 AI 更新汇总",
-		"url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-		"source": "Google AI",
-		"date": "2026-07-01T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
