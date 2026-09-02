@@ -1,23 +1,23 @@
 [
 	{
-		"title": "Apache Maka 开源本地优先 AI agent 工作空间",
-		"url": "https://github.com/apache/maka",
+		"title": "Anthropic 发布工人再培训计划证据回顾报告",
+		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+		"source": "Anthropic Research",
+		"date": "2026-09-02T15:29:47.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google 开源 GoogleTest 测试与模拟框架",
+		"url": "https://github.com/google/googletest",
 		"source": "GitHub Trending",
-		"date": "2026-09-02T10:09:00Z",
+		"date": "2026-09-02T14:38:16Z",
 		"group": "gh"
 	},
 	{
 		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
 		"url": "https://github.com/tashfeenahmed/freellmapi",
 		"source": "GitHub Trending",
-		"date": "2026-09-02T10:00:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "Google 开源 GoogleTest 测试与模拟框架",
-		"url": "https://github.com/google/googletest",
-		"source": "GitHub Trending",
-		"date": "2026-09-02T04:39:37Z",
+		"date": "2026-09-02T13:42:29Z",
 		"group": "gh"
 	},
 	{
@@ -54,13 +54,6 @@
 		"source": "Anthropic News",
 		"date": "2026-09-01T18:01:14.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "OpenLogi 开源罗技 Options+ 替代品，本地优先且无遥测",
-		"url": "https://github.com/AprilNEA/OpenLogi",
-		"source": "GitHub Trending",
-		"date": "2026-09-01T08:51:46Z",
-		"group": "gh"
 	},
 	{
 		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
@@ -506,13 +499,6 @@
 	{
 		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
 		"url": "https://www.anthropic.com/research/claude-code-expertise",
-		"source": "Anthropic Research",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布工人再培训计划证据回顾报告",
-		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
 		"source": "Anthropic Research",
 		"date": "2026-08-25T16:13:14.000Z",
 		"group": "labs"
@@ -1922,13 +1908,6 @@
 		"url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
 		"source": "NVIDIA",
 		"date": "2026-07-15T21:54:49.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 博客探讨模型路由的复杂挑战",
-		"url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-15T17:27:01.000Z",
 		"group": "labs"
 	},
 	{
