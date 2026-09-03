@@ -3,14 +3,7 @@
 		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
 		"url": "https://github.com/tashfeenahmed/freellmapi",
 		"source": "GitHub Trending",
-		"date": "2026-09-03T10:09:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-09-03T06:19:08Z",
+		"date": "2026-09-03T11:26:28Z",
 		"group": "gh"
 	},
 	{
@@ -40,13 +33,6 @@
 		"source": "NVIDIA",
 		"date": "2026-09-02T22:13:43.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Google 开源 GoogleTest 测试与模拟框架",
-		"url": "https://github.com/google/googletest",
-		"source": "GitHub Trending",
-		"date": "2026-09-02T21:03:04Z",
-		"group": "gh"
 	},
 	{
 		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
@@ -488,13 +474,6 @@
 		"source": "claude.com",
 		"date": "2026-08-25T20:58:20.842Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 开源 Claude 插件社区市场",
-		"url": "https://github.com/anthropics/claude-plugins-community",
-		"source": "GitHub Trending",
-		"date": "2026-08-25T20:01:46Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Vera Rubin Nvl72 提升 AI agent 效率",
@@ -1617,13 +1596,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Nunchaku 将 4-bit 扩散推理集成到 Diffusers",
-		"url": "https://huggingface.co/blog/nunchaku-diffusers",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-23T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude Opus 4.8",
 		"url": "https://www.anthropic.com/news/claude-opus-4-8",
 		"source": "Anthropic News",
@@ -1697,13 +1669,6 @@
 		"title": "DeepMind 发布 Gemini 3.6 Flash 等三款新模型",
 		"url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
 		"source": "DeepMind",
-		"date": "2026-07-21T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Grabette 开源机器人操作数据记录系统",
-		"url": "https://huggingface.co/blog/grabette",
-		"source": "Hugging Face Blog",
 		"date": "2026-07-21T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1859,13 +1824,6 @@
 		"url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
 		"source": "NVIDIA",
 		"date": "2026-07-16T18:15:40.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布“新模型同样优势”评测报告",
-		"url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-16T11:49:48.000Z",
 		"group": "labs"
 	},
 	{
@@ -3749,13 +3707,6 @@
 		"url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
 		"source": "Anthropic Research",
 		"date": "2026-06-05T15:38:44.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布下一代宪法分类器",
-		"url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
-		"source": "Anthropic Research",
-		"date": "2026-06-05T15:19:41.000Z",
 		"group": "labs"
 	}
 ]

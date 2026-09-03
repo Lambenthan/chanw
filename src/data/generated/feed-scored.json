@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-09-03T10:27:43.673Z",
+  "fetchedAt": "2026-09-03T15:33:00.347Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "90a3db01451c5d19",
+      "title": "OpenAI 发布 GPT-5.1 Codex Max",
+      "url": "https://openai.com/index/gpt-5-1-codex-max/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-03T14:02:11.468Z",
+      "discoveredAt": "2026-05-17T19:12:01.330Z",
+      "originalTitle": "Gpt 5 1 Codex Max",
+      "score": 5,
+      "cn": "OpenAI 正式推出 GPT-5.1 系列中的顶级版本 Codex Max，该模型在编程和多模态任务上实现显著提升，具备更强的推理和代码生成能力，面向开发者与企业用户开放。"
+    },
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
@@ -9,7 +23,7 @@
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "summary": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "category": "大模型",
-      "publishedAt": "2026-09-03T10:09:02Z",
+      "publishedAt": "2026-09-03T11:26:28Z",
       "discoveredAt": "2026-08-26T19:41:10.009Z",
       "stars": 20631,
       "repoTopics": [],
@@ -17,36 +31,6 @@
       "originalTitle": "tashfeenahmed/freellmapi · 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 en",
       "score": 4,
       "cn": "开源项目 FreeLLMAPI 将 34 家免费 LLM 供应商的 635 个模型端点统一在一个 /v1 接口后，月均支持 74 亿 token。项目包含智能路由、自动故障切换和加密密钥管理，但仅限个人实验使用。对需要低成本探索多种模型的开发者来说，这是一个实用的聚合入口。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "7af184c03e7ab7a7",
-      "title": "MadsLorentzen 开源 AI Job Search 求职框架",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "category": "Agent",
-      "publishedAt": "2026-09-03T06:19:08Z",
-      "discoveredAt": "2026-08-28T17:57:02.321Z",
-      "stars": 37551,
-      "repoTopics": [
-        "ai",
-        "ai-agents",
-        "career",
-        "claude-code",
-        "cover-letter",
-        "cv",
-        "interview-preparation",
-        "job-application",
-        "job-hunting",
-        "job-search",
-        "latex",
-        "resume"
-      ],
-      "owner": "MadsLorentzen",
-      "originalTitle": "MadsLorentzen/ai-job-search · The job search that runs on your machine. AI job application framework built on Claude Code: evaluat",
-      "score": 4,
-      "cn": "MadsLorentzen 发布了一款名为 AI Job Search 的开源求职框架，基于 Claude Code 构建，能在本地运行。该工具可自动评估招聘信息、定制简历、撰写求职信并准备面试，将求职流程交给 AI 代理完成。项目以 Fork 即拥有的方式开放，用户可完全掌控自己的求职数据与流程。"
     },
     {
       "source": "github-trending",
@@ -120,23 +104,6 @@
       "originalTitle": "Open Secure Ai Alliance",
       "score": 3,
       "cn": "NVIDIA 联合多家企业发起 Open Secure AI Alliance，旨在推动人工智能系统的安全标准和最佳实践。该联盟将聚焦于模型安全、数据隐私与基础设施防护，通过开放协作减少 AI 部署中的风险。初期成员涵盖芯片厂商、云服务商与安全公司，共同制定可互操作的 AI 安全框架。"
-    },
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "94b31dd56020289f",
-      "title": "Google 开源 GoogleTest 测试与模拟框架",
-      "url": "https://github.com/google/googletest",
-      "summary": "GoogleTest - Google Testing and Mocking Framework",
-      "category": "编程工具",
-      "publishedAt": "2026-09-02T21:03:04Z",
-      "discoveredAt": "2026-08-28T17:56:58.123Z",
-      "stars": 39149,
-      "repoTopics": [],
-      "owner": "google",
-      "originalTitle": "google/googletest · GoogleTest - Google Testing and Mocking Framework",
-      "score": 3,
-      "cn": "GoogleTest 是 Google 开源的 C++ 测试与模拟框架，提供断言宏、测试夹具和参数化测试等基础功能。该框架在 Google 内部长期使用，现面向社区开源，便于开发者进行单元测试和 mock 操作。"
     },
     {
       "source": "openai",
@@ -3512,23 +3479,6 @@
       "cn": "Anthropic 为 Claude 推出 Memory（记忆）功能，其核心特点是用户可自主控制记忆内容，且记忆会在不同对话间持续生效。这一机制让 Claude 能记住用户的偏好、项目背景或常用设定，无需每次重述。用户不仅能查看已存储的记忆，还能随时编辑或删除，强调隐私与可控性。相比此前模型仅能在单次对话内保持上下文，Memory 功能将个性化体验延伸到了多个会话之间，适合长期任务跟踪或持续学习场景。"
     },
     {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "c45b44d53914aea3",
-      "title": "Anthropic 开源 Claude 插件社区市场",
-      "url": "https://github.com/anthropics/claude-plugins-community",
-      "summary": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-      "category": "skill",
-      "publishedAt": "2026-08-25T20:01:46Z",
-      "discoveredAt": "2026-08-23T18:15:58.839Z",
-      "stars": 835,
-      "repoTopics": [],
-      "owner": "anthropics",
-      "originalTitle": "anthropics/claude-plugins-community · Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at",
-      "score": 3,
-      "cn": "Anthropic 在 GitHub 上开源了 Claude 插件的社区市场仓库，这是一个只读镜像，用于汇集 Claude Cowork 和 Claude Code 的第三方插件。开发者可以通过指定地址提交自己的插件，社区市场将统一收录和展示。这一举措让 Claude 的插件生态变得更加开放，第三方开发者可以更方便地发现和发布扩展功能。"
-    },
-    {
       "source": "nvidia",
       "sourceName": "NVIDIA",
       "id": "8c476d21c2eef469",
@@ -6883,20 +6833,6 @@
       "cn": "OpenAI 推出“Thinking With Images”功能，让模型在推理过程中直接理解并处理图像信息。这一更新将视觉感知与逻辑推理深度融合，使模型能够基于图片内容进行多步分析、识别细节并生成结构化回答。该能力适用于图表解读、文档扫描、场景理解等场景，标志着多模态推理进入更实用的阶段。"
     },
     {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "90a3db01451c5d19",
-      "title": "OpenAI 发布 GPT-5.1 Codex Max",
-      "url": "https://openai.com/index/gpt-5-1-codex-max/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-07-25T07:00:23.569Z",
-      "discoveredAt": "2026-05-17T19:12:01.330Z",
-      "originalTitle": "Gpt 5 1 Codex Max",
-      "score": 5,
-      "cn": "OpenAI 正式推出 GPT-5.1 系列中的顶级版本 Codex Max，该模型在编程和多模态任务上实现显著提升，具备更强的推理和代码生成能力，面向开发者与企业用户开放。"
-    },
-    {
       "source": "anthropic-news",
       "sourceName": "Anthropic News",
       "id": "e75df1016aa12143",
@@ -7077,20 +7013,6 @@
       "originalTitle": "Naval Postgraduate School Dgx Ai Supercomputer",
       "score": 3,
       "cn": "NVIDIA 宣布美国海军研究生院（Naval Postgraduate School）部署了一台 DGX AI 超级计算机，用于支持国防领域的 AI 研究、教育和实验。该系统将帮助军事人员加速机器学习模型的训练与部署，提升决策效率。这是 NVIDIA 在政府与军事教育领域推动 AI 基础设施落地的又一案例，也为后续更多安全敏感场景下的 AI 应用提供了计算基础。"
-    },
-    {
-      "source": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "id": "37c9890bc32e7cee",
-      "title": "Nunchaku 将 4-bit 扩散推理集成到 Diffusers",
-      "url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "discoveredAt": "2026-07-25T13:02:40.411Z",
-      "originalTitle": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "score": 4,
-      "cn": "Nunchaku 是一个针对扩散模型的 4-bit 量化推理引擎，现已集成到 Hugging Face Diffusers 库。开发者可在 Diffusers 中直接调用 Nunchaku 进行低精度推理，以降低显存占用和推理时间。这一集成为消费级 GPU 运行扩散模型提供了更实际的技术路径。"
     },
     {
       "source": "deepmind",
@@ -7373,20 +7295,6 @@
       "originalTitle": "Accelerating Science Gpt 5",
       "score": 5,
       "cn": "OpenAI 正式发布 GPT-5，这一代模型在科学推理、数据分析和实验设计能力上实现显著提升。GPT-5 能独立完成文献综述、假设生成、代码编写和结果可视化，缩短科研周期。在材料科学、药物发现和气候建模领域，其输出质量接近专家水准，且支持多模态数据。OpenAI 同步推出科研助手，研究者用自然语言即可直接进行复杂模拟与数据挖掘。"
-    },
-    {
-      "source": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "id": "f07ea0986edc9c35",
-      "title": "Grabette 开源机器人操作数据记录系统",
-      "url": "https://huggingface.co/blog/grabette",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-07-21T00:00:00.000Z",
-      "discoveredAt": "2026-07-22T08:09:15.531Z",
-      "originalTitle": "Grabette: an open system to record robot-manipulation data",
-      "score": 3,
-      "cn": "Grabette 是一个用于记录机器人操作数据的开源系统，提供硬件与软件方案，支持多种传感器输入并输出标准化数据。它降低了机器人数据采集的门槛，帮助研究者和开发者快速搭建自己的采集环境，为后续机器人操作模型的训练提供高质量数据基础。"
     },
     {
       "source": "nvidia",
@@ -7779,20 +7687,6 @@
       "originalTitle": "Connect more of your apps to Search",
       "score": 3,
       "cn": "Google 在搜索的 AI 模式中新增了应用连接功能。用户现在可以安全地将常用服务与搜索关联，并直接在 AI 模式下与这些应用进行交互。这一更新使得搜索不仅限于网页结果，还能调用外部服务的能力，例如在搜索框内直接完成预订、查询等操作，提升了搜索作为信息与行动入口的实用性。"
-    },
-    {
-      "source": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "id": "4babaf3e269b6d7d",
-      "title": "Hugging Face 发布“新模型同样优势”评测报告",
-      "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
-      "summary": "",
-      "category": "评测",
-      "publishedAt": "2026-07-16T11:49:48.000Z",
-      "discoveredAt": "2026-07-16T13:21:38.006Z",
-      "originalTitle": "Newer Models, Same Advantage",
-      "score": 3,
-      "cn": "Hugging Face 近日发布了一篇题为《新模型同样优势》的博文，比较了最新发布的几款大语言模型在推理、代码生成和长文本理解等任务上的表现。文章指出，尽管模型迭代速度加快，但不同架构在特定场景下仍有各自的优势，并非一味追求参数规模。这份评测为开发者在选择模型时提供了实用的参考依据。"
     },
     {
       "source": "deepmind",
