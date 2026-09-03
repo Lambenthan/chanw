@@ -1,5 +1,33 @@
 [
 	{
+		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
+		"url": "https://github.com/tashfeenahmed/freellmapi",
+		"source": "GitHub Trending",
+		"date": "2026-09-03T10:09:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
+		"url": "https://github.com/MadsLorentzen/ai-job-search",
+		"source": "GitHub Trending",
+		"date": "2026-09-03T06:19:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-09-03T04:37:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "freestylefly 开源 GPT-Image2 工业级提示词引擎与模板库",
+		"url": "https://github.com/freestylefly/awesome-gpt-image-2",
+		"source": "GitHub Trending",
+		"date": "2026-09-03T03:26:32Z",
+		"group": "gh"
+	},
+	{
 		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
 		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
 		"source": "NVIDIA",
@@ -21,13 +49,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
-		"url": "https://github.com/MadsLorentzen/ai-job-search",
-		"source": "GitHub Trending",
-		"date": "2026-09-02T19:35:11Z",
-		"group": "gh"
-	},
-	{
 		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
 		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
 		"source": "GitHub Trending",
@@ -40,20 +61,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-09-02T15:29:47.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
-		"url": "https://github.com/tashfeenahmed/freellmapi",
-		"source": "GitHub Trending",
-		"date": "2026-09-02T13:42:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-09-02T04:38:25Z",
-		"group": "gh"
 	},
 	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
@@ -75,13 +82,6 @@
 		"source": "Anthropic News",
 		"date": "2026-09-01T18:01:14.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "freestylefly 开源 GPT-Image2 工业级提示词引擎与模板库",
-		"url": "https://github.com/freestylefly/awesome-gpt-image-2",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T10:46:30Z",
-		"group": "gh"
 	},
 	{
 		"title": "rohitg00 开源 AI 工程从零到实战的学习项目",
@@ -1886,13 +1886,6 @@
 		"title": "Google 更新搜索 AI 模式，支持更多应用连接",
 		"url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
 		"source": "Google AI",
-		"date": "2026-07-16T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 披露 2026 年 7 月安全事件",
-		"url": "https://huggingface.co/blog/security-incident-july-2026",
-		"source": "Hugging Face Blog",
 		"date": "2026-07-16T00:00:00.000Z",
 		"group": "labs"
 	},
