@@ -1,6 +1,65 @@
 {
-  "fetchedAt": "2026-09-02T20:20:36.558Z",
+  "fetchedAt": "2026-09-03T02:10:09.198Z",
   "items": [
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA",
+      "id": "e45661ea00116c4d",
+      "title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-02T22:14:32.000Z",
+      "discoveredAt": "2026-08-06T13:42:43.712Z",
+      "originalTitle": "Open Secure Ai Alliance Contributions",
+      "score": 3,
+      "cn": "NVIDIA 宣布向 Open Secure AI Alliance 贡献多项安全工具与最佳实践，涵盖开源代码、安全框架和评估方法，旨在帮助开发者构建更可信的 AI 应用。作为联盟创始成员，NVIDIA 希望通过共享安全经验降低 AI 部署中的风险，推动行业安全标准的发展。"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA",
+      "id": "338eb622f724237e",
+      "title": "NVIDIA 发起 Open Secure AI Alliance",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-02T22:13:43.000Z",
+      "discoveredAt": "2026-08-05T01:43:57.905Z",
+      "originalTitle": "Open Secure Ai Alliance",
+      "score": 3,
+      "cn": "NVIDIA 联合多家企业发起 Open Secure AI Alliance，旨在推动人工智能系统的安全标准和最佳实践。该联盟将聚焦于模型安全、数据隐私与基础设施防护，通过开放协作减少 AI 部署中的风险。初期成员涵盖芯片厂商、云服务商与安全公司，共同制定可互操作的 AI 安全框架。"
+    },
+    {
+      "source": "github-trending",
+      "sourceName": "GitHub Trending",
+      "id": "94b31dd56020289f",
+      "title": "Google 开源 GoogleTest 测试与模拟框架",
+      "url": "https://github.com/google/googletest",
+      "summary": "GoogleTest - Google Testing and Mocking Framework",
+      "category": "编程工具",
+      "publishedAt": "2026-09-02T21:03:04Z",
+      "discoveredAt": "2026-08-28T17:56:58.123Z",
+      "stars": 39149,
+      "repoTopics": [],
+      "owner": "google",
+      "originalTitle": "google/googletest · GoogleTest - Google Testing and Mocking Framework",
+      "score": 3,
+      "cn": "GoogleTest 是 Google 开源的 C++ 测试与模拟框架，提供断言宏、测试夹具和参数化测试等基础功能。该框架在 Google 内部长期使用，现面向社区开源，便于开发者进行单元测试和 mock 操作。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "ff4ecb27326bf416",
+      "title": "OpenAI 公布数学领域十项新进展",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-09-02T20:57:34.290Z",
+      "discoveredAt": "2026-08-04T19:18:29.629Z",
+      "originalTitle": "Ten Advances In Mathematics",
+      "score": 4,
+      "cn": "OpenAI 发布了一份关于数学领域十项重要进展的回顾，涵盖多项式恒等式、组合学与数论等多个分支的 AI 辅助发现或经典难题的新解法。报告展示了语言模型在符号推理与模式挖掘上的能力，其中部分结果已被数学家验证并收录为正式定理。这组工作并非单一模型发布，而是 OpenAI 对 AI for Math 研究方向的阶段性总结，为后续自动化数学研究提供了可复用的思路与实验基准。"
+    },
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
@@ -417,23 +476,6 @@
       "cn": "OpenAI 正式推出 ChatGPT for Teens，一个专为 13 至 18 岁青少年设计的对话 AI 版本。该版本在保留核心对话能力的同时，加入了更严格的内容过滤、家长监督选项和教育场景适配，旨在让年轻用户安全地使用 AI 辅助学习与创作。此举也标志着 OpenAI 在合规与年龄分层上的重要尝试。"
     },
     {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "94b31dd56020289f",
-      "title": "Google 开源 GoogleTest 测试与模拟框架",
-      "url": "https://github.com/google/googletest",
-      "summary": "GoogleTest - Google Testing and Mocking Framework",
-      "category": "编程工具",
-      "publishedAt": "2026-09-02T14:38:16Z",
-      "discoveredAt": "2026-08-28T17:56:58.123Z",
-      "stars": 39149,
-      "repoTopics": [],
-      "owner": "google",
-      "originalTitle": "google/googletest · GoogleTest - Google Testing and Mocking Framework",
-      "score": 3,
-      "cn": "GoogleTest 是 Google 开源的 C++ 测试与模拟框架，提供断言宏、测试夹具和参数化测试等基础功能。该框架在 Google 内部长期使用，现面向社区开源，便于开发者进行单元测试和 mock 操作。"
-    },
-    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "c0522fa3e0a1ef04",
@@ -474,20 +516,6 @@
       "originalTitle": "How We Monitor Internal Coding Agents Misalignment",
       "score": 4,
       "cn": "OpenAI 公开了内部用于监测编码 agent 行为偏离的方法论。这套机制聚焦于识别 agent 在执行任务时可能出现的策略性欺骗或目标偏移，而非仅关注代码质量。通过分层监控与行为日志分析，团队能在早期发现 agent 绕过约束或隐瞒错误的行为。该研究为 agent 安全部署提供了可操作的检测框架。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "ff4ecb27326bf416",
-      "title": "OpenAI 公布数学领域十项新进展",
-      "url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-09-02T14:23:54.552Z",
-      "discoveredAt": "2026-08-04T19:18:29.629Z",
-      "originalTitle": "Ten Advances In Mathematics",
-      "score": 4,
-      "cn": "OpenAI 发布了一份关于数学领域十项重要进展的回顾，涵盖多项式恒等式、组合学与数论等多个分支的 AI 辅助发现或经典难题的新解法。报告展示了语言模型在符号推理与模式挖掘上的能力，其中部分结果已被数学家验证并收录为正式定理。这组工作并非单一模型发布，而是 OpenAI 对 AI for Math 研究方向的阶段性总结，为后续自动化数学研究提供了可复用的思路与实验基准。"
     },
     {
       "source": "openai",
@@ -4694,20 +4722,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "dfcf73efa3a68602",
-      "title": "OpenAI 介绍 NVIDIA 借助 ChatGPT Work 扩展团队经验",
-      "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-      "category": "其他",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "discoveredAt": "2026-08-20T12:27:52.250Z",
-      "originalTitle": "How NVIDIA scales expertise with ChatGPT Work",
-      "score": 3,
-      "cn": "OpenAI 发布案例，介绍 NVIDIA 团队如何利用 ChatGPT Work 减少手动任务、连接快速变化的信号，并在全球范围内推广成功的工作流程。该案例展示了企业级 AI 工具在大型科技公司内部的实际应用，体现了 ChatGPT Work 在提升团队协作和运营效率方面的价值。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "3e7948d6274ebd63",
       "title": "OpenAI 推出 AI 临床助手 Penda Health",
       "url": "https://openai.com/index/ai-clinical-copilot-penda-health/",
@@ -5400,20 +5414,6 @@
     {
       "source": "nvidia",
       "sourceName": "NVIDIA",
-      "id": "e45661ea00116c4d",
-      "title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
-      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-08-11T13:17:06.000Z",
-      "discoveredAt": "2026-08-06T13:42:43.712Z",
-      "originalTitle": "Open Secure Ai Alliance Contributions",
-      "score": 3,
-      "cn": "NVIDIA 宣布向 Open Secure AI Alliance 贡献多项安全工具与最佳实践，涵盖开源代码、安全框架和评估方法，旨在帮助开发者构建更可信的 AI 应用。作为联盟创始成员，NVIDIA 希望通过共享安全经验降低 AI 部署中的风险，推动行业安全标准的发展。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
       "id": "831d74e969cf6ba2",
       "title": "NVIDIA 在亚美尼亚建设 Firebird AI 工厂，采用 Blackwell 与 Rubin 架构",
       "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
@@ -5564,20 +5564,6 @@
       "originalTitle": "The State Of Enterprise Ai 2025 Report",
       "score": 1,
       "cn": "OpenAI 发布了《2025 年企业 AI 现状报告》，梳理了企业在采用 AI 技术方面的趋势、挑战与最佳实践。报告基于对全球企业决策者的调研，涵盖部署率、投资回报、安全顾虑等维度，为行业提供了一份参考。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "338eb622f724237e",
-      "title": "NVIDIA 发起 Open Secure AI Alliance",
-      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-08-07T22:42:33.000Z",
-      "discoveredAt": "2026-08-05T01:43:57.905Z",
-      "originalTitle": "Open Secure Ai Alliance",
-      "score": 3,
-      "cn": "NVIDIA 联合多家企业发起 Open Secure AI Alliance，旨在推动人工智能系统的安全标准和最佳实践。该联盟将聚焦于模型安全、数据隐私与基础设施防护，通过开放协作减少 AI 部署中的风险。初期成员涵盖芯片厂商、云服务商与安全公司，共同制定可互操作的 AI 安全框架。"
     },
     {
       "source": "openai",

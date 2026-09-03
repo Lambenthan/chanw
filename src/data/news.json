@@ -1,5 +1,26 @@
 [
 	{
+		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
+		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+		"source": "NVIDIA",
+		"date": "2026-09-02T22:14:32.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发起 Open Secure AI Alliance",
+		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+		"source": "NVIDIA",
+		"date": "2026-09-02T22:13:43.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google 开源 GoogleTest 测试与模拟框架",
+		"url": "https://github.com/google/googletest",
+		"source": "GitHub Trending",
+		"date": "2026-09-02T21:03:04Z",
+		"group": "gh"
+	},
+	{
 		"title": "MadsLorentzen 开源 AI Job Search 求职框架",
 		"url": "https://github.com/MadsLorentzen/ai-job-search",
 		"source": "GitHub Trending",
@@ -19,13 +40,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-09-02T15:29:47.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Google 开源 GoogleTest 测试与模拟框架",
-		"url": "https://github.com/google/googletest",
-		"source": "GitHub Trending",
-		"date": "2026-09-02T14:38:16Z",
-		"group": "gh"
 	},
 	{
 		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
@@ -1078,13 +1092,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
-		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-		"source": "NVIDIA",
-		"date": "2026-08-11T13:17:06.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google 发布 AMIE 实时临床视频咨询 AI 系统",
 		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
 		"source": "Google AI",
@@ -1152,13 +1159,6 @@
 		"url": "https://huggingface.co/blog/muse-glimmer",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发起 Open Secure AI Alliance",
-		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-		"source": "NVIDIA",
-		"date": "2026-08-07T22:42:33.000Z",
 		"group": "labs"
 	},
 	{
@@ -3763,13 +3763,6 @@
 		"url": "https://www.anthropic.com/research/next-generation-constitutional-classifiers",
 		"source": "Anthropic Research",
 		"date": "2026-06-05T15:19:41.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "工程软件龙头采用自主 AI 工程师 Nemoclaw",
-		"url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-		"source": "NVIDIA",
-		"date": "2026-06-04T22:55:40.000Z",
 		"group": "labs"
 	}
 ]
