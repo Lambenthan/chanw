@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-03T15:33:00.347Z",
+  "fetchedAt": "2026-09-03T20:21:33.757Z",
   "items": [
     {
       "source": "openai",
@@ -76,6 +76,76 @@
       "originalTitle": "freestylefly/awesome-gpt-image-2 · Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "score": 3,
       "cn": "freestylefly 在 GitHub 上开源了 Awesome GPT-Image2，一套面向 GPT 图像生成场景的提示词引擎与模板库。项目对 470 多个案例做了逆向工程分析，提炼出 20 多套工业级模板，并整理为可复用的 Skills，帮助开发者系统化设计提示词。仓库持续更新，适合需要稳定复现高质量图像生成的团队参考。"
+    },
+    {
+      "source": "google-ai",
+      "sourceName": "Google AI",
+      "id": "07f9117cafd80241",
+      "title": "Google 发布 Gemini 模型系列更新",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-05-17T19:12:01.330Z",
+      "originalTitle": "Gemini Models",
+      "score": 5,
+      "cn": "Google 发布 Gemini 系列模型最新版本，在推理、多模态理解与代码生成等核心能力上实现显著提升。新模型采用优化后的训练架构，上下文窗口进一步扩展，支持更复杂的任务分解与长分析。此次更新为构建更智能的 AI 应用提供了更强的基础模型。"
+    },
+    {
+      "source": "google-ai",
+      "sourceName": "Google AI",
+      "id": "dc6c9bad0b3ee68b",
+      "title": "Google AI 推出 Gemini Notebook",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/",
+      "summary": "",
+      "category": "知识库",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-07-17T01:49:56.925Z",
+      "originalTitle": "Gemini Notebook",
+      "score": 3,
+      "cn": "Google AI 发布 Gemini Notebook，一款面向个人知识管理的 AI 笔记工具。它利用 Gemini 模型的能力，帮助用户整理、检索和生成笔记内容，将信息收集与智能分析融为一体。Gemini Notebook 旨在提升学习与工作效率，让用户更专注于思考而非记录本身。"
+    },
+    {
+      "source": "google-ai",
+      "sourceName": "Google AI",
+      "id": "f3f6afb1d6cb537c",
+      "title": "Google AI 发布安全与安保相关文章",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Safety Security",
+      "score": 2,
+      "cn": "Google AI 在官方博客上发布了一篇关于安全与安保的文章，探讨人工智能系统在开发与部署过程中需要兼顾的 safety 与 security 两个维度。文章可能涉及 Google 在模型安全评估、对抗性防御、数据隐私保护等方面的实践与思考，为行业提供参考。这类内容通常面向开发者与政策制定者，强调负责任的 AI 发展路径。"
+    },
+    {
+      "source": "google-ai",
+      "sourceName": "Google AI",
+      "id": "be014118bcccc521",
+      "title": "Google DeepMind 发布品牌更新",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Google Deepmind",
+      "score": 1,
+      "cn": "Google AI 宣布对旗下 DeepMind 团队进行品牌梳理，统一以 Google DeepMind 对外呈现。此举主要涉及视觉标识和对外沟通方式的调整，旨在强化团队在 AI 基础研究中的定位。本次更新不涉及模型发布或技术突破，更多是组织层面的品牌升级。"
+    },
+    {
+      "source": "google-ai",
+      "sourceName": "Google AI",
+      "id": "8eadc3a93a3996dc",
+      "title": "Google Research 发布研究博客更新",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Google Research",
+      "score": 1,
+      "cn": "Google Research 更新了其研究博客，但未披露具体内容。该页面可能汇总了 Google 在 AI 等领域的最新研究进展，但本次公告缺乏细节，无法判断具体成果。"
     },
     {
       "source": "nvidia",
@@ -3115,20 +3185,6 @@
       "cn": "OpenAI 推出 BrowseComp，一个面向浏览器自动化 agent 的基准测试。该测试评估 agent 在真实网页环境中完成复杂多步任务的能力，涵盖信息检索、表单填写、多页面导航等场景。BrowseComp 的发布为衡量和比较不同浏览器自动化方案提供了标准化评测手段，有助于推动该领域的技术进步。"
     },
     {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "07f9117cafd80241",
-      "title": "Google 发布 Gemini 模型系列更新",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "discoveredAt": "2026-05-17T19:12:01.330Z",
-      "originalTitle": "Gemini Models",
-      "score": 5,
-      "cn": "Google 发布 Gemini 系列模型最新版本，在推理、多模态理解与代码生成等核心能力上实现显著提升。新模型采用优化后的训练架构，上下文窗口进一步扩展，支持更复杂的任务分解与长分析。此次更新为构建更智能的 AI 应用提供了更强的基础模型。"
-    },
-    {
       "source": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
       "id": "5309d96554639301",
@@ -6163,20 +6219,6 @@
     {
       "source": "google-ai",
       "sourceName": "Google AI",
-      "id": "be014118bcccc521",
-      "title": "Google DeepMind 发布品牌更新",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Google Deepmind",
-      "score": 1,
-      "cn": "Google AI 宣布对旗下 DeepMind 团队进行品牌梳理，统一以 Google DeepMind 对外呈现。此举主要涉及视觉标识和对外沟通方式的调整，旨在强化团队在 AI 基础研究中的定位。本次更新不涉及模型发布或技术突破，更多是组织层面的品牌升级。"
-    },
-    {
-      "source": "google-ai",
-      "sourceName": "Google AI",
       "id": "d4fac0c01ffcafca",
       "title": "Google AI 发布家庭相关技术内容",
       "url": "https://blog.google/innovation-and-ai/technology/families/",
@@ -6919,20 +6961,6 @@
     {
       "source": "google-ai",
       "sourceName": "Google AI",
-      "id": "f3f6afb1d6cb537c",
-      "title": "Google AI 发布安全与安保相关文章",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-07-24T00:00:00.000Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Safety Security",
-      "score": 2,
-      "cn": "Google AI 在官方博客上发布了一篇关于安全与安保的文章，探讨人工智能系统在开发与部署过程中需要兼顾的 safety 与 security 两个维度。文章可能涉及 Google 在模型安全评估、对抗性防御、数据隐私保护等方面的实践与思考，为行业提供参考。这类内容通常面向开发者与政策制定者，强调负责任的 AI 发展路径。"
-    },
-    {
-      "source": "google-ai",
-      "sourceName": "Google AI",
       "id": "b519b9c6e3bb0235",
       "title": "Google AI 更新全球网络基础设施",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/",
@@ -6943,20 +6971,6 @@
       "originalTitle": "Global Network",
       "score": 2,
       "cn": "Google AI 宣布对其全球网络进行升级，旨在提升跨区域数据传输的速度与可靠性，为 AI 训练和推理任务提供更稳定的底层连接。此次更新涉及骨干网架构优化与边缘节点扩展，有助于降低模型部署时的延迟。"
-    },
-    {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "8eadc3a93a3996dc",
-      "title": "Google Research 发布研究博客更新",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-07-24T00:00:00.000Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Google Research",
-      "score": 1,
-      "cn": "Google Research 更新了其研究博客，但未披露具体内容。该页面可能汇总了 Google 在 AI 等领域的最新研究进展，但本次公告缺乏细节，无法判断具体成果。"
     },
     {
       "source": "openai",
@@ -7701,20 +7715,6 @@
       "originalTitle": "Our approach to bioresilience",
       "score": 3,
       "cn": "Google DeepMind 与 Isomorphic Labs 联合公开了其在生物韧性领域的研究思路，涉及 AI 模型在应对生物威胁与健康挑战中的应用。双方将共享方法论，推动 AI 在生物安全与医学研究中的负责任发展。此举体现了科技巨头在前沿生物技术领域的布局，也为后续合作与标准制定提供了参考。"
-    },
-    {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "dc6c9bad0b3ee68b",
-      "title": "Google AI 推出 Gemini Notebook",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/",
-      "summary": "",
-      "category": "知识库",
-      "publishedAt": "2026-07-16T00:00:00.000Z",
-      "discoveredAt": "2026-07-17T01:49:56.925Z",
-      "originalTitle": "Gemini Notebook",
-      "score": 3,
-      "cn": "Google AI 发布 Gemini Notebook，一款面向个人知识管理的 AI 笔记工具。它利用 Gemini 模型的能力，帮助用户整理、检索和生成笔记内容，将信息收集与智能分析融为一体。Gemini Notebook 旨在提升学习与工作效率，让用户更专注于思考而非记录本身。"
     },
     {
       "source": "anthropic-news",
@@ -30336,20 +30336,6 @@
       "originalTitle": "Openusd Ai Industrial Digitalization",
       "score": 3,
       "cn": "NVIDIA 将 OpenUSD 与 AI 技术结合，用于工业数字化场景。OpenUSD 作为 3D 数据交换标准，在 AI 驱动下可加速工业设计、仿真与协作流程。这一方向旨在降低数字孪生与智能制造的门槛，让更多企业利用 AI 处理复杂工业数据。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "832c3a87f76138c6",
-      "title": "NVIDIA 与梅赛德斯-奔驰合作推进电动汽车生成式 AI 应用",
-      "url": "https://blogs.nvidia.com/blog/mercedes-benz-ev-nvidia-omniverse-generative-ai/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-12-12T18:17:08.000Z",
-      "discoveredAt": "2026-05-18T03:43:58.954Z",
-      "originalTitle": "Mercedes Benz Ev Nvidia Omniverse Generative Ai",
-      "score": 3,
-      "cn": "NVIDIA 宣布与梅赛德斯-奔驰深化合作，将 Omniverse 平台和生成式 AI 技术引入电动汽车的研发与制造流程。双方计划利用数字孪生和 AI 模拟来加速新车设计、优化生产线，并提升智能座舱体验。这一合作展示了工业级生成式 AI 在汽车行业的落地潜力。"
     },
     {
       "source": "anthropic-news",

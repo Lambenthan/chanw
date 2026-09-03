@@ -3694,19 +3694,5 @@
 		"source": "NVIDIA",
 		"date": "2026-06-05T21:55:19.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Agent 自主性评测方法",
-		"url": "https://www.anthropic.com/research/measuring-agent-autonomy",
-		"source": "Anthropic Research",
-		"date": "2026-06-05T15:49:18.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 分享 AI 如何改变公司内部工作方式",
-		"url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
-		"source": "Anthropic Research",
-		"date": "2026-06-05T15:38:44.000Z",
-		"group": "labs"
 	}
 ]
