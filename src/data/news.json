@@ -1,31 +1,24 @@
 [
 	{
+		"title": "Anthropic 发布工人再培训计划证据回顾报告",
+		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+		"source": "Anthropic Research",
+		"date": "2026-09-04T14:19:31.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-09-04T13:17:55Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 发布印度经济指数简报",
 		"url": "https://www.anthropic.com/research/india-brief-economic-index",
 		"source": "Anthropic Research",
 		"date": "2026-09-03T21:12:06.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
-		"url": "https://github.com/tashfeenahmed/freellmapi",
-		"source": "GitHub Trending",
-		"date": "2026-09-03T11:26:28Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-09-03T04:37:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "freestylefly 开源 GPT-Image2 工业级提示词引擎与模板库",
-		"url": "https://github.com/freestylefly/awesome-gpt-image-2",
-		"source": "GitHub Trending",
-		"date": "2026-09-03T03:26:32Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
@@ -49,20 +42,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "Anthropic 发布工人再培训计划证据回顾报告",
-		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-		"source": "Anthropic Research",
-		"date": "2026-09-02T15:29:47.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-09-02T01:24:50Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 发布 Claude Code 创业公司指南",
 		"url": "https://claude.com/blog/claude-code-guide-for-startups",
 		"source": "claude.com",
@@ -75,13 +54,6 @@
 		"source": "Anthropic News",
 		"date": "2026-09-01T18:01:14.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "rohitg00 开源 AI 工程从零到实战的学习项目",
-		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-		"source": "GitHub Trending",
-		"date": "2026-08-30T09:25:48Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
