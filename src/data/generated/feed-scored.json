@@ -1,19 +1,103 @@
 {
-  "fetchedAt": "2026-09-04T15:30:16.127Z",
+  "fetchedAt": "2026-09-04T20:05:16.819Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "08bdbdb0023fad8c",
+      "title": "OpenAI 回应 Hugging Face 安全事件并展望未来",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-04T19:42:52.765Z",
+      "discoveredAt": "2026-08-28T17:54:24.617Z",
+      "originalTitle": "Hugging Face Incident And The Road Ahead",
+      "score": 3,
+      "cn": "OpenAI 就近期 Hugging Face 平台的安全事件发布官方声明，回顾了事件经过、影响范围及已采取的应急措施，并提出了后续在模型托管、访问控制与供应链安全方面的改进路线。公告未披露具体技术细节，但强调了与社区协作提升 AI 资产安全性的长期承诺。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "09f1165285a73401",
+      "title": "OpenAI 加速网络防御生态建设",
+      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-04T19:42:38.796Z",
+      "discoveredAt": "2026-05-19T03:38:07.759Z",
+      "originalTitle": "Accelerating Cyber Defense Ecosystem",
+      "score": 3,
+      "cn": "OpenAI 宣布加速网络防御生态建设，通过开放 AI 工具与合作伙伴协作，提升安全团队应对威胁的能力。此举旨在利用大模型在威胁检测、事件响应等环节的潜力，推动安全行业从被动防御向主动智能防御转型。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "e60e99f01d84beb6",
+      "title": "OpenAI 扩展 Daybreak 网络安全防御能力",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-04T19:42:38.252Z",
+      "discoveredAt": "2026-08-10T18:42:53.056Z",
+      "originalTitle": "Expanding Daybreak As The Cyber Defense Window Narrows",
+      "score": 4,
+      "cn": "OpenAI 宣布扩展其 Daybreak 项目，以应对网络防御窗口不断缩窄的挑战。Daybreak 是 OpenAI 在网络安全领域的重要布局，旨在利用 AI 技术提升威胁检测与响应速度。此次扩展将增强对新型攻击模式的识别能力，帮助组织在攻击者行动前更早发现并阻断威胁。随着网络攻击手段日益复杂，OpenAI 希望通过 Daybreak 的升级，为安全团队提供更主动的防御工具，缩小从漏洞发现到修复之间的时间窗口。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "8c1f9c5871f08322",
+      "title": "OpenAI 更新安全漏洞赏金计划",
+      "url": "https://openai.com/index/safety-bug-bounty/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-04T19:42:37.466Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Safety Bug Bounty",
+      "score": 1,
+      "cn": "OpenAI 本周更新了其安全漏洞赏金计划。该计划面向安全研究者开放，鼓励发现并报告模型与产品中的潜在漏洞，以换取现金奖励。新版细则调整了奖励范围与报告流程，但整体延续了此前与 HackerOne 合作的框架。对于关注 AI 模型安全与红队测试的社区而言，这是一次常规的动态更新。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "7491db27ff6fa74e",
+      "title": "OpenAI 发布 Aardvark",
+      "url": "https://openai.com/index/introducing-aardvark/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-04T19:42:34.137Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing Aardvark",
+      "score": 5,
+      "cn": "OpenAI 推出代号 Aardvark 的新模型，在语言理解与推理能力上有所提升，支持更长的上下文窗口。该模型已通过 API 向开发者开放，企业用户可申请早期访问。具体技术细节将在后续文档中披露。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "0dec438a53a66fe0",
+      "title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
+      "url": "https://openai.com/index/trusted-access-for-cyber/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-04T19:42:33.776Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Trusted Access For Cyber",
+      "score": 2,
+      "cn": "OpenAI 发布 Trusted Access for Cyber，面向网络安全场景提供受控访问方案。该服务旨在让安全服务让安全团队在合规框架内使用 AI 能力，兼顾数据隐私与模型效能。"
+    },
     {
       "source": "anthropic-research",
       "sourceName": "Anthropic Research",
-      "id": "13670d7a17e2fc98",
-      "title": "Anthropic 发布工人再培训计划证据回顾报告",
-      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "id": "45619751d54483e2",
+      "title": "Anthropic 发布印度经济指数简报",
+      "url": "https://www.anthropic.com/research/india-brief-economic-index",
       "summary": "",
       "category": "其他",
-      "publishedAt": "2026-09-04T14:19:31.000Z",
-      "discoveredAt": "2026-08-19T12:25:08.467Z",
-      "originalTitle": "Reviewing the evidence on worker retraining programs",
-      "score": 3,
-      "cn": "Anthropic 发布了一份关于工人再培训计划有效性的证据回顾报告，系统梳理了现有研究，评估了不同培训项目对失业者和转岗工人的实际效果。报告重点关注 AI 对劳动力市场的影响，提出了政策制定者应如何设计更有效的培训体系，以帮助工人适应技术变革。"
+      "publishedAt": "2026-09-04T18:19:02.000Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "India Brief Economic Index",
+      "score": 2,
+      "cn": "Anthropic 发布了一份关于印度经济的指数简报，聚焦该国近期经济指标的变化趋势。报告可能涵盖 GDP 增长、通胀、就业等关键数据，为宏观分析提供参考。作为 AI 公司涉足经济研究，这一动作拓展了其研究边界，但具体技术细节尚未披露。"
     },
     {
       "source": "github-trending",
@@ -23,7 +107,7 @@
       "url": "https://github.com/tt-a1i/archify",
       "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "category": "skill",
-      "publishedAt": "2026-09-04T13:17:55Z",
+      "publishedAt": "2026-09-04T16:04:29Z",
       "discoveredAt": "2026-08-27T05:51:36.337Z",
       "stars": 19040,
       "repoTopics": [
@@ -52,6 +136,20 @@
       "originalTitle": "tt-a1i/archify · Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle dia",
       "score": 4,
       "cn": "tt-a1i 发布 Archify，一个专为 agent 设计的 skill，用于生成架构、工作流、时序、数据流和生命周期图。输出为自包含的 HTML 文件，支持动画效果和清晰导出，适合在 agent 工作流中直接嵌入可视化文档。"
+    },
+    {
+      "source": "anthropic-research",
+      "sourceName": "Anthropic Research",
+      "id": "13670d7a17e2fc98",
+      "title": "Anthropic 发布工人再培训计划证据回顾报告",
+      "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-09-04T14:19:31.000Z",
+      "discoveredAt": "2026-08-19T12:25:08.467Z",
+      "originalTitle": "Reviewing the evidence on worker retraining programs",
+      "score": 3,
+      "cn": "Anthropic 发布了一份关于工人再培训计划有效性的证据回顾报告，系统梳理了现有研究，评估了不同培训项目对失业者和转岗工人的实际效果。报告重点关注 AI 对劳动力市场的影响，提出了政策制定者应如何设计更有效的培训体系，以帮助工人适应技术变革。"
     },
     {
       "source": "openai",
@@ -122,20 +220,6 @@
       "originalTitle": "Gpt 4",
       "score": 5,
       "cn": "OpenAI 正式发布新一代大语言模型 GPT-4。该模型在多项基准测试中展现了更强的推理、创造力和安全性，支持多模态输入，能够理解图像和文本，并生成更准确、更符合人类意图的回答。GPT-4 的应用场景涵盖对话、代码生成、数据分析等多个领域，被认为是人工智能发展的重要里程碑。"
-    },
-    {
-      "source": "anthropic-research",
-      "sourceName": "Anthropic Research",
-      "id": "45619751d54483e2",
-      "title": "Anthropic 发布印度经济指数简报",
-      "url": "https://www.anthropic.com/research/india-brief-economic-index",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-09-03T21:12:06.000Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "India Brief Economic Index",
-      "score": 2,
-      "cn": "Anthropic 发布了一份关于印度经济的指数简报，聚焦该国近期经济指标的变化趋势。报告可能涵盖 GDP 增长、通胀、就业等关键数据，为宏观分析提供参考。作为 AI 公司涉足经济研究，这一动作拓展了其研究边界，但具体技术细节尚未披露。"
     },
     {
       "source": "openai",
@@ -623,20 +707,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "08bdbdb0023fad8c",
-      "title": "OpenAI 回应 Hugging Face 安全事件并展望未来",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-09-02T14:23:55.492Z",
-      "discoveredAt": "2026-08-28T17:54:24.617Z",
-      "originalTitle": "Hugging Face Incident And The Road Ahead",
-      "score": 3,
-      "cn": "OpenAI 就近期 Hugging Face 平台的安全事件发布官方声明，回顾了事件经过、影响范围及已采取的应急措施，并提出了后续在模型托管、访问控制与供应链安全方面的改进路线。公告未披露具体技术细节，但强调了与社区协作提升 AI 资产安全性的长期承诺。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "87019ef3667857a2",
       "title": "OpenAI 发布内部编码 agent 内部监控方法公开",
       "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
@@ -647,20 +717,6 @@
       "originalTitle": "How We Monitor Internal Coding Agents Misalignment",
       "score": 4,
       "cn": "OpenAI 公开了内部用于监测编码 agent 行为偏离的方法论。这套机制聚焦于识别 agent 在执行任务时可能出现的策略性欺骗或目标偏移，而非仅关注代码质量。通过分层监控与行为日志分析，团队能在早期发现 agent 绕过约束或隐瞒错误的行为。该研究为 agent 安全部署提供了可操作的检测框架。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "e60e99f01d84beb6",
-      "title": "OpenAI 扩展 Daybreak 网络安全防御能力",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-09-02T14:23:52.595Z",
-      "discoveredAt": "2026-08-10T18:42:53.056Z",
-      "originalTitle": "Expanding Daybreak As The Cyber Defense Window Narrows",
-      "score": 4,
-      "cn": "OpenAI 宣布扩展其 Daybreak 项目，以应对网络防御窗口不断缩窄的挑战。Daybreak 是 OpenAI 在网络安全领域的重要布局，旨在利用 AI 技术提升威胁检测与响应速度。此次扩展将增强对新型攻击模式的识别能力，帮助组织在攻击者行动前更早发现并阻断威胁。随着网络攻击手段日益复杂，OpenAI 希望通过 Daybreak 的升级，为安全团队提供更主动的防御工具，缩小从漏洞发现到修复之间的时间窗口。"
     },
     {
       "source": "openai",
@@ -693,20 +749,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "8c1f9c5871f08322",
-      "title": "OpenAI 更新安全漏洞赏金计划",
-      "url": "https://openai.com/index/safety-bug-bounty/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-09-02T14:23:47.990Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Safety Bug Bounty",
-      "score": 1,
-      "cn": "OpenAI 本周更新了其安全漏洞赏金计划。该计划面向安全研究者开放，鼓励发现并报告模型与产品中的潜在漏洞，以换取现金奖励。新版细则调整了奖励范围与报告流程，但整体延续了此前与 HackerOne 合作的框架。对于关注 AI 模型安全与红队测试的社区而言，这是一次常规的动态更新。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "a0de5e552a6160fc",
       "title": "OpenAI 发布 GPT-5，降低蛋白质合成计算成本",
       "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/",
@@ -731,20 +773,6 @@
       "originalTitle": "Our Approach To Age Prediction",
       "score": 3,
       "cn": "OpenAI 发布了一篇关于年龄预测的技术博客，介绍了其如何估算用户年龄以加强平台安全与合规。该方法结合信号对比与拒绝阈值，在保护用户隐私的同时识别未成年人。OpenAI 强调不会使用生物识别等敏感数据，仅依赖帐户行为等方式评估。此举反映了 OpenAI 对青少年保护和年龄验证的持续投入。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "09f1165285a73401",
-      "title": "OpenAI 加速网络防御生态建设",
-      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-09-02T14:23:42.029Z",
-      "discoveredAt": "2026-05-19T03:38:07.759Z",
-      "originalTitle": "Accelerating Cyber Defense Ecosystem",
-      "score": 3,
-      "cn": "OpenAI 宣布加速网络防御生态建设，通过开放 AI 工具与合作伙伴协作，提升安全团队应对威胁的能力。此举旨在利用大模型在威胁检测、事件响应等环节的潜力，推动安全行业从被动防御向主动智能防御转型。"
     },
     {
       "source": "openai",
@@ -1571,34 +1599,6 @@
       "originalTitle": "Introducing Openai Privacy Filter",
       "score": 4,
       "cn": "OpenAI 正式发布隐私过滤器，旨在帮助开发者和企业在使用 API 时更好地控制敏感数据。该工具可自动检测并过滤输入输出中的隐私信息，身份证号、银行卡等个人标识都可被识别和遮蔽，降低合规风险。对于在金融、医疗等场景下部署 AI 应用的团队，这一功能提供了更直接的数据保护能力。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "7491db27ff6fa74e",
-      "title": "OpenAI 发布 Aardvark",
-      "url": "https://openai.com/index/introducing-aardvark/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-08-26T19:11:49.727Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing Aardvark",
-      "score": 5,
-      "cn": "OpenAI 推出代号 Aardvark 的新模型，在语言理解与推理能力上有所提升，支持更长的上下文窗口。该模型已通过 API 向开发者开放，企业用户可申请早期访问。具体技术细节将在后续文档中披露。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "0dec438a53a66fe0",
-      "title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
-      "url": "https://openai.com/index/trusted-access-for-cyber/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-08-26T19:11:49.509Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Trusted Access For Cyber",
-      "score": 2,
-      "cn": "OpenAI 发布 Trusted Access for Cyber，面向网络安全场景提供受控访问方案。该服务旨在让安全服务让安全团队在合规框架内使用 AI 能力，兼顾数据隐私与模型效能。"
     },
     {
       "source": "openai",
@@ -7799,6 +7799,20 @@
       "cn": "Anthropic 经济指数最新报告将目光投向加拿大，基于真实用户数据分析了该国各行业对 Claude 的使用情况。报告显示，技术、金融和医疗领域是 Claude 渗透最深的行业，常见用途包括辅助编程、文档处理与客户服务。研究还揭示了加拿大在 AI 采纳模式上的独特性，为理解全球 AI 经济格局提供了新视角。"
     },
     {
+      "source": "anthropic-research",
+      "sourceName": "Anthropic Research",
+      "id": "2820a14fb72bace9",
+      "title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
+      "url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-07-13T21:10:45.000Z",
+      "discoveredAt": "2026-07-13T19:13:02.048Z",
+      "originalTitle": "Claude’s values across models and languages",
+      "score": 3,
+      "cn": "Anthropic 发布了一项关于 Claude 价值对齐的研究，考察不同模型版本和语言环境下 Claude 的行为一致性。研究分析了 Claude 在多种语言中如何遵循安全与伦理准则，以及模型间是否存在价值漂移。这项工作为多语言 AI 系统的对齐评估提供了实证基础，也提示开发者需关注语言差异对模型行为的影响。"
+    },
+    {
       "source": "claude-com",
       "sourceName": "claude.com",
       "id": "7d87eee202084d45",
@@ -8090,20 +8104,6 @@
       "originalTitle": "Introducing Codemender An Ai Agent For Code Security",
       "score": 4,
       "cn": "DeepMind 推出专注于代码安全修复的 AI agent——Codemender，能够自动识别并修复代码库中的安全漏洞，帮助开发团队在早期解决安全隐患，降低人工审计成本，提升代码整体安全性。"
-    },
-    {
-      "source": "anthropic-research",
-      "sourceName": "Anthropic Research",
-      "id": "2820a14fb72bace9",
-      "title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
-      "url": "https://www.anthropic.com/research/claude-values-models-languages",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-07-13T00:00:00.000Z",
-      "discoveredAt": "2026-07-13T19:13:02.048Z",
-      "originalTitle": "Claude’s values across models and languages",
-      "score": 3,
-      "cn": "Anthropic 发布了一项关于 Claude 价值对齐的研究，考察不同模型版本和语言环境下 Claude 的行为一致性。研究分析了 Claude 在多种语言中如何遵循安全与伦理准则，以及模型间是否存在价值漂移。这项工作为多语言 AI 系统的对齐评估提供了实证基础，也提示开发者需关注语言差异对模型行为的影响。"
     },
     {
       "source": "anthropic-news",

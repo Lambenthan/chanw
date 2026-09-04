@@ -1,23 +1,23 @@
 [
 	{
-		"title": "Anthropic 发布工人再培训计划证据回顾报告",
-		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+		"title": "Anthropic 发布印度经济指数简报",
+		"url": "https://www.anthropic.com/research/india-brief-economic-index",
 		"source": "Anthropic Research",
-		"date": "2026-09-04T14:19:31.000Z",
+		"date": "2026-09-04T18:19:02.000Z",
 		"group": "labs"
 	},
 	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-04T13:17:55Z",
+		"date": "2026-09-04T16:04:29Z",
 		"group": "gh"
 	},
 	{
-		"title": "Anthropic 发布印度经济指数简报",
-		"url": "https://www.anthropic.com/research/india-brief-economic-index",
+		"title": "Anthropic 发布工人再培训计划证据回顾报告",
+		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
 		"source": "Anthropic Research",
-		"date": "2026-09-03T21:12:06.000Z",
+		"date": "2026-09-04T14:19:31.000Z",
 		"group": "labs"
 	},
 	{
@@ -1883,6 +1883,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
+		"url": "https://www.anthropic.com/research/claude-values-models-languages",
+		"source": "Anthropic Research",
+		"date": "2026-07-13T21:10:45.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Claude Managed Agents",
 		"url": "https://claude.com/blog/claude-managed-agents",
 		"source": "claude.com",
@@ -1999,13 +2006,6 @@
 		"url": "https://www.anthropic.com/research/global-workspace",
 		"source": "Anthropic Research",
 		"date": "2026-07-13T12:08:40.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
-		"url": "https://www.anthropic.com/research/claude-values-models-languages",
-		"source": "Anthropic Research",
-		"date": "2026-07-13T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
