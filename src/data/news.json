@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 发布印度经济指数简报",
+		"url": "https://www.anthropic.com/research/india-brief-economic-index",
+		"source": "Anthropic Research",
+		"date": "2026-09-03T21:12:06.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "开源项目 FreeLLMAPI 聚合 34 家免费 LLM 供应商",
 		"url": "https://github.com/tashfeenahmed/freellmapi",
 		"source": "GitHub Trending",
@@ -549,13 +556,6 @@
 		"title": "Anthropic 公布经济未来研究基金研究议程",
 		"url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
 		"source": "Anthropic News",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布印度经济指数简报",
-		"url": "https://www.anthropic.com/research/india-brief-economic-index",
-		"source": "Anthropic Research",
 		"date": "2026-08-25T16:13:14.000Z",
 		"group": "labs"
 	},
@@ -3686,13 +3686,6 @@
 		"url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
 		"source": "DeepMind",
 		"date": "2026-06-09T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 CVPR 发布抓取、驾驶与 Agent 训练研究",
-		"url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
-		"source": "NVIDIA",
-		"date": "2026-06-05T21:55:19.000Z",
 		"group": "labs"
 	}
 ]
