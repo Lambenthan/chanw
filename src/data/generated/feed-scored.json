@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-04T20:05:16.819Z",
+  "fetchedAt": "2026-09-05T02:06:13.325Z",
   "items": [
     {
       "source": "openai",
@@ -9,7 +9,7 @@
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-04T19:42:52.765Z",
+      "publishedAt": "2026-09-05T01:51:55.805Z",
       "discoveredAt": "2026-08-28T17:54:24.617Z",
       "originalTitle": "Hugging Face Incident And The Road Ahead",
       "score": 3,
@@ -23,7 +23,7 @@
       "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-04T19:42:38.796Z",
+      "publishedAt": "2026-09-05T01:51:46.364Z",
       "discoveredAt": "2026-05-19T03:38:07.759Z",
       "originalTitle": "Accelerating Cyber Defense Ecosystem",
       "score": 3,
@@ -37,7 +37,7 @@
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-04T19:42:38.252Z",
+      "publishedAt": "2026-09-05T01:51:46.248Z",
       "discoveredAt": "2026-08-10T18:42:53.056Z",
       "originalTitle": "Expanding Daybreak As The Cyber Defense Window Narrows",
       "score": 4,
@@ -51,25 +51,11 @@
       "url": "https://openai.com/index/safety-bug-bounty/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-04T19:42:37.466Z",
+      "publishedAt": "2026-09-05T01:51:44.373Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Safety Bug Bounty",
       "score": 1,
       "cn": "OpenAI 本周更新了其安全漏洞赏金计划。该计划面向安全研究者开放，鼓励发现并报告模型与产品中的潜在漏洞，以换取现金奖励。新版细则调整了奖励范围与报告流程，但整体延续了此前与 HackerOne 合作的框架。对于关注 AI 模型安全与红队测试的社区而言，这是一次常规的动态更新。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "7491db27ff6fa74e",
-      "title": "OpenAI 发布 Aardvark",
-      "url": "https://openai.com/index/introducing-aardvark/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-09-04T19:42:34.137Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing Aardvark",
-      "score": 5,
-      "cn": "OpenAI 推出代号 Aardvark 的新模型，在语言理解与推理能力上有所提升，支持更长的上下文窗口。该模型已通过 API 向开发者开放，企业用户可申请早期访问。具体技术细节将在后续文档中披露。"
     },
     {
       "source": "openai",
@@ -79,11 +65,25 @@
       "url": "https://openai.com/index/trusted-access-for-cyber/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-04T19:42:33.776Z",
+      "publishedAt": "2026-09-05T01:51:41.349Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Trusted Access For Cyber",
       "score": 2,
       "cn": "OpenAI 发布 Trusted Access for Cyber，面向网络安全场景提供受控访问方案。该服务旨在让安全服务让安全团队在合规框架内使用 AI 能力，兼顾数据隐私与模型效能。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "7491db27ff6fa74e",
+      "title": "OpenAI 发布 Aardvark",
+      "url": "https://openai.com/index/introducing-aardvark/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-05T01:51:41.306Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing Aardvark",
+      "score": 5,
+      "cn": "OpenAI 推出代号 Aardvark 的新模型，在语言理解与推理能力上有所提升，支持更长的上下文窗口。该模型已通过 API 向开发者开放，企业用户可申请早期访问。具体技术细节将在后续文档中披露。"
     },
     {
       "source": "anthropic-research",
