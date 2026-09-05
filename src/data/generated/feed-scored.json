@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-09-05T02:06:13.325Z",
+  "fetchedAt": "2026-09-05T09:40:50.367Z",
   "items": [
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "08bdbdb0023fad8c",
-      "title": "OpenAI 回应 Hugging Face 安全事件并展望未来",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "id": "e60e99f01d84beb6",
+      "title": "OpenAI 扩展 Daybreak 网络安全防御能力",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-05T01:51:55.805Z",
-      "discoveredAt": "2026-08-28T17:54:24.617Z",
-      "originalTitle": "Hugging Face Incident And The Road Ahead",
-      "score": 3,
-      "cn": "OpenAI 就近期 Hugging Face 平台的安全事件发布官方声明，回顾了事件经过、影响范围及已采取的应急措施，并提出了后续在模型托管、访问控制与供应链安全方面的改进路线。公告未披露具体技术细节，但强调了与社区协作提升 AI 资产安全性的长期承诺。"
+      "publishedAt": "2026-09-05T07:29:56.761Z",
+      "discoveredAt": "2026-08-10T18:42:53.056Z",
+      "originalTitle": "Expanding Daybreak As The Cyber Defense Window Narrows",
+      "score": 4,
+      "cn": "OpenAI 宣布扩展其 Daybreak 项目，以应对网络防御窗口不断缩窄的挑战。Daybreak 是 OpenAI 在网络安全领域的重要布局，旨在利用 AI 技术提升威胁检测与响应速度。此次扩展将增强对新型攻击模式的识别能力，帮助组织在攻击者行动前更早发现并阻断威胁。随着网络攻击手段日益复杂，OpenAI 希望通过 Daybreak 的升级，为安全团队提供更主动的防御工具，缩小从漏洞发现到修复之间的时间窗口。"
     },
     {
       "source": "openai",
@@ -23,7 +23,7 @@
       "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-05T01:51:46.364Z",
+      "publishedAt": "2026-09-05T07:29:56.381Z",
       "discoveredAt": "2026-05-19T03:38:07.759Z",
       "originalTitle": "Accelerating Cyber Defense Ecosystem",
       "score": 3,
@@ -32,16 +32,16 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "e60e99f01d84beb6",
-      "title": "OpenAI 扩展 Daybreak 网络安全防御能力",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+      "id": "08bdbdb0023fad8c",
+      "title": "OpenAI 回应 Hugging Face 安全事件并展望未来",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-05T01:51:46.248Z",
-      "discoveredAt": "2026-08-10T18:42:53.056Z",
-      "originalTitle": "Expanding Daybreak As The Cyber Defense Window Narrows",
-      "score": 4,
-      "cn": "OpenAI 宣布扩展其 Daybreak 项目，以应对网络防御窗口不断缩窄的挑战。Daybreak 是 OpenAI 在网络安全领域的重要布局，旨在利用 AI 技术提升威胁检测与响应速度。此次扩展将增强对新型攻击模式的识别能力，帮助组织在攻击者行动前更早发现并阻断威胁。随着网络攻击手段日益复杂，OpenAI 希望通过 Daybreak 的升级，为安全团队提供更主动的防御工具，缩小从漏洞发现到修复之间的时间窗口。"
+      "publishedAt": "2026-09-05T07:29:54.771Z",
+      "discoveredAt": "2026-08-28T17:54:24.617Z",
+      "originalTitle": "Hugging Face Incident And The Road Ahead",
+      "score": 3,
+      "cn": "OpenAI 就近期 Hugging Face 平台的安全事件发布官方声明，回顾了事件经过、影响范围及已采取的应急措施，并提出了后续在模型托管、访问控制与供应链安全方面的改进路线。公告未披露具体技术细节，但强调了与社区协作提升 AI 资产安全性的长期承诺。"
     },
     {
       "source": "openai",
@@ -51,25 +51,11 @@
       "url": "https://openai.com/index/safety-bug-bounty/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-05T01:51:44.373Z",
+      "publishedAt": "2026-09-05T07:29:54.529Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Safety Bug Bounty",
       "score": 1,
       "cn": "OpenAI 本周更新了其安全漏洞赏金计划。该计划面向安全研究者开放，鼓励发现并报告模型与产品中的潜在漏洞，以换取现金奖励。新版细则调整了奖励范围与报告流程，但整体延续了此前与 HackerOne 合作的框架。对于关注 AI 模型安全与红队测试的社区而言，这是一次常规的动态更新。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "0dec438a53a66fe0",
-      "title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
-      "url": "https://openai.com/index/trusted-access-for-cyber/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-09-05T01:51:41.349Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Trusted Access For Cyber",
-      "score": 2,
-      "cn": "OpenAI 发布 Trusted Access for Cyber，面向网络安全场景提供受控访问方案。该服务旨在让安全服务让安全团队在合规框架内使用 AI 能力，兼顾数据隐私与模型效能。"
     },
     {
       "source": "openai",
@@ -79,25 +65,25 @@
       "url": "https://openai.com/index/introducing-aardvark/",
       "summary": "",
       "category": "大模型",
-      "publishedAt": "2026-09-05T01:51:41.306Z",
+      "publishedAt": "2026-09-05T07:29:53.661Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Introducing Aardvark",
       "score": 5,
       "cn": "OpenAI 推出代号 Aardvark 的新模型，在语言理解与推理能力上有所提升，支持更长的上下文窗口。该模型已通过 API 向开发者开放，企业用户可申请早期访问。具体技术细节将在后续文档中披露。"
     },
     {
-      "source": "anthropic-research",
-      "sourceName": "Anthropic Research",
-      "id": "45619751d54483e2",
-      "title": "Anthropic 发布印度经济指数简报",
-      "url": "https://www.anthropic.com/research/india-brief-economic-index",
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "0dec438a53a66fe0",
+      "title": "OpenAI 推出 Trusted Access for Cyber 安全方案",
+      "url": "https://openai.com/index/trusted-access-for-cyber/",
       "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-09-04T18:19:02.000Z",
+      "category": "安全",
+      "publishedAt": "2026-09-05T07:29:52.761Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "India Brief Economic Index",
+      "originalTitle": "Trusted Access For Cyber",
       "score": 2,
-      "cn": "Anthropic 发布了一份关于印度经济的指数简报，聚焦该国近期经济指标的变化趋势。报告可能涵盖 GDP 增长、通胀、就业等关键数据，为宏观分析提供参考。作为 AI 公司涉足经济研究，这一动作拓展了其研究边界，但具体技术细节尚未披露。"
+      "cn": "OpenAI 发布 Trusted Access for Cyber，面向网络安全场景提供受控访问方案。该服务旨在让安全服务让安全团队在合规框架内使用 AI 能力，兼顾数据隐私与模型效能。"
     },
     {
       "source": "github-trending",
@@ -107,7 +93,7 @@
       "url": "https://github.com/tt-a1i/archify",
       "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "category": "skill",
-      "publishedAt": "2026-09-04T16:04:29Z",
+      "publishedAt": "2026-09-05T04:19:21Z",
       "discoveredAt": "2026-08-27T05:51:36.337Z",
       "stars": 19040,
       "repoTopics": [
@@ -136,6 +122,20 @@
       "originalTitle": "tt-a1i/archify · Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle dia",
       "score": 4,
       "cn": "tt-a1i 发布 Archify，一个专为 agent 设计的 skill，用于生成架构、工作流、时序、数据流和生命周期图。输出为自包含的 HTML 文件，支持动画效果和清晰导出，适合在 agent 工作流中直接嵌入可视化文档。"
+    },
+    {
+      "source": "anthropic-research",
+      "sourceName": "Anthropic Research",
+      "id": "45619751d54483e2",
+      "title": "Anthropic 发布印度经济指数简报",
+      "url": "https://www.anthropic.com/research/india-brief-economic-index",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-09-04T18:19:02.000Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "India Brief Economic Index",
+      "score": 2,
+      "cn": "Anthropic 发布了一份关于印度经济的指数简报，聚焦该国近期经济指标的变化趋势。报告可能涵盖 GDP 增长、通胀、就业等关键数据，为宏观分析提供参考。作为 AI 公司涉足经济研究，这一动作拓展了其研究边界，但具体技术细节尚未披露。"
     },
     {
       "source": "anthropic-research",
