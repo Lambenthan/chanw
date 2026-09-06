@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-06T02:02:06.190Z",
+  "fetchedAt": "2026-09-06T09:58:20.537Z",
   "items": [
     {
       "source": "github-trending",
@@ -9,7 +9,7 @@
       "url": "https://github.com/tt-a1i/archify",
       "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "category": "skill",
-      "publishedAt": "2026-09-06T01:53:21Z",
+      "publishedAt": "2026-09-06T08:38:31Z",
       "discoveredAt": "2026-08-27T05:51:36.337Z",
       "stars": 19040,
       "repoTopics": [
