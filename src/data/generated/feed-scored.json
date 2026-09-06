@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-06T14:41:41.720Z",
+  "fetchedAt": "2026-09-06T19:49:22.013Z",
   "items": [
     {
       "source": "openai",
@@ -9,7 +9,7 @@
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-06T12:14:17.016Z",
+      "publishedAt": "2026-09-06T15:26:31.655Z",
       "discoveredAt": "2026-08-10T18:42:53.056Z",
       "originalTitle": "Expanding Daybreak As The Cyber Defense Window Narrows",
       "score": 4,
@@ -23,25 +23,11 @@
       "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-06T12:14:16.798Z",
+      "publishedAt": "2026-09-06T15:26:31.498Z",
       "discoveredAt": "2026-05-19T03:38:07.759Z",
       "originalTitle": "Accelerating Cyber Defense Ecosystem",
       "score": 3,
       "cn": "OpenAI 宣布加速网络防御生态建设，通过开放 AI 工具与合作伙伴协作，提升安全团队应对威胁的能力。此举旨在利用大模型在威胁检测、事件响应等环节的潜力，推动安全行业从被动防御向主动智能防御转型。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "8c1f9c5871f08322",
-      "title": "OpenAI 更新安全漏洞赏金计划",
-      "url": "https://openai.com/index/safety-bug-bounty/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-09-06T12:14:15.283Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Safety Bug Bounty",
-      "score": 1,
-      "cn": "OpenAI 本周更新了其安全漏洞赏金计划。该计划面向安全研究者开放，鼓励发现并报告模型与产品中的潜在漏洞，以换取现金奖励。新版细则调整了奖励范围与报告流程，但整体延续了此前与 HackerOne 合作的框架。对于关注 AI 模型安全与红队测试的社区而言，这是一次常规的动态更新。"
     },
     {
       "source": "openai",
@@ -51,11 +37,25 @@
       "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-06T12:14:13.858Z",
+      "publishedAt": "2026-09-06T15:26:30.197Z",
       "discoveredAt": "2026-08-28T17:54:24.617Z",
       "originalTitle": "Hugging Face Incident And The Road Ahead",
       "score": 3,
       "cn": "OpenAI 就近期 Hugging Face 平台的安全事件发布官方声明，回顾了事件经过、影响范围及已采取的应急措施，并提出了后续在模型托管、访问控制与供应链安全方面的改进路线。公告未披露具体技术细节，但强调了与社区协作提升 AI 资产安全性的长期承诺。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "8c1f9c5871f08322",
+      "title": "OpenAI 更新安全漏洞赏金计划",
+      "url": "https://openai.com/index/safety-bug-bounty/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-06T15:26:29.893Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Safety Bug Bounty",
+      "score": 1,
+      "cn": "OpenAI 本周更新了其安全漏洞赏金计划。该计划面向安全研究者开放，鼓励发现并报告模型与产品中的潜在漏洞，以换取现金奖励。新版细则调整了奖励范围与报告流程，但整体延续了此前与 HackerOne 合作的框架。对于关注 AI 模型安全与红队测试的社区而言，这是一次常规的动态更新。"
     },
     {
       "source": "openai",
@@ -65,7 +65,7 @@
       "url": "https://openai.com/index/introducing-aardvark/",
       "summary": "",
       "category": "大模型",
-      "publishedAt": "2026-09-06T12:14:12.638Z",
+      "publishedAt": "2026-09-06T15:26:27.995Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Introducing Aardvark",
       "score": 5,
@@ -79,7 +79,7 @@
       "url": "https://openai.com/index/trusted-access-for-cyber/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-06T12:14:12.144Z",
+      "publishedAt": "2026-09-06T15:26:26.765Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Trusted Access For Cyber",
       "score": 2,
@@ -4361,20 +4361,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "ef913e9fdabc01a8",
-      "title": "OpenAI 重申零数据保留政策并预览私有安全处理",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "category": "安全",
-      "publishedAt": "2026-08-19T19:00:00.000Z",
-      "discoveredAt": "2026-08-20T00:40:33.419Z",
-      "originalTitle": "Offering Zero Data Retention for frontier models",
-      "score": 3,
-      "cn": "OpenAI 宣布，符合条件的 API 客户在使用前沿模型时可继续享受零数据保留政策，同时预览了私有安全处理功能，旨在在不牺牲数据隐私的前提下提升 AI 安全审查能力。此举平衡了安全审计与用户隐私保护，为开发者提供了更可控的模型使用环境。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "6dd6c72f5e16aa25",
       "title": "OpenAI 发布 GPT-5.3 Codex Spark",
       "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
@@ -4399,20 +4385,6 @@
       "originalTitle": "Introducing Gpt 5 3 Codex",
       "score": 5,
       "cn": "OpenAI 推出 GPT-5.3 Codex，这是 GPT 系列在代码生成方向的最新版本。新模型在编程任务上提升了推理能力和上下文理解，能处理复杂算法、跨文件重构和多语言代码转换。GPT-5.3 Codex 的发布为开发者工具领域提供了新的底层模型支持。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "9ac0643f24279d08",
-      "title": "Replit 推出 Free Mode，接入 GPT-5.6 Luna",
-      "url": "https://openai.com/index/replit",
-      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "category": "编程工具",
-      "publishedAt": "2026-08-19T07:00:00.000Z",
-      "discoveredAt": "2026-08-19T18:19:55.548Z",
-      "originalTitle": "Replit expands access to software creation with GPT-5.6 Luna",
-      "score": 3,
-      "cn": "Replit 在其平台上线 Free Mode 服务，底层由 OpenAI 的 GPT-5.6 Luna 驱动，用户无需操心 token 计费即可将想法转换为可运行的软件。该模式降低了编程门槛，将大模型的代码生成能力直接与无成本顾虑的交互体验绑定，对个人开发者和非技术用户尤为友好，是软件创作民主化的一次直接尝试。"
     },
     {
       "source": "claude-com",
