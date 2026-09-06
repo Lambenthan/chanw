@@ -819,13 +819,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "abi 开源 screenshot-to-code 截图转代码工具",
-		"url": "https://github.com/abi/screenshot-to-code",
-		"source": "GitHub Trending",
-		"date": "2026-08-14T17:20:50Z",
-		"group": "gh"
-	},
-	{
 		"title": "Hugging Face 发布 2026 年夏季开源模型观察报告",
 		"url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
 		"source": "Hugging Face Blog",
