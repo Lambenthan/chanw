@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-05T19:46:16.490Z",
+  "fetchedAt": "2026-09-06T02:02:06.190Z",
   "items": [
     {
       "source": "github-trending",
@@ -9,7 +9,7 @@
       "url": "https://github.com/tt-a1i/archify",
       "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "category": "skill",
-      "publishedAt": "2026-09-05T17:18:45Z",
+      "publishedAt": "2026-09-06T01:53:21Z",
       "discoveredAt": "2026-08-27T05:51:36.337Z",
       "stars": 19040,
       "repoTopics": [
@@ -42,30 +42,16 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "8c1f9c5871f08322",
-      "title": "OpenAI 更新安全漏洞赏金计划",
-      "url": "https://openai.com/index/safety-bug-bounty/",
+      "id": "08bdbdb0023fad8c",
+      "title": "OpenAI 回应 Hugging Face 安全事件并展望未来",
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-05T11:05:11.595Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Safety Bug Bounty",
-      "score": 1,
-      "cn": "OpenAI 本周更新了其安全漏洞赏金计划。该计划面向安全研究者开放，鼓励发现并报告模型与产品中的潜在漏洞，以换取现金奖励。新版细则调整了奖励范围与报告流程，但整体延续了此前与 HackerOne 合作的框架。对于关注 AI 模型安全与红队测试的社区而言，这是一次常规的动态更新。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "09f1165285a73401",
-      "title": "OpenAI 加速网络防御生态建设",
-      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-09-05T11:05:08.045Z",
-      "discoveredAt": "2026-05-19T03:38:07.759Z",
-      "originalTitle": "Accelerating Cyber Defense Ecosystem",
+      "publishedAt": "2026-09-05T20:13:38.462Z",
+      "discoveredAt": "2026-08-28T17:54:24.617Z",
+      "originalTitle": "Hugging Face Incident And The Road Ahead",
       "score": 3,
-      "cn": "OpenAI 宣布加速网络防御生态建设，通过开放 AI 工具与合作伙伴协作，提升安全团队应对威胁的能力。此举旨在利用大模型在威胁检测、事件响应等环节的潜力，推动安全行业从被动防御向主动智能防御转型。"
+      "cn": "OpenAI 就近期 Hugging Face 平台的安全事件发布官方声明，回顾了事件经过、影响范围及已采取的应急措施，并提出了后续在模型托管、访问控制与供应链安全方面的改进路线。公告未披露具体技术细节，但强调了与社区协作提升 AI 资产安全性的长期承诺。"
     },
     {
       "source": "openai",
@@ -75,7 +61,7 @@
       "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-05T11:05:07.591Z",
+      "publishedAt": "2026-09-05T20:13:27.329Z",
       "discoveredAt": "2026-08-10T18:42:53.056Z",
       "originalTitle": "Expanding Daybreak As The Cyber Defense Window Narrows",
       "score": 4,
@@ -84,16 +70,30 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "08bdbdb0023fad8c",
-      "title": "OpenAI 回应 Hugging Face 安全事件并展望未来",
-      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "id": "09f1165285a73401",
+      "title": "OpenAI 加速网络防御生态建设",
+      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-05T11:05:07.061Z",
-      "discoveredAt": "2026-08-28T17:54:24.617Z",
-      "originalTitle": "Hugging Face Incident And The Road Ahead",
+      "publishedAt": "2026-09-05T20:13:26.718Z",
+      "discoveredAt": "2026-05-19T03:38:07.759Z",
+      "originalTitle": "Accelerating Cyber Defense Ecosystem",
       "score": 3,
-      "cn": "OpenAI 就近期 Hugging Face 平台的安全事件发布官方声明，回顾了事件经过、影响范围及已采取的应急措施，并提出了后续在模型托管、访问控制与供应链安全方面的改进路线。公告未披露具体技术细节，但强调了与社区协作提升 AI 资产安全性的长期承诺。"
+      "cn": "OpenAI 宣布加速网络防御生态建设，通过开放 AI 工具与合作伙伴协作，提升安全团队应对威胁的能力。此举旨在利用大模型在威胁检测、事件响应等环节的潜力，推动安全行业从被动防御向主动智能防御转型。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "8c1f9c5871f08322",
+      "title": "OpenAI 更新安全漏洞赏金计划",
+      "url": "https://openai.com/index/safety-bug-bounty/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-05T20:13:25.860Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Safety Bug Bounty",
+      "score": 1,
+      "cn": "OpenAI 本周更新了其安全漏洞赏金计划。该计划面向安全研究者开放，鼓励发现并报告模型与产品中的潜在漏洞，以换取现金奖励。新版细则调整了奖励范围与报告流程，但整体延续了此前与 HackerOne 合作的框架。对于关注 AI 模型安全与红队测试的社区而言，这是一次常规的动态更新。"
     },
     {
       "source": "openai",
@@ -103,7 +103,7 @@
       "url": "https://openai.com/index/introducing-aardvark/",
       "summary": "",
       "category": "大模型",
-      "publishedAt": "2026-09-05T11:05:04.814Z",
+      "publishedAt": "2026-09-05T20:13:23.907Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Introducing Aardvark",
       "score": 5,
@@ -117,7 +117,7 @@
       "url": "https://openai.com/index/trusted-access-for-cyber/",
       "summary": "",
       "category": "安全",
-      "publishedAt": "2026-09-05T11:05:04.547Z",
+      "publishedAt": "2026-09-05T20:13:23.835Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Trusted Access For Cyber",
       "score": 2,
