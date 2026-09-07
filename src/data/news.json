@@ -1,9 +1,16 @@
 [
 	{
+		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
+		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-09-07T09:35:27Z",
+		"group": "gh"
+	},
+	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-06T08:38:31Z",
+		"date": "2026-09-07T04:41:40Z",
 		"group": "gh"
 	},
 	{
@@ -33,13 +40,6 @@
 		"source": "NVIDIA",
 		"date": "2026-09-02T22:13:43.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
-		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-09-02T16:25:37Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Claude Code 创业公司指南",
@@ -826,6 +826,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
+		"url": "https://www.anthropic.com/research/riemann-zeta",
+		"source": "Anthropic Research",
+		"date": "2026-08-13T23:32:23.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 团队分享 Claude Code 使用实践",
 		"url": "https://claude.com/blog/how-anthropic-teams-use-claude-code",
 		"source": "claude.com",
@@ -1088,13 +1095,6 @@
 		"title": "Google 为 Ads 和 Analytics 推出新 AI 工具",
 		"url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
 		"source": "Google AI",
-		"date": "2026-08-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
-		"url": "https://www.anthropic.com/research/riemann-zeta",
-		"source": "Anthropic Research",
 		"date": "2026-08-10T00:00:00.000Z",
 		"group": "labs"
 	},
