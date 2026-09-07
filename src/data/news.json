@@ -3638,19 +3638,5 @@
 		"source": "DeepMind",
 		"date": "2026-06-09T13:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "DeepMind 推出 Gemini 3.5 Live Translate 实时语音翻译",
-		"url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-		"source": "DeepMind",
-		"date": "2026-06-09T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布欧洲机器人技术发展计划",
-		"url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
-		"source": "DeepMind",
-		"date": "2026-06-09T00:00:00.000Z",
-		"group": "labs"
 	}
 ]
