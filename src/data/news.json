@@ -1,16 +1,9 @@
 [
 	{
-		"title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
-		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-09-07T09:35:27Z",
-		"group": "gh"
-	},
-	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-07T04:41:40Z",
+		"date": "2026-09-07T12:34:58Z",
 		"group": "gh"
 	},
 	{
@@ -3630,13 +3623,6 @@
 		"url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
 		"source": "DeepMind",
 		"date": "2026-06-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 在塞拉利昂开展 AI 辅助学习随机对照试验",
-		"url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-		"source": "DeepMind",
-		"date": "2026-06-09T13:00:00.000Z",
 		"group": "labs"
 	}
 ]

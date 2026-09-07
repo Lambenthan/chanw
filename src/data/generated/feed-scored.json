@@ -1,41 +1,6 @@
 {
-  "fetchedAt": "2026-09-07T11:06:14.920Z",
+  "fetchedAt": "2026-09-07T16:55:02.205Z",
   "items": [
-    {
-      "source": "github-trending",
-      "sourceName": "GitHub Trending",
-      "id": "c8f3d928a400ca53",
-      "title": "K-Dense-AI 开源 scientific-agent-skills 科学 agent 技能库",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "category": "skill",
-      "publishedAt": "2026-09-07T09:35:27Z",
-      "discoveredAt": "2026-08-26T19:41:02.326Z",
-      "stars": 34661,
-      "repoTopics": [
-        "agent-skills",
-        "ai-scientist",
-        "bioinformatics",
-        "chemoinformatics",
-        "claude",
-        "claude-skills",
-        "claudecode",
-        "clinical-research",
-        "computational-biology",
-        "data-analysis",
-        "drug-discovery",
-        "genomics",
-        "materials-science",
-        "metabolomics",
-        "proteomics",
-        "scientific-computing",
-        "scientific-visualization"
-      ],
-      "owner": "K-Dense-AI",
-      "originalTitle": "K-Dense-AI/scientific-agent-skills · Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ sc",
-      "score": 4,
-      "cn": "K-Dense-AI 发布 scientific-agent-skills，一套面向科学研究的 agent 技能库，可将任意 AI agent 转变为 AI 科学家。项目提供 163 个经过验证的技能，并接入 100 多个科学数据库，覆盖生物学、化学、医学与药物发现等方向。技能遵循开放 Agent Skills 标准，可配合 Cursor、Claude Code、Codex、Pi 与 Antigravity 使用。"
-    },
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
@@ -44,7 +9,7 @@
       "url": "https://github.com/tt-a1i/archify",
       "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "category": "skill",
-      "publishedAt": "2026-09-07T04:41:40Z",
+      "publishedAt": "2026-09-07T12:34:58Z",
       "discoveredAt": "2026-08-27T05:51:36.337Z",
       "stars": 19040,
       "repoTopics": [
