@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T02:10:44.006Z",
+  "fetchedAt": "2026-09-08T10:20:44.009Z",
   "items": [
     {
       "source": "github-trending",
@@ -9,7 +9,7 @@
       "url": "https://github.com/tt-a1i/archify",
       "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "category": "skill",
-      "publishedAt": "2026-09-08T01:22:24Z",
+      "publishedAt": "2026-09-08T09:29:02Z",
       "discoveredAt": "2026-08-27T05:51:36.337Z",
       "stars": 19040,
       "repoTopics": [
@@ -30916,20 +30916,6 @@
     {
       "source": "mistral",
       "sourceName": "Mistral",
-      "id": "9d72196ba280380e",
-      "title": "Mistral 发布 Vibe 2.0 图像生成模型",
-      "url": "https://mistral.ai/news/mistral-vibe-2-0/",
-      "summary": "Product",
-      "category": "图像模型",
-      "publishedAt": null,
-      "discoveredAt": "2026-06-18T14:52:09.075Z",
-      "originalTitle": "Terminally online Mistral Vibe.",
-      "score": 4,
-      "cn": "Mistral 推出 Vibe 2.0，这是其图像生成模型的重要更新。新版本在图像质量、风格多样性和生成速度上均有显著提升，能够更精准地理解文本提示并产出符合预期的视觉内容。Vibe 2.0 的发布标志着 Mistral 在多模态能力上的进一步拓展，为创意设计和内容生产提供了新的工具选择。"
-    },
-    {
-      "source": "mistral",
-      "sourceName": "Mistral",
       "id": "818d44efa3d0d68f",
       "title": "Mistral 发布 Robostral Navigate",
       "url": "https://mistral.ai/news/robostral-navigate/",
@@ -31052,20 +31038,6 @@
       "originalTitle": "Emmi joins Mistral to accelerate the AI-native industry",
       "score": 3,
       "cn": "Mistral 宣布 Emmi 加入公司，旨在推动 AI 原生产业的加速发展。这一人事变动体现了 Mistral 在人工智能领域持续扩张的战略，有望为行业带来新的技术视角和增长动力。"
-    },
-    {
-      "source": "mistral",
-      "sourceName": "Mistral",
-      "id": "a734d8d7fbb5ec04",
-      "title": "Mistral 推出区域推理与开放模型及欧洲基础设施",
-      "url": "https://mistral.ai/news/regional-inference-open-models-new-compute",
-      "summary": "In-region inference, open models, and new European infrastructure for sovereign AI.",
-      "category": "其他",
-      "publishedAt": null,
-      "discoveredAt": "2026-08-11T18:48:12.163Z",
-      "originalTitle": "In-region inference, open models, and new European infrastructure for sovereign AI.",
-      "score": 3,
-      "cn": "Mistral 宣布在欧洲部署区域推理服务，并开放模型以支持主权 AI 发展。该公司正在建设新的计算基础设施，旨在为欧洲客户提供本地化的 AI 能力，减少对非欧洲云服务的依赖。这一举措体现了 Mistral 对欧洲数据主权和自主 AI 生态的承诺，同时也为开发者提供了在区域内运行推理工作负载的选项。"
     },
     {
       "source": "mistral",
