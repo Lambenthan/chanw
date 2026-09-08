@@ -3,8 +3,15 @@
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-08T11:41:36Z",
+		"date": "2026-09-08T20:01:30Z",
 		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布构建人机协作 Agent 团队的实践指南",
+		"url": "https://claude.com/blog/building-effective-human-agent-teams",
+		"source": "claude.com",
+		"date": "2026-09-08T16:07:55.512Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布蒸馏攻击检测与防御方案",
@@ -1857,13 +1864,6 @@
 	{
 		"title": "Anthropic 推出企业级 Cowork 协作功能",
 		"url": "https://claude.com/blog/cowork-for-enterprise",
-		"source": "claude.com",
-		"date": "2026-07-14T12:35:50.101Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布构建人机协作 Agent 团队的实践指南",
-		"url": "https://claude.com/blog/building-effective-human-agent-teams",
 		"source": "claude.com",
 		"date": "2026-07-14T12:35:50.101Z",
 		"group": "labs"
