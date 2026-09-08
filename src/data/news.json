@@ -3,8 +3,43 @@
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-08T09:29:02Z",
+		"date": "2026-09-08T11:41:36Z",
 		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布蒸馏攻击检测与防御方案",
+		"url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+		"source": "Anthropic News",
+		"date": "2026-09-08T10:48:11.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 网络威胁年度分析报告",
+		"url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+		"source": "Anthropic News",
+		"date": "2026-09-08T10:47:50.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 恶意使用检测与应对报告 2025 年 3 月版",
+		"url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+		"source": "Anthropic News",
+		"date": "2026-09-08T10:47:28.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布应对 AI 间谍活动的安全举措",
+		"url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+		"source": "Anthropic News",
+		"date": "2026-09-08T10:47:10.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 2025 年 8 月滥用检测与应对报告",
+		"url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+		"source": "Anthropic News",
+		"date": "2026-09-08T10:46:50.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布印度经济指数简报",
@@ -235,13 +270,6 @@
 		"url": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
 		"source": "Anthropic News",
 		"date": "2026-08-26T20:52:11.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude 恶意使用检测与应对报告 2025 年 3 月版",
-		"url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
-		"source": "Anthropic News",
-		"date": "2026-08-26T20:47:13.000Z",
 		"group": "labs"
 	},
 	{
@@ -1488,13 +1516,6 @@
 		"url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
 		"source": "Hugging Face Blog",
 		"date": "2026-07-27T09:32:20.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布前沿实验室 agent 入侵事件技术时间线",
-		"url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-27T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
