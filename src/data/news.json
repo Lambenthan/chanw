@@ -3,7 +3,7 @@
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-07T12:34:58Z",
+		"date": "2026-09-08T01:22:24Z",
 		"group": "gh"
 	},
 	{
@@ -3616,13 +3616,6 @@
 		"url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
 		"source": "DeepMind",
 		"date": "2026-06-11T12:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 DiffusionGemma，文本生成速度提升 4 倍",
-		"url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-		"source": "DeepMind",
-		"date": "2026-06-10T00:00:00.000Z",
 		"group": "labs"
 	}
 ]
