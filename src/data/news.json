@@ -1,10 +1,276 @@
 [
 	{
+		"title": "Anthropic 应美国政府指令暂停 Fable 5 和 Mythos 5 访问",
+		"url": "https://www.anthropic.com/news/fable-mythos-access",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:31:30.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 重新部署 Fable 5 并联合提出越狱评分框架",
+		"url": "https://www.anthropic.com/news/redeploying-fable-5",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:26:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Science AI Workbench",
+		"url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:24:20.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公布 Fable 5 网络安全防护与越狱框架细节",
+		"url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:23:35.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Alberta 省政府使用 Claude 查找并修复政府系统网络安全漏洞",
+		"url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:22:07.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 提出 AI 模型双用知识关闭机制",
+		"url": "https://www.anthropic.com/research/off-switch-dual-use",
+		"source": "Anthropic Research",
+		"date": "2026-09-09T15:21:24.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "UST 将 Claude 引入物理 AI 领域",
+		"url": "https://www.anthropic.com/news/ust-claude",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:19:26.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出 Claude 使用反思功能",
+		"url": "https://www.anthropic.com/news/reflect-with-claude",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:18:08.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 宣布 Ben Bernanke 加入顾问团队",
+		"url": "https://www.anthropic.com/news/ben-bernanke",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:16:16.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出 Claude for Teachers",
+		"url": "https://www.anthropic.com/news/claude-for-teachers",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:14:47.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 设立罕见病研究资助计划",
+		"url": "https://www.anthropic.com/news/rare-disease-research-grants",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:12:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公布经济未来研究基金研究议程",
+		"url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:08:55.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Cognizant 与 Anthropic 扩大合作向企业客户交付 Claude",
+		"url": "https://www.anthropic.com/news/cognizant-anthropic",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:07:16.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
+		"url": "https://www.anthropic.com/research/riemann-zeta",
+		"source": "Anthropic Research",
+		"date": "2026-09-09T15:01:09.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公开 Claude 文本水印技术原理",
+		"url": "https://www.anthropic.com/news/claude-text-watermark",
+		"source": "Anthropic News",
+		"date": "2026-09-09T14:58:19.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
+		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+		"source": "Anthropic Research",
+		"date": "2026-09-09T14:56:38.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Opus 4.6 金融版",
+		"url": "https://claude.com/blog/opus-4-6-finance",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Agent 技能系统：为专用工作配备技能",
+		"url": "https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 改进网页搜索功能，加入动态过滤机制",
+		"url": "https://claude.com/blog/improved-web-search-with-dynamic-filtering",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 更新 Claude 电气工程能力",
+		"url": "https://claude.com/blog/making-claude-a-better-electrical-engineer",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出 Organization Skills 与技能目录功能",
+		"url": "https://claude.com/blog/organization-skills-and-directory",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude Code 新增预览、审查与合并功能",
+		"url": "https://claude.com/blog/preview-review-and-merge-with-claude-code",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 更新 Excel 和 PowerPoint 集成功能",
+		"url": "https://claude.com/blog/claude-excel-powerpoint-updates",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 推出 Skills 和 MCP 服务器扩展能力",
+		"url": "https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude推出自助服务企业版",
+		"url": "https://claude.com/blog/self-serve-enterprise",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 推出企业团队协作与插件功能",
+		"url": "https://claude.com/blog/cowork-plugins-across-enterprise",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 将 Claude 上下文窗口扩展至 100 万 token",
+		"url": "https://claude.com/blog/1m-context-ga",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 分享内部使用 Claude 进行营销的实践",
+		"url": "https://claude.com/blog/how-anthropic-uses-claude-marketing",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 探讨 AI 如何降低 COBOL 现代化改造成本",
+		"url": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布多智能体系统构建指南",
+		"url": "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 博客探讨 AI Agent 常见工作流模式及适用场景",
+		"url": "https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 技能构建完整指南",
+		"url": "https://claude.com/blog/complete-guide-to-building-skills-for-claude",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 推出 Cowork Plugins Finance 插件",
+		"url": "https://claude.com/blog/cowork-plugins-finance",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 钩子配置指南",
+		"url": "https://claude.com/blog/how-to-configure-hooks",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 更新 Skill Creator，支持测试、评估与优化 agent skill",
+		"url": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 分享2026年软件构建的八大趋势",
+		"url": "https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026",
+		"source": "claude.com",
+		"date": "2026-09-09T14:27:33.354Z",
+		"group": "labs"
+	},
+	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
 		"date": "2026-09-08T20:33:06Z",
 		"group": "gh"
+	},
+	{
+		"title": "Anthropic 正式推出浏览器内置的一项协作功能 Cowork",
+		"url": "https://claude.com/blog/cowork-built-in-browser",
+		"source": "claude.com",
+		"date": "2026-09-08T19:40:29.307Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 让 Claude 在 Chrome 中正式可用",
+		"url": "https://claude.com/blog/claude-in-chrome-generally-available",
+		"source": "claude.com",
+		"date": "2026-09-08T19:25:36.737Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 发布构建人机协作 Agent 团队的实践指南",
@@ -84,24 +350,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 公开 Claude 文本水印技术原理",
-		"url": "https://www.anthropic.com/news/claude-text-watermark",
-		"source": "Anthropic News",
-		"date": "2026-09-01T18:01:14.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
 		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
 		"source": "Anthropic News",
 		"date": "2026-08-29T10:57:56.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Claude for Teachers",
-		"url": "https://www.anthropic.com/news/claude-for-teachers",
-		"source": "Anthropic News",
-		"date": "2026-08-28T15:01:10.000Z",
 		"group": "labs"
 	},
 	{
@@ -196,24 +448,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Science AI Workbench",
-		"url": "https://www.anthropic.com/news/claude-science-ai-workbench",
-		"source": "Anthropic News",
-		"date": "2026-08-27T15:08:16.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 首次试点双盲 AI 评估",
 		"url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
 		"source": "DeepMind",
 		"date": "2026-08-27T14:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 正式推出浏览器内置的一项协作功能 Cowork",
-		"url": "https://claude.com/blog/cowork-built-in-browser",
-		"source": "claude.com",
-		"date": "2026-08-27T00:30:59.718Z",
 		"group": "labs"
 	},
 	{
@@ -289,13 +527,6 @@
 	{
 		"title": "Anthropic 推出 Compliance API 与 Claude Code 协作功能",
 		"url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
-		"source": "claude.com",
-		"date": "2026-08-26T20:46:51.070Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 让 Claude 在 Chrome 中正式可用",
-		"url": "https://claude.com/blog/claude-in-chrome-generally-available",
 		"source": "claude.com",
 		"date": "2026-08-26T20:46:51.070Z",
 		"group": "labs"
@@ -553,13 +784,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 公布经济未来研究基金研究议程",
-		"url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
-		"source": "Anthropic News",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布基于 Claude Sonnet 3.7 的经济指数洞察报告",
 		"url": "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
 		"source": "Anthropic News",
@@ -634,13 +858,6 @@
 		"url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
 		"source": "claude.com",
 		"date": "2026-08-24T19:50:50.584Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
-		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-		"source": "Anthropic Research",
-		"date": "2026-08-24T15:30:22.000Z",
 		"group": "labs"
 	},
 	{
@@ -854,13 +1071,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
-		"url": "https://www.anthropic.com/research/riemann-zeta",
-		"source": "Anthropic Research",
-		"date": "2026-08-13T23:32:23.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 团队分享 Claude Code 使用实践",
 		"url": "https://claude.com/blog/how-anthropic-teams-use-claude-code",
 		"source": "claude.com",
@@ -884,13 +1094,6 @@
 	{
 		"title": "Anthropic 探讨转向 agentic coding 的关键优势",
 		"url": "https://claude.com/blog/key-benefits-transitioning-agentic-coding",
-		"source": "claude.com",
-		"date": "2026-08-13T22:13:51.318Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 分享内部使用 Claude 进行营销的实践",
-		"url": "https://claude.com/blog/how-anthropic-uses-claude-marketing",
 		"source": "claude.com",
 		"date": "2026-08-13T22:13:51.318Z",
 		"group": "labs"
@@ -1512,13 +1715,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Cognizant 与 Anthropic 扩大合作向企业客户交付 Claude",
-		"url": "https://www.anthropic.com/news/cognizant-anthropic",
-		"source": "Anthropic News",
-		"date": "2026-07-27T15:34:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Cosmos-H-Dreams，为手术机器人提供实时生成式仿真",
 		"url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
 		"source": "Hugging Face Blog",
@@ -1549,13 +1745,6 @@
 	{
 		"title": "Claude 在语音模式下支持复杂问题推理",
 		"url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-		"source": "claude.com",
-		"date": "2026-07-24T17:01:50.943Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 探讨 AI 如何降低 COBOL 现代化改造成本",
-		"url": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization",
 		"source": "claude.com",
 		"date": "2026-07-24T17:01:50.943Z",
 		"group": "labs"
@@ -1670,13 +1859,6 @@
 		"url": "https://claude.com/blog/working-at-the-frontier-rakuten",
 		"source": "claude.com",
 		"date": "2026-07-20T17:51:01.914Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 设立罕见病研究资助计划",
-		"url": "https://www.anthropic.com/news/rare-disease-research-grants",
-		"source": "Anthropic News",
-		"date": "2026-07-20T17:36:28.000Z",
 		"group": "labs"
 	},
 	{
@@ -1953,13 +2135,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布多智能体系统构建指南",
-		"url": "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them",
-		"source": "claude.com",
-		"date": "2026-07-13T18:56:20.176Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude 智能应用指南",
 		"url": "https://claude.com/blog/harnessing-claudes-intelligence",
 		"source": "claude.com",
@@ -2016,24 +2191,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "UST 将 Claude 引入物理 AI 领域",
-		"url": "https://www.anthropic.com/news/ust-claude",
-		"source": "Anthropic News",
-		"date": "2026-07-10T00:37:25.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Golden Gate Claude",
 		"url": "https://www.anthropic.com/news/golden-gate-claude",
 		"source": "Anthropic News",
 		"date": "2026-07-09T20:02:16.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 宣布 Ben Bernanke 加入顾问团队",
-		"url": "https://www.anthropic.com/news/ben-bernanke",
-		"source": "Anthropic News",
-		"date": "2026-07-09T18:07:20.000Z",
 		"group": "labs"
 	},
 	{
@@ -2055,20 +2216,6 @@
 		"url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
 		"source": "claude.com",
 		"date": "2026-07-09T15:31:40.151Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Claude 使用反思功能",
-		"url": "https://www.anthropic.com/news/reflect-with-claude",
-		"source": "Anthropic News",
-		"date": "2026-07-09T14:22:03.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 提出 AI 模型双用知识关闭机制",
-		"url": "https://www.anthropic.com/research/off-switch-dual-use",
-		"source": "Anthropic Research",
-		"date": "2026-07-09T12:42:20.000Z",
 		"group": "labs"
 	},
 	{
@@ -2296,13 +2443,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Alberta 省政府使用 Claude 查找并修复政府系统网络安全漏洞",
-		"url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
-		"source": "Anthropic News",
-		"date": "2026-07-06T19:00:35.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 实现推理软件最低 token 成本",
 		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
 		"source": "NVIDIA",
@@ -2331,13 +2471,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 公布 Fable 5 网络安全防护与越狱框架细节",
-		"url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-		"source": "Anthropic News",
-		"date": "2026-07-03T10:14:45.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 联合资本伙伴推动 AI 基础设施大规模建设",
 		"url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
 		"source": "NVIDIA",
@@ -2349,13 +2482,6 @@
 		"url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
 		"source": "NVIDIA",
 		"date": "2026-07-01T22:05:56.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 重新部署 Fable 5 并联合提出越狱评分框架",
-		"url": "https://www.anthropic.com/news/redeploying-fable-5",
-		"source": "Anthropic News",
-		"date": "2026-07-01T19:40:52.000Z",
 		"group": "labs"
 	},
 	{
@@ -2653,83 +2779,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude Opus 4.6 金融版",
-		"url": "https://claude.com/blog/opus-4-6-finance",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Agent 技能系统：为专用工作配备技能",
-		"url": "https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude 改进网页搜索功能，加入动态过滤机制",
-		"url": "https://claude.com/blog/improved-web-search-with-dynamic-filtering",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 更新 Claude 电气工程能力",
-		"url": "https://claude.com/blog/making-claude-a-better-electrical-engineer",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Organization Skills 与技能目录功能",
-		"url": "https://claude.com/blog/organization-skills-and-directory",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude Code 新增预览、审查与合并功能",
-		"url": "https://claude.com/blog/preview-review-and-merge-with-claude-code",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude 更新 Excel 和 PowerPoint 集成功能",
-		"url": "https://claude.com/blog/claude-excel-powerpoint-updates",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude 推出 Skills 和 MCP 服务器扩展能力",
-		"url": "https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude推出自助服务企业版",
-		"url": "https://claude.com/blog/self-serve-enterprise",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude 推出企业团队协作与插件功能",
-		"url": "https://claude.com/blog/cowork-plugins-across-enterprise",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 将 Claude 上下文窗口扩展至 100 万 token",
-		"url": "https://claude.com/blog/1m-context-ga",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude 推出代码审查功能",
 		"url": "https://claude.com/blog/code-review",
 		"source": "claude.com",
@@ -2760,48 +2809,6 @@
 	{
 		"title": "Anthropic 推出 Workload Identity Federation 功能",
 		"url": "https://claude.com/blog/workload-identity-federation",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude 博客探讨 AI Agent 常见工作流模式及适用场景",
-		"url": "https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude 技能构建完整指南",
-		"url": "https://claude.com/blog/complete-guide-to-building-skills-for-claude",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude 推出 Cowork Plugins Finance 插件",
-		"url": "https://claude.com/blog/cowork-plugins-finance",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude 钩子配置指南",
-		"url": "https://claude.com/blog/how-to-configure-hooks",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude 更新 Skill Creator，支持测试、评估与优化 agent skill",
-		"url": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills",
-		"source": "claude.com",
-		"date": "2026-06-22T13:26:43.613Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 分享2026年软件构建的八大趋势",
-		"url": "https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026",
 		"source": "claude.com",
 		"date": "2026-06-22T13:26:43.613Z",
 		"group": "labs"
@@ -3577,13 +3584,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 应美国政府指令暂停 Fable 5 和 Mythos 5 访问",
-		"url": "https://www.anthropic.com/news/fable-mythos-access",
-		"source": "Anthropic News",
-		"date": "2026-06-13T01:13:41.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 与 SETI 研究所用 AI 搜索快速射电暴",
 		"url": "https://blogs.nvidia.com/blog/seti-institute-ai-fast-radio-bursts/",
 		"source": "NVIDIA",
@@ -3630,13 +3630,6 @@
 		"url": "https://www.anthropic.com/news/anthropic-public-record",
 		"source": "Anthropic News",
 		"date": "2026-06-12T16:24:44.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google DeepMind 联合多方投入 1000 万美元资助多智能体安全研究",
-		"url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-		"source": "DeepMind",
-		"date": "2026-06-11T12:00:00.000Z",
 		"group": "labs"
 	}
 ]
