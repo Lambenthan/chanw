@@ -1,5 +1,341 @@
 [
 	{
+		"title": "Anthropic 与公共部门合作开发 AI 核安全措施",
+		"url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+		"source": "Anthropic News",
+		"date": "2026-09-10T20:11:55.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出高等教育计划",
+		"url": "https://www.anthropic.com/news/anthropic-higher-education-initiatives",
+		"source": "Anthropic News",
+		"date": "2026-09-10T20:10:33.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 设立国家安全与公共部门咨询委员会",
+		"url": "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council",
+		"source": "Anthropic News",
+		"date": "2026-09-10T20:08:57.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 2025 年 8 月滥用检测与应对报告",
+		"url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+		"source": "Anthropic News",
+		"date": "2026-09-10T19:44:33.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布教育工作者使用 Claude 报告",
+		"url": "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude",
+		"source": "Anthropic News",
+		"date": "2026-09-10T19:00:37.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 更新消费者服务条款",
+		"url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:59:30.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 完成 F 轮融资，估值 1830 亿美元",
+		"url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:58:05.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 更新对非支持区域的销售限制",
+		"url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:57:26.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 签署美国青少年 AI 教育投资承诺",
+		"url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:56:38.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 US CAISI 和 UK AISI 合作强化安全防护",
+		"url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:55:52.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Economic Index Geography 报告",
+		"url": "https://www.anthropic.com/research/economic-index-geography",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:53:15.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 2025 年 9 月经济指数报告",
+		"url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:52:18.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 任命 Chris Ciauri 为企业 AI 业务全球负责人",
+		"url": "https://www.anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:51:09.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Petri 开源审计工具",
+		"url": "https://www.anthropic.com/research/petri-open-source-auditing",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:49:39.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Deloitte 与 Anthropic 达成合作伙伴关系",
+		"url": "https://www.anthropic.com/news/deloitte-anthropic-partnership",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:48:58.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 宣布 Rahul Patil 加入",
+		"url": "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:47:30.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布小样本投毒研究",
+		"url": "https://www.anthropic.com/research/small-samples-poison",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:44:43.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布经济政策应对研究",
+		"url": "https://www.anthropic.com/research/economic-policy-responses",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:44:03.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 Salesforce 扩大合作伙伴关系",
+		"url": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:42:59.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Dario Amodei 关于美国 AI 领导力的声明",
+		"url": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:35:26.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 在首尔设立亚太第三办公室",
+		"url": "https://www.anthropic.com/news/seoul-becomes-third-anthropic-office-in-asia-pacific",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:34:47.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 扩大使用 Google Cloud TPU 和服务",
+		"url": "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:34:08.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推进 Claude 在金融服务领域的应用",
+		"url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:33:17.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布自我反省能力研究 Introspection",
+		"url": "https://www.anthropic.com/research/introspection",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:32:35.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 开设东京办公室",
+		"url": "https://www.anthropic.com/news/opening-our-tokyo-office",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:31:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 API 弃用承诺",
+		"url": "https://www.anthropic.com/research/deprecation-commitments",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:30:58.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 Cognizant 达成合作",
+		"url": "https://www.anthropic.com/news/cognizant-partnership",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:30:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与冰岛启动国家级 AI 教育试点项目",
+		"url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:29:02.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Economic Futures 英国与欧洲报告",
+		"url": "https://www.anthropic.com/news/economic-futures-uk-europe",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:27:59.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 在巴黎和慕尼黑开设新办事处",
+		"url": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:27:15.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 投资 500 亿美元建设美国 AI 基础设施",
+		"url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:26:26.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布政治立场平衡性报告",
+		"url": "https://www.anthropic.com/news/political-even-handedness",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:25:21.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与马里兰州达成合作",
+		"url": "https://www.anthropic.com/news/maryland-partnership",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:24:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布应对 AI 间谍活动的安全举措",
+		"url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:24:07.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与卢旺达政府合作推进 AI 教育",
+		"url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:23:19.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与微软、英伟达宣布战略合作",
+		"url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:22:27.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 在 Microsoft Foundry 上线 Claude",
+		"url": "https://www.anthropic.com/news/claude-in-microsoft-foundry",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:21:40.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布提示注入防御方案",
+		"url": "https://www.anthropic.com/research/prompt-injection-defenses",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:20:03.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布智能合约研究",
+		"url": "https://www.anthropic.com/research/smart-contracts",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:18:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 分享 AI 如何改变公司内部工作方式",
+		"url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T18:17:26.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 Snowflake 扩大合作伙伴关系",
+		"url": "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:16:35.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 收购 Bun 并宣布 Claude Code 营收达 10 亿美元",
+		"url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:15:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 捐赠 MCP 协议并成立 Agentic AI 基金会",
+		"url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:14:55.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 Accenture 达成合作",
+		"url": "https://www.anthropic.com/news/anthropic-accenture-partnership",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:14:06.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布用户福祉保护政策",
+		"url": "https://www.anthropic.com/news/protecting-well-being-of-users",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:12:55.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 宣布 Genesis Mission 合作计划合作",
+		"url": "https://www.anthropic.com/news/genesis-mission-partnership",
+		"source": "Anthropic News",
+		"date": "2026-09-10T18:12:11.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 恶意使用检测与应对报告 2025 年 3 月版",
+		"url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+		"source": "Anthropic News",
+		"date": "2026-09-10T16:31:24.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 网络威胁年度分析报告",
+		"url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+		"source": "Anthropic News",
+		"date": "2026-09-10T16:29:36.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
 		"url": "https://www.anthropic.com/research/riemann-zeta",
 		"source": "Anthropic Research",
@@ -686,13 +1022,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 AI 网络威胁年度分析报告",
-		"url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-		"source": "Anthropic News",
-		"date": "2026-09-09T15:37:28.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 LLM 对 N-day 漏洞利用影响的研究",
 		"url": "https://www.anthropic.com/research/n-days",
 		"source": "Anthropic Research",
@@ -809,13 +1138,6 @@
 		"url": "https://www.anthropic.com/news/cognizant-anthropic",
 		"source": "Anthropic News",
 		"date": "2026-09-09T15:07:16.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 公开 Claude 文本水印技术原理",
-		"url": "https://www.anthropic.com/news/claude-text-watermark",
-		"source": "Anthropic News",
-		"date": "2026-09-09T14:58:19.000Z",
 		"group": "labs"
 	},
 	{
@@ -987,27 +1309,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude 恶意使用检测与应对报告 2025 年 3 月版",
-		"url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
-		"source": "Anthropic News",
-		"date": "2026-09-08T10:47:28.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布应对 AI 间谍活动的安全举措",
-		"url": "https://www.anthropic.com/news/disrupting-AI-espionage",
-		"source": "Anthropic News",
-		"date": "2026-09-08T10:47:10.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 2025 年 8 月滥用检测与应对报告",
-		"url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
-		"source": "Anthropic News",
-		"date": "2026-09-08T10:46:50.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
 		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
 		"source": "NVIDIA",
@@ -1071,20 +1372,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 与冰岛启动国家级 AI 教育试点项目",
-		"url": "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots",
-		"source": "Anthropic News",
-		"date": "2026-08-27T15:13:17.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 与卢旺达政府合作推进 AI 教育",
-		"url": "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
-		"source": "Anthropic News",
-		"date": "2026-08-27T15:11:25.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 首次试点双盲 AI 评估",
 		"url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
 		"source": "DeepMind",
@@ -1117,13 +1404,6 @@
 		"url": "https://www.anthropic.com/research/claude-plays-robotics",
 		"source": "Anthropic Research",
 		"date": "2026-08-26T21:22:31.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 签署美国青少年 AI 教育投资承诺",
-		"url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
-		"source": "Anthropic News",
-		"date": "2026-08-26T21:03:43.000Z",
 		"group": "labs"
 	},
 	{
@@ -1288,13 +1568,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Economic Index Geography 报告",
-		"url": "https://www.anthropic.com/research/economic-index-geography",
-		"source": "Anthropic Research",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Impact Software Development 研究",
 		"url": "https://www.anthropic.com/research/impact-software-development",
 		"source": "Anthropic Research",
@@ -1304,13 +1577,6 @@
 	{
 		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
 		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-		"source": "Anthropic Research",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 2025 年 9 月经济指数报告",
-		"url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
 		"source": "Anthropic Research",
 		"date": "2026-08-25T16:13:14.000Z",
 		"group": "labs"
@@ -1339,13 +1605,6 @@
 	{
 		"title": "Anthropic 发布基于 Claude Sonnet 3.7 的经济指数洞察报告",
 		"url": "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
-		"source": "Anthropic News",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Economic Futures 英国与欧洲报告",
-		"url": "https://www.anthropic.com/news/economic-futures-uk-europe",
 		"source": "Anthropic News",
 		"date": "2026-08-25T16:13:14.000Z",
 		"group": "labs"
@@ -1614,6 +1873,13 @@
 		"url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-17T19:46:21.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公开 Claude 文本水印技术原理",
+		"url": "https://www.anthropic.com/news/claude-text-watermark",
+		"source": "Anthropic News",
+		"date": "2026-08-14T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2313,7 +2579,7 @@
 		"title": "Anthropic 发布 Project Pilot 研究：AI 控制无人机",
 		"url": "https://www.anthropic.com/research/project-pilot",
 		"source": "Anthropic Research",
-		"date": "2026-07-24T00:00:00.000Z",
+		"date": "2026-07-24T15:38:58.000Z",
 		"group": "labs"
 	},
 	{
@@ -2545,13 +2811,6 @@
 		"url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
 		"source": "DeepMind",
 		"date": "2026-07-16T11:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google Vids 更新：支持 Gemini Omni 与个人虚拟形象",
-		"url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-		"source": "Google AI",
-		"date": "2026-07-16T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2793,13 +3052,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布经济政策应对研究",
-		"url": "https://www.anthropic.com/research/economic-policy-responses",
-		"source": "Anthropic Research",
-		"date": "2026-07-08T22:43:16.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 BioCLIP2 基础 AI 模型",
 		"url": "https://blogs.nvidia.com/blog/bioclip2-foundation-ai-model/",
 		"source": "NVIDIA",
@@ -2839,13 +3091,6 @@
 		"url": "https://www.anthropic.com/research/values-wild",
 		"source": "Anthropic Research",
 		"date": "2026-07-08T21:58:13.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布自我反省能力研究 Introspection",
-		"url": "https://www.anthropic.com/research/introspection",
-		"source": "Anthropic Research",
-		"date": "2026-07-08T21:34:31.000Z",
 		"group": "labs"
 	},
 	{
@@ -3934,20 +4179,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布智能合约研究",
-		"url": "https://www.anthropic.com/research/smart-contracts",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:49:21.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 与公共部门合作开发 AI 核安全措施",
-		"url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
-		"source": "Anthropic News",
-		"date": "2026-06-17T16:48:41.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布网络工具包安全研究",
 		"url": "https://www.anthropic.com/research/cyber-toolkits",
 		"source": "Anthropic Research",
@@ -3994,55 +4225,6 @@
 		"url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
 		"source": "DeepMind",
 		"date": "2026-06-16T22:30:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 SETI 研究所用 AI 搜索快速射电暴",
-		"url": "https://blogs.nvidia.com/blog/seti-institute-ai-fast-radio-bursts/",
-		"source": "NVIDIA",
-		"date": "2026-06-12T17:46:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 IGX 工业边缘 AI 平台",
-		"url": "https://blogs.nvidia.com/blog/igx-industrial-edge-ai/",
-		"source": "NVIDIA",
-		"date": "2026-06-12T17:45:58.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Hexagon Robotics Aeon 人形机器人 AI 软件",
-		"url": "https://blogs.nvidia.com/blog/hexagon-robotics-ai-software-aeon-humanoid/",
-		"source": "NVIDIA",
-		"date": "2026-06-12T17:45:02.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 IGX Thor 处理器，面向工业与医疗边缘场景",
-		"url": "https://blogs.nvidia.com/blog/igx-thor-processor-physical-ai-industrial-medical-edge/",
-		"source": "NVIDIA",
-		"date": "2026-06-12T17:44:06.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Level 4 自动驾驶 AI 方案",
-		"url": "https://blogs.nvidia.com/blog/level-4-autonomous-driving-ai/",
-		"source": "NVIDIA",
-		"date": "2026-06-12T17:32:47.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 IAA Mobility 展示 AI 定义汽车",
-		"url": "https://blogs.nvidia.com/blog/iaa-mobility-ai-defined-vehicles/",
-		"source": "NVIDIA",
-		"date": "2026-06-12T17:32:32.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 公布首份公共记录结果",
-		"url": "https://www.anthropic.com/news/anthropic-public-record",
-		"source": "Anthropic News",
-		"date": "2026-06-12T16:24:44.000Z",
 		"group": "labs"
 	}
 ]
