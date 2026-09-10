@@ -1,5 +1,12 @@
 [
 	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-09-10T08:39:41Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 发布 Bloom",
 		"url": "https://www.anthropic.com/research/bloom",
 		"source": "Anthropic Research",
@@ -957,13 +964,6 @@
 		"source": "claude.com",
 		"date": "2026-09-09T14:27:33.354Z",
 		"group": "labs"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-09-08T20:33:06Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 正式推出浏览器内置的一项协作功能 Cowork",
