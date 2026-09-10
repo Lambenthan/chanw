@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
+		"url": "https://www.anthropic.com/research/riemann-zeta",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T13:15:27.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
@@ -805,13 +812,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
-		"url": "https://www.anthropic.com/research/riemann-zeta",
-		"source": "Anthropic Research",
-		"date": "2026-09-09T15:01:09.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 公开 Claude 文本水印技术原理",
 		"url": "https://www.anthropic.com/news/claude-text-watermark",
 		"source": "Anthropic News",
@@ -1005,13 +1005,6 @@
 		"url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
 		"source": "Anthropic News",
 		"date": "2026-09-08T10:46:50.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布工人再培训计划证据回顾报告",
-		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-		"source": "Anthropic Research",
-		"date": "2026-09-04T14:19:31.000Z",
 		"group": "labs"
 	},
 	{
@@ -1827,6 +1820,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布工人再培训计划证据回顾报告",
+		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+		"source": "Anthropic Research",
+		"date": "2026-08-12T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "IBM Research 发布 ALTK-Evolve 方法以优化 token 效率",
 		"url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
 		"source": "Hugging Face Blog",
@@ -2272,13 +2272,6 @@
 		"url": "https://blogs.nvidia.com/blog/generative-ai-science-isc/",
 		"source": "NVIDIA",
 		"date": "2026-07-27T22:51:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Cosmos-H-Dreams，为手术机器人提供实时生成式仿真",
-		"url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-27T09:32:20.000Z",
 		"group": "labs"
 	},
 	{
