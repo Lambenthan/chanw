@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 发布 AI 核安全保障研究",
+		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T20:19:24.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 与公共部门合作开发 AI 核安全措施",
 		"url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
 		"source": "Anthropic News",
@@ -1404,13 +1411,6 @@
 		"url": "https://www.anthropic.com/research/claude-plays-robotics",
 		"source": "Anthropic Research",
 		"date": "2026-08-26T21:22:31.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 核安全保障研究",
-		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
-		"source": "Anthropic Research",
-		"date": "2026-08-26T20:55:42.000Z",
 		"group": "labs"
 	},
 	{
