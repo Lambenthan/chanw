@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
+		"url": "https://www.anthropic.com/research/claude-values-models-languages",
+		"source": "Anthropic Research",
+		"date": "2026-09-11T16:58:57.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
@@ -88,6 +95,13 @@
 		"url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
 		"source": "Anthropic News",
 		"date": "2026-09-10T18:59:30.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 品牌化设计系统",
+		"url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
+		"source": "claude.com",
+		"date": "2026-09-10T18:58:28.415Z",
 		"group": "labs"
 	},
 	{
@@ -2856,13 +2870,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
-		"url": "https://www.anthropic.com/research/claude-values-models-languages",
-		"source": "Anthropic Research",
-		"date": "2026-07-13T21:10:45.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude Managed Agents",
 		"url": "https://claude.com/blog/claude-managed-agents",
 		"source": "claude.com",
@@ -2921,13 +2928,6 @@
 	{
 		"title": "Anthropic 发布 Claude 智能应用指南",
 		"url": "https://claude.com/blog/harnessing-claudes-intelligence",
-		"source": "claude.com",
-		"date": "2026-07-13T18:56:20.176Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude 品牌化设计系统",
-		"url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
 		"source": "claude.com",
 		"date": "2026-07-13T18:56:20.176Z",
 		"group": "labs"
