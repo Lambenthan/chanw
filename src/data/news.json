@@ -3,8 +3,43 @@
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-11T08:48:21Z",
+		"date": "2026-09-11T14:39:48Z",
 		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 Many Shot Jailbreaking 研究",
+		"url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+		"source": "Anthropic Research",
+		"date": "2026-09-11T12:13:44.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
+		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+		"source": "Anthropic Research",
+		"date": "2026-09-11T11:57:10.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Impact Software Development 研究",
+		"url": "https://www.anthropic.com/research/impact-software-development",
+		"source": "Anthropic Research",
+		"date": "2026-09-11T11:56:53.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Economic Index Primitives 经济指数基础指标",
+		"url": "https://www.anthropic.com/research/economic-index-primitives",
+		"source": "Anthropic Research",
+		"date": "2026-09-11T11:56:05.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Economic Index Geography 报告",
+		"url": "https://www.anthropic.com/research/economic-index-geography",
+		"source": "Anthropic Research",
+		"date": "2026-09-11T11:55:40.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 推出 Claude Corps 服务",
@@ -49,13 +84,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布教育工作者使用 Claude 报告",
-		"url": "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude",
-		"source": "Anthropic News",
-		"date": "2026-09-10T19:00:37.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 更新消费者服务条款",
 		"url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
 		"source": "Anthropic News",
@@ -88,13 +116,6 @@
 		"url": "https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi",
 		"source": "Anthropic News",
 		"date": "2026-09-10T18:55:52.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Economic Index Geography 报告",
-		"url": "https://www.anthropic.com/research/economic-index-geography",
-		"source": "Anthropic Research",
-		"date": "2026-09-10T18:53:15.000Z",
 		"group": "labs"
 	},
 	{
@@ -403,13 +424,6 @@
 		"url": "https://www.anthropic.com/research/property-based-testing",
 		"source": "Anthropic Research",
 		"date": "2026-09-09T21:50:18.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Economic Index Primitives 经济指数基础指标",
-		"url": "https://www.anthropic.com/research/economic-index-primitives",
-		"source": "Anthropic Research",
-		"date": "2026-09-09T21:49:08.000Z",
 		"group": "labs"
 	},
 	{
@@ -1568,27 +1582,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Impact Software Development 研究",
-		"url": "https://www.anthropic.com/research/impact-software-development",
-		"source": "Anthropic Research",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
-		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-		"source": "Anthropic Research",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Anthropic Economic Index",
-		"url": "https://www.anthropic.com/news/the-anthropic-economic-index",
-		"source": "Anthropic News",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 上线经济指数查询功能",
 		"url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
 		"source": "Anthropic News",
@@ -1599,13 +1592,6 @@
 		"title": "Anthropic 发布加拿大使用 Claude 的经济指数报告",
 		"url": "https://www.anthropic.com/research/how-canada-uses-claude",
 		"source": "Anthropic Research",
-		"date": "2026-08-25T16:13:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布基于 Claude Sonnet 3.7 的经济指数洞察报告",
-		"url": "https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7",
-		"source": "Anthropic News",
 		"date": "2026-08-25T16:13:14.000Z",
 		"group": "labs"
 	},
