@@ -1,5 +1,19 @@
 [
 	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-09-11T08:48:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 推出 Claude Corps 服务",
+		"url": "https://www.anthropic.com/news/claude-corps",
+		"source": "Anthropic News",
+		"date": "2026-09-11T02:45:01.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 AI 核安全保障研究",
 		"url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
 		"source": "Anthropic Research",
@@ -348,13 +362,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-09-10T13:15:27.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-09-10T08:39:41Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Bloom",
@@ -1040,13 +1047,6 @@
 		"url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
 		"source": "Anthropic News",
 		"date": "2026-09-09T15:33:53.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Claude Corps 服务",
-		"url": "https://www.anthropic.com/news/claude-corps",
-		"source": "Anthropic News",
-		"date": "2026-09-09T15:33:18.000Z",
 		"group": "labs"
 	},
 	{
