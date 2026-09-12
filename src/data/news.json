@@ -1,17 +1,17 @@
 [
 	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-09-12T01:47:27Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
 		"url": "https://www.anthropic.com/research/claude-values-models-languages",
 		"source": "Anthropic Research",
 		"date": "2026-09-11T16:58:57.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-09-11T14:39:48Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布 Many Shot Jailbreaking 研究",
