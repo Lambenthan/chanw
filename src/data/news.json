@@ -3,7 +3,7 @@
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-13T03:49:47Z",
+		"date": "2026-09-14T08:33:16Z",
 		"group": "gh"
 	},
 	{
@@ -2468,13 +2468,6 @@
 		"url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
 		"source": "DeepMind",
 		"date": "2026-07-30T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 博客探讨 GPU 闲置管理问题",
-		"url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-		"source": "Hugging Face Blog",
-		"date": "2026-07-30T15:09:09.000Z",
 		"group": "labs"
 	},
 	{

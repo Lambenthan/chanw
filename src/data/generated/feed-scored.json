@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T02:29:27.451Z",
+  "fetchedAt": "2026-09-14T11:19:45.496Z",
   "items": [
     {
       "source": "github-trending",
@@ -9,7 +9,7 @@
       "url": "https://github.com/tt-a1i/archify",
       "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "category": "skill",
-      "publishedAt": "2026-09-13T03:49:47Z",
+      "publishedAt": "2026-09-14T08:33:16Z",
       "discoveredAt": "2026-08-27T05:51:36.337Z",
       "stars": 19040,
       "repoTopics": [
@@ -8574,20 +8574,6 @@
       "originalTitle": "Logical Qubits Cuda Q Demo",
       "score": 3,
       "cn": "NVIDIA 在量子计算领域展示了逻辑量子比特与 CUDA-Q 平台的结合，通过实际演示验证了量子纠错和逻辑门操作。这一进展为构建容错量子计算机提供了重要参考，也体现了 CUDA-Q 作为量子-经典混合计算平台的能力。"
-    },
-    {
-      "source": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "id": "f684c3a66a25993b",
-      "title": "Hugging Face 博客探讨 GPU 闲置管理问题",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-07-30T15:09:09.000Z",
-      "discoveredAt": "2026-08-05T01:43:57.905Z",
-      "originalTitle": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "score": 3,
-      "cn": "Hugging Face 博客发布文章，将闲置 GPU 比作停在地面的飞机，指出算力资源浪费是当前 AI 基础设施中的普遍痛点。文章围绕 GPU 管理展开，讨论如何通过调度、共享和监控等手段提升利用率，降低企业运行成本。对于运维团队和关注算力效率的开发者而言，这篇内容提供了关于资源优化思路的参考，但并未发布具体工具或新方案，属于行业观察类分享。"
     },
     {
       "source": "deepmind",
