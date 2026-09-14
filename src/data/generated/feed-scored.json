@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-09-14T17:19:30.438Z",
+  "fetchedAt": "2026-09-14T21:14:30.128Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "b930913fb0d8c113",
+      "title": "OpenAI 发布 GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-14T21:10:59.384Z",
+      "discoveredAt": "2026-07-09T19:23:35.098Z",
+      "originalTitle": "Gpt 5 6",
+      "score": 5,
+      "cn": "OpenAI 正式推出 GPT-5.6，这是其旗舰大语言模型的最新版本。新模型在推理、多模态理解和长文本处理上均有显著提升，同时优化了响应速度和成本效率。GPT-5.6 延续了前代架构，但通过更大规模的训练数据和改进的对齐技术，在多项基准测试中刷新了成绩。开发者可通过 API 直接调用，企业用户也能在 Azure OpenAI 服务中体验。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "cb66305ae99c7bd4",
+      "title": "OpenAI 发布 GPT-5.3 Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-14T21:05:14.071Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing Gpt 5 3 Codex",
+      "score": 5,
+      "cn": "OpenAI 推出 GPT-5.3 Codex，这是 GPT 系列在代码生成方向的最新版本。新模型在编程任务上提升了推理能力和上下文理解，能处理复杂算法、跨文件重构和多语言代码转换。GPT-5.3 Codex 的发布为开发者工具领域提供了新的底层模型支持。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "0077efc5b4db8ed1",
+      "title": "OpenAI 预览 GPT-5.6 Sol",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-14T20:48:11.261Z",
+      "discoveredAt": "2026-06-26T19:29:04.004Z",
+      "originalTitle": "Previewing Gpt 5 6 Sol",
+      "score": 5,
+      "cn": "OpenAI 发布了 GPT-5.6 Sol 的预览信息。该模型在推理能力、多模态理解和长文本处理上均有显著提升，标志着 GPT 系列又一次重大迭代。此次预览为开发者社区提供了早期接触机会，有望推动更多复杂应用场景的落地。"
+    },
     {
       "source": "github-trending",
       "sourceName": "GitHub Trending",
@@ -392,20 +434,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "b930913fb0d8c113",
-      "title": "OpenAI 发布 GPT-5.6",
-      "url": "https://openai.com/index/gpt-5-6/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-09-11T16:28:06.471Z",
-      "discoveredAt": "2026-07-09T19:23:35.098Z",
-      "originalTitle": "Gpt 5 6",
-      "score": 5,
-      "cn": "OpenAI 正式推出 GPT-5.6，这是其旗舰大语言模型的最新版本。新模型在推理、多模态理解和长文本处理上均有显著提升，同时优化了响应速度和成本效率。GPT-5.6 延续了前代架构，但通过更大规模的训练数据和改进的对齐技术，在多项基准测试中刷新了成绩。开发者可通过 API 直接调用，企业用户也能在 Azure OpenAI 服务中体验。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "6659803055f395cb",
       "title": "OpenAI 发布 GPT-5.5",
       "url": "https://openai.com/index/introducing-gpt-5-5/",
@@ -682,20 +710,6 @@
       "originalTitle": "Optimizing Chatgpt",
       "score": 3,
       "cn": "OpenAI 近日对 ChatGPT 进行了优化，旨在提升响应速度和对话质量。此次更新可能涉及模型推理效率、上下文理解能力或交互体验的改进，为用户带来更流畅的使用感受。具体技术细节尚未完全公开，但预计将覆盖更多使用场景。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "0077efc5b4db8ed1",
-      "title": "OpenAI 预览 GPT-5.6 Sol",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-09-11T08:40:58.923Z",
-      "discoveredAt": "2026-06-26T19:29:04.004Z",
-      "originalTitle": "Previewing Gpt 5 6 Sol",
-      "score": 5,
-      "cn": "OpenAI 发布了 GPT-5.6 Sol 的预览信息。该模型在推理能力、多模态理解和长文本处理上均有显著提升，标志着 GPT 系列又一次重大迭代。此次预览为开发者社区提供了早期接触机会，有望推动更多复杂应用场景的落地。"
     },
     {
       "source": "openai",
@@ -1522,20 +1536,6 @@
       "originalTitle": "Introducing Gpt 5 2",
       "score": 5,
       "cn": "OpenAI 正式发布新一代模型 GPT-5.2，在语言理解、推理能力和多模态处理上均有显著提升。据介绍，新版本支持更长的上下文窗口，在复杂任务和代码生成方面表现更稳，同时优化了推理效率与对齐安全性。开发者可通过 API 和 ChatGPT 直接体验，这是 GPT 系列自去年以来最大幅度的更新。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "cb66305ae99c7bd4",
-      "title": "OpenAI 发布 GPT-5.3 Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-09-10T14:17:49.153Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing Gpt 5 3 Codex",
-      "score": 5,
-      "cn": "OpenAI 推出 GPT-5.3 Codex，这是 GPT 系列在代码生成方向的最新版本。新模型在编程任务上提升了推理能力和上下文理解，能处理复杂算法、跨文件重构和多语言代码转换。GPT-5.3 Codex 的发布为开发者工具领域提供了新的底层模型支持。"
     },
     {
       "source": "openai",
@@ -9232,20 +9232,6 @@
       "originalTitle": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
       "score": 4,
       "cn": "Google 宣布向 Genesis Mission 提供价值 4000 万美元的 AI 代金券与信用额度，以加速前沿科学探索。这笔资金将用于资助研究者利用 AI 模型处理蛋白质结构预测、材料设计、天体物理模拟等课题。DeepMind 通过此举将大模型能力间接注入基础科研领域，为开放科学合作提供计算资源支撑。"
-    },
-    {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "23fca7e728256313",
-      "title": "Google 在 Galaxy Unpacked 2026 发布三项更新",
-      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "summary": "We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon.",
-      "category": "其他",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "discoveredAt": "2026-08-05T01:43:57.905Z",
-      "originalTitle": "3 Google updates from Galaxy Unpacked 2026",
-      "score": 3,
-      "cn": "Google 在 Galaxy Unpacked 2026 上带来了三项与 Gemini 相关的更新，进一步将 AI 能力融入三星生态。这些更新主要围绕 Gemini App 的扩展与优化，旨在提升用户在 Galaxy 设备上的交互体验。虽然没有发布全新模型或重大技术突破，但作为生态合作的一部分，这些更新为 Android 用户提供了更便捷的 AI 助手功能。"
     },
     {
       "source": "anthropic-news",
