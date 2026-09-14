@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T11:19:45.496Z",
+  "fetchedAt": "2026-09-14T17:19:30.438Z",
   "items": [
     {
       "source": "github-trending",
@@ -9,7 +9,7 @@
       "url": "https://github.com/tt-a1i/archify",
       "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "category": "skill",
-      "publishedAt": "2026-09-14T08:33:16Z",
+      "publishedAt": "2026-09-14T16:15:14Z",
       "discoveredAt": "2026-08-27T05:51:36.337Z",
       "stars": 19040,
       "repoTopics": [
@@ -9793,20 +9793,6 @@
       "originalTitle": "Jetson Thor Robotics Edge Ai Agent",
       "score": 5,
       "cn": "NVIDIA 发布 Jetson Thor，一款面向机器人边缘 AI agent 的计算平台。该平台在低功耗下提供高性能 AI 推理能力，支持实时环境感知与自主决策，可部署于自主机器人、工业自动化等边缘场景。Jetson Thor 的推出降低了机器人 agent 的硬件门槛，为开发者提供更高效的边缘计算方案。"
-    },
-    {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "a564401bb829d4c0",
-      "title": "Google 更新搜索 AI 模式，支持更多应用连接",
-      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-      "summary": "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
-      "category": "其他",
-      "publishedAt": "2026-07-16T16:00:00.000Z",
-      "discoveredAt": "2026-07-18T07:28:09.207Z",
-      "originalTitle": "Connect more of your apps to Search",
-      "score": 3,
-      "cn": "Google 在搜索的 AI 模式中新增了应用连接功能。用户现在可以安全地将常用服务与搜索关联，并直接在 AI 模式下与这些应用进行交互。这一更新使得搜索不仅限于网页结果，还能调用外部服务的能力，例如在搜索框内直接完成预订、查询等操作，提升了搜索作为信息与行动入口的实用性。"
     },
     {
       "source": "deepmind",
@@ -30002,20 +29988,6 @@
       "originalTitle": "Ai Summit Japan",
       "score": 3,
       "cn": "NVIDIA 在日本举办了 AI Summit Japan 活动，聚焦人工智能在本地产业与研究中的应用。作为区域技术峰会，该活动展示了 NVIDIA 在 AI 计算平台、加速库及生态合作方面的最新进展，旨在推动日本在制造业、医疗及自动驾驶等领域的 AI 落地。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "4bb3ccda5169b884",
-      "title": "Zordi AI 使用 NVIDIA Isaac 和 Omniverse 进行机器人模拟",
-      "url": "https://blogs.nvidia.com/blog/zordi-ai-robotics-isaac-omniverse/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-12-12T18:24:52.000Z",
-      "discoveredAt": "2026-05-17T19:12:01.330Z",
-      "originalTitle": "Zordi Ai Robotics Isaac Omniverse",
-      "score": 3,
-      "cn": "Zordi AI 将 NVIDIA Isaac 和 Omniverse 平台用于机器人训练。Isaac 提供强化学习与仿真环境，Omniverse 构建逼真 3D 场景，机器人在虚拟世界中完成采摘、搬运等任务。这降低了实地测试的成本与风险，有望加快农业机器人的落地速度。"
     },
     {
       "source": "anthropic-news",
