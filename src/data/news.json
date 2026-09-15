@@ -2310,13 +2310,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google AI 与 Kaggle 联合推出 35.3 万人参与的 AI 智能体免费课程",
-		"url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-		"source": "Google AI",
-		"date": "2026-08-03T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 在 GTC 2025 介绍主权 AI 计划",
 		"url": "https://blogs.nvidia.com/blog/sovereign-ai-gtc-2025/",
 		"source": "NVIDIA",
@@ -2503,13 +2496,6 @@
 		"url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
 		"source": "DeepMind",
 		"date": "2026-07-29T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google 为 Gemini API Managed Agents 新增 3.6 Flash 与 hooks 支持",
-		"url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-		"source": "Google AI",
-		"date": "2026-07-28T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -4134,27 +4120,6 @@
 		"url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
 		"source": "DeepMind",
 		"date": "2026-06-18T14:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布网络工具包安全研究",
-		"url": "https://www.anthropic.com/research/cyber-toolkits",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:48:19.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 举办网络安全竞赛",
-		"url": "https://www.anthropic.com/research/cyber-competitions",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:48:02.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude 4 Cyber",
-		"url": "https://www.anthropic.com/research/claude-4-cyber",
-		"source": "Anthropic Research",
-		"date": "2026-06-17T16:47:45.000Z",
 		"group": "labs"
 	}
 ]
