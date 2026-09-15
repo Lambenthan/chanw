@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-14T21:14:30.128Z",
+  "fetchedAt": "2026-09-15T02:34:33.777Z",
   "items": [
     {
       "source": "openai",
@@ -9,25 +9,11 @@
       "url": "https://openai.com/index/gpt-5-6/",
       "summary": "",
       "category": "大模型",
-      "publishedAt": "2026-09-14T21:10:59.384Z",
+      "publishedAt": "2026-09-15T02:28:10.998Z",
       "discoveredAt": "2026-07-09T19:23:35.098Z",
       "originalTitle": "Gpt 5 6",
       "score": 5,
       "cn": "OpenAI 正式推出 GPT-5.6，这是其旗舰大语言模型的最新版本。新模型在推理、多模态理解和长文本处理上均有显著提升，同时优化了响应速度和成本效率。GPT-5.6 延续了前代架构，但通过更大规模的训练数据和改进的对齐技术，在多项基准测试中刷新了成绩。开发者可通过 API 直接调用，企业用户也能在 Azure OpenAI 服务中体验。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "cb66305ae99c7bd4",
-      "title": "OpenAI 发布 GPT-5.3 Codex",
-      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-09-14T21:05:14.071Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing Gpt 5 3 Codex",
-      "score": 5,
-      "cn": "OpenAI 推出 GPT-5.3 Codex，这是 GPT 系列在代码生成方向的最新版本。新模型在编程任务上提升了推理能力和上下文理解，能处理复杂算法、跨文件重构和多语言代码转换。GPT-5.3 Codex 的发布为开发者工具领域提供了新的底层模型支持。"
     },
     {
       "source": "openai",
@@ -37,11 +23,53 @@
       "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
       "summary": "",
       "category": "大模型",
-      "publishedAt": "2026-09-14T20:48:11.261Z",
+      "publishedAt": "2026-09-15T02:26:33.442Z",
       "discoveredAt": "2026-06-26T19:29:04.004Z",
       "originalTitle": "Previewing Gpt 5 6 Sol",
       "score": 5,
       "cn": "OpenAI 发布了 GPT-5.6 Sol 的预览信息。该模型在推理能力、多模态理解和长文本处理上均有显著提升，标志着 GPT 系列又一次重大迭代。此次预览为开发者社区提供了早期接触机会，有望推动更多复杂应用场景的落地。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "354c8d3f22cac112",
+      "title": "OpenAI 发布 GPT Live",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-15T01:59:15.163Z",
+      "discoveredAt": "2026-07-08T19:08:46.370Z",
+      "originalTitle": "Introducing Gpt Live",
+      "score": 5,
+      "cn": "OpenAI 推出 GPT Live，将对话式 AI 推向实时交互新阶段。用户可与 GPT 模型进行低延迟、自然流畅的语音或文本对话，无需等待完整回复生成。这一更新直接提升了 ChatGPT 的即时响应能力，为客服、教育、创作等场景带来更接近真人交流的体验。GPT Live 的发布标志着 OpenAI 在实时 AI 交互领域的重要布局。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "cb66305ae99c7bd4",
+      "title": "OpenAI 发布 GPT-5.3 Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-15T00:02:43.876Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing Gpt 5 3 Codex",
+      "score": 5,
+      "cn": "OpenAI 推出 GPT-5.3 Codex，这是 GPT 系列在代码生成方向的最新版本。新模型在编程任务上提升了推理能力和上下文理解，能处理复杂算法、跨文件重构和多语言代码转换。GPT-5.3 Codex 的发布为开发者工具领域提供了新的底层模型支持。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "c0522fa3e0a1ef04",
+      "title": "OpenAI 发布 ChatGPT for Academic Researchers",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-14T22:24:39.965Z",
+      "discoveredAt": "2026-08-04T19:18:29.629Z",
+      "originalTitle": "Chatgpt For Academic Researchers",
+      "score": 4,
+      "cn": "OpenAI 面向学术研究群体推出了 ChatGPT for Academic Researchers，为该领域用户提供优化过的交互体验与功能。该版本可能整合了文献分析、论文写作辅助、数据解读等场景的特定能力，使研究人员能更高效地利用大模型进行日常工作。此举表明 OpenAI 正在进一步细分用户市场，针对特定专业领域提供定制化产品。"
     },
     {
       "source": "github-trending",
@@ -336,20 +364,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "c0522fa3e0a1ef04",
-      "title": "OpenAI 发布 ChatGPT for Academic Researchers",
-      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-09-11T16:28:13.931Z",
-      "discoveredAt": "2026-08-04T19:18:29.629Z",
-      "originalTitle": "Chatgpt For Academic Researchers",
-      "score": 4,
-      "cn": "OpenAI 面向学术研究群体推出了 ChatGPT for Academic Researchers，为该领域用户提供优化过的交互体验与功能。该版本可能整合了文献分析、论文写作辅助、数据解读等场景的特定能力，使研究人员能更高效地利用大模型进行日常工作。此举表明 OpenAI 正在进一步细分用户市场，针对特定专业领域提供定制化产品。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "b838f87e919fef03",
       "title": "OpenAI 发布年龄预测方法详解",
       "url": "https://openai.com/index/our-approach-to-age-prediction/",
@@ -458,20 +472,6 @@
       "originalTitle": "Introducing Genebench Pro",
       "score": 4,
       "cn": "OpenAI 发布了 Genebench Pro，一个面向基因序列理解与生成任务的评测基准。该基准覆盖从序列预测到功能注释的多个维度，旨在为基因 AI 模型提供标准化的能力评估框架。Genebench Pro 的推出有望推动生物信息学领域模型的可比性与透明度，加速基因组学在药物发现、疾病诊断等场景的应用落地。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "354c8d3f22cac112",
-      "title": "OpenAI 发布 GPT Live",
-      "url": "https://openai.com/index/introducing-gpt-live/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-09-11T16:27:56.894Z",
-      "discoveredAt": "2026-07-08T19:08:46.370Z",
-      "originalTitle": "Introducing Gpt Live",
-      "score": 5,
-      "cn": "OpenAI 推出 GPT Live，将对话式 AI 推向实时交互新阶段。用户可与 GPT 模型进行低延迟、自然流畅的语音或文本对话，无需等待完整回复生成。这一更新直接提升了 ChatGPT 的即时响应能力，为客服、教育、创作等场景带来更接近真人交流的体验。GPT Live 的发布标志着 OpenAI 在实时 AI 交互领域的重要布局。"
     },
     {
       "source": "anthropic-research",
