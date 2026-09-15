@@ -3,7 +3,7 @@
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
-		"date": "2026-09-14T16:15:14Z",
+		"date": "2026-09-15T08:27:46Z",
 		"group": "gh"
 	},
 	{
@@ -4162,20 +4162,6 @@
 		"url": "https://www.anthropic.com/research/claude-4-cyber",
 		"source": "Anthropic Research",
 		"date": "2026-06-17T16:47:45.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 推出 Genebench Pro 评测基准",
-		"url": "https://openai.com/index/introducing-genebench-pro/",
-		"source": "OpenAI",
-		"date": "2026-06-17T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 Life Sci Bench 生命科学评测基准",
-		"url": "https://openai.com/index/introducing-life-sci-bench/",
-		"source": "OpenAI",
-		"date": "2026-06-17T10:00:00.000Z",
 		"group": "labs"
 	}
 ]
