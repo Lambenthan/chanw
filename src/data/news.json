@@ -1,12 +1,5 @@
 [
 	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-09-16T10:17:59Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 Vera Rubin Nvl72 提升 AI agent 效率",
 		"url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
 		"source": "NVIDIA",
@@ -4120,13 +4113,6 @@
 		"url": "https://openai.com/index/previewing-gpt-5-6-sol/",
 		"source": "OpenAI",
 		"date": "2026-06-18T17:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 AI Control Roadmap 保障 agent 安全",
-		"url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-		"source": "DeepMind",
-		"date": "2026-06-18T14:00:00.000Z",
 		"group": "labs"
 	}
 ]
