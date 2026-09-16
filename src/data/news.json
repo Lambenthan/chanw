@@ -1,5 +1,19 @@
 [
 	{
+		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
+		"url": "https://github.com/tt-a1i/archify",
+		"source": "GitHub Trending",
+		"date": "2026-09-16T10:17:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Vera Rubin Nvl72 提升 AI agent 效率",
+		"url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-09-15T23:52:27.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布基于 OpenUSD 的数字孪生技术赋能工业物理 AI",
 		"url": "https://blogs.nvidia.com/blog/openusd-digital-twins-industrial-physical-ai/",
 		"source": "NVIDIA",
@@ -12,13 +26,6 @@
 		"source": "NVIDIA",
 		"date": "2026-09-15T13:20:11.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
-		"url": "https://github.com/tt-a1i/archify",
-		"source": "GitHub Trending",
-		"date": "2026-09-15T08:27:46Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
@@ -1586,13 +1593,6 @@
 		"url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
 		"source": "claude.com",
 		"date": "2026-08-25T20:58:20.842Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Vera Rubin Nvl72 提升 AI agent 效率",
-		"url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-08-25T17:45:35.000Z",
 		"group": "labs"
 	},
 	{
