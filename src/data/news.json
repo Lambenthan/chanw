@@ -1,5 +1,19 @@
 [
 	{
+		"title": "NVIDIA 发布基于 OpenUSD 的数字孪生技术赋能工业物理 AI",
+		"url": "https://blogs.nvidia.com/blog/openusd-digital-twins-industrial-physical-ai/",
+		"source": "NVIDIA",
+		"date": "2026-09-15T20:22:07.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 Alpamayo 2 Super 开源模型",
+		"url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+		"source": "NVIDIA",
+		"date": "2026-09-15T13:20:11.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "tt-a1i 开源 Archify agent skill 用于生成架构图",
 		"url": "https://github.com/tt-a1i/archify",
 		"source": "GitHub Trending",
@@ -2188,13 +2202,6 @@
 		"url": "https://blogs.nvidia.com/blog/ai-automotive-innovation-ces/",
 		"source": "NVIDIA",
 		"date": "2026-08-06T20:59:19.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Alpamayo 2 Super 开源模型",
-		"url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
-		"source": "NVIDIA",
-		"date": "2026-08-06T20:54:09.000Z",
 		"group": "labs"
 	},
 	{
