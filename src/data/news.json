@@ -1,5 +1,19 @@
 [
 	{
+		"title": "Claude 推出 Build Artifacts 功能",
+		"url": "https://claude.com/blog/build-artifacts",
+		"source": "claude.com",
+		"date": "2026-09-17T13:09:38.431Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 推出 Artifacts 功能",
+		"url": "https://claude.com/blog/claude-powered-artifacts",
+		"source": "claude.com",
+		"date": "2026-09-17T13:09:38.431Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 在 GTC 2025 介绍主权 AI 计划",
 		"url": "https://blogs.nvidia.com/blog/sovereign-ai-gtc-2025/",
 		"source": "NVIDIA",
@@ -116,6 +130,13 @@
 		"url": "https://blogs.nvidia.com/blog/iaa-mobility-ai-defined-vehicles/",
 		"source": "NVIDIA",
 		"date": "2026-09-16T22:43:11.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 将 Artifacts 功能集成至 Claude Code",
+		"url": "https://claude.com/blog/artifacts-in-claude-code",
+		"source": "claude.com",
+		"date": "2026-09-16T21:53:18.033Z",
 		"group": "labs"
 	},
 	{
@@ -1617,13 +1638,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
-		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-		"source": "Anthropic News",
-		"date": "2026-08-29T10:57:56.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Hugging Face ASR 评测榜单加入首个全球南方语言",
 		"url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
 		"source": "Hugging Face Blog",
@@ -1676,6 +1690,13 @@
 		"title": "Google 搜索 AI Mode 新增旅行规划与预订功能",
 		"url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
 		"source": "Google AI",
+		"date": "2026-08-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
+		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+		"source": "Anthropic News",
 		"date": "2026-08-27T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2457,13 +2478,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 汇总 2026 年 7 月 AI 更新",
-		"url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-		"source": "Google AI",
-		"date": "2026-08-04T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 推出 Claude for Nonprofits 公益计划",
 		"url": "https://www.anthropic.com/news/claude-for-nonprofits",
 		"source": "Anthropic News",
@@ -2576,6 +2590,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 利用 Claude 发现加密弱点",
+		"url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+		"source": "Anthropic Research",
+		"date": "2026-07-29T14:10:25.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 在 Google Flow Music 中发布 Lyria 3.5",
 		"url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
 		"source": "DeepMind",
@@ -2583,10 +2604,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 利用 Claude 发现加密弱点",
-		"url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-		"source": "Anthropic Research",
-		"date": "2026-07-28T00:00:00.000Z",
+		"title": "Anthropic 发布对开放权重模型的立场声明",
+		"url": "https://www.anthropic.com/news/position-open-weights-models",
+		"source": "Anthropic News",
+		"date": "2026-07-28T15:25:50.000Z",
 		"group": "labs"
 	},
 	{
@@ -2594,13 +2615,6 @@
 		"url": "https://blogs.nvidia.com/blog/generative-ai-science-isc/",
 		"source": "NVIDIA",
 		"date": "2026-07-27T22:51:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布对开放权重模型的立场声明",
-		"url": "https://www.anthropic.com/news/position-open-weights-models",
-		"source": "Anthropic News",
-		"date": "2026-07-27T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -3514,13 +3528,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Claude 推出 Build Artifacts 功能",
-		"url": "https://claude.com/blog/build-artifacts",
-		"source": "claude.com",
-		"date": "2026-06-21T22:13:52.496Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude 发布 Agentic Coding 介绍文章",
 		"url": "https://claude.com/blog/introduction-to-agentic-coding",
 		"source": "claude.com",
@@ -3717,13 +3724,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Claude 推出 Artifacts 功能",
-		"url": "https://claude.com/blog/claude-powered-artifacts",
-		"source": "claude.com",
-		"date": "2026-06-21T22:13:52.130Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude 分享 API 集成实践方法",
 		"url": "https://claude.com/blog/integrate-apis-seamlessly",
 		"source": "claude.com",
@@ -3861,13 +3861,6 @@
 		"url": "https://claude.com/blog/web-search",
 		"source": "claude.com",
 		"date": "2026-06-21T22:11:40.697Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 将 Artifacts 功能集成至 Claude Code",
-		"url": "https://claude.com/blog/artifacts-in-claude-code",
-		"source": "claude.com",
-		"date": "2026-06-21T21:54:24.942Z",
 		"group": "labs"
 	},
 	{

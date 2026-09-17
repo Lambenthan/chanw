@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-09-17T15:57:00.535Z",
+  "fetchedAt": "2026-09-17T20:48:40.854Z",
   "items": [
+    {
+      "source": "claude-com",
+      "sourceName": "claude.com",
+      "id": "b096365336cb56fa",
+      "title": "Claude 推出 Build Artifacts 功能",
+      "url": "https://claude.com/blog/build-artifacts",
+      "summary": "",
+      "category": "编程工具",
+      "publishedAt": "2026-09-17T13:09:38.431Z",
+      "discoveredAt": "2026-05-21T02:43:37.981Z",
+      "originalTitle": "Build Artifacts",
+      "score": 4,
+      "cn": "Claude 上线 Build Artifacts，允许用户在对话中直接生成并预览代码、文档和交互式组件。该功能将 AI 输出转化为可编辑的独立文件，支持实时修改与迭代，适用于快速原型开发、数据可视化和文档协作场景。"
+    },
+    {
+      "source": "claude-com",
+      "sourceName": "claude.com",
+      "id": "993df4d11140ab28",
+      "title": "Claude 推出 Artifacts 功能",
+      "url": "https://claude.com/blog/claude-powered-artifacts",
+      "summary": "",
+      "category": "编程工具",
+      "publishedAt": "2026-09-17T13:09:38.431Z",
+      "discoveredAt": "2026-05-21T02:43:37.981Z",
+      "originalTitle": "Claude Powered Artifacts",
+      "score": 4,
+      "cn": "Anthropic 为 Claude 新增 Artifacts 功能，允许用户在对话中直接生成并预览代码、文档、图表等交互式内容。这一更新将 Claude 从纯对话助手扩展为可实时产出可运行成果的协作工具，开发者可用它快速原型设计和团队协作。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -856,6 +884,20 @@
       "cn": "OpenAI 宣布设立 AI 精神健康研究资助项目，旨在支持利用人工智能技术改善精神健康领域的研究。该项目将向全球学术机构和非营利组织提供资金，鼓励探索 AI 在诊断、治疗和预防精神疾病方面的创新应用。OpenAI 希望通过这一举措推动 AI 与精神健康领域的交叉融合，并致力于确保相关研究的伦理性和安全性。"
     },
     {
+      "source": "google-ai",
+      "sourceName": "Google AI",
+      "id": "76710b2da2e1dd03",
+      "title": "Google Labs 发布更新",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Google Labs",
+      "score": 1,
+      "cn": "Google Labs 在博客中发布了平台更新，介绍了其在 AI 早期实验与研究项目上的最新进展。此次更新汇总了实验室项目的新能力，包括创意工具、协作功能以及对开发者更开放的一系列接口调整，旨在降低用户探索生成式 AI 的入门门槛。"
+    },
+    {
       "source": "nvidia",
       "sourceName": "NVIDIA",
       "id": "4fa4f9eea09cb00f",
@@ -868,6 +910,20 @@
       "originalTitle": "Iaa Mobility Ai Defined Vehicles",
       "score": 3,
       "cn": "NVIDIA 在 IAA Mobility 展会上展示了 AI 定义汽车的理念与技术路线，涵盖边缘计算、自动驾驶和座舱智能等方向。这一展示延续了 NVIDIA 在智能汽车平台上的持续投入，将 Omniverse 与 Drive 平台结合，为整车厂和 Tier 1 提供从仿真到部署的完整方案。"
+    },
+    {
+      "source": "claude-com",
+      "sourceName": "claude.com",
+      "id": "6cd28c156a1c38ff",
+      "title": "Anthropic 将 Artifacts 功能集成至 Claude Code",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "summary": "",
+      "category": "编程工具",
+      "publishedAt": "2026-09-16T21:53:18.033Z",
+      "discoveredAt": "2026-06-18T20:15:10.687Z",
+      "originalTitle": "Artifacts In Claude Code",
+      "score": 4,
+      "cn": "Anthropic 为 Claude Code 引入 Artifacts 功能，用户可在编程对话中直接生成并预览图表、网页等可视化内容。这一更新将原先独立的 Artifacts 体验嵌入命令行界面，使开发者无需切换工具即可实时查看代码产物，提升了 agent 编码流程的交互反馈效率。"
     },
     {
       "source": "claude-com",
@@ -4993,20 +5049,6 @@
       "cn": "OpenAI 发布了 O1 模型的系统卡，详细披露了该模型在安全、对齐、偏见和滥用风险方面的评估结果与防护措施。O1 作为具备推理能力的模型，在复杂任务上表现突出，但系统卡也指出了其在某些场景下的潜在风险。这份文档为开发者与研究者提供了透明化的技术参考，有助于理解 O1 的能力边界与安全设计。"
     },
     {
-      "source": "anthropic-news",
-      "sourceName": "Anthropic News",
-      "id": "e8e7441ac397b526",
-      "title": "Anthropic 发布模型硬件标准 MHS 研究预览",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "summary": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-      "category": "Agent",
-      "publishedAt": "2026-08-29T10:57:56.000Z",
-      "discoveredAt": "2026-08-28T01:55:22.238Z",
-      "originalTitle": "Previewing the Model Hardware Standard",
-      "score": 4,
-      "cn": "Anthropic 开放了模型硬件标准（MHS）的研究预览。这是一套共享规范，旨在让 AI agent 安全地操作物理设备，首批面向科研实验室和先进制造商。MHS 为 agent 与真实世界的交互提供了底层安全框架，有望推动机器人、自动化实验等场景的标准化落地。"
-    },
-    {
       "source": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
       "id": "b0b2c2da12a5bc45",
@@ -5145,6 +5187,20 @@
       "originalTitle": "Piloting the world's first double-blind AI evaluations",
       "score": 4,
       "cn": "DeepMind 宣布启动全球首个双盲 AI 评估试点，将临床药物试验中的双盲方法引入大模型能力测试。评估中，评审者与模型身份均被隐藏，以消除偏见对结果的影响。这一设计有望提升 AI 基准测试的客观性和可重复性，为行业建立更严谨的评估标准。"
+    },
+    {
+      "source": "anthropic-news",
+      "sourceName": "Anthropic News",
+      "id": "e8e7441ac397b526",
+      "title": "Anthropic 发布模型硬件标准 MHS 研究预览",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "summary": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+      "category": "Agent",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
+      "discoveredAt": "2026-08-28T01:55:22.238Z",
+      "originalTitle": "Previewing the Model Hardware Standard",
+      "score": 4,
+      "cn": "Anthropic 开放了模型硬件标准（MHS）的研究预览。这是一套共享规范，旨在让 AI agent 安全地操作物理设备，首批面向科研实验室和先进制造商。MHS 为 agent 与真实世界的交互提供了底层安全框架，有望推动机器人、自动化实验等场景的标准化落地。"
     },
     {
       "source": "anthropic-news",
@@ -8538,20 +8594,6 @@
       "cn": "NVIDIA 宣布参与美国国家科学基金会（NSF）的区域 AI 中心计划，旨在推动人工智能研究与应用的区域化发展。该计划将整合学术界、工业界和政府资源，加速 AI 技术在关键领域的落地。NVIDIA 将提供计算基础设施和 AI 平台支持，助力各中心开展前沿研究。"
     },
     {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "2a0a276054536ae6",
-      "title": "Google 汇总 2026 年 7 月 AI 更新",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "summary": "Here are Google’s latest AI updates from July 2026",
-      "category": "其他",
-      "publishedAt": "2026-08-04T13:00:00.000Z",
-      "discoveredAt": "2026-08-09T12:29:46.344Z",
-      "originalTitle": "The latest AI news we announced in July 2026",
-      "score": 3,
-      "cn": "Google 发布 2026 年 7 月的 AI 进展汇总，涵盖各产品线在搜索、模型、工具等方面的迭代。此次更新继续延续 Google 将 AI 融入日常服务的策略，但公告本身较为概括，欠缺具体技术细节。"
-    },
-    {
       "source": "openai",
       "sourceName": "OpenAI",
       "id": "f22abc43729d8d96",
@@ -8847,6 +8889,34 @@
       "cn": "DeepMind 在 Google Flow Music 中推出 Lyria 3.5，标志着 AI 音乐生成进入新阶段。新版在音乐性、歌词、人声和创作控制方面均有显著提升，让用户能更精细地调节旋律走向、填词风格与演唱表现。这一迭代强化了从伴奏到完整歌曲的端到端生成能力，也为音乐创作者提供了更高自由度的工具。"
     },
     {
+      "source": "anthropic-research",
+      "sourceName": "Anthropic Research",
+      "id": "df6c16550d6d3471",
+      "title": "Anthropic 利用 Claude 发现加密弱点",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-07-29T14:10:25.000Z",
+      "discoveredAt": "2026-08-05T01:43:57.905Z",
+      "originalTitle": "Discovering cryptographic weaknesses with Claude",
+      "score": 4,
+      "cn": "Anthropic 前沿红队团队发布研究，展示 Claude 在密码学分析中的能力。通过引导模型进行结构化推理，Claude 成功识别出多个已知加密实现中的弱点，包括不安全的随机数生成和协议设计缺陷。这项工作表明，大型语言模型不仅可用于代码审查，还能辅助安全专家发现传统工具难以捕捉的隐蔽漏洞，为 AI 辅助安全审计提供了新思路。"
+    },
+    {
+      "source": "anthropic-news",
+      "sourceName": "Anthropic News",
+      "id": "80d8760fd0f40ab2",
+      "title": "Anthropic 发布对开放权重模型的立场声明",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-07-28T15:25:50.000Z",
+      "discoveredAt": "2026-08-08T18:22:47.493Z",
+      "originalTitle": "Our position on open-weights models",
+      "score": 3,
+      "cn": "Anthropic 近日发布了一份关于开放权重模型的立场声明，阐述了公司在开源与安全平衡上的最新思考。声明强调，在推动 AI 开放生态的同时，必须建立有效防护机制，防止模型被滥用或篡改。这一表态反映了 Anthropic 对负责任的模型分发的持续关注，也为社区提供了一种可参考的治理视角。"
+    },
+    {
       "source": "deepmind",
       "sourceName": "DeepMind",
       "id": "7909c613945e81a8",
@@ -8861,20 +8931,6 @@
       "cn": "DeepMind 推出 Gemini Robotics 2，将大语言模型的多模态理解能力与机器人全身控制相结合。该模型使机器人能够通过自然语言指令协调手臂、躯干和腿部动作，完成开门、搬运、避障等复杂任务。Gemini Robotics 2 基于 Gemini 系列模型构建，在真实物理环境中实现了从感知到行动的端到端推理。"
     },
     {
-      "source": "anthropic-research",
-      "sourceName": "Anthropic Research",
-      "id": "df6c16550d6d3471",
-      "title": "Anthropic 利用 Claude 发现加密弱点",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-07-28T00:00:00.000Z",
-      "discoveredAt": "2026-08-05T01:43:57.905Z",
-      "originalTitle": "Discovering cryptographic weaknesses with Claude",
-      "score": 4,
-      "cn": "Anthropic 前沿红队团队发布研究，展示 Claude 在密码学分析中的能力。通过引导模型进行结构化推理，Claude 成功识别出多个已知加密实现中的弱点，包括不安全的随机数生成和协议设计缺陷。这项工作表明，大型语言模型不仅可用于代码审查，还能辅助安全专家发现传统工具难以捕捉的隐蔽漏洞，为 AI 辅助安全审计提供了新思路。"
-    },
-    {
       "source": "nvidia",
       "sourceName": "NVIDIA",
       "id": "44e062b2185ad52b",
@@ -8887,20 +8943,6 @@
       "originalTitle": "Generative Ai Science Isc",
       "score": 4,
       "cn": "NVIDIA 在 ISC 2026 上展示了生成式 AI 在科学计算领域的应用，涉及气候模拟、药物发现和材料科学。通过将大模型与高性能计算结合，NVIDIA 为研究人员提供了建模与推理工具，加速了科学发现流程。这一成果体现了生成式 AI 从语言图像走向科学工程的延伸。"
-    },
-    {
-      "source": "anthropic-news",
-      "sourceName": "Anthropic News",
-      "id": "80d8760fd0f40ab2",
-      "title": "Anthropic 发布对开放权重模型的立场声明",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-07-27T00:00:00.000Z",
-      "discoveredAt": "2026-08-08T18:22:47.493Z",
-      "originalTitle": "Our position on open-weights models",
-      "score": 3,
-      "cn": "Anthropic 近日发布了一份关于开放权重模型的立场声明，阐述了公司在开源与安全平衡上的最新思考。声明强调，在推动 AI 开放生态的同时，必须建立有效防护机制，防止模型被滥用或篡改。这一表态反映了 Anthropic 对负责任的模型分发的持续关注，也为社区提供了一种可参考的治理视角。"
     },
     {
       "source": "openai",
@@ -15222,20 +15264,6 @@
     {
       "source": "claude-com",
       "sourceName": "claude.com",
-      "id": "b096365336cb56fa",
-      "title": "Claude 推出 Build Artifacts 功能",
-      "url": "https://claude.com/blog/build-artifacts",
-      "summary": "",
-      "category": "编程工具",
-      "publishedAt": "2026-06-21T22:13:52.496Z",
-      "discoveredAt": "2026-05-21T02:43:37.981Z",
-      "originalTitle": "Build Artifacts",
-      "score": 4,
-      "cn": "Claude 上线 Build Artifacts，允许用户在对话中直接生成并预览代码、文档和交互式组件。该功能将 AI 输出转化为可编辑的独立文件，支持实时修改与迭代，适用于快速原型开发、数据可视化和文档协作场景。"
-    },
-    {
-      "source": "claude-com",
-      "sourceName": "claude.com",
       "id": "413b8f9e16b3a0e4",
       "title": "Claude 发布 Agentic Coding 介绍文章",
       "url": "https://claude.com/blog/introduction-to-agentic-coding",
@@ -15634,20 +15662,6 @@
     {
       "source": "claude-com",
       "sourceName": "claude.com",
-      "id": "993df4d11140ab28",
-      "title": "Claude 推出 Artifacts 功能",
-      "url": "https://claude.com/blog/claude-powered-artifacts",
-      "summary": "",
-      "category": "编程工具",
-      "publishedAt": "2026-06-21T22:13:52.130Z",
-      "discoveredAt": "2026-05-21T02:43:37.981Z",
-      "originalTitle": "Claude Powered Artifacts",
-      "score": 4,
-      "cn": "Anthropic 为 Claude 新增 Artifacts 功能，允许用户在对话中直接生成并预览代码、文档、图表等交互式内容。这一更新将 Claude 从纯对话助手扩展为可实时产出可运行成果的协作工具，开发者可用它快速原型设计和团队协作。"
-    },
-    {
-      "source": "claude-com",
-      "sourceName": "claude.com",
       "id": "aaa5bbc431f1426a",
       "title": "Claude 分享 API 集成实践方法",
       "url": "https://claude.com/blog/integrate-apis-seamlessly",
@@ -15927,20 +15941,6 @@
       "originalTitle": "Web Search",
       "score": 4,
       "cn": "Anthropic 为 Claude 集成了实时网络搜索能力，使其能够获取最新信息并引用来源。用户可在对话中直接触发搜索，获取新闻、数据等时效性内容，提升回答的准确性和可靠性。该功能面向所有 Claude 用户逐步开放。"
-    },
-    {
-      "source": "claude-com",
-      "sourceName": "claude.com",
-      "id": "6cd28c156a1c38ff",
-      "title": "Anthropic 将 Artifacts 功能集成至 Claude Code",
-      "url": "https://claude.com/blog/artifacts-in-claude-code",
-      "summary": "",
-      "category": "编程工具",
-      "publishedAt": "2026-06-21T21:54:24.942Z",
-      "discoveredAt": "2026-06-18T20:15:10.687Z",
-      "originalTitle": "Artifacts In Claude Code",
-      "score": 4,
-      "cn": "Anthropic 为 Claude Code 引入 Artifacts 功能，用户可在编程对话中直接生成并预览图表、网页等可视化内容。这一更新将原先独立的 Artifacts 体验嵌入命令行界面，使开发者无需切换工具即可实时查看代码产物，提升了 agent 编码流程的交互反馈效率。"
     },
     {
       "source": "claude-com",
@@ -16818,20 +16818,6 @@
       "originalTitle": "Widening the conversation on frontier AI",
       "score": 3,
       "cn": "Anthropic 宣布进一步扩大前沿 AI 议题的公开讨论，邀请更多研究者、政策制定者与公众参与。此举延续了该公司在 AI 安全和透明度方面的一贯立场，旨在为技术演进提供更广泛的社会共识基础。"
-    },
-    {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "76710b2da2e1dd03",
-      "title": "Google Labs 发布更新",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-06-05T00:00:00.000Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Google Labs",
-      "score": 1,
-      "cn": "Google Labs 在博客中发布了平台更新，介绍了其在 AI 早期实验与研究项目上的最新进展。此次更新汇总了实验室项目的新能力，包括创意工具、协作功能以及对开发者更开放的一系列接口调整，旨在降低用户探索生成式 AI 的入门门槛。"
     },
     {
       "source": "nvidia",
