@@ -1,5 +1,82 @@
 [
 	{
+		"title": "NVIDIA 在 GTC 2025 介绍主权 AI 计划",
+		"url": "https://blogs.nvidia.com/blog/sovereign-ai-gtc-2025/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:31:24.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 UK AI Vision 计划",
+		"url": "https://blogs.nvidia.com/blog/uk-ai-vision/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:31:01.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 推出 Sovereign AI Agents Factories 方案",
+		"url": "https://blogs.nvidia.com/blog/sovereign-ai-agents-factories/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:30:27.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 公布德国 AI 工厂计划",
+		"url": "https://blogs.nvidia.com/blog/germany-ai-factories/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:30:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 与欧洲广播联盟合作推进主权 AI",
+		"url": "https://blogs.nvidia.com/blog/european-broadcasting-union-sovereign-ai/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:29:57.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 与德国电信共建主权 AI 基础设施",
+		"url": "https://blogs.nvidia.com/blog/nvidia-deutsche-telekom-germany-sovereign-ai/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:29:39.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 与英国伙伴生态系统推出 AI Makers 计划",
+		"url": "https://blogs.nvidia.com/blog/uk-partner-ecosystem-ai-makers/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:28:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 举办 AI Day Tokyo 开发者活动",
+		"url": "https://blogs.nvidia.com/blog/ai-day-tokyo/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:27:43.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 与 Oracle 在阿布扎比加速主权 AI 建设",
+		"url": "https://blogs.nvidia.com/blog/oracle-nvidia-accelerate-sovereign-ai-abu-dhabi/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:27:29.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 在悉尼举办 AI Day 活动",
+		"url": "https://blogs.nvidia.com/blog/ai-day-sydney/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:27:13.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 在韩国举办 AI APEC CEO 峰会",
+		"url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+		"source": "NVIDIA",
+		"date": "2026-09-17T02:26:23.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 在德国启动工业 AI 云服务",
 		"url": "https://blogs.nvidia.com/blog/germany-industrial-ai-cloud-launch/",
 		"source": "NVIDIA",
@@ -2426,83 +2503,6 @@
 		"url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
 		"source": "claude.com",
 		"date": "2026-08-03T15:58:20.921Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 GTC 2025 介绍主权 AI 计划",
-		"url": "https://blogs.nvidia.com/blog/sovereign-ai-gtc-2025/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:18:43.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 UK AI Vision 计划",
-		"url": "https://blogs.nvidia.com/blog/uk-ai-vision/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:18:19.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出 Sovereign AI Agents Factories 方案",
-		"url": "https://blogs.nvidia.com/blog/sovereign-ai-agents-factories/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:17:46.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 公布德国 AI 工厂计划",
-		"url": "https://blogs.nvidia.com/blog/germany-ai-factories/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:17:38.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与欧洲广播联盟合作推进主权 AI",
-		"url": "https://blogs.nvidia.com/blog/european-broadcasting-union-sovereign-ai/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:16:56.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与德国电信共建主权 AI 基础设施",
-		"url": "https://blogs.nvidia.com/blog/nvidia-deutsche-telekom-germany-sovereign-ai/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:16:37.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与英国伙伴生态系统推出 AI Makers 计划",
-		"url": "https://blogs.nvidia.com/blog/uk-partner-ecosystem-ai-makers/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:15:37.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 举办 AI Day Tokyo 开发者活动",
-		"url": "https://blogs.nvidia.com/blog/ai-day-tokyo/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:14:40.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 Oracle 在阿布扎比加速主权 AI 建设",
-		"url": "https://blogs.nvidia.com/blog/oracle-nvidia-accelerate-sovereign-ai-abu-dhabi/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:14:27.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在悉尼举办 AI Day 活动",
-		"url": "https://blogs.nvidia.com/blog/ai-day-sydney/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:14:13.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在韩国举办 AI APEC CEO 峰会",
-		"url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
-		"source": "NVIDIA",
-		"date": "2026-07-31T18:13:45.000Z",
 		"group": "labs"
 	},
 	{
