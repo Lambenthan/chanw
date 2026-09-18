@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-09-18T10:18:49.750Z",
+  "fetchedAt": "2026-09-18T15:30:54.335Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "cd046616a857a20b",
+      "title": "OpenAI 更新模型规范新增青少年保护条款",
+      "url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-09-18T12:06:03.283Z",
+      "discoveredAt": "2026-05-25T03:55:39.288Z",
+      "originalTitle": "Updating Model Spec With Teen Protections",
+      "score": 3,
+      "cn": "OpenAI 对其 Model Spec 模型规范做出更新，新增专门面向青少年用户的行为边界。新规明确了模型在涉及青少年安全话题时的响应限制与内容过滤规则，例如对自伤、霸凌、色情索取等场景的拒绝策略。这项更新将应用于 OpenAI 旗下所有面向用户的对话产品，属于产品策略层面的主动治理，而非技术能力的迭代。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -210,20 +224,6 @@
       "originalTitle": "Strengthening Chatgpt Responses In Sensitive Conversations",
       "score": 2,
       "cn": "OpenAI 对 ChatGPT 在敏感话题上的回应方式进行了调整，旨在提升对话的安全性与边界感与安全性之间的平衡。此次更新主要优化了模型在涉及争议性、个人隐私或情绪化场景下的表达策略，减少生硬拒绝，增加更自然的引导与解释。该改动不涉及模型能力提升，更多是产品层面的交互策略迭代。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "cd046616a857a20b",
-      "title": "OpenAI 更新模型规范新增青少年保护条款",
-      "url": "https://openai.com/index/updating-model-spec-with-teen-protections/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-09-18T08:32:15.487Z",
-      "discoveredAt": "2026-05-25T03:55:39.288Z",
-      "originalTitle": "Updating Model Spec With Teen Protections",
-      "score": 3,
-      "cn": "OpenAI 对其 Model Spec 模型规范做出更新，新增专门面向青少年用户的行为边界。新规明确了模型在涉及青少年安全话题时的响应限制与内容过滤规则，例如对自伤、霸凌、色情索取等场景的拒绝策略。这项更新将应用于 OpenAI 旗下所有面向用户的对话产品，属于产品策略层面的主动治理，而非技术能力的迭代。"
     },
     {
       "source": "openai",
@@ -8286,20 +8286,6 @@
       "cn": "Anthropic 发布了一份关于工人再培训计划有效性的证据回顾报告，系统梳理了现有研究，评估了不同培训项目对失业者和转岗工人的实际效果。报告重点关注 AI 对劳动力市场的影响，提出了政策制定者应如何设计更有效的培训体系，以帮助工人适应技术变革。"
     },
     {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "dbc30e861442f93d",
-      "title": "Google 发布 AMIE 实时临床视频咨询 AI 系统",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "summary": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
-      "category": "其他",
-      "publishedAt": "2026-08-11T17:00:00.000Z",
-      "discoveredAt": "2026-08-11T18:48:12.163Z",
-      "originalTitle": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "score": 4,
-      "cn": "AMIE 是 Google 研发的医疗 AI 系统，在一项首创研究中展示了实时临床视频咨询能力。该系统能在模拟环境中与患者进行自然对话，辅助医生进行诊断与建议。这一成果为远程医疗和 AI 辅助诊疗提供了新的可能性，但现阶段仍处于研究阶段，距离大规模临床应用还有距离。"
-    },
-    {
       "source": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
       "id": "5eb3c49c6262106f",
@@ -8382,20 +8368,6 @@
       "originalTitle": "Auto Mode Default In Claude Code",
       "score": 4,
       "cn": "Anthropic 宣布 Claude Code 的 Auto 模式成为默认交互方式。该模式允许模型自主决策并执行工具调用，减少手动确认步骤，使编码任务更流畅。用户仍可切换回手动确认模式，以保留对敏感操作的精细控制。此次更新简化了 agent 驱动的开发流程，有助于提升迭代效率，尤其适合需要批量修改或快速构建的场景。"
-    },
-    {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "ae2292bf453d4eb7",
-      "title": "Google 为 Ads 和 Analytics 推出新 AI 工具",
-      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "summary": "Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
-      "category": "其他",
-      "publishedAt": "2026-08-10T14:30:00.000Z",
-      "discoveredAt": "2026-08-12T07:09:03.020Z",
-      "originalTitle": "Evolve your marketing with new AI tools",
-      "score": 3,
-      "cn": "Google 在 Google Ads 和 Google Analytics 中引入新的 AI 及 agent 体验，旨在简化营销工作流程。这些更新帮助广告主更高效地管理投放和分析数据，借助生成式 AI 自动生成广告素材、优化出价策略，并利用 agent 能力执行多步骤任务。Google 希望通过降低操作门槛，让营销人员更专注于策略决策。"
     },
     {
       "source": "huggingface-blog",

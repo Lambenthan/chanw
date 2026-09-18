@@ -2331,13 +2331,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 发布 AMIE 实时临床视频咨询 AI 系统",
-		"url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-		"source": "Google AI",
-		"date": "2026-08-11T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 在亚美尼亚建设 Firebird AI 工厂，采用 Blackwell 与 Rubin 架构",
 		"url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
 		"source": "NVIDIA",
@@ -2377,13 +2370,6 @@
 		"url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-10T10:05:36.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google 为 Ads 和 Analytics 推出新 AI 工具",
-		"url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-		"source": "Google AI",
-		"date": "2026-08-10T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
