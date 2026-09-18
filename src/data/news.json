@@ -1470,6 +1470,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 调查网络安全评估中的三个真实事件",
+		"url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+		"source": "Anthropic News",
+		"date": "2026-09-09T15:04:52.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
 		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
 		"source": "Anthropic Research",
@@ -2558,13 +2565,6 @@
 		"title": "DeepMind 发布 Gemini Robotics ER 2 机器人模型",
 		"url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
 		"source": "DeepMind",
-		"date": "2026-07-30T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 调查网络安全评估中的三个真实事件",
-		"url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-		"source": "Anthropic News",
 		"date": "2026-07-30T00:00:00.000Z",
 		"group": "labs"
 	},
