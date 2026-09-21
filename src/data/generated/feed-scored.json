@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-09-21T17:29:46.464Z",
+  "fetchedAt": "2026-09-21T21:27:45.630Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "c0b3a91b7c71e09c",
+      "title": "OpenAI 发布新版 ChatGPT 图像生成能力",
+      "url": "https://openai.com/index/new-chatgpt-images-is-here/",
+      "summary": "",
+      "category": "图像模型",
+      "publishedAt": "2026-09-21T21:23:44.859Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "New Chatgpt Images Is Here",
+      "score": 5,
+      "cn": "OpenAI 更新了 ChatGPT 内置的图像生成模型，在构图、文字渲染和风格一致性方面有明显提升。用户可以直接在对话中生成更精准的视觉内容，无需额外工具或提示词工程。这一更新让 ChatGPT 的多模态能力更贴近日常创作场景，使用门槛进一步降低。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -322,20 +336,6 @@
       "originalTitle": "Introducing Gpt Live",
       "score": 5,
       "cn": "OpenAI 推出 GPT Live，将对话式 AI 推向实时交互新阶段。用户可与 GPT 模型进行低延迟、自然流畅的语音或文本对话，无需等待完整回复生成。这一更新直接提升了 ChatGPT 的即时响应能力，为客服、教育、创作等场景带来更接近真人交流的体验。GPT Live 的发布标志着 OpenAI 在实时 AI 交互领域的重要布局。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "c0b3a91b7c71e09c",
-      "title": "OpenAI 发布新版 ChatGPT 图像生成能力",
-      "url": "https://openai.com/index/new-chatgpt-images-is-here/",
-      "summary": "",
-      "category": "图像模型",
-      "publishedAt": "2026-09-18T17:55:41.999Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "New Chatgpt Images Is Here",
-      "score": 5,
-      "cn": "OpenAI 更新了 ChatGPT 内置的图像生成模型，在构图、文字渲染和风格一致性方面有明显提升。用户可以直接在对话中生成更精准的视觉内容，无需额外工具或提示词工程。这一更新让 ChatGPT 的多模态能力更贴近日常创作场景，使用门槛进一步降低。"
     },
     {
       "source": "openai",
@@ -29670,20 +29670,6 @@
       "originalTitle": "Earth Day 2024 Climate Tech Ai Startups",
       "score": 3,
       "cn": "NVIDIA 在2024年地球日期间，集中介绍了多家利用AI技术应对气候变化的新创公司。这些企业涉及能源管理、碳排放追踪、气象预测等方向，借助NVIDIA的GPU和深度学习平台进行模型训练与推理。报道展示了AI在气候科技领域的多样化应用，但未提供具体技术参数或新模型发布信息，属于生态案例分享。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "8a706f5359901f34",
-      "title": "NVIDIA 与 Foxconn 合作推出数字孪生 AI 平台",
-      "url": "https://blogs.nvidia.com/blog/foxconn-digital-twin-ai/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-12-12T20:14:30.000Z",
-      "discoveredAt": "2026-05-17T19:12:01.330Z",
-      "originalTitle": "Foxconn Digital Twin Ai",
-      "score": 3,
-      "cn": "NVIDIA 与富士康联合发布数字孪生 AI 平台，将工厂产线的实时数据映射到虚拟空间，用于制造流程的模拟、优化和预测性维护。该平台融合了 NVIDIA Omniverse 的 3D 协作能力和 AI 推理能力，旨在帮助富士康工厂提升生产效率和柔性制造水平。"
     },
     {
       "source": "anthropic-news",

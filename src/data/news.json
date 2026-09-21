@@ -3372,12 +3372,5 @@
 		"source": "DeepMind",
 		"date": "2026-06-24T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 提出 Agent Identity Access Model 安全模型",
-		"url": "https://claude.com/blog/agent-identity-access-model",
-		"source": "claude.com",
-		"date": "2026-06-23T21:06:26.365Z",
-		"group": "labs"
 	}
 ]
