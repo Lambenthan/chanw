@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T11:30:54.924Z",
+  "fetchedAt": "2026-09-21T17:29:46.464Z",
   "items": [
     {
       "source": "openai",
@@ -8606,20 +8606,6 @@
       "originalTitle": "Open World Models Physical Ai",
       "score": 5,
       "cn": "NVIDIA 发布 Open World Models，该模型面向物理 AI 领域，能够理解并模拟真实世界的物理交互。它融合视觉、语言与物理规律，为机器人、自动驾驶等具身智能应用提供基础能力，使 AI 在现实环境中做出自主决策。"
-    },
-    {
-      "source": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "id": "72ea094fa822e0b0",
-      "title": "Baseten 加入 Hugging Face 推理提供商平台",
-      "url": "https://huggingface.co/blog/baseten",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "discoveredAt": "2026-08-06T23:50:11.291Z",
-      "originalTitle": "Baseten on Hugging Face Inference Providers 🔥",
-      "score": 3,
-      "cn": "Baseten 宣布成为 Hugging Face Inference Providers 的一员，用户可直接在 Hugging Face 生态中调用 Baseten 的推理服务，无需额外配置。这一合作降低了开发者部署和运行模型的门槛，Baseten 的 GPU 集群与 Hugging Face 的模型库无缝衔接，适合需要低延迟、高吞吐量的生产场景。"
     },
     {
       "source": "nvidia",
@@ -29698,62 +29684,6 @@
       "originalTitle": "Foxconn Digital Twin Ai",
       "score": 3,
       "cn": "NVIDIA 与富士康联合发布数字孪生 AI 平台，将工厂产线的实时数据映射到虚拟空间，用于制造流程的模拟、优化和预测性维护。该平台融合了 NVIDIA Omniverse 的 3D 协作能力和 AI 推理能力，旨在帮助富士康工厂提升生产效率和柔性制造水平。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "f7d612b207422c1c",
-      "title": "NVIDIA 在 SAP Sapphire 展示 AI Omniverse 集成",
-      "url": "https://blogs.nvidia.com/blog/sap-sapphire-ai-omniverse/",
-      "summary": "",
-      "category": "3D",
-      "publishedAt": "2024-12-12T20:12:12.000Z",
-      "discoveredAt": "2026-05-17T19:12:01.330Z",
-      "originalTitle": "Sap Sapphire Ai Omniverse",
-      "score": 3,
-      "cn": "NVIDIA 在 SAP Sapphire 大会上展示了将 AI 能力深度集成至 Omniverse 平台的方案，结合 SAP 的企业数据与业务流程，使数字孪生从设计延伸到运营优化。该集成支持实时协作与仿真，帮助工业客户在虚拟环境中测试产线调整、物流调度或碳排放策略，降低物理试错成本。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "4c0476c76581143d",
-      "title": "NVIDIA 发布 AI 电网数字孪生平台 Edison",
-      "url": "https://blogs.nvidia.com/blog/ai-electric-grid-edison/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-12-12T20:10:59.000Z",
-      "discoveredAt": "2026-05-17T19:12:01.330Z",
-      "originalTitle": "Ai Electric Grid Edison",
-      "score": 4,
-      "cn": "NVIDIA 推出 Edison，一个专为电力行业设计的 AI 数字孪生平台，帮助公用事业公司对电网进行建模、模拟和优化。Edison 结合 GPU 加速计算和物理信息神经网络，能够处理网络拓扑、负荷预测和故障分析等任务，有望提升电网的可靠性和效率。该平台集成了 NVIDIA Omniverse 和 Modulus 框架，支持实时协作和自动化的“假设”场景推演，为能源基础设施的智能化管理提供新的技术路径。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "8ef0a46bd577da42",
-      "title": "NVIDIA 探讨加速 AI 能源效率方案",
-      "url": "https://blogs.nvidia.com/blog/accelerated-ai-energy-efficiency/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-12-12T20:10:32.000Z",
-      "discoveredAt": "2026-05-21T02:43:37.981Z",
-      "originalTitle": "Accelerated Ai Energy Efficiency",
-      "score": 3,
-      "cn": "NVIDIA 发布一篇关于加速 AI 能源效率的技术分析文章，讨论如何通过软硬件协同优化降低大模型推理与训练过程中的能耗。文章结合 GPU 架构特性、量化技术和稀疏计算等路径，提出在维持模型性能的同时显著减少电力消耗的可行方向。该文章为行业提供了高能效 AI 部署的参考思路，但属于非产品类的技术分享内容。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "0e97b8d0e022667b",
-      "title": "NVIDIA 与可口可乐、WPP 合作在 Omniverse 平台引入生成式 AI",
-      "url": "https://blogs.nvidia.com/blog/coca-cola-wpp-omniverse-generative-ai/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2024-12-12T20:09:33.000Z",
-      "discoveredAt": "2026-05-21T03:46:28.674Z",
-      "originalTitle": "Coca Cola Wpp Omniverse Generative Ai",
-      "score": 3,
-      "cn": "NVIDIA 宣布与可口可乐和广告集团 WPP 达成合作，将生成式 AI 整合到 Omniverse 平台中，用于品牌营销和内容创作。这项合作旨在利用 NVIDIA 的 AI 和实时渲染技术，帮助品牌方在虚拟环境中快速生成广告素材和产品视觉内容，提升创意工作流程的效率与规模化能力。"
     },
     {
       "source": "anthropic-news",

@@ -2443,13 +2443,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Baseten 加入 Hugging Face 推理提供商平台",
-		"url": "https://huggingface.co/blog/baseten",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-06T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 AI 存储 FMS",
 		"url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
 		"source": "NVIDIA",
@@ -3385,13 +3378,6 @@
 		"url": "https://claude.com/blog/agent-identity-access-model",
 		"source": "claude.com",
 		"date": "2026-06-23T21:06:26.365Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 为开发者构建连接器推出可观测性支持",
-		"url": "https://claude.com/blog/observability-for-developers-building-connectors",
-		"source": "claude.com",
-		"date": "2026-06-23T17:07:25.960Z",
 		"group": "labs"
 	}
 ]
