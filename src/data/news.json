@@ -3393,33 +3393,5 @@
 		"source": "claude.com",
 		"date": "2026-06-23T17:07:25.960Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布创始人手册：如何构建 AI 原生初创公司",
-		"url": "https://claude.com/blog/the-founders-playbook",
-		"source": "claude.com",
-		"date": "2026-06-22T21:02:35.575Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 将 Claude Desktop 完整体验引入 AWS、Google Cloud 和 Microsoft Foundry",
-		"url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
-		"source": "claude.com",
-		"date": "2026-06-22T21:02:35.575Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出面向网络运营的电信 Agentic AI",
-		"url": "https://blogs.nvidia.com/blog/telecom-agentic-ai-for-network-operations/",
-		"source": "NVIDIA",
-		"date": "2026-06-22T20:22:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 AI Blueprint 电信网络配置方案",
-		"url": "https://blogs.nvidia.com/blog/ai-blueprint-telco-network-configuration/",
-		"source": "NVIDIA",
-		"date": "2026-06-22T20:21:52.000Z",
-		"group": "labs"
 	}
 ]
