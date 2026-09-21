@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-09-21T02:27:49.828Z",
+  "fetchedAt": "2026-09-21T11:30:54.924Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "2c7445fc313dab6f",
+      "title": "OpenAI 发布面向青少年的 ChatGPT for Teens",
+      "url": "https://openai.com/index/chatgpt-for-teens/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-09-21T07:30:06.113Z",
+      "discoveredAt": "2026-08-19T00:41:01.283Z",
+      "originalTitle": "Chatgpt For Teens",
+      "score": 4,
+      "cn": "OpenAI 正式推出 ChatGPT for Teens，一个专为 13 至 18 岁青少年设计的对话 AI 版本。该版本在保留核心对话能力的同时，加入了更严格的内容过滤、家长监督选项和教育场景适配，旨在让年轻用户安全地使用 AI 辅助学习与创作。此举也标志着 OpenAI 在合规与年龄分层上的重要尝试。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -210,20 +224,6 @@
       "originalTitle": "Sora 2",
       "score": 5,
       "cn": "OpenAI 正式发布 Sora 2 Sora 2，这是其视频生成模型的最新版本，在视频时长、分辨率和物理模拟上均有提升。新模型生成更连贯的镜头运动与更细腻的人物表情，并支持视频编辑操作，为创意工作者提供生成式视频工具。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "2c7445fc313dab6f",
-      "title": "OpenAI 发布面向青少年的 ChatGPT for Teens",
-      "url": "https://openai.com/index/chatgpt-for-teens/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-09-18T17:55:46.761Z",
-      "discoveredAt": "2026-08-19T00:41:01.283Z",
-      "originalTitle": "Chatgpt For Teens",
-      "score": 4,
-      "cn": "OpenAI 正式推出 ChatGPT for Teens，一个专为 13 至 18 岁青少年设计的对话 AI 版本。该版本在保留核心对话能力的同时，加入了更严格的内容过滤、家长监督选项和教育场景适配，旨在让年轻用户安全地使用 AI 辅助学习与创作。此举也标志着 OpenAI 在合规与年龄分层上的重要尝试。"
     },
     {
       "source": "openai",
