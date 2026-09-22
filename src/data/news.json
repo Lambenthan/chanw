@@ -1,5 +1,19 @@
 [
 	{
+		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
+		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+		"source": "NVIDIA",
+		"date": "2026-09-22T16:23:28.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发起 Open Secure AI Alliance",
+		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+		"source": "NVIDIA",
+		"date": "2026-09-22T16:22:30.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Claude 推出 Build Artifacts 功能",
 		"url": "https://claude.com/blog/build-artifacts",
 		"source": "claude.com",
@@ -683,13 +697,6 @@
 		"url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
 		"source": "Anthropic News",
 		"date": "2026-09-10T16:29:36.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
-		"url": "https://www.anthropic.com/research/riemann-zeta",
-		"source": "Anthropic Research",
-		"date": "2026-09-10T13:15:27.000Z",
 		"group": "labs"
 	},
 	{
@@ -1624,24 +1631,17 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
-		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-		"source": "NVIDIA",
-		"date": "2026-09-02T22:14:32.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发起 Open Secure AI Alliance",
-		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-		"source": "NVIDIA",
-		"date": "2026-09-02T22:13:43.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude Code 创业公司指南",
 		"url": "https://claude.com/blog/claude-code-guide-for-startups",
 		"source": "claude.com",
 		"date": "2026-09-01T18:13:20.788Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
+		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+		"source": "Anthropic News",
+		"date": "2026-08-29T10:57:56.000Z",
 		"group": "labs"
 	},
 	{
@@ -1697,13 +1697,6 @@
 		"title": "Google 搜索 AI Mode 新增旅行规划与预订功能",
 		"url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
 		"source": "Google AI",
-		"date": "2026-08-27T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
-		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-		"source": "Anthropic News",
 		"date": "2026-08-27T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -1925,13 +1918,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude 5 的上下文工程新规则",
-		"url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-		"source": "claude.com",
-		"date": "2026-08-24T19:50:50.584Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude 推出 Enterprise Managed Auth 企业身份管理",
 		"url": "https://claude.com/blog/enterprise-managed-auth",
 		"source": "claude.com",
@@ -1988,22 +1974,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "Claude Code 发布基于 HTML 的编程方法论",
-		"url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
-		"source": "claude.com",
-		"date": "2026-08-20T18:52:27.790Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude Code 推出基于 Skills 的验证循环功能",
 		"url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
-		"source": "claude.com",
-		"date": "2026-08-20T18:52:27.790Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude Code 推出动态工作流功能",
-		"url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
 		"source": "claude.com",
 		"date": "2026-08-20T18:52:27.790Z",
 		"group": "labs"
@@ -2184,13 +2156,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布《Seeing Like An Agent》博客文章",
-		"url": "https://claude.com/blog/seeing-like-an-agent",
-		"source": "claude.com",
-		"date": "2026-08-13T20:38:14.822Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude Code 引入子代理功能",
 		"url": "https://claude.com/blog/subagents-in-claude-code",
 		"source": "claude.com",
@@ -2352,13 +2317,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "NVIDIA 开源 Magpie TTS 低延迟多语言语音模型",
-		"url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-10T16:25:36.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude Enterprise Inference Hooks",
 		"url": "https://claude.com/blog/claude-enterprise-inference-hooks",
 		"source": "claude.com",
@@ -2370,6 +2328,13 @@
 		"url": "https://claude.com/blog/auto-mode-default-in-claude-code",
 		"source": "claude.com",
 		"date": "2026-08-10T15:40:35.203Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
+		"url": "https://www.anthropic.com/research/riemann-zeta",
+		"source": "Anthropic Research",
+		"date": "2026-08-10T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -3136,13 +3101,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 分享 Claude Code 构建经验：Prompt Caching 至关重要",
-		"url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything",
-		"source": "claude.com",
-		"date": "2026-07-07T17:28:38.801Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 与 Hugging Face 开源机器人学习模型与框架",
 		"url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
 		"source": "NVIDIA",
@@ -3322,27 +3280,6 @@
 		"url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
 		"source": "NVIDIA",
 		"date": "2026-06-25T21:58:19.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 助力法国推动欧洲 AI 发展",
-		"url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
-		"source": "NVIDIA",
-		"date": "2026-06-24T19:02:48.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出 RTX AI Garage 本地运行 Gemma 与 Diffusion 模型",
-		"url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
-		"source": "NVIDIA",
-		"date": "2026-06-24T19:02:18.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 ICRA 发布机器人仿真到现实世界研究成果",
-		"url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
-		"source": "NVIDIA",
-		"date": "2026-06-24T19:01:01.000Z",
 		"group": "labs"
 	}
 ]
