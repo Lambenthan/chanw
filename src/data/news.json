@@ -2373,13 +2373,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 提出高效知识蒸馏方法",
-		"url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-10T10:05:36.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude 推出 Auto Mode 生产环境功能",
 		"url": "https://claude.com/blog/auto-mode-in-production",
 		"source": "claude.com",
