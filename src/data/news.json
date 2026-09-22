@@ -3358,19 +3358,5 @@
 		"source": "NVIDIA",
 		"date": "2026-06-24T19:01:01.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 AWS 合作扩大 AI 生产规模",
-		"url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
-		"source": "NVIDIA",
-		"date": "2026-06-24T00:05:37.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 为 Gemini 3.5 Flash 引入计算机使用能力",
-		"url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-		"source": "DeepMind",
-		"date": "2026-06-24T00:00:00.000Z",
-		"group": "labs"
 	}
 ]

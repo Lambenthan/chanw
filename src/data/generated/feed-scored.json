@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T21:27:45.630Z",
+  "fetchedAt": "2026-09-22T02:30:38.541Z",
   "items": [
     {
       "source": "openai",
@@ -9,11 +9,25 @@
       "url": "https://openai.com/index/new-chatgpt-images-is-here/",
       "summary": "",
       "category": "图像模型",
-      "publishedAt": "2026-09-21T21:23:44.859Z",
+      "publishedAt": "2026-09-22T01:51:15.565Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "New Chatgpt Images Is Here",
       "score": 5,
       "cn": "OpenAI 更新了 ChatGPT 内置的图像生成模型，在构图、文字渲染和风格一致性方面有明显提升。用户可以直接在对话中生成更精准的视觉内容，无需额外工具或提示词工程。这一更新让 ChatGPT 的多模态能力更贴近日常创作场景，使用门槛进一步降低。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "5ab7ff86510c59d7",
+      "title": "OpenAI 发布 4o 图像生成模型",
+      "url": "https://openai.com/index/introducing-4o-image-generation/",
+      "summary": "",
+      "category": "图像模型",
+      "publishedAt": "2026-09-21T22:24:31.355Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing 4o Image Generation",
+      "score": 5,
+      "cn": "OpenAI 将图像生成能力直接集成到 GPT-4o 多模态框架中，推出 4o 图像生成模型。该模型支持高分辨率输出，能根据自然语言指令控制构图、色彩和细节，并保持风格一致与上下文感知。相比前代，4o 在视觉质量、指令遵循和推理能力上有所提升，可用于创意设计、内容制作和视觉叙事等场景。"
     },
     {
       "source": "openai",
@@ -336,20 +350,6 @@
       "originalTitle": "Introducing Gpt Live",
       "score": 5,
       "cn": "OpenAI 推出 GPT Live，将对话式 AI 推向实时交互新阶段。用户可与 GPT 模型进行低延迟、自然流畅的语音或文本对话，无需等待完整回复生成。这一更新直接提升了 ChatGPT 的即时响应能力，为客服、教育、创作等场景带来更接近真人交流的体验。GPT Live 的发布标志着 OpenAI 在实时 AI 交互领域的重要布局。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "5ab7ff86510c59d7",
-      "title": "OpenAI 发布 4o 图像生成模型",
-      "url": "https://openai.com/index/introducing-4o-image-generation/",
-      "summary": "",
-      "category": "图像模型",
-      "publishedAt": "2026-09-18T17:55:41.832Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing 4o Image Generation",
-      "score": 5,
-      "cn": "OpenAI 将图像生成能力直接集成到 GPT-4o 多模态框架中，推出 4o 图像生成模型。该模型支持高分辨率输出，能根据自然语言指令控制构图、色彩和细节，并保持风格一致与上下文感知。相比前代，4o 在视觉质量、指令遵循和推理能力上有所提升，可用于创意设计、内容制作和视觉叙事等场景。"
     },
     {
       "source": "openai",
