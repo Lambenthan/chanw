@@ -2380,13 +2380,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Meta 发布 Muse Glimmer 多模态 Agent 模型",
-		"url": "https://huggingface.co/blog/muse-glimmer",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Claude 推出 Auto Mode 生产环境功能",
 		"url": "https://claude.com/blog/auto-mode-in-production",
 		"source": "claude.com",
