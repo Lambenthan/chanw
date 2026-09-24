@@ -3274,12 +3274,5 @@
 		"source": "OpenAI",
 		"date": "2026-06-26T10:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Blackwell 在 MLPerf Training 6.0 中的训练基准成绩",
-		"url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
-		"source": "NVIDIA",
-		"date": "2026-06-25T21:58:19.000Z",
-		"group": "labs"
 	}
 ]
