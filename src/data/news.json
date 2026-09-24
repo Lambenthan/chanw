@@ -3239,33 +3239,5 @@
 		"source": "NVIDIA",
 		"date": "2026-06-26T18:39:12.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布生物学 agent 研究进展",
-		"url": "https://www.anthropic.com/research/agents-in-biology",
-		"source": "Anthropic Research",
-		"date": "2026-06-26T12:35:41.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 让 Claude 具备化学推理与实验能力",
-		"url": "https://www.anthropic.com/research/making-claude-a-chemist",
-		"source": "Anthropic Research",
-		"date": "2026-06-26T12:35:06.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Project Fetch 第二阶段",
-		"url": "https://www.anthropic.com/research/project-fetch-phase-two",
-		"source": "Anthropic Research",
-		"date": "2026-06-26T12:28:05.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 在首尔开设办公室并宣布韩国 AI 生态合作",
-		"url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-		"source": "Anthropic News",
-		"date": "2026-06-26T12:27:32.000Z",
-		"group": "labs"
 	}
 ]
