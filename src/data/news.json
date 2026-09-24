@@ -3267,12 +3267,5 @@
 		"source": "Anthropic News",
 		"date": "2026-06-26T12:27:32.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布 GPT Live",
-		"url": "https://openai.com/index/introducing-gpt-live/",
-		"source": "OpenAI",
-		"date": "2026-06-26T10:00:00.000Z",
-		"group": "labs"
 	}
 ]
