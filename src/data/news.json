@@ -3218,12 +3218,5 @@
 		"source": "DeepMind",
 		"date": "2026-06-30T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 将 Claude 接入 Microsoft Foundry 平台",
-		"url": "https://claude.com/blog/claude-in-microsoft-foundry",
-		"source": "claude.com",
-		"date": "2026-06-29T19:08:50.737Z",
-		"group": "labs"
 	}
 ]
