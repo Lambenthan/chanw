@@ -3183,12 +3183,5 @@
 		"source": "NVIDIA",
 		"date": "2026-07-01T16:41:18.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Claude Science BioNeMo Agent Toolkit",
-		"url": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
-		"source": "NVIDIA",
-		"date": "2026-06-30T17:01:08.000Z",
-		"group": "labs"
 	}
 ]
