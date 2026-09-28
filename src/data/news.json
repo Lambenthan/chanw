@@ -3190,33 +3190,5 @@
 		"source": "NVIDIA",
 		"date": "2026-06-30T17:01:08.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Claude Apps Gateway",
-		"url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-		"source": "claude.com",
-		"date": "2026-06-30T01:40:07.419Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude 公布 Opus 4.8 黑客马拉松获奖项目",
-		"url": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
-		"source": "claude.com",
-		"date": "2026-06-30T01:40:07.419Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布分离信号与噪声的编码评估方法",
-		"url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
-		"source": "OpenAI",
-		"date": "2026-06-30T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-		"url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-		"source": "DeepMind",
-		"date": "2026-06-30T00:00:00.000Z",
-		"group": "labs"
 	}
 ]
