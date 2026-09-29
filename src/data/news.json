@@ -1,5 +1,180 @@
 [
 	{
+		"title": "Elasticsearch 更新：分布式 RESTful 搜索引擎",
+		"url": "https://github.com/elastic/elasticsearch",
+		"source": "GitHub Trending",
+		"date": "2026-09-29T11:48:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "Stably AI 开源 Orca 并行 agent 开发环境",
+		"url": "https://github.com/stablyai/orca",
+		"source": "GitHub Trending",
+		"date": "2026-09-29T11:48:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "Univer 发布面向 AI agent 的办公套件",
+		"url": "https://github.com/dream-num/univer",
+		"source": "GitHub Trending",
+		"date": "2026-09-29T11:45:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯开源 WeKnora 知识平台，支持 RAG 与自主推理",
+		"url": "https://github.com/Tencent/WeKnora",
+		"source": "GitHub Trending",
+		"date": "2026-09-29T11:32:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "腾讯云发布 Octop 自托管 AI 助手，支持多用户与多 agent",
+		"url": "https://github.com/TencentCloud/Octop",
+		"source": "GitHub Trending",
+		"date": "2026-09-29T11:21:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "paperclipai 开源 Paperclip 应用，用于管理 agent",
+		"url": "https://github.com/paperclipai/paperclip",
+		"source": "GitHub Trending",
+		"date": "2026-09-29T09:50:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "t8y2/dbx 发布 25MB 轻量级跨平台数据库客户端",
+		"url": "https://github.com/t8y2/dbx",
+		"source": "GitHub Trending",
+		"date": "2026-09-29T09:39:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "FxEmbed/FxEmbed · Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Disco",
+		"url": "https://github.com/FxEmbed/FxEmbed",
+		"source": "GitHub Trending",
+		"date": "2026-09-29T06:57:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "rohitg00 开源 AI 工程从零开始学习项目",
+		"url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+		"source": "GitHub Trending",
+		"date": "2026-09-29T06:24:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布 AI Native SDLC Playbook",
+		"url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+		"source": "claude.com",
+		"date": "2026-09-28T17:59:37.748Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 Infosys 达成合作",
+		"url": "https://www.anthropic.com/news/anthropic-infosys",
+		"source": "Anthropic News",
+		"date": "2026-09-28T03:20:50.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
+		"url": "https://www.anthropic.com/research/riemann-zeta",
+		"source": "Anthropic Research",
+		"date": "2026-09-26T16:02:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Opus 5.5",
+		"url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+		"source": "claude.com",
+		"date": "2026-09-25T16:36:39.698Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude Tag 支持在频道中使用个人连接器",
+		"url": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+		"source": "claude.com",
+		"date": "2026-09-25T16:36:39.698Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 九循环能力研究",
+		"url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+		"source": "Anthropic Research",
+		"date": "2026-09-25T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 将 Claude Code 带到网页端",
+		"url": "https://claude.com/blog/claude-code-on-the-web",
+		"source": "claude.com",
+		"date": "2026-09-24T15:08:18.776Z",
+		"group": "labs"
+	},
+	{
+		"title": "Liquid AI 发布 LFM2.5-VL-DSpark 加速视觉语言模型",
+		"url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-24T14:08:57.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 发布 Gemini 3.8 Live 与 Live Avatar",
+		"url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+		"source": "DeepMind",
+		"date": "2026-09-24T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 将 Cowork 更名为 Claude",
+		"url": "https://claude.com/blog/cowork-is-now-claude",
+		"source": "claude.com",
+		"date": "2026-09-23T18:44:33.773Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 为 Private AI Compute 引入服务端私有内存",
+		"url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+		"source": "DeepMind",
+		"date": "2026-09-23T16:00:57.674Z",
+		"group": "labs"
+	},
+	{
+		"title": "Ringg 上线基于 GPT-5.6 的多语言客服 agent",
+		"url": "https://openai.com/index/ringg",
+		"source": "OpenAI",
+		"date": "2026-09-23T16:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 发布 Gemini 3.8 文本转语音模型",
+		"url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+		"source": "DeepMind",
+		"date": "2026-09-23T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 的 Claude 发现新型酶系统",
+		"url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+		"source": "Anthropic News",
+		"date": "2026-09-23T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-6 Sol 和 Luna",
+		"url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+		"source": "OpenAI",
+		"date": "2026-09-22T21:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 平台推出成本优化与性能改进方案",
+		"url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+		"source": "claude.com",
+		"date": "2026-09-22T16:35:00.801Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 向 Open Secure AI Alliance 贡献安全工具",
 		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
 		"source": "NVIDIA",
@@ -11,6 +186,55 @@
 		"url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
 		"source": "NVIDIA",
 		"date": "2026-09-22T16:22:30.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Balyasny 资产管理评估并治理 Claude Fable 5",
+		"url": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+		"source": "claude.com",
+		"date": "2026-09-22T15:46:33.622Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布金融服务项目 financial-services",
+		"url": "https://github.com/anthropics/financial-services",
+		"source": "GitHub Trending",
+		"date": "2026-09-21T21:10:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 Physical AI Halos 安全方案",
+		"url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+		"source": "NVIDIA",
+		"date": "2026-09-21T16:06:14.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 AI Security Agent Stack",
+		"url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+		"source": "NVIDIA",
+		"date": "2026-09-21T14:53:35.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 Vera Rubin NVL72 MLPerf 推理基准测试结果",
+		"url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+		"source": "NVIDIA",
+		"date": "2026-09-18T20:12:59.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 Accenture 合作嵌入式评测",
+		"url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+		"source": "Anthropic News",
+		"date": "2026-09-18T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布对齐评估与网络安全事件研究",
+		"url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+		"source": "Anthropic Research",
+		"date": "2026-09-17T23:46:13.000Z",
 		"group": "labs"
 	},
 	{
@@ -140,6 +364,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "Google 与联合国推出 UN System Data Commons 开放数据平台",
+		"url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+		"source": "Google AI",
+		"date": "2026-09-17T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布研究：Claude 提升生物分子建模能力",
+		"url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+		"source": "Anthropic Research",
+		"date": "2026-09-17T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 在 IAA Mobility 展示 AI 定义汽车",
 		"url": "https://blogs.nvidia.com/blog/iaa-mobility-ai-defined-vehicles/",
 		"source": "NVIDIA",
@@ -165,6 +403,13 @@
 		"url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
 		"source": "claude.com",
 		"date": "2026-09-16T21:24:41.363Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 在 AI 基础设施峰会上发布 Vera Rubin 架构与 DSX 能效方案",
+		"url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+		"source": "NVIDIA",
+		"date": "2026-09-16T18:57:45.000Z",
 		"group": "labs"
 	},
 	{
@@ -221,13 +466,6 @@
 		"url": "https://claude.com/blog/deploying-claude-across-financial-services",
 		"source": "claude.com",
 		"date": "2026-09-16T16:31:14.614Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 将 Claude Code 带到网页端",
-		"url": "https://claude.com/blog/claude-code-on-the-web",
-		"source": "claude.com",
-		"date": "2026-09-16T03:35:22.368Z",
 		"group": "labs"
 	},
 	{
@@ -315,10 +553,52 @@
 		"group": "labs"
 	},
 	{
+		"title": "IBM 研究提出 agent 任务一致性评估方法",
+		"url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-15T16:00:44.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布 Alpamayo 2 Super 开源模型",
 		"url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
 		"source": "NVIDIA",
 		"date": "2026-09-15T13:20:11.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 与索尼合作推出 AI DGX SuperPod",
+		"url": "https://blogs.nvidia.com/blog/sony-ai-dgx-superpod/",
+		"source": "NVIDIA",
+		"date": "2026-09-15T06:48:49.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+		"url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+		"source": "DeepMind",
+		"date": "2026-09-15T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Cloudflare 发布 security-audit-skill 多阶段安全审计技能",
+		"url": "https://github.com/cloudflare/security-audit-skill",
+		"source": "GitHub Trending",
+		"date": "2026-09-14T19:29:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 介绍医疗组织如何应用 Claude Tag",
+		"url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
+		"source": "claude.com",
+		"date": "2026-09-14T19:12:47.301Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 在 Windows PC 上推出本地 AI 服务",
+		"url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+		"source": "NVIDIA",
+		"date": "2026-09-14T15:00:52.000Z",
 		"group": "labs"
 	},
 	{
@@ -403,6 +683,13 @@
 		"url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
 		"source": "Anthropic News",
 		"date": "2026-09-10T19:44:33.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 形式化证明费马大定理",
+		"url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+		"source": "Anthropic Research",
+		"date": "2026-09-10T19:05:29.000Z",
 		"group": "labs"
 	},
 	{
@@ -700,6 +987,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "Hugging Face 发布异步 GRPO 与 LoRA 跨 HF 作业训练方法",
+		"url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 用 Gradio Workflow 重建 AUTOMATIC1111",
+		"url": "https://huggingface.co/blog/gradio-workflow-1111",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-10T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Bloom",
 		"url": "https://www.anthropic.com/research/bloom",
 		"source": "Anthropic Research",
@@ -886,13 +1187,6 @@
 		"url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
 		"source": "Anthropic News",
 		"date": "2026-09-09T21:21:11.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 与 Infosys 达成合作",
-		"url": "https://www.anthropic.com/news/anthropic-infosys",
-		"source": "Anthropic News",
-		"date": "2026-09-09T21:20:06.000Z",
 		"group": "labs"
 	},
 	{
@@ -1316,6 +1610,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Introducing Astra for Law",
+		"url": "https://openai.com/index/astra-for-law",
+		"source": "OpenAI",
+		"date": "2026-09-09T17:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 测评 LLM 开发漏洞利用的能力",
 		"url": "https://www.anthropic.com/research/exploit-evals",
 		"source": "Anthropic Research",
@@ -1484,13 +1785,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
-		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-		"source": "Anthropic Research",
-		"date": "2026-09-09T14:56:38.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude Opus 4.6 金融版",
 		"url": "https://claude.com/blog/opus-4-6-finance",
 		"source": "claude.com",
@@ -1631,6 +1925,97 @@
 		"group": "labs"
 	},
 	{
+		"title": "DeepMind 发布 AlphaGenome Atlas 人类基因组 DNA 变异预测图谱",
+		"url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+		"source": "DeepMind",
+		"date": "2026-09-08T14:00:15.406Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 Mentalhealthbench 心理健康评测基准",
+		"url": "https://openai.com/index/introducing-mentalhealthbench/",
+		"source": "OpenAI",
+		"date": "2026-09-08T10:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 提出 Navier-Stokes 方程解",
+		"url": "https://openai.com/index/navier-stokes-solution/",
+		"source": "OpenAI",
+		"date": "2026-09-06T09:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布工人再培训计划证据回顾报告",
+		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+		"source": "Anthropic Research",
+		"date": "2026-09-04T14:19:31.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hcompany 发布 NeoMME 多模态多语言编码器",
+		"url": "https://huggingface.co/blog/Hcompany/neomme",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-03T13:13:48.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 发布 WeatherNext 3 全球天气 AI 模型",
+		"url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+		"source": "DeepMind",
+		"date": "2026-09-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 发布 100 步 GRPO 微调 350M 模型方法",
+		"url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 用 TRL 和 OpenEnv 训练代码模型绘制水彩画",
+		"url": "https://huggingface.co/blog/train-to-paint-with-code",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 推出 Commerce Agents 电商智能体功能",
+		"url": "https://claude.com/blog/claude-for-commerce-agents",
+		"source": "claude.com",
+		"date": "2026-09-02T16:05:27.594Z",
+		"group": "labs"
+	},
+	{
+		"title": "Claude 博客解析高效商务 Agent 的设计构成",
+		"url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+		"source": "claude.com",
+		"date": "2026-09-02T16:03:34.891Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 推出面向政府与企业的主动式网络防御方案",
+		"url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+		"source": "DeepMind",
+		"date": "2026-09-02T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 发布 Gemini 3.8 Flash 和 3.8 Flash Cyber",
+		"url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+		"source": "DeepMind",
+		"date": "2026-09-02T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google 推出 Fairwind 项目，为政府和企业提供主动网络防御",
+		"url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+		"source": "Google AI",
+		"date": "2026-09-02T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Claude Code 创业公司指南",
 		"url": "https://claude.com/blog/claude-code-guide-for-startups",
 		"source": "claude.com",
@@ -1638,10 +2023,31 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
-		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+		"title": "Anthropic 面向学校和学区上线 Claude for Teachers",
+		"url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+		"source": "claude.com",
+		"date": "2026-09-01T18:13:20.788Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 推出 Gemini agentic 视频理解能力",
+		"url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+		"source": "DeepMind",
+		"date": "2026-09-01T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Hugging Face 发布 @huggingface/kernels 包含 200+ WebGPU 内核",
+		"url": "https://huggingface.co/blog/webgpu-kernels",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-01T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 改进对齐与安全措施",
+		"url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
 		"source": "Anthropic News",
-		"date": "2026-08-29T10:57:56.000Z",
+		"date": "2026-08-31T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -1701,6 +2107,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
+		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+		"source": "Anthropic News",
+		"date": "2026-08-27T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 扩大对科学家的支持",
 		"url": "https://www.anthropic.com/news/expanding-support-for-scientists",
 		"source": "Anthropic News",
@@ -1733,13 +2146,6 @@
 		"url": "https://www.anthropic.com/news/lawrence-livermore-national-laboratory-expands-claude-for-enterprise-to-empower-scientists-and",
 		"source": "Anthropic News",
 		"date": "2026-08-26T20:52:11.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI Native SDLC Playbook",
-		"url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
-		"source": "claude.com",
-		"date": "2026-08-26T20:46:51.070Z",
 		"group": "labs"
 	},
 	{
@@ -1803,6 +2209,13 @@
 		"url": "https://www.anthropic.com/news/accenture-aws-anthropic",
 		"source": "Anthropic News",
 		"date": "2026-08-26T18:21:30.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 公布 Astra 路线图",
+		"url": "https://openai.com/index/path-to-astra/",
+		"source": "OpenAI",
+		"date": "2026-08-26T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2086,6 +2499,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
+		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+		"source": "Anthropic Research",
+		"date": "2026-08-18T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Hugging Face 为 Sentence Transformers 添加多向量嵌入模型支持",
 		"url": "https://huggingface.co/blog/multi-vector-encoder",
 		"source": "Hugging Face Blog",
@@ -2226,23 +2646,9 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google Sheets 推出 Sheets canvas 交互式仪表盘功能",
-		"url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-		"source": "Google AI",
-		"date": "2026-08-13T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布多智能体系统模式与问题研究",
 		"url": "https://www.anthropic.com/research/multiagent-systems",
 		"source": "Anthropic Research",
-		"date": "2026-08-13T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 分享复现 2,200 篇 ICML 论文的经验",
-		"url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-		"source": "Hugging Face Blog",
 		"date": "2026-08-13T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2251,13 +2657,6 @@
 		"url": "https://claude.com/blog/cowork-chrome-side-panel",
 		"source": "claude.com",
 		"date": "2026-08-12T20:12:08.454Z",
-		"group": "labs"
-	},
-	{
-		"title": "Allen AI 推出 OlmoEarth 嵌入自定义导出功能",
-		"url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-12T16:14:36.000Z",
 		"group": "labs"
 	},
 	{
@@ -2289,20 +2688,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布工人再培训计划证据回顾报告",
-		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-		"source": "Anthropic Research",
-		"date": "2026-08-12T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "IBM Research 发布 ALTK-Evolve 方法以优化 token 效率",
-		"url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-11T13:37:10.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 在亚美尼亚建设 Firebird AI 工厂，采用 Blackwell 与 Rubin 架构",
 		"url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
 		"source": "NVIDIA",
@@ -2328,13 +2713,6 @@
 		"url": "https://claude.com/blog/auto-mode-default-in-claude-code",
 		"source": "claude.com",
 		"date": "2026-08-10T15:40:35.203Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
-		"url": "https://www.anthropic.com/research/riemann-zeta",
-		"source": "Anthropic Research",
-		"date": "2026-08-10T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2959,6 +3337,13 @@
 		"source": "Anthropic News",
 		"date": "2026-07-09T20:02:16.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "reclip 开源轻量自托管视频下载工具",
+		"url": "https://github.com/averygan/reclip",
+		"source": "GitHub Trending",
+		"date": "2026-07-09T17:49:44Z",
+		"group": "gh"
 	},
 	{
 		"title": "Anthropic 邀请公众提出 AI 相关难题",
