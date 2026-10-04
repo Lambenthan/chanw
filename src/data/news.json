@@ -3764,33 +3764,5 @@
 		"source": "Anthropic News",
 		"date": "2026-07-06T23:32:01.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Agent SDK",
-		"url": "https://claude.com/blog/building-agents-with-the-claude-agent-sdk",
-		"source": "claude.com",
-		"date": "2026-07-06T19:47:13.561Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 分享 Claude Code 在大型代码库中的最佳实践",
-		"url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
-		"source": "claude.com",
-		"date": "2026-07-06T19:47:13.561Z",
-		"group": "labs"
-	},
-	{
-		"title": "Claude 分享工程组织内规模化 agentic coding 的实践指南",
-		"url": "https://claude.com/blog/scaling-agentic-coding",
-		"source": "claude.com",
-		"date": "2026-07-06T19:47:13.561Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 实现推理软件最低 token 成本",
-		"url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
-		"source": "NVIDIA",
-		"date": "2026-07-06T16:40:49.000Z",
-		"group": "labs"
 	}
 ]
