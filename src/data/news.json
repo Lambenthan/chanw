@@ -3757,12 +3757,5 @@
 		"source": "NVIDIA",
 		"date": "2026-07-07T17:16:02.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 为 Claude 构建安全防护措施",
-		"url": "https://www.anthropic.com/news/building-safeguards-for-claude",
-		"source": "Anthropic News",
-		"date": "2026-07-06T23:32:01.000Z",
-		"group": "labs"
 	}
 ]
