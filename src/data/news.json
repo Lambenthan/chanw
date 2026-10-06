@@ -3750,12 +3750,5 @@
 		"source": "NVIDIA",
 		"date": "2026-07-08T15:00:27.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 Hugging Face 开源机器人学习模型与框架",
-		"url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
-		"source": "NVIDIA",
-		"date": "2026-07-07T17:16:02.000Z",
-		"group": "labs"
 	}
 ]
