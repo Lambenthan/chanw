@@ -1,52 +1,115 @@
 [
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
+		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
+		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
-		"date": "2026-10-07T12:21:16Z",
+		"date": "2026-10-07T22:28:32Z",
 		"group": "gh"
 	},
 	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-07T12:19:42Z",
+		"date": "2026-10-07T22:27:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "trycua 开源 cua：跨操作系统计算机使用 2.0 驱动与基准",
+		"url": "https://github.com/trycua/cua",
+		"source": "GitHub Trending",
+		"date": "2026-10-07T22:27:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 OpenShell 安全私有运行时",
 		"url": "https://github.com/NVIDIA/OpenShell",
 		"source": "GitHub Trending",
-		"date": "2026-10-07T12:15:09Z",
+		"date": "2026-10-07T22:21:02Z",
 		"group": "gh"
 	},
 	{
 		"title": "mvschwarz 开源 openrig agent 网络框架",
 		"url": "https://github.com/mvschwarz/openrig",
 		"source": "GitHub Trending",
-		"date": "2026-10-07T12:06:55Z",
+		"date": "2026-10-07T22:17:16Z",
 		"group": "gh"
 	},
 	{
 		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
 		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-07T11:58:55Z",
+		"date": "2026-10-07T22:10:40Z",
 		"group": "gh"
 	},
 	{
-		"title": "TileLang 开源 GPU/CPU/加速器内核开发领域专用语言",
-		"url": "https://github.com/tile-ai/tilelang",
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
 		"source": "GitHub Trending",
-		"date": "2026-10-07T11:46:26Z",
+		"date": "2026-10-07T22:02:35Z",
+		"group": "gh"
+	},
+	{
+		"title": "EpicGames 开源 raddebugger 原生多进程图形调试器",
+		"url": "https://github.com/EpicGames/raddebugger",
+		"source": "GitHub Trending",
+		"date": "2026-10-07T20:56:17Z",
 		"group": "gh"
 	},
 	{
 		"title": "mattpocock 开源 .agents 目录下的工程师技能集",
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
-		"date": "2026-10-07T10:23:10Z",
+		"date": "2026-10-07T18:55:04Z",
 		"group": "gh"
+	},
+	{
+		"title": "Liquid AI 开源多模态决策模型 open-d1",
+		"url": "https://huggingface.co/blog/LiquidAI/open-d1",
+		"source": "Hugging Face Blog",
+		"date": "2026-10-07T16:54:33.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "openGym 开源自托管健身与体重追踪器",
+		"url": "https://github.com/DuarteSantos8/openGym",
+		"source": "GitHub Trending",
+		"date": "2026-10-07T16:48:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 与 HPE 合作推出 AI Factory Agentic Enterprise",
+		"url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+		"source": "NVIDIA",
+		"date": "2026-10-07T16:14:12.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "TileLang 开源 GPU/CPU/加速器内核开发领域专用语言",
+		"url": "https://github.com/tile-ai/tilelang",
+		"source": "GitHub Trending",
+		"date": "2026-10-07T13:19:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 微调 Nemotron 在 IOI 和 IMO 竞赛中取得金牌级结果",
+		"url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+		"source": "Hugging Face Blog",
+		"date": "2026-10-07T12:45:31.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布 GPT-6 并面向所有用户开放",
+		"url": "https://openai.com/index/gpt-6-for-everyone/",
+		"source": "OpenAI",
+		"date": "2026-10-07T12:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布用户 AI 观点调研",
+		"url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+		"source": "Anthropic Research",
+		"date": "2026-10-07T08:54:50.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Cursor 发布插件规范与官方插件",
@@ -63,24 +126,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "EpicGames 开源 raddebugger 原生多进程图形调试器",
-		"url": "https://github.com/EpicGames/raddebugger",
-		"source": "GitHub Trending",
-		"date": "2026-10-07T00:11:02Z",
-		"group": "gh"
-	},
-	{
 		"title": "i-have-adhd 开源 coding agent 技能，避免答案被埋没",
 		"url": "https://github.com/ayghri/i-have-adhd",
 		"source": "GitHub Trending",
 		"date": "2026-10-06T23:23:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-10-06T16:12:51Z",
 		"group": "gh"
 	},
 	{
@@ -95,20 +144,6 @@
 		"url": "https://openai.com/index/advancing-computer-use-with-ironclad",
 		"source": "OpenAI",
 		"date": "2026-10-06T12:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "openGym 开源自托管健身与体重追踪器",
-		"url": "https://github.com/DuarteSantos8/openGym",
-		"source": "GitHub Trending",
-		"date": "2026-10-06T09:42:32Z",
-		"group": "gh"
-	},
-	{
-		"title": "TII UAE 发布 Falcon-Emirati 方言文化大语言模型",
-		"url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-		"source": "Hugging Face Blog",
-		"date": "2026-10-06T06:44:39.000Z",
 		"group": "labs"
 	},
 	{
@@ -131,6 +166,13 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-10-03T22:56:48.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
+		"url": "https://github.com/addyosmani/agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-10-03T18:21:11Z",
+		"group": "gh"
 	},
 	{
 		"title": "Allen AI 开源 AstaBrief 快速报告生成模型",
@@ -214,13 +256,6 @@
 		"url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
 		"source": "NVIDIA",
 		"date": "2026-09-29T16:29:25.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Kumo Tabular 表格预测模型",
-		"url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-29T15:30:38.000Z",
 		"group": "labs"
 	},
 	{
@@ -308,13 +343,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Liquid AI 发布 LFM2.5-VL-DSpark 加速视觉语言模型",
-		"url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-24T14:08:57.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 发布 Gemini 3.8 Live 与 Live Avatar",
 		"url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
 		"source": "DeepMind",
@@ -326,20 +354,6 @@
 		"url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
 		"source": "DeepMind",
 		"date": "2026-09-23T16:00:57.674Z",
-		"group": "labs"
-	},
-	{
-		"title": "Ringg 上线基于 GPT-5.6 的多语言客服 agent",
-		"url": "https://openai.com/index/ringg",
-		"source": "OpenAI",
-		"date": "2026-09-23T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "invideo 利用 GPT-6 Astra 将调色效率提升 3 倍",
-		"url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-		"source": "OpenAI",
-		"date": "2026-09-23T16:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2030,6 +2044,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 推出 Grok Bot 企业版",
+		"url": "https://x.ai/news/grok-bot-for-enterprise",
+		"source": "xAI",
+		"date": "2026-09-03T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 推出面向政府与企业的主动式网络防御方案",
 		"url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
 		"source": "DeepMind",
@@ -2377,6 +2398,13 @@
 		"url": "https://huggingface.co/blog/pwc-search",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-21T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Liquid AI 发布 LFM2.5-DSpark，推理速度提升 3.2 倍",
+		"url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+		"source": "Hugging Face Blog",
+		"date": "2026-08-20T16:52:57.000Z",
 		"group": "labs"
 	},
 	{
@@ -2951,27 +2979,6 @@
 		"url": "https://www.anthropic.com/research/global-workspace",
 		"source": "Anthropic Research",
 		"date": "2026-07-13T12:08:40.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Golden Gate Claude",
-		"url": "https://www.anthropic.com/news/golden-gate-claude",
-		"source": "Anthropic News",
-		"date": "2026-07-09T20:02:16.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 邀请公众提出 AI 相关难题",
-		"url": "https://www.anthropic.com/news/hard-questions",
-		"source": "Anthropic News",
-		"date": "2026-07-09T17:28:23.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 DTW Ignite 2026 发布电信 AI Agents",
-		"url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
-		"source": "NVIDIA",
-		"date": "2026-07-09T16:15:43.000Z",
 		"group": "labs"
 	}
 ]
