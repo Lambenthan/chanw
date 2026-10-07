@@ -1,23 +1,51 @@
 [
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
+		"title": "morluto 开源 rea agent 逆向工程框架",
+		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-06T22:03:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "NVIDIA 发布 OpenShell 安全私有运行时",
-		"url": "https://github.com/NVIDIA/OpenShell",
-		"source": "GitHub Trending",
-		"date": "2026-10-06T22:01:33Z",
+		"date": "2026-10-07T03:24:30Z",
 		"group": "gh"
 	},
 	{
 		"title": "pbakaus 开源 Impeccable 设计语言，提升 AI 设计能力",
 		"url": "https://github.com/pbakaus/impeccable",
 		"source": "GitHub Trending",
-		"date": "2026-10-06T21:58:33Z",
+		"date": "2026-10-07T03:09:14Z",
+		"group": "gh"
+	},
+	{
+		"title": "mvschwarz 开源 openrig agent 网络框架",
+		"url": "https://github.com/mvschwarz/openrig",
+		"source": "GitHub Trending",
+		"date": "2026-10-07T03:07:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-07T02:31:12Z",
+		"group": "gh"
+	},
+	{
+		"title": "NVIDIA 发布 OpenShell 安全私有运行时",
+		"url": "https://github.com/NVIDIA/OpenShell",
+		"source": "GitHub Trending",
+		"date": "2026-10-07T00:59:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "claude-mem 开源 agent 跨会话持久上下文工具",
+		"url": "https://github.com/thedotmack/claude-mem",
+		"source": "GitHub Trending",
+		"date": "2026-10-07T00:57:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "i-have-adhd 开源 coding agent 技能，避免答案被埋没",
+		"url": "https://github.com/ayghri/i-have-adhd",
+		"source": "GitHub Trending",
+		"date": "2026-10-06T23:23:46Z",
 		"group": "gh"
 	},
 	{
@@ -25,13 +53,6 @@
 		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
 		"date": "2026-10-06T21:40:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "morluto 开源 rea agent 逆向工程框架",
-		"url": "https://github.com/morluto/rea",
-		"source": "GitHub Trending",
-		"date": "2026-10-06T21:25:19Z",
 		"group": "gh"
 	},
 	{
@@ -53,6 +74,13 @@
 		"url": "https://github.com/msitarzewski/agency-agents",
 		"source": "GitHub Trending",
 		"date": "2026-10-06T17:53:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "byoungd 开源中英双语终身学习指南",
+		"url": "https://github.com/byoungd/up",
+		"source": "GitHub Trending",
+		"date": "2026-10-06T16:59:17Z",
 		"group": "gh"
 	},
 	{
@@ -95,6 +123,13 @@
 		"url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
 		"source": "DeepMind",
 		"date": "2026-10-06T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布 DGX Spark 64GB 本地 AI 设备",
+		"url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+		"source": "NVIDIA",
+		"date": "2026-10-05T19:28:28.000Z",
 		"group": "labs"
 	},
 	{
@@ -343,6 +378,27 @@
 		"group": "labs"
 	},
 	{
+		"title": "Hugging Face Transformers 支持 llama.cpp 量化模型",
+		"url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "SpaceXAI 用 Grok Bot 扩展客户支持",
+		"url": "https://x.ai/news/grok-bot-customer-support",
+		"source": "xAI",
+		"date": "2026-09-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "UK AISI 与 EvalEval 合作提升基准测试结果可复现性",
+		"url": "https://huggingface.co/blog/evaleval-aisi",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 推出 DSX Ready AI Factories 电源冷却解决方案",
 		"url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
 		"source": "NVIDIA",
@@ -362,13 +418,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-09-21T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "i-have-adhd 开源 coding agent 技能，避免答案被埋没",
-		"url": "https://github.com/ayghri/i-have-adhd",
-		"source": "GitHub Trending",
-		"date": "2026-09-19T16:44:46Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 Vera Rubin NVL72 MLPerf 推理基准测试结果",
@@ -557,6 +606,13 @@
 		"url": "https://blogs.nvidia.com/blog/openusd-digital-twins-industrial-physical-ai/",
 		"source": "NVIDIA",
 		"date": "2026-09-15T20:22:07.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 探讨从兆瓦到 token 的 AI 工厂效率优化",
+		"url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+		"source": "NVIDIA",
+		"date": "2026-09-15T16:55:59.000Z",
 		"group": "labs"
 	},
 	{
@@ -1883,6 +1939,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 将 Grok Bot 应用于采购流程",
+		"url": "https://x.ai/news/grok-bot-procurement",
+		"source": "xAI",
+		"date": "2026-09-04T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 披露一起协调模型蒸馏攻击并加强防御",
 		"url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
 		"source": "OpenAI",
@@ -2263,6 +2326,13 @@
 	{
 		"title": "xAI 将 Grok Build 扩展到 Web 和移动端",
 		"url": "https://x.ai/news/grok-build-for-everyone",
+		"source": "xAI",
+		"date": "2026-08-19T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 4.6 上线 Amazon Bedrock",
+		"url": "https://x.ai/news/grok-4-6-amazon-bedrock",
 		"source": "xAI",
 		"date": "2026-08-19T00:00:00.000Z",
 		"group": "labs"
@@ -2839,41 +2909,6 @@
 		"url": "https://openai.com/index/gpt-5-6/",
 		"source": "OpenAI",
 		"date": "2026-07-09T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Earth-2 生成式 AI 全球气候公里级分辨率基础模型",
-		"url": "https://blogs.nvidia.com/blog/earth2-generative-ai-foundation-model-global-climate-kilometer-scale-resolution/",
-		"source": "NVIDIA",
-		"date": "2026-07-08T22:48:15.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布液态冷却 AI 工厂方案",
-		"url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
-		"source": "NVIDIA",
-		"date": "2026-07-08T22:47:09.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 AI Earth-2 地球日更新",
-		"url": "https://blogs.nvidia.com/blog/ai-earth2-earth-day/",
-		"source": "NVIDIA",
-		"date": "2026-07-08T22:45:37.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 前沿红队发布 AI 风险进展与战略警告",
-		"url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
-		"source": "Anthropic News",
-		"date": "2026-07-08T22:43:38.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 BioCLIP2 基础 AI 模型",
-		"url": "https://blogs.nvidia.com/blog/bioclip2-foundation-ai-model/",
-		"source": "NVIDIA",
-		"date": "2026-07-08T22:35:27.000Z",
 		"group": "labs"
 	}
 ]
