@@ -1,37 +1,93 @@
 [
 	{
-		"title": "morluto 开源 rea agent 逆向工程框架",
-		"url": "https://github.com/morluto/rea",
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
 		"source": "GitHub Trending",
-		"date": "2026-10-09T12:20:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "BerriAI 开源 AI 网关 litellm，Rust 核心加 Python SDK",
-		"url": "https://github.com/BerriAI/litellm",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T12:16:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "mvschwarz 开源 openrig agent 网络框架",
-		"url": "https://github.com/mvschwarz/openrig",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T12:13:52Z",
+		"date": "2026-10-09T22:03:08Z",
 		"group": "gh"
 	},
 	{
 		"title": "pingdotgg 发布 t3code 编程工具",
 		"url": "https://github.com/pingdotgg/t3code",
 		"source": "GitHub Trending",
-		"date": "2026-10-09T11:56:07Z",
+		"date": "2026-10-09T22:03:05Z",
 		"group": "gh"
+	},
+	{
+		"title": "BerriAI 开源 AI 网关 litellm，Rust 核心加 Python SDK",
+		"url": "https://github.com/BerriAI/litellm",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T22:02:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T22:01:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "morluto 开源 rea agent 逆向工程框架",
+		"url": "https://github.com/morluto/rea",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T21:56:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "mvschwarz 开源 openrig agent 网络框架",
+		"url": "https://github.com/mvschwarz/openrig",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T21:56:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 开源知识工作者插件仓库 knowledge-work-plugins",
+		"url": "https://github.com/anthropics/knowledge-work-plugins",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T21:48:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T21:38:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
+		"url": "https://github.com/earthtojake/text-to-cad",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T20:24:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 推出 Claude Corps 服务",
+		"url": "https://www.anthropic.com/news/claude-corps",
+		"source": "Anthropic News",
+		"date": "2026-10-09T17:48:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "storytold 开源 ArtCraft 创意构建引擎",
+		"url": "https://github.com/storytold/artcraft",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T17:03:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 发布 GPU 集群调度新方法",
+		"url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+		"source": "Hugging Face Blog",
+		"date": "2026-10-09T15:20:29.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "openGym 开源自托管健身与体重追踪器",
 		"url": "https://github.com/DuarteSantos8/openGym",
 		"source": "GitHub Trending",
-		"date": "2026-10-09T11:49:04Z",
+		"date": "2026-10-09T14:01:04Z",
 		"group": "gh"
 	},
 	{
@@ -42,24 +98,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T10:46:21Z",
-		"group": "gh"
-	},
-	{
 		"title": "claude-mem 开源 agent 跨会话持久上下文工具",
 		"url": "https://github.com/thedotmack/claude-mem",
 		"source": "GitHub Trending",
 		"date": "2026-10-09T10:23:45Z",
-		"group": "gh"
-	},
-	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T09:34:05Z",
 		"group": "gh"
 	},
 	{
@@ -70,25 +112,11 @@
 		"group": "labs"
 	},
 	{
-		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
-		"url": "https://github.com/earthtojake/text-to-cad",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T07:50:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 开源知识工作者插件仓库 knowledge-work-plugins",
-		"url": "https://github.com/anthropics/knowledge-work-plugins",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T07:45:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-10-08T01:34:39Z",
-		"group": "gh"
+		"title": "Anthropic 发布模型意外行为调查报告",
+		"url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+		"source": "Anthropic Research",
+		"date": "2026-10-09T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Cursor 发布插件规范与官方插件",
@@ -182,13 +210,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "storytold 开源 ArtCraft 创意构建引擎",
-		"url": "https://github.com/storytold/artcraft",
-		"source": "GitHub Trending",
-		"date": "2026-10-07T00:56:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "NVIDIA 发布 AI 工厂白皮书：高效、耐久、可互换",
 		"url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
 		"source": "NVIDIA",
@@ -250,13 +271,6 @@
 		"source": "GitHub Trending",
 		"date": "2026-10-03T18:21:11Z",
 		"group": "gh"
-	},
-	{
-		"title": "Allen AI 开源 AstaBrief 快速报告生成模型",
-		"url": "https://huggingface.co/blog/allenai/astabrief",
-		"source": "Hugging Face Blog",
-		"date": "2026-10-02T15:19:50.000Z",
-		"group": "labs"
 	},
 	{
 		"title": "ServiceNow 推出 AutoSynthData 企业 agent 训练数据生成框架",
@@ -854,10 +868,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 推出 Claude Corps 服务",
-		"url": "https://www.anthropic.com/news/claude-corps",
-		"source": "Anthropic News",
-		"date": "2026-09-11T02:45:01.000Z",
+		"title": "Anthropic 发布 AI 模型战术情报与常规武器能力评估研究",
+		"url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+		"source": "Anthropic Research",
+		"date": "2026-09-11T09:42:25.000Z",
 		"group": "labs"
 	},
 	{
@@ -1221,13 +1235,6 @@
 		"title": "Hugging Face 用 Gradio Workflow 重建 AUTOMATIC1111",
 		"url": "https://huggingface.co/blog/gradio-workflow-1111",
 		"source": "Hugging Face Blog",
-		"date": "2026-09-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 模型战术情报与常规武器能力评估研究",
-		"url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-		"source": "Anthropic Research",
 		"date": "2026-09-10T00:00:00.000Z",
 		"group": "labs"
 	},
