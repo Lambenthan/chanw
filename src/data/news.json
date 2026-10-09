@@ -1,44 +1,51 @@
 [
 	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
+		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
+		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-08T22:41:31Z",
+		"date": "2026-10-09T03:45:22Z",
 		"group": "gh"
 	},
 	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-08T22:40:28Z",
+		"date": "2026-10-09T03:43:59Z",
 		"group": "gh"
 	},
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-08T22:40:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
-		"url": "https://github.com/earthtojake/text-to-cad",
-		"source": "GitHub Trending",
-		"date": "2026-10-08T22:27:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "mvschwarz 开源 openrig agent 网络框架",
-		"url": "https://github.com/mvschwarz/openrig",
-		"source": "GitHub Trending",
-		"date": "2026-10-08T22:25:02Z",
+		"date": "2026-10-09T03:40:13Z",
 		"group": "gh"
 	},
 	{
 		"title": "claude-mem 开源 agent 跨会话持久上下文工具",
 		"url": "https://github.com/thedotmack/claude-mem",
 		"source": "GitHub Trending",
-		"date": "2026-10-08T18:58:36Z",
+		"date": "2026-10-09T03:34:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "mvschwarz 开源 openrig agent 网络框架",
+		"url": "https://github.com/mvschwarz/openrig",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T03:30:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-08T22:46:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 开源知识工作者插件仓库 knowledge-work-plugins",
+		"url": "https://github.com/anthropics/knowledge-work-plugins",
+		"source": "GitHub Trending",
+		"date": "2026-10-08T15:35:19Z",
 		"group": "gh"
 	},
 	{
@@ -73,6 +80,13 @@
 		"title": "Hugging Face 发布机器学习实习生项目成果",
 		"url": "https://huggingface.co/blog/building-with-ml-intern",
 		"source": "Hugging Face Blog",
+		"date": "2026-10-08T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布天文研究项目 The Missing Map of the Sky",
+		"url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+		"source": "Anthropic Research",
 		"date": "2026-10-08T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2441,6 +2455,13 @@
 		"source": "DeepMind",
 		"date": "2026-08-13T00:00:00.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "liquidslr 开源《System Design Interview》读书笔记",
+		"url": "https://github.com/liquidslr/system-design-notes",
+		"source": "GitHub Trending",
+		"date": "2026-08-12T22:22:21Z",
+		"group": "gh"
 	},
 	{
 		"title": "DeepMind 推出手语转文字模型 SL2T",
