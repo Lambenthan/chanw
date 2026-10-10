@@ -3,21 +3,63 @@
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-10T16:38:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "pingdotgg 发布 t3code 编程工具",
-		"url": "https://github.com/pingdotgg/t3code",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T16:36:24Z",
+		"date": "2026-10-10T20:55:16Z",
 		"group": "gh"
 	},
 	{
 		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
 		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-10T16:22:48Z",
+		"date": "2026-10-10T20:54:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T20:52:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "mvschwarz 开源 openrig agent 网络框架",
+		"url": "https://github.com/mvschwarz/openrig",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T20:36:48Z",
+		"group": "gh"
+	},
+	{
+		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T20:33:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T20:26:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "pingdotgg 发布 t3code 编程工具",
+		"url": "https://github.com/pingdotgg/t3code",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T20:23:22Z",
+		"group": "gh"
+	},
+	{
+		"title": "storytold 开源 ArtCraft 创意构建引擎",
+		"url": "https://github.com/storytold/artcraft",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T19:03:53Z",
+		"group": "gh"
+	},
+	{
+		"title": "Hugging Face 更新 Transformers 库，支持文本、视觉、音频与多模态模型",
+		"url": "https://github.com/huggingface/transformers",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T17:50:34Z",
 		"group": "gh"
 	},
 	{
@@ -25,20 +67,6 @@
 		"url": "https://github.com/DuarteSantos8/openGym",
 		"source": "GitHub Trending",
 		"date": "2026-10-10T16:22:23Z",
-		"group": "gh"
-	},
-	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T15:40:02Z",
-		"group": "gh"
-	},
-	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T13:15:44Z",
 		"group": "gh"
 	},
 	{
@@ -56,20 +84,6 @@
 		"group": "gh"
 	},
 	{
-		"title": "mvschwarz 开源 openrig agent 网络框架",
-		"url": "https://github.com/mvschwarz/openrig",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T09:01:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "storytold 开源 ArtCraft 创意构建引擎",
-		"url": "https://github.com/storytold/artcraft",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T08:18:00Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 开源知识工作者插件仓库 knowledge-work-plugins",
 		"url": "https://github.com/anthropics/knowledge-work-plugins",
 		"source": "GitHub Trending",
@@ -81,13 +95,6 @@
 		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
 		"date": "2026-10-10T04:39:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T04:32:06Z",
 		"group": "gh"
 	},
 	{
@@ -492,6 +499,13 @@
 	{
 		"title": "UK AISI 与 EvalEval 合作提升基准测试结果可复现性",
 		"url": "https://huggingface.co/blog/evaleval-aisi",
+		"source": "Hugging Face Blog",
+		"date": "2026-09-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "oMLX 创建者兼维护者 Jun Kim 加入 Hugging Face",
+		"url": "https://huggingface.co/blog/omlx",
 		"source": "Hugging Face Blog",
 		"date": "2026-09-22T00:00:00.000Z",
 		"group": "labs"
