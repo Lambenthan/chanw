@@ -1,44 +1,65 @@
 [
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T22:03:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "pingdotgg 发布 t3code 编程工具",
-		"url": "https://github.com/pingdotgg/t3code",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T22:03:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "BerriAI 开源 AI 网关 litellm，Rust 核心加 Python SDK",
-		"url": "https://github.com/BerriAI/litellm",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T22:02:59Z",
-		"group": "gh"
-	},
-	{
 		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
 		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-09T22:01:51Z",
+		"date": "2026-10-10T03:25:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T03:24:49Z",
 		"group": "gh"
 	},
 	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-09T21:56:46Z",
+		"date": "2026-10-10T03:24:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "BerriAI 开源 AI 网关 litellm，Rust 核心加 Python SDK",
+		"url": "https://github.com/BerriAI/litellm",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T03:19:42Z",
+		"group": "gh"
+	},
+	{
+		"title": "pingdotgg 发布 t3code 编程工具",
+		"url": "https://github.com/pingdotgg/t3code",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T03:16:45Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T02:41:08Z",
 		"group": "gh"
 	},
 	{
 		"title": "mvschwarz 开源 openrig agent 网络框架",
 		"url": "https://github.com/mvschwarz/openrig",
 		"source": "GitHub Trending",
-		"date": "2026-10-09T21:56:25Z",
+		"date": "2026-10-10T02:05:47Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T01:44:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
+		"url": "https://github.com/earthtojake/text-to-cad",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T00:26:12Z",
 		"group": "gh"
 	},
 	{
@@ -46,20 +67,6 @@
 		"url": "https://github.com/anthropics/knowledge-work-plugins",
 		"source": "GitHub Trending",
 		"date": "2026-10-09T21:48:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T21:38:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
-		"url": "https://github.com/earthtojake/text-to-cad",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T20:24:44Z",
 		"group": "gh"
 	},
 	{
@@ -117,13 +124,6 @@
 		"source": "Anthropic Research",
 		"date": "2026-10-09T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-10-08T00:45:15Z",
-		"group": "gh"
 	},
 	{
 		"title": "Anthropic 推出 Cyber Mission 网络安全计划",
@@ -2216,6 +2216,13 @@
 		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
 		"source": "Anthropic News",
 		"date": "2026-08-29T10:57:56.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 更新 Grok Bot 与 X 深度集成",
+		"url": "https://x.ai/news/grok-bot-and-x",
+		"source": "xAI",
+		"date": "2026-08-29T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
