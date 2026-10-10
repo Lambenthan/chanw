@@ -1,72 +1,86 @@
 [
 	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
+		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
+		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-10T03:25:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T03:24:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "morluto 开源 rea agent 逆向工程框架",
-		"url": "https://github.com/morluto/rea",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T03:24:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "BerriAI 开源 AI 网关 litellm，Rust 核心加 Python SDK",
-		"url": "https://github.com/BerriAI/litellm",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T03:19:42Z",
+		"date": "2026-10-10T11:37:51Z",
 		"group": "gh"
 	},
 	{
 		"title": "pingdotgg 发布 t3code 编程工具",
 		"url": "https://github.com/pingdotgg/t3code",
 		"source": "GitHub Trending",
-		"date": "2026-10-10T03:16:45Z",
+		"date": "2026-10-10T11:37:26Z",
 		"group": "gh"
 	},
 	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
+		"title": "tester-army 开源 e2e 端到端测试框架",
+		"url": "https://github.com/tester-army/e2e",
 		"source": "GitHub Trending",
-		"date": "2026-10-10T02:41:08Z",
+		"date": "2026-10-10T11:37:16Z",
 		"group": "gh"
 	},
 	{
-		"title": "mvschwarz 开源 openrig agent 网络框架",
-		"url": "https://github.com/mvschwarz/openrig",
+		"title": "morluto 开源 rea agent 逆向工程框架",
+		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-10T02:05:47Z",
+		"date": "2026-10-10T11:30:57Z",
 		"group": "gh"
 	},
 	{
 		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
 		"url": "https://github.com/boykopovar/AnyPS5",
 		"source": "GitHub Trending",
-		"date": "2026-10-10T01:44:55Z",
+		"date": "2026-10-10T10:59:24Z",
 		"group": "gh"
 	},
 	{
-		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
-		"url": "https://github.com/earthtojake/text-to-cad",
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-10T00:26:12Z",
+		"date": "2026-10-10T09:58:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "mvschwarz 开源 openrig agent 网络框架",
+		"url": "https://github.com/mvschwarz/openrig",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T09:01:57Z",
+		"group": "gh"
+	},
+	{
+		"title": "storytold 开源 ArtCraft 创意构建引擎",
+		"url": "https://github.com/storytold/artcraft",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T08:18:00Z",
 		"group": "gh"
 	},
 	{
 		"title": "Anthropic 开源知识工作者插件仓库 knowledge-work-plugins",
 		"url": "https://github.com/anthropics/knowledge-work-plugins",
 		"source": "GitHub Trending",
-		"date": "2026-10-09T21:48:47Z",
+		"date": "2026-10-10T07:38:13Z",
+		"group": "gh"
+	},
+	{
+		"title": "mksglu 开源 context-mode：AI 编码 agent 上下文窗口优化工具",
+		"url": "https://github.com/mksglu/context-mode",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T06:07:56Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T04:39:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-10-10T04:32:06Z",
 		"group": "gh"
 	},
 	{
@@ -75,13 +89,6 @@
 		"source": "Anthropic News",
 		"date": "2026-10-09T17:48:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "storytold 开源 ArtCraft 创意构建引擎",
-		"url": "https://github.com/storytold/artcraft",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T17:03:51Z",
-		"group": "gh"
 	},
 	{
 		"title": "Hugging Face 发布 GPU 集群调度新方法",
@@ -147,6 +154,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "NVIDIA 推出 Local AI RTX Spark 并与微软合作举办 Windows 活动",
+		"url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+		"source": "NVIDIA",
+		"date": "2026-10-07T21:40:38.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "EpicGames 开源 raddebugger 原生多进程图形调试器",
 		"url": "https://github.com/EpicGames/raddebugger",
 		"source": "GitHub Trending",
@@ -166,13 +180,6 @@
 		"source": "NVIDIA",
 		"date": "2026-10-07T16:14:12.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "twostraws 发布 SwiftUI Agent Skill，支持 Claude Code 与 Codex",
-		"url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
-		"source": "GitHub Trending",
-		"date": "2026-10-07T13:39:28Z",
-		"group": "gh"
 	},
 	{
 		"title": "TII 发布 Falcon ASR 语音识别模型",
@@ -238,13 +245,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "LingBot-Map 开源流式 3D 重建几何上下文 Transformer",
-		"url": "https://github.com/Robbyant/lingbot-map",
-		"source": "GitHub Trending",
-		"date": "2026-10-06T09:23:51Z",
-		"group": "gh"
-	},
-	{
 		"title": "DeepMind 发布 EmbeddingGemma 2 多模态嵌入模型",
 		"url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
 		"source": "DeepMind",
@@ -264,13 +264,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-10-03T22:56:48.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "addyosmani 开源 agent-skills 生产级工程技能库",
-		"url": "https://github.com/addyosmani/agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-10-03T18:21:11Z",
-		"group": "gh"
 	},
 	{
 		"title": "ServiceNow 推出 AutoSynthData 企业 agent 训练数据生成框架",
@@ -697,6 +690,13 @@
 		"url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
 		"source": "NVIDIA",
 		"date": "2026-09-16T18:57:45.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "OpenAI 发布优先级原则与第三方评估方案",
+		"url": "https://openai.com/index/priorities-principles-third-party-assessments/",
+		"source": "OpenAI",
+		"date": "2026-09-16T17:00:00.000Z",
 		"group": "labs"
 	},
 	{
