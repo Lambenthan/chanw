@@ -1,37 +1,58 @@
 [
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T11:51:42Z",
+		"date": "2026-10-11T17:04:22Z",
 		"group": "gh"
 	},
 	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T11:51:36Z",
+		"date": "2026-10-11T17:03:59Z",
 		"group": "gh"
 	},
 	{
-		"title": "billion-context 开源上下文压缩插件，实现数十亿 token 超长会话",
-		"url": "https://github.com/ranxianglei/billion-context",
+		"title": "Flutter 更新跨平台 UI 框架",
+		"url": "https://github.com/flutter/flutter",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T11:47:06Z",
+		"date": "2026-10-11T17:02:43Z",
 		"group": "gh"
 	},
 	{
 		"title": "PyTorch 发布张量与动态神经网络框架",
 		"url": "https://github.com/pytorch/pytorch",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T11:46:53Z",
+		"date": "2026-10-11T16:59:15Z",
 		"group": "gh"
 	},
 	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
+		"title": "billion-context 开源上下文压缩插件，实现数十亿 token 超长会话",
+		"url": "https://github.com/ranxianglei/billion-context",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T11:19:27Z",
+		"date": "2026-10-11T16:28:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
+		"url": "https://github.com/earthtojake/text-to-cad",
+		"source": "GitHub Trending",
+		"date": "2026-10-11T15:27:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "storytold 开源 ArtCraft 创意构建引擎",
+		"url": "https://github.com/storytold/artcraft",
+		"source": "GitHub Trending",
+		"date": "2026-10-11T13:47:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-11T12:42:34Z",
 		"group": "gh"
 	},
 	{
@@ -63,24 +84,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
-		"url": "https://github.com/earthtojake/text-to-cad",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T03:40:10Z",
-		"group": "gh"
-	},
-	{
 		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
 		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
 		"date": "2026-10-10T21:10:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "storytold 开源 ArtCraft 创意构建引擎",
-		"url": "https://github.com/storytold/artcraft",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T19:03:53Z",
 		"group": "gh"
 	},
 	{
@@ -250,6 +257,13 @@
 		"source": "NVIDIA",
 		"date": "2026-10-05T19:28:28.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "danyuchn 将 ASD-STE100 简明技术英语规则改造为 Claude Code skill",
+		"url": "https://github.com/danyuchn/asd-ste100-skill",
+		"source": "GitHub Trending",
+		"date": "2026-10-04T06:18:56Z",
+		"group": "gh"
 	},
 	{
 		"title": "微软发布 ThinkingBox 用于校验 agent 任务完成真实性",
@@ -3063,13 +3077,6 @@
 		"url": "https://www.anthropic.com/research/agentic-misalignment",
 		"source": "Anthropic Research",
 		"date": "2026-07-13T18:27:52.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究发现语言模型存在全局工作空间",
-		"url": "https://www.anthropic.com/research/global-workspace",
-		"source": "Anthropic Research",
-		"date": "2026-07-13T12:08:40.000Z",
 		"group": "labs"
 	}
 ]
