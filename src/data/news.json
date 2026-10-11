@@ -1,93 +1,72 @@
 [
 	{
-		"title": "PyTorch 发布张量与动态神经网络框架",
-		"url": "https://github.com/pytorch/pytorch",
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T02:59:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "pingdotgg 发布 t3code 编程工具",
-		"url": "https://github.com/pingdotgg/t3code",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T02:59:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "billion-context 开源上下文压缩插件，实现数十亿 token 超长会话",
-		"url": "https://github.com/ranxianglei/billion-context",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T02:59:19Z",
+		"date": "2026-10-11T11:51:42Z",
 		"group": "gh"
 	},
 	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T02:58:32Z",
+		"date": "2026-10-11T11:51:36Z",
 		"group": "gh"
 	},
 	{
-		"title": "mvschwarz 开源 openrig agent 网络框架",
-		"url": "https://github.com/mvschwarz/openrig",
+		"title": "billion-context 开源上下文压缩插件，实现数十亿 token 超长会话",
+		"url": "https://github.com/ranxianglei/billion-context",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T02:57:07Z",
+		"date": "2026-10-11T11:47:06Z",
 		"group": "gh"
 	},
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
+		"title": "PyTorch 发布张量与动态神经网络框架",
+		"url": "https://github.com/pytorch/pytorch",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T02:53:48Z",
+		"date": "2026-10-11T11:46:53Z",
 		"group": "gh"
 	},
 	{
 		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
 		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T02:35:30Z",
+		"date": "2026-10-11T11:19:27Z",
+		"group": "gh"
+	},
+	{
+		"title": "claude-mem 开源 agent 跨会话持久上下文工具",
+		"url": "https://github.com/thedotmack/claude-mem",
+		"source": "GitHub Trending",
+		"date": "2026-10-11T10:48:04Z",
 		"group": "gh"
 	},
 	{
 		"title": "Cursor 发布插件规范与官方插件",
 		"url": "https://github.com/cursor/plugins",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T01:52:26Z",
+		"date": "2026-10-11T08:14:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "mvschwarz 开源 openrig agent 网络框架",
+		"url": "https://github.com/mvschwarz/openrig",
+		"source": "GitHub Trending",
+		"date": "2026-10-11T07:49:08Z",
+		"group": "gh"
+	},
+	{
+		"title": "AirLLM 开源，单张 4GB GPU 即可运行 70B 模型推理",
+		"url": "https://github.com/lyogavin/airllm",
+		"source": "GitHub Trending",
+		"date": "2026-10-11T06:19:49Z",
 		"group": "gh"
 	},
 	{
 		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
 		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T01:27:34Z",
-		"group": "gh"
-	},
-	{
-		"title": "Hugging Face 更新 Transformers 库，支持文本、视觉、音频与多模态模型",
-		"url": "https://github.com/huggingface/transformers",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T01:24:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "openGym 开源自托管健身与体重追踪器",
-		"url": "https://github.com/DuarteSantos8/openGym",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T00:34:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "mksglu 开源 context-mode：AI 编码 agent 上下文窗口优化工具",
-		"url": "https://github.com/mksglu/context-mode",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T00:15:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 开源知识工作者插件仓库 knowledge-work-plugins",
-		"url": "https://github.com/anthropics/knowledge-work-plugins",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T22:23:52Z",
+		"date": "2026-10-11T03:40:10Z",
 		"group": "gh"
 	},
 	{
@@ -130,13 +109,6 @@
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
 		"date": "2026-10-09T10:57:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "claude-mem 开源 agent 跨会话持久上下文工具",
-		"url": "https://github.com/thedotmack/claude-mem",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T10:23:45Z",
 		"group": "gh"
 	},
 	{
@@ -3064,6 +3036,13 @@
 		"source": "Anthropic News",
 		"date": "2026-07-15T09:21:26.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "chrislgarry 开源阿波罗11号导航计算机源代码",
+		"url": "https://github.com/chrislgarry/Apollo-11",
+		"source": "GitHub Trending",
+		"date": "2026-07-15T02:29:53Z",
+		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 发布 AI 基础设施能效分析报告",
