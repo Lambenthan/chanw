@@ -1,59 +1,143 @@
 [
 	{
-		"title": "mvschwarz 开源 openrig agent 网络框架",
-		"url": "https://github.com/mvschwarz/openrig",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T21:12:47Z",
-		"group": "gh"
-	},
-	{
-		"title": "PyTorch 发布张量与动态神经网络框架",
-		"url": "https://github.com/pytorch/pytorch",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T21:10:40Z",
-		"group": "gh"
-	},
-	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T21:09:57Z",
-		"group": "gh"
-	},
-	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T21:06:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T20:41:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "billion-context 开源上下文压缩插件，实现数十亿 token 超长会话",
-		"url": "https://github.com/ranxianglei/billion-context",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T19:41:50Z",
+		"date": "2026-10-13T22:08:31Z",
 		"group": "gh"
 	},
 	{
 		"title": "Flutter 更新跨平台 UI 框架",
 		"url": "https://github.com/flutter/flutter",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T17:34:14Z",
+		"date": "2026-10-13T22:08:11Z",
 		"group": "gh"
 	},
 	{
 		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
 		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T15:27:55Z",
+		"date": "2026-10-13T22:08:08Z",
 		"group": "gh"
+	},
+	{
+		"title": "xtool 开源跨平台 Xcode 替代工具，支持 SwiftPM 构建 iOS 应用",
+		"url": "https://github.com/xtool-org/xtool",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T22:07:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T22:06:04Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T21:54:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "bilawalsidhu 开源 Gods-Eye-View 浏览器卫星模拟器",
+		"url": "https://github.com/bilawalsidhu/gods-eye-view",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T21:48:52Z",
+		"group": "gh"
+	},
+	{
+		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T21:48:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T21:39:58Z",
+		"group": "gh"
+	},
+	{
+		"title": "claude-mem 开源 agent 跨会话持久上下文工具",
+		"url": "https://github.com/thedotmack/claude-mem",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T21:35:02Z",
+		"group": "gh"
+	},
+	{
+		"title": "tester-army 开源 e2e 端到端测试框架",
+		"url": "https://github.com/tester-army/e2e",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T20:38:09Z",
+		"group": "gh"
+	},
+	{
+		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
+		"url": "https://github.com/mksglu/context-mode",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T18:06:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "mattpocock 开源 .agents 目录下的工程师技能集",
+		"url": "https://github.com/mattpocock/skills",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T08:46:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "AirLLM 开源，单张 4GB GPU 即可运行 70B 模型推理",
+		"url": "https://github.com/lyogavin/airllm",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T06:24:34Z",
+		"group": "gh"
+	},
+	{
+		"title": "DeepMind 发布 Gemini 4 Argon 并强调安全责任",
+		"url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+		"source": "DeepMind",
+		"date": "2026-10-13T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 发布 Gemini 4 Argon 机器人模型",
+		"url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+		"source": "DeepMind",
+		"date": "2026-10-13T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "DeepMind 发布 Gemini 4 Argon",
+		"url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+		"source": "DeepMind",
+		"date": "2026-10-13T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Google 发布 Gemini 4 Argon 前沿模型",
+		"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+		"source": "Google AI",
+		"date": "2026-10-13T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "EpicGames 开源 raddebugger 原生多进程图形调试器",
+		"url": "https://github.com/EpicGames/raddebugger",
+		"source": "GitHub Trending",
+		"date": "2026-10-12T16:59:36Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 加强蒸馏攻击防御措施",
+		"url": "https://www.anthropic.com/research/distillation-defenses",
+		"source": "Anthropic Research",
+		"date": "2026-10-12T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "storytold 开源 ArtCraft 创意构建引擎",
@@ -63,45 +147,10 @@
 		"group": "gh"
 	},
 	{
-		"title": "claude-mem 开源 agent 跨会话持久上下文工具",
-		"url": "https://github.com/thedotmack/claude-mem",
+		"title": "Vercel Labs 发布开源 agent skills 工具 npx skills",
+		"url": "https://github.com/vercel-labs/skills",
 		"source": "GitHub Trending",
-		"date": "2026-10-11T10:48:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T08:14:39Z",
-		"group": "gh"
-	},
-	{
-		"title": "AirLLM 开源，单张 4GB GPU 即可运行 70B 模型推理",
-		"url": "https://github.com/lyogavin/airllm",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T06:19:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T21:10:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "tester-army 开源 e2e 端到端测试框架",
-		"url": "https://github.com/tester-army/e2e",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T12:56:13Z",
-		"group": "gh"
-	},
-	{
-		"title": "bilawalsidhu 开源 Gods-Eye-View 浏览器卫星模拟器",
-		"url": "https://github.com/bilawalsidhu/gods-eye-view",
-		"source": "GitHub Trending",
-		"date": "2026-10-10T03:59:46Z",
+		"date": "2026-10-09T17:54:47Z",
 		"group": "gh"
 	},
 	{
@@ -119,13 +168,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "mattpocock 开源 .agents 目录下的工程师技能集",
-		"url": "https://github.com/mattpocock/skills",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T10:57:08Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 发布天文研究项目 The Missing Map of the Sky",
 		"url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
 		"source": "Anthropic Research",
@@ -137,6 +179,13 @@
 		"url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
 		"source": "Anthropic Research",
 		"date": "2026-10-09T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 推出 Local AI RTX Spark 并与微软合作举办 Windows 活动",
+		"url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+		"source": "NVIDIA",
+		"date": "2026-10-08T00:08:31.000Z",
 		"group": "labs"
 	},
 	{
@@ -158,27 +207,6 @@
 		"url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
 		"source": "Anthropic Research",
 		"date": "2026-10-08T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出 Local AI RTX Spark 并与微软合作举办 Windows 活动",
-		"url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-		"source": "NVIDIA",
-		"date": "2026-10-07T21:40:38.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "EpicGames 开源 raddebugger 原生多进程图形调试器",
-		"url": "https://github.com/EpicGames/raddebugger",
-		"source": "GitHub Trending",
-		"date": "2026-10-07T20:56:17Z",
-		"group": "gh"
-	},
-	{
-		"title": "Liquid AI 开源多模态决策模型 open-d1",
-		"url": "https://huggingface.co/blog/LiquidAI/open-d1",
-		"source": "Hugging Face Blog",
-		"date": "2026-10-07T16:54:33.000Z",
 		"group": "labs"
 	},
 	{
@@ -205,6 +233,13 @@
 	{
 		"title": "OpenAI 发布 GPT-6 并面向所有用户开放",
 		"url": "https://openai.com/index/gpt-6-for-everyone/",
+		"source": "OpenAI",
+		"date": "2026-10-07T12:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Radisson 与 Accenture 合作推出 ChatGPT 酒店预订插件",
+		"url": "https://openai.com/index/radisson",
 		"source": "OpenAI",
 		"date": "2026-10-07T12:00:00.000Z",
 		"group": "labs"
@@ -264,13 +299,6 @@
 		"source": "NVIDIA",
 		"date": "2026-10-05T19:28:28.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "danyuchn 将 ASD-STE100 简明技术英语规则改造为 Claude Code skill",
-		"url": "https://github.com/danyuchn/asd-ste100-skill",
-		"source": "GitHub Trending",
-		"date": "2026-10-04T06:18:56Z",
-		"group": "gh"
 	},
 	{
 		"title": "微软发布 ThinkingBox 用于校验 agent 任务完成真实性",
@@ -427,6 +455,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Team Bots 共享 AI 队友",
+		"url": "https://x.ai/news/team-bots",
+		"source": "xAI",
+		"date": "2026-09-28T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
 		"url": "https://www.anthropic.com/research/riemann-zeta",
 		"source": "Anthropic Research",
@@ -508,6 +543,13 @@
 		"url": "https://huggingface.co/blog/omlx",
 		"source": "Hugging Face Blog",
 		"date": "2026-09-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布研究：Claude 提升生物分子建模能力",
+		"url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+		"source": "Anthropic Research",
+		"date": "2026-09-21T23:14:52.000Z",
 		"group": "labs"
 	},
 	{
@@ -672,13 +714,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布研究：Claude 提升生物分子建模能力",
-		"url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
-		"source": "Anthropic Research",
-		"date": "2026-09-17T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 推出生命科学验证计划",
 		"url": "https://www.anthropic.com/news/life-sciences-verification-program",
 		"source": "Anthropic News",
@@ -711,6 +746,13 @@
 		"url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
 		"source": "NVIDIA",
 		"date": "2026-09-16T13:00:33.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 为 Grok Build 加入跨会话记忆功能",
+		"url": "https://x.ai/news/grok-build-memory",
+		"source": "xAI",
+		"date": "2026-09-16T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2261,13 +2303,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 搜索 AI Mode 新增旅行规划与预订功能",
-		"url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-		"source": "Google AI",
-		"date": "2026-08-27T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude 机器人操控研究",
 		"url": "https://www.anthropic.com/research/claude-plays-robotics",
 		"source": "Anthropic Research",
@@ -2443,10 +2478,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 将 Grok 4.6 接入 Gemini 企业 Agent 平台",
+		"url": "https://x.ai/news/grok-4-6-vertex-ai",
+		"source": "xAI",
+		"date": "2026-08-21T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Hugging Face 详解 Inference Endpoints 与 Buckets 在 Papers with Code 搜索中的应用",
 		"url": "https://huggingface.co/blog/pwc-search",
 		"source": "Hugging Face Blog",
 		"date": "2026-08-21T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 将 Grok 4.6 上线 Amazon Bedrock",
+		"url": "https://x.ai/news/grok-4-6-amazon-bedrock",
+		"source": "xAI",
+		"date": "2026-08-19T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2499,6 +2548,20 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Grok 4.6",
+		"url": "https://x.ai/news/grok-4-6",
+		"source": "xAI",
+		"date": "2026-08-12T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Bot",
+		"url": "https://x.ai/news/introducing-grok-bot",
+		"source": "xAI",
+		"date": "2026-08-11T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 在亚美尼亚建设 Firebird AI 工厂，采用 Blackwell 与 Rubin 架构",
 		"url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
 		"source": "NVIDIA",
@@ -2510,6 +2573,13 @@
 		"url": "https://www.anthropic.com/news/claude-sonnet-5",
 		"source": "Anthropic News",
 		"date": "2026-08-10T19:00:15.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Imagine Image 2.0",
+		"url": "https://x.ai/news/grok-imagine-image-2",
+		"source": "xAI",
+		"date": "2026-08-07T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2632,10 +2702,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Grok Voice Think Fast 2.0 语音模型",
+		"url": "https://x.ai/news/grok-voice-think-fast-2",
+		"source": "xAI",
+		"date": "2026-07-29T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布对开放权重模型的立场声明",
 		"url": "https://www.anthropic.com/news/position-open-weights-models",
 		"source": "Anthropic News",
 		"date": "2026-07-28T15:25:50.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 为 Grok 推出 Build Mode 构建模式",
+		"url": "https://x.ai/news/grok-build-mode",
+		"source": "xAI",
+		"date": "2026-07-28T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2667,6 +2751,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 为 Grok Build 添加工作流功能",
+		"url": "https://x.ai/news/workflows",
+		"source": "xAI",
+		"date": "2026-07-23T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 推出 Skills 功能",
 		"url": "https://www.anthropic.com/news/skills",
 		"source": "Anthropic News",
@@ -2691,6 +2782,13 @@
 		"title": "Google 承诺 4000 万美元支持 Genesis 科学发现任务",
 		"url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
 		"source": "DeepMind",
+		"date": "2026-07-22T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok 4.5，上线 iOS、Android、Web 与 X",
+		"url": "https://x.ai/news/grok-4-5-everywhere",
+		"source": "xAI",
 		"date": "2026-07-22T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2723,10 +2821,24 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 推出 Grok for Outlook 插件",
+		"url": "https://x.ai/news/introducing-outlook-addin",
+		"source": "xAI",
+		"date": "2026-07-21T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Bristol Myers Squibb 基于 NVIDIA Vera Rubin 构建生命科学 AI 工厂",
 		"url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
 		"source": "NVIDIA",
 		"date": "2026-07-20T18:21:02.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok for Excel 插件",
+		"url": "https://x.ai/news/introducing-excel-addin",
+		"source": "xAI",
+		"date": "2026-07-20T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2846,20 +2958,6 @@
 		"url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
 		"source": "DeepMind",
 		"date": "2026-07-16T11:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Tag",
-		"url": "https://www.anthropic.com/news/introducing-claude-tag",
-		"source": "Anthropic News",
-		"date": "2026-07-15T22:12:10.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 CVPR 发布 Physical AI 研究 Agent 技能",
-		"url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
-		"source": "NVIDIA",
-		"date": "2026-07-15T21:54:49.000Z",
 		"group": "labs"
 	}
 ]
