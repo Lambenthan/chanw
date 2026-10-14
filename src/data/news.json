@@ -1,52 +1,66 @@
 [
 	{
-		"title": "tester-army 开源 e2e 端到端测试框架",
-		"url": "https://github.com/tester-army/e2e",
+		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
+		"url": "https://github.com/mksglu/context-mode",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T16:12:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "morluto 开源 rea agent 逆向工程框架",
-		"url": "https://github.com/morluto/rea",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T16:10:20Z",
-		"group": "gh"
-	},
-	{
-		"title": "Flutter 更新跨平台 UI 框架",
-		"url": "https://github.com/flutter/flutter",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T16:09:50Z",
+		"date": "2026-10-14T21:07:07Z",
 		"group": "gh"
 	},
 	{
 		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
 		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T16:08:11Z",
+		"date": "2026-10-14T21:06:23Z",
+		"group": "gh"
+	},
+	{
+		"title": "morluto 开源 rea agent 逆向工程框架",
+		"url": "https://github.com/morluto/rea",
+		"source": "GitHub Trending",
+		"date": "2026-10-14T21:05:46Z",
 		"group": "gh"
 	},
 	{
 		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
 		"url": "https://github.com/boykopovar/AnyPS5",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T15:53:44Z",
+		"date": "2026-10-14T20:58:00Z",
 		"group": "gh"
 	},
 	{
-		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
-		"url": "https://github.com/mksglu/context-mode",
+		"title": "Flutter 更新跨平台 UI 框架",
+		"url": "https://github.com/flutter/flutter",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T15:00:51Z",
+		"date": "2026-10-14T20:48:15Z",
+		"group": "gh"
+	},
+	{
+		"title": "tester-army 开源 e2e 端到端测试框架",
+		"url": "https://github.com/tester-army/e2e",
+		"source": "GitHub Trending",
+		"date": "2026-10-14T20:35:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "iFixAi 开源 AI Agent 独立审计工具",
+		"url": "https://github.com/ifixai-ai/iFixAi",
+		"source": "GitHub Trending",
+		"date": "2026-10-14T18:26:20Z",
 		"group": "gh"
 	},
 	{
 		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
 		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T05:03:25Z",
+		"date": "2026-10-14T17:31:16Z",
 		"group": "gh"
+	},
+	{
+		"title": "Allen AI 发布 HiRO-ACEv2 高分辨率气象模拟模型",
+		"url": "https://huggingface.co/blog/allenai/hiro-acev2",
+		"source": "Hugging Face Blog",
+		"date": "2026-10-14T16:12:42.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "xtool 开源跨平台 Xcode 替代工具，支持 SwiftPM 构建 iOS 应用",
@@ -193,6 +207,13 @@
 		"url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
 		"source": "Anthropic Research",
 		"date": "2026-10-09T09:29:17.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "SentinelOne 借助 OpenAI Daybreak 将恶意软件分析从数周缩短至数小时",
+		"url": "https://openai.com/index/sentinelone",
+		"source": "OpenAI",
+		"date": "2026-10-09T07:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -382,6 +403,13 @@
 		"url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
 		"source": "NVIDIA",
 		"date": "2026-09-30T23:34:33.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出生命科学验证计划",
+		"url": "https://www.anthropic.com/news/life-sciences-verification-program",
+		"source": "Anthropic News",
+		"date": "2026-09-30T22:54:30.000Z",
 		"group": "labs"
 	},
 	{
@@ -609,6 +637,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Grok 4.7",
+		"url": "https://x.ai/news/grok-4-7",
+		"source": "xAI",
+		"date": "2026-09-21T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Hugging Face 发布 Tokenizers v1，聚焦编码、解码与扩展性",
 		"url": "https://huggingface.co/blog/tokenizers-v1",
 		"source": "Hugging Face Blog",
@@ -759,13 +794,6 @@
 		"title": "Google 与联合国推出 UN System Data Commons 开放数据平台",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
 		"source": "Google AI",
-		"date": "2026-09-17T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出生命科学验证计划",
-		"url": "https://www.anthropic.com/news/life-sciences-verification-program",
-		"source": "Anthropic News",
 		"date": "2026-09-17T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2303,6 +2331,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 公布 Grok 4.6 生物安全评估结果",
+		"url": "https://x.ai/news/biosafety-at-the-frontier",
+		"source": "xAI",
+		"date": "2026-09-01T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
 		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
 		"source": "Anthropic News",
@@ -2965,104 +3000,6 @@
 		"url": "https://blogs.nvidia.com/blog/financial-services-agentic-ai/",
 		"source": "NVIDIA",
 		"date": "2026-07-16T22:05:05.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出 AI Agent 客服方案",
-		"url": "https://blogs.nvidia.com/blog/ai-agents-customer-service/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T20:19:36.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出 AI agent 在线购物方案",
-		"url": "https://blogs.nvidia.com/blog/ai-agents-online-shopping/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T20:19:13.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 AI Agent 决策推理能力更新",
-		"url": "https://blogs.nvidia.com/blog/reasoning-ai-agents-decision-making/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T20:18:43.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布企业 AI Agent 团队入门指南",
-		"url": "https://blogs.nvidia.com/blog/onboarding-teams-ai-agents-productivity-revenue-businesses/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T20:16:37.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 探讨将 Agentic AI 引入计算机视觉应用",
-		"url": "https://blogs.nvidia.com/blog/ways-to-bring-agentic-ai-to-computer-vision-applications/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T20:16:13.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布专用 AI Agent 方案",
-		"url": "https://blogs.nvidia.com/blog/specialized-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T20:15:30.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Agent Toolkit，集成开放模型、工具、技能与安全运行时",
-		"url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T19:24:04.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 AI Agent 智能文档处理方案",
-		"url": "https://blogs.nvidia.com/blog/ai-agents-intelligent-document-processing/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T19:21:35.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 联合 AI2 推出开源 AI 模型",
-		"url": "https://blogs.nvidia.com/blog/national-science-foundation-ai2-open-ai-models/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T19:18:57.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布语音 AI 数据集与模型",
-		"url": "https://blogs.nvidia.com/blog/speech-ai-dataset-models/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T19:18:34.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 开源 Nemotron 系列 AI 模型",
-		"url": "https://blogs.nvidia.com/blog/nemotron-open-source-ai/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T19:18:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布开放模型与数据计划",
-		"url": "https://blogs.nvidia.com/blog/open-models-data-ai/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T19:16:20.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 联合 Palantir 面向美国机构发布 Nemotron 开放模型",
-		"url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T19:06:55.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Jetson Thor 机器人边缘 AI agent 计算平台",
-		"url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
-		"source": "NVIDIA",
-		"date": "2026-07-16T18:15:40.000Z",
 		"group": "labs"
 	}
 ]
