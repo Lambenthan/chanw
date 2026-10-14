@@ -1,37 +1,44 @@
 [
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T10:54:15Z",
-		"group": "gh"
-	},
-	{
 		"title": "tester-army 开源 e2e 端到端测试框架",
 		"url": "https://github.com/tester-army/e2e",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T10:53:43Z",
-		"group": "gh"
-	},
-	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T10:53:32Z",
+		"date": "2026-10-14T16:12:59Z",
 		"group": "gh"
 	},
 	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T10:52:09Z",
+		"date": "2026-10-14T16:10:20Z",
 		"group": "gh"
 	},
 	{
 		"title": "Flutter 更新跨平台 UI 框架",
 		"url": "https://github.com/flutter/flutter",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T07:53:41Z",
+		"date": "2026-10-14T16:09:50Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-10-14T16:08:11Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-14T15:53:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
+		"url": "https://github.com/mksglu/context-mode",
+		"source": "GitHub Trending",
+		"date": "2026-10-14T15:00:51Z",
 		"group": "gh"
 	},
 	{
@@ -54,13 +61,6 @@
 		"source": "DeepMind",
 		"date": "2026-10-14T02:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
-		"url": "https://github.com/mksglu/context-mode",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T01:57:23Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 更新 RTX AI 笔记本电脑本地 AI 软件",
@@ -175,17 +175,17 @@
 		"group": "labs"
 	},
 	{
+		"title": "vxcontrol 开源自动渗透测试 Agent 系统 PentAGI",
+		"url": "https://github.com/vxcontrol/pentagi",
+		"source": "GitHub Trending",
+		"date": "2026-10-09T20:54:31Z",
+		"group": "gh"
+	},
+	{
 		"title": "Anthropic 推出 Claude Corps 服务",
 		"url": "https://www.anthropic.com/news/claude-corps",
 		"source": "Anthropic News",
 		"date": "2026-10-09T17:48:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 GPU 集群调度新方法",
-		"url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-		"source": "Hugging Face Blog",
-		"date": "2026-10-09T15:20:29.000Z",
 		"group": "labs"
 	},
 	{
@@ -2307,6 +2307,13 @@
 		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
 		"source": "Anthropic News",
 		"date": "2026-08-29T10:57:56.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 更新 Grok Bot，增强与 X 平台集成",
+		"url": "https://x.ai/news/grok-bot-and-x",
+		"source": "xAI",
+		"date": "2026-08-29T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
