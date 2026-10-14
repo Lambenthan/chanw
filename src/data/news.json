@@ -1,51 +1,51 @@
 [
 	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T02:47:54Z",
-		"group": "gh"
-	},
-	{
-		"title": "Flutter 更新跨平台 UI 框架",
-		"url": "https://github.com/flutter/flutter",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T02:47:38Z",
-		"group": "gh"
-	},
-	{
 		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
 		"url": "https://github.com/boykopovar/AnyPS5",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T02:47:32Z",
+		"date": "2026-10-14T10:54:15Z",
 		"group": "gh"
 	},
 	{
-		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
-		"url": "https://github.com/earthtojake/text-to-cad",
+		"title": "tester-army 开源 e2e 端到端测试框架",
+		"url": "https://github.com/tester-army/e2e",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T02:44:21Z",
+		"date": "2026-10-14T10:53:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-10-14T10:53:32Z",
 		"group": "gh"
 	},
 	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T02:40:53Z",
+		"date": "2026-10-14T10:52:09Z",
 		"group": "gh"
 	},
 	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
+		"title": "Flutter 更新跨平台 UI 框架",
+		"url": "https://github.com/flutter/flutter",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T02:15:27Z",
+		"date": "2026-10-14T07:53:41Z",
 		"group": "gh"
 	},
 	{
-		"title": "bilawalsidhu 开源 Gods-Eye-View 浏览器卫星模拟器",
-		"url": "https://github.com/bilawalsidhu/gods-eye-view",
+		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
+		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T02:06:22Z",
+		"date": "2026-10-14T05:03:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "xtool 开源跨平台 Xcode 替代工具，支持 SwiftPM 构建 iOS 应用",
+		"url": "https://github.com/xtool-org/xtool",
+		"source": "GitHub Trending",
+		"date": "2026-10-14T04:44:37Z",
 		"group": "gh"
 	},
 	{
@@ -63,18 +63,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "xtool 开源跨平台 Xcode 替代工具，支持 SwiftPM 构建 iOS 应用",
-		"url": "https://github.com/xtool-org/xtool",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T00:11:42Z",
-		"group": "gh"
-	},
-	{
-		"title": "tester-army 开源 e2e 端到端测试框架",
-		"url": "https://github.com/tester-army/e2e",
-		"source": "GitHub Trending",
-		"date": "2026-10-13T23:37:20Z",
-		"group": "gh"
+		"title": "NVIDIA 更新 RTX AI 笔记本电脑本地 AI 软件",
+		"url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+		"source": "NVIDIA",
+		"date": "2026-10-13T22:38:42.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
@@ -91,6 +84,13 @@
 		"group": "gh"
 	},
 	{
+		"title": "NSA 开源 Ghidra 软件逆向工程框架",
+		"url": "https://github.com/NationalSecurityAgency/ghidra",
+		"source": "GitHub Trending",
+		"date": "2026-10-13T17:14:10Z",
+		"group": "gh"
+	},
+	{
 		"title": "Liquid AI 发布 LFM2.5-24B-A2B 设备端 agent 模型",
 		"url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
 		"source": "Hugging Face Blog",
@@ -102,13 +102,6 @@
 		"url": "https://github.com/mattpocock/skills",
 		"source": "GitHub Trending",
 		"date": "2026-10-13T08:46:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "AirLLM 开源，单张 4GB GPU 即可运行 70B 模型推理",
-		"url": "https://github.com/lyogavin/airllm",
-		"source": "GitHub Trending",
-		"date": "2026-10-13T06:24:34Z",
 		"group": "gh"
 	},
 	{
@@ -140,6 +133,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "tiny11builder 发布 WinUI 应用，可构建精简定制 Windows 11 镜像",
+		"url": "https://github.com/ntdevlabs/tiny11builder",
+		"source": "GitHub Trending",
+		"date": "2026-10-12T20:32:09Z",
+		"group": "gh"
+	},
+	{
 		"title": "EpicGames 开源 raddebugger 原生多进程图形调试器",
 		"url": "https://github.com/EpicGames/raddebugger",
 		"source": "GitHub Trending",
@@ -154,25 +154,25 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 加强蒸馏攻击防御措施",
-		"url": "https://www.anthropic.com/research/distillation-defenses",
+		"title": "K-Dense-AI 开源科学 agent skill 库 scientific-agent-skills",
+		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+		"source": "GitHub Trending",
+		"date": "2026-10-12T09:43:31Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 公布 AI 模型自我复制能力研究",
+		"url": "https://www.anthropic.com/research/self-replicating-ai",
 		"source": "Anthropic Research",
 		"date": "2026-10-12T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
-		"title": "storytold 开源 ArtCraft 创意构建引擎",
-		"url": "https://github.com/storytold/artcraft",
-		"source": "GitHub Trending",
-		"date": "2026-10-11T13:47:59Z",
-		"group": "gh"
-	},
-	{
-		"title": "Vercel Labs 发布开源 agent skills 工具 npx skills",
-		"url": "https://github.com/vercel-labs/skills",
-		"source": "GitHub Trending",
-		"date": "2026-10-09T17:54:47Z",
-		"group": "gh"
+		"title": "Anthropic 加强蒸馏攻击防御措施",
+		"url": "https://www.anthropic.com/research/distillation-defenses",
+		"source": "Anthropic Research",
+		"date": "2026-10-12T00:00:00.000Z",
+		"group": "labs"
 	},
 	{
 		"title": "Anthropic 推出 Claude Corps 服务",
@@ -200,6 +200,13 @@
 		"url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
 		"source": "Anthropic Research",
 		"date": "2026-10-09T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
+		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-10-08T21:07:24.000Z",
 		"group": "labs"
 	},
 	{
@@ -236,6 +243,13 @@
 		"source": "NVIDIA",
 		"date": "2026-10-07T16:14:12.000Z",
 		"group": "labs"
+	},
+	{
+		"title": "twostraws 开源 SwiftUI-Agent-Skill 供 AI 编程工具使用",
+		"url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+		"source": "GitHub Trending",
+		"date": "2026-10-07T13:39:28Z",
+		"group": "gh"
 	},
 	{
 		"title": "TII 发布 Falcon ASR 语音识别模型",
@@ -606,6 +620,13 @@
 		"url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
 		"source": "NVIDIA",
 		"date": "2026-09-18T20:12:59.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Voice Transcribe 2.0",
+		"url": "https://x.ai/news/grok-voice-transcribe-2",
+		"source": "xAI",
+		"date": "2026-09-18T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
@@ -2156,6 +2177,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 将 Grok Bot 应用于采购流程",
+		"url": "https://x.ai/news/grok-bot-procurement",
+		"source": "xAI",
+		"date": "2026-09-04T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "OpenAI 披露一起协调模型蒸馏攻击并加强防御",
 		"url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
 		"source": "OpenAI",
@@ -2212,6 +2240,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 与企业客户合作开发前沿安全防护",
+		"url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+		"source": "Anthropic News",
+		"date": "2026-09-02T19:11:21.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 推出面向政府与企业的主动式网络防御方案",
 		"url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
 		"source": "DeepMind",
@@ -2264,13 +2299,6 @@
 		"title": "Hugging Face 发布 @huggingface/kernels 包含 200+ WebGPU 内核",
 		"url": "https://huggingface.co/blog/webgpu-kernels",
 		"source": "Hugging Face Blog",
-		"date": "2026-09-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 与企业客户合作开发前沿安全防护",
-		"url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-		"source": "Anthropic News",
 		"date": "2026-09-01T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2681,6 +2709,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "xAI 发布 Imagine Video 1.5，支持图像与语音参考",
+		"url": "https://x.ai/news/grok-imagine-video-1-5-references",
+		"source": "xAI",
+		"date": "2026-07-31T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布 Nemotron 开源模型系列",
 		"url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
 		"source": "NVIDIA",
@@ -3021,13 +3056,6 @@
 		"url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
 		"source": "NVIDIA",
 		"date": "2026-07-16T18:15:40.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 与 Isomorphic Labs 公布生物韧性 AI 方法",
-		"url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-		"source": "DeepMind",
-		"date": "2026-07-16T11:00:00.000Z",
 		"group": "labs"
 	}
 ]
