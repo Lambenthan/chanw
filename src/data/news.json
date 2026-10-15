@@ -1,37 +1,72 @@
 [
 	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-15T02:24:40Z",
-		"group": "gh"
-	},
-	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-15T02:23:57Z",
+		"date": "2026-10-15T10:33:25Z",
+		"group": "gh"
+	},
+	{
+		"title": "tester-army 开源 e2e 端到端测试框架",
+		"url": "https://github.com/tester-army/e2e",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T10:30:50Z",
 		"group": "gh"
 	},
 	{
 		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
 		"url": "https://github.com/boykopovar/AnyPS5",
 		"source": "GitHub Trending",
-		"date": "2026-10-15T02:07:42Z",
+		"date": "2026-10-15T10:30:29Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T09:41:19Z",
 		"group": "gh"
 	},
 	{
 		"title": "Flutter 更新跨平台 UI 框架",
 		"url": "https://github.com/flutter/flutter",
 		"source": "GitHub Trending",
-		"date": "2026-10-15T01:55:23Z",
+		"date": "2026-10-15T08:30:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "tiny11builder 发布 WinUI 应用，可构建精简定制 Windows 11 镜像",
+		"url": "https://github.com/ntdevlabs/tiny11builder",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T07:45:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "iFixAi 开源 AI Agent 独立审计工具",
 		"url": "https://github.com/ifixai-ai/iFixAi",
 		"source": "GitHub Trending",
-		"date": "2026-10-14T23:04:34Z",
+		"date": "2026-10-15T07:45:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
+		"url": "https://github.com/earthtojake/text-to-cad",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T07:16:54Z",
+		"group": "gh"
+	},
+	{
+		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
+		"url": "https://github.com/debpalash/VoiceStudio",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T05:27:26Z",
+		"group": "gh"
+	},
+	{
+		"title": "EpicGames 开源 raddebugger 原生多进程图形调试器",
+		"url": "https://github.com/EpicGames/raddebugger",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T04:17:59Z",
 		"group": "gh"
 	},
 	{
@@ -39,13 +74,6 @@
 		"url": "https://github.com/mksglu/context-mode",
 		"source": "GitHub Trending",
 		"date": "2026-10-14T22:18:40Z",
-		"group": "gh"
-	},
-	{
-		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
-		"url": "https://github.com/earthtojake/text-to-cad",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T21:32:57Z",
 		"group": "gh"
 	},
 	{
@@ -61,13 +89,6 @@
 		"source": "NVIDIA",
 		"date": "2026-10-14T20:57:54.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "tester-army 开源 e2e 端到端测试框架",
-		"url": "https://github.com/tester-army/e2e",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T20:35:25Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 更新 RTX AI 笔记本电脑本地 AI 软件",
@@ -152,20 +173,6 @@
 		"source": "Google AI",
 		"date": "2026-10-13T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "tiny11builder 发布 WinUI 应用，可构建精简定制 Windows 11 镜像",
-		"url": "https://github.com/ntdevlabs/tiny11builder",
-		"source": "GitHub Trending",
-		"date": "2026-10-12T20:32:09Z",
-		"group": "gh"
-	},
-	{
-		"title": "EpicGames 开源 raddebugger 原生多进程图形调试器",
-		"url": "https://github.com/EpicGames/raddebugger",
-		"source": "GitHub Trending",
-		"date": "2026-10-12T16:59:36Z",
-		"group": "gh"
 	},
 	{
 		"title": "K-Dense-AI 开源科学 agent skill 库 scientific-agent-skills",
@@ -2606,6 +2613,13 @@
 	{
 		"title": "xAI 将 Grok 4.6 上线 Amazon Bedrock",
 		"url": "https://x.ai/news/grok-4-6-amazon-bedrock",
+		"source": "xAI",
+		"date": "2026-08-19T00:00:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 向所有用户开放 Grok Build 功能",
+		"url": "https://x.ai/news/grok-build-for-everyone",
 		"source": "xAI",
 		"date": "2026-08-19T00:00:00.000Z",
 		"group": "labs"
