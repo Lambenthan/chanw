@@ -1,51 +1,72 @@
 [
 	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T20:43:35Z",
+		"group": "gh"
+	},
+	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-15T16:00:14Z",
+		"date": "2026-10-15T20:43:23Z",
 		"group": "gh"
 	},
 	{
 		"title": "ranxianglei 开源上下文压缩插件 billion-context",
 		"url": "https://github.com/ranxianglei/billion-context",
 		"source": "GitHub Trending",
-		"date": "2026-10-15T15:59:08Z",
-		"group": "gh"
-	},
-	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-15T15:58:11Z",
+		"date": "2026-10-15T20:41:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
 		"url": "https://github.com/debpalash/VoiceStudio",
 		"source": "GitHub Trending",
-		"date": "2026-10-15T15:57:20Z",
+		"date": "2026-10-15T20:31:51Z",
 		"group": "gh"
 	},
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-15T15:53:09Z",
+		"date": "2026-10-15T20:17:44Z",
 		"group": "gh"
 	},
 	{
-		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
-		"url": "https://github.com/mksglu/context-mode",
+		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
+		"url": "https://github.com/cathrynlavery/diagram-design",
 		"source": "GitHub Trending",
-		"date": "2026-10-15T15:18:23Z",
+		"date": "2026-10-15T20:04:11Z",
 		"group": "gh"
 	},
 	{
 		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
 		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-15T14:53:55Z",
+		"date": "2026-10-15T19:53:01Z",
+		"group": "gh"
+	},
+	{
+		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
+		"url": "https://github.com/mksglu/context-mode",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T17:12:21Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布官方 Claude Code 插件目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T16:36:37Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-10-15T16:29:13Z",
 		"group": "gh"
 	},
 	{
@@ -63,32 +84,11 @@
 		"group": "gh"
 	},
 	{
-		"title": "Anthropic 发布官方 Claude Code 插件目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-10-15T07:40:14Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-10-15T07:30:29Z",
-		"group": "gh"
-	},
-	{
 		"title": "FLUX.3 Image Klein 图像模型集成至 Diffusers",
 		"url": "https://huggingface.co/blog/flux-3",
 		"source": "Hugging Face Blog",
 		"date": "2026-10-15T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-10-14T21:29:18Z",
-		"group": "gh"
 	},
 	{
 		"title": "NVIDIA 于 OCP 全球峰会发布 Vera Rubin AI 工厂方案",
@@ -644,16 +644,16 @@
 		"group": "labs"
 	},
 	{
-		"title": "xAI 发布 Grok Voice Transcribe 2.0",
-		"url": "https://x.ai/news/grok-voice-transcribe-2",
-		"source": "xAI",
-		"date": "2026-09-18T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 与 Accenture 合作嵌入式评测",
 		"url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
 		"source": "Anthropic News",
+		"date": "2026-09-18T20:02:00.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "xAI 发布 Grok Voice Transcribe 2.0",
+		"url": "https://x.ai/news/grok-voice-transcribe-2",
+		"source": "xAI",
 		"date": "2026-09-18T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2548,24 +2548,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "IBM Granite 发布 Granite 4.2 大语言模型",
-		"url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-25T15:14:14.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
 		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
 		"source": "NVIDIA",
 		"date": "2026-08-25T13:03:59.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Quantization-Aware Healing 实现 4 位量化模型超越全精度模型",
-		"url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-25T11:39:24.000Z",
 		"group": "labs"
 	},
 	{
