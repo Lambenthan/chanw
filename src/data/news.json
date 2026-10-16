@@ -1,51 +1,72 @@
 [
 	{
-		"title": "ranxianglei 开源上下文压缩插件 billion-context",
-		"url": "https://github.com/ranxianglei/billion-context",
+		"title": "morluto 开源 rea agent 逆向工程框架",
+		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T15:47:56Z",
+		"date": "2026-10-16T20:17:12Z",
 		"group": "gh"
 	},
 	{
 		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
 		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T15:44:44Z",
-		"group": "gh"
-	},
-	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T15:37:53Z",
-		"group": "gh"
-	},
-	{
-		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
-		"url": "https://github.com/mksglu/context-mode",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T15:36:18Z",
-		"group": "gh"
-	},
-	{
-		"title": "morluto 开源 rea agent 逆向工程框架",
-		"url": "https://github.com/morluto/rea",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T15:35:19Z",
+		"date": "2026-10-16T20:13:26Z",
 		"group": "gh"
 	},
 	{
 		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
 		"url": "https://github.com/boykopovar/AnyPS5",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T15:31:33Z",
+		"date": "2026-10-16T20:12:43Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-10-16T20:09:55Z",
+		"group": "gh"
+	},
+	{
+		"title": "ranxianglei 开源上下文压缩插件 billion-context",
+		"url": "https://github.com/ranxianglei/billion-context",
+		"source": "GitHub Trending",
+		"date": "2026-10-16T20:00:41Z",
+		"group": "gh"
+	},
+	{
+		"title": "Cursor 发布插件规范与官方插件",
+		"url": "https://github.com/cursor/plugins",
+		"source": "GitHub Trending",
+		"date": "2026-10-16T19:56:00Z",
+		"group": "gh"
+	},
+	{
+		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
+		"url": "https://github.com/cathrynlavery/diagram-design",
+		"source": "GitHub Trending",
+		"date": "2026-10-16T19:42:46Z",
+		"group": "gh"
+	},
+	{
+		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
+		"url": "https://github.com/mksglu/context-mode",
+		"source": "GitHub Trending",
+		"date": "2026-10-16T18:48:42Z",
 		"group": "gh"
 	},
 	{
 		"title": "NSA 开源 Ghidra 软件逆向工程框架",
 		"url": "https://github.com/NationalSecurityAgency/ghidra",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T15:07:24Z",
+		"date": "2026-10-16T16:52:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布官方 Claude Code 插件目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-10-16T16:36:46Z",
 		"group": "gh"
 	},
 	{
@@ -60,27 +81,6 @@
 		"url": "https://github.com/ruvnet/ruflo",
 		"source": "GitHub Trending",
 		"date": "2026-10-16T11:04:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布官方 Claude Code 插件目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T07:36:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "Cursor 发布插件规范与官方插件",
-		"url": "https://github.com/cursor/plugins",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T05:40:24Z",
-		"group": "gh"
-	},
-	{
-		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T03:03:41Z",
 		"group": "gh"
 	},
 	{
@@ -413,6 +413,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 研究 GLM-5.3 先进网络能力的扩散",
+		"url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+		"source": "Anthropic Research",
+		"date": "2026-09-30T08:46:41.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 发布 Gemini 4 Argon 前沿模型",
 		"url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
 		"source": "DeepMind",
@@ -462,13 +469,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 研究 GLM-5.3 先进网络能力的扩散",
-		"url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-		"source": "Anthropic Research",
-		"date": "2026-09-29T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Project Swap 研究，探索 agent 代理交易",
 		"url": "https://www.anthropic.com/research/project-swap",
 		"source": "Anthropic Research",
@@ -514,7 +514,7 @@
 		"title": "Anthropic 发布 Claude 九循环能力研究",
 		"url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
 		"source": "Anthropic Research",
-		"date": "2026-09-25T00:00:00.000Z",
+		"date": "2026-09-25T21:38:13.000Z",
 		"group": "labs"
 	},
 	{
@@ -2188,13 +2188,6 @@
 		"url": "https://x.ai/news/grok-bot-procurement",
 		"source": "xAI",
 		"date": "2026-09-04T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 披露一起协调模型蒸馏攻击并加强防御",
-		"url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-		"source": "OpenAI",
-		"date": "2026-09-03T13:15:00.000Z",
 		"group": "labs"
 	},
 	{
