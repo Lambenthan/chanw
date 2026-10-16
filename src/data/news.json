@@ -1,58 +1,65 @@
 [
 	{
-		"title": "morluto 开源 rea agent 逆向工程框架",
-		"url": "https://github.com/morluto/rea",
+		"title": "ranxianglei 开源上下文压缩插件 billion-context",
+		"url": "https://github.com/ranxianglei/billion-context",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T10:19:25Z",
-		"group": "gh"
-	},
-	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T10:16:08Z",
+		"date": "2026-10-16T15:47:56Z",
 		"group": "gh"
 	},
 	{
 		"title": "text-to-cad 开源，为 agent 赋予 CAD 建模能力",
 		"url": "https://github.com/earthtojake/text-to-cad",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T10:14:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "ranxianglei 开源上下文压缩插件 billion-context",
-		"url": "https://github.com/ranxianglei/billion-context",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T09:55:48Z",
+		"date": "2026-10-16T15:44:44Z",
 		"group": "gh"
 	},
 	{
 		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
 		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T09:50:07Z",
+		"date": "2026-10-16T15:37:53Z",
 		"group": "gh"
 	},
 	{
 		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
 		"url": "https://github.com/mksglu/context-mode",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T09:47:58Z",
+		"date": "2026-10-16T15:36:18Z",
 		"group": "gh"
 	},
 	{
-		"title": "twostraws 开源 SwiftUI-Agent-Skill 供 AI 编程工具使用",
-		"url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+		"title": "morluto 开源 rea agent 逆向工程框架",
+		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T09:24:27Z",
+		"date": "2026-10-16T15:35:19Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-16T15:31:33Z",
+		"group": "gh"
+	},
+	{
+		"title": "NSA 开源 Ghidra 软件逆向工程框架",
+		"url": "https://github.com/NationalSecurityAgency/ghidra",
+		"source": "GitHub Trending",
+		"date": "2026-10-16T15:07:24Z",
 		"group": "gh"
 	},
 	{
 		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
 		"url": "https://github.com/debpalash/VoiceStudio",
 		"source": "GitHub Trending",
-		"date": "2026-10-16T09:02:51Z",
+		"date": "2026-10-16T14:33:40Z",
+		"group": "gh"
+	},
+	{
+		"title": "ruvnet 开源 ruflo agent harness 框架",
+		"url": "https://github.com/ruvnet/ruflo",
+		"source": "GitHub Trending",
+		"date": "2026-10-16T11:04:29Z",
 		"group": "gh"
 	},
 	{
@@ -60,13 +67,6 @@
 		"url": "https://github.com/anthropics/claude-plugins-official",
 		"source": "GitHub Trending",
 		"date": "2026-10-16T07:36:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "ruvnet 开源 ruflo agent harness 框架",
-		"url": "https://github.com/ruvnet/ruflo",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T06:51:55Z",
 		"group": "gh"
 	},
 	{
@@ -96,13 +96,6 @@
 		"source": "Anthropic News",
 		"date": "2026-10-15T22:05:58.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NSA 开源 Ghidra 软件逆向工程框架",
-		"url": "https://github.com/NationalSecurityAgency/ghidra",
-		"source": "GitHub Trending",
-		"date": "2026-10-15T12:02:03Z",
-		"group": "gh"
 	},
 	{
 		"title": "FLUX.3 Image Klein 图像模型集成至 Diffusers",
