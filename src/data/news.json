@@ -1,58 +1,58 @@
 [
 	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
+		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
+		"url": "https://github.com/mksglu/context-mode",
 		"source": "GitHub Trending",
-		"date": "2026-10-17T14:41:27Z",
+		"date": "2026-10-17T19:49:19Z",
 		"group": "gh"
 	},
 	{
 		"title": "ranxianglei 开源上下文压缩插件 billion-context",
 		"url": "https://github.com/ranxianglei/billion-context",
 		"source": "GitHub Trending",
-		"date": "2026-10-17T14:40:51Z",
+		"date": "2026-10-17T19:44:05Z",
 		"group": "gh"
 	},
 	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-17T14:39:19Z",
-		"group": "gh"
-	},
-	{
-		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
-		"url": "https://github.com/mksglu/context-mode",
-		"source": "GitHub Trending",
-		"date": "2026-10-17T14:35:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
-		"source": "GitHub Trending",
-		"date": "2026-10-17T14:26:35Z",
-		"group": "gh"
-	},
-	{
-		"title": "ruvnet 开源 ruflo agent harness 框架",
-		"url": "https://github.com/ruvnet/ruflo",
-		"source": "GitHub Trending",
-		"date": "2026-10-17T14:00:48Z",
+		"date": "2026-10-17T19:43:45Z",
 		"group": "gh"
 	},
 	{
 		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
 		"url": "https://github.com/debpalash/VoiceStudio",
 		"source": "GitHub Trending",
-		"date": "2026-10-17T13:47:53Z",
+		"date": "2026-10-17T19:37:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-17T19:26:10Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-10-17T19:01:17Z",
+		"group": "gh"
+	},
+	{
+		"title": "ruvnet 开源 ruflo agent harness 框架",
+		"url": "https://github.com/ruvnet/ruflo",
+		"source": "GitHub Trending",
+		"date": "2026-10-17T16:54:13Z",
 		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布官方 Claude Code 插件目录",
 		"url": "https://github.com/anthropics/claude-plugins-official",
 		"source": "GitHub Trending",
-		"date": "2026-10-17T07:36:42Z",
+		"date": "2026-10-17T16:41:00Z",
 		"group": "gh"
 	},
 	{
