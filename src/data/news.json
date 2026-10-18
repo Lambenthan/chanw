@@ -1,51 +1,44 @@
 [
 	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T10:08:12Z",
-		"group": "gh"
-	},
-	{
 		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
 		"url": "https://github.com/mksglu/context-mode",
 		"source": "GitHub Trending",
-		"date": "2026-10-18T10:06:27Z",
+		"date": "2026-10-18T15:08:04Z",
 		"group": "gh"
 	},
 	{
-		"title": "ranxianglei 开源上下文压缩插件 billion-context",
-		"url": "https://github.com/ranxianglei/billion-context",
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-18T10:02:38Z",
+		"date": "2026-10-18T15:01:31Z",
 		"group": "gh"
 	},
 	{
 		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
 		"url": "https://github.com/boykopovar/AnyPS5",
 		"source": "GitHub Trending",
-		"date": "2026-10-18T09:27:05Z",
-		"group": "gh"
-	},
-	{
-		"title": "morluto 开源 rea agent 逆向工程框架",
-		"url": "https://github.com/morluto/rea",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T09:13:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "ruvnet 开源 ruflo agent harness 框架",
-		"url": "https://github.com/ruvnet/ruflo",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T09:08:28Z",
+		"date": "2026-10-18T14:51:56Z",
 		"group": "gh"
 	},
 	{
 		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
 		"url": "https://github.com/debpalash/VoiceStudio",
 		"source": "GitHub Trending",
-		"date": "2026-10-18T07:51:57Z",
+		"date": "2026-10-18T13:51:44Z",
+		"group": "gh"
+	},
+	{
+		"title": "morluto 开源 rea agent 逆向工程框架",
+		"url": "https://github.com/morluto/rea",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T12:47:06Z",
+		"group": "gh"
+	},
+	{
+		"title": "ruvnet 开源 ruflo agent harness 框架",
+		"url": "https://github.com/ruvnet/ruflo",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T11:13:04Z",
 		"group": "gh"
 	},
 	{
@@ -67,13 +60,6 @@
 		"url": "https://github.com/NationalSecurityAgency/ghidra",
 		"source": "GitHub Trending",
 		"date": "2026-10-16T16:52:06Z",
-		"group": "gh"
-	},
-	{
-		"title": "K-Dense-AI 开源科学 agent skill 库 scientific-agent-skills",
-		"url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-		"source": "GitHub Trending",
-		"date": "2026-10-15T23:57:39Z",
 		"group": "gh"
 	},
 	{
@@ -131,13 +117,6 @@
 		"source": "Hugging Face Blog",
 		"date": "2026-10-13T17:05:48.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "mattpocock 开源 .agents 目录下的工程师技能集",
-		"url": "https://github.com/mattpocock/skills",
-		"source": "GitHub Trending",
-		"date": "2026-10-13T08:46:40Z",
-		"group": "gh"
 	},
 	{
 		"title": "DeepMind 发布 Gemini 4 Argon 并强调安全责任",
