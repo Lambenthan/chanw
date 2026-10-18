@@ -3,35 +3,42 @@
 		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
 		"url": "https://github.com/mksglu/context-mode",
 		"source": "GitHub Trending",
-		"date": "2026-10-18T15:08:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T15:01:31Z",
-		"group": "gh"
-	},
-	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T14:51:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
-		"url": "https://github.com/debpalash/VoiceStudio",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T13:51:44Z",
+		"date": "2026-10-18T19:52:30Z",
 		"group": "gh"
 	},
 	{
 		"title": "morluto 开源 rea agent 逆向工程框架",
 		"url": "https://github.com/morluto/rea",
 		"source": "GitHub Trending",
-		"date": "2026-10-18T12:47:06Z",
+		"date": "2026-10-18T19:40:16Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T19:31:59Z",
+		"group": "gh"
+	},
+	{
+		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
+		"url": "https://github.com/heygen-com/hyperframes",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T19:17:51Z",
+		"group": "gh"
+	},
+	{
+		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
+		"url": "https://github.com/debpalash/VoiceStudio",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T17:11:39Z",
+		"group": "gh"
+	},
+	{
+		"title": "Anthropic 发布官方 Claude Code 插件目录",
+		"url": "https://github.com/anthropics/claude-plugins-official",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T17:04:56Z",
 		"group": "gh"
 	},
 	{
@@ -39,13 +46,6 @@
 		"url": "https://github.com/ruvnet/ruflo",
 		"source": "GitHub Trending",
 		"date": "2026-10-18T11:13:04Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布官方 Claude Code 插件目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T07:34:19Z",
 		"group": "gh"
 	},
 	{
@@ -116,6 +116,13 @@
 		"url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
 		"source": "Hugging Face Blog",
 		"date": "2026-10-13T17:05:48.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 的 Claude 发现新型酶系统",
+		"url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+		"source": "Anthropic News",
+		"date": "2026-10-13T00:18:23.000Z",
 		"group": "labs"
 	},
 	{
@@ -486,13 +493,6 @@
 		"title": "DeepMind 发布 Gemini 3.8 文本转语音模型",
 		"url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
 		"source": "DeepMind",
-		"date": "2026-09-23T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 的 Claude 发现新型酶系统",
-		"url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-		"source": "Anthropic News",
 		"date": "2026-09-23T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2699,13 +2699,6 @@
 		"url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
 		"source": "DeepMind",
 		"date": "2026-07-21T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Bristol Myers Squibb 基于 NVIDIA Vera Rubin 构建生命科学 AI 工厂",
-		"url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
-		"source": "NVIDIA",
-		"date": "2026-07-20T18:21:02.000Z",
 		"group": "labs"
 	}
 ]
