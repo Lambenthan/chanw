@@ -1,58 +1,58 @@
 [
 	{
-		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
-		"url": "https://github.com/mksglu/context-mode",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T02:12:26Z",
-		"group": "gh"
-	},
-	{
-		"title": "morluto 开源 rea agent 逆向工程框架",
-		"url": "https://github.com/morluto/rea",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T02:09:38Z",
-		"group": "gh"
-	},
-	{
 		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
 		"url": "https://github.com/heygen-com/hyperframes",
 		"source": "GitHub Trending",
-		"date": "2026-10-18T02:06:28Z",
+		"date": "2026-10-18T10:08:12Z",
 		"group": "gh"
 	},
 	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
+		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
+		"url": "https://github.com/mksglu/context-mode",
 		"source": "GitHub Trending",
-		"date": "2026-10-18T02:01:01Z",
-		"group": "gh"
-	},
-	{
-		"title": "ruvnet 开源 ruflo agent harness 框架",
-		"url": "https://github.com/ruvnet/ruflo",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T01:58:37Z",
-		"group": "gh"
-	},
-	{
-		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
-		"url": "https://github.com/debpalash/VoiceStudio",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T01:17:51Z",
+		"date": "2026-10-18T10:06:27Z",
 		"group": "gh"
 	},
 	{
 		"title": "ranxianglei 开源上下文压缩插件 billion-context",
 		"url": "https://github.com/ranxianglei/billion-context",
 		"source": "GitHub Trending",
-		"date": "2026-10-18T00:43:28Z",
+		"date": "2026-10-18T10:02:38Z",
+		"group": "gh"
+	},
+	{
+		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
+		"url": "https://github.com/boykopovar/AnyPS5",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T09:27:05Z",
+		"group": "gh"
+	},
+	{
+		"title": "morluto 开源 rea agent 逆向工程框架",
+		"url": "https://github.com/morluto/rea",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T09:13:49Z",
+		"group": "gh"
+	},
+	{
+		"title": "ruvnet 开源 ruflo agent harness 框架",
+		"url": "https://github.com/ruvnet/ruflo",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T09:08:28Z",
+		"group": "gh"
+	},
+	{
+		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
+		"url": "https://github.com/debpalash/VoiceStudio",
+		"source": "GitHub Trending",
+		"date": "2026-10-18T07:51:57Z",
 		"group": "gh"
 	},
 	{
 		"title": "Anthropic 发布官方 Claude Code 插件目录",
 		"url": "https://github.com/anthropics/claude-plugins-official",
 		"source": "GitHub Trending",
-		"date": "2026-10-17T16:41:00Z",
+		"date": "2026-10-18T07:34:19Z",
 		"group": "gh"
 	},
 	{
