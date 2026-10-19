@@ -1,72 +1,16 @@
 [
 	{
-		"title": "HeyGen 开源 Hyperframes，面向 agent 的 HTML 转视频工具",
-		"url": "https://github.com/heygen-com/hyperframes",
-		"source": "GitHub Trending",
-		"date": "2026-10-19T02:28:50Z",
-		"group": "gh"
-	},
-	{
-		"title": "mksglu 开源 Context Mode，优化 AI 编程 agent 上下文窗口",
-		"url": "https://github.com/mksglu/context-mode",
-		"source": "GitHub Trending",
-		"date": "2026-10-19T02:27:03Z",
-		"group": "gh"
-	},
-	{
-		"title": "boykopovar 开源 AnyPS5 PS5 可执行文件移植工具",
-		"url": "https://github.com/boykopovar/AnyPS5",
-		"source": "GitHub Trending",
-		"date": "2026-10-19T02:24:41Z",
-		"group": "gh"
-	},
-	{
-		"title": "morluto 开源 rea agent 逆向工程框架",
-		"url": "https://github.com/morluto/rea",
-		"source": "GitHub Trending",
-		"date": "2026-10-19T02:12:29Z",
-		"group": "gh"
-	},
-	{
-		"title": "ruvnet 开源 ruflo agent harness 框架",
-		"url": "https://github.com/ruvnet/ruflo",
-		"source": "GitHub Trending",
-		"date": "2026-10-19T01:50:10Z",
-		"group": "gh"
-	},
-	{
-		"title": "VoiceStudio 开源发布，提供本地语音克隆与合成功能",
-		"url": "https://github.com/debpalash/VoiceStudio",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T21:56:49Z",
-		"group": "gh"
-	},
-	{
-		"title": "Anthropic 发布官方 Claude Code 插件目录",
-		"url": "https://github.com/anthropics/claude-plugins-official",
-		"source": "GitHub Trending",
-		"date": "2026-10-18T17:04:56Z",
-		"group": "gh"
-	},
-	{
-		"title": "cathrynlavery 开源 diagram-design 图表设计项目",
-		"url": "https://github.com/cathrynlavery/diagram-design",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T19:42:46Z",
-		"group": "gh"
-	},
-	{
-		"title": "NSA 开源 Ghidra 软件逆向工程框架",
-		"url": "https://github.com/NationalSecurityAgency/ghidra",
-		"source": "GitHub Trending",
-		"date": "2026-10-16T16:52:06Z",
-		"group": "gh"
-	},
-	{
 		"title": "Anthropic 向美国三权分支机构扩展 Claude 访问权限",
 		"url": "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
 		"source": "Anthropic News",
 		"date": "2026-10-15T22:05:58.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
+		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-10-15T16:01:36.000Z",
 		"group": "labs"
 	},
 	{
@@ -193,13 +137,6 @@
 		"url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
 		"source": "Anthropic Research",
 		"date": "2026-10-09T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
-		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-10-08T21:07:24.000Z",
 		"group": "labs"
 	},
 	{
@@ -2362,13 +2299,6 @@
 		"title": "DeepMind 推出 Gemini 3.5 Transcribe 语音转文字服务",
 		"url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
 		"source": "DeepMind",
-		"date": "2026-08-26T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 Sentence Transformers 多向量嵌入模型训练与微调方法",
-		"url": "https://huggingface.co/blog/train-multi-vector-encoder",
-		"source": "Hugging Face Blog",
 		"date": "2026-08-26T00:00:00.000Z",
 		"group": "labs"
 	},
