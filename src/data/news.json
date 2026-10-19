@@ -2163,13 +2163,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face ASR 评测榜单加入首个全球南方语言",
-		"url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-		"source": "Hugging Face Blog",
-		"date": "2026-08-28T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布多智能体系统模式与问题研究",
 		"url": "https://www.anthropic.com/research/multiagent-systems",
 		"source": "Anthropic Research",

@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-10-19T18:01:18.827Z",
+  "fetchedAt": "2026-10-19T22:02:58.805Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "dbefd6e9006b72ec",
+      "title": "OpenAI 推进 EMEA 地区青少年安全措施",
+      "url": "https://openai.com/index/advancing-youth-safety-in-emea/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-10-19T22:00:29.867Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Advancing Youth Safety In Emea",
+      "score": 1,
+      "cn": "OpenAI 宣布在 EMEA地区青少年安全计划，针对欧盟及周边市场推出年龄验证、内容过滤等保护机制。该举措属于企业运营层面的合规与品牌建设，不涉及模型或产品能力更新。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "c0b3a91b7c71e09c",
+      "title": "OpenAI 发布新版 ChatGPT 图像生成能力",
+      "url": "https://openai.com/index/new-chatgpt-images-is-here/",
+      "summary": "",
+      "category": "图像模型",
+      "publishedAt": "2026-10-19T22:00:14.662Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "New Chatgpt Images Is Here",
+      "score": 5,
+      "cn": "OpenAI 更新了 ChatGPT 内置的图像生成模型，在构图、文字渲染和风格一致性方面有明显提升。用户可以直接在对话中生成更精准的视觉内容，无需额外工具或提示词工程。这一更新让 ChatGPT 的多模态能力更贴近日常创作场景，使用门槛进一步降低。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "8d787a4e33550f0b",
+      "title": "OpenAI 发布 ChatGPT 用户使用案例报告",
+      "url": "https://openai.com/index/how-people-are-using-chatgpt/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-10-19T22:00:05.187Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "How People Are Using Chatgpt",
+      "score": 1,
+      "cn": "OpenAI 发布了一篇关于用户案例合集，展示 ChatGPT 在学习、编程、写作、创意等领域的实际应用。文章汇集了来自不同用户的真实故事，帮助新用户了解 ChatGPT 的多种使用方式。这是一份用户故事汇编，不涉及技术更新或模型发布。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "a733eda03e4b02f2",
+      "title": "OpenAI 发布 O3 和 O4 Mini 系统卡",
+      "url": "https://openai.com/index/o3-o4-mini-system-card/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-10-19T21:59:55.639Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "O3 O4 Mini System Card",
+      "score": 4,
+      "cn": "OpenAI 发布了 O3 与 O4 Mini 的系统卡，详细披露了这两个模型在安全评估、偏见测试、鲁棒性验证等方面的结果。系统卡是理解模型行为边界的关键文档，为开发者提供了使用建议与风险缓解措施。这份报告延续了 OpenAI 在模型透明度上的实践，有助于社区更负责任地部署这些能力。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "84135b46c3aa2b72",
+      "title": "OpenAI 在 API 中推出 GPT Live 1",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-10-19T21:59:49.462Z",
+      "discoveredAt": "2026-10-06T22:01:57.661Z",
+      "originalTitle": "Introducing Gpt Live 1 In The Api",
+      "score": 5,
+      "cn": "OpenAI 在 API 中推出 GPT Live 1，这是一个面向实时语音交互的模型。开发者可通过 API 直接集成，构建低延迟的语音对话应用。GPT Live 1 在自然对话流畅度与响应速度上做了专门优化，为语音助手、客服等场景提供更接近真人交流的体验。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -9,11 +79,81 @@
       "url": "https://openai.com/index/learning-to-reason-with-llms/",
       "summary": "",
       "category": "大模型",
-      "publishedAt": "2026-10-19T17:57:50.741Z",
+      "publishedAt": "2026-10-19T21:58:28.928Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Learning To Reason With Llms",
       "score": 5,
       "cn": "OpenAI 发布了一项关于 LLM 推理能力训练的研究，系统性地探索了如何让大语言模型在数学、编程和逻辑推理任务上具备更强的链式思考能力。这项研究涉及强化学习与过程奖励模型等多种技术路线，为后续推理类模型的迭代提供了理论支撑与实验基准。对于关注 LLM 推理能力提升的开发者与研究者而言，这是一份值得仔细阅读的官方技术报告。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "f22abc43729d8d96",
+      "title": "OpenAI 模型推翻离散几何猜想",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "summary": "",
+      "category": "评测",
+      "publishedAt": "2026-10-19T21:57:20.963Z",
+      "discoveredAt": "2026-05-20T20:16:50.270Z",
+      "originalTitle": "Model Disproves Discrete Geometry Conjecture",
+      "score": 5,
+      "cn": "OpenAI 在 IMO 级别难度的离散几何猜想上取得突破，模型成功构造出反例，推翻了该领域存在多年的猜想。这一成果展现了 LLM 在复杂数学推理上的潜力，也说明模型开始具备参与数学研究的能力。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "5e2ca550c9e5e7d7",
+      "title": "OpenAI 发布儿童安全蓝图",
+      "url": "https://openai.com/index/introducing-child-safety-blueprint/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-10-19T21:50:20.269Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing Child Safety Blueprint",
+      "score": 1,
+      "cn": "OpenAI 公布了儿童安全蓝图，这是一份围绕 AI 产品如何保护未成年人而设计的政策与技术指南。文档从内容过滤、年龄验证、隐私设计等维度提出实操建议，并邀请行业各方共同参与讨论。该蓝图目前处于公开征求意见阶段，旨在推动 AI 行业形成更一致的儿童安全标准。此举被视为 OpenAI 在监管压力持续升温的背景下显得尤为重要，但尚未涉及具体产品功能层面的改动。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "3b5bbf362ce283d6",
+      "title": "OpenAI 推出独立研究 AI 对齐项目",
+      "url": "https://openai.com/index/advancing-independent-research-ai-alignment/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-10-19T21:46:17.294Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Advancing Independent Research Ai Alignment",
+      "score": 2,
+      "cn": "OpenAI 公布了一项推动独立研究 AI 对齐的倡议。该项目旨在支持外部团队开展对齐研究，减少前沿模型的风险。通过提供资源与协作机会，OpenAI 试图拓宽其安全研究生态，以应对前沿模型潜在的失控问题。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "ab203006c566e4ad",
+      "title": "OpenAI 发布日本青少年安全蓝图",
+      "url": "https://openai.com/index/japan-teen-safety-blueprint/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-10-19T21:40:16.230Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Japan Teen Safety Blueprint",
+      "score": 1,
+      "cn": "OpenAI 发布了针对日本市场的青少年安全蓝图，提出了一系列面向未成年用户的产品安全原则与运营措施。该文件旨在回应日本监管机构与社会对 AI 服务青少年保护的关注，内容涵盖年龄验证、内容过滤、教育引导等方面。此举属于区域性的政策表态与合规动作，不涉及模型或产品层面的技术更新。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "b39f2461ad392f03",
+      "title": "OpenAI 发布理论物理学新成果",
+      "url": "https://openai.com/index/new-result-theoretical-physics/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-10-19T21:04:31.202Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "New Result Theoretical Physics",
+      "score": 5,
+      "cn": "OpenAI 公布了一项理论物理学领域的新成果，具体内容尚未详细披露。这标志着 AI 研究机构在基础科学前沿取得突破，可能涉及物理规律发现或理论建模方面的进展。该成果的具体细节预计将在后续公开。"
     },
     {
       "source": "openai",
@@ -23,11 +163,25 @@
       "url": "https://openai.com/index/learning-a-hierarchy/",
       "summary": "",
       "category": "其他",
-      "publishedAt": "2026-10-19T17:52:51.401Z",
+      "publishedAt": "2026-10-19T20:25:45.010Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Learning A Hierarchy",
       "score": 4,
       "cn": "OpenAI 发布一项关于层级结构学习的研究，探讨如何让模型自动发现和利用数据中的层次化规律。该方法可能提升模型在复杂任务中的泛化能力，为构建更高效的训练范式提供了新思路。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "a1f2f881fdbdb074",
+      "title": "OpenAI 发布 AGI 及未来规划声明",
+      "url": "https://openai.com/index/planning-for-agi-and-beyond/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-10-19T19:44:24.767Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Planning For Agi And Beyond",
+      "score": 3,
+      "cn": "OpenAI 发布了一份关于 AGI（通用人工智能）及其后续发展的规划文件。该文档阐述了公司对构建安全、有益的 AGI 的长期愿景，并提出了在迈向这一目标过程中的技术路径、社会影响考量以及治理原则。这份声明旨在为公众和行业提供 OpenAI 在 AGI 发展方向的思考框架。"
     },
     {
       "source": "openai",
@@ -228,20 +382,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "3b5bbf362ce283d6",
-      "title": "OpenAI 推出独立研究 AI 对齐项目",
-      "url": "https://openai.com/index/advancing-independent-research-ai-alignment/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-10-19T13:02:55.660Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Advancing Independent Research Ai Alignment",
-      "score": 2,
-      "cn": "OpenAI 公布了一项推动独立研究 AI 对齐的倡议。该项目旨在支持外部团队开展对齐研究，减少前沿模型的风险。通过提供资源与协作机会，OpenAI 试图拓宽其安全研究生态，以应对前沿模型潜在的失控问题。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "f2a6338b416f3def",
       "title": "OpenAI 发布 Healthbench 医疗评测基准",
       "url": "https://openai.com/index/healthbench/",
@@ -308,20 +448,6 @@
       "originalTitle": "Introducing Life Sci Bench",
       "score": 4,
       "cn": "OpenAI 推出了 Life Sci Bench，一个专为评估 AI 在生命科学领域能力而设计的评测基准。该基准覆盖分子生物学、基因组学、药物发现等方向的复杂推理任务，旨在衡量大模型处理科研级问题的真实水平。这一评测工具为 AI 在生物医学研究中的应用提供了更细粒度的能力度量标准。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "8d787a4e33550f0b",
-      "title": "OpenAI 发布 ChatGPT 用户使用案例报告",
-      "url": "https://openai.com/index/how-people-are-using-chatgpt/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-10-19T12:52:07.432Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "How People Are Using Chatgpt",
-      "score": 1,
-      "cn": "OpenAI 发布了一篇关于用户案例合集，展示 ChatGPT 在学习、编程、写作、创意等领域的实际应用。文章汇集了来自不同用户的真实故事，帮助新用户了解 ChatGPT 的多种使用方式。这是一份用户故事汇编，不涉及技术更新或模型发布。"
     },
     {
       "source": "openai",
@@ -476,20 +602,6 @@
       "originalTitle": "Gpt 4o System Card",
       "score": 5,
       "cn": "OpenAI 发布了 GPT-4o System Card，一份详尽的模型安全评估与能力边界报告。文档系统梳理了 GPT-4o 在多模态理解、语言生成、指令跟随等方面的安全测试结果，涵盖对抗性评估、社会偏见审计以及滥用风险分析。作为 GPT-4o 正式上线前的关键透明度披露，这份 System Card 为开发者和企业用户提供了决策依据，也延续了 OpenAI 在先期模型安全文档上的一贯做法。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "a733eda03e4b02f2",
-      "title": "OpenAI 发布 O3 和 O4 Mini 系统卡",
-      "url": "https://openai.com/index/o3-o4-mini-system-card/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-10-19T12:43:59.939Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "O3 O4 Mini System Card",
-      "score": 4,
-      "cn": "OpenAI 发布了 O3 与 O4 Mini 的系统卡，详细披露了这两个模型在安全评估、偏见测试、鲁棒性验证等方面的结果。系统卡是理解模型行为边界的关键文档，为开发者提供了使用建议与风险缓解措施。这份报告延续了 OpenAI 在模型透明度上的实践，有助于社区更负责任地部署这些能力。"
     },
     {
       "source": "openai",
@@ -774,20 +886,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "b39f2461ad392f03",
-      "title": "OpenAI 发布理论物理学新成果",
-      "url": "https://openai.com/index/new-result-theoretical-physics/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-10-19T12:34:34.240Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "New Result Theoretical Physics",
-      "score": 5,
-      "cn": "OpenAI 公布了一项理论物理学领域的新成果，具体内容尚未详细披露。这标志着 AI 研究机构在基础科学前沿取得突破，可能涉及物理规律发现或理论建模方面的进展。该成果的具体细节预计将在后续公开。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "c59c597501ce523e",
       "title": "OpenAI 发布 GPT-6 Astra",
       "url": "https://openai.com/index/gpt-6-astra/",
@@ -854,20 +952,6 @@
       "originalTitle": "Hierarchical Text Conditional Image Generation With Clip Latents",
       "score": 5,
       "cn": "OpenAI 提出一种层级式层级文本条件图像生成方法，利用 CLIP 图像表征作为潜变量，在扩散模型中实现从粗到细的生成过程。该方法先以文本描述生成 CLIP 图像嵌入，再以此为条件生成高分辨率图像，使得生成结果在语义对齐和细节丰富度上取得显著提升。这项工作将 CLIP 的跨模态理解能力嵌入扩散模型的生成管道，为文本驱动的图像创作提供了新范式。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "f22abc43729d8d96",
-      "title": "OpenAI 模型推翻离散几何猜想",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-      "summary": "",
-      "category": "评测",
-      "publishedAt": "2026-10-19T12:30:14.035Z",
-      "discoveredAt": "2026-05-20T20:16:50.270Z",
-      "originalTitle": "Model Disproves Discrete Geometry Conjecture",
-      "score": 5,
-      "cn": "OpenAI 在 IMO 级别难度的离散几何猜想上取得突破，模型成功构造出反例，推翻了该领域存在多年的猜想。这一成果展现了 LLM 在复杂数学推理上的潜力，也说明模型开始具备参与数学研究的能力。"
     },
     {
       "source": "openai",
@@ -1348,20 +1432,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "dbefd6e9006b72ec",
-      "title": "OpenAI 推进 EMEA 地区青少年安全措施",
-      "url": "https://openai.com/index/advancing-youth-safety-in-emea/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-10-19T11:48:44.589Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Advancing Youth Safety In Emea",
-      "score": 1,
-      "cn": "OpenAI 宣布在 EMEA地区青少年安全计划，针对欧盟及周边市场推出年龄验证、内容过滤等保护机制。该举措属于企业运营层面的合规与品牌建设，不涉及模型或产品能力更新。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "7a1cfb4e5ebf1feb",
       "title": "OpenAI 提出现实世界不良内容检测的整体方法",
       "url": "https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world/",
@@ -1740,20 +1810,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "5e2ca550c9e5e7d7",
-      "title": "OpenAI 发布儿童安全蓝图",
-      "url": "https://openai.com/index/introducing-child-safety-blueprint/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-10-19T11:08:03.517Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing Child Safety Blueprint",
-      "score": 1,
-      "cn": "OpenAI 公布了儿童安全蓝图，这是一份围绕 AI 产品如何保护未成年人而设计的政策与技术指南。文档从内容过滤、年龄验证、隐私设计等维度提出实操建议，并邀请行业各方共同参与讨论。该蓝图目前处于公开征求意见阶段，旨在推动 AI 行业形成更一致的儿童安全标准。此举被视为 OpenAI 在监管压力持续升温的背景下显得尤为重要，但尚未涉及具体产品功能层面的改动。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "ca5b46f04b6dc2ab",
       "title": "OpenAI 发布 GPT-5.1",
       "url": "https://openai.com/index/gpt-5-1/",
@@ -1764,20 +1820,6 @@
       "originalTitle": "Gpt 5 1",
       "score": 5,
       "cn": "OpenAI 推出 GPT-5.1，在原有基础上优化推理能力与多模态交互，代码生成、逻辑推理和长文本理解均有提升，同时降低延迟并增强安全性，现可通过 API 和 ChatGPT 使用。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "c0b3a91b7c71e09c",
-      "title": "OpenAI 发布新版 ChatGPT 图像生成能力",
-      "url": "https://openai.com/index/new-chatgpt-images-is-here/",
-      "summary": "",
-      "category": "图像模型",
-      "publishedAt": "2026-10-19T11:07:54.245Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "New Chatgpt Images Is Here",
-      "score": 5,
-      "cn": "OpenAI 更新了 ChatGPT 内置的图像生成模型，在构图、文字渲染和风格一致性方面有明显提升。用户可以直接在对话中生成更精准的视觉内容，无需额外工具或提示词工程。这一更新让 ChatGPT 的多模态能力更贴近日常创作场景，使用门槛进一步降低。"
     },
     {
       "source": "openai",
@@ -3948,20 +3990,6 @@
       "originalTitle": "Advancing Voice Intelligence With New Models In The Api",
       "score": 4,
       "cn": "OpenAI 在其 API 中更新了语音模型，重点提升了语音智能的准确性和自然度。新模型在语音识别和合成方面表现出更流畅的交互式的流畅能力，能够更好地处理口音、噪音和语速变化。开发者可通过 API 快速集成多语言语音功能，为智能助手、客服和内容创作提供更接近真人的语音体验。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "84135b46c3aa2b72",
-      "title": "OpenAI 在 API 中推出 GPT Live 1",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-10-14T22:59:35.633Z",
-      "discoveredAt": "2026-10-06T22:01:57.661Z",
-      "originalTitle": "Introducing Gpt Live 1 In The Api",
-      "score": 5,
-      "cn": "OpenAI 在 API 中推出 GPT Live 1，这是一个面向实时语音交互的模型。开发者可通过 API 直接集成，构建低延迟的语音对话应用。GPT Live 1 在自然对话流畅度与响应速度上做了专门优化，为语音助手、客服等场景提供更接近真人交流的体验。"
     },
     {
       "source": "openai",
@@ -9438,20 +9466,6 @@
       "cn": "Anthropic 宣布扩展面向科学家的支持计划，包括提供更便捷的 API 访问、专门的技术文档和案例研究。该计划旨在帮助研究人员在数据分析、实验设计等环节使用 Claude 模型。此前 Anthropic 已与部分科研机构合作，此次扩展将覆盖更多学科领域。"
     },
     {
-      "source": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "id": "b0b2c2da12a5bc45",
-      "title": "Hugging Face ASR 评测榜单加入首个全球南方语言",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "summary": "",
-      "category": "评测",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "discoveredAt": "2026-08-29T01:20:00.908Z",
-      "originalTitle": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "score": 4,
-      "cn": "Hugging Face 的开放 ASR 评测榜单新增斯瓦希里语评测，这是该榜单首次覆盖全球南方语言。斯瓦希里语在东非有超过 1.5 亿使用者，长期在主流语音识别基准测试中缺席。榜单已集成 Whisper、Wav2Vec2-XLSR 等模型在该语言上的 WER 指标，为低资源语言 ASR 研究提供了可重复的评估标准。"
-    },
-    {
       "source": "deepmind",
       "sourceName": "DeepMind",
       "id": "a13e39d4fa54504b",
@@ -10318,20 +10332,6 @@
       "originalTitle": "Teen Safety Policies Gpt Oss Safeguard",
       "score": 1,
       "cn": "OpenAI 更新了面向青少年用户的安全政策，并同步推出 GPT 开源防护措施。新规旨在降低未成年人使用 AI 产品时的潜在风险，同时为开发者社区提供更清晰的模型安全使用指引。此举延续了 OpenAI 在安全对齐与合规方面的持续投入，但未涉及模型能力或产品功能的实质性更新。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "ab203006c566e4ad",
-      "title": "OpenAI 发布日本青少年安全蓝图",
-      "url": "https://openai.com/index/japan-teen-safety-blueprint/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-08-14T13:51:50.834Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Japan Teen Safety Blueprint",
-      "score": 1,
-      "cn": "OpenAI 发布了针对日本市场的青少年安全蓝图，提出了一系列面向未成年用户的产品安全原则与运营措施。该文件旨在回应日本监管机构与社会对 AI 服务青少年保护的关注，内容涵盖年龄验证、内容过滤、教育引导等方面。此举属于区域性的政策表态与合规动作，不涉及模型或产品层面的技术更新。"
     },
     {
       "source": "openai",
@@ -16968,20 +16968,6 @@
       "originalTitle": "Frontier Risk And Preparedness",
       "score": 1,
       "cn": "OpenAI 发布了一份关于前沿模型风险与准备工作的报告，系统梳理了公司在部署强模型前所采取的安全评估、红队测试和缓解措施。报告涵盖了对自主能力、生物威胁、网络安全等潜在风险领域的分类与应对策略，并介绍了内部准备框架的运作方式。这是 OpenAI 在模型安全治理方面的例行更新，旨在向外界展示其安全治理的透明度。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "a1f2f881fdbdb074",
-      "title": "OpenAI 发布 AGI 及未来规划声明",
-      "url": "https://openai.com/index/planning-for-agi-and-beyond/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-05-31T20:06:18.910Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Planning For Agi And Beyond",
-      "score": 3,
-      "cn": "OpenAI 发布了一份关于 AGI（通用人工智能）及其后续发展的规划文件。该文档阐述了公司对构建安全、有益的 AGI 的长期愿景，并提出了在迈向这一目标过程中的技术路径、社会影响考量以及治理原则。这份声明旨在为公众和行业提供 OpenAI 在 AGI 发展方向的思考框架。"
     },
     {
       "source": "openai",
