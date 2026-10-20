@@ -126,6 +126,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 推出开源软件可选漏洞发现服务",
+		"url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+		"source": "Anthropic Research",
+		"date": "2026-10-09T08:48:01.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "SentinelOne 借助 OpenAI Daybreak 将恶意软件分析从数周缩短至数小时",
 		"url": "https://openai.com/index/sentinelone",
 		"source": "OpenAI",
@@ -157,13 +164,6 @@
 		"title": "Hugging Face 发布机器学习实习生项目成果",
 		"url": "https://huggingface.co/blog/building-with-ml-intern",
 		"source": "Hugging Face Blog",
-		"date": "2026-10-08T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出开源软件可选漏洞发现服务",
-		"url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
-		"source": "Anthropic Research",
 		"date": "2026-10-08T00:00:00.000Z",
 		"group": "labs"
 	},
@@ -2065,20 +2065,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布 Funes 为编程 agent 添加可自主管理的记忆",
-		"url": "https://huggingface.co/blog/funes",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-03T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 用 TRL 和 OpenEnv 训练代码模型绘制水彩画",
-		"url": "https://huggingface.co/blog/train-to-paint-with-code",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-03T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 与企业客户合作开发前沿安全防护",
 		"url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
 		"source": "Anthropic News",
@@ -2107,13 +2093,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布 BenchMIRT 评测框架",
-		"url": "https://huggingface.co/blog/allenai/benchmirt",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-01T21:39:07.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google AI 公布 2026 年 8 月产品更新汇总",
 		"url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
 		"source": "Google AI",
@@ -2131,13 +2110,6 @@
 		"title": "Google AI 发布 Google Pics 图像创建与编辑工具",
 		"url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
 		"source": "Google AI",
-		"date": "2026-09-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 @huggingface/kernels 包含 200+ WebGPU 内核",
-		"url": "https://huggingface.co/blog/webgpu-kernels",
-		"source": "Hugging Face Blog",
 		"date": "2026-09-01T00:00:00.000Z",
 		"group": "labs"
 	},
