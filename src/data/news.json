@@ -2567,33 +2567,5 @@
 		"source": "NVIDIA",
 		"date": "2026-07-23T03:54:14.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Skills 功能",
-		"url": "https://www.anthropic.com/news/skills",
-		"source": "Anthropic News",
-		"date": "2026-07-22T01:16:15.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Sonnet 4.5",
-		"url": "https://www.anthropic.com/news/claude-sonnet-4-5",
-		"source": "Anthropic News",
-		"date": "2026-07-22T01:13:43.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Haiku 4.5",
-		"url": "https://www.anthropic.com/news/claude-haiku-4-5",
-		"source": "Anthropic News",
-		"date": "2026-07-22T01:05:15.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google 承诺 4000 万美元支持 Genesis 科学发现任务",
-		"url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-		"source": "DeepMind",
-		"date": "2026-07-22T00:00:00.000Z",
-		"group": "labs"
 	}
 ]
