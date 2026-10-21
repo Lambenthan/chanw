@@ -1,5 +1,12 @@
 [
 	{
+		"title": "NVIDIA 更新 RTX AI 笔记本电脑本地 AI 软件",
+		"url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+		"source": "NVIDIA",
+		"date": "2026-10-20T21:53:15.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布大模型决策歧视评估与缓解研究",
 		"url": "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions",
 		"source": "Anthropic Research",
@@ -613,13 +620,6 @@
 		"url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
 		"source": "Anthropic News",
 		"date": "2026-10-14T20:42:35.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 更新 RTX AI 笔记本电脑本地 AI 软件",
-		"url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-		"source": "NVIDIA",
-		"date": "2026-10-14T18:33:57.000Z",
 		"group": "labs"
 	},
 	{
@@ -3143,13 +3143,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google AI 发布 Google Pics 图像创建与编辑工具",
-		"url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-		"source": "Google AI",
-		"date": "2026-09-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
 		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
 		"source": "Anthropic News",
@@ -3378,13 +3371,6 @@
 		"url": "https://blogs.nvidia.com/blog/generative-ai-science-isc/",
 		"source": "NVIDIA",
 		"date": "2026-07-27T22:51:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "美国海军研究生院部署 NVIDIA DGX AI 超级计算机",
-		"url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
-		"source": "NVIDIA",
-		"date": "2026-07-23T03:54:14.000Z",
 		"group": "labs"
 	}
 ]
