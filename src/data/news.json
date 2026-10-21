@@ -1,5 +1,40 @@
 [
 	{
+		"title": "Anthropic 发布 AI 模型战术情报与常规武器能力评估研究",
+		"url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+		"source": "Anthropic Research",
+		"date": "2026-10-21T17:15:23.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 九循环能力研究",
+		"url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+		"source": "Anthropic Research",
+		"date": "2026-10-21T17:14:17.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究 GLM-5.3 先进网络能力的扩散",
+		"url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+		"source": "Anthropic Research",
+		"date": "2026-10-21T17:13:53.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出开源软件可选漏洞发现服务",
+		"url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+		"source": "Anthropic Research",
+		"date": "2026-10-21T17:13:25.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公布 AI 模型自我复制能力研究",
+		"url": "https://www.anthropic.com/research/self-replicating-ai",
+		"source": "Anthropic Research",
+		"date": "2026-10-21T17:12:30.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 更新 RTX AI 笔记本电脑本地 AI 软件",
 		"url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
 		"source": "NVIDIA",
@@ -105,13 +140,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 公布 AI 模型自我复制能力研究",
-		"url": "https://www.anthropic.com/research/self-replicating-ai",
-		"source": "Anthropic Research",
-		"date": "2026-10-20T03:28:55.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布应对 AI 间谍活动的安全举措",
 		"url": "https://www.anthropic.com/news/disrupting-AI-espionage",
 		"source": "Anthropic News",
@@ -130,13 +158,6 @@
 		"url": "https://www.anthropic.com/research/critical-infrastructure-defense",
 		"source": "Anthropic Research",
 		"date": "2026-10-20T03:28:42.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出开源软件可选漏洞发现服务",
-		"url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
-		"source": "Anthropic Research",
-		"date": "2026-10-20T03:28:36.000Z",
 		"group": "labs"
 	},
 	{
@@ -1120,6 +1141,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 公开 Claude 文本水印技术原理",
+		"url": "https://www.anthropic.com/news/claude-text-watermark",
+		"source": "Anthropic News",
+		"date": "2026-10-14T04:53:09.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 调查网络安全评估中的三个真实事件",
 		"url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
 		"source": "Anthropic News",
@@ -1166,13 +1194,6 @@
 		"url": "https://www.anthropic.com/research/AI-fluency-index",
 		"source": "Anthropic Research",
 		"date": "2026-10-13T18:01:12.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究 GLM-5.3 先进网络能力的扩散",
-		"url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-		"source": "Anthropic Research",
-		"date": "2026-10-13T18:01:04.000Z",
 		"group": "labs"
 	},
 	{
@@ -1313,13 +1334,6 @@
 		"url": "https://www.anthropic.com/research/project-pilot",
 		"source": "Anthropic Research",
 		"date": "2026-10-13T00:37:35.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 模型战术情报与常规武器能力评估研究",
-		"url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-		"source": "Anthropic Research",
-		"date": "2026-10-13T00:33:25.000Z",
 		"group": "labs"
 	},
 	{
@@ -1645,13 +1659,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude 九循环能力研究",
-		"url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-		"source": "Anthropic Research",
-		"date": "2026-10-08T22:18:37.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布对齐评估与网络安全事件研究",
 		"url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
 		"source": "Anthropic Research",
@@ -1752,13 +1759,6 @@
 	{
 		"title": "OpenAI 发布 GPT-6 并面向所有用户开放",
 		"url": "https://openai.com/index/gpt-6-for-everyone/",
-		"source": "OpenAI",
-		"date": "2026-10-07T12:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Radisson 与 Accenture 合作推出 ChatGPT 酒店预订插件",
-		"url": "https://openai.com/index/radisson",
 		"source": "OpenAI",
 		"date": "2026-10-07T12:00:00.000Z",
 		"group": "labs"
@@ -3024,13 +3024,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 公开 Claude 文本水印技术原理",
-		"url": "https://www.anthropic.com/news/claude-text-watermark",
-		"source": "Anthropic News",
-		"date": "2026-09-09T14:58:19.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google DeepMind 与电影人合作，用 AI 重现 70 年爱情故事",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
 		"source": "Google AI",
@@ -3070,13 +3063,6 @@
 		"url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
 		"source": "NVIDIA",
 		"date": "2026-09-04T19:51:11.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hcompany 发布 NeoMME 多模态多语言编码器",
-		"url": "https://huggingface.co/blog/Hcompany/neomme",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-03T13:13:48.000Z",
 		"group": "labs"
 	},
 	{
