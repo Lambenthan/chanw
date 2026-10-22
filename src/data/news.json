@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 发布研究《探索模型福利》",
+		"url": "https://www.anthropic.com/research/exploring-model-welfare",
+		"source": "Anthropic Research",
+		"date": "2026-10-22T08:59:33.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 AI 模型战术情报与常规武器能力评估研究",
 		"url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
 		"source": "Anthropic Research",
@@ -1670,13 +1677,6 @@
 		"url": "https://www.anthropic.com/research/forecasting-rare-behaviors",
 		"source": "Anthropic Research",
 		"date": "2026-10-08T01:39:07.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布研究《探索模型福利》",
-		"url": "https://www.anthropic.com/research/exploring-model-welfare",
-		"source": "Anthropic Research",
-		"date": "2026-10-08T01:30:29.000Z",
 		"group": "labs"
 	},
 	{
