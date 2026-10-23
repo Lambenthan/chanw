@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 研究 GLM-5.3 先进网络能力的扩散",
+		"url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+		"source": "Anthropic Research",
+		"date": "2026-10-23T17:11:06.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布多智能体系统模式与问题研究",
 		"url": "https://www.anthropic.com/research/multiagent-systems",
 		"source": "Anthropic Research",
@@ -32,13 +39,6 @@
 		"url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
 		"source": "Anthropic Research",
 		"date": "2026-10-21T17:14:17.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究 GLM-5.3 先进网络能力的扩散",
-		"url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-		"source": "Anthropic Research",
-		"date": "2026-10-21T17:13:53.000Z",
 		"group": "labs"
 	},
 	{
