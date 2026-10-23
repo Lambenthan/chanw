@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 发布多智能体系统模式与问题研究",
+		"url": "https://www.anthropic.com/research/multiagent-systems",
+		"source": "Anthropic Research",
+		"date": "2026-10-23T15:24:25.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布研究《探索模型福利》",
 		"url": "https://www.anthropic.com/research/exploring-model-welfare",
 		"source": "Anthropic Research",
@@ -403,13 +410,6 @@
 		"url": "https://www.anthropic.com/research/enabling-independent-research",
 		"source": "Anthropic Research",
 		"date": "2026-10-18T21:04:44.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布多智能体系统模式与问题研究",
-		"url": "https://www.anthropic.com/research/multiagent-systems",
-		"source": "Anthropic Research",
-		"date": "2026-10-18T20:07:17.000Z",
 		"group": "labs"
 	},
 	{
@@ -3013,13 +3013,6 @@
 		"title": "Google 搜索更新赛前准备功能，提供注册提醒与训练计划",
 		"url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
 		"source": "Google AI",
-		"date": "2026-09-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布异步 GRPO 与 LoRA 跨 HF 作业训练方法",
-		"url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-		"source": "Hugging Face Blog",
 		"date": "2026-09-10T00:00:00.000Z",
 		"group": "labs"
 	},
