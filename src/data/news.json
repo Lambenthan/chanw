@@ -1267,13 +1267,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Amp 发布基于 OpenAI 模型的 AI agent，扩展编程外场景",
-		"url": "https://openai.com/index/amp-beyond-coding",
-		"source": "OpenAI",
-		"date": "2026-10-14T07:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 设立罕见病研究资助计划",
 		"url": "https://www.anthropic.com/news/rare-disease-research-grants",
 		"source": "Anthropic News",
@@ -1565,13 +1558,6 @@
 		"url": "https://www.anthropic.com/research/alignment-faking",
 		"source": "Anthropic Research",
 		"date": "2026-10-09T16:49:39.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "SentinelOne 借助 OpenAI Daybreak 将恶意软件分析从数周缩短至数小时",
-		"url": "https://openai.com/index/sentinelone",
-		"source": "OpenAI",
-		"date": "2026-10-09T07:00:00.000Z",
 		"group": "labs"
 	},
 	{
