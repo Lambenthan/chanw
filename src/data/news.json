@@ -1463,6 +1463,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
+		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+		"source": "Anthropic News",
+		"date": "2026-10-13T01:56:42.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "DeepMind 发布 Gemini 4 Argon 并强调安全责任",
 		"url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
 		"source": "DeepMind",
@@ -3094,13 +3101,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google AI 公布 2026 年 8 月产品更新汇总",
-		"url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-		"source": "Google AI",
-		"date": "2026-09-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 推出 Gemini agentic 视频理解能力",
 		"url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
 		"source": "DeepMind",
@@ -3108,10 +3108,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
-		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-		"source": "Anthropic News",
-		"date": "2026-08-29T10:57:56.000Z",
+		"title": "Google AI 公布 2026 年 8 月产品更新汇总",
+		"url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+		"source": "Google AI",
+		"date": "2026-09-01T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
