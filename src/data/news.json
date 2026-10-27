@@ -3302,12 +3302,5 @@
 		"source": "NVIDIA",
 		"date": "2026-07-29T23:32:47.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "DeepMind 在 Google Flow Music 中发布 Lyria 3.5",
-		"url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-		"source": "DeepMind",
-		"date": "2026-07-29T00:00:00.000Z",
-		"group": "labs"
 	}
 ]
