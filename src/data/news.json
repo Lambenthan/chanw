@@ -1,5 +1,19 @@
 [
 	{
+		"title": "NVIDIA 在 Google Cloud Next 展示 Agentic AI 推理能力",
+		"url": "https://blogs.nvidia.com/blog/google-cloud-next-agentic-ai-reasoning/",
+		"source": "NVIDIA",
+		"date": "2026-10-27T20:48:21.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 与 HPE 合作推出 AI Factory Agentic Enterprise",
+		"url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+		"source": "NVIDIA",
+		"date": "2026-10-27T20:46:16.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Zero Days 安全研究",
 		"url": "https://www.anthropic.com/research/zero-days",
 		"source": "Anthropic Research",
@@ -1365,6 +1379,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 改进对齐与安全措施",
+		"url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+		"source": "Anthropic News",
+		"date": "2026-10-14T04:47:34.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 形式化证明费马大定理",
 		"url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
 		"source": "Anthropic Research",
@@ -1754,13 +1775,6 @@
 		"url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
 		"source": "Anthropic Research",
 		"date": "2026-10-07T21:42:45.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 HPE 合作推出 AI Factory Agentic Enterprise",
-		"url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
-		"source": "NVIDIA",
-		"date": "2026-10-07T16:14:12.000Z",
 		"group": "labs"
 	},
 	{
@@ -2940,13 +2954,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "IBM 研究提出 agent 任务一致性评估方法",
-		"url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-15T16:00:44.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Alpamayo 2 Super 开源模型",
 		"url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
 		"source": "NVIDIA",
@@ -3028,13 +3035,6 @@
 		"url": "https://openai.com/index/introducing-mentalhealthbench/",
 		"source": "OpenAI",
 		"date": "2026-09-08T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 改进对齐与安全措施",
-		"url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-		"source": "Anthropic News",
-		"date": "2026-09-07T09:43:45.000Z",
 		"group": "labs"
 	},
 	{
