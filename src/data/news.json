@@ -3274,19 +3274,5 @@
 		"source": "NVIDIA",
 		"date": "2026-07-30T22:20:47.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemini Robotics 2 机器人全身智能模型",
-		"url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-		"source": "DeepMind",
-		"date": "2026-07-30T16:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 推出 Jetson 构建 AI 方案",
-		"url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
-		"source": "NVIDIA",
-		"date": "2026-07-30T14:47:08.000Z",
-		"group": "labs"
 	}
 ]
