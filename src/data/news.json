@@ -441,6 +441,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 与企业客户合作开发前沿安全防护",
+		"url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+		"source": "Anthropic News",
+		"date": "2026-10-21T19:53:59.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Claude 九循环能力研究",
 		"url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
 		"source": "Anthropic Research",
@@ -3059,13 +3066,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 与企业客户合作开发前沿安全防护",
-		"url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-		"source": "Anthropic News",
-		"date": "2026-09-02T19:11:21.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 推出面向政府与企业的主动式网络防御方案",
 		"url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
 		"source": "DeepMind",
@@ -3287,20 +3287,6 @@
 		"url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
 		"source": "NVIDIA",
 		"date": "2026-07-30T14:47:08.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemini Robotics ER 2 机器人模型",
-		"url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-		"source": "DeepMind",
-		"date": "2026-07-30T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 在 AI Summit Korea 公布合作伙伴关系",
-		"url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
-		"source": "NVIDIA",
-		"date": "2026-07-29T23:32:47.000Z",
 		"group": "labs"
 	}
 ]
