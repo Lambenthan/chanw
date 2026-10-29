@@ -3239,40 +3239,5 @@
 		"source": "NVIDIA",
 		"date": "2026-08-04T16:01:33.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Nemotron 开源模型系列",
-		"url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
-		"source": "NVIDIA",
-		"date": "2026-07-30T22:31:15.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 BASF 合作推进 CUDA Quantum 量子计算",
-		"url": "https://blogs.nvidia.com/blog/basf-cuda-quantum-momentum/",
-		"source": "NVIDIA",
-		"date": "2026-07-30T22:27:25.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 公布 cuQuantum 与 CUDA Quantum 采用加速",
-		"url": "https://blogs.nvidia.com/blog/cuquantum-cuda-quantum-adoption-accelerates/",
-		"source": "NVIDIA",
-		"date": "2026-07-30T22:26:52.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 CUDA Quantum 生态系统",
-		"url": "https://blogs.nvidia.com/blog/cuda-q-ecosystem/",
-		"source": "NVIDIA",
-		"date": "2026-07-30T22:24:05.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布逻辑量子比特 CUDA-Q 演示",
-		"url": "https://blogs.nvidia.com/blog/logical-qubits-cuda-q-demo/",
-		"source": "NVIDIA",
-		"date": "2026-07-30T22:20:47.000Z",
-		"group": "labs"
 	}
 ]
