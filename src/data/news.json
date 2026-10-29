@@ -2737,22 +2737,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face Transformers 支持 llama.cpp 量化模型",
-		"url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "UK AISI 与 EvalEval 合作提升基准测试结果可复现性",
 		"url": "https://huggingface.co/blog/evaleval-aisi",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "oMLX 创建者兼维护者 Jun Kim 加入 Hugging Face",
-		"url": "https://huggingface.co/blog/omlx",
 		"source": "Hugging Face Blog",
 		"date": "2026-09-22T00:00:00.000Z",
 		"group": "labs"
@@ -2769,13 +2755,6 @@
 		"url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
 		"source": "NVIDIA",
 		"date": "2026-09-21T16:06:14.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Hugging Face 发布 Tokenizers v1，聚焦编码、解码与扩展性",
-		"url": "https://huggingface.co/blog/tokenizers-v1",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-21T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
