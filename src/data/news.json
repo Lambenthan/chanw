@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 开放 Claude 使用行为数据供独立研究",
+		"url": "https://www.anthropic.com/research/enabling-independent-research",
+		"source": "Anthropic Research",
+		"date": "2026-10-31T02:38:41.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布 Isaac ROS 5.0 Agentic 开源机器人框架",
 		"url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
 		"source": "NVIDIA",
@@ -319,13 +326,6 @@
 		"url": "https://www.anthropic.com/research/what-work-can-robots-do",
 		"source": "Anthropic Research",
 		"date": "2026-10-23T20:56:23.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 开放 Claude 使用行为数据供独立研究",
-		"url": "https://www.anthropic.com/research/enabling-independent-research",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:22.000Z",
 		"group": "labs"
 	},
 	{
