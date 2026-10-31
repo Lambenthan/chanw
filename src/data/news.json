@@ -1,5 +1,19 @@
 [
 	{
+		"title": "NVIDIA 发布 Isaac ROS 5.0 Agentic 开源机器人框架",
+		"url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+		"source": "NVIDIA",
+		"date": "2026-10-29T18:36:02.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
+		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-10-29T16:02:28.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 在 Google Cloud Next 展示 Agentic AI 推理能力",
 		"url": "https://blogs.nvidia.com/blog/google-cloud-next-agentic-ai-reasoning/",
 		"source": "NVIDIA",
@@ -662,13 +676,6 @@
 		"url": "https://www.anthropic.com/news/third-party-testing",
 		"source": "Anthropic News",
 		"date": "2026-10-16T22:08:15.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
-		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-10-15T16:01:36.000Z",
 		"group": "labs"
 	},
 	{
@@ -2209,13 +2216,6 @@
 		"url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
 		"source": "Anthropic News",
 		"date": "2026-09-29T21:51:43.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Isaac ROS 5.0 Agentic 开源机器人框架",
-		"url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
-		"source": "NVIDIA",
-		"date": "2026-09-29T16:29:25.000Z",
 		"group": "labs"
 	},
 	{
