@@ -1,5 +1,19 @@
 [
 	{
+		"title": "Anthropic 发布 Claude 在科学研究中的应用报告",
+		"url": "https://www.anthropic.com/research/claude-shaped-science",
+		"source": "Anthropic Research",
+		"date": "2026-11-02T10:11:59.000Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
+		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+		"source": "Anthropic Research",
+		"date": "2026-11-02T10:11:06.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 开放 Claude 使用行为数据供独立研究",
 		"url": "https://www.anthropic.com/research/enabling-independent-research",
 		"source": "Anthropic Research",
@@ -1694,24 +1708,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
-		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-		"source": "Anthropic Research",
-		"date": "2026-10-08T23:27:09.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布研究：Claude 提升生物分子建模能力",
 		"url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
 		"source": "Anthropic Research",
 		"date": "2026-10-08T22:53:17.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude 在科学研究中的应用报告",
-		"url": "https://www.anthropic.com/research/claude-shaped-science",
-		"source": "Anthropic Research",
-		"date": "2026-10-08T22:29:24.000Z",
 		"group": "labs"
 	},
 	{
