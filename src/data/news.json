@@ -2737,13 +2737,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "UK AISI 与 EvalEval 合作提升基准测试结果可复现性",
-		"url": "https://huggingface.co/blog/evaleval-aisi",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-22T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 推出 DSX Ready AI Factories 电源冷却解决方案",
 		"url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
 		"source": "NVIDIA",
