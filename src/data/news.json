@@ -2688,13 +2688,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face Hub 上线强化学习环境支持",
-		"url": "https://huggingface.co/blog/rl-environments",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-28T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 发布 Gemini 3.8 Live 与 Live Avatar",
 		"url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
 		"source": "DeepMind",
@@ -3189,13 +3182,6 @@
 		"url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
 		"source": "NVIDIA",
 		"date": "2026-08-06T13:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 AI 存储 FMS",
-		"url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
-		"source": "NVIDIA",
-		"date": "2026-08-05T21:15:27.000Z",
 		"group": "labs"
 	}
 ]
