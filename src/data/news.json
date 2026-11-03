@@ -3059,13 +3059,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 推出 Fairwind 项目，为政府和企业提供主动网络防御",
-		"url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-		"source": "Google AI",
-		"date": "2026-09-02T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 推出 Gemini agentic 视频理解能力",
 		"url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
 		"source": "DeepMind",
@@ -3210,13 +3203,6 @@
 		"url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
 		"source": "NVIDIA",
 		"date": "2026-08-05T21:15:27.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 参与 NSF 区域 AI 中心计划",
-		"url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program/",
-		"source": "NVIDIA",
-		"date": "2026-08-04T16:01:33.000Z",
 		"group": "labs"
 	}
 ]
