@@ -2219,13 +2219,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布 MCP Agent 源感知验证方法",
-		"url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-29T13:07:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude Opus 4.8",
 		"url": "https://www.anthropic.com/news/claude-opus-4-8",
 		"source": "Anthropic News",
