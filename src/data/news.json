@@ -1,5 +1,12 @@
 [
 	{
+		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
+		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-11-05T18:37:22.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Claude 在科学研究中的应用报告",
 		"url": "https://www.anthropic.com/research/claude-shaped-science",
 		"source": "Anthropic Research",
@@ -25,13 +32,6 @@
 		"url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
 		"source": "NVIDIA",
 		"date": "2026-10-29T18:36:02.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
-		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-10-29T16:02:28.000Z",
 		"group": "labs"
 	},
 	{
@@ -2972,13 +2972,6 @@
 		"url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
 		"source": "Google AI",
 		"date": "2026-09-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google DeepMind 与电影人合作，用 AI 重现 70 年爱情故事",
-		"url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
-		"source": "Google AI",
-		"date": "2026-09-09T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
