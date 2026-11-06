@@ -371,13 +371,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 提出 AI 流畅度指数",
-		"url": "https://www.anthropic.com/research/AI-fluency-index",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:19.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布经济影响指数",
 		"url": "https://www.anthropic.com/research/the-anthropic-economic-index",
 		"source": "Anthropic Research",
@@ -2023,13 +2016,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 推出 Claude 3 Haiku 微调功能",
-		"url": "https://www.anthropic.com/news/fine-tune-claude-3-haiku",
-		"source": "Anthropic News",
-		"date": "2026-10-06T17:59:42.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 向政府机构扩大 Claude 服务",
 		"url": "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
 		"source": "Anthropic News",
@@ -2179,13 +2165,6 @@
 	{
 		"title": "Anthropic 发布 Claude Tag",
 		"url": "https://www.anthropic.com/news/introducing-claude-tag",
-		"source": "Anthropic News",
-		"date": "2026-09-29T21:51:43.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Skills 功能",
-		"url": "https://www.anthropic.com/news/skills",
 		"source": "Anthropic News",
 		"date": "2026-09-29T21:51:43.000Z",
 		"group": "labs"
