@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T04:15:38.878Z",
+  "fetchedAt": "2026-11-06T13:28:08.873Z",
   "items": [
     {
       "source": "openai",
@@ -56,6 +56,48 @@
       "originalTitle": "Openai Raising Concerns Policy",
       "score": 1,
       "cn": "OpenAI 发布了一项名为 Concerns 的新政策，为用户提供对模型行为提出担忧的正式提出异议的渠道。该政策允许用户针对 AI 输出中的偏见、不准确或不适当内容发起投诉，并承诺对合理反馈做出调整。它旨在增强平台透明度和用户信任，但也引发了对政策执行力度的讨论。此举标志着 OpenAI 在治理机制上迈出了一小步前进，但尚未涉及实质性技术能力的更新。"
+    },
+    {
+      "source": "google-ai",
+      "sourceName": "Google AI",
+      "id": "65a6e073008f0bb3",
+      "title": "Google AI 发布开发者工具更新",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/",
+      "summary": "",
+      "category": "编程工具",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Developers Tools",
+      "score": 3,
+      "cn": "Google AI 在博客中介绍了面向开发者的工具更新，涵盖代码生成、调试和部署等环节。这些工具旨在提升开发效率，降低 AI 应用构建门槛，帮助开发者更便捷地利用 Google 的 AI 能力。"
+    },
+    {
+      "source": "google-ai",
+      "sourceName": "Google AI",
+      "id": "22eda1fc3532e72e",
+      "title": "Google AI 发布健康领域公告",
+      "url": "https://blog.google/innovation-and-ai/technology/health/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Health",
+      "score": 1,
+      "cn": "Google AI 在健康领域发布了一项公告，内容涉及技术创新与人工智能在医疗中的应用。该公告可能涵盖新的研究进展或产品更新，旨在推动健康科技的发展。具体细节尚未披露，但体现了 Google 在 AI 与健康交叉领域的持续投入。"
+    },
+    {
+      "source": "google-ai",
+      "sourceName": "Google AI",
+      "id": "087d6431f071210f",
+      "title": "Google AI 发布 AI 技术博客",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Ai",
+      "score": 1,
+      "cn": "Google AI 于 2026 年 2 月 18 日发布了一篇关于人工智能技术的博客文章，介绍了公司在 AI 领域的近期进展与思考。文章内容涉及多个技术方向，但未公布具体的模型或产品更新，属于常规的企业技术分享与品牌宣传。"
     },
     {
       "source": "openai",
@@ -6778,20 +6820,6 @@
       "cn": "Google Research 更新了其研究博客，但未披露具体内容。该页面可能汇总了 Google 在 AI 等领域的最新研究进展，但本次公告缺乏细节，无法判断具体成果。"
     },
     {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "22eda1fc3532e72e",
-      "title": "Google AI 发布健康领域公告",
-      "url": "https://blog.google/innovation-and-ai/technology/health/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Health",
-      "score": 1,
-      "cn": "Google AI 在健康领域发布了一项公告，内容涉及技术创新与人工智能在医疗中的应用。该公告可能涵盖新的研究进展或产品更新，旨在推动健康科技的发展。具体细节尚未披露，但体现了 Google 在 AI 与健康交叉领域的持续投入。"
-    },
-    {
       "source": "anthropic-news",
       "sourceName": "Anthropic News",
       "id": "f1eb041860dc01a7",
@@ -9201,20 +9229,6 @@
       "cn": "Anthropic 的一个未发布研究版 Claude 在数学推理上取得重要突破。它针对黎曼假设相关难题，将满足假设的黎曼 zeta 函数零点比例下限从 41.6% 提升至 67.2%，这是该领域长期未解的改进。研究展示了前沿模型在纯数学探索中的潜力，也为 AI 辅助数学证明提供了新案例。"
     },
     {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "087d6431f071210f",
-      "title": "Google AI 发布 AI 技术博客",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-10-09T00:00:00.000Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Ai",
-      "score": 1,
-      "cn": "Google AI 于 2026 年 2 月 18 日发布了一篇关于人工智能技术的博客文章，介绍了公司在 AI 领域的近期进展与思考。文章内容涉及多个技术方向，但未公布具体的模型或产品更新，属于常规的企业技术分享与品牌宣传。"
-    },
-    {
       "source": "anthropic-research",
       "sourceName": "Anthropic Research",
       "id": "0389b68f0dfb2ab1",
@@ -10179,20 +10193,6 @@
       "originalTitle": "D4RT: Teaching AI to see the world in four dimensions",
       "score": 4,
       "cn": "DeepMind 推出 D4RT，一种统一且高效的四维重建与追踪方法，速度比此前技术快 300 倍。D4RT 将时间维度纳入视觉理解，使 AI 能够同时感知物体在三维空间中的形态与运动轨迹，在动态场景建模、机器人交互和自动驾驶等领域有应用前景。"
-    },
-    {
-      "source": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "id": "581ab3112c302ffe",
-      "title": "Hugging Face 发布 Open TTS 排行榜，用于多语言语音合成与语音克隆评估",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "summary": "",
-      "category": "评测",
-      "publishedAt": "2026-09-30T00:00:00.000Z",
-      "discoveredAt": "2026-10-06T22:01:57.661Z",
-      "originalTitle": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "score": 4,
-      "cn": "Hugging Face 推出了 Open TTS 排行榜，这是一个可扩展的多语言文本转语音与语音克隆评估平台。该排行榜旨在标准化 TTS 模型的评测流程，覆盖多种语言和语音克隆场景，为开发者提供公平的对比基准。通过社区提交和自动评估，Open TTS 排行榜有望推动语音合成技术的透明化与进步。"
     },
     {
       "source": "anthropic-news",
@@ -11480,20 +11480,6 @@
       "originalTitle": "Partnering with Accenture on embedded evaluation",
       "score": 3,
       "cn": "Anthropic 宣布与埃森哲合作，推出嵌入式评测服务，帮助企业在构建 Claude 应用时持续评估模型性能和安全性。该项合作将埃森哲的顾问经验与 Anthropic 的评估方法论结合，为金融、医疗等受监管行业提供合规的评测流程。企业可以在开发过程中嵌入自动化测试，确保模型输出符合预期。"
-    },
-    {
-      "source": "google-ai",
-      "sourceName": "Google AI",
-      "id": "65a6e073008f0bb3",
-      "title": "Google AI 发布开发者工具更新",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/",
-      "summary": "",
-      "category": "编程工具",
-      "publishedAt": "2026-09-18T00:00:00.000Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Developers Tools",
-      "score": 3,
-      "cn": "Google AI 在博客中介绍了面向开发者的工具更新，涵盖代码生成、调试和部署等环节。这些工具旨在提升开发效率，降低 AI 应用构建门槛，帮助开发者更便捷地利用 Google 的 AI 能力。"
     },
     {
       "source": "google-ai",

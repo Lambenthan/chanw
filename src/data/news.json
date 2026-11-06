@@ -2177,13 +2177,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布 Open TTS 排行榜，用于多语言语音合成与语音克隆评估",
-		"url": "https://huggingface.co/blog/open-tts-leaderboard",
-		"source": "Hugging Face Blog",
-		"date": "2026-09-30T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude Tag",
 		"url": "https://www.anthropic.com/news/introducing-claude-tag",
 		"source": "Anthropic News",
