@@ -2093,13 +2093,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "ServiceNow 推出 AutoSynthData 企业 agent 训练数据生成框架",
-		"url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-		"source": "Hugging Face Blog",
-		"date": "2026-10-02T04:01:31.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google 汇总 2026 年 9 月 AI 更新",
 		"url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
 		"source": "Google AI",
