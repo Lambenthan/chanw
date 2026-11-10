@@ -1792,13 +1792,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "TII 发布 Falcon ASR 语音识别模型",
-		"url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-		"source": "Hugging Face Blog",
-		"date": "2026-10-07T13:21:03.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "OpenAI 发布 GPT-6 并面向所有用户开放",
 		"url": "https://openai.com/index/gpt-6-for-everyone/",
 		"source": "OpenAI",
@@ -2090,13 +2083,6 @@
 		"url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
 		"source": "NVIDIA",
 		"date": "2026-10-05T19:28:28.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "微软发布 ThinkingBox 用于校验 agent 任务完成真实性",
-		"url": "https://huggingface.co/blog/microsoft/thinkingbox",
-		"source": "Hugging Face Blog",
-		"date": "2026-10-03T22:56:48.000Z",
 		"group": "labs"
 	},
 	{
@@ -2933,13 +2919,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google 搜索更新赛前准备功能，提供注册提醒与训练计划",
-		"url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-		"source": "Google AI",
-		"date": "2026-09-10T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "DeepMind 发布 AlphaGenome Atlas 人类基因组 DNA 变异预测图谱",
 		"url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
 		"source": "DeepMind",
@@ -3070,20 +3049,6 @@
 		"url": "https://openai.com/index/chatgpt-for-teens/",
 		"source": "OpenAI",
 		"date": "2026-08-13T10:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemini 3.7 Flash",
-		"url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-		"source": "DeepMind",
-		"date": "2026-08-13T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 推出手语转文字模型 SL2T",
-		"url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-		"source": "DeepMind",
-		"date": "2026-08-12T15:00:00.000Z",
 		"group": "labs"
 	}
 ]
