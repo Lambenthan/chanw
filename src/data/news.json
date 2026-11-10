@@ -1344,6 +1344,13 @@
 		"group": "labs"
 	},
 	{
+		"title": "Anthropic 推出生命科学验证计划",
+		"url": "https://www.anthropic.com/news/life-sciences-verification-program",
+		"source": "Anthropic News",
+		"date": "2026-10-14T05:07:45.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Claude Science AI Workbench",
 		"url": "https://www.anthropic.com/news/claude-science-ai-workbench",
 		"source": "Anthropic News",
@@ -2118,13 +2125,6 @@
 		"url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
 		"source": "NVIDIA",
 		"date": "2026-09-30T23:34:33.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出生命科学验证计划",
-		"url": "https://www.anthropic.com/news/life-sciences-verification-program",
-		"source": "Anthropic News",
-		"date": "2026-09-30T22:54:30.000Z",
 		"group": "labs"
 	},
 	{
@@ -3084,13 +3084,6 @@
 		"url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
 		"source": "DeepMind",
 		"date": "2026-08-12T15:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Spectrum Six 网络方案",
-		"url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-		"source": "NVIDIA",
-		"date": "2026-08-12T04:11:20.000Z",
 		"group": "labs"
 	}
 ]
