@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T03:49:08.345Z",
+  "fetchedAt": "2026-11-11T13:13:39.645Z",
   "items": [
     {
       "source": "openai",
@@ -9381,20 +9381,6 @@
       "originalTitle": "Introducing the Anthropic Cyber Mission",
       "score": 4,
       "cn": "Anthropic 宣布启动 Cyber Mission，一项专注于网络安全的专项计划。该计划旨在利用 AI 技术提升威胁检测、漏洞分析和防御响应能力，同时探索大模型在安全领域的负责任应用。Anthropic 希望通过这一举措，为企业和政府机构提供更可靠的网络安全解决方案，并推动 AI 安全研究的前沿发展。"
-    },
-    {
-      "source": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "id": "0f05fd4155a46f47",
-      "title": "Hugging Face 发布机器学习实习生项目成果",
-      "url": "https://huggingface.co/blog/building-with-ml-intern",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "discoveredAt": "2026-10-08T22:40:03.465Z",
-      "originalTitle": "The model that didn't exist, so you made it yourself",
-      "score": 3,
-      "cn": "Hugging Face 博客分享了一篇由机器学习实习生主导完成的项目总结。文章回顾了实习生团队从零构建一个原本不存在的模型的过程，展示了在开源社区中自主探索与协作的实践路径。这类项目不仅为实习生提供了实战经验，也丰富了 Hugging Face 生态中的模型多样性，体现了社区驱动的创新模式。"
     },
     {
       "source": "anthropic-research",

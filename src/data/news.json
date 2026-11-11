@@ -1785,13 +1785,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Hugging Face 发布机器学习实习生项目成果",
-		"url": "https://huggingface.co/blog/building-with-ml-intern",
-		"source": "Hugging Face Blog",
-		"date": "2026-10-08T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 研究显示自动化研究者可缓解对齐失败",
 		"url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
 		"source": "Anthropic Research",
@@ -3042,13 +3035,6 @@
 		"url": "https://blogs.nvidia.com/blog/maxine-reinvents-communication-ai/",
 		"source": "NVIDIA",
 		"date": "2026-08-13T20:49:46.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 发布面向青少年的 ChatGPT for Teens",
-		"url": "https://openai.com/index/chatgpt-for-teens/",
-		"source": "OpenAI",
-		"date": "2026-08-13T10:00:00.000Z",
 		"group": "labs"
 	}
 ]
