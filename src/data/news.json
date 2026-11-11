@@ -1505,13 +1505,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Liquid AI 发布 LFM2.5-24B-A2B 设备端 agent 模型",
-		"url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-		"source": "Hugging Face Blog",
-		"date": "2026-10-13T17:05:48.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布模型硬件标准 MHS 研究预览",
 		"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
 		"source": "Anthropic News",
@@ -2884,20 +2877,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Google AI 发布多语言理解模型",
-		"url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-		"source": "Google AI",
-		"date": "2026-09-15T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google 发布 AI & Economy ATLAS 交互式数据平台",
-		"url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-		"source": "Google AI",
-		"date": "2026-09-15T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 在 Windows PC 上推出本地 AI 服务",
 		"url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
 		"source": "NVIDIA",
@@ -3028,13 +3007,6 @@
 		"url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
 		"source": "NVIDIA",
 		"date": "2026-08-18T21:35:28.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 Maxine 通信 AI 平台",
-		"url": "https://blogs.nvidia.com/blog/maxine-reinvents-communication-ai/",
-		"source": "NVIDIA",
-		"date": "2026-08-13T20:49:46.000Z",
 		"group": "labs"
 	}
 ]
