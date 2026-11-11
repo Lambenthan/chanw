@@ -1,5 +1,12 @@
 [
 	{
+		"title": "NVIDIA 发布 AI 工厂白皮书：高效、耐久、可互换",
+		"url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
+		"source": "NVIDIA",
+		"date": "2026-11-10T19:09:07.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
 		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
 		"source": "NVIDIA",
@@ -1796,13 +1803,6 @@
 		"url": "https://openai.com/index/gpt-6-for-everyone/",
 		"source": "OpenAI",
 		"date": "2026-10-07T12:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 AI 工厂白皮书：高效、耐久、可互换",
-		"url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
-		"source": "NVIDIA",
-		"date": "2026-10-07T00:32:03.000Z",
 		"group": "labs"
 	},
 	{
