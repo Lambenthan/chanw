@@ -1,5 +1,404 @@
 [
 	{
+		"title": "Anthropic 发布智能合约研究",
+		"url": "https://www.anthropic.com/research/smart-contracts",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.645Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 举办网络安全竞赛",
+		"url": "https://www.anthropic.com/research/cyber-competitions",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.644Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Biorisk 生物风险研究",
+		"url": "https://www.anthropic.com/research/biorisk",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.643Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
+		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.642Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 让 Claude 具备化学推理与实验能力",
+		"url": "https://www.anthropic.com/research/making-claude-a-chemist",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.639Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Petri 开源审计工具",
+		"url": "https://www.anthropic.com/research/petri-open-source-auditing",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.639Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Persona Selection Model",
+		"url": "https://www.anthropic.com/research/persona-selection-model",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.638Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Feature Steering 评估研究",
+		"url": "https://www.anthropic.com/research/evaluating-feature-steering",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.636Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Project Swap 研究，探索 agent 代理交易",
+		"url": "https://www.anthropic.com/research/project-swap",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.635Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Many Shot Jailbreaking 研究",
+		"url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.632Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 表态支持 SB 53 法案",
+		"url": "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.632Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布理解与应对 AI 危害的方法",
+		"url": "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.631Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 推出第三方模型评估新计划",
+		"url": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.626Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布对齐评估与网络安全事件研究",
+		"url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.625Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布用户福祉保护政策",
+		"url": "https://www.anthropic.com/news/protecting-well-being-of-users",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.622Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 形式化证明费马大定理",
+		"url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.621Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究显示自动化研究者可缓解对齐失败",
+		"url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.619Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
+		"url": "https://www.anthropic.com/research/claude-values-models-languages",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.618Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 更新 Fable 5 生物学安全防护",
+		"url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.617Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究发现语言模型存在全局工作空间",
+		"url": "https://www.anthropic.com/research/global-workspace",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.615Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 探讨红队测试 AI 系统的挑战",
+		"url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.608Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 就扩散规则发表政策立场",
+		"url": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.607Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
+		"url": "https://www.anthropic.com/research/riemann-zeta",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.606Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 就thropic 对美国 AI 行动计划发表看法",
+		"url": "https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.606Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 呼吁前沿 AI 领域加强透明度",
+		"url": "https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.606Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布美国大选应对措施",
+		"url": "https://www.anthropic.com/news/us-elections-readiness",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.604Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公布经济未来研究基金研究议程",
+		"url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.603Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
+		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.601Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 测评 LLM 开发漏洞利用的能力",
+		"url": "https://www.anthropic.com/research/exploit-evals",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.599Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Sonnet 5",
+		"url": "https://www.anthropic.com/news/claude-sonnet-5",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.598Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 网络防御者研究",
+		"url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.597Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 辅助工作生产力提升估算研究",
+		"url": "https://www.anthropic.com/research/estimating-productivity-gains",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.596Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 改进对齐与安全措施",
+		"url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.594Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 3.5 Sonnet",
+		"url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.593Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 2025 年 8 月滥用检测与应对报告",
+		"url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.593Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布研究：Claude 提升生物分子建模能力",
+		"url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.592Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Responsible Scaling Policy V3",
+		"url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.591Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布模型意外行为调查报告",
+		"url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.590Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Build AI in America 倡议",
+		"url": "https://www.anthropic.com/news/build-ai-in-america",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.587Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 宣布捐赠公共优先行动",
+		"url": "https://www.anthropic.com/news/donate-public-first-action",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.587Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 激活 ASL3 安全保护措施",
+		"url": "https://www.anthropic.com/news/activating-asl3-protections",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.586Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 调查网络安全评估中的三个真实事件",
+		"url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+		"source": "Anthropic News",
+		"date": "2026-11-13T22:37:05.585Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 公开 Claude 文本水印技术原理",
+		"url": "https://www.anthropic.com/news/claude-text-watermark",
+		"source": "Anthropic News",
+		"date": "2026-11-13T18:29:31.569Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 3 系列模型",
+		"url": "https://www.anthropic.com/news/claude-3-family",
+		"source": "Anthropic News",
+		"date": "2026-11-13T17:02:43.449Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Agent 自主性评测方法",
+		"url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T17:02:43.445Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
+		"url": "https://www.anthropic.com/research/claude-code-expertise",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T17:02:43.442Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 恶意使用检测与应对报告 2025 年 3 月版",
+		"url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+		"source": "Anthropic News",
+		"date": "2026-11-13T17:02:43.437Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude 新宪法",
+		"url": "https://www.anthropic.com/news/claude-new-constitution",
+		"source": "Anthropic News",
+		"date": "2026-11-13T17:02:43.436Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 在巴西发布 Claude",
+		"url": "https://www.anthropic.com/news/claude-brazil",
+		"source": "Anthropic News",
+		"date": "2026-11-13T17:02:43.436Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 在欧盟推出 Claude 服务",
+		"url": "https://www.anthropic.com/news/claude-europe",
+		"source": "Anthropic News",
+		"date": "2026-11-13T17:02:43.435Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 反思负责任扩展策略",
+		"url": "https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy",
+		"source": "Anthropic News",
+		"date": "2026-11-13T17:02:43.432Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布机器人工作能力研究报告",
+		"url": "https://www.anthropic.com/research/what-work-can-robots-do",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T17:02:43.430Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 开放 Claude 使用行为数据供独立研究",
+		"url": "https://www.anthropic.com/research/enabling-independent-research",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T17:02:43.426Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 Claude Fable 5 和 Claude Mythos 5",
+		"url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+		"source": "Anthropic News",
+		"date": "2026-11-13T17:02:43.424Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布模型说服力测量研究",
+		"url": "https://www.anthropic.com/research/measuring-model-persuasiveness",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T17:02:43.417Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布工人再培训计划证据回顾报告",
+		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T17:02:43.417Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 提出 Reward Tampering 安全研究",
+		"url": "https://www.anthropic.com/research/reward-tampering",
+		"source": "Anthropic Research",
+		"date": "2026-11-13T17:02:43.415Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 推出 Claude for Teachers",
 		"url": "https://www.anthropic.com/news/claude-for-teachers",
 		"source": "Anthropic News",
@@ -35,20 +434,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 展示 Claude 在蛋白质设计与分析化学中的应用",
-		"url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-		"source": "Anthropic Research",
-		"date": "2026-11-02T10:11:06.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 开放 Claude 使用行为数据供独立研究",
-		"url": "https://www.anthropic.com/research/enabling-independent-research",
-		"source": "Anthropic Research",
-		"date": "2026-10-31T02:38:41.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 发布 Isaac ROS 5.0 Agentic 开源机器人框架",
 		"url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
 		"source": "NVIDIA",
@@ -74,13 +459,6 @@
 		"url": "https://www.anthropic.com/research/zero-days",
 		"source": "Anthropic Research",
 		"date": "2026-10-23T20:56:39.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布智能合约研究",
-		"url": "https://www.anthropic.com/research/smart-contracts",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:38.000Z",
 		"group": "labs"
 	},
 	{
@@ -133,20 +511,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Biorisk 生物风险研究",
-		"url": "https://www.anthropic.com/research/biorisk",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:36.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 举办网络安全竞赛",
-		"url": "https://www.anthropic.com/research/cyber-competitions",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:36.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Mythos 预览",
 		"url": "https://www.anthropic.com/research/mythos-preview",
 		"source": "Anthropic Research",
@@ -161,45 +525,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 2026 年 6 月经济指数报告",
-		"url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:35.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude 机器人操控研究",
 		"url": "https://www.anthropic.com/research/claude-plays-robotics",
 		"source": "Anthropic Research",
 		"date": "2026-10-23T20:56:34.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Agent 自主性评测方法",
-		"url": "https://www.anthropic.com/research/measuring-agent-autonomy",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:34.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Feature Steering 评估研究",
-		"url": "https://www.anthropic.com/research/evaluating-feature-steering",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:33.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Project Swap 研究，探索 agent 代理交易",
-		"url": "https://www.anthropic.com/research/project-swap",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:32.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Code 对编程专家效率影响的研究",
-		"url": "https://www.anthropic.com/research/claude-code-expertise",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:32.000Z",
 		"group": "labs"
 	},
 	{
@@ -343,24 +672,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
-		"url": "https://www.anthropic.com/research/claude-values-models-languages",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:25.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布基于 Claude Sonnet 3.7 的经济指数洞察",
 		"url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
 		"source": "Anthropic Research",
 		"date": "2026-10-23T20:56:24.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布机器人工作能力研究报告",
-		"url": "https://www.anthropic.com/research/what-work-can-robots-do",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:23.000Z",
 		"group": "labs"
 	},
 	{
@@ -399,29 +714,8 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布工人再培训计划证据回顾报告",
-		"url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:18.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 测评 LLM 开发漏洞利用的能力",
-		"url": "https://www.anthropic.com/research/exploit-evals",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:17.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Values Wild 价值观对齐研究",
 		"url": "https://www.anthropic.com/research/values-wild",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:16.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 网络防御者研究",
-		"url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
 		"source": "Anthropic Research",
 		"date": "2026-10-23T20:56:16.000Z",
 		"group": "labs"
@@ -431,20 +725,6 @@
 		"url": "https://www.anthropic.com/research/attack-navigator",
 		"source": "Anthropic Research",
 		"date": "2026-10-23T20:56:16.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布模型说服力测量研究",
-		"url": "https://www.anthropic.com/research/measuring-model-persuasiveness",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:16.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI 辅助工作生产力提升估算研究",
-		"url": "https://www.anthropic.com/research/estimating-productivity-gains",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:15.000Z",
 		"group": "labs"
 	},
 	{
@@ -595,13 +875,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Responsible Scaling Policy V3",
-		"url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
-		"source": "Anthropic News",
-		"date": "2026-10-19T23:06:18.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布合规框架 SB53",
 		"url": "https://www.anthropic.com/news/compliance-framework-SB53",
 		"source": "Anthropic News",
@@ -613,13 +886,6 @@
 		"url": "https://www.anthropic.com/news/building-safeguards-for-claude",
 		"source": "Anthropic News",
 		"date": "2026-10-19T23:06:08.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 就扩散规则发表政策立场",
-		"url": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule",
-		"source": "Anthropic News",
-		"date": "2026-10-19T23:05:57.000Z",
 		"group": "labs"
 	},
 	{
@@ -686,13 +952,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布模型意外行为调查报告",
-		"url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-		"source": "Anthropic Research",
-		"date": "2026-10-17T05:44:23.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 向美国三权分支机构扩展 Claude 访问权限",
 		"url": "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
 		"source": "Anthropic News",
@@ -756,38 +1015,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude 3.5 Sonnet",
-		"url": "https://www.anthropic.com/news/claude-3-5-sonnet",
-		"source": "Anthropic News",
-		"date": "2026-10-15T06:24:58.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 探讨红队测试 AI 系统的挑战",
-		"url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems",
-		"source": "Anthropic News",
-		"date": "2026-10-15T06:24:03.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 在欧盟推出 Claude 服务",
-		"url": "https://www.anthropic.com/news/claude-europe",
-		"source": "Anthropic News",
-		"date": "2026-10-15T06:19:48.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude 3 Haiku",
 		"url": "https://www.anthropic.com/news/claude-3-haiku",
 		"source": "Anthropic News",
 		"date": "2026-10-15T06:18:26.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude 3 系列模型",
-		"url": "https://www.anthropic.com/news/claude-3-family",
-		"source": "Anthropic News",
-		"date": "2026-10-15T06:17:22.000Z",
 		"group": "labs"
 	},
 	{
@@ -833,20 +1064,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Claude 恶意使用检测与应对报告 2025 年 3 月版",
-		"url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
-		"source": "Anthropic News",
-		"date": "2026-10-15T05:58:18.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布理解与应对 AI 危害的方法",
-		"url": "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
-		"source": "Anthropic News",
-		"date": "2026-10-15T05:57:13.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 与 Salesforce 达成合作",
 		"url": "https://www.anthropic.com/news/salesforce-partnership",
 		"source": "Anthropic News",
@@ -865,20 +1082,6 @@
 		"url": "https://www.anthropic.com/news/claude-code-security",
 		"source": "Anthropic News",
 		"date": "2026-10-14T23:57:30.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布用户福祉保护政策",
-		"url": "https://www.anthropic.com/news/protecting-well-being-of-users",
-		"source": "Anthropic News",
-		"date": "2026-10-14T23:53:33.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 更新 Fable 5 生物学安全防护",
-		"url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-		"source": "Anthropic News",
-		"date": "2026-10-14T22:30:35.000Z",
 		"group": "labs"
 	},
 	{
@@ -903,13 +1106,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 2025 年 8 月滥用检测与应对报告",
-		"url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
-		"source": "Anthropic News",
-		"date": "2026-10-14T20:42:35.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 与艾伦研究所和霍华德·休斯医学研究所达成合作",
 		"url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
 		"source": "Anthropic News",
@@ -921,20 +1117,6 @@
 		"url": "https://www.anthropic.com/news/ust-claude",
 		"source": "Anthropic News",
 		"date": "2026-10-14T17:39:35.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出第三方模型评估新计划",
-		"url": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations",
-		"source": "Anthropic News",
-		"date": "2026-10-14T17:32:38.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 反思负责任扩展策略",
-		"url": "https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy",
-		"source": "Anthropic News",
-		"date": "2026-10-14T17:31:36.000Z",
 		"group": "labs"
 	},
 	{
@@ -1022,24 +1204,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 就thropic 对美国 AI 行动计划发表看法",
-		"url": "https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan",
-		"source": "Anthropic News",
-		"date": "2026-10-14T17:10:36.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 签署 CMS 健康技术生态系统承诺",
 		"url": "https://www.anthropic.com/news/anthropic-signs-cms-health-tech-ecosystem-pledge-to-advance-healthcare-interoperability",
 		"source": "Anthropic News",
 		"date": "2026-10-14T17:07:58.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Build AI in America 倡议",
-		"url": "https://www.anthropic.com/news/build-ai-in-america",
-		"source": "Anthropic News",
-		"date": "2026-10-14T17:07:50.000Z",
 		"group": "labs"
 	},
 	{
@@ -1085,13 +1253,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 表态支持 SB 53 法案",
-		"url": "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53",
-		"source": "Anthropic News",
-		"date": "2026-10-14T16:59:30.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 签署美国青少年 AI 教育投资承诺",
 		"url": "https://www.anthropic.com/news/anthropic-signs-pledge-to-americas-youth-investing-in-ai-education",
 		"source": "Anthropic News",
@@ -1117,13 +1278,6 @@
 		"url": "https://www.anthropic.com/news/gov-UK-partnership",
 		"source": "Anthropic News",
 		"date": "2026-10-14T16:48:56.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude 新宪法",
-		"url": "https://www.anthropic.com/news/claude-new-constitution",
-		"source": "Anthropic News",
-		"date": "2026-10-14T16:48:19.000Z",
 		"group": "labs"
 	},
 	{
@@ -1253,13 +1407,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 在巴西发布 Claude",
-		"url": "https://www.anthropic.com/news/claude-brazil",
-		"source": "Anthropic News",
-		"date": "2026-10-14T16:21:31.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 推进 Claude 在教育领域的应用",
 		"url": "https://www.anthropic.com/news/advancing-claude-for-education",
 		"source": "Anthropic News",
@@ -1292,13 +1439,6 @@
 		"url": "https://www.anthropic.com/news/claude-for-life-sciences",
 		"source": "Anthropic News",
 		"date": "2026-10-14T16:13:45.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Fable 5 和 Claude Mythos 5",
-		"url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-		"source": "Anthropic News",
-		"date": "2026-10-14T16:12:47.000Z",
 		"group": "labs"
 	},
 	{
@@ -1344,13 +1484,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 公布经济未来研究基金研究议程",
-		"url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
-		"source": "Anthropic News",
-		"date": "2026-10-14T05:11:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 推出生命科学验证计划",
 		"url": "https://www.anthropic.com/news/life-sciences-verification-program",
 		"source": "Anthropic News",
@@ -1362,13 +1495,6 @@
 		"url": "https://www.anthropic.com/news/claude-science-ai-workbench",
 		"source": "Anthropic News",
 		"date": "2026-10-14T05:05:27.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Claude Sonnet 5",
-		"url": "https://www.anthropic.com/news/claude-sonnet-5",
-		"source": "Anthropic News",
-		"date": "2026-10-14T05:02:58.000Z",
 		"group": "labs"
 	},
 	{
@@ -1390,34 +1516,6 @@
 		"url": "https://www.anthropic.com/news/claude-opus-5",
 		"source": "Anthropic News",
 		"date": "2026-10-14T04:55:11.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 公开 Claude 文本水印技术原理",
-		"url": "https://www.anthropic.com/news/claude-text-watermark",
-		"source": "Anthropic News",
-		"date": "2026-10-14T04:53:09.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 调查网络安全评估中的三个真实事件",
-		"url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-		"source": "Anthropic News",
-		"date": "2026-10-14T04:49:06.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 改进对齐与安全措施",
-		"url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-		"source": "Anthropic News",
-		"date": "2026-10-14T04:47:34.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 形式化证明费马大定理",
-		"url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-		"source": "Anthropic Research",
-		"date": "2026-10-14T04:10:16.000Z",
 		"group": "labs"
 	},
 	{
@@ -1449,24 +1547,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 研究发现语言模型存在全局工作空间",
-		"url": "https://www.anthropic.com/research/global-workspace",
-		"source": "Anthropic Research",
-		"date": "2026-10-13T18:00:24.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 提出模型评估的统计方法",
 		"url": "https://www.anthropic.com/research/statistical-approach-to-model-evals",
 		"source": "Anthropic Research",
 		"date": "2026-10-13T18:00:03.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Petri 开源审计工具",
-		"url": "https://www.anthropic.com/research/petri-open-source-auditing",
-		"source": "Anthropic Research",
-		"date": "2026-10-13T17:55:43.000Z",
 		"group": "labs"
 	},
 	{
@@ -1568,20 +1652,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 提出 Reward Tampering 安全研究",
-		"url": "https://www.anthropic.com/research/reward-tampering",
-		"source": "Anthropic Research",
-		"date": "2026-10-09T16:53:32.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 Many Shot Jailbreaking 研究",
-		"url": "https://www.anthropic.com/research/many-shot-jailbreaking",
-		"source": "Anthropic Research",
-		"date": "2026-10-09T16:52:55.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 推出 Claude Character 功能",
 		"url": "https://www.anthropic.com/research/claude-character",
 		"source": "Anthropic Research",
@@ -1673,45 +1743,10 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 Persona Selection Model",
-		"url": "https://www.anthropic.com/research/persona-selection-model",
-		"source": "Anthropic Research",
-		"date": "2026-10-09T01:52:38.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 让 Claude 具备化学推理与实验能力",
-		"url": "https://www.anthropic.com/research/making-claude-a-chemist",
-		"source": "Anthropic Research",
-		"date": "2026-10-09T00:36:33.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布生物学 agent 研究进展",
 		"url": "https://www.anthropic.com/research/agents-in-biology",
 		"source": "Anthropic Research",
 		"date": "2026-10-09T00:31:39.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究版 Claude 在黎曼假设问题上取得进展",
-		"url": "https://www.anthropic.com/research/riemann-zeta",
-		"source": "Anthropic Research",
-		"date": "2026-10-09T00:27:24.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布研究：Claude 提升生物分子建模能力",
-		"url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
-		"source": "Anthropic Research",
-		"date": "2026-10-08T22:53:17.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布对齐评估与网络安全事件研究",
-		"url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
-		"source": "Anthropic Research",
-		"date": "2026-10-08T16:24:18.000Z",
 		"group": "labs"
 	},
 	{
@@ -1768,13 +1803,6 @@
 		"url": "https://www.anthropic.com/news/anthropic-cyber-mission",
 		"source": "Anthropic News",
 		"date": "2026-10-08T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 研究显示自动化研究者可缓解对齐失败",
-		"url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-		"source": "Anthropic Research",
-		"date": "2026-10-07T21:42:45.000Z",
 		"group": "labs"
 	},
 	{
@@ -1859,13 +1887,6 @@
 		"url": "https://www.anthropic.com/news/reed-hastings",
 		"source": "Anthropic News",
 		"date": "2026-10-06T18:36:54.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 激活 ASL3 安全保护措施",
-		"url": "https://www.anthropic.com/news/activating-asl3-protections",
-		"source": "Anthropic News",
-		"date": "2026-10-06T18:36:30.000Z",
 		"group": "labs"
 	},
 	{
@@ -1971,13 +1992,6 @@
 		"url": "https://www.anthropic.com/news/github-copilot",
 		"source": "Anthropic News",
 		"date": "2026-10-06T18:06:06.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布美国大选应对措施",
-		"url": "https://www.anthropic.com/news/us-elections-readiness",
-		"source": "Anthropic News",
-		"date": "2026-10-06T18:03:48.000Z",
 		"group": "labs"
 	},
 	{
@@ -2492,13 +2506,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 呼吁前沿 AI 领域加强透明度",
-		"url": "https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai",
-		"source": "Anthropic News",
-		"date": "2026-09-28T03:21:33.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 在巴黎和慕尼黑开设新办事处",
 		"url": "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence",
 		"source": "Anthropic News",
@@ -2592,13 +2599,6 @@
 	{
 		"title": "Anthropic 开设东京办公室",
 		"url": "https://www.anthropic.com/news/opening-our-tokyo-office",
-		"source": "Anthropic News",
-		"date": "2026-09-28T03:21:25.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 宣布捐赠公共优先行动",
-		"url": "https://www.anthropic.com/news/donate-public-first-action",
 		"source": "Anthropic News",
 		"date": "2026-09-28T03:21:25.000Z",
 		"group": "labs"
