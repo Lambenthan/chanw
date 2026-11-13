@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-13T04:09:52.799Z",
+  "fetchedAt": "2026-11-13T13:39:20.813Z",
   "items": [
+    {
+      "source": "anthropic-news",
+      "sourceName": "Anthropic News",
+      "id": "d37ce11fa5e902fc",
+      "title": "Anthropic 推出 Claude for Teachers",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-11-13T12:49:52.549Z",
+      "discoveredAt": "2026-07-14T19:03:24.758Z",
+      "originalTitle": "Introducing Claude for Teachers",
+      "score": 4,
+      "cn": "Anthropic 发布面向教师群体的 Claude for Teachers 服务，利用其语言模型能力辅助备课、出题和批改作业。该版本在对话交互上针对教育场景做了调优，支持教师快速生成教学素材、设计课堂活动，并能在合规框架下控制输出内容。Claude for Teachers 延续了 Anthropic 对安全性的重视，加入了针对未成年人与教育数据保护的额外限制。这一产品扩展意味着大模型正在进入更细分的专业工作流。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -8447,20 +8461,6 @@
     {
       "source": "anthropic-news",
       "sourceName": "Anthropic News",
-      "id": "d37ce11fa5e902fc",
-      "title": "Anthropic 推出 Claude for Teachers",
-      "url": "https://www.anthropic.com/news/claude-for-teachers",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-10-14T04:57:19.000Z",
-      "discoveredAt": "2026-07-14T19:03:24.758Z",
-      "originalTitle": "Introducing Claude for Teachers",
-      "score": 4,
-      "cn": "Anthropic 发布面向教师群体的 Claude for Teachers 服务，利用其语言模型能力辅助备课、出题和批改作业。该版本在对话交互上针对教育场景做了调优，支持教师快速生成教学素材、设计课堂活动，并能在合规框架下控制输出内容。Claude for Teachers 延续了 Anthropic 对安全性的重视，加入了针对未成年人与教育数据保护的额外限制。这一产品扩展意味着大模型正在进入更细分的专业工作流。"
-    },
-    {
-      "source": "anthropic-news",
-      "sourceName": "Anthropic News",
       "id": "85aa09c15ed02021",
       "title": "Anthropic 上线经济指数查询功能",
       "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
@@ -11993,7 +11993,7 @@
       "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
       "summary": "Piloting the world's first double-blind AI evaluations",
       "category": "评测",
-      "publishedAt": "2026-08-27T12:59:16.000Z",
+      "publishedAt": "2026-08-27T00:00:00.000Z",
       "discoveredAt": "2026-08-27T17:06:56.297Z",
       "originalTitle": "Piloting the world's first double-blind AI evaluations",
       "score": 4,

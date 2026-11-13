@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 推出 Claude for Teachers",
+		"url": "https://www.anthropic.com/news/claude-for-teachers",
+		"source": "Anthropic News",
+		"date": "2026-11-13T12:49:52.549Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 Claude 4",
 		"url": "https://www.anthropic.com/news/claude-4",
 		"source": "Anthropic News",
@@ -1369,13 +1376,6 @@
 		"url": "https://www.anthropic.com/news/reflect-with-claude",
 		"source": "Anthropic News",
 		"date": "2026-10-14T04:59:17.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 推出 Claude for Teachers",
-		"url": "https://www.anthropic.com/news/claude-for-teachers",
-		"source": "Anthropic News",
-		"date": "2026-10-14T04:57:19.000Z",
 		"group": "labs"
 	},
 	{
