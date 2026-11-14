@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T23:01:37.375Z",
+  "fetchedAt": "2026-11-14T04:06:20.922Z",
   "items": [
     {
       "source": "anthropic-research",
@@ -27258,34 +27258,6 @@
       "originalTitle": "Ai In Retail Cpg Survey 2025",
       "score": 3,
       "cn": "NVIDIA 发布 2025 年零售与消费品行业 AI 应用调研报告。该报告基于对全球数百家零售及 CPG 企业的调查，梳理了 AI 技术在库存管理、个性化推荐、供应链优化及客户体验提升等环节的实际采用率、投入规模与回报效果。报告指出，生成式 AI 和实时数据分析正成为行业差异化竞争力的关键驱动因素。对于关注 AI 在垂直产业落地节奏的从业者，这份调研在格局判断与标杆案例层面提供了参考。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "86f9fa208d5da32e",
-      "title": "NVIDIA 与 Teradyne、Siemens 合作推动自主机器与 AI 应用",
-      "url": "https://blogs.nvidia.com/blog/nvidia-teradyne-siemens-robotics-autonomous-machines-ai/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2025-01-09T21:23:22.000Z",
-      "discoveredAt": "2026-05-18T15:35:01.462Z",
-      "originalTitle": "Nvidia Teradyne Siemens Robotics Autonomous Machines Ai",
-      "score": 4,
-      "cn": "NVIDIA 联合 Teradyne 和 Siemens 两大工业巨头，围绕自主机器与 AI 展开深度合作。三方将整合各自的硬件、软件与自动化技术，推动 AI 驱动的机器人在制造、物流、制造等场景的更多场景落地。此次合作意在打通工业自动化中算力、控制与数据管道的壁垒，让机器人更智能地适应复杂环境。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "27d78c653953bd4f",
-      "title": "NVIDIA CEO 黄仁勋在印度 AI 峰会发表演讲",
-      "url": "https://blogs.nvidia.com/blog/india-ai-summit-jensen-huang/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2025-01-09T19:50:30.000Z",
-      "discoveredAt": "2026-05-20T09:36:28.348Z",
-      "originalTitle": "India Ai Summit Jensen Huang",
-      "score": 3,
-      "cn": "NVIDIA 创始人兼 CEO 黄仁勋在印度 AI 峰会上发表演讲，分享了对人工智能行业发展趋势的观察，以及 NVIDIA 在印度市场的战略布局。峰会聚焦 AI 基础设施建设、开发者生态培养以及与当地企业的合作方向。"
     },
     {
       "source": "google-ai",
