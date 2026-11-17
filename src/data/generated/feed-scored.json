@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-11-17T01:18:19.164Z",
+  "fetchedAt": "2026-11-17T15:11:32.079Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "354c8d3f22cac112",
+      "title": "OpenAI 发布 GPT Live",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-11-17T02:09:58.467Z",
+      "discoveredAt": "2026-07-08T19:08:46.370Z",
+      "originalTitle": "Introducing Gpt Live",
+      "score": 5,
+      "cn": "OpenAI 推出 GPT Live，将对话式 AI 推向实时交互新阶段。用户可与 GPT 模型进行低延迟、自然流畅的语音或文本对话，无需等待完整回复生成。这一更新直接提升了 ChatGPT 的即时响应能力，为客服、教育、创作等场景带来更接近真人交流的体验。GPT Live 的发布标志着 OpenAI 在实时 AI 交互领域的重要布局。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "5b57e497bda46309",
+      "title": "OpenAI 发布 GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-11-17T02:07:52.170Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing Gpt 5 2",
+      "score": 5,
+      "cn": "OpenAI 正式发布新一代模型 GPT-5.2，在语言理解、推理能力和多模态处理上均有显著提升。据介绍，新版本支持更长的上下文窗口，在复杂任务和代码生成方面表现更稳，同时优化了推理效率与对齐安全性。开发者可通过 API 和 ChatGPT 直接体验，这是 GPT 系列自去年以来最大幅度的更新。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "b838f87e919fef03",
+      "title": "OpenAI 发布年龄预测方法详解",
+      "url": "https://openai.com/index/our-approach-to-age-prediction/",
+      "summary": "",
+      "category": "安全",
+      "publishedAt": "2026-11-17T02:05:01.239Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Our Approach To Age Prediction",
+      "score": 3,
+      "cn": "OpenAI 发布了一篇关于年龄预测的技术博客，介绍了其如何估算用户年龄以加强平台安全与合规。该方法结合信号对比与拒绝阈值，在保护用户隐私的同时识别未成年人。OpenAI 强调不会使用生物识别等敏感数据，仅依赖帐户行为等方式评估。此举反映了 OpenAI 对青少年保护和年龄验证的持续投入。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -14,20 +56,6 @@
       "originalTitle": "Sora Feed Philosophy",
       "score": 3,
       "cn": "OpenAI 发布了 Sora Feed 的设计哲学，阐释了这款视频生成工具 Sora 的 feed 流界面将围绕高质量、多样性和公平推荐与创作者可控展开。团队解释了如何通过算法排序与人工审核结合，确保用户看到的内容既符合审美标准，又不会过度集中到头部创作者。此举意在平衡了平台生态与创作者激励，也为 AI 生成视频的内容分发提供了参考范例。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "5b57e497bda46309",
-      "title": "OpenAI 发布 GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-11-17T00:17:46.874Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing Gpt 5 2",
-      "score": 5,
-      "cn": "OpenAI 正式发布新一代模型 GPT-5.2，在语言理解、推理能力和多模态处理上均有显著提升。据介绍，新版本支持更长的上下文窗口，在复杂任务和代码生成方面表现更稳，同时优化了推理效率与对齐安全性。开发者可通过 API 和 ChatGPT 直接体验，这是 GPT 系列自去年以来最大幅度的更新。"
     },
     {
       "source": "anthropic-news",
@@ -798,20 +826,6 @@
       "originalTitle": "Ai Literacy Resources For Teens And Parents",
       "score": 1,
       "cn": "OpenAI 发布面向青少年与家长的 AI 素养资源，旨在帮助年轻用户及其家庭理解人工智能的基本概念、使用方式与潜在风险。该资源包含指南、课程与互动内容，覆盖从基础认知到安全使用的多个层面，属于教育科普类项目，不涉及模型或产品更新。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "b838f87e919fef03",
-      "title": "OpenAI 发布年龄预测方法详解",
-      "url": "https://openai.com/index/our-approach-to-age-prediction/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-11-14T12:44:30.959Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Our Approach To Age Prediction",
-      "score": 3,
-      "cn": "OpenAI 发布了一篇关于年龄预测的技术博客，介绍了其如何估算用户年龄以加强平台安全与合规。该方法结合信号对比与拒绝阈值，在保护用户隐私的同时识别未成年人。OpenAI 强调不会使用生物识别等敏感数据，仅依赖帐户行为等方式评估。此举反映了 OpenAI 对青少年保护和年龄验证的持续投入。"
     },
     {
       "source": "openai",
@@ -2114,20 +2128,6 @@
       "originalTitle": "Introducing Gpt Oss",
       "score": 5,
       "cn": "OpenAI 正式推出 GPT OSS，这是一个面向开放生态的大模型版本。与以往闭源路线不同，GPT OSS 在保持核心能力的同时开放了模型权重与架构细节，允许开发者在本地部署和微调。此举被视为 OpenAI 对开源社区的一次重要回应，也为企业级私有化部署提供了更灵活的选择。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "354c8d3f22cac112",
-      "title": "OpenAI 发布 GPT Live",
-      "url": "https://openai.com/index/introducing-gpt-live/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-11-13T22:12:43.487Z",
-      "discoveredAt": "2026-07-08T19:08:46.370Z",
-      "originalTitle": "Introducing Gpt Live",
-      "score": 5,
-      "cn": "OpenAI 推出 GPT Live，将对话式 AI 推向实时交互新阶段。用户可与 GPT 模型进行低延迟、自然流畅的语音或文本对话，无需等待完整回复生成。这一更新直接提升了 ChatGPT 的即时响应能力，为客服、教育、创作等场景带来更接近真人交流的体验。GPT Live 的发布标志着 OpenAI 在实时 AI 交互领域的重要布局。"
     },
     {
       "source": "openai",
