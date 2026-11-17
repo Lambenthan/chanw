@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 启动加拿大 AI 研究计划",
+		"url": "https://www.anthropic.com/news/canadian-ai-research",
+		"source": "Anthropic News",
+		"date": "2026-11-16T20:50:34.490Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布智能合约研究",
 		"url": "https://www.anthropic.com/research/smart-contracts",
 		"source": "Anthropic Research",
@@ -1453,13 +1460,6 @@
 		"url": "https://www.anthropic.com/news/rare-disease-research-grants",
 		"source": "Anthropic News",
 		"date": "2026-10-14T05:19:07.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 启动加拿大 AI 研究计划",
-		"url": "https://www.anthropic.com/news/canadian-ai-research",
-		"source": "Anthropic News",
-		"date": "2026-10-14T05:17:50.000Z",
 		"group": "labs"
 	},
 	{
@@ -2986,13 +2986,6 @@
 		"url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
 		"source": "DeepMind",
 		"date": "2026-08-21T13:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 与 Indosat、UGM 合作成立 AI 技术中心",
-		"url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
-		"source": "NVIDIA",
-		"date": "2026-08-18T21:35:28.000Z",
 		"group": "labs"
 	}
 ]

@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-11-16T14:19:15.728Z",
+  "fetchedAt": "2026-11-17T01:18:19.164Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "9eb0bc4affe0d9a9",
+      "title": "OpenAI 公布 Sora Feed 设计理念",
+      "url": "https://openai.com/index/sora-feed-philosophy/",
+      "summary": "",
+      "category": "视频生成模型",
+      "publishedAt": "2026-11-17T00:18:01.310Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Sora Feed Philosophy",
+      "score": 3,
+      "cn": "OpenAI 发布了 Sora Feed 的设计哲学，阐释了这款视频生成工具 Sora 的 feed 流界面将围绕高质量、多样性和公平推荐与创作者可控展开。团队解释了如何通过算法排序与人工审核结合，确保用户看到的内容既符合审美标准，又不会过度集中到头部创作者。此举意在平衡了平台生态与创作者激励，也为 AI 生成视频的内容分发提供了参考范例。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "5b57e497bda46309",
+      "title": "OpenAI 发布 GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-11-17T00:17:46.874Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing Gpt 5 2",
+      "score": 5,
+      "cn": "OpenAI 正式发布新一代模型 GPT-5.2，在语言理解、推理能力和多模态处理上均有显著提升。据介绍，新版本支持更长的上下文窗口，在复杂任务和代码生成方面表现更稳，同时优化了推理效率与对齐安全性。开发者可通过 API 和 ChatGPT 直接体验，这是 GPT 系列自去年以来最大幅度的更新。"
+    },
+    {
+      "source": "anthropic-news",
+      "sourceName": "Anthropic News",
+      "id": "42ba56cb55d4ea72",
+      "title": "Anthropic 启动加拿大 AI 研究计划",
+      "url": "https://www.anthropic.com/news/canadian-ai-research",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-11-16T20:50:34.490Z",
+      "discoveredAt": "2026-08-08T18:22:47.493Z",
+      "originalTitle": "Canadian Ai Research",
+      "score": 3,
+      "cn": "Anthropic 在加拿大启动 AI 研究计划，具体细节尚未披露。这一动作延续了该公司在全球扩展研发布局的趋势，或将聚焦于 AI 安全、对齐等核心方向。加拿大近年来成为多家 AI 实验室的海外据点，Anthropic 的加入可能为北美研究生态带来新的合作与竞争。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "c0522fa3e0a1ef04",
+      "title": "OpenAI 发布 ChatGPT for Academic Researchers",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-11-16T18:39:11.349Z",
+      "discoveredAt": "2026-08-04T19:18:29.629Z",
+      "originalTitle": "Chatgpt For Academic Researchers",
+      "score": 4,
+      "cn": "OpenAI 面向学术研究群体推出了 ChatGPT for Academic Researchers，为该领域用户提供优化过的交互体验与功能。该版本可能整合了文献分析、论文写作辅助、数据解读等场景的特定能力，使研究人员能更高效地利用大模型进行日常工作。此举表明 OpenAI 正在进一步细分用户市场，针对特定专业领域提供定制化产品。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -840,20 +896,6 @@
       "originalTitle": "Strengthening Chatgpt Responses In Sensitive Conversations",
       "score": 2,
       "cn": "OpenAI 对 ChatGPT 在敏感话题上的回应方式进行了调整，旨在提升对话的安全性与边界感与安全性之间的平衡。此次更新主要优化了模型在涉及争议性、个人隐私或情绪化场景下的表达策略，减少生硬拒绝，增加更自然的引导与解释。该改动不涉及模型能力提升，更多是产品层面的交互策略迭代。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "9eb0bc4affe0d9a9",
-      "title": "OpenAI 公布 Sora Feed 设计理念",
-      "url": "https://openai.com/index/sora-feed-philosophy/",
-      "summary": "",
-      "category": "视频生成模型",
-      "publishedAt": "2026-11-14T12:44:29.096Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Sora Feed Philosophy",
-      "score": 3,
-      "cn": "OpenAI 发布了 Sora Feed 的设计哲学，阐释了这款视频生成工具 Sora 的 feed 流界面将围绕高质量、多样性和公平推荐与创作者可控展开。团队解释了如何通过算法排序与人工审核结合，确保用户看到的内容既符合审美标准，又不会过度集中到头部创作者。此举意在平衡了平台生态与创作者激励，也为 AI 生成视频的内容分发提供了参考范例。"
     },
     {
       "source": "openai",
@@ -2034,20 +2076,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "5b57e497bda46309",
-      "title": "OpenAI 发布 GPT-5.2",
-      "url": "https://openai.com/index/introducing-gpt-5-2/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-11-13T22:12:46.851Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing Gpt 5 2",
-      "score": 5,
-      "cn": "OpenAI 正式发布新一代模型 GPT-5.2，在语言理解、推理能力和多模态处理上均有显著提升。据介绍，新版本支持更长的上下文窗口，在复杂任务和代码生成方面表现更稳，同时优化了推理效率与对齐安全性。开发者可通过 API 和 ChatGPT 直接体验，这是 GPT 系列自去年以来最大幅度的更新。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "24cd9dd18b7f91c5",
       "title": "OpenAI 发布 O3 与 O4 Mini",
       "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
@@ -2926,20 +2954,6 @@
       "originalTitle": "Introducing 4o Image Generation",
       "score": 5,
       "cn": "OpenAI 将图像生成能力直接集成到 GPT-4o 多模态框架中，推出 4o 图像生成模型。该模型支持高分辨率输出，能根据自然语言指令控制构图、色彩和细节，并保持风格一致与上下文感知。相比前代，4o 在视觉质量、指令遵循和推理能力上有所提升，可用于创意设计、内容制作和视觉叙事等场景。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "c0522fa3e0a1ef04",
-      "title": "OpenAI 发布 ChatGPT for Academic Researchers",
-      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-11-12T22:33:22.935Z",
-      "discoveredAt": "2026-08-04T19:18:29.629Z",
-      "originalTitle": "Chatgpt For Academic Researchers",
-      "score": 4,
-      "cn": "OpenAI 面向学术研究群体推出了 ChatGPT for Academic Researchers，为该领域用户提供优化过的交互体验与功能。该版本可能整合了文献分析、论文写作辅助、数据解读等场景的特定能力，使研究人员能更高效地利用大模型进行日常工作。此举表明 OpenAI 正在进一步细分用户市场，针对特定专业领域提供定制化产品。"
     },
     {
       "source": "anthropic-news",
@@ -8695,20 +8709,6 @@
       "originalTitle": "Rare Disease Research Grants",
       "score": 4,
       "cn": "Anthropic 宣布启动罕见病研究资助项目，旨在利用 AI 技术加速罕见疾病的诊断与治疗研究。该计划将向科研机构、医院和非营利组织提供资金与模型资源，探索语言模型在基因分析、药物筛选和临床数据挖掘中的应用潜力，推动 AI 在医学前沿领域的实际落地。"
-    },
-    {
-      "source": "anthropic-news",
-      "sourceName": "Anthropic News",
-      "id": "42ba56cb55d4ea72",
-      "title": "Anthropic 启动加拿大 AI 研究计划",
-      "url": "https://www.anthropic.com/news/canadian-ai-research",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-10-14T05:17:50.000Z",
-      "discoveredAt": "2026-08-08T18:22:47.493Z",
-      "originalTitle": "Canadian Ai Research",
-      "score": 3,
-      "cn": "Anthropic 在加拿大启动 AI 研究计划，具体细节尚未披露。这一动作延续了该公司在全球扩展研发布局的趋势，或将聚焦于 AI 安全、对齐等核心方向。加拿大近年来成为多家 AI 实验室的海外据点，Anthropic 的加入可能为北美研究生态带来新的合作与竞争。"
     },
     {
       "source": "anthropic-news",
@@ -27216,48 +27216,6 @@
       "originalTitle": "How Ai Helps Fight Fraud",
       "score": 3,
       "cn": "NVIDIA 通过博客文章展示了 AI 在反欺诈领域的实际应用，包括如何利用机器学习模型实时识别异常交易模式、降低误报率并提升风控效率。文章强调 GPU 加速在训练和推理环节的作用，并举例说明金融、零售等行业如何借助 NVIDIA 技术平台构建可扩展的欺诈检测系统。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "48980e809e714f1b",
-      "title": "NVIDIA 用 AI 快速绘制土卫六甲烷云图",
-      "url": "https://blogs.nvidia.com/blog/ai-maps-titan-clouds/",
-      "summary": "NVIDIA GPUs powered deep learning to decode years of Cassini data in seconds—helping researchers pioneer a smarter way to explore alien worlds.",
-      "category": "其他",
-      "publishedAt": "2025-01-24T14:00:30.000Z",
-      "discoveredAt": "2026-05-17T19:12:01.330Z",
-      "originalTitle": "AI Maps Titan’s Methane Clouds in Record Time",
-      "score": 3,
-      "cn": "NVIDIA 将深度学习应用于卡西尼号探测器多年积累的土卫六数据，在数秒内完成原本需要数月处理的云层测绘工作。该方法利用 AI 加速天文数据分析，为未来行星探索提供了一种更高效的途径。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "122dd83d1a94e905",
-      "title": "NVIDIA 发表 AI 与诺贝尔物理学化学奖关系分析",
-      "url": "https://blogs.nvidia.com/blog/ai-nobel-physics-chemistry/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2025-01-15T22:53:27.000Z",
-      "discoveredAt": "2026-05-18T15:35:01.462Z",
-      "originalTitle": "Ai Nobel Physics Chemistry",
-      "score": 4,
-      "cn": "NVIDIA 发布了一篇分析文章，探讨人工智能在近年诺贝尔物理学与化学奖获奖工作中的作用。文章梳理了 AI 方法如何加速材料发现、分子模拟与基础物理研究，并提及 GPU 计算和深度学习在这些跨学科突破中的关键地位。这篇内容更像一次领域内回顾与展望，而非产品发布或技术开源。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "3860021451eb666f",
-      "title": "NVIDIA 发布 2025 年零售与 CPG 行业 AI 应用调研报告",
-      "url": "https://blogs.nvidia.com/blog/ai-in-retail-cpg-survey-2025/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2025-01-10T14:00:51.000Z",
-      "discoveredAt": "2026-06-04T02:46:31.018Z",
-      "originalTitle": "Ai In Retail Cpg Survey 2025",
-      "score": 3,
-      "cn": "NVIDIA 发布 2025 年零售与消费品行业 AI 应用调研报告。该报告基于对全球数百家零售及 CPG 企业的调查，梳理了 AI 技术在库存管理、个性化推荐、供应链优化及客户体验提升等环节的实际采用率、投入规模与回报效果。报告指出，生成式 AI 和实时数据分析正成为行业差异化竞争力的关键驱动因素。对于关注 AI 在垂直产业落地节奏的从业者，这份调研在格局判断与标杆案例层面提供了参考。"
     },
     {
       "source": "google-ai",
