@@ -1,5 +1,12 @@
 [
 	{
+		"title": "Anthropic 推进 Claude 在金融服务领域的应用",
+		"url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+		"source": "Anthropic News",
+		"date": "2026-11-17T17:10:23.887Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 启动加拿大 AI 研究计划",
 		"url": "https://www.anthropic.com/news/canadian-ai-research",
 		"source": "Anthropic News",
@@ -2156,13 +2163,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 推进 Claude 在金融服务领域的应用",
-		"url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
-		"source": "Anthropic News",
-		"date": "2026-09-29T21:51:43.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布 Claude Opus 4.8",
 		"url": "https://www.anthropic.com/news/claude-opus-4-8",
 		"source": "Anthropic News",
@@ -2783,13 +2783,6 @@
 		"url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
 		"source": "NVIDIA",
 		"date": "2026-09-17T02:22:55.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Google 与联合国推出 UN System Data Commons 开放数据平台",
-		"url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-		"source": "Google AI",
-		"date": "2026-09-17T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
