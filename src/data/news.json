@@ -1,5 +1,33 @@
 [
 	{
+		"title": "Anthropic 发布 AI Assistance Coding Skills 研究",
+		"url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+		"source": "Anthropic Research",
+		"date": "2026-11-18T17:12:33.285Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布 AI 系统评估研究",
+		"url": "https://www.anthropic.com/research/evaluating-ai-systems",
+		"source": "Anthropic Research",
+		"date": "2026-11-18T17:12:33.283Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布基于 Claude Sonnet 3.7 的经济指数洞察",
+		"url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+		"source": "Anthropic Research",
+		"date": "2026-11-18T17:12:33.281Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 发布经济影响指数",
+		"url": "https://www.anthropic.com/research/the-anthropic-economic-index",
+		"source": "Anthropic Research",
+		"date": "2026-11-18T17:12:33.280Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 推进 Claude 在金融服务领域的应用",
 		"url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
 		"source": "Anthropic News",
@@ -136,6 +164,13 @@
 		"title": "Anthropic 研究 Claude 跨模型与语言的价值对齐",
 		"url": "https://www.anthropic.com/research/claude-values-models-languages",
 		"source": "Anthropic Research",
+		"date": "2026-11-13T22:37:05.618Z",
+		"group": "labs"
+	},
+	{
+		"title": "Anthropic 与 Accenture 合作嵌入式评测",
+		"url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+		"source": "Anthropic News",
 		"date": "2026-11-13T22:37:05.618Z",
 		"group": "labs"
 	},
@@ -588,13 +623,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布 AI 系统评估研究",
-		"url": "https://www.anthropic.com/research/evaluating-ai-systems",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:30.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发表大模型可预测性与突现行为研究",
 		"url": "https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models",
 		"source": "Anthropic Research",
@@ -686,13 +714,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 发布基于 Claude Sonnet 3.7 的经济指数洞察",
-		"url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:24.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Anthropic 发布多智能体系统模式与问题研究",
 		"url": "https://www.anthropic.com/research/multiagent-systems",
 		"source": "Anthropic Research",
@@ -716,13 +737,6 @@
 	{
 		"title": "Anthropic 推出开源软件可选漏洞发现服务",
 		"url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
-		"source": "Anthropic Research",
-		"date": "2026-10-23T20:56:19.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布经济影响指数",
-		"url": "https://www.anthropic.com/research/the-anthropic-economic-index",
 		"source": "Anthropic Research",
 		"date": "2026-10-23T20:56:19.000Z",
 		"group": "labs"
@@ -788,13 +802,6 @@
 		"url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
 		"source": "Anthropic Research",
 		"date": "2026-10-21T17:14:17.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "Anthropic 发布 AI Assistance Coding Skills 研究",
-		"url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
-		"source": "Anthropic Research",
-		"date": "2026-10-20T15:26:46.000Z",
 		"group": "labs"
 	},
 	{
@@ -2667,13 +2674,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "Anthropic 与 Accenture 合作嵌入式评测",
-		"url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-		"source": "Anthropic News",
-		"date": "2026-09-18T20:02:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "NVIDIA 在 GTC 2025 介绍主权 AI 计划",
 		"url": "https://blogs.nvidia.com/blog/sovereign-ai-gtc-2025/",
 		"source": "NVIDIA",
@@ -2926,13 +2926,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "DeepMind 推出 Gemini agentic 视频理解能力",
-		"url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-		"source": "DeepMind",
-		"date": "2026-09-01T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google AI 公布 2026 年 8 月产品更新汇总",
 		"url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
 		"source": "Google AI",
@@ -2944,13 +2937,6 @@
 		"url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
 		"source": "DeepMind",
 		"date": "2026-08-27T14:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 发布 Gemini Omni 1.1 Flash",
-		"url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-		"source": "DeepMind",
-		"date": "2026-08-27T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
