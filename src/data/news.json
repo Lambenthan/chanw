@@ -2959,12 +2959,5 @@
 		"source": "NVIDIA",
 		"date": "2026-08-25T13:03:59.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "Google DeepMind 与游戏工作室合作推进 AI 游戏研究",
-		"url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-		"source": "DeepMind",
-		"date": "2026-08-21T13:00:00.000Z",
-		"group": "labs"
 	}
 ]
