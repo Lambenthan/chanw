@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-11-19T14:55:52.619Z",
+  "fetchedAt": "2026-11-20T00:01:58.271Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "c59c597501ce523e",
+      "title": "OpenAI 发布 GPT-6 Astra",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-11-19T22:57:21.231Z",
+      "discoveredAt": "2026-10-07T12:19:52.505Z",
+      "originalTitle": "Gpt 6 Astra",
+      "score": 5,
+      "cn": "OpenAI 正式推出新一代旗舰模型 GPT-6 Astra，在推理、多模态理解与长上下文处理上均有显著提升。该模型延续了 GPT 系列的技术路线，并针对复杂任务与实时交互场景做了优化，预计将广泛应用于对话助手、代码生成与数据分析等领域。此次发布标志着 OpenAI 在大模型能力上的又一次重要迭代，也为后续生态工具的升级奠定了基础。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "b930913fb0d8c113",
+      "title": "OpenAI 发布 GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-11-19T22:57:20.484Z",
+      "discoveredAt": "2026-07-09T19:23:35.098Z",
+      "originalTitle": "Gpt 5 6",
+      "score": 5,
+      "cn": "OpenAI 正式推出 GPT-5.6，这是其旗舰大语言模型的最新版本。新模型在推理、多模态理解和长文本处理上均有显著提升，同时优化了响应速度和成本效率。GPT-5.6 延续了前代架构，但通过更大规模的训练数据和改进的对齐技术，在多项基准测试中刷新了成绩。开发者可通过 API 直接调用，企业用户也能在 Azure OpenAI 服务中体验。"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA",
+      "id": "baf7193e75c14529",
+      "title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+      "summary": "",
+      "category": "Agent",
+      "publishedAt": "2026-11-19T22:46:27.000Z",
+      "discoveredAt": "2026-10-14T10:52:28.931Z",
+      "originalTitle": "Developers Simulation Frontier Ai Agents",
+      "score": 4,
+      "cn": "NVIDIA 宣布推出面向开发者的 AI Agent 仿真前沿平台，为智能体在复杂虚拟环境中的训练与验证提供新的基础设施。该平台将仿真技术与生成式 AI 结合，帮助开发者在部署前测试 agent 的决策与协作能力。此举延续了 NVIDIA 在仿真和机器人领域的积累，或将加速具身智能和数字孪生应用的落地。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -354,20 +396,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "c59c597501ce523e",
-      "title": "OpenAI 发布 GPT-6 Astra",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-11-18T13:50:33.622Z",
-      "discoveredAt": "2026-10-07T12:19:52.505Z",
-      "originalTitle": "Gpt 6 Astra",
-      "score": 5,
-      "cn": "OpenAI 正式推出新一代旗舰模型 GPT-6 Astra，在推理、多模态理解与长上下文处理上均有显著提升。该模型延续了 GPT 系列的技术路线，并针对复杂任务与实时交互场景做了优化，预计将广泛应用于对话助手、代码生成与数据分析等领域。此次发布标志着 OpenAI 在大模型能力上的又一次重要迭代，也为后续生态工具的升级奠定了基础。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "67feed715e097da3",
       "title": "OpenAI 发布 GPT-6 并面向所有用户开放",
       "url": "https://openai.com/index/gpt-6-for-everyone/",
@@ -406,20 +434,6 @@
       "originalTitle": "Introducing Gpt 4 5",
       "score": 5,
       "cn": "OpenAI 正式推出 GPT-4.5，新一代旗舰语言模型。该模型在推理能力、知识广度和对话连贯性上均有显著提升，同时改进了安全对齐机制。GPT-4.5 现已在 ChatGPT 和 API 中向 Plus 与 Pro 用户开放，开发者可通过 OpenAI API 直接调用。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "b930913fb0d8c113",
-      "title": "OpenAI 发布 GPT-5.6",
-      "url": "https://openai.com/index/gpt-5-6/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-11-18T00:10:23.792Z",
-      "discoveredAt": "2026-07-09T19:23:35.098Z",
-      "originalTitle": "Gpt 5 6",
-      "score": 5,
-      "cn": "OpenAI 正式推出 GPT-5.6，这是其旗舰大语言模型的最新版本。新模型在推理、多模态理解和长文本处理上均有显著提升，同时优化了响应速度和成本效率。GPT-5.6 延续了前代架构，但通过更大规模的训练数据和改进的对齐技术，在多项基准测试中刷新了成绩。开发者可通过 API 直接调用，企业用户也能在 Azure OpenAI 服务中体验。"
     },
     {
       "source": "openai",
@@ -4018,20 +4032,6 @@
       "originalTitle": "Ai",
       "score": 1,
       "cn": "Google AI 于 2026 年 2 月 18 日发布了一篇关于人工智能技术的博客文章，介绍了公司在 AI 领域的近期进展与思考。文章内容涉及多个技术方向，但未公布具体的模型或产品更新，属于常规的企业技术分享与品牌宣传。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "baf7193e75c14529",
-      "title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-      "summary": "",
-      "category": "Agent",
-      "publishedAt": "2026-11-05T18:37:22.000Z",
-      "discoveredAt": "2026-10-14T10:52:28.931Z",
-      "originalTitle": "Developers Simulation Frontier Ai Agents",
-      "score": 4,
-      "cn": "NVIDIA 宣布推出面向开发者的 AI Agent 仿真前沿平台，为智能体在复杂虚拟环境中的训练与验证提供新的基础设施。该平台将仿真技术与生成式 AI 结合，帮助开发者在部署前测试 agent 的决策与协作能力。此举延续了 NVIDIA 在仿真和机器人领域的积累，或将加速具身智能和数字孪生应用的落地。"
     },
     {
       "source": "anthropic-news",
@@ -27160,20 +27160,6 @@
       "originalTitle": "Studio Ai Geforce Rtx 50 Series Broadcast",
       "score": 5,
       "cn": "NVIDIA 正式发布 GeForce RTX 50 系列显卡，基于 Blackwell 架构，同时推出 Studio AI 驱动更新与 Broadcast 功能升级。新显卡在 AI 算力、光线追踪和能效上均有显著提升，面向创作者和直播用户优化了视频降噪、背景替换等实时 AI 处理能力。NVIDIA Broadcast 新增 Room Echo Removal 和 Eye Contact 等特性，进一步降低直播门槛。"
-    },
-    {
-      "source": "nvidia",
-      "sourceName": "NVIDIA",
-      "id": "3ed8d7e7acaa08c1",
-      "title": "NVIDIA 分享 AI 在反欺诈中的应用实践",
-      "url": "https://blogs.nvidia.com/blog/how-ai-helps-fight-fraud/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2025-01-24T18:31:58.000Z",
-      "discoveredAt": "2026-05-19T03:38:07.759Z",
-      "originalTitle": "How Ai Helps Fight Fraud",
-      "score": 3,
-      "cn": "NVIDIA 通过博客文章展示了 AI 在反欺诈领域的实际应用，包括如何利用机器学习模型实时识别异常交易模式、降低误报率并提升风控效率。文章强调 GPU 加速在训练和推理环节的作用，并举例说明金融、零售等行业如何借助 NVIDIA 技术平台构建可扩展的欺诈检测系统。"
     },
     {
       "source": "google-ai",

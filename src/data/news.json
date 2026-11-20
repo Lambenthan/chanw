@@ -1,5 +1,12 @@
 [
 	{
+		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
+		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+		"source": "NVIDIA",
+		"date": "2026-11-19T22:46:27.000Z",
+		"group": "labs"
+	},
+	{
 		"title": "Anthropic 发布 AI Assistance Coding Skills 研究",
 		"url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
 		"source": "Anthropic Research",
@@ -466,13 +473,6 @@
 		"url": "https://blogs.nvidia.com/blog/productive-durable-fungible-ai-factories/",
 		"source": "NVIDIA",
 		"date": "2026-11-10T19:09:07.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
-		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-		"source": "NVIDIA",
-		"date": "2026-11-05T18:37:22.000Z",
 		"group": "labs"
 	},
 	{
