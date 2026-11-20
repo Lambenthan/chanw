@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-20T00:01:58.271Z",
+  "fetchedAt": "2026-11-20T14:37:19.772Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "5ab7ff86510c59d7",
+      "title": "OpenAI 发布 4o 图像生成模型",
+      "url": "https://openai.com/index/introducing-4o-image-generation/",
+      "summary": "",
+      "category": "图像模型",
+      "publishedAt": "2026-11-20T03:11:05.444Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing 4o Image Generation",
+      "score": 5,
+      "cn": "OpenAI 将图像生成能力直接集成到 GPT-4o 多模态框架中，推出 4o 图像生成模型。该模型支持高分辨率输出，能根据自然语言指令控制构图、色彩和细节，并保持风格一致与上下文感知。相比前代，4o 在视觉质量、指令遵循和推理能力上有所提升，可用于创意设计、内容制作和视觉叙事等场景。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -37,7 +51,7 @@
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "summary": "",
       "category": "Agent",
-      "publishedAt": "2026-11-19T22:46:27.000Z",
+      "publishedAt": "2026-11-19T18:44:09.000Z",
       "discoveredAt": "2026-10-14T10:52:28.931Z",
       "originalTitle": "Developers Simulation Frontier Ai Agents",
       "score": 4,
@@ -3052,20 +3066,6 @@
       "originalTitle": "Introducing Chatgpt Agent",
       "score": 5,
       "cn": "OpenAI 正式推出 ChatGPT Agent，将对话助手升级为可自主执行任务的智能体。用户用自然语言指令即可让 Agent 完成多步骤操作，如预订行程、管理日程或调用外部工具。该功能基于 GPT-5 模型，支持上下文记忆与实时决策，标志着 ChatGPT 从被动问答向主动执行的能力跃迁。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "5ab7ff86510c59d7",
-      "title": "OpenAI 发布 4o 图像生成模型",
-      "url": "https://openai.com/index/introducing-4o-image-generation/",
-      "summary": "",
-      "category": "图像模型",
-      "publishedAt": "2026-11-12T22:33:27.488Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing 4o Image Generation",
-      "score": 5,
-      "cn": "OpenAI 将图像生成能力直接集成到 GPT-4o 多模态框架中，推出 4o 图像生成模型。该模型支持高分辨率输出，能根据自然语言指令控制构图、色彩和细节，并保持风格一致与上下文感知。相比前代，4o 在视觉质量、指令遵循和推理能力上有所提升，可用于创意设计、内容制作和视觉叙事等场景。"
     },
     {
       "source": "anthropic-news",
