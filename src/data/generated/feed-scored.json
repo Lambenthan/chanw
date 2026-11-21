@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-21T13:54:56.316Z",
+  "fetchedAt": "2026-11-21T22:36:06.252Z",
   "items": [
     {
       "source": "openai",
@@ -107,7 +107,7 @@
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "summary": "",
       "category": "Agent",
-      "publishedAt": "2026-11-19T22:46:27.000Z",
+      "publishedAt": "2026-11-19T18:44:09.000Z",
       "discoveredAt": "2026-10-14T10:52:28.931Z",
       "originalTitle": "Developers Simulation Frontier Ai Agents",
       "score": 4,
