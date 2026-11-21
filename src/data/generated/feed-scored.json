@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-20T23:29:46.501Z",
+  "fetchedAt": "2026-11-21T04:50:47.864Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "9c8e81bdfcb7f1fc",
+      "title": "OpenAI 发布 Indqa",
+      "url": "https://openai.com/index/introducing-indqa/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-11-21T00:15:03.556Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing Indqa",
+      "score": 5,
+      "cn": "OpenAI 推出新模型 Indqa，专注于提升推理能力和事实准确性，采用更高效的架构设计。该模型在多项基准测试中领先同类推理模型，即在对话、代码、数学、科学等任务中表现出更优性能。OpenAI 已开放 API 调用。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -42,20 +56,6 @@
       "originalTitle": "How People Are Using Chatgpt",
       "score": 1,
       "cn": "OpenAI 发布了一篇关于用户案例合集，展示 ChatGPT 在学习、编程、写作、创意等领域的实际应用。文章汇集了来自不同用户的真实故事，帮助新用户了解 ChatGPT 的多种使用方式。这是一份用户故事汇编，不涉及技术更新或模型发布。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "9c8e81bdfcb7f1fc",
-      "title": "OpenAI 发布 Indqa",
-      "url": "https://openai.com/index/introducing-indqa/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-11-20T19:19:41.398Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing Indqa",
-      "score": 5,
-      "cn": "OpenAI 推出新模型 Indqa，专注于提升推理能力和事实准确性，采用更高效的架构设计。该模型在多项基准测试中领先同类推理模型，即在对话、代码、数学、科学等任务中表现出更优性能。OpenAI 已开放 API 调用。"
     },
     {
       "source": "openai",
@@ -107,7 +107,7 @@
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "summary": "",
       "category": "Agent",
-      "publishedAt": "2026-11-19T18:44:09.000Z",
+      "publishedAt": "2026-11-19T22:46:27.000Z",
       "discoveredAt": "2026-10-14T10:52:28.931Z",
       "originalTitle": "Developers Simulation Frontier Ai Agents",
       "score": 4,
