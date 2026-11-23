@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T04:48:16.908Z",
+  "fetchedAt": "2026-11-23T16:52:11.609Z",
   "items": [
     {
       "source": "openai",
@@ -9,11 +9,25 @@
       "url": "https://openai.com/index/introducing-indqa/",
       "summary": "",
       "category": "大模型",
-      "publishedAt": "2026-11-21T00:15:03.556Z",
+      "publishedAt": "2026-11-23T10:18:32.266Z",
       "discoveredAt": "2026-05-17T15:40:00.238Z",
       "originalTitle": "Introducing Indqa",
       "score": 5,
       "cn": "OpenAI 推出新模型 Indqa，专注于提升推理能力和事实准确性，采用更高效的架构设计。该模型在多项基准测试中领先同类推理模型，即在对话、代码、数学、科学等任务中表现出更优性能。OpenAI 已开放 API 调用。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "59e10fb28537633e",
+      "title": "OpenAI 分享研究加速内部视角",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-11-23T07:09:04.691Z",
+      "discoveredAt": "2026-10-13T22:06:17.452Z",
+      "originalTitle": "Research Acceleration View Inside Openai",
+      "score": 3,
+      "cn": "OpenAI 发布了一份关于研究加速的内部视角报告，回顾了其研究流程中推动效率提升的关键做法，包括团队协作、迭代节奏以及计算资源调度等方面。报告没有披露全新模型或算法，但展示了 OpenAI 在快速迭代前沿技术时的组织方法论，对关注 AI 研究运作模式的读者有一定参考价值。这类内部视角通常能反映实验室在追求速度时对工程与科研平衡的取舍。"
     },
     {
       "source": "openai",
@@ -1414,20 +1428,6 @@
       "originalTitle": "Openai Frontier Governance Framework",
       "score": 3,
       "cn": "OpenAI 发布了前沿治理框架，为旗下前沿模型的开发与部署确立了操作原则和决策流程。文档从风险识别、模型测试、部署边界到持续监测等环节给出了结构化方案，旨在将安全理念从原则层落到工程和管理层。对于关注大模型合规与风险控制的从业者而言，这份框架提供了可参考的治理蓝图。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "59e10fb28537633e",
-      "title": "OpenAI 分享研究加速内部视角",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-11-14T12:44:30.751Z",
-      "discoveredAt": "2026-10-13T22:06:17.452Z",
-      "originalTitle": "Research Acceleration View Inside Openai",
-      "score": 3,
-      "cn": "OpenAI 发布了一份关于研究加速的内部视角报告，回顾了其研究流程中推动效率提升的关键做法，包括团队协作、迭代节奏以及计算资源调度等方面。报告没有披露全新模型或算法，但展示了 OpenAI 在快速迭代前沿技术时的组织方法论，对关注 AI 研究运作模式的读者有一定参考价值。这类内部视角通常能反映实验室在追求速度时对工程与科研平衡的取舍。"
     },
     {
       "source": "openai",

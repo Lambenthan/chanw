@@ -2952,12 +2952,5 @@
 		"source": "NVIDIA",
 		"date": "2026-08-25T21:55:10.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 开源 Nemotron 模型用于本地 AI Agent",
-		"url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-		"source": "NVIDIA",
-		"date": "2026-08-25T13:03:59.000Z",
-		"group": "labs"
 	}
 ]
