@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-11-23T16:52:11.609Z",
+  "fetchedAt": "2026-11-24T03:37:57.782Z",
   "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "c0522fa3e0a1ef04",
+      "title": "OpenAI 发布 ChatGPT for Academic Researchers",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-11-24T00:28:04.476Z",
+      "discoveredAt": "2026-08-04T19:18:29.629Z",
+      "originalTitle": "Chatgpt For Academic Researchers",
+      "score": 4,
+      "cn": "OpenAI 面向学术研究群体推出了 ChatGPT for Academic Researchers，为该领域用户提供优化过的交互体验与功能。该版本可能整合了文献分析、论文写作辅助、数据解读等场景的特定能力，使研究人员能更高效地利用大模型进行日常工作。此举表明 OpenAI 正在进一步细分用户市场，针对特定专业领域提供定制化产品。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "687f75100be8e4e4",
+      "title": "OpenAI 更新研究索引页面",
+      "url": "https://openai.com/research/index/",
+      "summary": "",
+      "category": "其他",
+      "publishedAt": "2026-11-23T23:51:08.533Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Index",
+      "score": 1,
+      "cn": "OpenAI 更新了其研究索引页面，该页面汇总了公司发布的研究论文、博客文章和技术报告。此次更新可能涉及内容重组或新增条目，但未披露具体变更细节。对于关注 OpenAI 研究动态的用户，这是一个获取最新成果的入口。"
+    },
     {
       "source": "openai",
       "sourceName": "OpenAI",
@@ -434,20 +462,6 @@
       "originalTitle": "Priorities Principles Third Party Assessments",
       "score": 3,
       "cn": "OpenAI 公布了模型安全评估的优先级与原则，并引入第三方评估机制，明确哪些风险类别需要外部审计。该框架将评估重点放在能力滥用、自主复制等高风险场景，同时为第三方评估机构提供统一的测试接口与披露流程，以提升评估透明度并规范与独立评测机构的协作。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "c0522fa3e0a1ef04",
-      "title": "OpenAI 发布 ChatGPT for Academic Researchers",
-      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-11-18T13:50:45.274Z",
-      "discoveredAt": "2026-08-04T19:18:29.629Z",
-      "originalTitle": "Chatgpt For Academic Researchers",
-      "score": 4,
-      "cn": "OpenAI 面向学术研究群体推出了 ChatGPT for Academic Researchers，为该领域用户提供优化过的交互体验与功能。该版本可能整合了文献分析、论文写作辅助、数据解读等场景的特定能力，使研究人员能更高效地利用大模型进行日常工作。此举表明 OpenAI 正在进一步细分用户市场，针对特定专业领域提供定制化产品。"
     },
     {
       "source": "openai",
@@ -2968,20 +2982,6 @@
       "originalTitle": "Introducing Deep Research",
       "score": 5,
       "cn": "OpenAI 推出 Deep Research，为 ChatGPT 新增深度研究能力。该功能可自主浏览网页、分析多来源信息并生成结构化报告，将复杂调研任务从数小时缩短至数分钟。Deep Research 基于即将推出的 o3 模型优化版本构建，在 Humanity's Last Exam 等评测中表现突出。目前该功能面向 Pro 用户开放，Plus 和 Team 用户将随后获得访问权限。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
-      "id": "687f75100be8e4e4",
-      "title": "OpenAI 更新研究索引页面",
-      "url": "https://openai.com/research/index/",
-      "summary": "",
-      "category": "其他",
-      "publishedAt": "2026-11-12T22:33:52.899Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Index",
-      "score": 1,
-      "cn": "OpenAI 更新了其研究索引页面，该页面汇总了公司发布的研究论文、博客文章和技术报告。此次更新可能涉及内容重组或新增条目，但未披露具体变更细节。对于关注 OpenAI 研究动态的用户，这是一个获取最新成果的入口。"
     },
     {
       "source": "openai",
@@ -11942,20 +11942,6 @@
       "originalTitle": "Proactive cyber defense for governments and enterprises",
       "score": 3,
       "cn": "DeepMind 发布了一项针对政府和企业场景的主动式网络防御方案。该方案利用 AI 模型实时分析网络流量与威胁情报，在攻击发生前识别异常行为并自动触发防御策略。与传统的被动响应不同，这套系统强调预测与阻断，旨在降低大型组织面临的 APT 攻击与零日漏洞风险。方案已与部分早期合作伙伴完成测试，但具体技术细节尚未完全公开。"
-    },
-    {
-      "source": "deepmind",
-      "sourceName": "DeepMind",
-      "id": "18ef68f77655a435",
-      "title": "DeepMind 发布 Gemini 3.8 Flash 和 3.8 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-09-02T16:18:31.000Z",
-      "discoveredAt": "2026-09-29T11:49:22.577Z",
-      "originalTitle": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "score": 5,
-      "cn": "DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两个模型。Flash 为标准轻量版本，Cyber 版针对网络安全场景做了调整。两者均支持多模态输入，推理速度相比前代有所提升，开发者可根据任务需求选择对应版本。"
     },
     {
       "source": "google-ai",

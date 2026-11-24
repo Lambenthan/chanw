@@ -2919,13 +2919,6 @@
 		"group": "labs"
 	},
 	{
-		"title": "DeepMind 发布 Gemini 3.8 Flash 和 3.8 Flash Cyber",
-		"url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-		"source": "DeepMind",
-		"date": "2026-09-02T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
 		"title": "Google AI 公布 2026 年 8 月产品更新汇总",
 		"url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
 		"source": "Google AI",
@@ -2937,20 +2930,6 @@
 		"url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
 		"source": "DeepMind",
 		"date": "2026-08-27T14:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "OpenAI 公布 Astra 路线图",
-		"url": "https://openai.com/index/path-to-astra/",
-		"source": "OpenAI",
-		"date": "2026-08-26T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "NVIDIA 发布 NvLink Fusion XPU AI Factory",
-		"url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory/",
-		"source": "NVIDIA",
-		"date": "2026-08-25T21:55:10.000Z",
 		"group": "labs"
 	}
 ]
