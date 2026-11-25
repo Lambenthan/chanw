@@ -2917,12 +2917,5 @@
 		"source": "Google AI",
 		"date": "2026-09-01T00:00:00.000Z",
 		"group": "labs"
-	},
-	{
-		"title": "DeepMind 首次试点双盲 AI 评估",
-		"url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-		"source": "DeepMind",
-		"date": "2026-08-27T14:00:00.000Z",
-		"group": "labs"
 	}
 ]
