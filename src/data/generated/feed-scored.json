@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-25T16:28:53.177Z",
+  "fetchedAt": "2026-11-26T01:19:49.732Z",
   "items": [
     {
       "source": "openai",
@@ -9,11 +9,25 @@
       "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
       "summary": "",
       "category": "大模型",
-      "publishedAt": "2026-11-25T16:08:58.847Z",
+      "publishedAt": "2026-11-25T21:29:55.284Z",
       "discoveredAt": "2026-08-04T19:18:29.629Z",
       "originalTitle": "Chatgpt For Academic Researchers",
       "score": 4,
       "cn": "OpenAI 面向学术研究群体推出了 ChatGPT for Academic Researchers，为该领域用户提供优化过的交互体验与功能。该版本可能整合了文献分析、论文写作辅助、数据解读等场景的特定能力，使研究人员能更高效地利用大模型进行日常工作。此举表明 OpenAI 正在进一步细分用户市场，针对特定专业领域提供定制化产品。"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "id": "9c8e81bdfcb7f1fc",
+      "title": "OpenAI 发布 Indqa",
+      "url": "https://openai.com/index/introducing-indqa/",
+      "summary": "",
+      "category": "大模型",
+      "publishedAt": "2026-11-25T17:44:57.826Z",
+      "discoveredAt": "2026-05-17T15:40:00.238Z",
+      "originalTitle": "Introducing Indqa",
+      "score": 5,
+      "cn": "OpenAI 推出新模型 Indqa，专注于提升推理能力和事实准确性，采用更高效的架构设计。该模型在多项基准测试中领先同类推理模型，即在对话、代码、数学、科学等任务中表现出更优性能。OpenAI 已开放 API 调用。"
     },
     {
       "source": "openai",
@@ -634,20 +648,6 @@
     {
       "source": "openai",
       "sourceName": "OpenAI",
-      "id": "9c8e81bdfcb7f1fc",
-      "title": "OpenAI 发布 Indqa",
-      "url": "https://openai.com/index/introducing-indqa/",
-      "summary": "",
-      "category": "大模型",
-      "publishedAt": "2026-11-23T10:18:32.266Z",
-      "discoveredAt": "2026-05-17T15:40:00.238Z",
-      "originalTitle": "Introducing Indqa",
-      "score": 5,
-      "cn": "OpenAI 推出新模型 Indqa，专注于提升推理能力和事实准确性，采用更高效的架构设计。该模型在多项基准测试中领先同类推理模型，即在对话、代码、数学、科学等任务中表现出更优性能。OpenAI 已开放 API 调用。"
-    },
-    {
-      "source": "openai",
-      "sourceName": "OpenAI",
       "id": "59e10fb28537633e",
       "title": "OpenAI 分享研究加速内部视角",
       "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
@@ -737,7 +737,7 @@
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
       "summary": "",
       "category": "Agent",
-      "publishedAt": "2026-11-19T18:44:09.000Z",
+      "publishedAt": "2026-11-19T22:46:27.000Z",
       "discoveredAt": "2026-10-14T10:52:28.931Z",
       "originalTitle": "Developers Simulation Frontier Ai Agents",
       "score": 4,
@@ -11914,20 +11914,6 @@
       "originalTitle": "Safety Security",
       "score": 2,
       "cn": "Google AI 在官方博客上发布了一篇关于安全与安保的文章，探讨人工智能系统在开发与部署过程中需要兼顾的 safety 与 security 两个维度。文章可能涉及 Google 在模型安全评估、对抗性防御、数据隐私保护等方面的实践与思考，为行业提供参考。这类内容通常面向开发者与政策制定者，强调负责任的 AI 发展路径。"
-    },
-    {
-      "source": "deepmind",
-      "sourceName": "DeepMind",
-      "id": "383dbcd782aba68f",
-      "title": "DeepMind 推出面向政府与企业的主动式网络防御方案",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "summary": "",
-      "category": "安全",
-      "publishedAt": "2026-09-02T16:24:24.000Z",
-      "discoveredAt": "2026-09-29T11:49:22.577Z",
-      "originalTitle": "Proactive cyber defense for governments and enterprises",
-      "score": 3,
-      "cn": "DeepMind 发布了一项针对政府和企业场景的主动式网络防御方案。该方案利用 AI 模型实时分析网络流量与威胁情报，在攻击发生前识别异常行为并自动触发防御策略。与传统的被动响应不同，这套系统强调预测与阻断，旨在降低大型组织面临的 APT 攻击与零日漏洞风险。方案已与部分早期合作伙伴完成测试，但具体技术细节尚未完全公开。"
     },
     {
       "source": "google-ai",

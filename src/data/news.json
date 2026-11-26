@@ -3,7 +3,7 @@
 		"title": "NVIDIA 发布面向开发者的 AI Agent 仿真前沿平台",
 		"url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
 		"source": "NVIDIA",
-		"date": "2026-11-19T18:44:09.000Z",
+		"date": "2026-11-19T22:46:27.000Z",
 		"group": "labs"
 	},
 	{
@@ -2902,13 +2902,6 @@
 		"url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
 		"source": "DeepMind",
 		"date": "2026-09-03T00:00:00.000Z",
-		"group": "labs"
-	},
-	{
-		"title": "DeepMind 推出面向政府与企业的主动式网络防御方案",
-		"url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-		"source": "DeepMind",
-		"date": "2026-09-02T00:00:00.000Z",
 		"group": "labs"
 	},
 	{
